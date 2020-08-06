@@ -1,0 +1,401 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--> LauncherX 多语言文档注意事项 <-->
+    <!--> 如果您在翻译字段中看到了 {0} 这样的字符串，请将其直接保留在翻译之后的源文当中 <-->
+    <!--> 请不要修改字段的 x:Key 值 <-->
+    <!--> 请注意原文中空格的格式及其他风格信息 <-->
+
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
+    <sys:String x:Key="TranslatorCredits">LauncherX 官方 - 简体中文</sys:String>
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
+
+    <sys:String x:Key="Ok">确定</sys:String>
+    <sys:String x:Key="Cancel">取消</sys:String>
+    <sys:String x:Key="Warning">警告</sys:String>
+    <sys:String x:Key="Error">错误</sys:String>
+    <sys:String x:Key="Info">信息</sys:String>
+    <sys:String x:Key="Note">提示</sys:String>
+
+    <sys:String x:Key="Open">打开</sys:String>
+    <sys:String x:Key="Close">关闭</sys:String>
+
+    <sys:String x:Key="Exit">退出</sys:String>
+    <sys:String x:Key="Minimize">最小化</sys:String>
+    <sys:String x:Key="Force">强制</sys:String>
+
+    <sys:String x:Key="LaunchFailed">游戏启动失败。</sys:String>
+    <sys:String x:Key="JavaNotFound">启动器没有检测到Java。</sys:String>
+    <sys:String x:Key="IllegalJavaInstallation">您可能正在使用绿色版Java。</sys:String>
+
+    <!--> App.xaml.cs <-->
+
+    <sys:String x:Key="EmptyDirFailed">清空文件夹失败</sys:String>
+    <sys:String x:Key="ExitMainPg">退出LauncherX</sys:String>
+    <sys:String x:Key="TryContinue">尝试继续使用</sys:String>
+    <sys:String x:Key="UncaughtEx">LauncherX遭遇了不可描述的错误。</sys:String>
+
+    <!--> App.xaml.cs <-->
+
+    <!--> MainWindow.xaml <-->
+
+    <sys:String x:Key="GameStart">开始游戏</sys:String>
+    <sys:String x:Key="GameList">游戏列表</sys:String>
+    <sys:String x:Key="Dashboard">仪表板</sys:String>
+    <sys:String x:Key="Settings">设置</sys:String>
+
+    <sys:String x:Key="BetaHint">Beta版本，仅供内部测试之用</sys:String>
+    <sys:String x:Key="Start">启动</sys:String>
+    <sys:String x:Key="TaskCenter">任务中心</sys:String>
+
+    <!--> MainWindow.xaml <-->
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <sys:String x:Key="IllegalSettings">不正确的配置</sys:String>
+    <sys:String x:Key="IllegalSettingsHint1">在上一次修改的启动器设置中，由于您不正确的配置，我们已经将部分参数修改为默认设置：</sys:String>
+    <sys:String x:Key="IllegalSettingsHint2">检测到您有不正确的设置，请前往设置页面修改：</sys:String>
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <!--> MainViewModel.cs <-->
+
+    <sys:String x:Key="RunningJobsFound">还有正在运行的任务</sys:String>
+    <sys:String x:Key="ExitAndDropTasksHint">还有 {0} 个任务在调度队列当中，您确定要退出启动器吗？所有正在运行的任务都将销毁且无法恢复。</sys:String>
+    <sys:String x:Key="WaitToFinish">等待完成</sys:String>
+
+    <sys:String x:Key="GameNotSelect">未选择游戏</sys:String>
+    <sys:String x:Key="GameNotSelectHint">未选择需要启动的游戏</sys:String>
+
+    <sys:String x:Key="AccountNotSelect">未选择账户</sys:String>
+    <sys:String x:Key="AccountNotSelectHint">未选择启动用账户或选择的账户无效</sys:String>
+
+    <!--> MainViewModel.cs <-->
+
+    <!--> AccountPage.xaml <-->
+
+    <sys:String x:Key="Welcome">欢迎</sys:String>
+    <sys:String x:Key="Delete">删除</sys:String>
+
+    <!--> AccountPage.xaml <-->
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <sys:String x:Key="CreateNewAccount">创建新账户</sys:String>
+    <sys:String x:Key="OfflineAccount">离线账户</sys:String>
+    <sys:String x:Key="OnlineAccount">在线账户</sys:String>
+    <sys:String x:Key="Email">电子邮箱</sys:String>
+    <sys:String x:Key="DisplayName">玩家名称</sys:String>
+    <sys:String x:Key="Password">密码</sys:String>
+    <sys:String x:Key="AuthLibServer">AuthLib服务器</sys:String>
+    <sys:String x:Key="Optional">可选</sys:String>
+    <sys:String x:Key="SaveAccount">保存账户</sys:String>
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <!--> GameListPage.xaml <-->
+
+    <sys:String x:Key="NoGameYet">暂无任何游戏</sys:String>
+
+    <!--> GameListPage.xaml <-->
+
+    <!--> SettingsPage.xaml <-->
+
+    <sys:String x:Key="GlobalGameSettings">全局游戏设置</sys:String>
+    <sys:String x:Key="Appearance">外观</sys:String>
+    <sys:String x:Key="Network">网络</sys:String>
+    <sys:String x:Key="Advanced">高级</sys:String>
+    <sys:String x:Key="About">关于</sys:String>
+
+    <sys:String x:Key="LaunchSettings">启动设置</sys:String>
+    <sys:String x:Key="JavaPath">Java路径</sys:String>
+    <sys:String x:Key="AddManually">手动添加</sys:String>
+    <sys:String x:Key="DownloadJava">下载Java</sys:String>
+    <sys:String x:Key="SearchJava">搜索Java</sys:String>
+
+    <sys:String x:Key="MemorySize">内存大小</sys:String>
+    <sys:String x:Key="MbUnit">单位：Mb</sys:String>
+    <sys:String x:Key="GameWindowTitle">游戏窗口标题</sys:String>
+
+    <sys:String x:Key="GameWindowSize">游戏窗口大小</sys:String>
+    <sys:String x:Key="Width">宽度</sys:String>
+    <sys:String x:Key="Height">高度</sys:String>
+    <sys:String x:Key="FullScreen">全屏</sys:String>
+
+    <sys:String x:Key="Enable">启用</sys:String>
+    <sys:String x:Key="Disable">禁用</sys:String>
+    <sys:String x:Key="Type">类型</sys:String>
+
+    <sys:String x:Key="JvmAdvanceArgument">Java虚拟机高级启动参数</sys:String>
+    <sys:String x:Key="JoinServerAfterLaunched">启动后加入服务器</sys:String>
+    <sys:String x:Key="ServerIpOrDomain">服务器Ip或域名</sys:String>
+    <sys:String x:Key="Port">端口</sys:String>
+
+    <sys:String x:Key="Path">路径</sys:String>
+    <sys:String x:Key="AdditionalArgument">额外参数</sys:String>
+
+    <sys:String x:Key="LauncherBehavior">启动器行为</sys:String>
+    <sys:String x:Key="CheckGameFile">检查游戏文件</sys:String>
+    <sys:String x:Key="CheckSha1WhenFixingGameFile">补全游戏文件时检查文件完整性</sys:String>
+    <sys:String x:Key="GameLaunchedLauncherBehavior">游戏启动后启动器行为</sys:String>
+    <sys:String x:Key="DisplayGameLogs">启动游戏时显示输出日志</sys:String>
+
+    <sys:String x:Key="BaseUiSettings">基础界面设置</sys:String>
+    <sys:String x:Key="GlobalAnimationDuration">全局动画时长</sys:String>
+    <sys:String x:Key="GlobalAnimationEasingFunction">全局动画缓动函数</sys:String>
+    <sys:String x:Key="GlobalAnimationEasingMode">全局动画缓动模式</sys:String>
+
+    <sys:String x:Key="ThemeMode">主题模式</sys:String>
+    <sys:String x:Key="Language">语言</sys:String>
+    <sys:String x:Key="UseFluidMove">启用平滑滚动</sys:String>
+
+    <sys:String x:Key="MainInterfaceBackground">主界面背景</sys:String>
+    <sys:String x:Key="BackgroundTexture">主界面纹理</sys:String>
+    <sys:String x:Key="BackgroundType">主界面背景类型</sys:String>
+
+    <sys:String x:Key="SelectBackgroundImage">选择壁纸</sys:String>
+    <sys:String x:Key="Browse">浏览</sys:String>
+
+    <sys:String x:Key="AccentColor">主题色</sys:String>
+    <sys:String x:Key="GetAccountColorFromBgImage">从背景壁纸中选择一种主题色</sys:String>
+    <sys:String x:Key="GetPaletteErrorHint">未找到与当前壁纸对应的调色板，可能是因为您擅自修改了启动器保留目录或是配置文件。</sys:String>
+    <sys:String x:Key="UsePureColorAsAccentColor">使用主界面的纯色背景作为主题色</sys:String>
+    <sys:String x:Key="UseSelectedColorAsAccentColor">从下面的颜色中选择一种主题色</sys:String>
+
+    <sys:String x:Key="Preview">预览</sys:String>
+    <sys:String x:Key="UiFontFamily">界面字体</sys:String>
+    <sys:String x:Key="PrimaryFont">首选字体</sys:String>
+    <sys:String x:Key="SecondaryFont">备选字体</sys:String>
+
+    <sys:String x:Key="FontChangedHint">您修改了字体设置，这部分设置需要重启启动器后才能应用</sys:String>
+    <sys:String x:Key="FontFamilyPreviewTestText">汉体书写信息技术标准相容 AaBbCc A a B b C c 0123456789</sys:String>
+
+    <sys:String x:Key="BaseNetworkSettings">基础网络设置</sys:String>
+    <sys:String x:Key="ResourceDownloadServer">资源下载服务器</sys:String>
+    <sys:String x:Key="DownloadThreadCount">下载线程数量</sys:String>
+    <sys:String x:Key="AutoDetectDownloadMethod">自动决定下载资源的方式</sys:String>
+    <sys:String x:Key="UseMultiPartDownload">启用大文件分片下载</sys:String>
+    <sys:String x:Key="MultiPartCount">分片数量</sys:String>
+
+    <sys:String x:Key="NetworkConnectionTest">网络连接测试</sys:String>
+    <sys:String x:Key="NetworkTestDescription">通过网络连接测试，您可以更好地了解您当前的网络状况，包括延迟，服务器状态等一些基础信息。同时也能为您排除一些简单故障。</sys:String>
+
+    <sys:String x:Key="LauncherLogLevel">启动器日志记录等级</sys:String>
+    <sys:String x:Key="DcAndPp">数据采集和隐私政策</sys:String>
+    <sys:String x:Key="AllowDataCollection">允许采集启动器运行数据</sys:String>
+
+    <sys:String x:Key="WhatDataWeCollect">我们会采集哪些数据</sys:String>
+    <sys:String x:Key="WhatDataWeCollectContent">
+        我们会收集您计算机的一些常见数据，例如使用的语言、操作系统版本。同时我们还会收集有关启动器的一些运行数据，例如崩溃、异常、
+        使用时长、启动的游戏和游戏时长。这些数据都将经过妥善的处理并保管在安全的服务器上。
+    </sys:String>
+
+    <sys:String x:Key="HowWeUseData">我们如何使用这些数据</sys:String>
+    <sys:String x:Key="HowWeUseDataContent">
+        这些数据将会帮助我们来完成用户群体的分析和错误分析。例如地区和语言设定将会让我们更好的了解用户群体的分布地区，产生的错误
+        日志和崩溃信息将会帮助我们更好的解决启动器存在的缺陷，并以此将更好的产品体验带给广大用户。
+    </sys:String>
+
+    <!--> SettingsPage.xaml <-->
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <sys:String x:Key="GeneratedJavaAgentArg">拼接后的JavaAgent启动参数：</sys:String>
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <sys:String x:Key="TaskAdded">已将任务添加到任务队列</sys:String>
+    <sys:String x:Key="PrepareToDownloadJava">准备下载Java运行库</sys:String>
+
+    <sys:String x:Key="PleaseCheckLogs">请检查启动器日志</sys:String>
+    <sys:String x:Key="Succeeded">成功</sys:String>
+    <sys:String x:Key="Failed">失败</sys:String>
+
+    <sys:String x:Key="ImageFile">图片文件</sys:String>
+    <sys:String x:Key="ImportBgImage">导入壁纸文件</sys:String>
+    <sys:String x:Key="BrowseBgImageDialogTitle">选择要导入的壁纸</sys:String>
+    <sys:String x:Key="PrepareToImportBgImage">准备导入壁纸...</sys:String>
+    <sys:String x:Key="ImportingPleaseWait">请稍候，正在进行导入...</sys:String>
+    <sys:String x:Key="AlreadyImported">请已导入，将不再重复导入...</sys:String>
+
+    <sys:String x:Key="FetchMojangServerInfo">获取Mojang服务信息</sys:String>
+    <sys:String x:Key="Unknown">未知</sys:String>
+
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <sys:String x:Key="SelectAccountProfile">选择账户所用的档案</sys:String>
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <sys:String x:Key="LastUsed">上次使用</sys:String>
+    <sys:String x:Key="ClickToUseAccount">点击来使用该账户</sys:String>
+    <sys:String x:Key="NeverUsed">从未使用</sys:String>
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <sys:String x:Key="CheckingDelay">正在测试延迟</sys:String>
+
+    <sys:String x:Key="ServerStatus1Hint">服务稳定</sys:String>
+    <sys:String x:Key="ServerStatus2Hint">服务出现波动，可能会出现暂时性的服务中断，或是由于您本地的网络问题导致丢包严重。</sys:String>
+    <sys:String x:Key="ServerStatus3Hint">服务出错，目前已停止提供服务，或是由于您本地网络的原因导致无法成功与服务器通讯。</sys:String>
+    <sys:String x:Key="CurrentStatusIs">当前的状态是</sys:String>
+    <sys:String x:Key="WhichMeans">意味着</sys:String>
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <!--> SearchBar.xaml <-->
+
+    <sys:String x:Key="SearchSomething">搜点什么？</sys:String>
+
+    <!--> SearchBar.xaml <-->
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <sys:String x:Key="TaskQueue">调度队列</sys:String>
+    <sys:String x:Key="NoMoreTask">暂无任务</sys:String>
+    <sys:String x:Key="NotifyHistory">历史通知</sys:String>
+    <sys:String x:Key="NoMoreNotify">暂无通知</sys:String>
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <!--> ITaskCenterJob <-->
+
+    <sys:String x:Key="TaskCanceled">任务已被取消...</sys:String>
+    <sys:String x:Key="DownloadingFile">正在下载文件</sys:String>
+    <sys:String x:Key="LaunchGame">启动游戏</sys:String>
+
+    <sys:String x:Key="AuthFailed">账户认证失败</sys:String>
+    <sys:String x:Key="DecompressFailed">Natives解压错误</sys:String>
+    <sys:String x:Key="IncompleteArgument">不完整的启动参数</sys:String>
+    <sys:String x:Key="NoJava">没有指定Java虚拟机</sys:String>
+    <sys:String x:Key="None">无</sys:String>
+    <sys:String x:Key="OperationFailed">操作错误</sys:String>
+
+    <sys:String x:Key="Duration">用时</sys:String>
+    <sys:String x:Key="ResourceCompletion">资源补全</sys:String>
+    <sys:String x:Key="Reason">原因</sys:String>
+    <sys:String x:Key="Retry">重试</sys:String>
+    <sys:String x:Key="Completion">补全</sys:String>
+
+    <sys:String x:Key="GameExitDetected">检测到游戏进程结束</sys:String>
+    <sys:String x:Key="GameExitedNormal">正常退出</sys:String>
+    <sys:String x:Key="GameExitedUnexpectedly">非正常退出</sys:String>
+
+    <sys:String x:Key="SearchGame">搜索游戏</sys:String>
+    <sys:String x:Key="GameNotFound">没有找到游戏</sys:String>
+    <sys:String x:Key="GameNotFoundDetail">没有找到任何游戏，您可以在启动器中下载一个新游戏。</sys:String>
+    <sys:String x:Key="SearchGameCompleted">游戏搜索完成</sys:String>
+
+    <sys:String x:Key="TaskCenterBriefing1">当前有{0}个任务正在运行</sys:String>
+
+    <!--> ITaskCenterJob <-->
+
+    <!--> Models <-->
+
+    <sys:String x:Key="EaseIn">缓入</sys:String>
+    <sys:String x:Key="EaseOut">缓出</sys:String>
+    <sys:String x:Key="EaseInOut">缓入、出</sys:String>
+
+    <sys:String x:Key="Shape1">直线</sys:String>
+    <sys:String x:Key="Shape2">圆圈</sys:String>
+    <sys:String x:Key="Shape3">弧线</sys:String>
+
+    <sys:String x:Key="BlurBackground">模糊半透明背景</sys:String>
+    <sys:String x:Key="ImageBackground">图片背景</sys:String>
+    <sys:String x:Key="PureColorBackground">纯色背景</sys:String>
+
+    <sys:String x:Key="OfficialMirror">Mojang官方服务器</sys:String>
+    <sys:String x:Key="BangBangApiMirror">Bangbang93的下载服务器</sys:String>
+    <sys:String x:Key="McBbsMirror">McBbs的下载服务器</sys:String>
+
+    <sys:String x:Key="BackEase">收回</sys:String>
+    <sys:String x:Key="BounceEase">弹跳</sys:String>
+    <sys:String x:Key="CircleEase">循环</sys:String>
+    <sys:String x:Key="CubicEase">t³函数</sys:String>
+    <sys:String x:Key="ElasticEase">弹簧</sys:String>
+    <sys:String x:Key="ExponentialEase">指数</sys:String>
+    <sys:String x:Key="PowerEase">t*p函数</sys:String>
+    <sys:String x:Key="QuadraticEase">t²函数</sys:String>
+    <sys:String x:Key="QuinticEase">t⁵函数</sys:String>
+    <sys:String x:Key="SineEase">Sin(t)函数</sys:String>
+
+    <sys:String x:Key="NoSelectedBgImage">未设置壁纸路径</sys:String>
+
+    <sys:String x:Key="StaySame">保持原状</sys:String>
+
+    <sys:String x:Key="All">全部</sys:String>
+
+    <sys:String x:Key="SkinNotFound">没有找到皮肤</sys:String>
+    <sys:String x:Key="SkinNotFoundDetail">没有找到 {0} 的皮肤</sys:String>
+
+    <sys:String x:Key="Delay">延迟</sys:String>
+    <sys:String x:Key="TimeOutOrError">超时或出错</sys:String>
+    <sys:String x:Key="Times">次</sys:String>
+
+    <sys:String x:Key="TestDelayFailedDetail">无法测试{0}的延迟</sys:String>
+
+    <sys:String x:Key="LightTheme">亮色主题</sys:String>
+    <sys:String x:Key="DarkTheme">暗色主题</sys:String>
+
+    <!--> Models <-->
+
+    <!--> About Page <-->
+
+    <sys:String x:Key="AboutUs">关于我们</sys:String>
+    <sys:String x:Key="AboutUsContent">
+        Corona Studio（日冕工作室）的前身是 CMFL 启动器开发团队。我们在此之前大部分时间都在维护 CMFL 启动器及其附属项目。
+        我们在吸取了 CMFL 的大量经验和教训之后开发了全新风格的启动器 - LauncherX。
+        同时，我们在mc服务器方面也有所涉猎。网络上一些和我们志同道合或是有相同兴趣的朋友组成了我们最开始的团队。
+    </sys:String>
+
+    <sys:String x:Key="GroupMembers">团队成员</sys:String>
+    <sys:String x:Key="GroupMember1">老腊肉 - 前端、启动器核心、启动核心</sys:String>
+    <sys:String x:Key="GroupMember2">CodingEric - UI、人机交互设计、附属工具链开发</sys:String>
+    <sys:String x:Key="GroupMember3">Leon - 前端、动画设计、启动器核心</sys:String>
+    <sys:String x:Key="GroupMember4">纪华裕 - 后端</sys:String>
+    <sys:String x:Key="GroupMember5">月银秋 - 启动核心</sys:String>
+
+    <sys:String x:Key="TranslateGroupMembers">翻译组成员</sys:String>
+    <sys:String x:Key="TranslateGroupMember1">里卡 - 繁体中文</sys:String>
+    <sys:String x:Key="TranslateGroupMember2">法棍面包 - 西班牙语</sys:String>
+    <sys:String x:Key="TranslateGroupMember3">jonW - 英语</sys:String>
+
+
+    <sys:String x:Key="Thanks">鸣谢</sys:String>
+    <sys:String x:Key="Thanks1">感谢由 BangBang93 以及 McBbs 提供的 MineCraft 资源文件下载加速服务</sys:String>
+    <sys:String x:Key="Thanks2">感谢由 优势科技-星星 赞助的服务器</sys:String>
+    <sys:String x:Key="Thanks3">感谢 CI010 为 ProjBobcat 启动核心开发提供的技术指导</sys:String>
+
+    <sys:String x:Key="OpenSourceProjectUsages">开源项目使用</sys:String>
+
+
+    <sys:String x:Key="Other">其他</sys:String>
+
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+    <sys:String x:Key="OtherContent">O(∩_∩)O 吔！</sys:String>
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+
+    <!--> About Page <-->
+
+    <sys:String x:Key="ChangeLanguageRebootRequired">您修改了界面的显示语言，部分UI的显示语言需要在重启之后才能生效。</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="GameLogsWindowTitle">游戏日志实时显示窗口</sys:String>
+    <sys:String x:Key="TopMost">置顶</sys:String>
+    <sys:String x:Key="Moveable">可移动</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="NoSuchPageKeyExceptionMessage">没有找到键值为 {0} 的页面。</sys:String>
+
+</ResourceDictionary>
