@@ -1,0 +1,389 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<sys:String x:Key="TranslatorCredits">LauncherX Official English</sys:String>
+	<sys:String x:Key="Ok">Confirm</sys:String>
+	<sys:String x:Key="Cancel">Cancel</sys:String>
+	<sys:String x:Key="Warning">Warning</sys:String>
+	<sys:String x:Key="Error">Error</sys:String>
+	<sys:String x:Key="Info">Information</sys:String>
+	<sys:String x:Key="Note">Note</sys:String>
+	<sys:String x:Key="Open">Open</sys:String>
+	<sys:String x:Key="Close">Close</sys:String>
+	<sys:String x:Key="Exit">Quit</sys:String>
+	<sys:String x:Key="Minimize">Minimize</sys:String>
+	<sys:String x:Key="Force">Force</sys:String>
+	<sys:String x:Key="LaunchFailed">Game failed to start.</sys:String>
+	<sys:String x:Key="JavaNotFound">No Java detected.</sys:String>
+	<sys:String x:Key="IllegalJavaInstallation">You are probably using a portable version of Java.</sys:String>
+	
+	<!--> App.xaml.cs <-->
+	
+	<sys:String x:Key="EmptyDirFailed">Failed to clean up folder(s).</sys:String>
+	<sys:String x:Key="ExitMainPg">Quit LauncherX</sys:String>
+	<sys:String x:Key="TryContinue">Continue to Use</sys:String>
+	<sys:String x:Key="UncaughtEx">Indescribable exception found.</sys:String>
+	
+	<!--> App.xaml.cs <-->
+	
+	<!--> MainWindow.xaml <-->
+
+	<sys:String x:Key="GameStart">Game Start</sys:String>
+	<sys:String x:Key="GameList">Game List</sys:String>
+	<sys:String x:Key="Dashboard">Dashboard</sys:String>
+	<sys:String x:Key="Settings">Settings</sys:String>
+
+	<sys:String x:Key="BetaHint">Beta Version. For development and testings only.</sys:String>
+	<sys:String x:Key="Start">Launche</sys:String>
+	<sys:String x:Key="TaskCenter">Task Center</sys:String>
+
+	<!--> MainWindow.xaml <-->
+
+	<!--> MainWindow.xaml.cs <-->
+
+	<sys:String x:Key="IllegalSettings">Incorrect Configuration</sys:String>
+	<sys:String x:Key="IllegalSettingsHint1">Settings are partially restored to default due to the incorrect configuration you've made in the last change of configuration:</sys:String>
+	<sys:String x:Key="IllegalSettingsHint2">Incorrect configuration(s) found, please check in settings:</sys:String>
+
+	<!--> MainWindow.xaml.cs <-->
+
+	<!--> MainViewModel.cs <-->
+
+	<sys:String x:Key="RunningJobsFound">Running Jobs Found</sys:String>
+	<sys:String x:Key="ExitAndDropTasksHint"> Remaining {0} task(s) in the queue. All running tasks will be discarded and can not be restored. Are you sure you want to exit? </sys:String>
+	<sys:String x:Key="WaitToFinish">Wait To Finish</sys:String>
+
+	<sys:String x:Key="GameNotSelect">Game Not Selected</sys:String>
+	<sys:String x:Key="GameNotSelectHint">No selected game to launch.</sys:String>
+
+	<sys:String x:Key="AccountNotSelect">Account Not Selected</sys:String>
+	<sys:String x:Key="AccountNotSelectHint">Account not selected or selected one is invalid.</sys:String>
+
+	<!--> MainViewModel.cs <-->
+
+	<!--> AccountPage.xaml <-->
+
+	<sys:String x:Key="Welcome">Welcome</sys:String>
+	<sys:String x:Key="Delete">Delete</sys:String>
+
+	<!--> AccountPage.xaml <-->
+
+	<!--> CreateNewAccountDialog.xaml <-->
+
+	<sys:String x:Key="CreateNewAccount">Create New Account</sys:String>
+	<sys:String x:Key="OfflineAccount">Offline Account</sys:String>
+	<sys:String x:Key="OnlineAccount">Online Account</sys:String>
+	<sys:String x:Key="Email">Email</sys:String>
+	<sys:String x:Key="DisplayName">Display Name</sys:String>
+	<sys:String x:Key="Password">Password</sys:String>
+	<sys:String x:Key="AuthLibServer">AuthLib Server</sys:String>
+	<sys:String x:Key="Optional">Optional</sys:String>
+	<sys:String x:Key="SaveAccount">Save Account</sys:String>
+
+	<!--> CreateNewAccountDialog.xaml <-->
+
+	<!--> GameListPage.xaml <-->
+
+	<sys:String x:Key="NoGameYet">No Game Yet</sys:String>
+
+	<!--> GameListPage.xaml <-->
+
+	<!--> SettingsPage.xaml <-->
+
+	<sys:String x:Key="GlobalGameSettings">Global Game Settings</sys:String>
+	<sys:String x:Key="Appearance">Appearance</sys:String>
+	<sys:String x:Key="Network">Network</sys:String>
+	<sys:String x:Key="Advanced">Advanced</sys:String>
+	<sys:String x:Key="About">About</sys:String>
+
+	<sys:String x:Key="LaunchSettings">Launch Settings</sys:String>
+	<sys:String x:Key="JavaPath">Java Path</sys:String>
+	<sys:String x:Key="AddManually">Add Manually</sys:String>
+	<sys:String x:Key="DownloadJava">Download Java</sys:String>
+	<sys:String x:Key="SearchJava">Search For Java</sys:String>
+
+	<sys:String x:Key="MemorySize">Memory Size</sys:String>
+	<sys:String x:Key="MbUnit">Unit: Mb</sys:String>
+	<sys:String x:Key="GameWindowTitle">Game Window Title</sys:String>
+
+	<sys:String x:Key="GameWindowSize">Game Window Size</sys:String>
+	<sys:String x:Key="Width">Width</sys:String>
+    <sys:String x:Key="Height">Height</sys:String>
+    <sys:String x:Key="FullScreen">Full Screen</sys:String>
+
+	<sys:String x:Key="Enable">Enable</sys:String>
+	<sys:String x:Key="Disable">Disable</sys:String>
+	<sys:String x:Key="Type">Type</sys:String>
+
+	<sys:String x:Key="JvmAdvanceArgument">Advanced JVM Arguments</sys:String>
+	<sys:String x:Key="JoinServerAfterLaunched">Join Server After Launched</sys:String>
+	<sys:String x:Key="ServerIpOrDomain">Server Ip/Domain</sys:String>
+	<sys:String x:Key="Port">Port</sys:String>
+
+	<sys:String x:Key="Path">Path</sys:String>
+	<sys:String x:Key="AdditionalArgument">Additional Argument</sys:String>
+
+	<sys:String x:Key="LauncherBehavior">Launcher Behavior</sys:String>
+	<sys:String x:Key="CheckGameFile">Check Game File</sys:String>
+	<sys:String x:Key="CheckSha1WhenFixingGameFile">Check Integrity After Fixed Game Files</sys:String>
+	<sys:String x:Key="GameLaunchedLauncherBehavior">Launcher Behavior After Game Launched</sys:String>
+	<sys:String x:Key="DisplayGameLogs">Display Game Logs</sys:String>
+
+	<sys:String x:Key="BaseUiSettings">Basic Interface Settings</sys:String>
+	<sys:String x:Key="GlobalAnimationDuration">Global Animation Duration</sys:String>
+	<sys:String x:Key="GlobalAnimationEasingFunction">Global Animation Easing Function</sys:String>
+	<sys:String x:Key="GlobalAnimationEasingMode">Global Animation Easing Mode</sys:String>
+
+	<sys:String x:Key="ThemeMode">Theme Mode</sys:String>
+	<sys:String x:Key="Language">Language</sys:String>
+	<sys:String x:Key="UseFluidMove">Enable Fluid Move</sys:String>
+
+	<sys:String x:Key="MainInterfaceBackground">Main Interface Background</sys:String>
+	<sys:String x:Key="BackgroundTexture">Background Texture</sys:String>
+	<sys:String x:Key="BackgroundType">Background Type</sys:String>
+
+	<sys:String x:Key="SelectBackgroundImage">Select Background Image</sys:String>
+	<sys:String x:Key="Browse">Browse</sys:String>
+
+	<sys:String x:Key="AccentColor">Accent Color</sys:String>
+	<sys:String x:Key="GetAccountColorFromBgImage">Automatically Pick an Accent Color From Background</sys:String>
+	<sys:String x:Key="GetPaletteErrorHint">Palette is not found for current background, probably because you've changed reserved files or directories of the launcher.</sys:String>
+	<sys:String x:Key="UsePureColorAsAccentColor">Use Pure Color As Accent Color</sys:String>
+	<sys:String x:Key="UseSelectedColorAsAccentColor">Use Color Below As Accent Color</sys:String>
+
+	<sys:String x:Key="Preview">Preview</sys:String>
+	<sys:String x:Key="UiFontFamily">Interface Font</sys:String>
+	<sys:String x:Key="PrimaryFont">Primary Font</sys:String>
+	<sys:String x:Key="SecondaryFont">Secondary Font</sys:String>
+
+	<sys:String x:Key="FontChangedHint">You've changed font settings. To apply changes, please restart launcher.</sys:String>
+	<sys:String x:Key="FontFamilyPreviewTestText">The quick brown fox jumps over the lazy dog. THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG. 0123456789</sys:String>
+
+	<sys:String x:Key="BaseNetworkSettings">Basic Network Settings</sys:String>
+	<sys:String x:Key="ResourceDownloadServer">Resource Download Server</sys:String>
+	<sys:String x:Key="DownloadThreadCount">Download Thread Count</sys:String>
+	<sys:String x:Key="AutoDetectDownloadMethod">Auto Detect Download Method</sys:String>
+	<sys:String x:Key="UseMultiPartDownload">Use Block Download</sys:String>
+	<sys:String x:Key="MultiPartCount">Block Count</sys:String>
+
+	<sys:String x:Key="NetworkConnectionTest">Network Connection Test</sys:String>
+	<sys:String x:Key="NetworkTestDescription">By using the network connection test, you could know better about the current network state, including some basic information as latency and server status. Those may be helpful when you are trying to debug anything.</sys:String>
+
+	<sys:String x:Key="LauncherLogLevel">Launcher Log Level</sys:String>
+	<sys:String x:Key="DcAndPp">Data Collection and Privacy Policy</sys:String>
+	<sys:String x:Key="AllowDataCollection">Allow Data Collection</sys:String>
+
+	<sys:String x:Key="WhatDataWeCollect">What Information Do We Collect</sys:String>
+	<sys:String x:Key="WhatDataWeCollectContent">
+		We will collect basic information such as language used and the operation system version. We will collect information of launcher at runtime, such as crash, exception, launcher running time, 
+		game launched and game running time. All those data will be secured on our server.
+	</sys:String>
+
+	<sys:String x:Key="HowWeUseData">Use of Your Information</sys:String>
+	<sys:String x:Key="HowWeUseDataContent">
+		The data we collected will help us to analyze our user group and program errors. Language and regional settings will help us to know the geographical distribution of our user groups. 
+		Error logs and crash information will help us to improve launcher hence to provide a better product for all of you.
+	</sys:String>
+
+	<!--> SettingsPage.xaml <-->
+
+	<!--> SettingsPage.xaml.cs <-->
+
+	<sys:String x:Key="GeneratedJavaAgentArg">Generated Java AgentArg:</sys:String>
+
+	<!--> SettingsPage.xaml.cs <-->
+
+	<!--> SettingsPageViewModel.cs <-->
+
+	<sys:String x:Key="TaskAdded">Task has been added.</sys:String>
+	<sys:String x:Key="PrepareToDownloadJava">Preparing to download java.</sys:String>
+
+	<sys:String x:Key="PleaseCheckLogs">Please check launcher logs.</sys:String>
+	<sys:String x:Key="Succeeded">Succeeded</sys:String>
+	<sys:String x:Key="Failed">Failed</sys:String>
+
+	<sys:String x:Key="ImageFile">Image File</sys:String>
+	<sys:String x:Key="ImportBgImage">Import Background Image</sys:String>
+	<sys:String x:Key="BrowseBgImageDialogTitle">Select background image to import.</sys:String>
+	<sys:String x:Key="PrepareToImportBgImage">Preparing to import image...</sys:String>
+	<sys:String x:Key="ImportingPleaseWait">Importing...</sys:String>
+	<sys:String x:Key="AlreadyImported">Image Already Imported</sys:String>
+
+	<sys:String x:Key="FetchMojangServerInfo">Fetch Mojang Server Info</sys:String>
+	<sys:String x:Key="Unknown">Unknown</sys:String>
+
+
+	<!--> SettingsPageViewModel.cs <-->
+
+	<!--> SelectAccountProfileDialog.xaml <-->
+
+	<sys:String x:Key="SelectAccountProfile">Select Account Profile</sys:String>
+
+	<!--> SelectAccountProfileDialog.xaml <-->
+
+	<!--> AccountInfoControlTemplate.xaml <-->
+
+	<sys:String x:Key="LastUsed">Last Used</sys:String>
+	<sys:String x:Key="ClickToUseAccount">Click To Use Account</sys:String>
+	<sys:String x:Key="NeverUsed">Never Used</sys:String>
+
+	<!--> AccountInfoControlTemplate.xaml <-->
+
+	<!--> ServerStatusControlTemplate.xaml <-->
+
+	<sys:String x:Key="CheckingDelay">Checking Latency</sys:String>
+
+	<sys:String x:Key="ServerStatus1Hint">Operational.</sys:String>
+	<sys:String x:Key="ServerStatus2Hint">Network fluctuation is found. You may now experience a temporary service interruption, or have issues on your local network.</sys:String>
+	<sys:String x:Key="ServerStatus3Hint">Service not available. Unable to communicate with the server or service stopped.</sys:String>
+	<sys:String x:Key="CurrentStatusIs">Current Status</sys:String>
+	<sys:String x:Key="WhichMeans">Which Means:</sys:String>
+
+	<!--> ServerStatusControlTemplate.xaml <-->
+
+	<!--> SearchBar.xaml <-->
+
+	<sys:String x:Key="SearchSomething">Search Something</sys:String>
+
+	<!--> SearchBar.xaml <-->
+
+	<!--> TaskCenterPanel.xaml <-->
+
+	<sys:String x:Key="TaskQueue">Task Queue</sys:String>
+	<sys:String x:Key="NoMoreTask">No Task Yet</sys:String>
+	<sys:String x:Key="NotifyHistory">Notification History</sys:String>
+	<sys:String x:Key="NoMoreNotify">No Notification Yet</sys:String>
+
+	<!--> TaskCenterPanel.xaml <-->
+
+	<!--> ITaskCenterJob <-->
+
+	<sys:String x:Key="TaskCanceled">Task Canceled...</sys:String>
+	<sys:String x:Key="DownloadingFile">Downloading File</sys:String>
+	<sys:String x:Key="LaunchGame">Launch Game</sys:String>
+
+	<sys:String x:Key="AuthFailed">Authentication Failed</sys:String>
+	<sys:String x:Key="DecompressFailed">Error Wben Extracting Natives</sys:String>
+	<sys:String x:Key="IncompleteArgument">Incomplete Launch Argument</sys:String>
+	<sys:String x:Key="NoJava">No Java Specified</sys:String>
+	<sys:String x:Key="None">None</sys:String>
+	<sys:String x:Key="OperationFailed">Operation Failed</sys:String>
+
+	<sys:String x:Key="Duration">Duration</sys:String>
+	<sys:String x:Key="ResourceCompletion">Resource Completion</sys:String>
+	<sys:String x:Key="Reason">Reason</sys:String>
+	<sys:String x:Key="Retry">Retry</sys:String>
+	<sys:String x:Key="Completion">Completion</sys:String>
+
+	<sys:String x:Key="GameExitDetected">Game Exit Detected</sys:String>
+	<sys:String x:Key="GameExitedNormal">Game Exited Normally</sys:String>
+	<sys:String x:Key="GameExitedUnexpectedly">Game Exited Unexpectedly</sys:String>
+
+	<sys:String x:Key="SearchGame">Search Game</sys:String>
+	<sys:String x:Key="GameNotFound">Game Not Found</sys:String>
+	<sys:String x:Key="GameNotFoundDetail">Can't find any version of game, you may download one at the launcher.</sys:String>
+	<sys:String x:Key="SearchGameCompleted">Game Search Complete</sys:String>
+
+	<sys:String x:Key="TaskCenterBriefing1">{0} Task(s) Running</sys:String>
+
+	<!--> ITaskCenterJob <-->
+
+	<!--> Models <-->
+
+	<sys:String x:Key="EaseIn">Ease In</sys:String>
+	<sys:String x:Key="EaseOut">Ease Out</sys:String>
+	<sys:String x:Key="EaseInOut">Ease In and Out</sys:String>
+
+	<sys:String x:Key="Shape1">Line</sys:String>
+	<sys:String x:Key="Shape2">Circle</sys:String>
+	<sys:String x:Key="Shape3">Arc</sys:String>
+
+	<sys:String x:Key="BlurBackground">Blur Background</sys:String>
+	<sys:String x:Key="ImageBackground">Image Background</sys:String>
+	<sys:String x:Key="PureColorBackground">Pure Color Background</sys:String>
+
+	<sys:String x:Key="OfficialMirror">Mojang Official Mirror</sys:String>
+	<sys:String x:Key="BangBangApiMirror">Bangbang93 Mirror</sys:String>
+	<sys:String x:Key="McBbsMirror">McBbs Mirror</sys:String>
+
+	<sys:String x:Key="BackEase">Retraction</sys:String>
+	<sys:String x:Key="BounceEase">Bounce</sys:String>
+	<sys:String x:Key="CircleEase">Circle</sys:String>
+	<sys:String x:Key="CubicEase">t³ Function</sys:String>
+	<sys:String x:Key="ElasticEase">Elastic</sys:String>
+	<sys:String x:Key="ExponentialEase">Exponential</sys:String>
+	<sys:String x:Key="PowerEase">t*p Function</sys:String>
+	<sys:String x:Key="QuadraticEase">t² Function</sys:String>
+	<sys:String x:Key="QuinticEase">t⁵ Function</sys:String>
+	<sys:String x:Key="SineEase">Sin(t) Function</sys:String>
+
+	<sys:String x:Key="NoSelectedBgImage">Background File Path Unset</sys:String>
+
+	<sys:String x:Key="StaySame">Keep the same</sys:String>
+
+	<sys:String x:Key="All">All</sys:String>
+
+	<sys:String x:Key="SkinNotFound">Skin Not Found</sys:String>
+	<sys:String x:Key="SkinNotFoundDetail">Skin not found for {0}.</sys:String>
+
+	<sys:String x:Key="Delay">Latency</sys:String>
+	<sys:String x:Key="TimeOutOrError">Time out or error found</sys:String>
+	<sys:String x:Key="Times">Times</sys:String>
+
+	<sys:String x:Key="TestDelayFailedDetail">Could not test the latency of {0}</sys:String>
+
+	<sys:String x:Key="LightTheme">Light Theme</sys:String>
+	<sys:String x:Key="DarkTheme">Dark Theme</sys:String>
+
+	<!--> Models <-->
+
+	<!--> About Page <-->
+
+	<sys:String x:Key="AboutUs">About Us</sys:String>
+	<sys:String x:Key="AboutUsContent">
+		Corona Studio（日冕工作室）的前身是 CMFL 启动器开发团队。我们在此之前大部分时间都在维护 CMFL 启动器及其附属项目。
+		我们在吸取了 CMFL 的大量经验和教训之后开发了全新风格的启动器 - LauncherX。
+		同时，我们在mc服务器方面也有所涉猎。网络上一些和我们志同道合或是有相同兴趣的朋友组成了我们最开始的团队。
+	</sys:String>
+
+	<sys:String x:Key="GroupMembers">Group Members</sys:String>
+	<sys:String x:Key="GroupMember1">老腊肉 - 前端、启动器核心、启动核心</sys:String>
+	<sys:String x:Key="GroupMember2">CodingEric - UI、人机交互设计、附属工具链开发</sys:String>
+	<sys:String x:Key="GroupMember3">Leon - 前端、动画设计、启动器核心</sys:String>
+	<sys:String x:Key="GroupMember4">纪华裕 - 后端</sys:String>
+	<sys:String x:Key="GroupMember5">月银秋 - 启动核心</sys:String>
+
+	<sys:String x:Key="TranslateGroupMembers">Translation Group Members</sys:String>
+	<sys:String x:Key="TranslateGroupMember1">里卡 - 繁体中文</sys:String>
+	<sys:String x:Key="TranslateGroupMember2">法棍面包 - 西班牙语</sys:String>
+	<sys:String x:Key="TranslateGroupMember3">jonW - 英语</sys:String>
+
+
+	<sys:String x:Key="Thanks">Thanks</sys:String>
+	<sys:String x:Key="Thanks1">感谢由 BangBang93 以及 McBbs 提供的 MineCraft 资源文件下载加速服务</sys:String>
+	<sys:String x:Key="Thanks2">感谢由 优势科技-星星 赞助的服务器</sys:String>
+	<sys:String x:Key="Thanks3">感谢 CI010 为 ProjBobcat 启动核心开发提供的技术指导</sys:String>
+
+	<sys:String x:Key="OpenSourceProjectUsages">Open Source Project Usages</sys:String>
+
+
+	<sys:String x:Key="Other">Other</sys:String>
+	<sys:String x:Key="OtherContent">This version of translation is done by Croteco. Contact me(croteco@outlook.com) if you're really boring. </sys:String>
+
+	<!--> About Page <-->
+
+	<sys:String x:Key="ChangeLanguageRebootRequired">You changed the display language. To apply the change to all components, please restart the launcher.</sys:String>
+
+	<!--> GameLogsWindow.xaml <-->
+
+	<sys:String x:Key="GameLogsWindowTitle">Realtime Game Logs</sys:String>
+	<sys:String x:Key="TopMost">Always On Top</sys:String>
+	<sys:String x:Key="Moveable">Moveable</sys:String>
+
+	<!--> GameLogsWindow.xaml <-->
+
+	<sys:String x:Key="NoSuchPageKeyExceptionMessage">No page found for key value of {0}.</sys:String>
+	<sys:String x:Key="GetSettingsFailed">Error when reading the configuration file.</sys:String>
+	<sys:String x:Key="SearchGameHint">Search for the id of installed game. e.g. 1.15.2</sys:String>
+
+</ResourceDictionary>

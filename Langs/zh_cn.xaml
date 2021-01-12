@@ -82,7 +82,11 @@
     <!--> CreateNewAccountDialog.xaml <-->
 
     <sys:String x:Key="CreateNewAccount">创建新账户</sys:String>
+
     <sys:String x:Key="OfflineAccount">离线账户</sys:String>
+    <sys:String x:Key="MojangAccount">Mojang 账户</sys:String>
+    <sys:String x:Key="MicrosoftAccount">Microsoft 账户</sys:String>
+
     <sys:String x:Key="OnlineAccount">在线账户</sys:String>
     <sys:String x:Key="Email">电子邮箱</sys:String>
     <sys:String x:Key="DisplayName">玩家名称</sys:String>
@@ -90,6 +94,13 @@
     <sys:String x:Key="AuthLibServer">AuthLib服务器</sys:String>
     <sys:String x:Key="Optional">可选</sys:String>
     <sys:String x:Key="SaveAccount">保存账户</sys:String>
+
+    <sys:String x:Key="CheckingAccount">正在核验账户...</sys:String>
+    <sys:String x:Key="Default">默认</sys:String>
+
+    <sys:String x:Key="CheckFailed">验证失败</sys:String>
+
+    <sys:String x:Key="SkinRequestFailed">皮肤获取失败</sys:String>
 
     <!--> CreateNewAccountDialog.xaml <-->
 
@@ -102,6 +113,7 @@
     <!--> SettingsPage.xaml <-->
 
     <sys:String x:Key="GlobalGameSettings">全局游戏设置</sys:String>
+    <sys:String x:Key="RegionAndLang">区域和语言</sys:String>
     <sys:String x:Key="Appearance">外观</sys:String>
     <sys:String x:Key="Network">网络</sys:String>
     <sys:String x:Key="Advanced">高级</sys:String>
@@ -145,6 +157,9 @@
     <sys:String x:Key="GlobalAnimationEasingFunction">全局动画缓动函数</sys:String>
     <sys:String x:Key="GlobalAnimationEasingMode">全局动画缓动模式</sys:String>
 
+    <sys:String x:Key="AppearancePageTitle">在这里修改你的启动器外观</sys:String>
+    <sys:String x:Key="AppearancePageDetail">在右侧您可以看到窗口预览。</sys:String>
+
     <sys:String x:Key="ThemeMode">主题模式</sys:String>
     <sys:String x:Key="Language">语言</sys:String>
     <sys:String x:Key="UseFluidMove">启用平滑滚动</sys:String>
@@ -166,6 +181,10 @@
     <sys:String x:Key="UiFontFamily">界面字体</sys:String>
     <sys:String x:Key="PrimaryFont">首选字体</sys:String>
     <sys:String x:Key="SecondaryFont">备选字体</sys:String>
+
+    <sys:String x:Key="PreviewFont">预览字体</sys:String>
+    <sys:String x:Key="PreviewFontSize">预览字体大小</sys:String>
+    <sys:String x:Key="PreviewFontHint">输入任意文字以预览字体</sys:String>
 
     <sys:String x:Key="FontChangedHint">您修改了字体设置，这部分设置需要重启启动器后才能应用</sys:String>
     <sys:String x:Key="FontFamilyPreviewTestText">汉体书写信息技术标准相容 AaBbCc A a B b C c 0123456789</sys:String>
@@ -397,5 +416,92 @@
     <!--> GameLogsWindow.xaml <-->
 
     <sys:String x:Key="NoSuchPageKeyExceptionMessage">没有找到键值为 {0} 的页面。</sys:String>
+
+
+    <sys:String x:Key="GetSettingsFailed">读取设置文件时出现了一些错误</sys:String>
+    <sys:String x:Key="SearchGameHint">搜索已安装游戏的 id，例如：1.15.2</sys:String>
+
+    <sys:String x:Key="Yes">是</sys:String>
+    <sys:String x:Key="No">否</sys:String>
+
+    <sys:String x:Key="DownloadFailed">下载失败</sys:String>
+    <sys:String x:Key="RequestOnlineGame">获取在线游戏...</sys:String>
+    <sys:String x:Key="RequestFailed">获取失败</sys:String>
+
+    <sys:String x:Key="Finished">完成</sys:String>
+    <sys:String x:Key="Download">下载</sys:String>
+
+    <sys:String x:Key="Env">前置环境</sys:String>
+    <sys:String x:Key="Install">安装</sys:String>
+
+    <sys:String x:Key="GetJavaInfoFailed">我们不能确定这个运行时的具体情况...</sys:String>
+    <sys:String x:Key="FileNotFound">未找到文件</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">该 Java 运行时 ( {0} ) 匹配您的系统</sys:String>
+    <sys:String x:Key="BadJavaRuntime">该 Java 运行时 ( x{0} ) 与您的系统架构 ( x{0} ) 不匹配，可能导致性能问题</sys:String>
+
+    <sys:String x:Key="SelectedVersion">选择版本</sys:String>
+    <sys:String x:Key="ManuallyCopyRedirectUrl">手动复制 RedirectUrl</sys:String>
+
+    <sys:String x:Key="Login">登录</sys:String>
+
+    <sys:String x:Key="ConnectToService">连接到服务</sys:String>
+
+    <sys:String x:Key="IntroWelcomeText">欢迎使用 LauncherX</sys:String>
+    <sys:String x:Key="IntroWelcomeTextDetail">下面即将开始正式的配置向导，请点击下一步继续。</sys:String>
+
+    <sys:String x:Key="IntroSelectAppearance">选择一个你喜欢的外观</sys:String>
+    <sys:String x:Key="IntroSelectAppearanceDetail">稍后您可以在启动器设置页面的“外观”选项卡中修改更多的外观设置。</sys:String>
+
+    <sys:String x:Key="IntroAddAccount">添加一个游戏帐户</sys:String>
+    <sys:String x:Key="IntroAddAccountDetail">在向导完成后，您可以点击启动器主界面右上角的用户名来管理您的游戏帐户或是以3D方式预览您的游戏皮肤。</sys:String>
+
+    <sys:String x:Key="IntroGameSettings">完成必须的游戏设置</sys:String>
+    <sys:String x:Key="IntroGameSettingsDetail">在这里您需要完善一些启动所必须的核心设置，稍后您可以在设置界面的”全局游戏设置“选项卡中找到更多自定义设置。</sys:String>
+
+    <sys:String x:Key="IntroFinishedDetail">您已经完成了所有的设置项目，快开始体验 LauncherX 吧！</sys:String>
+
+    <sys:String x:Key="Previous">上一步</sys:String>
+    <sys:String x:Key="Next">下一步</sys:String>
+
+    <sys:String x:Key="RequestingGameList">稍等片刻，正在加载游戏列表</sys:String>
+
+    <sys:String x:Key="SystemInfo">系统信息</sys:String>
+    <sys:String x:Key="GameInfo">游戏信息</sys:String>
+    <sys:String x:Key="Memory">内存</sys:String>
+    <sys:String x:Key="Time">时间</sys:String>
+    <sys:String x:Key="GameTime">游戏时长</sys:String>
+    <sys:String x:Key="Count">次数</sys:String>
+
+    <sys:String x:Key="AccountType">账户类型</sys:String>
+    <sys:String x:Key="ValidOnlineAccount">有效的在线账户</sys:String>
+
+    <sys:String x:Key="StatData">统计数据</sys:String>
+    <sys:String x:Key="News">新闻</sys:String>
+    <sys:String x:Key="GetGames">获取游戏</sys:String>
+
+    <sys:String x:Key="Free">空闲</sys:String>
+    <sys:String x:Key="Using">使用中</sys:String>
+    <sys:String x:Key="Game">游戏</sys:String>
+
+    <sys:String x:Key="Save">保存</sys:String>
+    <sys:String x:Key="BasicSettings">基础设置</sys:String>
+    <sys:String x:Key="GameName">游戏名称</sys:String>
+    <sys:String x:Key="GamePath">游戏路径</sys:String>
+    <sys:String x:Key="Icon">图标</sys:String>
+
+    <sys:String x:Key="Offline">离线</sys:String>
+    <sys:String x:Key="ChooseLoginType">请选择您的登陆方式</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">请选择您的验证方式，如果您不清楚应该使用哪种验证方式，请使用 Mojang 验证。</sys:String>
+    
+    <sys:String x:Key="GlobalNotSet">全局未设定</sys:String>
+    <sys:String x:Key="SaveSettingsFailed">设置保存失败</sys:String>
+
+    <sys:String x:Key="FalseFabricInstallSettings">不正确的 Fabric 安装配置</sys:String>
+    <sys:String x:Key="FalseFabricInstallSettingsDetail">您只选择了 Fabric Loader 或是 Fabric Yarn，请在两个列表里选择合适的版本安装才能够继续！</sys:String>
+
+    <sys:String x:Key="GetFailed">拉取失败</sys:String>
+
+    <sys:String x:Key="ConfirmExit">您确定要退出吗？</sys:String>
+    <sys:String x:Key="ConfirmExitDetail">您还未完成 LauncherX 的设置工作，所有未保存的更改都将被舍弃。</sys:String>
 
 </ResourceDictionary>

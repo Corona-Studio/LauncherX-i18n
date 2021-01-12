@@ -1,0 +1,400 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="TranslatorCredits">MILK蛋糕，月银秋5990 - 文言文</sys:String>
+
+    <sys:String x:Key="Ok">毕</sys:String>
+    <sys:String x:Key="Cancel">还</sys:String>
+    <sys:String x:Key="Warning">警</sys:String>
+    <sys:String x:Key="Error">错</sys:String>
+    <sys:String x:Key="Info">信</sys:String>
+    <sys:String x:Key="Note">示</sys:String>
+
+    <sys:String x:Key="Open">入</sys:String>
+    <sys:String x:Key="Close">出</sys:String>
+
+    <sys:String x:Key="Exit">闭</sys:String>
+    <sys:String x:Key="Minimize">藏</sys:String>
+    <sys:String x:Key="Force">强</sys:String>
+
+    <sys:String x:Key="LaunchFailed">戏不得始。</sys:String>
+    <sys:String x:Key="JavaNotFound">未寻得Java。</sys:String>
+    <sys:String x:Key="IllegalJavaInstallation">君之所用Java或未以常法入。</sys:String>
+
+    <!--> App.xaml.cs <-->
+
+    <sys:String x:Key="EmptyDirFailed">未能清此卷</sys:String>
+    <sys:String x:Key="ExitMainPg">闭LauncherX</sys:String>
+    <sys:String x:Key="TryContinue">试仍用之</sys:String>
+    <sys:String x:Key="UncaughtEx">LauncherX现遭难状之错。</sys:String>
+
+    <!--> App.xaml.cs <-->
+
+    <!--> MainWindow.xaml <-->
+
+    <sys:String x:Key="GameStart">戏始</sys:String>
+    <sys:String x:Key="GameList">全戏所列</sys:String>
+    <sys:String x:Key="Dashboard">奏表</sys:String>
+    <sys:String x:Key="Settings">设</sys:String>
+
+    <sys:String x:Key="BetaHint">Beta版本，仅供Corona Studio的各位炖llr之用(?) </sys:String>
+    <sys:String x:Key="Start">始</sys:String>
+    <sys:String x:Key="TaskCenter">事物</sys:String>
+
+    <!--> MainWindow.xaml <-->
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <sys:String x:Key="IllegalSettings">不然之设</sys:String>
+    <sys:String x:Key="IllegalSettingsHint1">有不然之设存，已改之为常：</sys:String>
+    <sys:String x:Key="IllegalSettingsHint2">有不然之设存，请往“设”以改之：</sys:String>
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <!--> MainViewModel.cs <-->
+
+    <sys:String x:Key="RunningJobsFound">方行之事务</sys:String>
+    <sys:String x:Key="ExitAndDropTasksHint">有 {0} 事务方行或欲行，君仍欲闭之？其将止且无以复生。</sys:String>
+    <sys:String x:Key="WaitToFinish">待成</sys:String>
+
+    <sys:String x:Key="GameNotSelect">未尝择戏</sys:String>
+    <sys:String x:Key="GameNotSelectHint">未尝择戏以始</sys:String>
+
+    <sys:String x:Key="AccountNotSelect">未尝择户</sys:String>
+    <sys:String x:Key="AccountNotSelectHint">未尝择户以始，或此户不堪用</sys:String>
+
+    <!--> MainViewModel.cs <-->
+
+    <!--> AccountPage.xaml <-->
+
+    <sys:String x:Key="Welcome">迎</sys:String>
+    <sys:String x:Key="Delete">除</sys:String>
+
+    <!--> AccountPage.xaml <-->
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <sys:String x:Key="CreateNewAccount">新户</sys:String>
+    <sys:String x:Key="OfflineAccount">离户</sys:String>
+    <sys:String x:Key="OnlineAccount">在户</sys:String>
+    <sys:String x:Key="Email">光函</sys:String>
+    <sys:String x:Key="DisplayName">戏者称</sys:String>
+    <sys:String x:Key="Password">密令</sys:String>
+    <sys:String x:Key="AuthLibServer">AuthLib集</sys:String>
+    <sys:String x:Key="Optional">可择</sys:String>
+    <sys:String x:Key="SaveAccount">储此户</sys:String>
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <!--> GameListPage.xaml <-->
+
+    <sys:String x:Key="NoGameYet">无戏存</sys:String>
+
+    <!--> GameListPage.xaml <-->
+
+    <!--> SettingsPage.xaml <-->
+
+    <sys:String x:Key="GlobalGameSettings">戏通设</sys:String>
+    <sys:String x:Key="Appearance">衣</sys:String>
+    <sys:String x:Key="Network">织</sys:String>
+    <sys:String x:Key="Advanced">强</sys:String>
+    <sys:String x:Key="About">关乎</sys:String>
+
+    <sys:String x:Key="LaunchSettings">始设</sys:String>
+    <sys:String x:Key="JavaPath">Java所在</sys:String>
+    <sys:String x:Key="AddManually">亲添</sys:String>
+    <sys:String x:Key="DownloadJava">求Java</sys:String>
+    <sys:String x:Key="SearchJava">寻Java</sys:String>
+
+    <sys:String x:Key="MemorySize">内存之量</sys:String>
+    <sys:String x:Key="MbUnit">量：Mb</sys:String>
+    <sys:String x:Key="GameWindowTitle">戏窗之题</sys:String>
+
+    <sys:String x:Key="GameWindowSize">戏窗量</sys:String>
+    <sys:String x:Key="Width">广</sys:String>
+    <sys:String x:Key="Height">袤</sys:String>
+    <sys:String x:Key="FullScreen">全</sys:String>
+
+    <sys:String x:Key="Enable">启</sys:String>
+    <sys:String x:Key="Disable">禁</sys:String>
+    <sys:String x:Key="Type">型</sys:String>
+
+    <sys:String x:Key="JvmAdvanceArgument">Jvm强始令</sys:String>
+    <sys:String x:Key="JoinServerAfterLaunched">始后遽入服</sys:String>
+    <sys:String x:Key="ServerIpOrDomain">服ip或域名</sys:String>
+    <sys:String x:Key="Port">口</sys:String>
+
+    <sys:String x:Key="Path">所在</sys:String>
+    <sys:String x:Key="AdditionalArgument">另令</sys:String>
+
+    <sys:String x:Key="LauncherBehavior">始器所行</sys:String>
+    <sys:String x:Key="CheckGameFile">查戏主件</sys:String>
+    <sys:String x:Key="CheckSha1WhenFixingGameFile">查件之全于成时</sys:String>
+    <sys:String x:Key="GameLaunchedLauncherBehavior">戏始后始器所为</sys:String>
+    <sys:String x:Key="DisplayGameLogs">示志于始时</sys:String>
+
+    <sys:String x:Key="BaseUiSettings">基面设</sys:String>
+    <sys:String x:Key="GlobalAnimationDuration">画时</sys:String>
+    <sys:String x:Key="GlobalAnimationEasingFunction">画缓动之数</sys:String>
+    <sys:String x:Key="GlobalAnimationEasingMode">画缓动之法</sys:String>
+
+    <sys:String x:Key="ThemeMode">题法</sys:String>
+    <sys:String x:Key="Language">言</sys:String>
+    <sys:String x:Key="UseFluidMove">启涟漪法</sys:String>
+
+    <sys:String x:Key="MainInterfaceBackground">主页壁画</sys:String>
+    <sys:String x:Key="BackgroundTexture">主页之纹</sys:String>
+    <sys:String x:Key="BackgroundType">主页壁类</sys:String>
+
+    <sys:String x:Key="SelectBackgroundImage">择壁画</sys:String>
+    <sys:String x:Key="Browse">览</sys:String>
+
+    <sys:String x:Key="AccentColor">题颜</sys:String>
+    <sys:String x:Key="GetAccountColorFromBgImage">择主色于壁画中</sys:String>
+    <sys:String x:Key="GetPaletteErrorHint">未寻得当下壁画所应之颜板，或因君擅改始器留在或配令。</sys:String>
+
+    <sys:String x:Key="UsePureColorAsAccentColor">以主页之纯颜壁画为题颜</sys:String>
+    <sys:String x:Key="UseSelectedColorAsAccentColor">择题颜于下</sys:String>
+
+    <sys:String x:Key="Preview">览</sys:String>
+    <sys:String x:Key="UiFontFamily">主字形</sys:String>
+    <sys:String x:Key="PrimaryFont">首字形</sys:String>
+    <sys:String x:Key="SecondaryFont">备字形</sys:String>
+
+    <sys:String x:Key="FontChangedHint">君变字形之设，此项设置需复启始器后方可用</sys:String>
+    <sys:String x:Key="FontFamilyPreviewTestText">汉体书写信息技术标准相容 AaBbCc A a B b C c 0123456789</sys:String>
+
+    <sys:String x:Key="BaseNetworkSettings">基织所设</sys:String>
+    <sys:String x:Key="ResourceDownloadServer">寻物器</sys:String>
+    <sys:String x:Key="DownloadThreadCount">寻线之量</sys:String>
+    <sys:String x:Key="AutoDetectDownloadMethod">自定寻物之法</sys:String>
+    <sys:String x:Key="UseMultiPartDownload">启大物分寻</sys:String>
+    <sys:String x:Key="MultiPartCount">分寻之量</sys:String>
+
+    <sys:String x:Key="NetworkConnectionTest">织连之试</sys:String>
+    <sys:String x:Key="NetworkTestDescription">以织连之试，君可解当下织况，如延时，服器之态等基文。且可为君除易障。</sys:String>
+
+    <sys:String x:Key="LauncherLogLevel">始器志录级</sys:String>
+    <sys:String x:Key="DcAndPp">数集与隐策</sys:String>
+    <sys:String x:Key="AllowDataCollection">许集始器运数</sys:String>
+
+    <sys:String x:Key="WhatDataWeCollect">何数吾辈将集</sys:String>
+    <sys:String x:Key="WhatDataWeCollectContent">
+        吾辈将集予机之常数，如用语、操系之版。且吾辈将集有乎始器之运数，
+        如崩或异、使久、始之戏与戏久。此数将经受吾辈之善处且存于安服。
+    </sys:String>
+
+    <sys:String x:Key="HowWeUseData">吾辈将何用该数</sys:String>
+    <sys:String x:Key="HowWeUseDataContent">
+        此数将助吾辈成户之析与错之析。域，语所设将助吾辈解户分布之域，错成
+        志与溃闻将助吾辈善解始器缺陷所存，所以将佳品体验赠予广户。
+    </sys:String>
+
+    <!--> SettingsPage.xaml <-->
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <sys:String x:Key="GeneratedJavaAgentArg">拼后JavaAgent始数：</sys:String>
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <sys:String x:Key="TaskAdded">已将此务添于众务之列</sys:String>
+    <sys:String x:Key="PrepareToDownloadJava">Java运行库寻备中</sys:String>
+
+    <sys:String x:Key="PleaseCheckLogs">请检始器之志</sys:String>
+    <sys:String x:Key="Succeeded">成</sys:String>
+    <sys:String x:Key="Failed">败</sys:String>
+
+    <sys:String x:Key="ImageFile">画件</sys:String>
+    <sys:String x:Key="ImportBgImage">入壁画之件</sys:String>
+    <sys:String x:Key="BrowseBgImageDialogTitle">择将入之壁画</sys:String>
+    <sys:String x:Key="PrepareToImportBgImage">备入壁画...</sys:String>
+    <sys:String x:Key="ImportingPleaseWait">请少顷，正入...</sys:String>
+    <sys:String x:Key="AlreadyImported">请已入，将不复入...</sys:String>
+
+    <sys:String x:Key="FetchMojangServerInfo">取Mojang服信</sys:String>
+    <sys:String x:Key="Unknown">未解</sys:String>
+
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <sys:String x:Key="SelectAccountProfile">择户所用之令</sys:String>
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <sys:String x:Key="LastUsed">前番使用</sys:String>
+    <sys:String x:Key="ClickToUseAccount">触以用该户</sys:String>
+    <sys:String x:Key="NeverUsed">未尝使用</sys:String>
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <sys:String x:Key="CheckingDelay">正试织久量</sys:String>
+
+    <sys:String x:Key="ServerStatus1Hint">服稳定也</sys:String>
+    <sys:String x:Key="ServerStatus2Hint">服现波动，概现顷刻服断，或因君户织所丢包剧也。</sys:String>
+    <sys:String x:Key="ServerStatus3Hint">服错，当下已停供服，或因君户织所以致未能与服器通讯成。</sys:String>
+    <sys:String x:Key="CurrentStatusIs">当下状为</sys:String>
+    <sys:String x:Key="WhichMeans">意</sys:String>
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <!--> SearchBar.xaml <-->
+
+    <sys:String x:Key="SearchSomething">寻何物？</sys:String>
+
+    <!--> SearchBar.xaml <-->
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <sys:String x:Key="TaskQueue">队列所调</sys:String>
+    <sys:String x:Key="NoMoreTask">尚无事务</sys:String>
+    <sys:String x:Key="NotifyHistory">历史通知</sys:String>
+    <sys:String x:Key="NoMoreNotify">尚无通令</sys:String>
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <!--> ITaskCenterJob <-->
+
+    <sys:String x:Key="TaskCanceled">事务已除...</sys:String>
+    <sys:String x:Key="DownloadingFile">寻物中</sys:String>
+    <sys:String x:Key="LaunchGame">戏始</sys:String>
+
+    <sys:String x:Key="AuthFailed">户证错</sys:String>
+    <sys:String x:Key="DecompressFailed">Natives错解</sys:String>
+    <sys:String x:Key="IncompleteArgument">非整始数</sys:String>
+    <sys:String x:Key="NoJava">无定Jvm</sys:String>
+    <sys:String x:Key="None">无</sys:String>
+    <sys:String x:Key="OperationFailed">误为</sys:String>
+
+    <sys:String x:Key="Duration">用时</sys:String>
+    <sys:String x:Key="ResourceCompletion">寻全物</sys:String>
+    <sys:String x:Key="Reason">何</sys:String>
+    <sys:String x:Key="Retry">再</sys:String>
+    <sys:String x:Key="Completion">全</sys:String>
+
+    <sys:String x:Key="GameExitDetected">戏结</sys:String>
+    <sys:String x:Key="GameExitedNormal">常出</sys:String>
+    <sys:String x:Key="GameExitedUnexpectedly">非常出</sys:String>
+
+    <sys:String x:Key="SearchGame">寻戏</sys:String>
+    <sys:String x:Key="GameNotFound">无法寻戏</sys:String>
+    <sys:String x:Key="GameNotFoundDetail">未寻任一戏，君可寻新戏于始器。</sys:String>
+    <sys:String x:Key="SearchGameCompleted">戏寻已闭</sys:String>
+
+    <sys:String x:Key="TaskCenterBriefing1">当下{0}务正行</sys:String>
+
+    <!--> ITaskCenterJob <-->
+
+    <!--> Models <-->
+
+    <sys:String x:Key="EaseIn">缓入</sys:String>
+    <sys:String x:Key="EaseOut">缓出</sys:String>
+    <sys:String x:Key="EaseInOut">缓入、出</sys:String>
+
+    <sys:String x:Key="Shape1">直线</sys:String>
+    <sys:String x:Key="Shape2">圆圈</sys:String>
+    <sys:String x:Key="Shape3">弧线</sys:String>
+
+    <sys:String x:Key="BlurBackground">迷雾若隐若见壁画</sys:String>
+    <sys:String x:Key="ImageBackground">画景</sys:String>
+    <sys:String x:Key="PureColorBackground">独色壁画</sys:String>
+
+    <sys:String x:Key="OfficialMirror">Mojang官方服</sys:String>
+    <sys:String x:Key="BangBangApiMirror">Bangbang93寻物服</sys:String>
+    <sys:String x:Key="McBbsMirror">Mcbbs寻物服</sys:String>
+
+    <sys:String x:Key="BackEase">收还</sys:String>
+    <sys:String x:Key="BounceEase">弹起</sys:String>
+    <sys:String x:Key="CircleEase">往复</sys:String>
+    <sys:String x:Key="CubicEase">t³函数</sys:String>
+    <sys:String x:Key="ElasticEase">弹簧</sys:String>
+    <sys:String x:Key="ExponentialEase">指数</sys:String>
+    <sys:String x:Key="PowerEase">t*p函数</sys:String>
+    <sys:String x:Key="QuadraticEase">t²函数</sys:String>
+    <sys:String x:Key="QuinticEase">t⁵函数</sys:String>
+    <sys:String x:Key="SineEase">Sin(t)函数</sys:String>
+
+    <sys:String x:Key="NoSelectedBgImage">未设壁画所在</sys:String>
+
+    <sys:String x:Key="StaySame">持原状</sys:String>
+
+    <sys:String x:Key="All">俱</sys:String>
+
+    <sys:String x:Key="SkinNotFound">未寻得肤</sys:String>
+    <sys:String x:Key="SkinNotFoundDetail">未寻得 {0} 之肤</sys:String>
+
+    <sys:String x:Key="Delay">迟量</sys:String>
+    <sys:String x:Key="TimeOutOrError">久或错</sys:String>
+    <sys:String x:Key="Times">次</sys:String>
+
+    <sys:String x:Key="TestDelayFailedDetail">无能试{0}之迟量</sys:String>
+
+    <sys:String x:Key="LightTheme">亮题</sys:String>
+    <sys:String x:Key="DarkTheme">暗题</sys:String>
+
+    <!--> Models <-->
+
+    <!--> About Page <-->
+
+    <sys:String x:Key="AboutUs">关乎吾辈</sys:String>
+    <sys:String x:Key="AboutUsContent">
+        Corona Studio（日冕工作室）之前身为 CMFL 始器制队。此前多时护 CMFL 始器与其附项。
+        吾辈取 CMFL 多经与训导后制新风始器 - LauncherX。
+        于此，吾辈有所涉猎于MC服方面也。织些许志同道合之士或有同趣之友组吾辈始队。
+    </sys:String>
+
+    <sys:String x:Key="GroupMembers">团队成员</sys:String>
+    <sys:String x:Key="GroupMember1">老腊肉 - 前端、始器核心、启动核心</sys:String>
+    <sys:String x:Key="GroupMember2">CodingEric - UI、人机交互设计、附属工具链开发</sys:String>
+    <sys:String x:Key="GroupMember3">Leon - 前端、动画设计、始器核心</sys:String>
+    <sys:String x:Key="GroupMember4">纪华裕 - 后端</sys:String>
+    <sys:String x:Key="GroupMember5">月银秋5990 - 启动核心</sys:String>
+
+    <sys:String x:Key="TranslateGroupMembers">翻译组成员</sys:String>
+    <sys:String x:Key="TranslateGroupMember1">里卡 - 繁体中文</sys:String>
+    <sys:String x:Key="TranslateGroupMember2">法棍面包 - 西班牙语</sys:String>
+    <sys:String x:Key="TranslateGroupMember3">jonW - 英语</sys:String>
+    <sys:String x:Key="TranslateGroupMember4">MILK蛋糕，月银秋5990 - 文言文</sys:String>
+
+
+    <sys:String x:Key="Thanks">鸣谢</sys:String>
+    <sys:String x:Key="Thanks1">称谢 BangBang93 及 Mcbbs MineCraft 资物寻快务所供</sys:String>
+    <sys:String x:Key="Thanks2">称谢 优势科技-星星 赞助之服</sys:String>
+    <sys:String x:Key="Thanks3">称谢 CI010 为 ProjBobcat 始核制供术导</sys:String>
+
+    <sys:String x:Key="OpenSourceProjectUsages">开源项目所用</sys:String>
+
+
+    <sys:String x:Key="Other">其余</sys:String>
+
+    <sys:String x:Key="OtherContent">
+        (*/ω＼*)令吾辈献歌一曲！
+        采采流水，蓬蓬远春。窈窕深谷，时见美人。碧桃满树，风日水滨。
+        柳阴路曲，流莺比邻。乘之愈往，识之愈真。如将不尽，与古为新。
+        ——《二十四诗品》
+    </sys:String>
+
+    <!--> About Page <-->
+
+    <sys:String x:Key="ChangeLanguageRebootRequired">君改页所示之语，此处UI之显示语言需要在重启之后才能生效。</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="GameLogsWindowTitle">戏志实示窗</sys:String>
+    <sys:String x:Key="TopMost">置顶</sys:String>
+    <sys:String x:Key="Moveable">可动</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="NoSuchPageKeyExceptionMessage">未寻得键值为 {0} 之页面。</sys:String>
+
+</ResourceDictionary>

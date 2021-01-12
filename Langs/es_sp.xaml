@@ -1,0 +1,403 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Ok">Sí</sys:String>
+    <sys:String x:Key="Cancel">Cancélar</sys:String>
+    <sys:String x:Key="Warning">ADVERTENCIA</sys:String>
+    <sys:String x:Key="Error">error.</sys:String>
+    <sys:String x:Key="Info">Info.</sys:String>
+    <sys:String x:Key="Note">Aviso.</sys:String>
+
+    <sys:String x:Key="Open">Abrir</sys:String>
+    <sys:String x:Key="Close">Cerrar</sys:String>
+
+    <sys:String x:Key="Exit">Salir</sys:String>
+    <sys:String x:Key="Minimize">minimizar</sys:String>
+    <sys:String x:Key="Force">Forzar..</sys:String>
+    <sys:String x:Key="Maximize">maximizar</sys:String>
+
+    <sys:String x:Key="LaunchFailed">Empezarácion FalFallido.</sys:String>
+    <sys:String x:Key="JavaNotFound">No Java disponible para LauncherX</sys:String>
+    <sys:String x:Key="IllegalJavaInstallation">Sí tu Java。</sys:String>
+
+    <!--> App.xaml.cs <-->
+
+    <sys:String x:Key="EmptyDirFailed">Fállido en la limpieza del cache_carpeta...</sys:String>
+    <sys:String x:Key="ExitMainPg">Salir LauncherX</sys:String>
+    <sys:String x:Key="TryContinue">Ignorar.</sys:String>
+    <sys:String x:Key="UncaughtEx">LauncherX:Error Inesperado.</sys:String>
+
+    <!--> App.xaml.cs <-->
+
+    <!--> MainWindow.xaml <-->
+
+    <sys:String x:Key="GameStart">Empezar!</sys:String>
+    <sys:String x:Key="GameList">Lista de Juegos</sys:String>
+    <sys:String x:Key="Dashboard">Dashboard</sys:String>
+    <sys:String x:Key="Settings">Ajustes</sys:String>
+
+    <sys:String x:Key="BetaHint">Verzón Beta para la Persona de Dentro</sys:String>
+    <sys:String x:Key="Start">Empezar...</sys:String>
+    <sys:String x:Key="TaskCenter">Centro del Tareas</sys:String>
+
+    <!--> MainWindow.xaml <-->
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <sys:String x:Key="IllegalSettings">Configuración Incorrecto.</sys:String>
+    <sys:String x:Key="IllegalSettingsHint1">Incorrecto Configuracións había vuelto a el valor por defecto：</sys:String>
+    <sys:String x:Key="IllegalSettingsHint2">Arreglar estos config por favor.：</sys:String>
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <!--> MainViewModel.cs <-->
+
+    <sys:String x:Key="RunningJobsFound">¡Tareas en Ejecución!</sys:String>
+    <sys:String x:Key="ExitAndDropTasksHint"> {0} tareas en ejecución,si tu salir LauncherX,todos tareas inacabado será eliminarado.</sys:String>
+    <sys:String x:Key="WaitToFinish">Cargando...</sys:String>
+
+    <sys:String x:Key="GameNotSelect">No Minecraft Seleccionado.</sys:String>
+    <sys:String x:Key="GameNotSelectHint">Escogar una versión antes empezarando.</sys:String>
+
+    <sys:String x:Key="AccountNotSelect">No sesión Seleccionado</sys:String>
+    <sys:String x:Key="AccountNotSelectHint">No disponible sesión la escogarando..</sys:String>
+
+    <!--> MainViewModel.cs <-->
+
+    <!--> AccountPage.xaml <-->
+
+    <sys:String x:Key="Welcome">¡Bienvenido!</sys:String>
+    <sys:String x:Key="Delete">Eliminar</sys:String>
+
+    <!--> AccountPage.xaml <-->
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <sys:String x:Key="CreateNewAccount">Crear Sesión Nueva</sys:String>
+    <sys:String x:Key="OfflineAccount">Off-line cuenta</sys:String>
+    <sys:String x:Key="OnlineAccount">Oficial cuenta</sys:String>
+    <sys:String x:Key="Email">Email</sys:String>
+    <sys:String x:Key="DisplayName">Jugador ID</sys:String>
+    <sys:String x:Key="Password">Contraseña</sys:String>
+    <sys:String x:Key="AuthLibServer">Servidor AuthLib</sys:String>
+    <sys:String x:Key="Optional">Opcional</sys:String>
+    <sys:String x:Key="SaveAccount">Guardar</sys:String>
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <!--> GameListPage.xaml <-->
+
+    <sys:String x:Key="NoGameYet">No hay Minecraft Disponible</sys:String>
+
+    <!--> GameListPage.xaml <-->
+
+    <!--> SettingsPage.xaml <-->
+
+    <sys:String x:Key="GlobalGameSettings">Global Ajustes de Minecraft...</sys:String>
+    <sys:String x:Key="Appearance">Aparición.</sys:String>
+    <sys:String x:Key="Network">Ajustes de Red.</sys:String>
+    <sys:String x:Key="Advanced">Ajustes Avanzado</sys:String>
+    <sys:String x:Key="About">Sobre Nosotros...</sys:String>
+
+    <sys:String x:Key="LaunchSettings">Ajustes de Empezaración</sys:String>
+    <sys:String x:Key="JavaPath">Camino de Java</sys:String>
+    <sys:String x:Key="AddManually">Añadir...</sys:String>
+    <sys:String x:Key="DownloadJava">Descargar Java</sys:String>
+    <sys:String x:Key="SearchJava">Buscar Java</sys:String>
+
+    <sys:String x:Key="MemorySize">RAM</sys:String>
+    <sys:String x:Key="MbUnit">.Mb</sys:String>
+    <sys:String x:Key="GameWindowTitle">El Título de Minecraft</sys:String>
+
+    <sys:String x:Key="GameWindowSize">Tamaño del Ventana.</sys:String>
+    <sys:String x:Key="Width">Ancho</sys:String>
+    <sys:String x:Key="Height">Altura</sys:String>
+    <sys:String x:Key="FullScreen">Pantalla Completa</sys:String>
+
+    <sys:String x:Key="Enable">ON</sys:String>
+    <sys:String x:Key="Disable">OFF</sys:String>
+    <sys:String x:Key="Type">Tipo...</sys:String>
+
+    <sys:String x:Key="JvmAdvanceArgument">Java VM aviso ajustes...</sys:String>
+    <sys:String x:Key="JoinServerAfterLaunched">Juntar servidor después de Empezaración.</sys:String>
+    <sys:String x:Key="ServerIpOrDomain">IP/Domain de servidor.</sys:String>
+    <sys:String x:Key="Port">Port.</sys:String>
+
+    <sys:String x:Key="Path">Camino</sys:String>
+    <sys:String x:Key="AdditionalArgument">Argumento Adicional</sys:String>
+
+    <sys:String x:Key="LauncherBehavior">la Conducta del LauncherX</sys:String>
+    <sys:String x:Key="CheckGameFile">exam Archivos del Minecraft</sys:String>
+    <sys:String x:Key="CheckSha1WhenFixingGameFile">Exam sha1 de Archivos del Minecraft mientras descargar.</sys:String>
+    <sys:String x:Key="GameLaunchedLauncherBehavior">LauncherX Conductas después de que Minecraft en marcha.</sys:String>
+    <sys:String x:Key="DisplayGameLogs">Mostrar Logs-Inmediato después de que Minecraft en marcha.</sys:String>
+
+    <sys:String x:Key="BaseUiSettings">UI Ajustes..</sys:String>
+    <sys:String x:Key="GlobalAnimationDuration">la Duración de Animación.</sys:String>
+    <sys:String x:Key="GlobalAnimationEasingFunction">Función para Global Animación-Fácil*</sys:String>
+    <sys:String x:Key="GlobalAnimationEasingMode">Modo para Global Animación-Fácil*</sys:String>
+
+    <sys:String x:Key="ThemeMode">Theme.</sys:String>
+    <sys:String x:Key="Language">Idioma</sys:String>
+    <sys:String x:Key="UseFluidMove">MoverFluido</sys:String>
+
+    <sys:String x:Key="MainInterfaceBackground">fondo de casa</sys:String>
+    <sys:String x:Key="BackgroundTexture">Fondo Textura..</sys:String>
+    <sys:String x:Key="BackgroundType">Tipo de Fondo</sys:String>
+
+    <sys:String x:Key="SelectBackgroundImage">Escogar Fondo...</sys:String>
+    <sys:String x:Key="Browse">Ojear...</sys:String>
+
+    <sys:String x:Key="AccentColor">Color Principal</sys:String>
+    <sys:String x:Key="GetAccountColorFromBgImage">Escoger color desde Imagen del Fondo</sys:String>
+    <sys:String x:Key="GetPaletteErrorHint">Error en conseguir Paleta para tu Fondo，configs roto..</sys:String>
+    <sys:String x:Key="UsePureColorAsAccentColor">Uso color lo mismo que Pure_Color Fondo.</sys:String>
+    <sys:String x:Key="UseSelectedColorAsAccentColor">Seleccione un color...</sys:String>
+
+    <sys:String x:Key="Preview">Vista Previa.</sys:String>
+    <sys:String x:Key="UiFontFamily">Fuente del UI.</sys:String>
+    <sys:String x:Key="PrimaryFont">Fuente</sys:String>
+    <sys:String x:Key="SecondaryFont">Fuente Reserva.</sys:String>
+
+    <sys:String x:Key="FontChangedHint">Si tu ajusted fuente...Reiniciar LauncherX para ejercer por favor.</sys:String>
+    <sys:String x:Key="FontFamilyPreviewTestText">汉字测试显示诶我就不翻译了 AaBbCcQwQ A a B b C c Ññ Çç.¡¿?! 0123456789</sys:String>
+
+    <sys:String x:Key="BaseNetworkSettings">Ajustes Básico de Red.</sys:String>
+    <sys:String x:Key="ResourceDownloadServer">servidor para Recursos Descargar</sys:String>
+    <sys:String x:Key="DownloadThreadCount">Threads:</sys:String>
+    <sys:String x:Key="AutoDetectDownloadMethod">Selecto Modo de Descargar Automática.</sys:String>
+    <sys:String x:Key="UseMultiPartDownload">MúltiPiezas Descargar.</sys:String>
+    <sys:String x:Key="MultiPartCount">Total del MúltiPiezas..</sys:String>
+
+    <sys:String x:Key="NetworkConnectionTest">Red Exam.</sys:String>
+    <sys:String x:Key="NetworkTestDescription">Red Exam: Reconocer tus red conexión o situación del red a servidors.</sys:String>
+
+    <sys:String x:Key="LauncherLogLevel">LauncherX logs level.</sys:String>
+
+    <!--> 屁屁腊肉的憨憨隐私政策部分 拿第三档对比然后放在尾部 这段差不多就可不要了 hajime <-->
+
+    <sys:String x:Key="WhatDataWeCollect">Qué datos de carácter personal se recopilan.</sys:String>
+    <sys:String x:Key="WhatDataWeCollectContent">
+        Nosotros recopilan tu datos como idioma en uso,OS versión,y datos o logs del LauncherX.
+        Duración del LauncherX o Minecraft o Lanzamiento...Su datos estar encriptar emitir a nos servidor sin peligro.
+    </sys:String>
+
+    <sys:String x:Key="HowWeUseData">Cómo usamos tus datos de carácter personal.</sys:String>
+    <sys:String x:Key="HowWeUseDataContent">
+        Estos datos recopilan ayúdanos a analizar los errores del grupo de usuarios,
+        y/o a mejorar la experiencia del usuario.
+    </sys:String>
+
+    <!--> SettingsPage.xaml <-->
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <sys:String x:Key="GeneratedJavaAgentArg">JavaAgent Parámero que se utilizará：</sys:String>
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <sys:String x:Key="TaskAdded">Tarea añadido.</sys:String>
+    <sys:String x:Key="PrepareToDownloadJava">Preparar para Java_Libraries descargar...</sys:String>
+
+    <sys:String x:Key="PleaseCheckLogs">Revisar el logs del LauncherX</sys:String>
+    <sys:String x:Key="Succeeded">Éxito!</sys:String>
+    <sys:String x:Key="Failed">Fallido...</sys:String>
+
+    <sys:String x:Key="ImageFile">Archivo imagen</sys:String>
+    <sys:String x:Key="ImportBgImage">Importar Imagen de Fondo..</sys:String>
+    <sys:String x:Key="BrowseBgImageDialogTitle">Escogar Imagen...</sys:String>
+    <sys:String x:Key="PrepareToImportBgImage">Preparar para la Importación del Imagen de Fondo...</sys:String>
+    <sys:String x:Key="ImportingPleaseWait">Cargando...</sys:String>
+    <sys:String x:Key="AlreadyImported">Operacion Repetida...</sys:String>
+
+    <sys:String x:Key="FetchMojangServerInfo">Traer el servidor info del Mojang</sys:String>
+    <sys:String x:Key="Unknown">Desconocido.</sys:String>
+
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <sys:String x:Key="SelectAccountProfile">Escoger una perfil para este cuenta..</sys:String>
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <sys:String x:Key="LastUsed">Utilizado Último.</sys:String>
+    <sys:String x:Key="ClickToUseAccount">Pulsar para Cuenta usar..</sys:String>
+    <sys:String x:Key="NeverUsed">Nunca Utilizado.</sys:String>
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <sys:String x:Key="CheckingDelay">Examinarando el retraso/ping...</sys:String>
+
+    <sys:String x:Key="ServerStatus1Hint">Normal</sys:String>
+    <sys:String x:Key="ServerStatus2Hint">Inestable，Tal vez causar inestable servicio...</sys:String>
+    <sys:String x:Key="ServerStatus3Hint">Error.No hay servicio en marcha*...</sys:String>
+    <sys:String x:Key="CurrentStatusIs">Estatus del Servidor en este momento: </sys:String>
+    <sys:String x:Key="WhichMeans"> ==> </sys:String>
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <!--> SearchBar.xaml <-->
+
+    <sys:String x:Key="SearchSomething">Buscar...</sys:String>
+
+    <!--> SearchBar.xaml <-->
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <sys:String x:Key="TaskQueue">Tarea cola</sys:String>
+    <sys:String x:Key="NoMoreTask">No tarea en lista..</sys:String>
+    <sys:String x:Key="NotifyHistory">El Notificación Historial.</sys:String>
+    <sys:String x:Key="NoMoreNotify">Ninguna notificación...</sys:String>
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <!--> ITaskCenterJob <-->
+
+    <sys:String x:Key="TaskCanceled">Tarea Cancelarando...</sys:String>
+    <sys:String x:Key="DownloadingFile">Descargando...</sys:String>
+    <sys:String x:Key="LaunchGame">Empezar!</sys:String>
+
+    <sys:String x:Key="AuthFailed">Fállido en cuenta verificar.</sys:String>
+    <sys:String x:Key="DecompressFailed">error en Descomprimir del Natives</sys:String>
+    <sys:String x:Key="IncompleteArgument">Argumento Incompleto.</sys:String>
+    <sys:String x:Key="NoJava">No JVM seleccionado.</sys:String>
+    <sys:String x:Key="None">nada.</sys:String>
+    <sys:String x:Key="OperationFailed">Error Operación</sys:String>
+
+    <sys:String x:Key="Duration">Duración</sys:String>
+    <sys:String x:Key="ResourceCompletion">Finalización del Recurso</sys:String>
+    <sys:String x:Key="Reason">Razonar.</sys:String>
+    <sys:String x:Key="Retry">Reintentar...</sys:String>
+    <sys:String x:Key="Completion">Finalización..</sys:String>
+
+    <sys:String x:Key="GameExitDetected">Minecraft Parado...</sys:String>
+    <sys:String x:Key="GameExitedNormal">Salió con normal.</sys:String>
+    <sys:String x:Key="GameExitedUnexpectedly">Salió Anormal!!!</sys:String>
+
+    <sys:String x:Key="SearchGame">Buscar Minecraft</sys:String>
+    <sys:String x:Key="GameNotFound">No Versión hay buscaron..</sys:String>
+    <sys:String x:Key="GameNotFoundDetail">Si desea...puede descargar un Minecraft.</sys:String>
+    <sys:String x:Key="SearchGameCompleted">Buscargando.</sys:String>
+
+    <sys:String x:Key="TaskCenterBriefing1">{0} tarea[s」en lista.</sys:String>
+
+    <!--> ITaskCenterJob <-->
+
+    <!--> Models <-->
+
+    <sys:String x:Key="EaseIn">Entrar Fácil*.</sys:String>
+    <sys:String x:Key="EaseOut">Descubrir Fácil*.</sys:String>
+    <sys:String x:Key="EaseInOut">Ambos..</sys:String>
+
+    <sys:String x:Key="Shape1">LÍnea</sys:String>
+    <sys:String x:Key="Shape2">CírculO</sys:String>
+    <sys:String x:Key="Shape3">ArcO</sys:String>
+
+    <sys:String x:Key="BlurBackground">Imagen Borrosa</sys:String>
+    <sys:String x:Key="ImageBackground">Imagen-Fondo.</sys:String>
+    <sys:String x:Key="PureColorBackground">Color_Puro</sys:String>
+
+    <sys:String x:Key="OfficialMirror">Mojang Descargar Servidor</sys:String>
+    <sys:String x:Key="BangBangApiMirror">BMCLAPI Descargar</sys:String>
+    <sys:String x:Key="McBbsMirror">McBbs Descargar</sys:String>
+
+    <sys:String x:Key="BackEase">Retroceder,</sys:String>
+    <sys:String x:Key="BounceEase">Rebotar,</sys:String>
+    <sys:String x:Key="CircleEase">Círculo.</sys:String>
+    <sys:String x:Key="CubicEase">t³ función</sys:String>
+    <sys:String x:Key="ElasticEase">Elástico</sys:String>
+    <sys:String x:Key="ExponentialEase">Exponencial [función」 </sys:String>
+    <sys:String x:Key="PowerEase">t*p función</sys:String>
+    <sys:String x:Key="QuadraticEase">t² función</sys:String>
+    <sys:String x:Key="QuinticEase">t⁵ función</sys:String>
+    <sys:String x:Key="SineEase">Sin(t) función</sys:String>
+
+    <sys:String x:Key="NoSelectedBgImage">No disponible camino de fondo imagen...</sys:String>
+
+    <sys:String x:Key="StaySame">Quédate Igual</sys:String>
+
+    <sys:String x:Key="All">Todos.</sys:String>
+
+    <sys:String x:Key="SkinNotFound">No skin buscargado...</sys:String>
+    <sys:String x:Key="SkinNotFoundDetail">No skin de {0} ...</sys:String>
+
+    <sys:String x:Key="Delay">El retraso/-ping. </sys:String>
+    <sys:String x:Key="TimeOutOrError">TimeOut/Error...</sys:String>
+    <sys:String x:Key="Times">...por tiempos.</sys:String>
+
+    <sys:String x:Key="TestDelayFailedDetail">Un examine retraso exam de {0}-ping hay fallido...</sys:String>
+
+    <!--> 更新语言文件添加内容 <-->
+
+    <sys:String x:Key="LightTheme">Brillante Theme</sys:String>
+    <sys:String x:Key="DarkTheme">Oscuro Theme</sys:String>
+
+    <!--> 法棍万岁! <-->
+
+    <!--> 西班牙语语言文件 Corona Studio Feiron Iguista 荣誉出品 <-->
+    <sys:String x:Key="TranslatorCredits">Corona Studio François - Español- noEstándar </sys:String>
+
+    <!--> 什么屁屁 <-->
+
+    <!--> About Page <-->
+
+    <sys:String x:Key="AboutUs">Sobre Nosotros</sys:String>
+    <sys:String x:Key="AboutUsContent">
+        Corona Studio es el equipo del CMFL.Antes LauncherX lanzar,estamos manteniendo CMFL y su afiliados.
+        Después de nosortos tener más experiencias y ideas, el nuevo Minecraft Lanzador- LauncherX - en marcha.
+        Nosotros también han explorado otras cosas sobre Minecraft:Juego Servidor y otros.
+        Los equipo primeros miembros,tenemos los mismos deseos y favoritos.Entonces nos unimos a un Studio.
+        .ª:Lanzamiento means Launch
+    </sys:String>
+
+    <sys:String x:Key="GroupMembers">Miembros del Programación</sys:String>
+    <sys:String x:Key="GroupMember1">LaoLaRou - FrontEnd,Cores del LauncherX y Lanzamiento.ª</sys:String>
+    <sys:String x:Key="GroupMember2">CodingEric - UI,UX,tools</sys:String>
+    <sys:String x:Key="GroupMember3">Leon - FrontEnd,Cores del LauncherX</sys:String>
+    <sys:String x:Key="GroupMember4">纪华裕 - BackEnd</sys:String>
+    <sys:String x:Key="GroupMember5">yueyinqiu5990 - Cores para Lanzamiento</sys:String>
+
+    <sys:String x:Key="TranslateGroupMembers">Miembros del Translacións</sys:String>
+    <sys:String x:Key="TranslateGroupMember1">里卡 - Chino Tradicional</sys:String>
+    <sys:String x:Key="TranslateGroupMember2">Françoisifrig - español</sys:String>
+    <sys:String x:Key="TranslateGroupMember3">jonW - English/Inglés</sys:String>
+
+
+    <sys:String x:Key="Thanks">Agradecimientos</sys:String>
+    <sys:String x:Key="Thanks1">Gracias: Descargar Servicio para Archivos del Minecraft por BangBang93 y McBbs</sys:String>
+    <sys:String x:Key="Thanks2">Gracias: Servidor por 优势科技-星星</sys:String>
+    <sys:String x:Key="Thanks3">Gracias: Tecnológico guiar por CI010 para ProjBobcat Core.</sys:String>
+
+    <sys:String x:Key="OpenSourceProjectUsages">OpenSources...</sys:String>
+
+
+    <sys:String x:Key="Other">Otros...</sys:String>
+
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+    <sys:String x:Key="OtherContent">( •̀ ω •́ )y ¡bendito！</sys:String>
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+
+    <sys:String x:Key="ChangeLanguageRebootRequired">Reiniciar LauncherX para nuevo idioma ajustes...</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="GameLogsWindowTitle">Título del ventana de Logs-Inmediato</sys:String>
+    <sys:String x:Key="TopMost">Alfiler a la Cima</sys:String>
+    <sys:String x:Key="Moveable">Móvil..</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="NoSuchPageKeyExceptionMessage">No hay pagos en key {0} </sys:String>
+
+
+    <!--> Models <-->
+
+</ResourceDictionary>
