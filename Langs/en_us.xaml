@@ -72,6 +72,8 @@
 
 	<sys:String x:Key="CreateNewAccount">Create New Account</sys:String>
 	<sys:String x:Key="OfflineAccount">Offline Account</sys:String>
+	<sys:String x:Key="MojangAccount">Mojang Account</sys:String>
+   	<sys:String x:Key="MicrosoftAccount">Microsoft Account</sys:String>
 	<sys:String x:Key="OnlineAccount">Online Account</sys:String>
 	<sys:String x:Key="Email">Email</sys:String>
 	<sys:String x:Key="DisplayName">Display Name</sys:String>
@@ -79,6 +81,10 @@
 	<sys:String x:Key="AuthLibServer">AuthLib Server</sys:String>
 	<sys:String x:Key="Optional">Optional</sys:String>
 	<sys:String x:Key="SaveAccount">Save Account</sys:String>
+	<sys:String x:Key="CheckingAccount">Now checking account...</sys:String>
+    	<sys:String x:Key="Default">Default</sys:String>
+    	<sys:String x:Key="CheckFailed">Validation Failed</sys:String>
+   	<sys:String x:Key="SkinRequestFailed">Fail to get skin.</sys:String>
 
 	<!--> CreateNewAccountDialog.xaml <-->
 
@@ -91,6 +97,7 @@
 	<!--> SettingsPage.xaml <-->
 
 	<sys:String x:Key="GlobalGameSettings">Global Game Settings</sys:String>
+	<sys:String x:Key="RegionAndLang">Region And Language</sys:String>
 	<sys:String x:Key="Appearance">Appearance</sys:String>
 	<sys:String x:Key="Network">Network</sys:String>
 	<sys:String x:Key="Advanced">Advanced</sys:String>
@@ -108,8 +115,8 @@
 
 	<sys:String x:Key="GameWindowSize">Game Window Size</sys:String>
 	<sys:String x:Key="Width">Width</sys:String>
-    <sys:String x:Key="Height">Height</sys:String>
-    <sys:String x:Key="FullScreen">Full Screen</sys:String>
+        <sys:String x:Key="Height">Height</sys:String>
+        <sys:String x:Key="FullScreen">Full Screen</sys:String>
 
 	<sys:String x:Key="Enable">Enable</sys:String>
 	<sys:String x:Key="Disable">Disable</sys:String>
@@ -134,6 +141,9 @@
 	<sys:String x:Key="GlobalAnimationEasingFunction">Global Animation Easing Function</sys:String>
 	<sys:String x:Key="GlobalAnimationEasingMode">Global Animation Easing Mode</sys:String>
 
+	<sys:String x:Key="AppearancePageTitle">Modify your launcher appearance.</sys:String>
+    	<sys:String x:Key="AppearancePageDetail">You can see window preview on the right.</sys:String>
+	 
 	<sys:String x:Key="ThemeMode">Theme Mode</sys:String>
 	<sys:String x:Key="Language">Language</sys:String>
 	<sys:String x:Key="UseFluidMove">Enable Fluid Move</sys:String>
@@ -156,6 +166,11 @@
 	<sys:String x:Key="PrimaryFont">Primary Font</sys:String>
 	<sys:String x:Key="SecondaryFont">Secondary Font</sys:String>
 
+     	<sys:String x:Key="PreviewFont">Preview Font</sys:String>
+    	<sys:String x:Key="PreviewFontSize">Preview Font Size</sys:String>
+    	<sys:String x:Key="PreviewFontHint">Input any character to preview.</sys:String>
+
+	 
 	<sys:String x:Key="FontChangedHint">You've changed font settings. To apply changes, please restart launcher.</sys:String>
 	<sys:String x:Key="FontFamilyPreviewTestText">The quick brown fox jumps over the lazy dog. THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG. 0123456789</sys:String>
 
@@ -385,5 +400,90 @@
 	<sys:String x:Key="NoSuchPageKeyExceptionMessage">No page found for key value of {0}.</sys:String>
 	<sys:String x:Key="GetSettingsFailed">Error when reading the configuration file.</sys:String>
 	<sys:String x:Key="SearchGameHint">Search for the id of installed game. e.g. 1.15.2</sys:String>
+
+    <sys:String x:Key="Yes">Yes</sys:String>
+    <sys:String x:Key="No">No</sys:String>
+
+    <sys:String x:Key="DownloadFailed">Download Failed</sys:String>
+    <sys:String x:Key="RequestOnlineGame">Requesting for online game...</sys:String>
+    <sys:String x:Key="RequestFailed">Request Failed</sys:String>
+
+    <sys:String x:Key="Finished">Done</sys:String>
+    <sys:String x:Key="Download">Download</sys:String>
+
+    <sys:String x:Key="Env">Environment</sys:String>
+    <sys:String x:Key="Install">Install</sys:String>
+
+    <sys:String x:Key="GetJavaInfoFailed">Undefined Java Runtime...</sys:String>
+    <sys:String x:Key="FileNotFound">File Not Found</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">This version of JRE ( {0} ) is compatible with your system.</sys:String>
+    <sys:String x:Key="BadJavaRuntime">This version of JRE ( {0} ) is NOT compatible with your system architecture ( x{0} ). It may cause performance issues.</sys:String>
+
+    <sys:String x:Key="SelectedVersion">Selected Version</sys:String>
+    <sys:String x:Key="ManuallyCopyRedirectUrl">Manually Copy RedirectUrl</sys:String>
+
+    <sys:String x:Key="Login">Login</sys:String>
+
+    <sys:String x:Key="ConnectToService">Connect To Service</sys:String>
+
+    <sys:String x:Key="IntroWelcomeText">Welcome to use LauncherX</sys:String>
+    <sys:String x:Key="IntroWelcomeTextDetail">Please click next to start configuration wizard.</sys:String>
+
+    <sys:String x:Key="IntroSelectAppearance">Choose your favorite appearance.</sys:String>
+    <sys:String x:Key="IntroSelectAppearanceDetail">More options are at the "Appearance" tab in settings page.</sys:String>
+
+    <sys:String x:Key="IntroAddAccount">Add a game account.</sys:String>
+    <sys:String x:Key="IntroAddAccountDetail">You can click on your username in the upper-left corner of the main window to manage your account or preview skin in 3D after the wizard.</sys:String>
+
+    <sys:String x:Key="IntroGameSettings">Required game settings.</sys:String>
+    <sys:String x:Key="IntroGameSettingsDetail">Here are some settings required to launch the game. Your can find more other settings at the "Global Game Settings" tab in the settings page later.</sys:String>
+
+    <sys:String x:Key="IntroFinishedDetail">Congrats. You've finished the wizard, the launcher is ready!</sys:String>
+
+    <sys:String x:Key="Previous">Previous</sys:String>
+    <sys:String x:Key="Next">Next</sys:String>
+
+    <sys:String x:Key="RequestingGameList">Loading game list, please wait.</sys:String>
+
+    <sys:String x:Key="SystemInfo">System Information</sys:String>
+    <sys:String x:Key="GameInfo">Game Information</sys:String>
+    <sys:String x:Key="Memory">Memory</sys:String>
+    <sys:String x:Key="Time">Time</sys:String>
+    <sys:String x:Key="GameTime">Game Play Time</sys:String>
+    <sys:String x:Key="Count">Count</sys:String>
+
+    <sys:String x:Key="AccountType">Account Type</sys:String>
+    <sys:String x:Key="ValidOnlineAccount">Valid Online Account</sys:String>
+
+    <sys:String x:Key="StatData">Statistics</sys:String>
+    <sys:String x:Key="News">News</sys:String>
+    <sys:String x:Key="GetGames">Get Games</sys:String>
+
+    <sys:String x:Key="Free">Free</sys:String>
+    <sys:String x:Key="Using">Using</sys:String>
+    <sys:String x:Key="Game">Game</sys:String>
+
+    <sys:String x:Key="Save">Save</sys:String>
+    <sys:String x:Key="BasicSettings">Basic Settings</sys:String>
+    <sys:String x:Key="GameName">Game Name</sys:String>
+    <sys:String x:Key="GamePath">Game Path</sys:String>
+    <sys:String x:Key="Icon">Icon</sys:String>
+
+    <sys:String x:Key="Offline">Offline</sys:String>
+    <sys:String x:Key="ChooseLoginType">Please choose your login method.</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">Please choose your authentication method. Use Mojang if you're unsure about this option.</sys:String>
+
+    <sys:String x:Key="GlobalNotSet">Global Not Set</sys:String>
+    <sys:String x:Key="SaveSettingsFailed">Save Settings Failed</sys:String>
+
+    <sys:String x:Key="FalseFabricInstallSettings">Incorrect Fabric Installation</sys:String>
+    <sys:String x:Key="FalseFabricInstallSettingsDetail">You have only selected the Fabric Loader OR the Fabric Yarn. To install fabric you need BOTH of them.</sys:String>
+
+    <sys:String x:Key="GetFailed">Pull Field</sys:String>
+
+    <sys:String x:Key="ConfirmExit">Do you wish to exit?</sys:String>
+    <sys:String x:Key="ConfirmExitDetail">The configuration of LauncherX is not done yet. All the unsaved changes will be discarded.</sys:String>
+	 
+	
 
 </ResourceDictionary>
