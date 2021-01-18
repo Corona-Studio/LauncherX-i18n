@@ -21,6 +21,7 @@
     <sys:String x:Key="Close">关闭</sys:String>
 
     <sys:String x:Key="Exit">退出</sys:String>
+    <sys:String x:Key="Maximize">最大化</sys:String>
     <sys:String x:Key="Minimize">最小化</sys:String>
     <sys:String x:Key="Force">强制</sys:String>
 
@@ -513,5 +514,15 @@
     <sys:String x:Key="FabricDescription">Fabric 是 Minecraft 的轻量级实验修改工具链。</sys:String>
     <sys:String x:Key="LiteLoaderDescription">LiteLoader 是 Minecraft 的轻量级Mod加载器，旨在为不需要修改游戏机制的 Mod 提供简单，高性能，可靠的加载器功能。</sys:String>
     <sys:String x:Key="OptifineDescription">提供 Minecraft 性能调整和高级图形实现（例如光影）。</sys:String>
+
+    <sys:String x:Key="NotSupportedOperation">不受支持的操作</sys:String>
+    <sys:String x:Key="MultiFilesNotSupportedOperationDetail">暂时不支持多文件操作，我们将在今后支持。</sys:String>
+
+    <sys:String x:Key="DragDetected">您拖入了文件</sys:String>
+    <sys:String x:Key="ChooseFileTypeDetail">请在下方选择您的文件类型。注意，部分文件可能暂时不受支持。</sys:String>
+
+    <sys:String x:Key="Author">作者</sys:String>
+    <sys:String x:Key="Version">版本</sys:String>
+    <sys:String x:Key="Loading">加载中</sys:String>
 
 </ResourceDictionary>
