@@ -7,7 +7,7 @@
     <!--> 请注意原文中空格的格式及其他风格信息 <-->
 
     <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
-    <sys:String x:Key="TranslatorCredits">里卡 - 繁體中文</sys:String>
+    <sys:String x:Key="TranslatorCredits">LauncherX 官方 - 繁體中文（香港）</sys:String>
     <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
 
     <sys:String x:Key="Ok">確定</sys:String>
@@ -32,7 +32,7 @@
 
     <sys:String x:Key="EmptyDirFailed">未能清空資料夾</sys:String>
     <sys:String x:Key="ExitMainPg">退出LauncherX</sys:String>
-    <sys:String x:Key="TryContinue">嘗試繼續使用</sys:String>
+    <sys:String x:Key="TryContinue">仍然繼續</sys:String>
     <sys:String x:Key="UncaughtEx">LauncherX遇到了無法描述的錯誤。</sys:String>
 
     <!--> App.xaml.cs <-->
@@ -44,7 +44,7 @@
     <sys:String x:Key="Dashboard">儀表板</sys:String>
     <sys:String x:Key="Settings">設定</sys:String>
 
-    <sys:String x:Key="BetaHint">beta版本，僅限開發人員使用</sys:String>
+    <sys:String x:Key="BetaHint">beta版本 僅限開發人員使用</sys:String>
     <sys:String x:Key="Start">啟動</sys:String>
     <sys:String x:Key="TaskCenter">任務中心</sys:String>
 
@@ -61,14 +61,14 @@
     <!--> MainViewModel.cs <-->
 
     <sys:String x:Key="RunningJobsFound">還有任務正在運行</sys:String>
-    <sys:String x:Key="ExitAndDropTasksHint">您還有 {0} 个任務在調度隊列中，您是否確定要退出啟動器？所有正在運行的任務將被銷毀且無法恢復。</sys:String>
+    <sys:String x:Key="ExitAndDropTasksHint">您還有 {0} 个任務在調度隊列中，您是否確定要退出啟動器？您會失去所有正在運行的任務。</sys:String>
     <sys:String x:Key="WaitToFinish">等待完成</sys:String>
 
-    <sys:String x:Key="GameNotSelect">未選擇遊戲</sys:String>
-    <sys:String x:Key="GameNotSelectHint">未選擇需要啟動的遊戲</sys:String>
+    <sys:String x:Key="GameNotSelect">您還沒有選擇遊戲</sys:String>
+    <sys:String x:Key="GameNotSelectHint">選擇一個需要啟動的遊戲</sys:String>
 
-    <sys:String x:Key="AccountNotSelect">未選擇帳戶</sys:String>
-    <sys:String x:Key="AccountNotSelectHint">未選擇啟動用帳戶或選擇的帳戶無效</sys:String>
+    <sys:String x:Key="AccountNotSelect">您沒有選擇有效的帳戶</sys:String>
+    <sys:String x:Key="AccountNotSelectHint">選擇一個啟動用帳戶或重新選擇一個有效帳戶</sys:String>
 
     <!--> MainViewModel.cs <-->
 
@@ -82,14 +82,25 @@
     <!--> CreateNewAccountDialog.xaml <-->
 
     <sys:String x:Key="CreateNewAccount">建立新帳戶</sys:String>
+
     <sys:String x:Key="OfflineAccount">離線帳戶</sys:String>
+    <sys:String x:Key="MojangAccount">Mojang 帳戶</sys:String>
+    <sys:String x:Key="MicrosoftAccount">Microsoft 帳戶</sys:String>
+
     <sys:String x:Key="OnlineAccount">在線帳戶</sys:String>
-    <sys:String x:Key="Email">電子郵件</sys:String>
-    <sys:String x:Key="DisplayName">用戶名</sys:String>
+    <sys:String x:Key="Email">電子郵箱</sys:String>
+    <sys:String x:Key="DisplayName">玩家ID</sys:String>
     <sys:String x:Key="Password">密碼</sys:String>
     <sys:String x:Key="AuthLibServer">AuthLib伺服器</sys:String>
     <sys:String x:Key="Optional">可選</sys:String>
     <sys:String x:Key="SaveAccount">保存帳戶</sys:String>
+
+    <sys:String x:Key="CheckingAccount">正在驗證賬戶...</sys:String>
+    <sys:String x:Key="Default">默認</sys:String>
+
+    <sys:String x:Key="CheckFailed">驗證失敗</sys:String>
+
+    <sys:String x:Key="SkinRequestFailed">皮膚獲取失敗</sys:String>
 
     <!--> CreateNewAccountDialog.xaml <-->
 
@@ -102,6 +113,7 @@
     <!--> SettingsPage.xaml <-->
 
     <sys:String x:Key="GlobalGameSettings">一般</sys:String>
+    <sys:String x:Key="RegionAndLang">語言</sys:String>
     <sys:String x:Key="Appearance">外觀</sys:String>
     <sys:String x:Key="Network">網路</sys:String>
     <sys:String x:Key="Advanced">進階</sys:String>
@@ -145,6 +157,9 @@
     <sys:String x:Key="GlobalAnimationEasingFunction">全局動畫緩動函數</sys:String>
     <sys:String x:Key="GlobalAnimationEasingMode">全局動畫緩動模式</sys:String>
 
+    <sys:String x:Key="AppearancePageTitle">在這裡修改你的啟動器外觀</sys:String>
+    <sys:String x:Key="AppearancePageDetail">在右側您可以預覽效果</sys:String>
+
     <sys:String x:Key="ThemeMode">主題模式</sys:String>
     <sys:String x:Key="Language">語言</sys:String>
     <sys:String x:Key="UseFluidMove">啟用平滑滾動</sys:String>
@@ -160,17 +175,21 @@
     <sys:String x:Key="GetAccountColorFromBgImage">自動從我的背景選擇輔色</sys:String>
     <sys:String x:Key="GetPaletteErrorHint">未能找到與當前背景對應的調色板，可能是因為您擅自修改了啟動器保留目錄或配置文件。</sys:String>
     <sys:String x:Key="UsePureColorAsAccentColor">將主界面純色背景顏色作為輔色</sys:String>
-    <sys:String x:Key="UseSelectedColorAsAccentColor">自定義輔色</sys:String>
+    <sys:String x:Key="UseSelectedColorAsAccentColor">自訂輔色</sys:String>
 
     <sys:String x:Key="Preview">預覽</sys:String>
     <sys:String x:Key="UiFontFamily">字體</sys:String>
     <sys:String x:Key="PrimaryFont">首選字體</sys:String>
     <sys:String x:Key="SecondaryFont">備選字體</sys:String>
 
+    <sys:String x:Key="PreviewFont">預覽字體</sys:String>
+    <sys:String x:Key="PreviewFontSize">預覽字體大小</sys:String>
+    <sys:String x:Key="PreviewFontHint">輸入任意文字以預覽效果</sys:String>
+
     <sys:String x:Key="FontChangedHint">應用新字體需要重啟啟動器</sys:String>
     <sys:String x:Key="FontFamilyPreviewTestText">青天俄有星千點，日晝爭看月一弦 abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890.:,; ' " (!?) +−*/=</sys:String>
 
-    <sys:String x:Key="BaseNetworkSettings">基礎網路設置</sys:String>
+    <sys:String x:Key="BaseNetworkSettings">基礎網路設定</sys:String>
     <sys:String x:Key="ResourceDownloadServer">資源下載伺服器</sys:String>
     <sys:String x:Key="DownloadThreadCount">下載線程數量</sys:String>
     <sys:String x:Key="AutoDetectDownloadMethod">自動選擇下載資源的方式</sys:String>
@@ -186,21 +205,20 @@
 
     <sys:String x:Key="WhatDataWeCollect">我們會收集哪些數據</sys:String>
     <sys:String x:Key="WhatDataWeCollectContent">
-        我們會收集您計算機的一些常見數據，例如使用的語言、操作系統版本。同時我們還會收集有關啟動器的一些運行數據，例如崩潰、異常、
+        我們會收集您電腦的一些常見數據，例如使用的語言和操作系統版本。同時我們還會收集有關啟動器的一些運行數據，例如崩潰、異常、
         使用時長、啟動的遊戲和遊戲時長。這些數據都將經過妥善的保密處理並儲存在安全的伺服器上。
     </sys:String>
 
     <sys:String x:Key="HowWeUseData">我們會如何使用這些數據</sys:String>
     <sys:String x:Key="HowWeUseDataContent">
-        這些數據將會幫助我們來完成用戶群體的分析和錯誤分析，例如語言與地區設定將會讓我們更好地了解用戶群體的分佈地區；產生的錯誤記錄檔案
-        和崩潰資訊將會幫助我們更好地解決啟動器存在的缺陷，並以此將更好地應用程式體驗帶給廣大用戶。
+        這些數據將會幫助我們來完成用戶群體的分析和錯誤分析，例如語言與地區設定將會讓我們更好地了解用戶群體的分佈地區；產生的錯誤記錄檔案和崩潰資訊將會幫助我們更好地解決啟動器存在的缺陷，並以此將更好地應用程式體驗帶給廣大用戶。
     </sys:String>
 
     <!--> SettingsPage.xaml <-->
 
     <!--> SettingsPage.xaml.cs <-->
 
-    <sys:String x:Key="GeneratedJavaAgentArg">拼接後的JavaAgent啟動參數：</sys:String>
+    <sys:String x:Key="GeneratedJavaAgentArg">拼接后的JavaAgent启动参数：</sys:String>
 
     <!--> SettingsPage.xaml.cs <-->
 
@@ -216,7 +234,7 @@
     <sys:String x:Key="ImageFile">相片檔案</sys:String>
     <sys:String x:Key="ImportBgImage">導入背景檔案</sys:String>
     <sys:String x:Key="BrowseBgImageDialogTitle">選擇要導入的背景</sys:String>
-    <sys:String x:Key="PrepareToImportBgImage">準備導入背景…</sys:String>
+    <sys:String x:Key="PrepareToImportBgImage">準備導入背景…...</sys:String>
     <sys:String x:Key="ImportingPleaseWait">正在進行導入，請稍後…</sys:String>
     <sys:String x:Key="AlreadyImported">已導入，將不再重複導入</sys:String>
 
@@ -244,11 +262,11 @@
 
     <sys:String x:Key="CheckingDelay">正在測試延遲</sys:String>
 
-    <sys:String x:Key="ServerStatus1Hint">服務穩定</sys:String>
-    <sys:String x:Key="ServerStatus2Hint">服務出現波動，可能將出現暫時性的中斷服務，或是由您本地網路問題導致丟包嚴重。</sys:String>
-    <sys:String x:Key="ServerStatus3Hint">服務出錯，目前已停止提供服務，或是由您本地網路問題導致無法與伺服器建立通訊。</sys:String>
-    <sys:String x:Key="CurrentStatusIs">當前狀態為</sys:String>
-    <sys:String x:Key="WhichMeans">表明了</sys:String>
+    <sys:String x:Key="ServerStatus1Hint">服務穩定。</sys:String>
+    <sys:String x:Key="ServerStatus2Hint">服務出現波動。可能將出現暫時性的中斷服務，或是由您本地網路問題導致丟包嚴重。</sys:String>
+    <sys:String x:Key="ServerStatus3Hint">服務出錯。目前已停止提供服務，或是由您本地網路問題導致無法與伺服器建立通訊。</sys:String>
+    <sys:String x:Key="CurrentStatusIs">當前狀態</sys:String>
+    <sys:String x:Key="WhichMeans"></sys:String>
 
     <!--> ServerStatusControlTemplate.xaml <-->
 
@@ -260,7 +278,7 @@
 
     <!--> TaskCenterPanel.xaml <-->
 
-    <sys:String x:Key="TaskQueue">調度隊列</sys:String>
+    <sys:String x:Key="TaskQueue">任務佇列</sys:String>
     <sys:String x:Key="NoMoreTask">沒有任務</sys:String>
     <sys:String x:Key="NotifyHistory">歷史通知</sys:String>
     <sys:String x:Key="NoMoreNotify">沒有通知</sys:String>
@@ -301,9 +319,9 @@
 
     <!--> Models <-->
 
-    <sys:String x:Key="EaseIn">緩如</sys:String>
-    <sys:String x:Key="EaseOut">緩出</sys:String>
-    <sys:String x:Key="EaseInOut">緩入/出</sys:String>
+    <sys:String x:Key="EaseIn">淡入</sys:String>
+    <sys:String x:Key="EaseOut">淡出</sys:String>
+    <sys:String x:Key="EaseInOut">淡入/出</sys:String>
 
     <sys:String x:Key="Shape1">直線</sys:String>
     <sys:String x:Key="Shape2">圓圈</sys:String>
@@ -314,8 +332,8 @@
     <sys:String x:Key="PureColorBackground">純色背景</sys:String>
 
     <sys:String x:Key="OfficialMirror">Mojang官方伺服器</sys:String>
-    <sys:String x:Key="BangBangApiMirror">Bangbang93的下載伺服器</sys:String>
-    <sys:String x:Key="McBbsMirror">McBbs的下載伺服器</sys:String>
+    <sys:String x:Key="BangBangApiMirror">Bangbang93下載伺服器</sys:String>
+    <sys:String x:Key="McBbsMirror">McBbs下載伺服器</sys:String>
 
     <sys:String x:Key="BackEase">收回</sys:String>
     <sys:String x:Key="BounceEase">彈跳</sys:String>
@@ -326,9 +344,9 @@
     <sys:String x:Key="PowerEase">t*p函數</sys:String>
     <sys:String x:Key="QuadraticEase">t²函數</sys:String>
     <sys:String x:Key="QuinticEase">t⁵函數</sys:String>
-    <sys:String x:Key="SineEase">Sin(t)函數</sys:String>
+    <sys:String x:Key="SineEase">sin(t)函數</sys:String>
 
-    <sys:String x:Key="NoSelectedBgImage">未設置背景路徑</sys:String>
+    <sys:String x:Key="NoSelectedBgImage">未設定背景路徑</sys:String>
 
     <sys:String x:Key="StaySame">保持原有設定</sys:String>
 
@@ -352,28 +370,28 @@
 
     <sys:String x:Key="AboutUs">關於我們</sys:String>
     <sys:String x:Key="AboutUsContent">
-        Corona Studio（日冕工作室）的前身是 CMFL 啟動器開發團隊。我們在此之前大部分時間都在維護 CMFL 啟動器及其附屬項目。
-        我們從 CMFL 汲取了大量經驗與教訓之後開發了一個全新風格的啟動器 - LauncherX。
+        Corona Studio（日冕工作室）的前身是CMFL啟動器開發團隊。我們在此之前大部分時間都在維護CMFL啟動器及其附屬項目。
+        我們從CMFL汲取了大量經驗與教訓之後開發了一個全新風格的啟動器 - LauncherX。
         同時，我們在Minecraft伺服器方面也有所涉獵。社交網路上一些和我們志同道合與興趣相同的朋友組成了我們最初的團隊。
     </sys:String>
 
     <sys:String x:Key="GroupMembers">團隊成員</sys:String>
-    <sys:String x:Key="GroupMember1">老腊肉 - 前段、啟動器核心、啟動核心</sys:String>
+    <sys:String x:Key="GroupMember1">老腊肉 - 前端、啟動器核心、啟動核心</sys:String>
     <sys:String x:Key="GroupMember2">CodingEric - UI、人機交互設計、附屬工具鏈開發</sys:String>
     <sys:String x:Key="GroupMember3">Leon - 前段、動畫設計、啟動器核心</sys:String>
     <sys:String x:Key="GroupMember4">纪华裕 - 後端</sys:String>
     <sys:String x:Key="GroupMember5">月银秋 - 啟動核心</sys:String>
 
     <sys:String x:Key="TranslateGroupMembers">翻譯組成員</sys:String>
-    <sys:String x:Key="TranslateGroupMember1">里卡 - 繁體中文（香港）</sys:String>
+    <sys:String x:Key="TranslateGroupMember1">里卡 - 繁體中文（香港）、繁體中文（澳門）</sys:String>
     <sys:String x:Key="TranslateGroupMember2">法棍面包 - Español</sys:String>
     <sys:String x:Key="TranslateGroupMember3">jonW - English</sys:String>
 
 
     <sys:String x:Key="Thanks">鳴謝</sys:String>
-    <sys:String x:Key="Thanks1">感謝由 BangBang93 以及 McBbs 提供的 MineCraft 資源檔案下載加速服務</sys:String>
-    <sys:String x:Key="Thanks2">感謝由 优势科技-星星 贊助伺服器</sys:String>
-    <sys:String x:Key="Thanks3">感謝 CI010 為 ProjBobcat 啟動核心開發提供的技術指導</sys:String>
+    <sys:String x:Key="Thanks1">感謝由BangBang93以及McBbs提供的MineCraft資源檔案下載加速服務</sys:String>
+    <sys:String x:Key="Thanks2">感謝由优势科技-星星 贊助伺服器</sys:String>
+    <sys:String x:Key="Thanks3">感謝CI010為ProjBobcat啟動核心開發提供的技術指導</sys:String>
 
     <sys:String x:Key="OpenSourceProjectUsages">開源項目使用</sys:String>
 
@@ -381,7 +399,7 @@
     <sys:String x:Key="Other">其他</sys:String>
 
     <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
-    <sys:String x:Key="OtherContent">吔！</sys:String>
+    <sys:String x:Key="OtherContent">這裡什麼都沒有</sys:String>
     <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
 
     <!--> About Page <-->
@@ -396,6 +414,93 @@
 
     <!--> GameLogsWindow.xaml <-->
 
-    <sys:String x:Key="NoSuchPageKeyExceptionMessage">未找到鍵值為 {0} 的頁面。</sys:String>
+    <sys:String x:Key="NoSuchPageKeyExceptionMessage">沒有找到鍵值為 {0} 的頁面。</sys:String>
+
+
+    <sys:String x:Key="GetSettingsFailed">讀取設定檔案時發生錯誤</sys:String>
+    <sys:String x:Key="SearchGameHint">搜尋已安裝遊戲ID，例如：1.15.2</sys:String>
+
+    <sys:String x:Key="Yes">是</sys:String>
+    <sys:String x:Key="No">否</sys:String>
+
+    <sys:String x:Key="DownloadFailed">下載失敗</sys:String>
+    <sys:String x:Key="RequestOnlineGame">獲取在線遊戲…</sys:String>
+    <sys:String x:Key="RequestFailed">獲取失敗</sys:String>
+
+    <sys:String x:Key="Finished">完成</sys:String>
+    <sys:String x:Key="Download">下載</sys:String>
+
+    <sys:String x:Key="Env">前置環境</sys:String>
+    <sys:String x:Key="Install">安裝</sys:String>
+
+    <sys:String x:Key="GetJavaInfoFailed">無法確定運行時的具體情況…</sys:String>
+    <sys:String x:Key="FileNotFound">沒有找到檔案</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">該Java運行時 ( {0} ) 匹配您的系統</sys:String>
+    <sys:String x:Key="BadJavaRuntime">該Java運行時 ( x{0} ) 與您的系統架構 ( x{0} ) 不匹配，可能會出現性能問題</sys:String>
+
+    <sys:String x:Key="SelectedVersion">選擇版本</sys:String>
+    <sys:String x:Key="ManuallyCopyRedirectUrl">手動複製RedirectUrl</sys:String>
+
+    <sys:String x:Key="Login">登入</sys:String>
+
+    <sys:String x:Key="ConnectToService">連接到服務</sys:String>
+
+    <sys:String x:Key="IntroWelcomeText">歡迎使用LauncherX</sys:String>
+    <sys:String x:Key="IntroWelcomeTextDetail">下面即將開始安裝提示，請點擊 下一步 。</sys:String>
+
+    <sys:String x:Key="IntroSelectAppearance">選擇外觀</sys:String>
+    <sys:String x:Key="IntroSelectAppearanceDetail">稍後您可以在啟動器的 設定-外觀 中更改更多的外觀選項。</sys:String>
+
+    <sys:String x:Key="IntroAddAccount">添加新帳戶</sys:String>
+    <sys:String x:Key="IntroAddAccountDetail">在安裝提示完成後，您可以點擊啟動器主界面右上角的用戶名來管理您的遊戲帳戶，或是以3D人仔的方式預覽您的遊戲皮膚。</sys:String>
+
+    <sys:String x:Key="IntroGameSettings">完成必須的遊戲設定</sys:String>
+    <sys:String x:Key="IntroGameSettingsDetail">您需要完善一些啟動所必須的核心設定。稍後您可以在 設定-一般 中更改更多自訂設置。</sys:String>
+
+    <sys:String x:Key="IntroFinishedDetail">大功告成！您可以開始使用LauncherX了。</sys:String>
+
+    <sys:String x:Key="Previous">上一步</sys:String>
+    <sys:String x:Key="Next">下一步</sys:String>
+
+    <sys:String x:Key="RequestingGameList">正在加載遊戲列表</sys:String>
+
+    <sys:String x:Key="SystemInfo">系統資訊</sys:String>
+    <sys:String x:Key="GameInfo">遊戲資訊</sys:String>
+    <sys:String x:Key="Memory">記憶體</sys:String>
+    <sys:String x:Key="Time">時間</sys:String>
+    <sys:String x:Key="GameTime">遊戲時長</sys:String>
+    <sys:String x:Key="Count">次數</sys:String>
+
+    <sys:String x:Key="AccountType">帳戶類型</sys:String>
+    <sys:String x:Key="ValidOnlineAccount">有效的在線帳戶</sys:String>
+
+    <sys:String x:Key="StatData">統計數據</sys:String>
+    <sys:String x:Key="News">新聞</sys:String>
+    <sys:String x:Key="GetGames">取得遊戲</sys:String>
+
+    <sys:String x:Key="Free">空閒</sys:String>
+    <sys:String x:Key="Using">使用中</sys:String>
+    <sys:String x:Key="Game">遊戲</sys:String>
+
+    <sys:String x:Key="Save">保存</sys:String>
+    <sys:String x:Key="BasicSettings">基礎設定</sys:String>
+    <sys:String x:Key="GameName">遊戲名稱</sys:String>
+    <sys:String x:Key="GamePath">遊戲路徑</sys:String>
+    <sys:String x:Key="Icon">圖示</sys:String>
+
+    <sys:String x:Key="Offline">離線</sys:String>
+    <sys:String x:Key="ChooseLoginType">請選擇您的登入方式</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">請選擇您的驗證方式。如您不確定如何選擇驗證方式，請使用 Mojang 驗證。</sys:String>
+    
+    <sys:String x:Key="GlobalNotSet">全局未設定</sys:String>
+    <sys:String x:Key="SaveSettingsFailed">設定保存失敗</sys:String>
+
+    <sys:String x:Key="FalseFabricInstallSettings">Fabric安裝配置不正確</sys:String>
+    <sys:String x:Key="FalseFabricInstallSettingsDetail">您只選擇了Fabric Loader與Fabric Yarn中的一個，請在兩個列表中選擇合適的版本安裝來繼續。</sys:String>
+
+    <sys:String x:Key="GetFailed">拉取失敗</sys:String>
+
+    <sys:String x:Key="ConfirmExit">您確定要退出嗎？</sys:String>
+    <sys:String x:Key="ConfirmExitDetail">您還未完成LauncherX的設定，所有未保存的更改都將被捨棄。</sys:String>
 
 </ResourceDictionary>

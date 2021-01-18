@@ -504,4 +504,14 @@
     <sys:String x:Key="ConfirmExit">您确定要退出吗？</sys:String>
     <sys:String x:Key="ConfirmExitDetail">您还未完成 LauncherX 的设置工作，所有未保存的更改都将被舍弃。</sys:String>
 
+    <sys:String x:Key="Choose">选择</sys:String>
+    <sys:String x:Key="CustomGameId">自定义游戏 Id</sys:String>
+    <sys:String x:Key="NoAffiliatedComponentForVersion">该版本暂无可用的附属组件可供安装。</sys:String>
+    <sys:String x:Key="OptionalAffiliatedComponent">可选附属组件</sys:String>
+
+    <sys:String x:Key="ForgeDescription">Minecraft Forge 是免费的开放源代码修改 API 和加载程序，旨在简化 Minecraft 中社区创建的游戏模块之间的兼容性</sys:String>
+    <sys:String x:Key="FabricDescription">Fabric 是 Minecraft 的轻量级实验修改工具链。</sys:String>
+    <sys:String x:Key="LiteLoaderDescription">LiteLoader 是 Minecraft 的轻量级Mod加载器，旨在为不需要修改游戏机制的 Mod 提供简单，高性能，可靠的加载器功能。</sys:String>
+    <sys:String x:Key="OptifineDescription">提供 Minecraft 性能调整和高级图形实现（例如光影）。</sys:String>
+
 </ResourceDictionary>
