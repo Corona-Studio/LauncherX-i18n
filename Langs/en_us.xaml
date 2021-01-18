@@ -12,7 +12,8 @@
 	<sys:String x:Key="Close">Close</sys:String>
 	<sys:String x:Key="Exit">Quit</sys:String>
 	<sys:String x:Key="Minimize">Minimize</sys:String>
-	<sys:String x:Key="Force">Force</sys:String>
+    <sys:String x:Key="Maximize">Maximize</sys:String>
+    <sys:String x:Key="Force">Force</sys:String>
 	<sys:String x:Key="LaunchFailed">Game failed to start.</sys:String>
 	<sys:String x:Key="JavaNotFound">No Java detected.</sys:String>
 	<sys:String x:Key="IllegalJavaInstallation">You are probably using a portable version of Java.</sys:String>
