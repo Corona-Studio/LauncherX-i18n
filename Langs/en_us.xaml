@@ -34,7 +34,7 @@
 	<sys:String x:Key="Settings">Settings</sys:String>
 
 	<sys:String x:Key="BetaHint">Beta Version. For development and testings only.</sys:String>
-	<sys:String x:Key="Start">Launche</sys:String>
+	<sys:String x:Key="Start">Launch</sys:String>
 	<sys:String x:Key="TaskCenter">Task Center</sys:String>
 
 	<!--> MainWindow.xaml <-->
@@ -483,7 +483,17 @@
 
     <sys:String x:Key="ConfirmExit">Do you wish to exit?</sys:String>
     <sys:String x:Key="ConfirmExitDetail">The configuration of LauncherX is not done yet. All the unsaved changes will be discarded.</sys:String>
-	 
+	
+	<sys:String x:Key="Choose">Choose</sys:String>
+    <sys:String x:Key="CustomGameId">Custom Game Id</sys:String>
+    <sys:String x:Key="NoAffiliatedComponentForVersion">No affiliated component to install for current version.</sys:String>
+    <sys:String x:Key="OptionalAffiliatedComponent">Optional Affiliated Component</sys:String>
+
+    <sys:String x:Key="ForgeDescription">Minecraft Forge is a free and open source modify API and loader for Minecraft. It is aimed at simplifying dealing with the compatibility of community created mods.</sys:String>
+    <sys:String x:Key="FabricDescription">Fabric is a lightweight experimental Minecraft modifying tool chain.</sys:String>
+    <sys:String x:Key="LiteLoaderDescription">LiteLoader is a lightweight Minecraft mod loader designed to provide simple, high performance and reliable function for mods that do not need to change the game mechanics.</sys:String>
+    <sys:String x:Key="OptifineDescription">提供 Minecraft 性能调整和高级图形实现（例如光影）。</sys:String>
+
 	
 
 </ResourceDictionary>
