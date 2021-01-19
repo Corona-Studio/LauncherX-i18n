@@ -11,9 +11,9 @@
 	<sys:String x:Key="Open">Open</sys:String>
 	<sys:String x:Key="Close">Close</sys:String>
 	<sys:String x:Key="Exit">Quit</sys:String>
+	<sys:String x:Key="Maximize">Maximize</sys:String>
 	<sys:String x:Key="Minimize">Minimize</sys:String>
-    <sys:String x:Key="Maximize">Maximize</sys:String>
-    <sys:String x:Key="Force">Force</sys:String>
+	<sys:String x:Key="Force">Force</sys:String>
 	<sys:String x:Key="LaunchFailed">Game failed to start.</sys:String>
 	<sys:String x:Key="JavaNotFound">No Java detected.</sys:String>
 	<sys:String x:Key="IllegalJavaInstallation">You are probably using a portable version of Java.</sys:String>
@@ -494,6 +494,15 @@
     <sys:String x:Key="FabricDescription">Fabric is a lightweight experimental Minecraft modifying tool chain.</sys:String>
     <sys:String x:Key="LiteLoaderDescription">LiteLoader is a lightweight Minecraft mod loader designed to provide simple, high performance and reliable function for mods that do not need to change the game mechanics.</sys:String>
     <sys:String x:Key="OptifineDescription">To provide performance adjustment and advanced graphic implementation (such as shader) for Minecraft.</sys:String>
+	
+	 <sys:String x:Key="NotSupportedOperation">Unsupported Operation</sys:String>
+    <sys:String x:Key="MultiFilesNotSupportedOperationDetail">Multifile operation not supported right now.</sys:String>
 
+    <sys:String x:Key="DragDetected">You dragged in a file (or files).</sys:String>
+    <sys:String x:Key="ChooseFileTypeDetail">Please select the type of your file. Note that some types might not be supported yet.</sys:String>
+
+    <sys:String x:Key="Author">Author</sys:String>
+    <sys:String x:Key="Version">Version</sys:String>
+    <sys:String x:Key="Loading">Loading</sys:String>
 
 </ResourceDictionary>
