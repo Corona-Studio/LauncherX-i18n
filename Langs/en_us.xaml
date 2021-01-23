@@ -22,14 +22,14 @@
 	
 	<sys:String x:Key="EmptyDirFailed">Failed to clean up folder(s).</sys:String>
 	<sys:String x:Key="ExitMainPg">Quit LauncherX</sys:String>
-	<sys:String x:Key="TryContinue">Continue to Use</sys:String>
+	<sys:String x:Key="TryContinue">Continue to Use LauncherX</sys:String>
 	<sys:String x:Key="UncaughtEx">Indescribable exception found.</sys:String>
 	
 	<!--> App.xaml.cs <-->
 	
 	<!--> MainWindow.xaml <-->
 
-	<sys:String x:Key="GameStart">Game Start</sys:String>
+	<sys:String x:Key="GameStart">Game Now</sys:String>
 	<sys:String x:Key="GameList">Game List</sys:String>
 	<sys:String x:Key="Dashboard">Dashboard</sys:String>
 	<sys:String x:Key="Settings">Settings</sys:String>
@@ -43,8 +43,8 @@
 	<!--> MainWindow.xaml.cs <-->
 
 	<sys:String x:Key="IllegalSettings">Incorrect Configuration</sys:String>
-	<sys:String x:Key="IllegalSettingsHint1">Settings are partially restored to default due to the incorrect configuration you've made in the last change of configuration:</sys:String>
-	<sys:String x:Key="IllegalSettingsHint2">Incorrect configuration(s) found, please check in settings:</sys:String>
+	<sys:String x:Key="IllegalSettingsHint1">Settings are partially restored to default due to the incorrect configuration you've made in the last change of settings:</sys:String>
+	<sys:String x:Key="IllegalSettingsHint2">Incorrect configuration(s) found, please check the settings:</sys:String>
 
 	<!--> MainWindow.xaml.cs <-->
 
@@ -124,7 +124,7 @@
 	<sys:String x:Key="Type">Type</sys:String>
 
 	<sys:String x:Key="JvmAdvanceArgument">Advanced JVM Arguments</sys:String>
-	<sys:String x:Key="JoinServerAfterLaunched">Join Server After Launched</sys:String>
+	<sys:String x:Key="JoinServerAfterLaunched">Join A Server After Launched</sys:String>
 	<sys:String x:Key="ServerIpOrDomain">Server Ip/Domain</sys:String>
 	<sys:String x:Key="Port">Port</sys:String>
 
@@ -132,18 +132,18 @@
 	<sys:String x:Key="AdditionalArgument">Additional Argument</sys:String>
 
 	<sys:String x:Key="LauncherBehavior">Launcher Behavior</sys:String>
-	<sys:String x:Key="CheckGameFile">Check Game File</sys:String>
-	<sys:String x:Key="CheckSha1WhenFixingGameFile">Check Integrity After Fixed Game Files</sys:String>
-	<sys:String x:Key="GameLaunchedLauncherBehavior">Launcher Behavior After Game Launched</sys:String>
-	<sys:String x:Key="DisplayGameLogs">Display Game Logs</sys:String>
+	<sys:String x:Key="CheckGameFile">Check Game Files</sys:String>
+	<sys:String x:Key="CheckSha1WhenFixingGameFile">Check Integrity Of Reapired Game Files</sys:String>
+	<sys:String x:Key="GameLaunchedLauncherBehavior">Launcher Behavior After Game Launch</sys:String>
+	<sys:String x:Key="DisplayGameLogs">Show Game Logs</sys:String>
 
 	<sys:String x:Key="BaseUiSettings">Basic Interface Settings</sys:String>
 	<sys:String x:Key="GlobalAnimationDuration">Global Animation Duration</sys:String>
 	<sys:String x:Key="GlobalAnimationEasingFunction">Global Animation Easing Function</sys:String>
 	<sys:String x:Key="GlobalAnimationEasingMode">Global Animation Easing Mode</sys:String>
 
-	<sys:String x:Key="AppearancePageTitle">Modify your launcher appearance.</sys:String>
-    	<sys:String x:Key="AppearancePageDetail">You can see window preview on the right.</sys:String>
+	<sys:String x:Key="AppearancePageTitle">Modify the appearance of the launcher.</sys:String>
+    	<sys:String x:Key="AppearancePageDetail">You can see the window preview on the right.</sys:String>
 	 
 	<sys:String x:Key="ThemeMode">Theme Mode</sys:String>
 	<sys:String x:Key="Language">Language</sys:String>
@@ -172,7 +172,7 @@
     	<sys:String x:Key="PreviewFontHint">Input any character to preview.</sys:String>
 
 	 
-	<sys:String x:Key="FontChangedHint">You've changed font settings. To apply changes, please restart launcher.</sys:String>
+	<sys:String x:Key="FontChangedHint">You've changed font settings. To apply changes, please restart the launcher.</sys:String>
 	<sys:String x:Key="FontFamilyPreviewTestText">The quick brown fox jumps over the lazy dog. THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG. 0123456789</sys:String>
 
 	<sys:String x:Key="BaseNetworkSettings">Basic Network Settings</sys:String>
@@ -183,7 +183,7 @@
 	<sys:String x:Key="MultiPartCount">Block Count</sys:String>
 
 	<sys:String x:Key="NetworkConnectionTest">Network Connection Test</sys:String>
-	<sys:String x:Key="NetworkTestDescription">By using the network connection test, you could know better about the current network state, including some basic information as latency and server status. Those may be helpful when you are trying to debug anything.</sys:String>
+	<sys:String x:Key="NetworkTestDescription">By using the network connection test, you can know better about the current network state, including some basic information as latency and server status. Those may be helpful when you are trying to debug anything.</sys:String>
 
 	<sys:String x:Key="LauncherLogLevel">Launcher Log Level</sys:String>
 	<sys:String x:Key="DcAndPp">Data Collection and Privacy Policy</sys:String>
@@ -240,7 +240,7 @@
 	<!--> AccountInfoControlTemplate.xaml <-->
 
 	<sys:String x:Key="LastUsed">Last Used</sys:String>
-	<sys:String x:Key="ClickToUseAccount">Click To Use Account</sys:String>
+	<sys:String x:Key="ClickToUseAccount">Click To Use</sys:String>
 	<sys:String x:Key="NeverUsed">Never Used</sys:String>
 
 	<!--> AccountInfoControlTemplate.xaml <-->
@@ -297,8 +297,8 @@
 
 	<sys:String x:Key="SearchGame">Search Game</sys:String>
 	<sys:String x:Key="GameNotFound">Game Not Found</sys:String>
-	<sys:String x:Key="GameNotFoundDetail">Can't find any version of game, you may download one at the launcher.</sys:String>
-	<sys:String x:Key="SearchGameCompleted">Game Search Complete</sys:String>
+	<sys:String x:Key="GameNotFoundDetail">Can't find any version of the game, you may need to download one at the launcher.</sys:String>
+	<sys:String x:Key="SearchGameCompleted">Game Search Completed</sys:String>
 
 	<sys:String x:Key="TaskCenterBriefing1">{0} Task(s) Running</sys:String>
 
@@ -335,7 +335,7 @@
 
 	<sys:String x:Key="NoSelectedBgImage">Background File Path Unset</sys:String>
 
-	<sys:String x:Key="StaySame">Keep the same</sys:String>
+	<sys:String x:Key="StaySame">Remain the same</sys:String>
 
 	<sys:String x:Key="All">All</sys:String>
 
@@ -461,7 +461,7 @@
     <sys:String x:Key="GetGames">Get Games</sys:String>
 
     <sys:String x:Key="Free">Free</sys:String>
-    <sys:String x:Key="Using">Using</sys:String>
+    <sys:String x:Key="Using">In Use</sys:String>
     <sys:String x:Key="Game">Game</sys:String>
 
     <sys:String x:Key="Save">Save</sys:String>
