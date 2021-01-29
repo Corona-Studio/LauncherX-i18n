@@ -1,0 +1,509 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<sys:String x:Key="TranslatorCredits">LauncherX: перевод от vanja-san</sys:String>
+	<sys:String x:Key="Ok">Подтвердить</sys:String>
+	<sys:String x:Key="Cancel">Отмена</sys:String>
+	<sys:String x:Key="Warning">Предупреждение</sys:String>
+	<sys:String x:Key="Error">Ошибка</sys:String>
+	<sys:String x:Key="Info">Информация</sys:String>
+	<sys:String x:Key="Note">Заметка</sys:String>
+	<sys:String x:Key="Open">Открыть</sys:String>
+	<sys:String x:Key="Close">Закрыть</sys:String>
+	<sys:String x:Key="Exit">Выйти</sys:String>
+	<sys:String x:Key="Maximize">Развернуть</sys:String>
+	<sys:String x:Key="Minimize">Свернуть</sys:String>
+	<sys:String x:Key="Force">Принудительно</sys:String>
+	<sys:String x:Key="LaunchFailed">Не удалось запустить игру.</sys:String>
+	<sys:String x:Key="JavaNotFound">Java не найдена.</sys:String>
+	<sys:String x:Key="IllegalJavaInstallation">Возможно вы используете переносную версию Java (т.е. Portable).</sys:String>
+	
+	<!--> App.xaml.cs <-->
+	
+	<sys:String x:Key="EmptyDirFailed">Не удалось очистить папку/папки.</sys:String>
+	<sys:String x:Key="ExitMainPg">Закрыть LauncherX</sys:String>
+	<sys:String x:Key="TryContinue">Продолжить использовать LauncherX</sys:String>
+	<sys:String x:Key="UncaughtEx">Обнаружено неописуемое исключение.</sys:String>
+	
+	<!--> App.xaml.cs <-->
+	
+	<!--> MainWindow.xaml <-->
+
+	<sys:String x:Key="GameStart">Играть</sys:String>
+	<sys:String x:Key="GameList">Список игр</sys:String>
+	<sys:String x:Key="Dashboard">Панель управления</sys:String>
+	<sys:String x:Key="Settings">Настройки</sys:String>
+
+	<sys:String x:Key="BetaHint">Тестовая версия. Только для разработчиков и тестирующих.</sys:String>
+	<sys:String x:Key="Start">Запустить</sys:String>
+	<sys:String x:Key="TaskCenter">Центр задач</sys:String>
+
+	<!--> MainWindow.xaml <-->
+
+	<!--> MainWindow.xaml.cs <-->
+
+	<sys:String x:Key="IllegalSettings">Неправильная конфигурация</sys:String>
+	<sys:String x:Key="IllegalSettingsHint1">Настройки частично восстановлены до значений по умолчанию из-за неправильной конфигурации, которую вы сделали при последнем изменении настроек.:</sys:String>
+	<sys:String x:Key="IllegalSettingsHint2">Обнаружены неправильные конфигурации, проверьте настройки:</sys:String>
+
+	<!--> MainWindow.xaml.cs <-->
+
+	<!--> MainViewModel.cs <-->
+
+	<sys:String x:Key="RunningJobsFound">Найдены запущенные задачи</sys:String>
+	<sys:String x:Key="ExitAndDropTasksHint"> Осталось задач в очереди: {0}. Все запущенные задачи будут отброшены и не могут быть восстановлены. Всё равно выйти? </sys:String>
+	<sys:String x:Key="WaitToFinish">Подождите, чтобы завершить</sys:String>
+
+	<sys:String x:Key="GameNotSelect">Игра не выбрана</sys:String>
+	<sys:String x:Key="GameNotSelectHint">Не выбрана игра для запуска.</sys:String>
+
+	<sys:String x:Key="AccountNotSelect">Аккаунт не выбран</sys:String>
+	<sys:String x:Key="AccountNotSelectHint">Аккаунт не выбран или выбран неверный.</sys:String>
+
+	<!--> MainViewModel.cs <-->
+
+	<!--> AccountPage.xaml <-->
+
+	<sys:String x:Key="Welcome">Добро пожаловать</sys:String>
+	<sys:String x:Key="Delete">Удалить</sys:String>
+
+	<!--> AccountPage.xaml <-->
+
+	<!--> CreateNewAccountDialog.xaml <-->
+
+	<sys:String x:Key="CreateNewAccount">Создать новую учётную запись</sys:String>
+	<sys:String x:Key="OfflineAccount">Учётная запись без пароля</sys:String>
+	<sys:String x:Key="MojangAccount">Учётная запись Mojang</sys:String>
+   	<sys:String x:Key="MicrosoftAccount">Учётная запись Microsoft</sys:String>
+	<sys:String x:Key="OnlineAccount">Учётная запись с паролем</sys:String>
+	<sys:String x:Key="Email">Эл. почта</sys:String>
+	<sys:String x:Key="DisplayName">Отображаемое имя</sys:String>
+	<sys:String x:Key="Password">Пароль</sys:String>
+	<sys:String x:Key="AuthLibServer">Сервер AuthLib</sys:String>
+	<sys:String x:Key="Optional">Необязательно</sys:String>
+	<sys:String x:Key="SaveAccount">Сохранить аккаунт</sys:String>
+	<sys:String x:Key="CheckingAccount">Проверка учётной записи...</sys:String>
+    	<sys:String x:Key="Default">По умолчанию</sys:String>
+    	<sys:String x:Key="CheckFailed">Не удалось проверить</sys:String>
+   	<sys:String x:Key="SkinRequestFailed">Не удаётся получить скин.</sys:String>
+
+	<!--> CreateNewAccountDialog.xaml <-->
+
+	<!--> GameListPage.xaml <-->
+
+	<sys:String x:Key="NoGameYet">Ещё нет игры</sys:String>
+
+	<!--> GameListPage.xaml <-->
+
+	<!--> SettingsPage.xaml <-->
+
+	<sys:String x:Key="GlobalGameSettings">Глобальные настройки игры</sys:String>
+	<sys:String x:Key="RegionAndLang">Регион и язык</sys:String>
+	<sys:String x:Key="Appearance">Внешний вид</sys:String>
+	<sys:String x:Key="Network">Сеть</sys:String>
+	<sys:String x:Key="Advanced">Дополнительные</sys:String>
+	<sys:String x:Key="About">О LauncherX</sys:String>
+
+	<sys:String x:Key="LaunchSettings">Настройки запуска</sys:String>
+	<sys:String x:Key="JavaPath">Путь к Java</sys:String>
+	<sys:String x:Key="AddManually">Добавить вручную</sys:String>
+	<sys:String x:Key="DownloadJava">Скачать Java</sys:String>
+	<sys:String x:Key="SearchJava">Искать Java</sys:String>
+
+	<sys:String x:Key="MemorySize">Объём памяти</sys:String>
+	<sys:String x:Key="MbUnit">Ед. измерения: Мб</sys:String>
+	<sys:String x:Key="GameWindowTitle">Заголовок окна игры</sys:String>
+
+	<sys:String x:Key="GameWindowSize">Размер окна игры</sys:String>
+	<sys:String x:Key="Width">Ширина</sys:String>
+        <sys:String x:Key="Height">Высота</sys:String>
+        <sys:String x:Key="FullScreen">На весь экран</sys:String>
+
+	<sys:String x:Key="Enable">Включить</sys:String>
+	<sys:String x:Key="Disable">Выключить</sys:String>
+	<sys:String x:Key="Type">Тип</sys:String>
+
+	<sys:String x:Key="JvmAdvanceArgument">Дополнительные аргументы JVM</sys:String>
+	<sys:String x:Key="JoinServerAfterLaunched">Присоединяться к серверу после запуска</sys:String>
+	<sys:String x:Key="ServerIpOrDomain">IP-адрес/домен сервера</sys:String>
+	<sys:String x:Key="Port">Порт</sys:String>
+
+	<sys:String x:Key="Path">Путь</sys:String>
+	<sys:String x:Key="AdditionalArgument">Дополнительный аргумент</sys:String>
+
+	<sys:String x:Key="LauncherBehavior">Поведение лаунчера</sys:String>
+	<sys:String x:Key="CheckGameFile">Проверить файлы игры</sys:String>
+	<sys:String x:Key="CheckSha1WhenFixingGameFile">Проверьте целостность восстановленных файлов игры</sys:String>
+	<sys:String x:Key="GameLaunchedLauncherBehavior">Поведение лаунчера после запуска игры</sys:String>
+	<sys:String x:Key="DisplayGameLogs">Показать игровые журналы (логи)</sys:String>
+
+	<sys:String x:Key="BaseUiSettings">Основные настройки интерфейса</sys:String>
+	<sys:String x:Key="GlobalAnimationDuration">Длительность общей анимации</sys:String>
+	<sys:String x:Key="GlobalAnimationEasingFunction">Функция замедления общей анимации</sys:String>
+	<sys:String x:Key="GlobalAnimationEasingMode">Режим замедления общей анимации</sys:String>
+
+	<sys:String x:Key="AppearancePageTitle">Изменить внешний вид лаунчера.</sys:String>
+    	<sys:String x:Key="AppearancePageDetail">Вы можете посмотреть превью окна справа.</sys:String>
+	 
+	<sys:String x:Key="ThemeMode">Режим темы</sys:String>
+	<sys:String x:Key="Language">Язык</sys:String>
+	<sys:String x:Key="UseFluidMove">Включить плавное перемещение</sys:String>
+
+	<sys:String x:Key="MainInterfaceBackground">Фон основного интерфейса</sys:String>
+	<sys:String x:Key="BackgroundTexture">Текстура фона</sys:String>
+	<sys:String x:Key="BackgroundType">Тип фона</sys:String>
+
+	<sys:String x:Key="SelectBackgroundImage">Выбрать фоновое изображение</sys:String>
+	<sys:String x:Key="Browse">Обзор</sys:String>
+
+	<sys:String x:Key="AccentColor">Цвет акцента</sys:String>
+	<sys:String x:Key="GetAccountColorFromBgImage">Автовыбор цвета акцента у фона</sys:String>
+	<sys:String x:Key="GetPaletteErrorHint">Палитра не найдена для текущего фона, возможно, потому что вы изменили зарезервированные файлы или каталоги лаунчера.</sys:String>
+	<sys:String x:Key="UsePureColorAsAccentColor">Использовать чистый цвет как цвет акцента</sys:String>
+	<sys:String x:Key="UseSelectedColorAsAccentColor">Использовать цвет ниже в качестве основного цвета</sys:String>
+
+	<sys:String x:Key="Preview">Предпросмотр</sys:String>
+	<sys:String x:Key="UiFontFamily">Шрифт интерфейса</sys:String>
+	<sys:String x:Key="PrimaryFont">Основной шрифт</sys:String>
+	<sys:String x:Key="SecondaryFont">Дополнительный шрифт</sys:String>
+
+     	<sys:String x:Key="PreviewFont">Предпросмотр шрифта</sys:String>
+    	<sys:String x:Key="PreviewFontSize">Предпросмотр размера шрифта</sys:String>
+    	<sys:String x:Key="PreviewFontHint">Введите любой символ, чтобы предварительно посмотреть на него.</sys:String>
+
+	 
+	<sys:String x:Key="FontChangedHint">Вы изменили настройки шрифта. Чтобы применить изменения, перезапустите лаунчер.</sys:String>
+	<sys:String x:Key="FontFamilyPreviewTestText">Смотрите, это пример текста. СМОТРИТЕ, ЭТО ПРИМЕР ТЕКСТА. 0123456789</sys:String>
+
+	<sys:String x:Key="BaseNetworkSettings">Основные настройки сети</sys:String>
+	<sys:String x:Key="ResourceDownloadServer">Сервер скачивания ресурсов</sys:String>
+	<sys:String x:Key="DownloadThreadCount">Количество потоков скачивания</sys:String>
+	<sys:String x:Key="AutoDetectDownloadMethod">Автоопределение способа скачивания</sys:String>
+	<sys:String x:Key="UseMultiPartDownload">Использовать блоки скачивания</sys:String>
+	<sys:String x:Key="MultiPartCount">Количество блоков</sys:String>
+
+	<sys:String x:Key="NetworkConnectionTest">Тест сетевого подключения</sys:String>
+	<sys:String x:Key="NetworkTestDescription">Используя тест сетевого подключения, вы можете лучше узнать текущее состояние сети, включая некоторую базовую информацию, такую как задержка и состояние сервера. Это может быть полезно, когда вы пытаетесь отладить что-либо.</sys:String>
+
+	<sys:String x:Key="LauncherLogLevel">Уровень журнала лаунчера</sys:String>
+	<sys:String x:Key="DcAndPp">Сбор данных и политика конфиденциальности</sys:String>
+	<sys:String x:Key="AllowDataCollection">Разрешить сбор данных</sys:String>
+
+	<sys:String x:Key="WhatDataWeCollect">Какую информацию мы собираем</sys:String>
+	<sys:String x:Key="WhatDataWeCollectContent">
+		Мы будем собирать основную информацию, такую как используемый язык и версия операционной системы. Мы будем собирать информацию о лаунчере во время выполнения, такие как сбои, исключения, 
+		время работы лаунчера, запуск игры и время работы игры. Все эти данные будут защищены на нашем сервере.
+	</sys:String>
+
+	<sys:String x:Key="HowWeUseData">Использование вашей информации</sys:String>
+	<sys:String x:Key="HowWeUseDataContent">
+		Собранные нами данные помогут нам проанализировать нашу группу пользователей и ошибки программы. Языковые и региональные настройки помогут нам узнать географическое распределение наших групп пользователей. 
+		Логи ошибок и информация о сбоях помогут нам улучшить лаунчер, следовательно, обеспечить лучший продукт для всех вас.
+	</sys:String>
+
+	<!--> SettingsPage.xaml <-->
+
+	<!--> SettingsPage.xaml.cs <-->
+
+	<sys:String x:Key="GeneratedJavaAgentArg">Сгенерированный Java AgentArg:</sys:String>
+
+	<!--> SettingsPage.xaml.cs <-->
+
+	<!--> SettingsPageViewModel.cs <-->
+
+	<sys:String x:Key="TaskAdded">Задача добавлена.</sys:String>
+	<sys:String x:Key="PrepareToDownloadJava">Подготовка к скачиванию Java.</sys:String>
+
+	<sys:String x:Key="PleaseCheckLogs">Проверьте логи лаунчера.</sys:String>
+	<sys:String x:Key="Succeeded">Успешно</sys:String>
+	<sys:String x:Key="Failed">Не удалось</sys:String>
+
+	<sys:String x:Key="ImageFile">Файл изображения</sys:String>
+	<sys:String x:Key="ImportBgImage">Импортировать фоновое изображение</sys:String>
+	<sys:String x:Key="BrowseBgImageDialogTitle">Выберите фоновое изображение для импорта.</sys:String>
+	<sys:String x:Key="PrepareToImportBgImage">Подготовка к импорту изображения...</sys:String>
+	<sys:String x:Key="ImportingPleaseWait">Импортирование...</sys:String>
+	<sys:String x:Key="AlreadyImported">Изображение уже импортировано</sys:String>
+
+	<sys:String x:Key="FetchMojangServerInfo">Получить информацию о сервере Mojang</sys:String>
+	<sys:String x:Key="Unknown">Неизвестно</sys:String>
+
+
+	<!--> SettingsPageViewModel.cs <-->
+
+	<!--> SelectAccountProfileDialog.xaml <-->
+
+	<sys:String x:Key="SelectAccountProfile">Выберите профиль учётной записи</sys:String>
+
+	<!--> SelectAccountProfileDialog.xaml <-->
+
+	<!--> AccountInfoControlTemplate.xaml <-->
+
+	<sys:String x:Key="LastUsed">Последний используемый</sys:String>
+	<sys:String x:Key="ClickToUseAccount">Нажмите, чтобы использовать</sys:String>
+	<sys:String x:Key="NeverUsed">Никогда не использовалась</sys:String>
+
+	<!--> AccountInfoControlTemplate.xaml <-->
+
+	<!--> ServerStatusControlTemplate.xaml <-->
+
+	<sys:String x:Key="CheckingDelay">Проверка задержки</sys:String>
+
+	<sys:String x:Key="ServerStatus1Hint">Оперативный.</sys:String>
+	<sys:String x:Key="ServerStatus2Hint">Обнаружено колебание сети. Вы можете столкнуться с временным прерыванием обслуживания или иметь проблемы в вашей локальной сети.</sys:String>
+	<sys:String x:Key="ServerStatus3Hint">Сервис не доступен. Невозможно связаться с сервером или служба остановлена.</sys:String>
+	<sys:String x:Key="CurrentStatusIs">Текущее состояние</sys:String>
+	<sys:String x:Key="WhichMeans">Что означает:</sys:String>
+
+	<!--> ServerStatusControlTemplate.xaml <-->
+
+	<!--> SearchBar.xaml <-->
+
+	<sys:String x:Key="SearchSomething">Искать что-нибудь</sys:String>
+
+	<!--> SearchBar.xaml <-->
+
+	<!--> TaskCenterPanel.xaml <-->
+
+	<sys:String x:Key="TaskQueue">Очередь задач</sys:String>
+	<sys:String x:Key="NoMoreTask">Задач пока нет</sys:String>
+	<sys:String x:Key="NotifyHistory">История уведомлений</sys:String>
+	<sys:String x:Key="NoMoreNotify">Уведомлений пока нет</sys:String>
+
+	<!--> TaskCenterPanel.xaml <-->
+
+	<!--> ITaskCenterJob <-->
+
+	<sys:String x:Key="TaskCanceled">Задача отменена...</sys:String>
+	<sys:String x:Key="DownloadingFile">Скачивание файла</sys:String>
+	<sys:String x:Key="LaunchGame">Запустить игру</sys:String>
+
+	<sys:String x:Key="AuthFailed">Ошибка аутентификации</sys:String>
+	<sys:String x:Key="DecompressFailed">Ошибка Wben извлечение коренных жителей</sys:String>
+	<sys:String x:Key="IncompleteArgument">Неполный аргумент запуска</sys:String>
+	<sys:String x:Key="NoJava">Java не указана</sys:String>
+	<sys:String x:Key="None">Ничего</sys:String>
+	<sys:String x:Key="OperationFailed">Операция не удалась</sys:String>
+
+	<sys:String x:Key="Duration">Длительность</sys:String>
+	<sys:String x:Key="ResourceCompletion">Завершение ресурсов</sys:String>
+	<sys:String x:Key="Reason">Причина</sys:String>
+	<sys:String x:Key="Retry">Повторить</sys:String>
+	<sys:String x:Key="Completion">Завершить</sys:String>
+
+	<sys:String x:Key="GameExitDetected">Обнаружен выход из игры</sys:String>
+	<sys:String x:Key="GameExitedNormal">Игра завершилась нормально</sys:String>
+	<sys:String x:Key="GameExitedUnexpectedly">Игра завершилась неожиданно</sys:String>
+
+	<sys:String x:Key="SearchGame">Поиск игры</sys:String>
+	<sys:String x:Key="GameNotFound">Игра не найдена</sys:String>
+	<sys:String x:Key="GameNotFoundDetail">Ни одной версии игры не найдено, возможно вам потребуется скачать её в лаунчере.</sys:String>
+	<sys:String x:Key="SearchGameCompleted">Поиск игры завершён</sys:String>
+
+	<sys:String x:Key="TaskCenterBriefing1">Запущено задач: {0}</sys:String>
+
+	<!--> ITaskCenterJob <-->
+
+	<!--> Models <-->
+
+	<sys:String x:Key="EaseIn">Замедление в начале</sys:String>
+	<sys:String x:Key="EaseOut">Замедление в конце</sys:String>
+	<sys:String x:Key="EaseInOut">Замедление в начале и в конце</sys:String>
+
+	<sys:String x:Key="Shape1">Линия</sys:String>
+	<sys:String x:Key="Shape2">Круг</sys:String>
+	<sys:String x:Key="Shape3">Арка</sys:String>
+
+	<sys:String x:Key="BlurBackground">Размытие фона</sys:String>
+	<sys:String x:Key="ImageBackground">Изображение фона</sys:String>
+	<sys:String x:Key="PureColorBackground">Чистый цвет фона</sys:String>
+
+	<sys:String x:Key="OfficialMirror">Официальное зеркало Mojang</sys:String>
+	<sys:String x:Key="BangBangApiMirror">Зеркало Bangbang93</sys:String>
+	<sys:String x:Key="McBbsMirror">Зеркало McBbs</sys:String>
+
+	<sys:String x:Key="BackEase">Втягивание</sys:String>
+	<sys:String x:Key="BounceEase">Отскок</sys:String>
+	<sys:String x:Key="CircleEase">Круг</sys:String>
+	<sys:String x:Key="CubicEase">Функция t³</sys:String>
+	<sys:String x:Key="ElasticEase">Эластично</sys:String>
+	<sys:String x:Key="ExponentialEase">Экспоненциально</sys:String>
+	<sys:String x:Key="PowerEase">Функция t*p</sys:String>
+	<sys:String x:Key="QuadraticEase">Функция t²</sys:String>
+	<sys:String x:Key="QuinticEase">Функция t⁵</sys:String>
+	<sys:String x:Key="SineEase">Функция Sin(t)</sys:String>
+
+	<sys:String x:Key="NoSelectedBgImage">Путь к файлу фона не задан</sys:String>
+
+	<sys:String x:Key="StaySame">Оставить без изменений</sys:String>
+
+	<sys:String x:Key="All">Все</sys:String>
+
+	<sys:String x:Key="SkinNotFound">Скин не найден</sys:String>
+	<sys:String x:Key="SkinNotFoundDetail">Скин не найден для {0}.</sys:String>
+
+	<sys:String x:Key="Delay">Задержка</sys:String>
+	<sys:String x:Key="TimeOutOrError">Вышло время или обнаружена ошибка</sys:String>
+	<sys:String x:Key="Times">Раз</sys:String>
+
+	<sys:String x:Key="TestDelayFailedDetail">Не удалось проверить задержку {0}</sys:String>
+
+	<sys:String x:Key="LightTheme">Светлая тема</sys:String>
+	<sys:String x:Key="DarkTheme">Тёмная тема</sys:String>
+
+	<!--> Models <-->
+
+	<!--> Страница О <-->
+
+	<sys:String x:Key="AboutUs">О нас</sys:String>
+	<sys:String x:Key="AboutUsContent">
+		Corona Studio（Студия Корона）Предшественником является команда разработчиков лаунчера CMFL. Большую часть этого времени мы потратили на обслуживание лаунчера CMFL и его вспомогательных проектов.
+		Мы разработали новый стиль лаунчера после изучения уроков и получения большого опыта от CMFL - LauncherX.
+		В то же время мы также занимаемся серверами MC. Некоторые друзья в Интернете, которые имеют те же интересы что и мы, сформировали нашу первоначальную команду.
+	</sys:String>
+
+	<sys:String x:Key="GroupMembers">Члены группы</sys:String>
+	<sys:String x:Key="GroupMember1">老腊肉 - Фронтенд, ядро лаунчера</sys:String>
+	<sys:String x:Key="GroupMember2">CodingEric - UI, дизайн взаимодействия человека и компьютера, вспомогательная разработки инструментария</sys:String>
+	<sys:String x:Key="GroupMember3">Leon - Внешний интерфейс, дизайн анимации, ядро лаунчера</sys:String>
+	<sys:String x:Key="GroupMember4">纪华裕 - Бэк-энд</sys:String>
+	<sys:String x:Key="GroupMember5">月银秋 - Загрузочное ядро</sys:String>
+
+	<sys:String x:Key="TranslateGroupMembers">Члены группы переводов</sys:String>
+	<sys:String x:Key="TranslateGroupMember1">里卡 - Традиционный китайский</sys:String>
+	<sys:String x:Key="TranslateGroupMember2">法棍面包 - Испанский</sys:String>
+	<sys:String x:Key="TranslateGroupMember3">jonW - Английский</sys:String>
+  <sys:String x:Key="TranslateGroupMember4">vanja-san - Русский</sys:String> <!--> <---- I added string <-->
+
+
+	<sys:String x:Key="Thanks">Спасибо</sys:String>
+	<sys:String x:Key="Thanks1">Спасибо BangBang93, а также McBbs который предоставил - Сервис быстрого скачивания файлов ресурсов Minecraft</sys:String>
+	<sys:String x:Key="Thanks2">Спасибо 优势科技 - Звёздный спонсируемый сервер</sys:String>
+	<sys:String x:Key="Thanks3">Спасибо CI010 за ProjBobcat - Техническое руководство, предоставленное основной разработкой</sys:String>
+
+	<sys:String x:Key="OpenSourceProjectUsages">Использование проектов с открытым исходным кодом</sys:String>
+
+
+	<sys:String x:Key="Other">Другое</sys:String>
+	<sys:String x:Key="OtherContent">Эта версия перевода сделана пользователем vanja-san. Связь: github.com/vanja-san.</sys:String>
+
+	<!--> About Page <-->
+
+	<sys:String x:Key="ChangeLanguageRebootRequired">Вы изменили отображаемый язык. Чтобы применить изменение ко всем компонентам, перезапустите лаунчер.</sys:String>
+
+	<!--> GameLogsWindow.xaml <-->
+
+	<sys:String x:Key="GameLogsWindowTitle">Логи игры в реальном времени</sys:String>
+	<sys:String x:Key="TopMost">Всегда поверх окон</sys:String>
+	<sys:String x:Key="Moveable">Перемещаемый</sys:String>
+
+	<!--> GameLogsWindow.xaml <-->
+
+	<sys:String x:Key="NoSuchPageKeyExceptionMessage">Не найдено ни одной страницы для ключевого значения {0}.</sys:String>
+	<sys:String x:Key="GetSettingsFailed">Ошибка при чтении файла конфигурации.</sys:String>
+	<sys:String x:Key="SearchGameHint">Найдите id установленной игры. Например: 1.15.2</sys:String>
+
+    <sys:String x:Key="Yes">Да</sys:String>
+    <sys:String x:Key="No">Нет</sys:String>
+
+    <sys:String x:Key="DownloadFailed">Ошибка скачивания</sys:String>
+    <sys:String x:Key="RequestOnlineGame">Запрос на игру по сети...</sys:String>
+    <sys:String x:Key="RequestFailed">Ошибка запроса</sys:String>
+
+    <sys:String x:Key="Finished">Готово</sys:String>
+    <sys:String x:Key="Download">Скачать</sys:String>
+
+    <sys:String x:Key="Env">Окружающая среда</sys:String>
+    <sys:String x:Key="Install">Установить</sys:String>
+
+    <sys:String x:Key="GetJavaInfoFailed">Неопределенная среда выполнения Java...</sys:String>
+    <sys:String x:Key="FileNotFound">Файл не найден</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">Эта версия JRE ( {0} ) совместима с вашей системой.</sys:String>
+    <sys:String x:Key="BadJavaRuntime">Эта версия JRE ( {0} ) НЕ совместима с архитектурой вашей системы. ( x{0} ). Это может вызвать проблемы с производительностью.</sys:String>
+
+    <sys:String x:Key="SelectedVersion">Выбранная версия</sys:String>
+    <sys:String x:Key="ManuallyCopyRedirectUrl">Копировать RedirectUrl вручную</sys:String>
+
+    <sys:String x:Key="Login">Вход</sys:String>
+
+    <sys:String x:Key="ConnectToService">Подключиться к сервису</sys:String>
+
+    <sys:String x:Key="IntroWelcomeText">Добро пожаловать в LauncherX</sys:String>
+    <sys:String x:Key="IntroWelcomeTextDetail">Нажмите "Далее", чтобы запустить мастер настройки.</sys:String>
+
+    <sys:String x:Key="IntroSelectAppearance">Выберите свой любимый внешний вид.</sys:String>
+    <sys:String x:Key="IntroSelectAppearanceDetail">Дополнительные параметры находятся на вкладке "Внешний вид" на странице настроек.</sys:String>
+
+    <sys:String x:Key="IntroAddAccount">Добавить игровую учётную запись.</sys:String>
+    <sys:String x:Key="IntroAddAccountDetail">Вы можете нажать на свое имя пользователя в верхнем левом углу главного окна, чтобы управлять своей учётной записью или предварительно посмотреть скин в 3D после мастера.</sys:String>
+
+    <sys:String x:Key="IntroGameSettings">Необходимые настройки игры.</sys:String>
+    <sys:String x:Key="IntroGameSettingsDetail">Вот некоторые настройки, необходимые для запуска игры. Вы можете найти больше других настроек на вкладке "Глобальные настройки игры" на странице настроек позже.</sys:String>
+
+    <sys:String x:Key="IntroFinishedDetail">Поздравляю. Вы закончили работу с мастером, лаунчер готов!</sys:String>
+
+    <sys:String x:Key="Previous">Назад</sys:String>
+    <sys:String x:Key="Next">Вперёд</sys:String>
+
+    <sys:String x:Key="RequestingGameList">Загрузка списка игр, подождите.</sys:String>
+
+    <sys:String x:Key="SystemInfo">Информация о системе</sys:String>
+    <sys:String x:Key="GameInfo">Информация об игре</sys:String>
+    <sys:String x:Key="Memory">Память</sys:String>
+    <sys:String x:Key="Time">Время</sys:String>
+    <sys:String x:Key="GameTime">Время игры</sys:String>
+    <sys:String x:Key="Count">Количество</sys:String>
+
+    <sys:String x:Key="AccountType">Тип учётной записи</sys:String>
+    <sys:String x:Key="ValidOnlineAccount">Действующая уч. запись</sys:String>
+
+    <sys:String x:Key="StatData">Статистика</sys:String>
+    <sys:String x:Key="News">Новости</sys:String>
+    <sys:String x:Key="GetGames">Получить игры</sys:String>
+
+    <sys:String x:Key="Free">Бесплатно</sys:String>
+    <sys:String x:Key="Using">В использовании</sys:String>
+    <sys:String x:Key="Game">Игра</sys:String>
+
+    <sys:String x:Key="Save">Сохранить</sys:String>
+    <sys:String x:Key="BasicSettings">Основные настройки</sys:String>
+    <sys:String x:Key="GameName">Название игры</sys:String>
+    <sys:String x:Key="GamePath">Путь игры</sys:String>
+    <sys:String x:Key="Icon">Иконка</sys:String>
+
+    <sys:String x:Key="Offline">Без пароля</sys:String>
+    <sys:String x:Key="ChooseLoginType">Выберите способ входа в систему.</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">Выберите свой способ аутентификации. Используйте Mojang, если вы не уверены в этом варианте.</sys:String>
+
+    <sys:String x:Key="GlobalNotSet">Глобально не установлено</sys:String>
+    <sys:String x:Key="SaveSettingsFailed">Ошибка сохранения настроек</sys:String>
+
+    <sys:String x:Key="FalseFabricInstallSettings">Неправильная установка Fabric</sys:String>
+    <sys:String x:Key="FalseFabricInstallSettingsDetail">Вы выбрали только Fabric Loader или Fabric Yarn. Для установки fabric вам потребуются ОБА.</sys:String>
+
+    <sys:String x:Key="GetFailed">Вытяните поле</sys:String>
+
+    <sys:String x:Key="ConfirmExit">Вы хотите выйти?</sys:String>
+    <sys:String x:Key="ConfirmExitDetail">Настройка LauncherX еще не завершена. Все несохранённые изменения будут отменены.</sys:String>
+	 
+	<sys:String x:Key="Choose">Выбрать</sys:String>
+    <sys:String x:Key="CustomGameId">Пользовательский ID игры</sys:String>
+    <sys:String x:Key="NoAffiliatedComponentForVersion">Нет дочернего компонента для установки для текущей версии.</sys:String>
+    <sys:String x:Key="OptionalAffiliatedComponent">Необязательный дочерний компонент</sys:String>
+
+    <sys:String x:Key="ForgeDescription">Minecraft Forge - это бесплатный модифицирующий API и загрузчик для Minecraft с открытым исходным кодом. Он направлен на упрощение работы с совместимостью модов, созданных сообществом.</sys:String>
+    <sys:String x:Key="FabricDescription">Fabric - это легкая экспериментальная цепочка инструментов для модификации Minecraft.</sys:String>
+    <sys:String x:Key="LiteLoaderDescription">LiteLoader - это легкий загрузчик модов Minecraft, предназначенный для обеспечения простой, высокопроизводительной и надежной функции для модов, не требующих изменения игровой механики.</sys:String>
+    <sys:String x:Key="OptifineDescription">Чтобы обеспечить настройку производительности и расширенную графическую реализацию (например, шейдер) для Minecraft.</sys:String>
+	
+	 <sys:String x:Key="NotSupportedOperation">Неподдерживаемая операция</sys:String>
+    <sys:String x:Key="MultiFilesNotSupportedOperationDetail">Мультифайловая операция сейчас не поддерживается.</sys:String>
+
+    <sys:String x:Key="DragDetected">Вы перетащили файл (или файлы).</sys:String>
+    <sys:String x:Key="ChooseFileTypeDetail">Выберите тип вашего файла. Обратите внимание, что некоторые типы могут еще не поддерживаться.</sys:String>
+
+    <sys:String x:Key="Author">Автор</sys:String>
+    <sys:String x:Key="Version">Версия</sys:String>
+    <sys:String x:Key="Loading">Загрузка</sys:String>
+
+</ResourceDictionary>
