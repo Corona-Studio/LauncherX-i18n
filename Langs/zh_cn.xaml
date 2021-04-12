@@ -90,8 +90,10 @@
 
     <sys:String x:Key="OnlineAccount">在线账户</sys:String>
     <sys:String x:Key="Email">电子邮箱</sys:String>
+    <sys:String x:Key="UserName">用户名</sys:String>
     <sys:String x:Key="DisplayName">玩家名称</sys:String>
     <sys:String x:Key="Password">密码</sys:String>
+    <sys:String x:Key="ConfirmPassword">确认密码</sys:String>
     <sys:String x:Key="AuthLibServer">AuthLib服务器</sys:String>
     <sys:String x:Key="Optional">可选</sys:String>
     <sys:String x:Key="SaveAccount">保存账户</sys:String>
@@ -371,24 +373,29 @@
     <!--> About Page <-->
 
     <sys:String x:Key="AboutUs">关于我们</sys:String>
-    <sys:String x:Key="AboutUsContent">
-        Corona Studio（日冕工作室）的前身是 CMFL 启动器开发团队。我们在此之前大部分时间都在维护 CMFL 启动器及其附属项目。
-        我们在吸取了 CMFL 的大量经验和教训之后开发了全新风格的启动器 - LauncherX。
-        同时，我们在mc服务器方面也有所涉猎。网络上一些和我们志同道合或是有相同兴趣的朋友组成了我们最开始的团队。
-    </sys:String>
+    <sys:String x:Key="AboutUsContent">LauncherX 是下一代 Minecraft 启动器。</sys:String>
+    <sys:String x:Key="TeamContent">Corona Studio 源于 CMFL 开发组。我们是以 Minecraft 为业务核心的由爱好者和专业人士组成的计算机开发团队。</sys:String>
 
-    <sys:String x:Key="GroupMembers">团队成员</sys:String>
-    <sys:String x:Key="GroupMember1">老腊肉 - 前端、启动器核心、启动核心</sys:String>
-    <sys:String x:Key="GroupMember2">CodingEric - UI、人机交互设计、附属工具链开发</sys:String>
-    <sys:String x:Key="GroupMember3">Leon - 前端、动画设计、启动器核心</sys:String>
-    <sys:String x:Key="GroupMember4">纪华裕 - 后端</sys:String>
-    <sys:String x:Key="GroupMember5">月银秋 - 启动核心</sys:String>
+    <sys:String x:Key="VersionInfo">版本信息</sys:String>
+    <sys:String x:Key="ReleaseBranch">发行分支</sys:String>
+    <sys:String x:Key="BinaryVersion">二进制版本</sys:String>
 
-    <sys:String x:Key="TranslateGroupMembers">翻译组成员</sys:String>
-    <sys:String x:Key="TranslateGroupMember1">里卡 - 繁体中文</sys:String>
-    <sys:String x:Key="TranslateGroupMember2">法棍面包 - 西班牙语</sys:String>
-    <sys:String x:Key="TranslateGroupMember3">jonW - 英语</sys:String>
+    <sys:String x:Key="LauncherTeam">启动器团队</sys:String>
+    <sys:String x:Key="ChiefDeveloper">首席开发</sys:String>
+    <sys:String x:Key="Interaction">交互</sys:String>
+    <sys:String x:Key="TechAdviser">技术顾问</sys:String>
 
+    <sys:String x:Key="BackendTeam">后端团队</sys:String>
+    <sys:String x:Key="Docking">对接</sys:String>
+
+    <sys:String x:Key="ProjBobcatTeam">PROJBOBCAT团队</sys:String>
+    <sys:String x:Key="CodeReview">代码审查</sys:String>
+
+    <sys:String x:Key="QualityControlTeam">质量控制团队</sys:String>
+    <sys:String x:Key="Manager">主管</sys:String>
+    <sys:String x:Key="QualityControlGroup">质量控制组</sys:String>
+
+    <sys:String x:Key="TranslationContributor">翻译贡献者</sys:String>
 
     <sys:String x:Key="Thanks">鸣谢</sys:String>
     <sys:String x:Key="Thanks1">感谢由 BangBang93 以及 McBbs 提供的 MineCraft 资源文件下载加速服务</sys:String>
@@ -444,6 +451,7 @@
     <sys:String x:Key="ManuallyCopyRedirectUrl">手动复制 RedirectUrl</sys:String>
 
     <sys:String x:Key="Login">登录</sys:String>
+    <sys:String x:Key="Register">注册</sys:String>
 
     <sys:String x:Key="ConnectToService">连接到服务</sys:String>
 
@@ -493,7 +501,7 @@
     <sys:String x:Key="Offline">离线</sys:String>
     <sys:String x:Key="ChooseLoginType">请选择您的登陆方式</sys:String>
     <sys:String x:Key="ChooseLoginTypeDetail">请选择您的验证方式，如果您不清楚应该使用哪种验证方式，请使用 Mojang 验证。</sys:String>
-    
+
     <sys:String x:Key="GlobalNotSet">全局未设定</sys:String>
     <sys:String x:Key="SaveSettingsFailed">设置保存失败</sys:String>
 
@@ -525,4 +533,151 @@
     <sys:String x:Key="Version">版本</sys:String>
     <sys:String x:Key="Loading">加载中</sys:String>
 
+
+    <sys:String x:Key="AddFriend">添加好友</sys:String>
+    <sys:String x:Key="ValidateFriend">好友验证</sys:String>
+    <!-- Error Message -->
+
+    <sys:String x:Key="CanNotEmpty">此项不能为空</sys:String>
+
+    <sys:String x:Key="EmailFormatError">这似乎不是邮箱</sys:String>
+    <sys:String x:Key="EmailRequired">请输入邮箱</sys:String>
+
+    <sys:String x:Key="ConfirmEmail">验证邮箱</sys:String>
+    <sys:String x:Key="ValidationCode">验证码</sys:String>
+    <sys:String x:Key="ValidationCodeHasBeenSent">验证码已经发送到您的邮箱</sys:String>
+    <sys:String x:Key="PasswordIsDifferent">两次输入的密码不相同</sys:String>
+    <sys:String x:Key="PasswordFormat">密码必须包含大小写字母、数字和除下划线以外的特殊字符</sys:String>
+    <sys:String x:Key="StringLength">长度必须在{2}-{1}之间</sys:String>
+    <sys:String x:Key="AutoLogin">自动登录</sys:String>
+
+    <sys:String x:Key="HelpAndFeedback">帮助和反馈</sys:String>
+
+    <sys:String x:Key="LauncherAccount">启动器账户</sys:String>
+    <sys:String x:Key="RebootRequired">需要重启</sys:String>
+
+    <sys:String x:Key="GameSettings">游戏设置</sys:String>
+    <sys:String x:Key="Mod">模组</sys:String>
+    <sys:String x:Key="ResourcePack">资源包</sys:String>
+    <sys:String x:Key="ShaderPack">光影包</sys:String>
+
+    <sys:String x:Key="ReleaseNote">发行说明</sys:String>
+
+    <sys:String x:Key="ManageServer">管理服务器</sys:String>
+    <sys:String x:Key="ManageServerDescription">在这里您可以预览和添加您常玩的游戏服务器。</sys:String>
+    <sys:String x:Key="Refresh">刷新</sys:String>
+    <sys:String x:Key="AddNew">添加</sys:String>
+
+    <sys:String x:Key="Account">账户</sys:String>
+    <sys:String x:Key="LauncherAccountDescription">登录到 LauncherX 账户以获取丰富体验</sys:String>
+
+    <sys:String x:Key="Send">发送</sys:String>
+    <sys:String x:Key="SendDescription">输入消息，按 [ Enter ] 发送</sys:String>
+
+    <sys:String x:Key="NvidiaHardwareAcc">硬件加速渲染 （nVidia）</sys:String>
+    <sys:String x:Key="NvidiaHardwareAccRebootRequired">您修改了启动器的硬件加速设置，这部分设置需要重启启动器后才能应用</sys:String>
+
+    <sys:String x:Key="VideoBackground">视频背景</sys:String>
+    <sys:String x:Key="BlurRadius">模糊半径</sys:String>
+    <sys:String x:Key="Volume">音量</sys:String>
+    <sys:String x:Key="BackgroundAlignmentMode">背景图片对齐方式</sys:String>
+
+    <sys:String x:Key="ResolutionDescription">当分辨率为 0 * 0 时，将使用游戏默认分辨率。</sys:String>
+
+    <sys:String x:Key="WhatCanIShowYou">我能为您展示什么？</sys:String>
+    <sys:String x:Key="LauncherNotification">启动器通知</sys:String>
+
+    <sys:String x:Key="Second">秒</sys:String>
+
+    <sys:String x:Key="Accept">接受</sys:String>
+    <sys:String x:Key="Deny">拒绝</sys:String>
+
+    <sys:String x:Key="AddSelf">添加自己</sys:String>
+    <sys:String x:Key="UserState">用户状态</sys:String>
+    <sys:String x:Key="UpdateChannel">更新通道</sys:String>
+    <sys:String x:Key="Logout">注销</sys:String>
+
+    <sys:String x:Key="LauncherUpdateFound">发现新的本体更新</sys:String>
+    <sys:String x:Key="HotfixUpdateNotice">该版本包含重要的质量更新</sys:String>
+    <sys:String x:Key="DoNotCloseNotice">稍等片刻，请不要强制关闭您的启动器。</sys:String>
+    <sys:String x:Key="Update">更新</sys:String>
+
+    <sys:String x:Key="ShowPassword">显示密码</sys:String>
+    <sys:String x:Key="ForgetPassword">忘记密码</sys:String>
+
+    <sys:String x:Key="ClickToChange">点击修改</sys:String>
+
+    <sys:String x:Key="AuthServerHint">可选（通常为https://[域名]/api/yggdrasil/）</sys:String>
+    <sys:String x:Key="MsLoginDetail">您在上方输入邮箱之后。点击确认，您将在浏览器中完成微软账户的登录。完成之后，启动器将为您添加您的账户。</sys:String>
+
+    <sys:String x:Key="ProtocolVersion">协议版本</sys:String>
+    <sys:String x:Key="Search">搜索</sys:String>
+
+    <sys:String x:Key="TryStartGame">尝试启动游戏</sys:String>
+    <sys:String x:Key="StartingGame">开始启动游戏：{0}</sys:String>
+
+    <sys:String x:Key="LaunchFailedTitle">{0} 启动失败</sys:String>
+    <sys:String x:Key="LaunchFailedContent">我们再尝试启动游戏时出现了问题，具体原因：{0}</sys:String>
+    <sys:String x:Key="PreparingMainUI">正在准备主界面，这可能需要一些时间。</sys:String>
+
+    <sys:String x:Key="YouAreNotLogin">您还未登录</sys:String>
+    <sys:String x:Key="YouAreNotLoginContent">必须登录才能使用非稳定版LauncherX。</sys:String>
+    <sys:String x:Key="RegisterSucceededContent">我们已经发送了一封激活右键到您的邮箱。请点击邮件内的链接激活。激活后就可以登陆了</sys:String>
+    <sys:String x:Key="AccountUnavailable">无法使用此账号</sys:String>
+    <sys:String x:Key="AccountUnavailableContent">您不是内测用户。点击确定登录另一个账号，点击取消退出启动器</sys:String>
+    <sys:String x:Key="GetInsider">获得内测资格</sys:String>
+    <sys:String x:Key="ChannelSwitched">已自动帮您切换分支</sys:String>
+    <sys:String x:Key="ChannelSwitchedContent">
+        您原先设置的分支是「{0}」。{2}
+        由于您运行了「{1}」分支版本的LauncherX，{2}
+        我们已将您的分支切换到了「{1}」。
+    </sys:String>
+    <sys:String x:Key="DeviceVerificationFailed">设备验证失败</sys:String>
+    <sys:String x:Key="DeviceVerificationFailedContent">请删除您不使用的设备，并添加当前的设备, LauncherX即将退出。</sys:String>
+    <sys:String x:Key="ServerRefresh">服务器刷新</sys:String>
+    <sys:String x:Key="IsConfirm">确认吗？</sys:String>
+    <sys:String x:Key="ConfirmToDeleteFriend">确定要删除好友{0}吗？</sys:String>
+
+    <sys:String x:Key="MediaFile">媒体文件</sys:String>
+
+    <sys:String x:Key="LoginSucceededContent">账户已完成验证并已加密保存，请点击下一步继续。</sys:String>
+
+    <sys:String x:Key="UpdateDownloadFailed">无法下载更新</sys:String>
+    <sys:String x:Key="UpdateDownloadFailedContent">无法完成更新的下载，可能是因为网络连接问题。原因：{0}</sys:String>
+
+    <sys:String x:Key="EmailUsed">邮箱已被使用</sys:String>
+
+    <sys:String x:Key="Hi">嗨~</sys:String>
+    <sys:String x:Key="AuthResultNotFound">未找到认证结果</sys:String>
+    <sys:String x:Key="AuthIncomplete">无法完成账户验证</sys:String>
+    <sys:String x:Key="AuthIncompleteContent">我们无法完成账号的验证，这可能是因为您取消了验证或是其他原因。具体原因：{0}</sys:String>
+
+    <sys:String x:Key="TotalSold">一共售出</sys:String>
+    <sys:String x:Key="Last24Hours">过去 24 小时</sys:String>
+    <sys:String x:Key="SoldPerSecond">每秒售出</sys:String>
+    <sys:String x:Key="Copies">份</sys:String>
+
+    <sys:String x:Key="Online">在线</sys:String>
+    <sys:String x:Key="AFK">挂机</sys:String>
+    <sys:String x:Key="PlayingContent">正在玩：{0}</sys:String>
+
+    <sys:String x:Key="DeleteGameContent">将删除包括游戏存档、本体、资源包、光影、模组、游玩记录等数据。该操作 [无法撤销]，请谨慎操作！</sys:String>
+
+    <sys:String x:Key="TopLeft">左上角</sys:String>
+    <sys:String x:Key="TopCenter">中上</sys:String>
+    <sys:String x:Key="TopRight">右上角</sys:String>
+    <sys:String x:Key="CenterLeft">左中</sys:String>
+    <sys:String x:Key="Center">正中</sys:String>
+    <sys:String x:Key="CenterRight">右中</sys:String>
+    <sys:String x:Key="BottomLeft">左下角</sys:String>
+    <sys:String x:Key="BottomCenter">中下</sys:String>
+    <sys:String x:Key="BottomRight">右下角</sys:String>
+
+    <sys:String x:Key="ImageLoadFailed">图片加载失败</sys:String>
+
+    <sys:String x:Key="SetServerSucceededContent">成功将服务器设置为：{0}</sys:String>
+
+    <sys:String x:Key="ChangeModEnableFailed">启 / 禁用模组失败！</sys:String>
+
+    <sys:String x:Key="ConfirmDeleteImageDetail">确认删除该壁纸？此操作无法撤销。</sys:String>
 </ResourceDictionary>
