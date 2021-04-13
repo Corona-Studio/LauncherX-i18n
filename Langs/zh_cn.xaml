@@ -680,4 +680,14 @@
     <sys:String x:Key="ChangeModEnableFailed">启 / 禁用模组失败！</sys:String>
 
     <sys:String x:Key="ConfirmDeleteImageDetail">确认删除该壁纸？此操作无法撤销。</sys:String>
+
+    <sys:String x:Key="Higgs">希格斯（最快）</sys:String>
+    <sys:String x:Key="Neutrino">中微子（快速）</sys:String>
+    <sys:String x:Key="Proton">质子（慢速）</sys:String>
+
+    <sys:String x:Key="Stable">稳定</sys:String>
+
+    <sys:String x:Key="ServerNoContent">服务器无返回</sys:String>
+    <sys:String x:Key="FalseCredential">账户或密码错误</sys:String>
+    <sys:String x:Key="UnknownLoginError">未知的登陆错误</sys:String>
 </ResourceDictionary>
