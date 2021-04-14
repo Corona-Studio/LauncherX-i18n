@@ -526,7 +526,7 @@
     <sys:String x:Key="ValidationCode">Validation Code</sys:String>
     <sys:String x:Key="ValidationCodeHasBeenSent">Validation Code Send</sys:String>
     <sys:String x:Key="PasswordIsDifferent">Two input password is not the same.</sys:String>
-    <sys:String x:Key="PasswordFormat">Password must contain upper and lower case of alphabet, at least one digit and special character which excludes underline.</sys:String>
+    <sys:String x:Key="PasswordFormat">Password must contain both upper and lower case of alphabet, at least one digit and at least one special character excludes underline.</sys:String>
     <sys:String x:Key="StringLength">Length should between {2} and {1}.</sys:String>
     <sys:String x:Key="AutoLogin">Auto Login</sys:String>
 
