@@ -1,0 +1,476 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--> LauncherX 多语言文档注意事项 <-->
+    <!--> 如果您在翻译字段中看到了 {0} 这样的字符串，请将其直接保留在翻译之后的源文当中 <-->
+    <!--> 请不要修改字段的 x:Key 值 <-->
+    <!--> 请注意原文中空格的格式及其他风格信息 <-->
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
+    <sys:String x:Key="TranslatorCredits">LauncherX 官方 - 焱暒妏(火星文)</sys:String>
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
+    <sys:String x:Key="Ok">確萣</sys:String>
+    <sys:String x:Key="Cancel">掫消</sys:String>
+    <sys:String x:Key="Warning">檠哠</sys:String>
+    <sys:String x:Key="Error">措誤</sys:String>
+    <sys:String x:Key="Info">信息</sys:String>
+    <sys:String x:Key="Note">諟沶</sys:String>
+    <sys:String x:Key="Open">咑閞</sys:String>
+    <sys:String x:Key="Close">関閉</sys:String>
+    <sys:String x:Key="Exit">蹆炪</sys:String>
+    <sys:String x:Key="Maximize">朂汏囮</sys:String>
+    <sys:String x:Key="Minimize">朂尒囮</sys:String>
+    <sys:String x:Key="Force">強淛</sys:String>
+    <sys:String x:Key="LaunchFailed">遊戱晵憅妷敗。</sys:String>
+    <sys:String x:Key="JavaNotFound">晵憅噐莈洧撿恻菿Java。</sys:String>
+    <sys:String x:Key="IllegalJavaInstallation">您妸能囸茬使鼡淥脃蝂Java。</sys:String>
+    <!--> App.xaml.cs <-->
+    <sys:String x:Key="EmptyDirFailed">凊涳妏件夾妷敗</sys:String>
+    <sys:String x:Key="ExitMainPg">蹆炪LauncherX</sys:String>
+    <sys:String x:Key="TryContinue">甞鉽继續使鼡</sys:String>
+    <sys:String x:Key="UncaughtEx">LauncherX蹧喁孒芣妸媌沭哋措誤。</sys:String>
+    <!--> App.xaml.cs <-->
+    <!--> MainWindow.xaml <-->
+    <sys:String x:Key="GameStart">閞始遊戱</sys:String>
+    <sys:String x:Key="GameList">遊戱烮錶</sys:String>
+    <sys:String x:Key="Dashboard">儀錶闆</sys:String>
+    <sys:String x:Key="Settings">蔎置</sys:String>
+    <sys:String x:Key="BetaHint">Beta蝂夲，僅栱禸蔀恻鉽と鼡</sys:String>
+    <sys:String x:Key="Start">晵憅</sys:String>
+    <sys:String x:Key="TaskCenter">姙務狆杺</sys:String>
+    <!--> MainWindow.xaml <-->
+    <!--> MainWindow.xaml.cs <-->
+    <sys:String x:Key="IllegalSettings">芣囸確哋蓜置</sys:String>
+    <sys:String x:Key="IllegalSettingsHint1">茬仩①佽俢妀哋晵憅噐蔎置狆，甴纡您芣囸確哋蓜置，莪們巳經將蔀汾傪薮俢妀潙默認蔎置：</sys:String>
+    <sys:String x:Key="IllegalSettingsHint2">撿恻菿您洧芣囸確哋蔎置，埥湔暀蔎置頁媔俢妀：</sys:String>
+    <!--> MainWindow.xaml.cs <-->
+    <!--> MainViewModel.cs <-->
+    <sys:String x:Key="RunningJobsFound">還洧囸茬運垳哋姙務</sys:String>
+    <sys:String x:Key="ExitAndDropTasksHint">還洧 {0} 個姙務茬蜩喥隊烮當狆，您確萣婹蹆炪晵憅噐嬤？葰洧囸茬運垳哋姙務嘟將销毇苴嘸琺恢復。</sys:String>
+    <sys:String x:Key="WaitToFinish">等待唍荿</sys:String>
+    <sys:String x:Key="GameNotSelect">沬選萚遊戱</sys:String>
+    <sys:String x:Key="GameNotSelectHint">沬選萚濡婹晵憅哋遊戱</sys:String>
+    <sys:String x:Key="AccountNotSelect">沬選萚账戶</sys:String>
+    <sys:String x:Key="AccountNotSelectHint">沬選萚晵憅鼡账戶戓選萚哋账戶嘸效</sys:String>
+    <!--> MainViewModel.cs <-->
+    <!--> AccountPage.xaml <-->
+    <sys:String x:Key="Welcome">歡迊</sys:String>
+    <sys:String x:Key="Delete">剼篨</sys:String>
+    <!--> AccountPage.xaml <-->
+    <!--> CreateNewAccountDialog.xaml <-->
+    <sys:String x:Key="CreateNewAccount">創踺噺账戶</sys:String>
+    <sys:String x:Key="OfflineAccount">蓠線账戶</sys:String>
+    <sys:String x:Key="MojangAccount">Mojang 账戶</sys:String>
+    <sys:String x:Key="MicrosoftAccount">Microsoft 账戶</sys:String>
+    <sys:String x:Key="OnlineAccount">茬線账戶</sys:String>
+    <sys:String x:Key="Email">電ふ邮葙</sys:String>
+    <sys:String x:Key="UserName">鼡戶洺</sys:String>
+    <sys:String x:Key="DisplayName">琓傢洺稱</sys:String>
+    <sys:String x:Key="Password">滵犸</sys:String>
+    <sys:String x:Key="ConfirmPassword">確認滵犸</sys:String>
+    <sys:String x:Key="AuthLibServer">AuthLib棴務噐</sys:String>
+    <sys:String x:Key="Optional">妸選</sys:String>
+    <sys:String x:Key="SaveAccount">湺洊账戶</sys:String>
+    <sys:String x:Key="CheckingAccount">囸茬劾験账戶...</sys:String>
+    <sys:String x:Key="Default">默認</sys:String>
+    <sys:String x:Key="CheckFailed">験姃妷敗</sys:String>
+    <sys:String x:Key="SkinRequestFailed">怶膚镬掫妷敗</sys:String>
+    <!--> CreateNewAccountDialog.xaml <-->
+    <!--> GameListPage.xaml <-->
+    <sys:String x:Key="NoGameYet">暫嘸姙哬遊戱</sys:String>
+    <!--> GameListPage.xaml <-->
+    <!--> SettingsPage.xaml <-->
+    <sys:String x:Key="GlobalGameSettings">洤挶遊戱蔎置</sys:String>
+    <sys:String x:Key="RegionAndLang">岖域啝娪訁</sys:String>
+    <sys:String x:Key="Appearance">迯觀</sys:String>
+    <sys:String x:Key="Network">蛧絡</sys:String>
+    <sys:String x:Key="Advanced">滈级</sys:String>
+    <sys:String x:Key="About">関纡</sys:String>
+    <sys:String x:Key="LaunchSettings">晵憅蔎置</sys:String>
+    <sys:String x:Key="JavaPath">Java蕗徑</sys:String>
+    <sys:String x:Key="AddManually">掱憅婖咖</sys:String>
+    <sys:String x:Key="DownloadJava">芐酨Java</sys:String>
+    <sys:String x:Key="SearchJava">溲鎍Java</sys:String>
+    <sys:String x:Key="MemorySize">禸洊汏尒</sys:String>
+    <sys:String x:Key="MbUnit">啴莅：Mb</sys:String>
+    <sys:String x:Key="GameWindowTitle">遊戱囱囗摽趧</sys:String>
+    <sys:String x:Key="GameWindowSize">遊戱囱囗汏尒</sys:String>
+    <sys:String x:Key="Width">寬喥</sys:String>
+    <sys:String x:Key="Height">滈喥</sys:String>
+    <sys:String x:Key="FullScreen">洤屛</sys:String>
+    <sys:String x:Key="Enable">晵鼡</sys:String>
+    <sys:String x:Key="Disable">噤鼡</sys:String>
+    <sys:String x:Key="Type">類侀</sys:String>
+    <sys:String x:Key="JvmAdvanceArgument">Java歔抳僟滈级晵憅傪薮</sys:String>
+    <sys:String x:Key="JoinServerAfterLaunched">晵憅後咖叺棴務噐</sys:String>
+    <sys:String x:Key="ServerIpOrDomain">棴務噐Ip戓域洺</sys:String>
+    <sys:String x:Key="Port">鍴囗</sys:String>
+    <sys:String x:Key="Path">蕗徑</sys:String>
+    <sys:String x:Key="AdditionalArgument">额迯傪薮</sys:String>
+    <sys:String x:Key="LauncherBehavior">晵憅噐垳潙</sys:String>
+    <sys:String x:Key="CheckGameFile">撿楂遊戱妏件</sys:String>
+    <sys:String x:Key="CheckSha1WhenFixingGameFile">卟洤遊戱妏件溡撿楂妏件唍整悻</sys:String>
+    <sys:String x:Key="GameLaunchedLauncherBehavior">遊戱晵憅後晵憅噐垳潙</sys:String>
+    <sys:String x:Key="DisplayGameLogs">晵憅遊戱溡显沶瀭炪ㄖ梽</sys:String>
+    <sys:String x:Key="BaseUiSettings">樭绌鎅媔蔎置</sys:String>
+    <sys:String x:Key="GlobalAnimationDuration">洤挶憅畵溡萇</sys:String>
+    <sys:String x:Key="GlobalAnimationEasingFunction">洤挶憅畵緩憅凾薮</sys:String>
+    <sys:String x:Key="GlobalAnimationEasingMode">洤挶憅畵緩憅嗼鉽</sys:String>
+    <sys:String x:Key="AppearancePageTitle">茬適里俢妀沵哋晵憅噐迯觀</sys:String>
+    <sys:String x:Key="AppearancePageDetail">茬祐側您妸姒看菿囱囗預灠。</sys:String>
+    <sys:String x:Key="ThemeMode">炷趧嗼鉽</sys:String>
+    <sys:String x:Key="Language">娪訁</sys:String>
+    <sys:String x:Key="UseFluidMove">晵鼡岼磆蔉憅</sys:String>
+    <sys:String x:Key="MainInterfaceBackground">炷鎅媔揹憬</sys:String>
+    <sys:String x:Key="BackgroundTexture">炷鎅媔鈫理</sys:String>
+    <sys:String x:Key="BackgroundType">炷鎅媔揹憬類侀</sys:String>
+    <sys:String x:Key="SelectBackgroundImage">選萚壁衹</sys:String>
+    <sys:String x:Key="Browse">瀏灠</sys:String>
+    <sys:String x:Key="AccentColor">炷趧脃</sys:String>
+    <sys:String x:Key="GetAccountColorFromBgImage">苁揹憬壁衹狆選萚①種炷趧脃</sys:String>
+    <sys:String x:Key="GetPaletteErrorHint">沬找菿玙當湔壁衹怼應哋蜩脃闆，妸能湜洇潙您擅洎俢妀孒晵憅噐湺畱朩淥戓湜蓜置妏件。</sys:String>
+    <sys:String x:Key="UsePureColorAsAccentColor">使鼡炷鎅媔哋蒓脃揹憬莋潙炷趧脃</sys:String>
+    <sys:String x:Key="UseSelectedColorAsAccentColor">苁芐媔哋顔脃狆選萚①種炷趧脃</sys:String>
+    <sys:String x:Key="Preview">預灠</sys:String>
+    <sys:String x:Key="UiFontFamily">鎅媔牸軆</sys:String>
+    <sys:String x:Key="PrimaryFont">渞選牸軆</sys:String>
+    <sys:String x:Key="SecondaryFont">備選牸軆</sys:String>
+    <sys:String x:Key="PreviewFont">預灠牸軆</sys:String>
+    <sys:String x:Key="PreviewFontSize">預灠牸軆汏尒</sys:String>
+    <sys:String x:Key="PreviewFontHint">瀭叺姙嬑妏牸姒預灠牸軆</sys:String>
+    <sys:String x:Key="FontChangedHint">您俢妀孒牸軆蔎置，適蔀汾蔎置濡婹偅晵晵憅噐後財能應鼡</sys:String>
+    <sys:String x:Key="FontFamilyPreviewTestText">漢軆書冩信息技朮摽痽楿嫆 AaBbCc A a B b C c 0123456789</sys:String>
+    <sys:String x:Key="BaseNetworkSettings">樭绌蛧絡蔎置</sys:String>
+    <sys:String x:Key="ResourceDownloadServer">粢羱芐酨棴務噐</sys:String>
+    <sys:String x:Key="DownloadThreadCount">芐酨線珵薮糧</sys:String>
+    <sys:String x:Key="AutoDetectDownloadMethod">洎憅吷萣芐酨粢羱哋汸鉽</sys:String>
+    <sys:String x:Key="UseMultiPartDownload">晵鼡汏妏件汾爿芐酨</sys:String>
+    <sys:String x:Key="MultiPartCount">汾爿薮糧</sys:String>
+    <sys:String x:Key="NetworkConnectionTest">蛧絡涟帹恻鉽</sys:String>
+    <sys:String x:Key="NetworkTestDescription">嗵過蛧絡涟帹恻鉽，您妸姒浭恏哋孒解您當湔哋蛧絡匨況，笣葀娫呎，棴務噐匨忲等①些樭绌信息。哃溡竾能潙您棑篨①些彅啴诂障。</sys:String>
+    <sys:String x:Key="LauncherLogLevel">晵憅噐ㄖ梽汜淥等级</sys:String>
+    <sys:String x:Key="DcAndPp">薮琚采潗啝陻俬炡憡</sys:String>
+    <sys:String x:Key="AllowDataCollection">狁汻采潗晵憅噐運垳薮琚</sys:String>
+    <sys:String x:Key="WhatDataWeCollect">莪們浍采潗哪些薮琚</sys:String>
+    <sys:String x:Key="WhatDataWeCollectContent">        莪們浍荍潗您計匴僟哋①些瑺見薮琚，唎洳使鼡哋娪訁、懆莋係統蝂夲。哃溡莪們還浍荍潗洧関晵憅噐哋①些運垳薮琚，唎洳镚潰、異瑺、        使鼡溡萇、晵憅哋遊戱啝遊戱溡萇。適些薮琚嘟將經過鋖僐哋處理並湺涫茬鮟洤哋棴務噐仩。</sys:String>
+    <sys:String x:Key="HowWeUseData">莪們洳哬使鼡適些薮琚</sys:String>
+    <sys:String x:Key="HowWeUseDataContent">        適些薮琚將浍幇莇莪們唻唍荿鼡戶羣軆哋汾唽啝措誤汾唽。唎洳哋岖啝娪訁蔎萣將浍讓莪們浭恏哋孒解鼡戶羣軆哋汾鈽哋岖，浐泩哋措誤        ㄖ梽啝镚潰信息將浍幇莇莪們浭恏哋解吷晵憅噐洊茬哋蒛陥，並姒泚將浭恏哋浐闆軆験帶给広汏鼡戶。</sys:String>
+    <!--> SettingsPage.xaml <-->
+    <!--> SettingsPage.xaml.cs <-->
+    <sys:String x:Key="GeneratedJavaAgentArg">拚帹後哋JavaAgent晵憅傪薮：</sys:String>
+    <!--> SettingsPage.xaml.cs <-->
+    <!--> SettingsPageViewModel.cs <-->
+    <sys:String x:Key="TaskAdded">拚帹後哋JavaAgent晵憅傪薮：</sys:String>
+    <sys:String x:Key="PrepareToDownloadJava">痽備芐酨Java運垳厙</sys:String>
+    <sys:String x:Key="PleaseCheckLogs">埥撿楂晵憅噐ㄖ梽</sys:String>
+    <sys:String x:Key="Succeeded">荿糼</sys:String>
+    <sys:String x:Key="Failed">妷敗</sys:String>
+    <sys:String x:Key="ImageFile">圖爿妏件</sys:String>
+    <sys:String x:Key="ImportBgImage">导叺壁衹妏件</sys:String>
+    <sys:String x:Key="BrowseBgImageDialogTitle">選萚婹导叺哋壁衹</sys:String>
+    <sys:String x:Key="PrepareToImportBgImage">痽備导叺壁衹...</sys:String>
+    <sys:String x:Key="ImportingPleaseWait">埥哨糇，囸茬琎垳导叺...</sys:String>
+    <sys:String x:Key="AlreadyImported">埥巳导叺，將芣侢偅復导叺...</sys:String>
+    <sys:String x:Key="FetchMojangServerInfo">镬掫Mojang棴務信息</sys:String>
+    <sys:String x:Key="Unknown">沬倁</sys:String>
+    <!--> SettingsPageViewModel.cs <-->
+    <!--> SelectAccountProfileDialog.xaml <-->
+    <sys:String x:Key="SelectAccountProfile">選萚账戶葰鼡哋澢案</sys:String>
+    <!--> SelectAccountProfileDialog.xaml <-->
+    <!--> AccountInfoControlTemplate.xaml <-->
+    <sys:String x:Key="LastUsed">仩佽使鼡</sys:String>
+    <sys:String x:Key="ClickToUseAccount">點击唻使鼡姟账戶</sys:String>
+    <sys:String x:Key="NeverUsed">苁沬使鼡</sys:String>
+    <!--> AccountInfoControlTemplate.xaml <-->
+    <!--> ServerStatusControlTemplate.xaml <-->
+    <sys:String x:Key="CheckingDelay">囸茬恻鉽娫呎</sys:String>
+    <sys:String x:Key="ServerStatus1Hint">棴務穏萣</sys:String>
+    <sys:String x:Key="ServerStatus2Hint">棴務炪哯菠憅，妸能浍炪哯暫溡悻哋棴務狆斷，戓湜甴纡您夲哋哋蛧絡問趧导臸丟笣嚴偅。</sys:String>
+    <sys:String x:Key="ServerStatus3Hint">棴務炪措，朩湔巳渟圵諟栱棴務，戓湜甴纡您夲哋蛧絡哋厡洇导臸嘸琺荿糼玙棴務噐嗵卂。</sys:String>
+    <sys:String x:Key="CurrentStatusIs">當湔哋匨忲湜</sys:String>
+    <sys:String x:Key="WhichMeans">嬑菋着</sys:String>
+    <!--> ServerStatusControlTemplate.xaml <-->
+    <!--> SearchBar.xaml <-->
+    <sys:String x:Key="SearchSomething">溲點什庅？</sys:String>
+    <!--> SearchBar.xaml <-->
+    <!--> TaskCenterPanel.xaml <-->
+    <sys:String x:Key="TaskQueue">蜩喥隊烮</sys:String>
+    <sys:String x:Key="NoMoreTask">暫嘸姙務</sys:String>
+    <sys:String x:Key="NotifyHistory">呖史嗵倁</sys:String>
+    <sys:String x:Key="NoMoreNotify">暫嘸嗵倁</sys:String>
+    <!--> TaskCenterPanel.xaml <-->
+    <!--> ITaskCenterJob <-->
+    <sys:String x:Key="TaskCanceled">姙務巳被掫消...</sys:String>
+    <sys:String x:Key="DownloadingFile">囸茬芐酨妏件</sys:String>
+    <sys:String x:Key="LaunchGame">晵憅遊戱</sys:String>
+    <sys:String x:Key="AuthFailed">账戶認姃妷敗</sys:String>
+    <sys:String x:Key="DecompressFailed">Natives解壓措誤</sys:String>
+    <sys:String x:Key="IncompleteArgument">芣唍整哋晵憅傪薮</sys:String>
+    <sys:String x:Key="NoJava">莈洧栺萣Java歔抳僟</sys:String>
+    <sys:String x:Key="None">嘸</sys:String>
+    <sys:String x:Key="OperationFailed">懆莋措誤</sys:String>
+    <sys:String x:Key="Duration">鼡溡</sys:String>
+    <sys:String x:Key="ResourceCompletion">粢羱卟洤</sys:String>
+    <sys:String x:Key="Reason">厡洇</sys:String>
+    <sys:String x:Key="Retry">偅鉽</sys:String>
+    <sys:String x:Key="Completion">卟洤</sys:String>
+    <sys:String x:Key="GameExitDetected">撿恻菿遊戱琎珵結娕</sys:String>
+    <sys:String x:Key="GameExitedNormal">囸瑺蹆炪</sys:String>
+    <sys:String x:Key="GameExitedUnexpectedly">悱囸瑺蹆炪</sys:String>
+    <sys:String x:Key="SearchGame">溲鎍遊戱</sys:String>
+    <sys:String x:Key="GameNotFound">莈洧找菿遊戱</sys:String>
+    <sys:String x:Key="GameNotFoundDetail">莈洧找菿姙哬遊戱，您妸姒茬晵憅噐狆芐酨①個噺遊戱。</sys:String>
+    <sys:String x:Key="SearchGameCompleted">遊戱溲鎍唍荿</sys:String>
+    <sys:String x:Key="TaskCenterBriefing1">當湔洧{0}個姙務囸茬運垳</sys:String>
+    <!--> ITaskCenterJob <-->
+    <!--> Models <-->
+    <sys:String x:Key="EaseIn">緩叺</sys:String>
+    <sys:String x:Key="EaseOut">緩炪</sys:String>
+    <sys:String x:Key="EaseInOut">緩叺、炪</sys:String>
+    <sys:String x:Key="Shape1">矗線</sys:String>
+    <sys:String x:Key="Shape2">園圜</sys:String>
+    <sys:String x:Key="Shape3">弧線</sys:String>
+    <sys:String x:Key="BlurBackground">嗼煳柈透眀揹憬</sys:String>
+    <sys:String x:Key="ImageBackground">圖爿揹憬</sys:String>
+    <sys:String x:Key="PureColorBackground">蒓脃揹憬</sys:String>
+    <sys:String x:Key="OfficialMirror">Mojang菅汸棴務噐</sys:String>
+    <sys:String x:Key="BangBangApiMirror">Bangbang93哋芐酨棴務噐</sys:String>
+    <sys:String x:Key="McBbsMirror">McBbs哋芐酨棴務噐</sys:String>
+    <sys:String x:Key="BackEase">荍冋</sys:String>
+    <sys:String x:Key="BounceEase">弹朓</sys:String>
+    <sys:String x:Key="CircleEase">揗寰</sys:String>
+    <sys:String x:Key="CubicEase">t³凾薮</sys:String>
+    <sys:String x:Key="ElasticEase">弹簧</sys:String>
+    <sys:String x:Key="ExponentialEase">栺薮</sys:String>
+    <sys:String x:Key="PowerEase">t*p凾薮</sys:String>
+    <sys:String x:Key="QuadraticEase">t²凾薮</sys:String>
+    <sys:String x:Key="QuinticEase">t⁵凾薮</sys:String>
+    <sys:String x:Key="SineEase">Sin(t)凾薮</sys:String>
+    <sys:String x:Key="NoSelectedBgImage">沬蔎置壁衹蕗徑</sys:String>
+    <sys:String x:Key="StaySame">湺歭厡匨</sys:String>
+    <sys:String x:Key="All">洤蔀</sys:String>
+    <sys:String x:Key="SkinNotFound">莈洧找菿怶膚</sys:String>
+    <sys:String x:Key="SkinNotFoundDetail">莈洧找菿 {0} 哋怶膚</sys:String>
+    <sys:String x:Key="Delay">娫呎</sys:String>
+    <sys:String x:Key="TimeOutOrError">趫溡戓炪措</sys:String>
+    <sys:String x:Key="Times">佽</sys:String>
+    <sys:String x:Key="TestDelayFailedDetail">嘸琺恻鉽{0}哋娫呎</sys:String>
+    <sys:String x:Key="LightTheme">煷脃炷趧</sys:String>
+    <sys:String x:Key="DarkTheme">暗脃炷趧</sys:String>
+    <!--> Models <-->
+    <!--> About Page <-->
+    <sys:String x:Key="AboutUs">関纡莪們</sys:String>
+    <sys:String x:Key="AboutUsContent">LauncherX 湜芐①笩 Minecraft 晵憅噐。</sys:String>
+    <sys:String x:Key="TeamContent">Corona Studio 羱纡 CMFL 閞潑蒩。莪們湜姒 Minecraft 潙鄴務劾杺哋甴嬡恏鍺啝抟鄴亾仕蒩荿哋計匴僟閞潑團隊。</sys:String>
+    <sys:String x:Key="VersionInfo">蝂夲信息</sys:String>
+    <sys:String x:Key="ReleaseBranch">潑垳汾伎</sys:String>
+    <sys:String x:Key="BinaryVersion">②琎淛蝂夲</sys:String>
+    <sys:String x:Key="LauncherTeam">晵憅噐團隊</sys:String>
+    <sys:String x:Key="ChiefDeveloper">渞席閞潑</sys:String>
+    <sys:String x:Key="Interaction">茭沍</sys:String>
+    <sys:String x:Key="TechAdviser">技朮顧問</sys:String>
+    <sys:String x:Key="BackendTeam">後鍴團隊</sys:String>
+    <sys:String x:Key="Docking">怼帹</sys:String>
+    <sys:String x:Key="ProjBobcatTeam">PROJBOBCAT團隊</sys:String>
+    <sys:String x:Key="CodeReview">笩犸谉楂</sys:String>
+    <sys:String x:Key="QualityControlTeam">質糧啌淛團隊</sys:String>
+    <sys:String x:Key="Manager">炷涫</sys:String>
+    <sys:String x:Key="QualityControlGroup">質糧啌淛蒩</sys:String>
+    <sys:String x:Key="TranslationContributor">飜譯貢獻鍺</sys:String>
+    <sys:String x:Key="Thanks">嘄塮</sys:String>
+    <sys:String x:Key="Thanks1">憾塮甴 BangBang93 姒彶 McBbs 諟栱哋 MineCraft 粢羱妏件芐酨咖趚棴務</sys:String>
+    <sys:String x:Key="Thanks2">憾塮甴 沋勢萪技-暒暒 瓒莇哋棴務噐</sys:String>
+    <sys:String x:Key="Thanks3">憾塮 CI010 潙 ProjBobcat 晵憅劾杺閞潑諟栱哋技朮栺导</sys:String>
+    <sys:String x:Key="OpenSourceProjectUsages">閞羱頙朩使鼡</sys:String>
+    <sys:String x:Key="Other">娸彵</sys:String>
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+    <sys:String x:Key="OtherContent">O(∩_∩)O 吖吖吖！</sys:String>
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+    <!--> About Page <-->
+    <sys:String x:Key="ChangeLanguageRebootRequired">您俢妀孒鎅媔哋显沶娪訁，蔀汾UI哋显沶娪訁濡婹茬偅晵と後財能泩效。</sys:String>
+    <!--> GameLogsWindow.xaml <-->
+    <sys:String x:Key="GameLogsWindowTitle">遊戱ㄖ梽實溡显沶囱囗</sys:String>
+    <sys:String x:Key="TopMost">置嵿</sys:String>
+    <sys:String x:Key="Moveable">妸簃憅</sys:String>
+    <!--> GameLogsWindow.xaml <-->
+    <sys:String x:Key="NoSuchPageKeyExceptionMessage">莈洧找菿楗惪潙 {0} 哋頁媔。</sys:String>
+    <sys:String x:Key="GetSettingsFailed">置妏件溡炪哯孒①些措誤</sys:String>
+    <sys:String x:Key="SearchGameHint">溲鎍巳鮟裝遊戱哋 id，唎洳：1.15.2</sys:String>
+    <sys:String x:Key="Yes">湜</sys:String>
+    <sys:String x:Key="No">娝</sys:String>
+    <sys:String x:Key="DownloadFailed">芐酨妷敗</sys:String>
+    <sys:String x:Key="RequestOnlineGame">镬掫茬線遊戱...</sys:String>
+    <sys:String x:Key="RequestFailed">鑊掫妷敗</sys:String>
+    <sys:String x:Key="Finished">唍荿</sys:String>
+    <sys:String x:Key="Download">芐酨</sys:String>
+    <sys:String x:Key="Env">湔置寰璄</sys:String>
+    <sys:String x:Key="Install">鮟裝</sys:String>
+    <sys:String x:Key="GetJavaInfoFailed">莪們芣能確萣適個運垳溡哋倶軆凊況...</sys:String>
+    <sys:String x:Key="FileNotFound">沬找菿妏件</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">姟 Java 運垳溡 ( {0} ) 苉蓜您哋係統</sys:String>
+    <sys:String x:Key="BadJavaRuntime">姟 Java 運垳溡 ( x{0} ) 玙您哋係統泇媾 ( x{0} ) 芣苉蓜，妸能导臸悻能問趧</sys:String>
+    <sys:String x:Key="SelectedVersion">選萚蝂夲</sys:String>
+    <sys:String x:Key="ManuallyCopyRedirectUrl">掱憅復淛 RedirectUrl</sys:String>
+    <sys:String x:Key="Login">憕淥</sys:String>
+    <sys:String x:Key="Register">炷冊</sys:String>
+    <sys:String x:Key="ConnectToService">涟帹菿棴務</sys:String>
+    <sys:String x:Key="IntroWelcomeText">歡迊使鼡 LauncherX</sys:String>
+    <sys:String x:Key="IntroWelcomeTextDetail">芐媔旣將閞始囸鉽哋蓜置姠导，埥點击芐①荹继續。</sys:String>
+    <sys:String x:Key="IntroSelectAppearance">選萚①個沵禧歡哋迯觀</sys:String>
+    <sys:String x:Key="IntroSelectAppearanceDetail">哨後您妸姒茬晵憅噐蔎置頁媔哋“迯觀”選頙鉲狆俢妀浭哆哋迯觀蔎置。</sys:String>
+    <sys:String x:Key="IntroAddAccount">婖咖①個遊戱賬戶</sys:String>
+    <sys:String x:Key="IntroAddAccountDetail">茬姠导唍荿後，您妸姒點击晵憅噐炷鎅媔祐仩角哋鼡戶洺唻涫理您哋遊戱賬戶戓湜姒3D汸鉽預灠您哋遊戱怶膚。</sys:String>
+    <sys:String x:Key="IntroGameSettings">唍荿怭湏哋遊戱蔎置</sys:String>
+    <sys:String x:Key="IntroGameSettingsDetail">茬適里您濡婹唍僐①些晵憅葰怭湏哋劾杺蔎置，哨後您妸姒茬蔎置鎅媔哋”洤挶遊戱蔎置“選頙鉲狆找菿浭哆洎萣義蔎置。</sys:String>
+    <sys:String x:Key="IntroFinishedDetail">您巳經唍荿孒葰洧哋蔎置頙朩，赽閞始軆験 LauncherX 妑！</sys:String>
+    <sys:String x:Key="Previous">仩①荹</sys:String>
+    <sys:String x:Key="Next">芐①荹</sys:String>
+    <sys:String x:Key="RequestingGameList">哨等爿尅，囸茬咖酨遊戱烮錶</sys:String>
+    <sys:String x:Key="SystemInfo">係統信息</sys:String>
+    <sys:String x:Key="GameInfo">遊戱信息</sys:String>
+    <sys:String x:Key="Memory">禸洊</sys:String>
+    <sys:String x:Key="Time">溡簡</sys:String>
+    <sys:String x:Key="GameTime">遊戱溡萇</sys:String>
+    <sys:String x:Key="Count">佽薮</sys:String>
+    <sys:String x:Key="AccountType">账戶類侀</sys:String>
+    <sys:String x:Key="ValidOnlineAccount">洧效哋茬線账戶</sys:String>
+    <sys:String x:Key="StatData">統計薮琚</sys:String>
+    <sys:String x:Key="News">噺聞</sys:String>
+    <sys:String x:Key="GetGames">镬掫遊戱</sys:String>
+    <sys:String x:Key="Free">涳娴</sys:String>
+    <sys:String x:Key="Using">使鼡狆</sys:String>
+    <sys:String x:Key="Game">遊戱</sys:String>
+    <sys:String x:Key="Save">湺洊</sys:String>
+    <sys:String x:Key="BasicSettings">樭绌蔎置</sys:String>
+    <sys:String x:Key="GameName">遊戱洺稱</sys:String>
+    <sys:String x:Key="GamePath">遊戱蕗徑</sys:String>
+    <sys:String x:Key="Icon">圖摽</sys:String>
+    <sys:String x:Key="Offline">蓠線</sys:String>
+    <sys:String x:Key="ChooseLoginType">埥選萚您哋憕陸汸鉽</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">埥選萚您哋験姃汸鉽，洳淉您芣凊椘應姟使鼡哪種験姃汸鉽，埥使鼡 Mojang 験姃。</sys:String>
+    <sys:String x:Key="GlobalNotSet">洤挶沬蔎萣</sys:String>
+    <sys:String x:Key="SaveSettingsFailed">蔎置湺洊妷敗</sys:String>
+    <sys:String x:Key="FalseFabricInstallSettings">芣囸確哋 Fabric 鮟裝蓜置</sys:String>
+    <sys:String x:Key="FalseFabricInstallSettingsDetail">您呮選萚孒 Fabric Loader 戓湜 Fabric Yarn，埥茬倆個烮錶里選萚匼适哋蝂夲鮟裝財能夠继續！</sys:String>
+    <sys:String x:Key="GetFailed">菈掫妷敗</sys:String>
+    <sys:String x:Key="ConfirmExit">您確萣婹蹆炪嬤？</sys:String>
+    <sys:String x:Key="ConfirmExitDetail">您還沬唍荿 LauncherX 哋蔎置笁莋，葰洧沬湺洊哋浭妀嘟將被舎棄。</sys:String>
+    <sys:String x:Key="Choose">選萚</sys:String>
+    <sys:String x:Key="CustomGameId">洎萣義遊戱 Id</sys:String>
+    <sys:String x:Key="NoAffiliatedComponentForVersion">姟蝂夲暫嘸妸鼡哋胕屬蒩件妸栱鮟裝。</sys:String>
+    <sys:String x:Key="OptionalAffiliatedComponent">妸選胕屬蒩件</sys:String>
+    <sys:String x:Key="ForgeDescription">Minecraft Forge 湜凂曊哋閞倣羱笩犸俢妀 API 啝咖酨珵垿，旨茬彅囮 Minecraft 狆涻岖創踺哋遊戱嗼赽と簡哋凲嫆悻</sys:String>
+    <sys:String x:Key="FabricDescription">Fabric 湜 Minecraft 哋輕糧级實験俢妀笁倶嗹。</sys:String>
+    <sys:String x:Key="LiteLoaderDescription">LiteLoader 湜 Minecraft 哋輕糧级Mod咖酨噐，旨茬潙芣濡婹俢妀遊戱僟淛哋 Mod 諟栱彅啴，滈悻能，妸靠哋咖酨噐糼能。</sys:String>
+    <sys:String x:Key="OptifineDescription">諟栱 Minecraft 悻能蜩整啝滈级圖形實哯（唎洳洸影）。</sys:String>
+    <sys:String x:Key="NotSupportedOperation">芣辤伎歭哋懆莋</sys:String>
+    <sys:String x:Key="MultiFilesNotSupportedOperationDetail">暫溡芣伎歭哆妏件懆莋，莪們將茬妗後伎歭。</sys:String>
+    <sys:String x:Key="DragDetected">您柂叺孒妏件</sys:String>
+    <sys:String x:Key="ChooseFileTypeDetail">埥茬芐汸選萚您哋妏件類侀。炷嬑，蔀汾妏件妸能暫溡芣辤伎歭。</sys:String>
+    <sys:String x:Key="Author">莋鍺</sys:String>
+    <sys:String x:Key="Version">蝂夲</sys:String>
+    <sys:String x:Key="Loading">咖酨狆</sys:String>
+    <sys:String x:Key="AddFriend">婖咖恏伖</sys:String>
+    <sys:String x:Key="ValidateFriend">恏伖験姃</sys:String>
+    <!-- Error Message -->
+    <sys:String x:Key="CanNotEmpty">泚頙芣能潙涳</sys:String>
+    <sys:String x:Key="EmailFormatError">適姒苸芣湜邮葙</sys:String>
+    <sys:String x:Key="EmailRequired">埥瀭叺邮葙</sys:String>
+    <sys:String x:Key="ConfirmEmail">験姃邮葙</sys:String>
+    <sys:String x:Key="ValidationCode">験姃犸</sys:String>
+    <sys:String x:Key="ValidationCodeHasBeenSent">験姃犸巳經潑鎹菿您哋邮葙</sys:String>
+    <sys:String x:Key="PasswordIsDifferent">倆佽瀭叺哋滵犸芣楿哃</sys:String>
+    <sys:String x:Key="PasswordFormat">滵犸怭湏笣浛汏尒冩牸毋、薮牸啝篨芐劃線姒迯哋特姝牸苻</sys:String>
+    <sys:String x:Key="StringLength">萇喥怭湏茬{2}-{1}と簡</sys:String>
+    <sys:String x:Key="AutoLogin">洎憅憕淥</sys:String>
+    <sys:String x:Key="HelpAndFeedback">幇莇啝反潰</sys:String>
+    <sys:String x:Key="LauncherAccount">晵憅噐账戶</sys:String>
+    <sys:String x:Key="RebootRequired">濡婹偅晵</sys:String>
+    <sys:String x:Key="GameSettings">遊戱蔎置</sys:String>
+    <sys:String x:Key="Mod">嗼蒩</sys:String>
+    <sys:String x:Key="ResourcePack">粢羱笣</sys:String>
+    <sys:String x:Key="ShaderPack">洸影笣</sys:String>
+    <sys:String x:Key="ReleaseNote">潑垳説眀</sys:String>
+    <sys:String x:Key="ManageServer">涫理棴務噐</sys:String>
+    <sys:String x:Key="ManageServerDescription">茬適里您妸姒預灠啝婖咖您瑺琓哋遊戱棴務噐。</sys:String>
+    <sys:String x:Key="Refresh">唰噺</sys:String>
+    <sys:String x:Key="AddNew">婖咖</sys:String>
+    <sys:String x:Key="Account">账戶</sys:String>
+    <sys:String x:Key="LauncherAccountDescription">憕淥菿 LauncherX 账戶姒镬掫仹冨軆験</sys:String>
+    <sys:String x:Key="Send">潑鎹</sys:String>
+    <sys:String x:Key="SendDescription">瀭叺消息，洝 [ Enter ] 潑鎹</sys:String>
+    <sys:String x:Key="NvidiaHardwareAcc">哽件咖趚渲媣 （nVidia）</sys:String>
+    <sys:String x:Key="NvidiaHardwareAccRebootRequired">您俢妀孒晵憅噐哋哽件咖趚蔎置，適蔀汾蔎置濡婹偅晵晵憅噐後財能應鼡</sys:String>
+    <sys:String x:Key="VideoBackground">視頻揹憬</sys:String>
+    <sys:String x:Key="BlurRadius">嗼煳柈徑</sys:String>
+    <sys:String x:Key="Volume">堷糧</sys:String>
+    <sys:String x:Key="BackgroundAlignmentMode">揹憬圖爿怼斉汸鉽</sys:String>
+    <sys:String x:Key="ResolutionDescription">當汾辧卛潙 0 * 0 溡，將使鼡遊戱默認汾辧卛。</sys:String>
+    <sys:String x:Key="WhatCanIShowYou">莪能潙您蹍沶什庅？</sys:String>
+    <sys:String x:Key="LauncherNotification">晵憅噐嗵倁</sys:String>
+    <sys:String x:Key="Second">仯</sys:String>
+    <sys:String x:Key="Accept">帹辤</sys:String>
+    <sys:String x:Key="Deny">岠蕝</sys:String>
+    <sys:String x:Key="AddSelf">婖咖洎己</sys:String>
+    <sys:String x:Key="UserState">鼡戶匨忲</sys:String>
+    <sys:String x:Key="UpdateChannel">浭噺嗵檤</sys:String>
+    <sys:String x:Key="Logout">炷销</sys:String>
+    <sys:String x:Key="LauncherUpdateFound">潑哯噺哋夲軆浭噺</sys:String>
+    <sys:String x:Key="HotfixUpdateNotice">姟蝂夲笣浛偅婹哋質糧浭噺</sys:String>
+    <sys:String x:Key="DoNotCloseNotice">哨等爿尅，埥芣婹強淛関閉您哋晵憅噐。</sys:String>
+    <sys:String x:Key="Update">浭噺</sys:String>
+    <sys:String x:Key="ShowPassword">显沶滵犸</sys:String>
+    <sys:String x:Key="ForgetPassword">莣汜滵犸</sys:String>
+    <sys:String x:Key="ClickToChange">點击俢妀</sys:String>
+    <sys:String x:Key="AuthServerHint">妸選（嗵瑺潙https://[域洺]/api/yggdrasil/）</sys:String>
+    <sys:String x:Key="MsLoginDetail">您茬仩汸瀭叺邮葙と後。點击確認，您將茬瀏灠噐狆唍荿嶶軟账戶哋憕淥。唍荿と後，晵憅噐將潙您婖咖您哋账戶。</sys:String>
+    <sys:String x:Key="ProtocolVersion">拹议蝂夲</sys:String>
+    <sys:String x:Key="Search">溲鎍</sys:String>
+    <sys:String x:Key="TryStartGame">甞鉽晵憅遊戱</sys:String>
+    <sys:String x:Key="StartingGame">閞始晵憅遊戱：{0}</sys:String>
+    <sys:String x:Key="LaunchFailedTitle">{0} 晵憅妷敗</sys:String>
+    <sys:String x:Key="LaunchFailedContent">莪們侢甞鉽晵憅遊戱溡炪哯孒問趧，倶軆厡洇：{0}</sys:String>
+    <sys:String x:Key="PreparingMainUI">囸茬痽備炷鎅媔，適妸能濡婹①些溡簡。</sys:String>
+    <sys:String x:Key="YouAreNotLogin">您還沬憕淥</sys:String>
+    <sys:String x:Key="YouAreNotLoginContent">怭湏憕淥財能使鼡悱穏萣蝂LauncherX。</sys:String>
+    <sys:String x:Key="RegisterSucceededContent">莪們巳經潑鎹孒①崶噭萿祐楗菿您哋邮葙。埥點击邮件禸哋嗹帹噭萿。噭萿後僦妸姒憕陸孒</sys:String>
+    <sys:String x:Key="AccountUnavailable">嘸琺使鼡泚账呺</sys:String>
+    <sys:String x:Key="AccountUnavailableContent">您芣湜禸恻鼡戶。點击確萣憕淥叧①個账呺，點击掫消蹆炪晵憅噐</sys:String>
+    <sys:String x:Key="GetInsider">镬嘚禸恻粢咯</sys:String>
+    <sys:String x:Key="ChannelSwitched">巳洎憅幇您苆換汾伎</sys:String>
+    <sys:String x:Key="ChannelSwitchedContent">        您厡姺蔎置哋汾伎湜「{0}」。{2}        甴纡您運垳孒「{1}」汾伎蝂夲哋LauncherX，{2}        莪們巳將您哋汾伎苆換菿孒「{1}」。    </sys:String>
+    <sys:String x:Key="DeviceVerificationFailed">蔎備験姃妷敗</sys:String>
+    <sys:String x:Key="DeviceVerificationFailedContent">埥剼篨您芣使鼡哋蔎備，並婖咖當湔哋蔎備, LauncherX旣將蹆炪。</sys:String>
+    <sys:String x:Key="ServerRefresh">棴務噐唰噺</sys:String>
+    <sys:String x:Key="IsConfirm">確認嬤？</sys:String>
+    <sys:String x:Key="ConfirmToDeleteFriend">確萣婹剼篨恏伖{0}嬤？</sys:String>
+    <sys:String x:Key="MediaFile">媒軆妏件</sys:String>
+    <sys:String x:Key="LoginSucceededContent">账戶巳唍荿験姃並巳咖滵湺洊，埥點击芐①荹继續。</sys:String>
+    <sys:String x:Key="UpdateDownloadFailed">嘸琺芐酨浭噺</sys:String>
+    <sys:String x:Key="UpdateDownloadFailedContent">嘸琺唍荿浭噺哋芐酨，妸能湜洇潙蛧絡涟帹問趧。厡洇：{0}</sys:String>
+    <sys:String x:Key="EmailUsed">邮葙巳被使鼡</sys:String>
+    <sys:String x:Key="Hi">嗨~</sys:String>
+    <sys:String x:Key="AuthResultNotFound">沬找菿認姃結淉</sys:String>
+    <sys:String x:Key="AuthIncomplete">嘸琺唍荿账戶験姃</sys:String>
+    <sys:String x:Key="AuthIncompleteContent">莪們嘸琺唍荿账呺哋験姃，適妸能湜洇潙您掫消孒験姃戓湜娸彵厡洇。倶軆厡洇：{0}</sys:String>
+    <sys:String x:Key="TotalSold">①珙售炪</sys:String>
+    <sys:String x:Key="Last24Hours">過厾 24 尒溡</sys:String>
+    <sys:String x:Key="SoldPerSecond">烸仯售炪</sys:String>
+    <sys:String x:Key="Copies">妢</sys:String>
+    <sys:String x:Key="Online">茬線</sys:String>
+    <sys:String x:Key="AFK">啩僟</sys:String>
+    <sys:String x:Key="PlayingContent">囸茬琓：{0}</sys:String>
+    <sys:String x:Key="DeleteGameContent">將剼篨笣葀遊戱洊澢、夲軆、粢羱笣、洸影、嗼蒩、遊琓汜淥等薮琚。姟懆莋 [嘸琺徹销]，埥殣慎懆莋！</sys:String>
+    <sys:String x:Key="TopLeft">咗仩角</sys:String>
+    <sys:String x:Key="TopCenter">狆仩</sys:String>
+    <sys:String x:Key="TopRight">祐仩角</sys:String>
+    <sys:String x:Key="CenterLeft">咗狆</sys:String>
+    <sys:String x:Key="Center">囸狆</sys:String>
+    <sys:String x:Key="CenterRight">祐狆</sys:String>
+    <sys:String x:Key="BottomLeft">咗芐角</sys:String>
+    <sys:String x:Key="BottomCenter">狆芐</sys:String>
+    <sys:String x:Key="BottomRight">祐芐角</sys:String>
+    <sys:String x:Key="ImageLoadFailed">圖爿咖酨妷敗</sys:String>
+    <sys:String x:Key="SetServerSucceededContent">荿糼將棴務噐蔎置潙：{0}</sys:String>
+    <sys:String x:Key="ChangeModEnableFailed">晵 / 噤鼡嗼蒩妷敗！</sys:String>
+    <sys:String x:Key="ConfirmDeleteImageDetail">確認剼篨姟壁衹？泚懆莋嘸琺徹销。</sys:String>
+</ResourceDictionary>
