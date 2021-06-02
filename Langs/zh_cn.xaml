@@ -101,6 +101,7 @@
     <sys:String x:Key="CheckingAccount">正在核验账户...</sys:String>
     <sys:String x:Key="Default">默认</sys:String>
 
+    <sys:String x:Key="CheckSucceeded">验证成功</sys:String>
     <sys:String x:Key="CheckFailed">验证失败</sys:String>
 
     <sys:String x:Key="SkinRequestFailed">皮肤获取失败</sys:String>
@@ -548,6 +549,7 @@
     <sys:String x:Key="ValidationCodeHasBeenSent">验证码已经发送到您的邮箱</sys:String>
     <sys:String x:Key="PasswordIsDifferent">两次输入的密码不相同</sys:String>
     <sys:String x:Key="PasswordFormat">密码必须包含大小写字母、数字和除下划线以外的特殊字符</sys:String>
+    <sys:String x:Key="UserNameFormat">只能包含大小写字母、数字、横杠或下划线，长度为 4-16</sys:String>
     <sys:String x:Key="StringLength">长度必须在{2}-{1}之间</sys:String>
     <sys:String x:Key="AutoLogin">自动登录</sys:String>
 
@@ -587,7 +589,11 @@
     <sys:String x:Key="WhatCanIShowYou">我能为您展示什么？</sys:String>
     <sys:String x:Key="LauncherNotification">启动器通知</sys:String>
 
-    <sys:String x:Key="Second">秒</sys:String>
+    <sys:String x:Key="Seconds">秒</sys:String>
+    <sys:String x:Key="Minutes">分钟</sys:String>
+    <sys:String x:Key="Hours">小时</sys:String>
+    <sys:String x:Key="Days">天</sys:String>
+    <sys:String x:Key="Years">年</sys:String>
 
     <sys:String x:Key="Accept">接受</sys:String>
     <sys:String x:Key="Deny">拒绝</sys:String>
@@ -612,6 +618,7 @@
 
     <sys:String x:Key="ProtocolVersion">协议版本</sys:String>
     <sys:String x:Key="Search">搜索</sys:String>
+    <sys:String x:Key="SearchOption">搜索选项</sys:String>
 
     <sys:String x:Key="TryStartGame">尝试启动游戏</sys:String>
     <sys:String x:Key="StartingGame">开始启动游戏：{0}</sys:String>
@@ -690,4 +697,47 @@
     <sys:String x:Key="ServerNoContent">服务器无返回</sys:String>
     <sys:String x:Key="FalseCredential">账户或密码错误</sys:String>
     <sys:String x:Key="UnknownLoginError">未知的登陆错误</sys:String>
+
+    <sys:String x:Key="LatestRelease">最新正式版</sys:String>
+    <sys:String x:Key="LatestSnapshot">最新快照版</sys:String>
+
+    <sys:String x:Key="FollowSystem">跟随系统（WIN10）</sys:String>
+
+    <sys:String x:Key="UnknownErrorOccurs">发生未知错误</sys:String>
+
+    <sys:String x:Key="NowYouCanLogin">现在你可以登录了</sys:String>
+    <sys:String x:Key="FailedToUploadAvatar">无法上传头像</sys:String>
+
+    <sys:String x:Key="Rank">排行</sys:String>
+    <sys:String x:Key="Popularity">热门度</sys:String>
+    <sys:String x:Key="UpdateDate">更新日期</sys:String>
+    <sys:String x:Key="Name">名称</sys:String>
+    <sys:String x:Key="DownloadCount">下载量</sys:String>
+
+    <sys:String x:Key="TimeBeforeDayUnit">时间（天前）</sys:String>
+    <sys:String x:Key="GameTimeHourUnit">游戏时长（小时）</sys:String>
+
+    <sys:String x:Key="CurseForgeSearchTextHint">模组、材质包、光影的名字，例如 'BuildCraft'</sys:String>
+    <sys:String x:Key="GameVersionTextHint">游戏版本，例如 1.15.2</sys:String>
+
+    <sys:String x:Key="Tag">标签</sys:String>
+    <sys:String x:Key="SortMethod">排序方式</sys:String>
+
+    <sys:String x:Key="VersionList">版本列表</sys:String>
+    <sys:String x:Key="DownloadResource">资源下载</sys:String>
+
+    <sys:String x:Key="Detail">详细信息</sys:String>
+    <sys:String x:Key="AddonDetail">模组信息</sys:String>
+    <sys:String x:Key="FailedToLoadAddonInfoDetail">无法加载模组的详细信息</sys:String>
+
+    <sys:String x:Key="Resource">资源</sys:String>
+    <sys:String x:Key="OriginalGame">游戏本体</sys:String>
+
+    <sys:String x:Key="UpdateTimeAgo">{0} 前更新</sys:String>
+    <sys:String x:Key="CountDownloads">{0:##,###} 次下载</sys:String>
+
+    <sys:String x:Key="ReleaseEdition">正式版</sys:String>
+    <sys:String x:Key="AlphaEdition">Alpha 版</sys:String>
+    <sys:String x:Key="BetaEdition">Beta 版</sys:String>
+    <sys:String x:Key="UnknownReleaseEdition">未知发行版本</sys:String>
 </ResourceDictionary>
