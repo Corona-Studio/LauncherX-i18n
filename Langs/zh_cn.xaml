@@ -14,6 +14,8 @@
     <sys:String x:Key="Cancel">取消</sys:String>
     <sys:String x:Key="Warning">警告</sys:String>
     <sys:String x:Key="Error">错误</sys:String>
+    <sys:String x:Key="Fatal">致命</sys:String>
+    <sys:String x:Key="Debug">调试</sys:String>
     <sys:String x:Key="Info">信息</sys:String>
     <sys:String x:Key="Note">提示</sys:String>
 
@@ -65,8 +67,8 @@
     <sys:String x:Key="ExitAndDropTasksHint">还有 {0} 个任务在调度队列当中，您确定要退出启动器吗？所有正在运行的任务都将销毁且无法恢复。</sys:String>
     <sys:String x:Key="WaitToFinish">等待完成</sys:String>
 
-    <sys:String x:Key="GameNotSelect">未选择游戏</sys:String>
-    <sys:String x:Key="GameNotSelectHint">未选择需要启动的游戏</sys:String>
+    <sys:String x:Key="GameNotSelect">未固定游戏</sys:String>
+    <sys:String x:Key="GameNotSelectHint">未在主界面固定游戏</sys:String>
 
     <sys:String x:Key="AccountNotSelect">未选择账户</sys:String>
     <sys:String x:Key="AccountNotSelectHint">未选择启动用账户或选择的账户无效</sys:String>
@@ -428,7 +430,7 @@
 
 
     <sys:String x:Key="GetSettingsFailed">读取设置文件时出现了一些错误</sys:String>
-    <sys:String x:Key="SearchGameHint">搜索已安装游戏的 id，例如：1.15.2</sys:String>
+    <sys:String x:Key="SearchGameHint">搜索游戏的 id，例如：1.15.2</sys:String>
 
     <sys:String x:Key="Yes">是</sys:String>
     <sys:String x:Key="No">否</sys:String>
@@ -445,8 +447,8 @@
 
     <sys:String x:Key="GetJavaInfoFailed">我们不能确定这个运行时的具体情况...</sys:String>
     <sys:String x:Key="FileNotFound">未找到文件</sys:String>
-    <sys:String x:Key="GoodJavaRuntime">该 Java 运行时 ( {0} ) 匹配您的系统</sys:String>
-    <sys:String x:Key="BadJavaRuntime">该 Java 运行时 ( x{0} ) 与您的系统架构 ( x{0} ) 不匹配，可能导致性能问题</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">该 Java 运行时 ( {0} ) 匹配您的系统。</sys:String>
+    <sys:String x:Key="BadJavaRuntime">该 Java 运行时 ( {0} 位 ) 与您的系统架构 ( {1} 位 ) 不匹配，可能导致性能问题。</sys:String>
 
     <sys:String x:Key="SelectedVersion">选择版本</sys:String>
     <sys:String x:Key="ManuallyCopyRedirectUrl">手动复制 RedirectUrl</sys:String>
@@ -559,6 +561,8 @@
     <sys:String x:Key="RebootRequired">需要重启</sys:String>
 
     <sys:String x:Key="GameSettings">游戏设置</sys:String>
+    <sys:String x:Key="VersionRootPath">版本根目录</sys:String>
+    <sys:String x:Key="Saves">存档</sys:String>
     <sys:String x:Key="Mod">模组</sys:String>
     <sys:String x:Key="ResourcePack">资源包</sys:String>
     <sys:String x:Key="ShaderPack">光影包</sys:String>
@@ -580,6 +584,7 @@
     <sys:String x:Key="NvidiaHardwareAccRebootRequired">您修改了启动器的硬件加速设置，这部分设置需要重启启动器后才能应用</sys:String>
 
     <sys:String x:Key="VideoBackground">视频背景</sys:String>
+    <sys:String x:Key="GameScreenShots">游戏截图</sys:String>
     <sys:String x:Key="BlurRadius">模糊半径</sys:String>
     <sys:String x:Key="Volume">音量</sys:String>
     <sys:String x:Key="BackgroundAlignmentMode">背景图片对齐方式</sys:String>
@@ -640,7 +645,7 @@
         我们已将您的分支切换到了「{1}」。
     </sys:String>
     <sys:String x:Key="DeviceVerificationFailed">设备验证失败</sys:String>
-    <sys:String x:Key="DeviceVerificationFailedContent">请删除您不使用的设备，并添加当前的设备, LauncherX即将退出。</sys:String>
+    <sys:String x:Key="DeviceVerificationFailedContent">您的账户不能再注册新的设备，LauncherX即将退出。</sys:String>
     <sys:String x:Key="ServerRefresh">服务器刷新</sys:String>
     <sys:String x:Key="IsConfirm">确认吗？</sys:String>
     <sys:String x:Key="ConfirmToDeleteFriend">确定要删除好友{0}吗？</sys:String>
@@ -701,7 +706,7 @@
     <sys:String x:Key="LatestRelease">最新正式版</sys:String>
     <sys:String x:Key="LatestSnapshot">最新快照版</sys:String>
 
-    <sys:String x:Key="FollowSystem">跟随系统（WIN10）</sys:String>
+    <sys:String x:Key="FollowSystem">跟随系统（WIN10+）</sys:String>
 
     <sys:String x:Key="UnknownErrorOccurs">发生未知错误</sys:String>
 
@@ -737,7 +742,177 @@
     <sys:String x:Key="CountDownloads">{0:##,###} 次下载</sys:String>
 
     <sys:String x:Key="ReleaseEdition">正式版</sys:String>
+    <sys:String x:Key="SnapshotEdition">快照版</sys:String>
     <sys:String x:Key="AlphaEdition">Alpha 版</sys:String>
     <sys:String x:Key="BetaEdition">Beta 版</sys:String>
     <sys:String x:Key="UnknownReleaseEdition">未知发行版本</sys:String>
+
+    <sys:String x:Key="Chat">聊天</sys:String>
+    <sys:String x:Key="Home">主页</sys:String>
+
+    <sys:String x:Key="AutoScroll">自动滚动</sys:String>
+    <sys:String x:Key="LogHighlight">日志高亮</sys:String>
+
+    <sys:String x:Key="GameProcessManagement">游戏进程管理</sys:String>
+    <sys:String x:Key="KillProcess">结束进程</sys:String>
+
+    <sys:String x:Key="FalseJavaSelectionCase1">您正在启动的这个游戏没有明确指出需要的 Java 版本，但我们认为该游戏需要使用 Java 8 运行时来完成启动。</sys:String>
+    <sys:String x:Key="FalseJavaSelectionCase2">您正在启动的这个游戏需要使用版本为 [{0}] 或更高的 Java 运行时。</sys:String>
+    <sys:String x:Key="FalseJavaSelectionDetail">但是您目前选择的运行时版本为 [{0}]。 不正确的 Java 运行库配置可能导致启动失败。您可以前往 设置-全局游戏设置 获取 Java。</sys:String>
+
+    <sys:String x:Key="ContinueLaunch">继续启动</sys:String>
+    <sys:String x:Key="AutoSelect">自动选择</sys:String>
+
+    <sys:String x:Key="FailedToAutoSelectJavaMessage">无法从现有的 Java 库中选择出适合该游戏的 Java 运行时。该游戏需要的运行时版本是 [{0}]。</sys:String>
+
+    <sys:String x:Key="FailedToResolveKey">无法解析密钥</sys:String>
+    <sys:String x:Key="FailedToResolveKeyDetail">我们无法解析保存在您本地计算机上的加密密钥，出于此原因，我们需要重置该加密密钥。因此您需要重新完成 LauncherX 的账户登录，同时也需要重新登陆您所有的游戏账户。</sys:String>
+
+    <sys:String x:Key="SwitchAccount">切换账户</sys:String>
+
+    <sys:String x:Key="Running">运行中</sys:String>
+    <sys:String x:Key="Stopped">已停止</sys:String>
+
+    <sys:String x:Key="UnsupportedServer">无法检测 NAT 类型，可能是服务器不支持</sys:String>
+    <sys:String x:Key="UdpBlocked">UDP 始终阻止</sys:String>
+    <sys:String x:Key="OpenInternet">开放互联网</sys:String>
+    <sys:String x:Key="SymmetricUdpFirewall">公网，UDP 防火墙启用</sys:String>
+    <sys:String x:Key="FullCone">完全锥形</sys:String>
+    <sys:String x:Key="RestrictedCone">受限锥形</sys:String>
+    <sys:String x:Key="PortRestrictedCone">端口受限锥形</sys:String>
+    <sys:String x:Key="Symmetric">对称</sys:String>
+
+    <sys:String x:Key="UnsupportedServerDetail">[!] 无法检测 NAT 类型，可能是服务器不支持</sys:String>
+    <sys:String x:Key="UdpBlockedDetail">当前 NAT 类型为：UDP 始终阻止</sys:String>
+    <sys:String x:Key="OpenInternetDetail">没有检测到 NAT，开放互联网，您拥有公网 IP 地址，并且防火墙并未启用，这将提供最佳的体验</sys:String>
+    <sys:String x:Key="SymmetricUdpFirewallDetail">当前 NAT 类型为：公网，UDP 防火墙启用，防火墙可能会在一定程度上导致联机难度和联机失败可能性的增加</sys:String>
+    <sys:String x:Key="FullConeDetail">当前 NAT 类型为：完全锥形，最佳的连接体验</sys:String>
+    <sys:String x:Key="RestrictedConeDetail">当前 NAT 类型为：受限锥形，受限的连接体验</sys:String>
+    <sys:String x:Key="PortRestrictedConeDetail">当前 NAT 类型为：端口受限锥形，高度受限的联机体验</sys:String>
+    <sys:String x:Key="SymmetricDetail">当前 NAT 类型为：对称 NAT，有一定几率连接失败；如果你正使用手机热点，请尝试使用其他网络</sys:String>
+
+    <sys:String x:Key="Supported">受支持</sys:String>
+    <sys:String x:Key="Unsupported">不受支持</sys:String>
+
+    <sys:String x:Key="PleaseWait">稍安勿躁</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionPleaseWait">请等待当前联机操作完成，最多需要等待 1 分钟</sys:String>
+
+    <sys:String x:Key="ConnectFailed">连接失败</sys:String>
+    <sys:String x:Key="FailedToCreateRoomDetail">无法创建房间，可能是因为网络波动导致的</sys:String>
+
+    <sys:String x:Key="RoomHasNoDescription">房间没有描述</sys:String>
+    <sys:String x:Key="RoomHasNoPwd">房间未设置密码</sys:String>
+
+    <sys:String x:Key="WrongRoomPwd">房间的密码不正确</sys:String>
+    <sys:String x:Key="WrongRoomId">未找到房间，可能是因为房间的 ID 有误</sys:String>
+
+    <sys:String x:Key="JoinFailed">加入失败</sys:String>
+    <sys:String x:Key="JoinFailedDetail">无法加入房间，{0}</sys:String>
+
+    <sys:String x:Key="RoomConnectionStr">我使用 LauncherX 创建了一个联机房间 [{0}]，快加入我的房间吧！</sys:String>
+    <sys:String x:Key="RoomConnectionStrExported">成功将房间连接信息导出到剪切板</sys:String>
+
+    <sys:String x:Key="RoomConnectionStrImportFailed1">无法从剪切板导入连接信息，请检查您的连接信息是否正确</sys:String>
+    <sys:String x:Key="RoomConnectionStrImportFailed2">无法从剪切板导入有用的连接信息，连接信息应该是一段包含 "[{9 位随机字符}]" 的编码</sys:String>
+
+    <sys:String x:Key="Java8Description">Java 8：适用于 [1.17] 之前的版本，部分附属组件（例如 Forge）也需要这个版本的 Jre</sys:String>
+    <sys:String x:Key="Java16Description">Java 16：适用于 [1.17] 或更高版本的游戏</sys:String>
+    <sys:String x:Key="Java17Description">Java 17：适用于 [1.18 - pre2] 或更高版本的游戏</sys:String>
+
+    <sys:String x:Key="ResetAllSettings">重置所有设置</sys:String>
+    <sys:String x:Key="ResetAllSettingsDetail">注意！这将完全删除启动器的配置文件并重新运行配置向导，此操作无法恢复。</sys:String>
+    <sys:String x:Key="FailedToResetSettingsDetail">无法删除启动器配置文件，请检查是否存在文件占用情况。</sys:String>
+
+    <sys:String x:Key="MicrosoftAuthFailed1">无法完成验证，可能是因为用户输入了错误的验证代码、验证超时或是用户拒绝了应用的请求。</sys:String>
+    <sys:String x:Key="MicrosoftAuthFailed2">在尝试提取用户 claims 时出现问题，未找到字段：email</sys:String>
+
+    <sys:String x:Key="MultiPlayerGames">多人游戏</sys:String>
+
+    <sys:String x:Key="User">用户</sys:String>
+    <sys:String x:Key="ManageAccount">账户管理</sys:String>
+    <sys:String x:Key="SavedGameAccount">名下的游戏账户</sys:String>
+    <sys:String x:Key="Reset">重置</sys:String>
+    <sys:String x:Key="SetOfflineSkin">设置离线皮肤</sys:String>
+
+    <sys:String x:Key="MultiThreadDownload">多线程和分片下载</sys:String>
+    <sys:String x:Key="MultiThreadDownloadDescription">多线程和分片下载能够提升游戏下载速度，但会显著影响启动器性能。</sys:String>
+
+    <sys:String x:Key="ConnectionInfo">连接信息</sys:String>
+    <sys:String x:Key="MultiPlayerServiceStatus">联机服务状态</sys:String>
+    <sys:String x:Key="Support">支持</sys:String>
+
+    <sys:String x:Key="Room">房间</sys:String>
+    <sys:String x:Key="RoomIdHint">房间的 ID，为标准的 GUID 格式</sys:String>
+    <sys:String x:Key="RoomName">房间名称</sys:String>
+    <sys:String x:Key="RoomDescription">房间描述</sys:String>
+    <sys:String x:Key="RoomPwd">房间密码</sys:String>
+
+    <sys:String x:Key="CreateRoom">创建房间</sys:String>
+    <sys:String x:Key="ShareRoom">分享房间</sys:String>
+    <sys:String x:Key="JoinRoom">加入房间</sys:String>
+    <sys:String x:Key="IsPrivateRoom">私人房间</sys:String>
+
+    <sys:String x:Key="MultiPlayerConnectionHelper">联机协助</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelperDescription1">在开启此功能之后，LauncherX 将会在打开后自动加入日冕群组服务网络，您将作为网络中的一个节点来帮助其他无法加入网络的玩家来完成流量的转发。这将提高其他玩家加入网络的成功率。</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelperDescription2">注意：这项服务将消耗一些您的网络带宽。</sys:String>
+
+    <sys:String x:Key="BaseUserSettings">用户基础设置</sys:String>
+    <sys:String x:Key="InsiderPreviewSettings">先导版本体验设置</sys:String>
+    <sys:String x:Key="AuthDeviceManage">认证设备管理</sys:String>
+
+    <sys:String x:Key="StartupUI">启动界面</sys:String>
+    <sys:String x:Key="MainViewUpperForeground">主界面前景文字颜色</sys:String>
+    <sys:String x:Key="BottomNavigationBarOpacity">底部导航条不透明度</sys:String>
+    <sys:String x:Key="HideBottomNavigationBarInMainView">在主界面隐藏底部导航条</sys:String>
+    <sys:String x:Key="BrowseVideo">浏览视频</sys:String>
+
+    <sys:String x:Key="Text">文本</sys:String>
+    <sys:String x:Key="Performance">性能</sys:String>
+
+    <sys:String x:Key="BackgroundAndAccentColor">启动界面背景和主题色</sys:String>
+    <sys:String x:Key="BackgroundAndAccentColorDescription">启动界面背景和主题色既可以绑定也可以分别设置。</sys:String>
+    <sys:String x:Key="Font">字体</sys:String>
+    <sys:String x:Key="FontDescription">当启动器从首选字体中找不到对应的字形时，会从备选字体中查询。您可以通过字体预览查看具体效果。</sys:String>
+
+    <sys:String x:Key="RetrySearch">重新搜索</sys:String>
+    <sys:String x:Key="JavaToolTip">如果您系统弹出了和 Java 相关的错误提示，请关闭该提示并尝试重新安装您的 Java 实例</sys:String>
+
+    <sys:String x:Key="ResourceCheckMaxDegreeOfParallelism">资源检查最大并行程度</sys:String>
+
+    <sys:String x:Key="JavaDescription">请留意 Java 组合框中路径前的符号，这指示了启动器对相应 Java 可用性的判断。</sys:String>
+    <sys:String x:Key="MemorySizeDescription">建议给 Minecraft 分配 512MB 以上的内存以避免游戏运行时发生内存溢出。</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGames">对各个游戏版本分别进行设置</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGamesDescription">在本页面进行的设置将作为缺省值应用到所有的游戏版本。您可以在游戏列表选中某个游戏，然后在详细信息中具体更改各个游戏的设置。</sys:String>
+
+    <sys:String x:Key="ResetAllSettingsDescription">点击“重置配置”按钮后，LauncherX将删除自己的配置文件并关闭。注意：删除的配置将无法恢复。</sys:String>
+
+    <sys:String x:Key="Framework">框架</sys:String>
+    <sys:String x:Key="Runtime">运行时</sys:String>
+    <sys:String x:Key="LauncherCoreVersion">ProjBobcat（启动核心）版本</sys:String>
+
+    <sys:String x:Key="NoMoreNewApplication">暂无新申请</sys:String>
+
+    <sys:String x:Key="SelectAccount">选择账号</sys:String>
+    <sys:String x:Key="CopyFromClipBoard">从剪切板导入</sys:String>
+    <sys:String x:Key="CopyToClipBoard">复制到剪切板</sys:String>
+
+    <sys:String x:Key="UseOneTimeCode">使用一次性验证代码</sys:String>
+    <sys:String x:Key="LoginToMsAccount">登陆到您的微软账户</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction1">使用您设备自带的浏览器访问网址：</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction2">并按照网页的提示输入 LauncherX 所显示的一次性验证代码。</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction3">在上述操作完成之后，LauncherX 将自动完成剩余步骤，并将您的账户添加至启动器内。</sys:String>
+
+    <sys:String x:Key="ModDependencies">模组前置依赖</sys:String>
+
+    <sys:String x:Key="CreateFolder">创建目录</sys:String>
+
+    <sys:String x:Key="FailedToInstallCurseForgePackError">无法安装 CurseForge 前置环境，请稍后重试。这通常是由于下载源的问题导致的，也有可能是因为网络波动或是其他因素。</sys:String>
+    <sys:String x:Key="DownloadFailedLibError">补全失败的库文件：{0}文件名：{1}下载链接：{2}下载路径：{3}</sys:String>
+    <sys:String x:Key="CompletionFailedMessage">无法成功补全启动游戏所需的库文件，您可以等候片刻再次尝试启动。</sys:String>
+
+    <sys:String x:Key="AuthLibInstallMessage1">发现使用第三方验证服务，准备下载 Authlib-Injector</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage2">成功获取到最新版本 Authlib-Injector 信息，开始检查"</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage3">Authlib-Injector 下载完成，开始配置</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage4">开始预获取服务器配置</sys:String>
+    <sys:String x:Key="AuthLibInstallErrorMessage">无法获取最新版本的 Authlib-Injector，可能是网络错误。</sys:String>
 </ResourceDictionary>
