@@ -502,7 +502,7 @@
     <sys:String x:Key="Icon">图标</sys:String>
 
     <sys:String x:Key="Offline">离线</sys:String>
-    <sys:String x:Key="ChooseLoginType">请选择您的登陆方式</sys:String>
+    <sys:String x:Key="ChooseLoginType">请选择您的登录方式</sys:String>
     <sys:String x:Key="ChooseLoginTypeDetail">请选择您的验证方式，如果您不清楚应该使用哪种验证方式，请使用 Mojang 验证。</sys:String>
 
     <sys:String x:Key="GlobalNotSet">全局未设定</sys:String>
@@ -584,6 +584,7 @@
     <sys:String x:Key="NvidiaHardwareAccRebootRequired">您修改了启动器的硬件加速设置，这部分设置需要重启启动器后才能应用</sys:String>
 
     <sys:String x:Key="VideoBackground">视频背景</sys:String>
+    <sys:String x:Key="MicaBackground">Mica 材质（WIN11+）</sys:String>
     <sys:String x:Key="GameScreenShots">游戏截图</sys:String>
     <sys:String x:Key="BlurRadius">模糊半径</sys:String>
     <sys:String x:Key="Volume">音量</sys:String>
@@ -629,19 +630,19 @@
     <sys:String x:Key="StartingGame">开始启动游戏：{0}</sys:String>
 
     <sys:String x:Key="LaunchFailedTitle">{0} 启动失败</sys:String>
-    <sys:String x:Key="LaunchFailedContent">我们再尝试启动游戏时出现了问题，具体原因：{0}</sys:String>
+    <sys:String x:Key="LaunchFailedContent">我们在尝试启动游戏时出现了问题，具体原因：{0}</sys:String>
     <sys:String x:Key="PreparingMainUI">正在准备主界面，这可能需要一些时间。</sys:String>
 
     <sys:String x:Key="YouAreNotLogin">您还未登录</sys:String>
     <sys:String x:Key="YouAreNotLoginContent">必须登录才能使用非稳定版LauncherX。</sys:String>
-    <sys:String x:Key="RegisterSucceededContent">我们已经发送了一封激活右键到您的邮箱。请点击邮件内的链接激活。激活后就可以登陆了</sys:String>
+    <sys:String x:Key="RegisterSucceededContent">我们已经发送了一封激活邮件 到您的邮箱。请点击邮件内的链接激活。激活后就可以登录了</sys:String>
     <sys:String x:Key="AccountUnavailable">无法使用此账号</sys:String>
     <sys:String x:Key="AccountUnavailableContent">您不是内测用户。点击确定登录另一个账号，点击取消退出启动器</sys:String>
     <sys:String x:Key="GetInsider">获得内测资格</sys:String>
     <sys:String x:Key="ChannelSwitched">已自动帮您切换分支</sys:String>
     <sys:String x:Key="ChannelSwitchedContent">
         您原先设置的分支是「{0}」。{2}
-        由于您运行了「{1}」分支版本的LauncherX，{2}
+        由于您运行了「{1}」分支版本的 LauncherX，{2}
         我们已将您的分支切换到了「{1}」。
     </sys:String>
     <sys:String x:Key="DeviceVerificationFailed">设备验证失败</sys:String>
@@ -701,7 +702,7 @@
 
     <sys:String x:Key="ServerNoContent">服务器无返回</sys:String>
     <sys:String x:Key="FalseCredential">账户或密码错误</sys:String>
-    <sys:String x:Key="UnknownLoginError">未知的登陆错误</sys:String>
+    <sys:String x:Key="UnknownLoginError">未知的登录错误</sys:String>
 
     <sys:String x:Key="LatestRelease">最新正式版</sys:String>
     <sys:String x:Key="LatestSnapshot">最新快照版</sys:String>
@@ -766,7 +767,7 @@
     <sys:String x:Key="FailedToAutoSelectJavaMessage">无法从现有的 Java 库中选择出适合该游戏的 Java 运行时。该游戏需要的运行时版本是 [{0}]。</sys:String>
 
     <sys:String x:Key="FailedToResolveKey">无法解析密钥</sys:String>
-    <sys:String x:Key="FailedToResolveKeyDetail">我们无法解析保存在您本地计算机上的加密密钥，出于此原因，我们需要重置该加密密钥。因此您需要重新完成 LauncherX 的账户登录，同时也需要重新登陆您所有的游戏账户。</sys:String>
+    <sys:String x:Key="FailedToResolveKeyDetail">我们无法解析保存在您本地计算机上的加密密钥，出于此原因，我们需要重置该加密密钥。因此您需要重新完成 LauncherX 的账户登录，同时也需要重新登录您所有的游戏账户。</sys:String>
 
     <sys:String x:Key="SwitchAccount">切换账户</sys:String>
 
@@ -897,7 +898,7 @@
     <sys:String x:Key="CopyToClipBoard">复制到剪切板</sys:String>
 
     <sys:String x:Key="UseOneTimeCode">使用一次性验证代码</sys:String>
-    <sys:String x:Key="LoginToMsAccount">登陆到您的微软账户</sys:String>
+    <sys:String x:Key="LoginToMsAccount">登录到您的微软账户</sys:String>
     <sys:String x:Key="MsAccountLoginInstruction1">使用您设备自带的浏览器访问网址：</sys:String>
     <sys:String x:Key="MsAccountLoginInstruction2">并按照网页的提示输入 LauncherX 所显示的一次性验证代码。</sys:String>
     <sys:String x:Key="MsAccountLoginInstruction3">在上述操作完成之后，LauncherX 将自动完成剩余步骤，并将您的账户添加至启动器内。</sys:String>
