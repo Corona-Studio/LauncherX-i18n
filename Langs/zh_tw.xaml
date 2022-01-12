@@ -7,7 +7,7 @@
     <!--> 请注意原文中空格的格式及其他风格信息 <-->
 
     <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
-    <sys:String x:Key="TranslatorCredits">LauncherX 官方 - 繁體中文（香港）</sys:String>
+    <sys:String x:Key="TranslatorCredits">LauncherX 官方 - 繁體中文（台灣）</sys:String>
     <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
 
     <sys:String x:Key="Ok">確定</sys:String>
@@ -17,7 +17,7 @@
     <sys:String x:Key="Fatal">致命</sys:String>
     <sys:String x:Key="Debug">調試</sys:String>
     <sys:String x:Key="Info">資訊</sys:String>
-    <sys:String x:Key="Note">貼士</sys:String>
+    <sys:String x:Key="Note">提示</sys:String>
 
     <sys:String x:Key="Open">打開</sys:String>
     <sys:String x:Key="Close">關閉</sys:String>
@@ -93,7 +93,7 @@
     <sys:String x:Key="OnlineAccount">線上帳戶</sys:String>
     <sys:String x:Key="Email">電子郵件</sys:String>
     <sys:String x:Key="UserName">用戶名</sys:String>
-    <sys:String x:Key="DisplayName">玩家 ID</sys:String>
+    <sys:String x:Key="DisplayName">玩家名稱</sys:String>
     <sys:String x:Key="Password">密碼</sys:String>
     <sys:String x:Key="ConfirmPassword">確認密碼</sys:String>
     <sys:String x:Key="AuthLibServer">AuthLib 伺服器</sys:String>
@@ -138,7 +138,7 @@
     <sys:String x:Key="GameWindowSize">遊戲窗口大小</sys:String>
     <sys:String x:Key="Width">寬</sys:String>
     <sys:String x:Key="Height">高</sys:String>
-    <sys:String x:Key="FullScreen">全熒幕</sys:String>
+    <sys:String x:Key="FullScreen">全螢幕</sys:String>
 
     <sys:String x:Key="Enable">啟用</sys:String>
     <sys:String x:Key="Disable">禁用</sys:String>
@@ -197,7 +197,7 @@
 
     <sys:String x:Key="BaseNetworkSettings">基礎網路設定</sys:String>
     <sys:String x:Key="ResourceDownloadServer">資源下載伺服器</sys:String>
-    <sys:String x:Key="DownloadThreadCount">下載線程數量</sys:String>
+    <sys:String x:Key="DownloadThreadCount">下載執行緒數量</sys:String>
     <sys:String x:Key="AutoDetectDownloadMethod">自動選擇下載資源的方式</sys:String>
     <sys:String x:Key="UseMultiPartDownload">啟用大檔案分片下載</sys:String>
     <sys:String x:Key="MultiPartCount">分片數量</sys:String>
@@ -334,7 +334,7 @@
     <sys:String x:Key="Shape2">圓圈</sys:String>
     <sys:String x:Key="Shape3">弧線</sys:String>
 
-    <sys:String x:Key="BlurBackground">阿加力模糊效果背景</sys:String>
+    <sys:String x:Key="BlurBackground">壓克力模糊效果背景</sys:String>
     <sys:String x:Key="ImageBackground">相片背景</sys:String>
     <sys:String x:Key="PureColorBackground">純色背景</sys:String>
 
@@ -411,7 +411,7 @@
     <sys:String x:Key="Other">其他</sys:String>
 
     <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
-    <sys:String x:Key="OtherContent">ʕ•́ᴥ•̀ʔっ</sys:String>
+    <sys:String x:Key="OtherContent">ʕ•́ᴥ•̀ʔっㄓㄜㄕ丨ㄍㄜㄘㄞㄉㄢ</sys:String>
     <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
 
     <!--> About Page <-->
@@ -451,7 +451,7 @@
     <sys:String x:Key="BadJavaRuntime">此 Java 執行期 ( {0} 位 ) 與您的系統架構( {1} 位 ) 不匹配，可能會導致性能問題</sys:String>
 
     <sys:String x:Key="SelectedVersion">選擇版本</sys:String>
-    <sys:String x:Key="ManuallyCopyRedirectUrl">手動拷貝 RedirectUrl</sys:String>
+    <sys:String x:Key="ManuallyCopyRedirectUrl">手動複製 RedirectUrl</sys:String>
 
     <sys:String x:Key="Login">登入</sys:String>
     <sys:String x:Key="Register">註冊</sys:String>
@@ -499,7 +499,7 @@
     <sys:String x:Key="BasicSettings">基礎設定</sys:String>
     <sys:String x:Key="GameName">遊戲名稱</sys:String>
     <sys:String x:Key="GamePath">遊戲位址</sys:String>
-    <sys:String x:Key="Icon">圖標</sys:String>
+    <sys:String x:Key="Icon">圖示</sys:String>
 
     <sys:String x:Key="Offline">離線</sys:String>
     <sys:String x:Key="ChooseLoginType">請選擇您的登入方式</sys:String>
@@ -580,17 +580,17 @@
     <sys:String x:Key="Send">傳送</sys:String>
     <sys:String x:Key="SendDescription">訊息</sys:String>
 
-    <sys:String x:Key="NvidiaHardwareAcc">硬件加速渲染 （nVidia）</sys:String>
-    <sys:String x:Key="NvidiaHardwareAccRebootRequired">應用新硬件加速設定需要重新啟動啟動器</sys:String>
+    <sys:String x:Key="NvidiaHardwareAcc">硬體加速渲染 （nVidia）</sys:String>
+    <sys:String x:Key="NvidiaHardwareAccRebootRequired">應用新硬體加速設定需要重新啟動啟動器</sys:String>
 
     <sys:String x:Key="VideoBackground">動態背景</sys:String>
     <sys:String x:Key="MicaBackground">雲母材质（需要 Windows 11 或更高）</sys:String>
-    <sys:String x:Key="GameScreenShots">遊戲截圖</sys:String>
+    <sys:String x:Key="GameScreenShots">遊戲螢幕快照</sys:String>
     <sys:String x:Key="BlurRadius">模糊半徑</sys:String>
     <sys:String x:Key="Volume">音量</sys:String>
     <sys:String x:Key="BackgroundAlignmentMode">背景相片對齊方式</sys:String>
 
-    <sys:String x:Key="ResolutionDescription">當解像度為 0 * 0 時，將使用遊戲預設解像度。</sys:String>
+    <sys:String x:Key="ResolutionDescription">當解析度為 0 * 0 時，將使用遊戲預設解析度。</sys:String>
 
     <sys:String x:Key="WhatCanIShowYou">搜尋</sys:String>
     <sys:String x:Key="LauncherNotification">啟動器通知</sys:String>
@@ -660,7 +660,7 @@
 
     <sys:String x:Key="EmailUsed">該郵箱已註冊 LauncherX 帳戶</sys:String>
 
-    <sys:String x:Key="Hi">嗨！</sys:String>
+    <sys:String x:Key="Hi">哈囉！</sys:String>
     <sys:String x:Key="AuthResultNotFound">沒有找到認證結果</sys:String>
     <sys:String x:Key="AuthIncomplete">無法完成帳戶驗證</sys:String>
     <sys:String x:Key="AuthIncompleteContent">我們無法完成對帳戶的驗證，這可能是因為您取消了驗證或是其他原因。具體原因：{0}</sys:String>
@@ -811,7 +811,7 @@
     <sys:String x:Key="JoinFailedDetail">無法加入房間，{0}</sys:String>
 
     <sys:String x:Key="RoomConnectionStr">我使用 LauncherX 創建了一個多人遊戲房間 [{0}]，快加入我的房間吧！</sys:String>
-    <sys:String x:Key="RoomConnectionStrExported">成功將房間連線資訊拷貝至剪貼簿</sys:String>
+    <sys:String x:Key="RoomConnectionStrExported">成功將房間連線資訊複製到剪貼簿</sys:String>
 
     <sys:String x:Key="RoomConnectionStrImportFailed1">無法從剪貼簿導入連線資訊，請檢查您的連線資訊是否正確。</sys:String>
     <sys:String x:Key="RoomConnectionStrImportFailed2">無法從剪貼簿導入有效的連接資訊，連接資訊是一段包含 "[{9 位隨機字符}]" 的編碼。</sys:String>
@@ -835,8 +835,8 @@
     <sys:String x:Key="Reset">重設</sys:String>
     <sys:String x:Key="SetOfflineSkin">設定離線外觀</sys:String>
 
-    <sys:String x:Key="MultiThreadDownload">多線程和分片下載</sys:String>
-    <sys:String x:Key="MultiThreadDownloadDescription">多線程和分片下載能夠提升遊戲的下載速度，但會顯著影響啟動器的性能。</sys:String>
+    <sys:String x:Key="MultiThreadDownload">多執行緒和分片下載</sys:String>
+    <sys:String x:Key="MultiThreadDownloadDescription">多執行緒和分片下載能夠提升遊戲的下載速度，但會顯著影響啟動器的性能。</sys:String>
 
     <sys:String x:Key="ConnectionInfo">連接資訊</sys:String>
     <sys:String x:Key="MultiPlayerServiceStatus">連線服務狀態</sys:String>
@@ -895,7 +895,7 @@
 
     <sys:String x:Key="SelectAccount">選擇帳戶</sys:String>
     <sys:String x:Key="CopyFromClipBoard">從剪貼簿導入</sys:String>
-    <sys:String x:Key="CopyToClipBoard">拷貝至剪貼簿</sys:String>
+    <sys:String x:Key="CopyToClipBoard">複製到剪貼簿</sys:String>
 
     <sys:String x:Key="UseOneTimeCode">使用一次性驗證碼</sys:String>
     <sys:String x:Key="LoginToMsAccount">登入到您的 Microsoft 帳戶</sys:String>
@@ -908,8 +908,8 @@
     <sys:String x:Key="CreateFolder">創建目錄</sys:String>
 
     <sys:String x:Key="FailedToInstallCurseForgePackError">無法安裝 CurseForge 前置環境。請稍後重試。這通常是由於下載源的問題所導致的，也有可能是因為網路波動或是其他因素。</sys:String>
-    <sys:String x:Key="DownloadFailedLibError">補全失敗的函數庫檔案：{0}檔案名稱：{1}下載聯結：{2}下載路徑：{3}</sys:String>
-    <sys:String x:Key="CompletionFailedMessage">無法成功補全啟動遊戲需要的系統函數庫。您可以稍後在此嘗試啟動。</sys:String>
+    <sys:String x:Key="DownloadFailedLibError">補全失敗的函式庫檔案：{0}檔案名稱：{1}下載聯結：{2}下載路徑：{3}</sys:String>
+    <sys:String x:Key="CompletionFailedMessage">無法成功補全啟動遊戲需要的系統函式庫。您可以稍後在此嘗試啟動。</sys:String>
 
     <sys:String x:Key="AuthLibInstallMessage1">發現使用第三方驗證服務，準備下載 Authlib-Injector</sys:String>
     <sys:String x:Key="AuthLibInstallMessage2">成功取得最新版本的 Authlib-Injector 資訊，開始檢測"</sys:String>
