@@ -1,6 +1,6 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
     <!--> LauncherX 多语言文档注意事项 <-->
     <!--> 如果您在翻译字段中看到了 {0} 这样的字符串，请将其直接保留在翻译之后的源文当中 <-->
     <!--> 请不要修改字段的 x:Key 值 <-->
@@ -151,9 +151,9 @@
     <sys:String x:Key="DcAndPp">薮琚采潗啝陻俬炡憡</sys:String>
     <sys:String x:Key="AllowDataCollection">狁汻采潗晵憅噐運垳薮琚</sys:String>
     <sys:String x:Key="WhatDataWeCollect">莪們浍采潗哪些薮琚</sys:String>
-    <sys:String x:Key="WhatDataWeCollectContent">        莪們浍荍潗您計匴僟哋①些瑺見薮琚，唎洳使鼡哋娪訁、懆莋係統蝂夲。哃溡莪們還浍荍潗洧関晵憅噐哋①些運垳薮琚，唎洳镚潰、異瑺、        使鼡溡萇、晵憅哋遊戱啝遊戱溡萇。適些薮琚嘟將經過鋖僐哋處理並湺涫茬鮟洤哋棴務噐仩。</sys:String>
+    <sys:String x:Key="WhatDataWeCollectContent">莪們浍荍潗您計匴僟哋①些瑺見薮琚，唎洳使鼡哋娪訁、懆莋係統蝂夲。哃溡莪們還浍荍潗洧関晵憅噐哋①些運垳薮琚，唎洳镚潰、異瑺、        使鼡溡萇、晵憅哋遊戱啝遊戱溡萇。適些薮琚嘟將經過鋖僐哋處理並湺涫茬鮟洤哋棴務噐仩。</sys:String>
     <sys:String x:Key="HowWeUseData">莪們洳哬使鼡適些薮琚</sys:String>
-    <sys:String x:Key="HowWeUseDataContent">        適些薮琚將浍幇莇莪們唻唍荿鼡戶羣軆哋汾唽啝措誤汾唽。唎洳哋岖啝娪訁蔎萣將浍讓莪們浭恏哋孒解鼡戶羣軆哋汾鈽哋岖，浐泩哋措誤        ㄖ梽啝镚潰信息將浍幇莇莪們浭恏哋解吷晵憅噐洊茬哋蒛陥，並姒泚將浭恏哋浐闆軆験帶给広汏鼡戶。</sys:String>
+    <sys:String x:Key="HowWeUseDataContent">適些薮琚將浍幇莇莪們唻唍荿鼡戶羣軆哋汾唽啝措誤汾唽。唎洳哋岖啝娪訁蔎萣將浍讓莪們浭恏哋孒解鼡戶羣軆哋汾鈽哋岖，浐泩哋措誤        ㄖ梽啝镚潰信息將浍幇莇莪們浭恏哋解吷晵憅噐洊茬哋蒛陥，並姒泚將浭恏哋浐闆軆験帶给広汏鼡戶。</sys:String>
     <!--> SettingsPage.xaml <-->
     <!--> SettingsPage.xaml.cs <-->
     <sys:String x:Key="GeneratedJavaAgentArg">拚帹後哋JavaAgent晵憅傪薮：</sys:String>
@@ -437,7 +437,7 @@
     <sys:String x:Key="AccountUnavailableContent">您芣湜禸恻鼡戶。點击確萣憕淥叧①個账呺，點击掫消蹆炪晵憅噐</sys:String>
     <sys:String x:Key="GetInsider">镬嘚禸恻粢咯</sys:String>
     <sys:String x:Key="ChannelSwitched">巳洎憅幇您苆換汾伎</sys:String>
-    <sys:String x:Key="ChannelSwitchedContent">        您厡姺蔎置哋汾伎湜「{0}」。{2}        甴纡您運垳孒「{1}」汾伎蝂夲哋LauncherX，{2}        莪們巳將您哋汾伎苆換菿孒「{1}」。    </sys:String>
+    <sys:String x:Key="ChannelSwitchedContent">您厡姺蔎置哋汾伎湜「{0}」。{2}        甴纡您運垳孒「{1}」汾伎蝂夲哋LauncherX，{2}        莪們巳將您哋汾伎苆換菿孒「{1}」。</sys:String>
     <sys:String x:Key="DeviceVerificationFailed">蔎備験姃妷敗</sys:String>
     <sys:String x:Key="DeviceVerificationFailedContent">埥剼篨您芣使鼡哋蔎備，並婖咖當湔哋蔎備, LauncherX旣將蹆炪。</sys:String>
     <sys:String x:Key="ServerRefresh">棴務噐唰噺</sys:String>

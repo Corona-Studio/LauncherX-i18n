@@ -1,6 +1,7 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+
     <!--> LauncherX 多语言文档注意事项 <-->
     <!--> 如果您在翻译字段中看到了 {0} 这样的字符串，请将其直接保留在翻译之后的源文当中 <-->
     <!--> 请不要修改字段的 x:Key 值 <-->
@@ -707,7 +708,7 @@
     <sys:String x:Key="LatestRelease">最新正式版</sys:String>
     <sys:String x:Key="LatestSnapshot">最新快照版</sys:String>
 
-    <sys:String x:Key="FollowSystem">跟随系统（WIN10+）</sys:String>
+    <sys:String x:Key="FollowSystem">跟随系统</sys:String>
 
     <sys:String x:Key="UnknownErrorOccurs">发生未知错误</sys:String>
 
@@ -916,4 +917,322 @@
     <sys:String x:Key="AuthLibInstallMessage3">Authlib-Injector 下载完成，开始配置</sys:String>
     <sys:String x:Key="AuthLibInstallMessage4">开始预获取服务器配置</sys:String>
     <sys:String x:Key="AuthLibInstallErrorMessage">无法获取最新版本的 Authlib-Injector，可能是网络错误。</sys:String>
+
+    <sys:String x:Key="DownloadFileCountMessage1">{0} 个可下载项目</sys:String>
+
+    <sys:String x:Key="UnknownWindow">不确定的窗体</sys:String>
+    <sys:String x:Key="SaveExportedModPack">保存导出的整合包</sys:String>
+    <sys:String x:Key="UnableToDeleteGame">无法删除游戏 {0}</sys:String>
+    <sys:String x:Key="UnableToDeleteGameDetail">在尝试删除游戏时出现了错误，请尝试手工删除！{0}</sys:String>
+    <sys:String x:Key="LocalAccountManagement">本地账户管理</sys:String>
+
+    <sys:String x:Key="SystemAccentColorBackground">系统主题色</sys:String>
+    <sys:String x:Key="GlassBackground">琉璃背景</sys:String>
+
+    <sys:String x:Key="FailedToCheckJavaInfoDetail">无法查询 Java 信息，异常信息：{0}</sys:String>
+    <sys:String x:Key="FailedToCheckSpecificPathJavaInfoDetail">无法获取路径为 [{0}] 的 Java 虚拟机信息，输出：{1}，错误信息：{2}</sys:String>
+    <sys:String x:Key="UnknownJreArch">未知的 JRE 架构 [{0}]</sys:String>
+    <sys:String x:Key="UnmatchedJavaArchWarning">
+        检测到不匹配的系统架构和 Java 运行时架构：
+        当前系统架构：{0}
+        当前 JRE 架构：{1}
+        使用与系统不匹配的 JRE 运行时可能导致严重的游戏性能与体验降级！
+	</sys:String>
+
+	
+	<sys:String x:Key="Colored">着色</sys:String>
+    <sys:String x:Key="HighContrastColored">高对比度着色</sys:String>
+    <sys:String x:Key="VersionCompatibleMcVersionDetail">该版本兼容共 {0} 个 MineCraft 版本</sys:String>
+
+    <sys:String x:Key="Ascending">升序</sys:String>
+    <sys:String x:Key="Descending">降序</sys:String>
+
+	<sys:String x:Key="NatTypeUnclassified">未分级 - {0}</sys:String>
+    <sys:String x:Key="NatTypeUnclassifiedDetail">当前 NAT 类型为：未分级 - 1，未知的联机体验</sys:String>
+
+    <sys:String x:Key="CurseForgeModPack">CurseForge 整合包</sys:String>
+    <sys:String x:Key="ModrinthModPack">Modrinth 整合包</sys:String>
+
+    <sys:String x:Key="EmbeddedLibrary">嵌入的库</sys:String>
+    <sys:String x:Key="OptionalDependency">可选的依赖</sys:String>
+    <sys:String x:Key="RequiredDependency">必须的依赖</sys:String>
+    <sys:String x:Key="Tool">工具</sys:String>
+    <sys:String x:Key="Incompatible">不兼容</sys:String>
+    <sys:String x:Key="Include">包含</sys:String>
+
+    <sys:String x:Key="NoEnoughMemory">MineCraft 没有足够的运行内存</sys:String>
+    <sys:String x:Key="NoEnoughMemory32">使用 32 位 Java 运行时或 32 位 操作系统导致 MineCraft 没有足够的内存</sys:String>
+    <sys:String x:Key="JavaVersionTooHigh">Java 运行时版本过高</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersion">不受支持的 Java 运行时版本</sys:String>
+    <sys:String x:Key="JdkUse">使用 JDK 或高版本 Java 运行时导致崩溃</sys:String>
+    <sys:String x:Key="OpenJ9Use">使用 OpenJ9 导致崩溃</sys:String>
+    <sys:String x:Key="UnableToSetPixelFormat">使用存在问题的显卡驱动导致无法设置像素格式</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriver">未使用独立显卡或存在问题的 Intel 显卡驱动程序</sys:String>
+    <sys:String x:Key="UnsupportedAmdDriver">存在问题的 AMD 显卡驱动程序</sys:String>
+    <sys:String x:Key="UnsupportedNvDriver">存在问题的 Nvidia 显卡驱动程序</sys:String>
+    <sys:String x:Key="ModCausedGameCrash">模组导致了游戏崩溃</sys:String>
+    <sys:String x:Key="DecompressedMod">由于解压了模组导致的启动失败</sys:String>
+    <sys:String x:Key="IncorrectModConfig">不正确的模组配置</sys:String>
+    <sys:String x:Key="ModMixinFailed">模组注入失败</sys:String>
+    <sys:String x:Key="ModLoaderError">模组加载器报告了错误</sys:String>
+    <sys:String x:Key="ModInitFailed">模组初始化失败</sys:String>
+    <sys:String x:Key="ModIdExceeded">模组安装数量超出最大数量限制</sys:String>
+    <sys:String x:Key="DuplicateMod">重复的模组</sys:String>
+    <sys:String x:Key="GpuDoesNotSupportOpenGl">显卡不支持 OpenGL</sys:String>
+    <sys:String x:Key="OpenGl1282Error">材质包或光影导致 OpenGL 报错</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFine">Optifine 导致的世界加载失败</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpu">材质或光影过大或是显卡配置不足</sys:String>
+    <sys:String x:Key="FabricError">Fabric 报错</sys:String>
+    <sys:String x:Key="FabricErrorWithSolution">Fabric 报错（包含解决方案）</sys:String>
+    <sys:String x:Key="ForgeError">Forge 报错</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJava">旧版本 Forge 无法使用过高版本的 Java 运行时</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJson">版本 Json 中发现多个 Forge 配置</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifine">Forge 与 Optifine 不兼容</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFound">没有找到主类或是路径编码不正确</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrash">手动触发的调试崩溃</sys:String>
+    <sys:String x:Key="ContentValidationFailed">内容验证失败</sys:String>
+    <sys:String x:Key="BlockCausedGameCrash">特定方块导致游戏崩溃</sys:String>
+    <sys:String x:Key="EntityCausedGameCrash">特定实体导致游戏崩溃</sys:String>
+    <sys:String x:Key="LogFileNotFound">没有找到可供分析的日志文件</sys:String>
+
+	<sys:String x:Key="NoEnoughMemoryDetail">Minecraft 无法继续运行，可能是因为你分配给游戏的内存不足或游戏配置过高。你可以通过增加游戏分配的内存、删除要求高的材质、Mod和光影来解决问题。如果这些方法都不起作用，你可以尝试在游戏前关闭其他软件，或者考虑换台电脑。</sys:String>
+	<sys:String x:Key="NoEnoughMemory32Detail">看起来你正在使用 32 位的 Java，这可能导致 Minecraft 无法使用超过 1GB 的内存，导致崩溃。要解决这个问题，请在启动设置的 Java 选择中切换到 64 位的 Java，然后再启动游戏。如果你没有安装 64 位的 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
+	<sys:String x:Key="JavaVersionTooHighDetail">由于你使用的 Java 版本过高，游戏似乎已经崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到较低版本的 Java，然后再启动游戏。如果你没有安装 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
+	<sys:String x:Key="UnsupportedJavaVersionDetail">你当前使用的 Java 与游戏不兼容。请在启动设置的 Java 选择中切换到合适的 Java，然后再启动游戏。如果你没有安装 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
+	<sys:String x:Key="JdkUseDetail">由于使用了 JDK 或 Java 版本过高，游戏崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到 JRE，然后再启动游戏。</sys:String>
+	<sys:String x:Key="OpenJ9UseDetail">游戏因为使用 OpenJ9 而崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到非 OpenJ9 的 Java，然后再启动游戏。</sys:String>
+	<sys:String x:Key="UnsupportedIntelDriverDetail">你的显卡驱动存在问题或未使用独立显卡，导致游戏无法正常运行。为了解决这个问题，请尝试在启动 LauncherX 和 Minecraft 时使用独立显卡而不是 Intel 核显。如果问题仍然存在，请尝试将显卡驱动升级到最新版本或回退到出厂版本。如果问题仍然存在，可以尝试使用 Java8 或更低版本。如果问题依然无法解决，那么可能需要考虑更换一块性能更好的显卡。</sys:String>
+    
+    <sys:String x:Key="VideoDriverErrorDetail">你的显卡驱动存在问题，导致游戏无法正常运行。为了解决这个问题，请尝试将显卡驱动升级到最新版本或回退到出厂版本，然后再启动游戏。如果问题仍然存在，可以尝试使用 Java8 或更低版本。如果问题依然无法解决，那么可能需要考虑更换一块性能更好的显卡。</sys:String>
+
+	<sys:String x:Key="ModCausedGameCrashDetail">您当前启动的游戏中的一个或多个模组导致了游戏崩溃，您可以在下方的详细信息中寻找导致模组崩溃的相关信息，并尝试暂时禁用或是替换这些模组。</sys:String>
+	<sys:String x:Key="DecompressedModDetail">由于模组文件被解压缩了，导致游戏无法继续运行。为了解决这个问题，请将整个模组文件放入 [mods] 文件夹中，而不要解压缩它。如果已经解压了模组文件，请将其从 [mods] 文件夹中删除，然后再启动游戏。</sys:String>
+	<sys:String x:Key="IncorrectModConfigDetail">模组的一个或多个配置文件不正确导致了启动失败，您可以在下方的详细信息中寻找具体的配置文件名称，并修正它的错误。</sys:String>
+	<sys:String x:Key="ModMixinFailedDetail">一个或多个模组注入失败导致了启动失败，这通常意味着您使用了存在问题的模组或是不受当前游戏版本支持的模组。您可以在下方的详细信息中寻找具体的模组信息。</sys:String>
+	<sys:String x:Key="ModLoaderErrorDetail">模组加载器报告了一个或多个错误，您可以在下方的详细信息中查看报错的具体原因。</sys:String>
+	<sys:String x:Key="ModInitFailedDetail">一个或多个模组初始化失败导致游戏无法继续加载。请在下方的详细信息中寻找模组的相关错误信息。</sys:String>
+	<sys:String x:Key="ModIdExceededDetail">你安装的模组数量太多，超出了游戏的 ID 限制，导致游戏崩溃。为了解决这个问题，你可以尝试安装一些修复模组，如 JEID，或删除一些大型模组。这可以帮助你减少模组的数量，并让游戏更加稳定。</sys:String>
+	<sys:String x:Key="DuplicateModDetail">你重复安装了多个相同的模组，每个模组最多只能安装一次，请在下方的详细信息中找到模组的相应名称并在 [mods] 文件夹中删除重复的模组。</sys:String>
+	
+	<sys:String x:Key="OpenGl1282ErrorDetail">你所使用的光影或材质可能导致游戏出现问题，建议你尝试删除这些额外的资源，然后再启动游戏。这通常可以解决一些与游戏资源相关的问题。</sys:String>
+	<sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">你的游戏可能出现问题是由于所使用的 OptiFine 版本与游戏不兼容（https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world）。这个问题只会在某些 OptiFine 版本中出现，建议你更换 OptiFine 的版本，然后再启动游戏。你可以到 OptiFine 的官方网站下载最新的版本并安装，或者选择另一版本的 OptiFine 进行安装。</sys:String>
+	<sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">你的游戏可能由于使用了过高的渲染距离而无法正常运行。请尝试在游戏设置中将渲染距离降低一些，例如减少视野距离和区块加载距离等选项。如果问题仍然存在，你可能需要更新你的显卡驱动或更换一块更高性能的显卡。</sys:String>
+	<sys:String x:Key="FabricErrorDetail">Fabric 有可能报告了一个或多个错误，请尝试在下方的详细信息中查看具体的报错信息。</sys:String>
+	<sys:String x:Key="FabricErrorWithSolutionDetail">Fabric 有可能报告了一个或多个错误并很可能提供了解决方案，请尝试在下方的详细信息中查看具体的报错信息。</sys:String>
+	<sys:String x:Key="ForgeErrorDetail">Forge 有可能报告了一个或多个错误，请尝试在下方的详细信息中查看具体的报错信息</sys:String>
+	<sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">如果你的 Forge 版本比 36.2.26 低，那么你可以尝试更新 Forge 到 36.2.26 或更高版本。如果你已经使用了 36.2.26 或更高版本的 Forge，那么你可能需要更换 Java 版本。在使用 Forge 时，请注意检查 Forge 的版本与所使用的 Java 版本是否兼容，以避免出现此类错误。</sys:String>
+	<sys:String x:Key="MultipleForgeInVersionJsonDetail">游戏崩溃可能是由于使用了其他启动器修改了 Forge 版本，导致当前版本的文件异常。为了解决这个问题，请尝试全新安装 Forge，不要使用其他启动器来修改 Forge 版本。</sys:String>
+	<sys:String x:Key="IncompatibleForgeAndOptifineDetail">因为 OptiFine 与当前 Forge 版本不兼容，导致游戏崩溃。请前往 OptiFine 官网（https://optifine.net/downloads）查看 OptiFine 兼容的 Forge 版本，并按照对应版本重新安装游戏。</sys:String>
+	<sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">由于不正确的路径编码或是由于游戏安装损坏缺失主类导致游戏加载失败。您可以尝试将游戏目录放置在不包含中文或其他特殊字符的目录中，或者尝试重新安装这个游戏。如果以上的问题均无法解决问题，请向开发者报告。</sys:String>
+	<sys:String x:Key="ManuallyTriggeredDebugCrashDetail">您手动触发了调试崩溃。</sys:String>
+	<sys:String x:Key="ContentValidationFailedDetail">游戏遇到了校验失败的问题，可能是由于下载时出现了网络问题导致的。你可以尝试删除游戏（包括模组）并重新下载，或在重新下载时保证网络连接的稳定性。</sys:String>
+	<sys:String x:Key="BlockCausedGameCrashDetail">游戏中的某个方块导致游戏发生了崩溃，请在下方的详细信息中寻找有关该方块的具体信息（ID、坐标等），并尝试使用地图编辑器删除该方块。如果仍然无法解决该问题，请尝试重新创建一个世界或是考虑其他问题。</sys:String>
+	<sys:String x:Key="EntityCausedGameCrashDetail">游戏中的某个实体导致游戏发生了崩溃，请在下方的详细信息中寻找有关该实体的具体信息（ID、坐标等），并尝试使用地图编辑器删除该实体。如果仍然无法解决该问题，请尝试重新创建一个世界或是考虑其他问题。</sys:String>
+	<sys:String x:Key="LogFileNotFoundDetail">分析器缺少足够的日志文件来创建分析报告，请尝试联系开发者。</sys:String>
+    <sys:String x:Key="OtherCausedGameCrashDetail">不确定的原因导致了游戏崩溃，请尝试联系开发者。</sys:String>
+
+    <sys:String x:Key="DirectConnect">直连</sys:String>
+
+    <sys:String x:Key="ArchiveCorrupted">压缩包损坏，我们无法读取压缩文件的内容。</sys:String>
+    <sys:String x:Key="ModPackJsonCorruptedDetail">清单文件损坏，我们无法读取清单文件的内容。{0}</sys:String>
+    <sys:String x:Key="NetworkUnstable">这通常是由于网络波动导致的。</sys:String>
+    <sys:String x:Key="FailedToLoadModPack">无法加载整合包信息</sys:String>
+    <sys:String x:Key="FailedToLoadModPackDetail">无法加载 {0} 整合包的详细信息，但您依旧可以尝试继续安装。详细信息：{1}</sys:String>
+
+    <sys:String x:Key="InvalidPath">无效的路径</sys:String>
+    <sys:String x:Key="FailedToLoadOriginalGameInfo">无法加载原版游戏信息，可能是网络问题。</sys:String>
+
+    <sys:String x:Key="NeoForgedDescription">NeoForged 是一个源于 MineCraft Forge 的新的开发分支，由大部分原 Forge 开发人员组建。</sys:String>
+    <sys:String x:Key="QuiltDescription">Quilt 项目是一个开源、社区驱动的改装工具链，主要为 Minecraft 设计。</sys:String>
+
+    <sys:String x:Key="FailedToReadFromClipBoard">无法从剪切板读取内容。</sys:String>
+    <sys:String x:Key="FolderDraggedOrFileNotExists">文件不存在或是您拖入了一个文件夹</sys:String>
+    <sys:String x:Key="FileTypeUnknownDetail">文件 {0} 包含未知的文件类型</sys:String>
+
+    <sys:String x:Key="FailedToReadUpdatedFile">无法读取下载到的更新文件，请尝试手动更新！</sys:String>
+    <sys:String x:Key="DownloadedUpdateDoesNotContainExecutable">下载到的更新文件中不包含应用程序，请联系系统管理员！</sys:String>
+    <sys:String x:Key="DownloadedUpdateHashUnmatched">下载到的更新文件的哈希值与预期不符，请联系系统管理员！</sys:String>
+    <sys:String x:Key="FailedToInitFileStream">无法初始化文件流，请联系系统管理员！</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedMessage">更新下载完成", "点击确定打开下载完成的更新压缩包，解压之后手动替换老的应用程序即可。点击确定后，程序将主动退出。</sys:String>
+
+    <sys:String x:Key="Customization">自定义</sys:String>
+    <sys:String x:Key="ModPack">整合包</sys:String>
+    <sys:String x:Key="BukkitPlugins">水桶（Bukkit）插件</sys:String>
+    <sys:String x:Key="Addons">附属添加（Addons）</sys:String>
+    <sys:String x:Key="Worlds">地图存档</sys:String>
+    <sys:String x:Key="Mods">模组</sys:String>
+
+	<sys:String x:Key="FailedToSaveUserSettingsDetail">暂时无法保存用户设置，请稍候再试。</sys:String>
+    <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">无法创建房间，因为房间名为空</sys:String>
+    <sys:String x:Key="FailedToCreateGroupDetail">无法创建群组，可能是因为网络问题或服务器错误。服务器返回的原因：{0}</sys:String>
+    <sys:String x:Key="RoomDismissed">房间已被解散</sys:String>
+    <sys:String x:Key="RoomDismissedDetail">房间已被房主解散，您已自动从房间离开</sys:String>
+    <sys:String x:Key="Joined">加入了房间</sys:String>
+    <sys:String x:Key="Left">离开了房间</sys:String>
+    <sys:String x:Key="Kicked">被房主踢出了房间</sys:String>
+    <sys:String x:Key="Disconnected">断开了连接</sys:String>
+    <sys:String x:Key="RoomMemberChanged">成员信息变更</sys:String>
+    <sys:String x:Key="FailedToJoinRoomDetail">无法加入群组，可能是因为网络问题或服务器错误，亦或是房间号码或密码错误。服务器返回的原因：{0}</sys:String>
+    <sys:String x:Key="FailedToKickMember">踢出成员失败</sys:String>
+    <sys:String x:Key="FailedToKickSelf">无法踢出成员，因为您不能踢出自己</sys:String>
+    <sys:String x:Key="FailedToKickMemberDetail">无法踢出成员，可能是因为网络问题或服务器错误。服务器返回的原因：{0}</sys:String>
+    <sys:String x:Key="MemberKicked">成功踢出成员</sys:String>
+    <sys:String x:Key="MemberKickedDetail">已成功踢出成员 {0}</sys:String>
+    <sys:String x:Key="RoomExited">您已退出房间</sys:String>
+    <sys:String x:Key="RoomExitedDetail">您已退出房间或房间被房主解散了</sys:String>
+
+    <sys:String x:Key="ThirdPartyLogin">第三方登录</sys:String>
+
+    <sys:String x:Key="SaveSupportPack">保存支持包</sys:String>
+    <sys:String x:Key="TryLaunchedGame">尝试启动的游戏</sys:String>
+    <sys:String x:Key="GameResourcePath">游戏资源路径</sys:String>
+    <sys:String x:Key="GameVersion">游戏版本</sys:String>
+    <sys:String x:Key="VersionInsulation">版本隔离</sys:String>
+	<sys:String x:Key="Authenticator">验证模型</sys:String>
+    <sys:String x:Key="MinMemoryInMb">最小内存 (MB)</sys:String>
+    <sys:String x:Key="MaxMemoryInMb">最大内存 (MB)</sys:String>
+
+    <sys:String x:Key="GameResourceNotFound">资源不存在</sys:String>
+    <sys:String x:Key="GameResourceNotFoundDetail">该游戏不存在资源：{t0ype}，已隐藏该标签。</sys:String>
+    <sys:String x:Key="ChooseModPackFile">选择整合包文件</sys:String>
+    <sys:String x:Key="SinceNow">距今已经</sys:String>
+    <sys:String x:Key="Published">发布了</sys:String>
+    <sys:String x:Key="NumVersion">{0} 个版本</sys:String>
+    <sys:String x:Key="SearchOnTheInternet">在互联网上查找：</sys:String>
+
+    <sys:String x:Key="GameNotInstall">未安装游戏</sys:String>
+    <sys:String x:Key="GameNotInstallDetail">您还没有安装任何游戏，请点击下方的下载标签来安装一个游戏。</sys:String>
+    <sys:String x:Key="GameNotSelectDetail">您还没有固定游戏，请在列表中选取一个游戏并点击右侧的图钉图标来进行固定。</sys:String>
+    <sys:String x:Key="StartLaunchGame">开始尝试启动游戏</sys:String>
+    <sys:String x:Key="RunningOldMineCraftUsingArm64JreWarning">
+        检测到当前系统和 JRE 运行时架构均为 Arm64。
+        但由于您运行的可能是较老版本的 MineCraft 实例，相关实例所包含的运行时可能无法在 Arm64 系统上正常运行。
+        您可以尝试继续启动，如果出现问题请尝试切换到 X86 架构的 JRE 运行时并尝试再次启动。
+	</sys:String>
+    <sys:String x:Key="JreVersionTooHighWarning">
+        您当前选择的 Java 版本 [{0}] 高于了游戏所要求的版本 [{1}]，
+        使用新版本的 Java 虽然可能可以提高游戏性能，但也可能会导致游戏无法正常运行。
+        如果游戏无法正常运行，请尝试切换到游戏所要求的 Java 版本。
+	</sys:String>
+    <sys:String x:Key="FailedToInitAuthenticator">初始化验证器失败</sys:String>
+    <sys:String x:Key="FailedToInitAuthenticatorDetail">初始化验证器失败，请检查账户的有效性</sys:String>
+    <sys:String x:Key="CurrentLaunchSettings">当前的启动配置:</sys:String>
+    <sys:String x:Key="LauncherRunningUnderTranslationWarning">
+        检测到 LauncherX 可能运行在 ARM64 处理器模拟的 X86 环境中，在转译层上运行 LauncherX 可能会导致性能受到影响以及造成意料之外的异常。
+        使用转译层运行可能导致的问题：
+        - 无法正确的识别和检测 Java 运行时的运行状态
+        - 严重的体验和性能降级
+        - 部分功能出现异常
+
+        请再次确认您的系统架构并重新下载 LauncherX。
+	</sys:String>
+	<sys:String x:Key="TryingToLoginToCsAccount">尝试登录日冕账户</sys:String>
+    <sys:String x:Key="FailedToLoginToCsAccount">无法登陆日冕账户</sys:String>
+    <sys:String x:Key="LoggedIntoCsAccount">成功登录日冕账户</sys:String>
+    <sys:String x:Key="OpenDeviceManagementPage">打开设备管理页面并注销</sys:String>
+    <sys:String x:Key="LogoutAndReturn">注销并返回</sys:String>
+
+    <sys:String x:Key="InstallOptifineAsMod">将 Optifine 以模组的形式安装</sys:String>
+    <sys:String x:Key="InstallOptifineAsModDetail">Optifine 将作为一个模组安装到 Fabric 中。在安装完成之后，您需要手动下载安装 OptiFabric 模组来将它到 Fabric 中。您可以在 下载-CurseForge 标签页中查找该模组。</sys:String>
+    <sys:String x:Key="EnterOfflineModeDetail">进入离线模式，可以在无网络的情况下使用该模式。大部分功能将被禁用！</sys:String>
+    
+    <sys:String x:Key="NewFileDragged">您拖入了一个新文件</sys:String>
+    <sys:String x:Key="TryingToDetermineFileType">正在尝试自动确认文件的类型</sys:String>
+    <sys:String x:Key="FileTypeDetected">成功识别，可能的文件类型：</sys:String>
+
+    <sys:String x:Key="DownloadReadyToRunBuild">下载 ReadyToRun 构建</sys:String>
+    <sys:String x:Key="DownloadReadyToRunBuildDetail">采用 ReadyToRun 编译的启动器二进制会有更高的理论性能，但启动器本体的大小也会有所增大。</sys:String>
+
+    <sys:String x:Key="CheckCSKBArticle">查看 CSKB 文章</sys:String>
+    <sys:String x:Key="MojangNoArm64JreSupportWarning">由于 Mojang 官方目前还并未官方支持 Arm64 版本的 JRE 下载。因此，请参阅日冕知识库或是互联网上的教程来手动进行运行时的安装。</sys:String>
+
+    <sys:String x:Key="DataCollectionOptions">数据收集选项</sys:String>
+    <sys:String x:Key="DataCollectionOptionsDetail">LauncherX 使用 Azure Application Insight 来收集部分关键的运行数据和崩溃信息，这能够更好的帮助我们了解用户的使用体验以及及时对影响体验的问题进行修复。</sys:String>
+    <sys:String x:Key="EnableTelemetry">启用遥测</sys:String>
+    <sys:String x:Key="DataCollectionManifest">数据收集清单</sys:String>
+    <sys:String x:Key="DataCollectionTitle1">LauncherX 会收集并传输包括</sys:String>
+    <sys:String x:Key="DataCollectionTitle2">但不限于</sys:String>
+    <sys:String x:Key="DataCollectionTitle3">下表的数据来帮助我们改进：</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail1">- 用户计算机的配置信息</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail2">- 计算机名称</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail3">- 启动器内的网络活动</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail4">- 启动器内的任务调度详情</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail5">- 启动器产生的任何日志信息</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail6">- 部分启动器操作事件</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail7">- 崩溃信息</sys:String>
+
+    <sys:String x:Key="CurseForgeApiLimitWarning">由于 API 的限制，我们至多显示请求到 10,000 个项目。如果您想查看更多的项目，请自行访问 CurseForge 官网。</sys:String>
+    <sys:String x:Key="InTotal">共</sys:String>
+    <sys:String x:Key="Pages">页</sys:String>
+
+    <sys:String x:Key="ModNotFoundDetail">没有找到任何模组，或是部分模组已损坏并未显示。</sys:String>
+    <sys:String x:Key="GoToDownloadPage">前往下载页面</sys:String>
+
+    <sys:String x:Key="HiveVersion">Hive 网络库版本</sys:String>
+    <sys:String x:Key="ConnectXVersion">ConnectX 联机组件版本</sys:String>
+
+    <sys:String x:Key="PinAccountAtAccountPage">在账户页面固定启动账户</sys:String>
+    <sys:String x:Key="CheckJreStatus">检查 Jre 状态</sys:String>
+    <sys:String x:Key="DeepSearch">深度搜索</sys:String>
+    <sys:String x:Key="DeepSearchDetail">使用深度搜索 Java 时，LauncherX 将会搜索本地计算机的所有磁盘来寻找 JR。取决于计算机的性能和磁盘数量，该过程可能会持续数十秒甚至更长的时间。</sys:String>
+    
+    <sys:String x:Key="UseProgressiveBlur">通过渐进式模糊优化上层文字显示效果</sys:String>
+    <sys:String x:Key="ProgressiveBlurStrength">渐进式模糊效果强度</sys:String>
+    <sys:String x:Key="ShowUpperTextShadow">显示上层文字阴影</sys:String>
+    <sys:String x:Key="ImagePlusEffect">背景视差效果</sys:String>
+    <sys:String x:Key="UseSystemAccentColorAsPrimaryColor">使用系统主题色作为主题色</sys:String>
+
+    <sys:String x:Key="CheckUpnpStatusDetail">请检查您是否已经开启路由器的 UPNP 功能。如果已经开启，请检查是否处在拥有多层路由的网络环境中</sys:String>
+    <sys:String x:Key="Operation">操作</sys:String>
+    <sys:String x:Key="LeaveRoom">离开房间</sys:String>
+    <sys:String x:Key="DisconnectService">断开服务</sys:String>
+    <sys:String x:Key="KickFromRoom">从房间踢出</sys:String>
+
+    <sys:String x:Key="MojangApiLimitWarning">由于官方 API 的请求限制，我们不建议您在使用 Mojang 下载源时使用大于 5 的线程数量。这可能会导致大量请求失败。</sys:String>
+
+    <sys:String x:Key="Sponsor">赞助者</sys:String>
+    <sys:String x:Key="SponsorPageSubTitle">LauncherX 的发展壮大离不开每一位赞助者的倾力支持！</sys:String>
+    <sys:String x:Key="SponsorSourceDetail">该赞助者列表来自 [爱发电] 平台。排名不分先后，该列表每天更新一次，并只展示部分最新的赞助记录。</sys:String>
+    <sys:String x:Key="SponsorList">赞助者列表</sys:String>
+
+    <sys:String x:Key="LoginToCsAccountForMoreFeatures">登录日冕账号以使用更多功能</sys:String>
+    <sys:String x:Key="ClickAccountCardToPreview">点击右侧的账户卡片来预览</sys:String>
+    <sys:String x:Key="SwitchTo3DView">切换到 3D 视图</sys:String>
+    <sys:String x:Key="ThreeDOptions">3D 选项</sys:String>
+    <sys:String x:Key="EnableAnimation">启用动画</sys:String>
+    <sys:String x:Key="DisableAnimation">禁用动画</sys:String>
+    <sys:String x:Key="ShowUpperSkin">显示上层皮肤</sys:String>
+    <sys:String x:Key="HideUpperSkin">隐藏上层皮肤</sys:String>
+    <sys:String x:Key="ShowCape">显示披风</sys:String>
+    <sys:String x:Key="HideCape">隐藏披风</sys:String>
+	<sys:String x:Key="SwitchTo2DView">切换到 2D 视图</sys:String>
+
+    <sys:String x:Key="LoadingModInfo">正在加载模组信息，请耐心等待。</sys:String>
+
+	<sys:String x:Key="AddGameResource">添加游戏资源</sys:String>
+    <sys:String x:Key="Logs">日志</sys:String>
+    <sys:String x:Key="ExportAs">导出为</sys:String>
+
+    <sys:String x:Key="LoadLargeItemWarning">在加载某些大型项目时界面可能会出现短暂卡死的现象，请耐心等待。</sys:String>
+
+    <sys:String x:Key="CurrentStatus">当前状态:</sys:String>
+
+    <sys:String x:Key="Source">来源</sys:String>
+    <sys:String x:Key="Solution">解决方案</sys:String>
+    <sys:String x:Key="GenerateSupportPack">生成支持包</sys:String>
+
+    <sys:String x:Key="GameProcessExited">游戏进程已退出</sys:String>
+    <sys:String x:Key="Back">返回</sys:String>
+    <sys:String x:Key="InOfflineDetail">已脱机，大部分功能已被禁用</sys:String>
+    <sys:String x:Key="TryingToAutoLogin">正在尝试自动登录...</sys:String>
+
+    <sys:String x:Key="LoadingMainWindow">加载主窗体</sys:String>
+    <sys:String x:Key="MainWindowLoaded">主窗体加载完成</sys:String>
+    <sys:String x:Key="MultipleDragNotSupport">主窗体暂不支持多文件拖放功能</sys:String>
+    <sys:String x:Key="UnsupportedFunction">暂不支持的功能</sys:String>
+    <sys:String x:Key="FailedToGetDraggedFilePath">无法获取拖入文件的路径</sys:String>
+    <sys:String x:Key="FilePathEmpty">文件路径为空</sys:String>
+    <sys:String x:Key="FileDragEventTriggered">文件拖放事件触发</sys:String>
+    <sys:String x:Key="OfficialWebsite">官方网站</sys:String>
+
 </ResourceDictionary>

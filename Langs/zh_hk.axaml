@@ -1,6 +1,6 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
     <!--> LauncherX 多语言文档注意事项 <-->
     <!--> 如果您在翻译字段中看到了 {0} 这样的字符串，请将其直接保留在翻译之后的源文当中 <-->
     <!--> 请不要修改字段的 x:Key 值 <-->
@@ -355,7 +355,7 @@
 
     <sys:String x:Key="NoSelectedBgImage">未設定背景位址</sys:String>
 
-    <sys:String x:Key="StaySame">保持原有設定</sys:String>
+    <sys:String x:Key="StaySame">保持不變</sys:String>
 
     <sys:String x:Key="All">全部</sys:String>
 
@@ -707,7 +707,7 @@
     <sys:String x:Key="LatestRelease">最新正式版</sys:String>
     <sys:String x:Key="LatestSnapshot">最新快照版</sys:String>
 
-    <sys:String x:Key="FollowSystem">跟隨系統（需要 Windows 10 或更高）</sys:String>
+    <sys:String x:Key="FollowSystem">跟隨系統</sys:String>
 
     <sys:String x:Key="UnknownErrorOccurs">發生未知錯誤</sys:String>
 

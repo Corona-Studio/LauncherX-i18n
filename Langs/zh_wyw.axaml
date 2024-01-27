@@ -1,7 +1,6 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
-
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
     <sys:String x:Key="TranslatorCredits">MILK蛋糕，月银秋5990 - 文言文</sys:String>
 
     <sys:String x:Key="Ok">毕</sys:String>
@@ -38,7 +37,7 @@
     <sys:String x:Key="Dashboard">奏表</sys:String>
     <sys:String x:Key="Settings">设</sys:String>
 
-    <sys:String x:Key="BetaHint">Beta版本，仅供Corona Studio的各位炖llr之用(?) </sys:String>
+    <sys:String x:Key="BetaHint">Beta版本，仅供Corona Studio的各位炖llr之用(?)</sys:String>
     <sys:String x:Key="Start">始</sys:String>
     <sys:String x:Key="TaskCenter">事物</sys:String>
 
@@ -396,5 +395,4 @@
     <!--> GameLogsWindow.xaml <-->
 
     <sys:String x:Key="NoSuchPageKeyExceptionMessage">未寻得键值为 {0} 之页面。</sys:String>
-
 </ResourceDictionary>
