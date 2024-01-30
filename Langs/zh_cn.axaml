@@ -1093,7 +1093,7 @@
     <sys:String x:Key="MaxMemoryInMb">最大内存 (MB)</sys:String>
 
     <sys:String x:Key="GameResourceNotFound">资源不存在</sys:String>
-    <sys:String x:Key="GameResourceNotFoundDetail">该游戏不存在资源：{t0ype}，已隐藏该标签。</sys:String>
+    <sys:String x:Key="GameResourceNotFoundDetail">该游戏不存在资源：{0}，已隐藏该标签。</sys:String>
     <sys:String x:Key="ChooseModPackFile">选择整合包文件</sys:String>
     <sys:String x:Key="SinceNow">距今已经</sys:String>
     <sys:String x:Key="Published">发布了</sys:String>
@@ -1234,5 +1234,16 @@
     <sys:String x:Key="FilePathEmpty">文件路径为空</sys:String>
     <sys:String x:Key="FileDragEventTriggered">文件拖放事件触发</sys:String>
     <sys:String x:Key="OfficialWebsite">官方网站</sys:String>
+
+    <sys:String x:Key="PreviousPage">上一页</sys:String>
+    <sys:String x:Key="NextPage">下一页</sys:String>
+
+    <sys:String x:Key="Month">月</sys:String>
+
+    <sys:String x:Key="Yesterday">昨天</sys:String>
+    <sys:String x:Key="DayBeforeYesterday">前天</sys:String>
+
+    <sys:String x:Key="More">更多</sys:String>
+    <sys:String x:Key="Compatibility">兼容性</sys:String>
 
 </ResourceDictionary>
