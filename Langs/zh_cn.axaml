@@ -1257,6 +1257,10 @@
     <!--> 关于这个字段，可以改成相关语言的梗词之类的 <-->
 
     <sys:String x:Key="X">手冫中冫中</sys:String>
+
+    <sys:String x:Key="ResourcePackNotFoundDetail">没有找到任何资源包</sys:String>
+    <sys:String x:Key="ScreenshotNotFoundDetail">没有找到任何游戏截图</sys:String>
+    <sys:String x:Key="ShaderPackNotFoundDetail">没有找到任何光影</sys:String>
     
 
 </ResourceDictionary>
