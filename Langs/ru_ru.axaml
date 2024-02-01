@@ -15,7 +15,7 @@
     <sys:String x:Key="Exit">Выйти</sys:String>
     <sys:String x:Key="Maximize">Развернуть</sys:String>
     <sys:String x:Key="Minimize">Свернуть</sys:String>
-    <sys:String x:Key="Force">Принудительно</sys:String>
+    <sys:String x:Key="Force">Насильно</sys:String>
 
     <sys:String x:Key="LaunchFailed">Не удалось запустить игру.</sys:String>
     <sys:String x:Key="JavaNotFound">Java не найдена.</sys:String>
@@ -76,7 +76,7 @@
 
     <sys:String x:Key="CreateNewAccount">Создать новый аккаунт</sys:String>
 
-    <sys:String x:Key="OfflineAccount">Аккаунт без пароля</sys:String>
+    <sys:String x:Key="OfflineAccount">Аккаунт оффлайн</sys:String>
     <sys:String x:Key="MojangAccount">Mojang/AuthLib</sys:String>
     <sys:String x:Key="MicrosoftAccount">Аккаунт Microsoft</sys:String>
 
@@ -129,7 +129,7 @@
     <sys:String x:Key="GameWindowSize">Размер окна игры</sys:String>
     <sys:String x:Key="Width">Ширина</sys:String>
     <sys:String x:Key="Height">Высота</sys:String>
-    <sys:String x:Key="FullScreen">Весь экран</sys:String>
+    <sys:String x:Key="FullScreen">Minecraft Весь экран</sys:String>
 
     <sys:String x:Key="Enable">Вкл.</sys:String>
     <sys:String x:Key="Disable">Вык.</sys:String>
@@ -199,7 +199,7 @@
     <sys:String x:Key="NetworkConnectionTest">Тест сетевого подключения</sys:String>
     <sys:String x:Key="NetworkTestDescription">Используя тест сетевого подключения, вы можете лучше узнать текущее состояние сети, включая некоторую базовую информацию, такую как задержка и состояние сервера. Это может быть полезно, когда вы пытаетесь отладить что-либо.</sys:String>
 
-    <sys:String x:Key="LauncherLogLevel">Уровень журнала лаунчера</sys:String>
+    <sys:String x:Key="LauncherLogLevel">Уровень Логи Игры</sys:String>
     <sys:String x:Key="DcAndPp">Сбор данных и политика конфиденциальности</sys:String>
     <sys:String x:Key="AllowDataCollection">Разрешить сбор данных</sys:String>
 
@@ -253,7 +253,7 @@
 
     <!--> AccountInfoControlTemplate.xaml <-->
 
-    <sys:String x:Key="LastUsed">Последний используемый</sys:String>
+    <sys:String x:Key="LastUsed">Послед. исполь.</sys:String>
     <sys:String x:Key="ClickToUseAccount">Нажмите, чтобы использовать</sys:String>
     <sys:String x:Key="NeverUsed">Никогда не использовалась</sys:String>
 
@@ -293,7 +293,7 @@
     <sys:String x:Key="LaunchGame">Запустить игру</sys:String>
 
     <sys:String x:Key="AuthFailed">Ошибка аутентификации</sys:String>
-    <sys:String x:Key="DecompressFailed">Ошибка Wben извлечение коренных жителей</sys:String>
+    <sys:String x:Key="DecompressFailed">Ошибка когда извлекать Natives</sys:String>
     <sys:String x:Key="IncompleteArgument">Неполный аргумент запуска</sys:String>
     <sys:String x:Key="NoJava">Java не указана</sys:String>
     <sys:String x:Key="None">Ничего</sys:String>
@@ -370,38 +370,50 @@
     <!--> Страница О <-->
 
     <sys:String x:Key="AboutUs">О нас</sys:String>
-    <sys:String x:Key="AboutUsContent">
-        Corona Studio (Студия Корона) Предшественником является команда разработчиков лаунчера CMFL. 
-        Большую часть этого времени мы потратили на обслуживание лаунчера CMFL и его вспомогательных проектов.
+    <sys:String x:Key="AboutUsContent">LauncherX - Лаунчер нового поколения для Minecraft </sys:String>
+    <sys:String x:Key="TeamContent">
+        Corona Studio (Студия Корона) Предшественником является команда разработчиков лаунчера CMFL. Большую часть этого времени мы потратили на обслуживание лаунчера CMFL и его вспомогательных проектов.
         Мы разработали новый стиль лаунчера после изучения уроков и получения большого опыта от CMFL - LauncherX.
-        В то же время мы также занимаемся серверами MC. 
-        Некоторые друзья в Интернете, которые имеют те же интересы что и мы, сформировали нашу первоначальную команду.
+        В то же время мы также занимаемся серверами MC. Некоторые друзья в Интернете, которые имеют те же интересы что и мы, сформировали нашу первоначальную команду.
     </sys:String>
 
-    <sys:String x:Key="GroupMembers">Члены группы</sys:String>
-    <sys:String x:Key="GroupMember1">Laolarou - Фронтенд, ядро лаунчера</sys:String>
-    <sys:String x:Key="GroupMember2">CodingEric - UI, дизайн взаимодействия человека и компьютера, вспомогательная разработки инструментария</sys:String>
-    <sys:String x:Key="GroupMember3">Leon - Внешний интерфейс, дизайн анимации, ядро лаунчера</sys:String>
-    <sys:String x:Key="GroupMember4">Jihuayu - Бэк-энд</sys:String>
-    <sys:String x:Key="GroupMember5">Yueyinqiu - Загрузочное ядро</sys:String>
+    <sys:String x:Key="VersionInfo">Сведения о версии</sys:String>
+    <sys:String x:Key="ReleaseBranch">Ветка</sys:String>
+    <sys:String x:Key="BinaryVersion">Версия</sys:String>
 
-    <sys:String x:Key="TranslateGroupMembers">Члены группы переводов</sys:String>
-    <sys:String x:Key="TranslateGroupMember1">eRica - Традиционный китайский(HK)</sys:String>
-    <sys:String x:Key="TranslateGroupMember2">feiron_iguista - Испанский, Русский</sys:String>
-    <sys:String x:Key="TranslateGroupMember3">jonW - Английский</sys:String>
-    <sys:String x:Key="TranslateGroupMember4">vanja-san - Русский</sys:String>
+    <sys:String x:Key="LauncherTeam">Группа Лаунчера</sys:String>
+    <sys:String x:Key="ChiefDeveloper">Главный разработчик</sys:String>
+    <sys:String x:Key="Interaction">UI/UX</sys:String>
+    <sys:String x:Key="TechAdviser">Советник</sys:String>
+
+    <sys:String x:Key="BackendTeam">Бэкэнд</sys:String>
+    <sys:String x:Key="Docking">Стыковка</sys:String>
+
+    <sys:String x:Key="ProjBobcatTeam">Группа PROJBOBCAT</sys:String>
+    <sys:String x:Key="CodeReview">Рецензент</sys:String>
+
+    <sys:String x:Key="QualityControlTeam">Группа КК</sys:String>
+    <sys:String x:Key="Manager">Директор</sys:String>
+    <sys:String x:Key="QualityControlGroup">Контроль Качества</sys:String>
+
+    <sys:String x:Key="TranslationContributor">Переводчик</sys:String>
 
 
     <sys:String x:Key="Thanks">Спасибо</sys:String>
     <sys:String x:Key="Thanks1">Спасибо BangBang93, а также McBbs который предоставил - Сервис быстрого скачивания файлов ресурсов Minecraft</sys:String>
-    <sys:String x:Key="Thanks2">Спасибо 优势科技 - Звёздный спонсируемый сервер</sys:String>
+    <sys:String x:Key="Thanks2">Спасибо YunlianXiaobai - xingxing спонсируемый сервер</sys:String>
     <sys:String x:Key="Thanks3">Спасибо CI010 за ProjBobcat - Техническое руководство, предоставленное основной разработкой</sys:String>
 
     <sys:String x:Key="OpenSourceProjectUsages">Использование проектов с открытым исходным кодом</sys:String>
 
 
     <sys:String x:Key="Other">Другое</sys:String>
-    <sys:String x:Key="OtherContent">Эта версия перевода сделана пользователем vanja-san. Связь: github.com/vanja-san.</sys:String>
+    <sys:String x:Key="OtherContent">
+    Эта версия перевода сделана пользователем vanja-san (сначала). 
+        Связь: github.com/vanja-san.
+    Оптимизировано и обновлено Владимиром(feiron_iguista) без грамматической гарантии
+        (Так как я ещё плохо говорить по-русски)
+    </sys:String>
 
     <!--> About Page <-->
 
@@ -488,9 +500,10 @@
     <sys:String x:Key="GamePath">Путь игры</sys:String>
     <sys:String x:Key="Icon">Иконка</sys:String>
 
-    <sys:String x:Key="Offline">Без пароля</sys:String>
-    <sys:String x:Key="ChooseLoginType">Выберите способ входа в систему.</sys:String>
-    <sys:String x:Key="ChooseLoginTypeDetail">Выберите свой способ аутентификации. Используйте Mojang, если вы не уверены в этом варианте.</sys:String>
+    <sys:String x:Key="Offline">Оффлайн</sys:String>
+    <!-- ??? -->
+    <sys:String x:Key="ChooseLoginType">Выберите способ входа в игру.</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">Выберите свой способ аутентификации. Используйте Оффлайн(без пароля), если вы не уверены в этом варианте.</sys:String>
 
     <sys:String x:Key="GlobalNotSet">Глобально не установлено</sys:String>
     <sys:String x:Key="SaveSettingsFailed">Ошибка сохранения настроек</sys:String>
@@ -537,47 +550,48 @@
     <sys:String x:Key="ValidationCode">код</sys:String>
     <sys:String x:Key="ValidationCodeHasBeenSent">Код подтверждающий отправлено на вашу почту</sys:String>
     <sys:String x:Key="PasswordIsDifferent">входа не совпадают</sys:String>
-    <sys:String x:Key="PasswordFormat">密码必须包含大小写字母、数字和除下划线以外的特殊字符</sys:String>
-    <sys:String x:Key="UserNameFormat">只能包含大小写字母、数字、横杠或下划线，长度为 4-16</sys:String>
-    <sys:String x:Key="StringLength">长度必须在{2}-{1}之间</sys:String>
-    <sys:String x:Key="AutoLogin">自动登录</sys:String>
+    <sys:String x:Key="PasswordFormat">Пароль должен содержать заглавные и строчные буквы, цифры и специальные символы, отличные от "_"</sys:String>
+    <sys:String x:Key="UserNameFormat">только заглавные и строчные буквы, цифры, "-"/"_", длина 4-16</sys:String>
+    <!-- ??? -->
+    <sys:String x:Key="StringLength">длина в {2}-{1}</sys:String>
+    <sys:String x:Key="AutoLogin">Автовойти</sys:String>
 
-    <sys:String x:Key="HelpAndFeedback">帮助和反馈</sys:String>
+    <sys:String x:Key="HelpAndFeedback">Поддержка/Обратная Связь</sys:String>
 
     <sys:String x:Key="LauncherAccount">Акк.CS</sys:String>
     <sys:String x:Key="RebootRequired">Перезапустите</sys:String>
 
-    <sys:String x:Key="GameSettings">游戏设置</sys:String>
-    <sys:String x:Key="VersionRootPath">版本根目录</sys:String>
-    <sys:String x:Key="Saves">存档</sys:String>
-    <sys:String x:Key="Mod">模组</sys:String>
-    <sys:String x:Key="ResourcePack">资源包</sys:String>
-    <sys:String x:Key="ShaderPack">光影包</sys:String>
+    <sys:String x:Key="GameSettings">Наст. игры</sys:String>
+    <sys:String x:Key="VersionRootPath">путь корня</sys:String>
+    <sys:String x:Key="Saves">Архив</sys:String>
+    <sys:String x:Key="Mod">Mod</sys:String>
+    <sys:String x:Key="ResourcePack">Пакет ресурсов</sys:String>
+    <sys:String x:Key="ShaderPack">шейдер</sys:String>
 
     <sys:String x:Key="ReleaseNote">Примечание выпуска</sys:String>
 
-    <sys:String x:Key="ManageServer">管理服务器</sys:String>
-    <sys:String x:Key="ManageServerDescription">在这里您可以预览和添加您常玩的游戏服务器。</sys:String>
-    <sys:String x:Key="Refresh">刷新</sys:String>
-    <sys:String x:Key="AddNew">添加</sys:String>
+    <sys:String x:Key="ManageServer">Настройки</sys:String>
+    <sys:String x:Key="ManageServerDescription">Здесь вы можете управлять серверы, которые вам нравятся.</sys:String>
+    <sys:String x:Key="Refresh">обновить</sys:String>
+    <sys:String x:Key="AddNew">Добавить</sys:String>
 
-    <sys:String x:Key="Account">账户</sys:String>
-    <sys:String x:Key="LauncherAccountDescription">登录到 LauncherX 账户以获取丰富体验</sys:String>
+    <sys:String x:Key="Account">Аккаунт.</sys:String>
+    <sys:String x:Key="LauncherAccountDescription">Подключиться к аккаунт LauncherX, чтобы получить лучший опыт.</sys:String>
 
-    <sys:String x:Key="Send">发送</sys:String>
-    <sys:String x:Key="SendDescription">输入消息，按 [ Enter ] 发送</sys:String>
+    <sys:String x:Key="Send">отправить</sys:String>
+    <sys:String x:Key="SendDescription">Введите и отправить по [ Enter ]</sys:String>
 
-    <sys:String x:Key="NvidiaHardwareAcc">硬件加速渲染 （nVidia）</sys:String>
-    <sys:String x:Key="NvidiaHardwareAccRebootRequired">您修改了启动器的硬件加速设置，这部分设置需要重启启动器后才能应用</sys:String>
+    <sys:String x:Key="NvidiaHardwareAcc">Ускорять по GPU (nVidia)</sys:String>
+    <sys:String x:Key="NvidiaHardwareAccRebootRequired">регулировка "Ускорять по GPU" запрос на перезапустите</sys:String>
 
-    <sys:String x:Key="VideoBackground">视频背景</sys:String>
-    <sys:String x:Key="MicaBackground">Mica 材质（WIN11+）</sys:String>
-    <sys:String x:Key="GameScreenShots">游戏截图</sys:String>
-    <sys:String x:Key="BlurRadius">模糊半径</sys:String>
-    <sys:String x:Key="Volume">音量</sys:String>
-    <sys:String x:Key="BackgroundAlignmentMode">背景图片对齐方式</sys:String>
+    <sys:String x:Key="VideoBackground">Видео</sys:String>
+    <sys:String x:Key="MicaBackground">Mica (WIN11+)</sys:String>
+    <sys:String x:Key="GameScreenShots">Снимки Игр</sys:String>
+    <sys:String x:Key="BlurRadius">Радиус размытия</sys:String>
+    <sys:String x:Key="Volume">Звуки</sys:String>
+    <sys:String x:Key="BackgroundAlignmentMode">Выравнивание Обоя</sys:String>
 
-    <sys:String x:Key="ResolutionDescription">当分辨率为 0 * 0 时，将使用游戏默认分辨率。</sys:String>
+    <sys:String x:Key="ResolutionDescription"> 0 * 0 является Разрешением по умолчанию. </sys:String>
 
     <sys:String x:Key="WhatCanIShowYou">Поиск</sys:String>
     <sys:String x:Key="LauncherNotification">уведомление</sys:String>
@@ -607,7 +621,7 @@
     <sys:String x:Key="ClickToChange">изменять</sys:String>
 
     <sys:String x:Key="AuthServerHint">по желанию (похож на https://[адр]/api/yggdrasil/) </sys:String>
-    <sys:String x:Key="MsLoginDetail">您在上方输入邮箱之后。点击确认，您将在浏览器中完成微软账户的登录。完成之后，启动器将为您添加您的账户。</sys:String>
+    <!-- <sys:String x:Key="MsLoginDetail">您在上方输入邮箱之后。点击确认，您将在浏览器中完成微软账户的登录。完成之后，启动器将为您添加您的账户。</sys:String> -->
 
     <sys:String x:Key="ProtocolVersion">протокол</sys:String>
     <sys:String x:Key="Search">Поиск</sys:String>
@@ -618,15 +632,15 @@
 
     <sys:String x:Key="LaunchFailedTitle">{0}: неудачно</sys:String>
     <sys:String x:Key="LaunchFailedContent">Запуск неудачно: {0}</sys:String>
-    <sys:String x:Key="PreparingMainUI">正在准备主界面，这可能需要一些时间。</sys:String>
+    <sys:String x:Key="PreparingMainUI">Загрузка окна, Погодите.</sys:String>
 
-    <sys:String x:Key="YouAreNotLogin">您还未登录</sys:String>
-    <sys:String x:Key="YouAreNotLoginContent">必须登录才能使用非稳定版LauncherX。</sys:String>
-    <sys:String x:Key="RegisterSucceededContent">我们已经发送了一封激活邮件 到您的邮箱。请点击邮件内的链接激活。激活后就可以登录了</sys:String>
-    <sys:String x:Key="AccountUnavailable">无法使用此账号</sys:String>
-    <sys:String x:Key="AccountUnavailableContent">您不是内测用户。点击确定登录另一个账号，点击取消退出启动器</sys:String>
-    <sys:String x:Key="GetInsider">获得内测资格</sys:String>
-    <sys:String x:Key="ChannelSwitched">已自动帮您切换分支</sys:String>
+    <sys:String x:Key="YouAreNotLogin">не вошли в аккаунт</sys:String>
+    <sys:String x:Key="YouAreNotLoginContent">вы должны войти, чтобы использовать нестабильную версию</sys:String>
+    <sys:String x:Key="RegisterSucceededContent">проверьте свой ящик, чтобы активировать аккаунт</sys:String>
+    <sys:String x:Key="AccountUnavailable">недействительный акк.</sys:String>
+    <sys:String x:Key="AccountUnavailableContent">Этот аккаунт нет в списке "Тестер". Попробуйте войти в другой?</sys:String>
+    <sys:String x:Key="GetInsider">Получить "Тестер"</sys:String>
+    <sys:String x:Key="ChannelSwitched">Пере-Канал</sys:String>
     <sys:String x:Key="ChannelSwitchedContent">
         Канал вы выбрали:「{0}」, {2}
         А сейчас запускаете LauncherX в「{1}」, {2}
@@ -642,15 +656,12 @@
 
     <sys:String x:Key="LoginSucceededContent">Аккаунт проверено и сохранено в зашифрованном виде.</sys:String>
 
-    <sys:String x:Key="UpdateDownloadFailed">无法下载更新</sys:String>
-    <sys:String x:Key="UpdateDownloadFailedContent">无法完成更新的下载，可能是因为网络连接问题。原因：{0}</sys:String>
+    <sys:String x:Key="UpdateDownloadFailed">Не-уд. скачать обновление</sys:String>
+    <sys:String x:Key="UpdateDownloadFailedContent">возможно, проблема с сетью: {0}</sys:String>
 
     <sys:String x:Key="EmailUsed">Почта уже занято</sys:String>
 
     <sys:String x:Key="Hi">Хей~</sys:String>
-    <sys:String x:Key="AuthResultNotFound">未找到认证结果</sys:String>
-    <sys:String x:Key="AuthIncomplete">无法完成账户验证</sys:String>
-    <sys:String x:Key="AuthIncompleteContent">我们无法完成账号的验证，这可能是因为您取消了验证或是其他原因。具体原因：{0}</sys:String>
 
     <sys:String x:Key="TotalSold">продано</sys:String>
     <sys:String x:Key="Last24Hours">в прошлый день</sys:String>
@@ -661,7 +672,7 @@
     <sys:String x:Key="AFK">AFK</sys:String>
     <sys:String x:Key="PlayingContent">играет：{0}</sys:String>
 
-    <sys:String x:Key="DeleteGameContent">将删除包括游戏存档、本体、资源包、光影、模组、游玩记录等数据。该操作 [无法撤销]，请谨慎操作！</sys:String>
+    <sys:String x:Key="DeleteGameContent">Будете удалить все об этом игре, включать worlds, шейдеры, ресурсы и др.? ВЫ НЕ МОЖЕТЕ ОТМЕНИТЬ ТОГО!</sys:String>
 
     <sys:String x:Key="TopLeft">выше налево</sys:String>
     <sys:String x:Key="TopCenter">выше-центр</sys:String>
@@ -673,7 +684,7 @@
     <sys:String x:Key="BottomCenter">ниже-центр</sys:String>
     <sys:String x:Key="BottomRight">ниже направо</sys:String>
 
-    <sys:String x:Key="ImageLoadFailed">图片加载失败</sys:String>
+    <sys:String x:Key="ImageLoadFailed">не-уд. загрузить</sys:String>
 
     <sys:String x:Key="SetServerSucceededContent">Сервер выбрал: {0}</sys:String>
 
@@ -691,8 +702,8 @@
     <sys:String x:Key="FalseCredential">неверный пароль / аккаунт</sys:String>
     <sys:String x:Key="UnknownLoginError">не удалось войти</sys:String>
 
-    <sys:String x:Key="LatestRelease">最新正式版</sys:String>
-    <sys:String x:Key="LatestSnapshot">最新快照版</sys:String>
+    <sys:String x:Key="LatestRelease">Последний выпуск</sys:String>
+    <sys:String x:Key="LatestSnapshot">Последний снапшот</sys:String>
 
     <sys:String x:Key="FollowSystem">OS</sys:String>
 
@@ -721,10 +732,10 @@
 
     <sys:String x:Key="Detail">деталь</sys:String>
     <sys:String x:Key="AddonDetail">деталь mod</sys:String>
-    <sys:String x:Key="FailedToLoadAddonInfoDetail">无法加载模组的详细信息</sys:String>
+    <sys:String x:Key="FailedToLoadAddonInfoDetail">не удается загрузить инфо модуля</sys:String>
 
     <sys:String x:Key="Resource">Ресурс</sys:String>
-    <sys:String x:Key="OriginalGame">Игры Jar</sys:String>
+    <sys:String x:Key="OriginalGame">Майнкрафт</sys:String>
 
     <sys:String x:Key="UpdateTimeAgo">Обнов. {0} Назад</sys:String>
     <sys:String x:Key="CountDownloads">{0:##,###} Скачанные</sys:String>
@@ -744,97 +755,98 @@
     <sys:String x:Key="GameProcessManagement">диспетчер процессов иг.</sys:String>
     <sys:String x:Key="KillProcess">процесс завершить</sys:String>
 
-    <sys:String x:Key="FalseJavaSelectionCase1">您正在启动的这个游戏没有明确指出需要的 Java 版本，但我们认为该游戏需要使用 Java 8 运行时来完成启动。</sys:String>
-    <sys:String x:Key="FalseJavaSelectionCase2">您正在启动的这个游戏需要使用版本为 [{0}] 或更高的 Java 运行时。</sys:String>
-    <sys:String x:Key="FalseJavaSelectionDetail">但是您目前选择的运行时版本为 [{0}]。 不正确的 Java 运行库配置可能导致启动失败。您可以前往 设置-全局游戏设置 获取 Java。</sys:String>
+    <sys:String x:Key="FalseJavaSelectionCase1">эта игра не прояснена что Java версия нужна. Но LauncherX советовает по Java 8/(1.8)</sys:String>
+    <sys:String x:Key="FalseJavaSelectionCase2">Для игры нужна Java версия [{0}] (или новее)</sys:String>
+    <sys:String x:Key="FalseJavaSelectionDetail">А версия выбрали [{0}]. неправильный выбор Java может привести к сбою. перейдите в настройки, чтобы управлять им.</sys:String>
 
-    <sys:String x:Key="ContinueLaunch">继续启动</sys:String>
-    <sys:String x:Key="AutoSelect">自动选择</sys:String>
+    <sys:String x:Key="ContinueLaunch">Дальше</sys:String>
+    <sys:String x:Key="AutoSelect">Автовыбор</sys:String>
 
-    <sys:String x:Key="FailedToAutoSelectJavaMessage">无法从现有的 Java 库中选择出适合该游戏的 Java 运行时。该游戏需要的运行时版本是 [{0}]。</sys:String>
+    <sys:String x:Key="FailedToAutoSelectJavaMessage">удобный Java не найден. Что нужна: версия [{0}]</sys:String>
 
-    <sys:String x:Key="FailedToResolveKey">无法解析密钥</sys:String>
-    <sys:String x:Key="FailedToResolveKeyDetail">我们无法解析保存在您本地计算机上的加密密钥，出于此原因，我们需要重置该加密密钥。因此您需要重新完成 LauncherX 的账户登录，同时也需要重新登录您所有的游戏账户。</sys:String>
+    <sys:String x:Key="FailedToResolveKey">ошибка кодирования аккаунтного</sys:String>
+    <sys:String x:Key="FailedToResolveKeyDetail">Ваш секретный ключ сломан. В связи с этим ключ должен быть сброшен, и вам необходимо повторно войти в каждые аккаунты</sys:String>
 
     <sys:String x:Key="SwitchAccount">перекл. аккаунт</sys:String>
 
-    <sys:String x:Key="Running">运行中</sys:String>
-    <sys:String x:Key="Stopped">已停止</sys:String>
+    <sys:String x:Key="Running">актив</sys:String>
+    <sys:String x:Key="Stopped">остановился</sys:String>
 
-    <sys:String x:Key="UnsupportedServer">无法检测 NAT 类型，可能是服务器不支持</sys:String>
-    <sys:String x:Key="UdpBlocked">UDP 始终阻止</sys:String>
-    <sys:String x:Key="OpenInternet">开放互联网</sys:String>
-    <sys:String x:Key="SymmetricUdpFirewall">公网，UDP 防火墙启用</sys:String>
-    <sys:String x:Key="FullCone">完全锥形</sys:String>
-    <sys:String x:Key="RestrictedCone">受限锥形</sys:String>
-    <sys:String x:Key="PortRestrictedCone">端口受限锥形</sys:String>
-    <sys:String x:Key="Symmetric">对称</sys:String>
+    <sys:String x:Key="UnsupportedServer">Не удается тест вида NAT</sys:String>
+    <sys:String x:Key="UdpBlocked">UDP-бан</sys:String>
+    <sys:String x:Key="OpenInternet">Открытый</sys:String>
+    <sys:String x:Key="SymmetricUdpFirewall">сеть общий с брандмауэром UDP</sys:String>
+    <sys:String x:Key="FullCone">Конус</sys:String>
+    <sys:String x:Key="RestrictedCone">Ограниченный конус</sys:String>
+    <sys:String x:Key="PortRestrictedCone">Конус с ограниченным отверстием</sys:String>
+    <sys:String x:Key="Symmetric">Симметричный</sys:String>
 
-    <sys:String x:Key="UnsupportedServerDetail">[!] 无法检测 NAT 类型，可能是服务器不支持</sys:String>
-    <sys:String x:Key="UdpBlockedDetail">当前 NAT 类型为：UDP 始终阻止</sys:String>
-    <sys:String x:Key="OpenInternetDetail">没有检测到 NAT，开放互联网，您拥有公网 IP 地址，并且防火墙并未启用，这将提供最佳的体验</sys:String>
-    <sys:String x:Key="SymmetricUdpFirewallDetail">当前 NAT 类型为：公网，UDP 防火墙启用，防火墙可能会在一定程度上导致联机难度和联机失败可能性的增加</sys:String>
-    <sys:String x:Key="FullConeDetail">当前 NAT 类型为：完全锥形，最佳的连接体验</sys:String>
-    <sys:String x:Key="RestrictedConeDetail">当前 NAT 类型为：受限锥形，受限的连接体验</sys:String>
-    <sys:String x:Key="PortRestrictedConeDetail">当前 NAT 类型为：端口受限锥形，高度受限的联机体验</sys:String>
-    <sys:String x:Key="SymmetricDetail">当前 NAT 类型为：对称 NAT，有一定几率连接失败；如果你正使用手机热点，请尝试使用其他网络</sys:String>
+    <sys:String x:Key="UnsupportedServerDetail">[!] Возможно, сервер не поддерживается</sys:String>
+    <sys:String x:Key="UdpBlockedDetail">NAT всегда блокирует UDP-соединение</sys:String>
+    <sys:String x:Key="OpenInternetDetail">У вас сети нет NAT! Супер!</sys:String>
+    <sys:String x:Key="SymmetricUdpFirewallDetail">Открытый сеть но есть брандмауэр UDP, может это вызвать сбой.</sys:String>
+    <sys:String x:Key="FullConeDetail">NAT Конус. Эта обстановка хорошая</sys:String>
+    <sys:String x:Key="RestrictedConeDetail">NAT Ограниченный конус. ограниченный опыт.</sys:String>
+    <sys:String x:Key="PortRestrictedConeDetail">NAT Конус с ограниченным отверстием：хуже ограниченный опыт.</sys:String>
+    <sys:String x:Key="SymmetricDetail">Симметричный NAT. Это плохой. Измените сеть, если вы используете сотовая связь.</sys:String>
 
-    <sys:String x:Key="Supported">受支持</sys:String>
-    <sys:String x:Key="Unsupported">不受支持</sys:String>
+    <sys:String x:Key="Supported">Доступно</sys:String>
+    <sys:String x:Key="Unsupported">Нельзя</sys:String>
 
     <sys:String x:Key="PleaseWait">Погодите</sys:String>
-    <sys:String x:Key="MultiPlayerConnectionPleaseWait">请等待当前联机操作完成，最多需要等待 1 分钟</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionPleaseWait">дождитесь выполнения задачи. это займет минуту.</sys:String>
 
-    <sys:String x:Key="ConnectFailed">连接失败</sys:String>
-    <sys:String x:Key="FailedToCreateRoomDetail">无法创建房间，可能是因为网络波动导致的</sys:String>
+    <sys:String x:Key="ConnectFailed">Ошибка подкл.</sys:String>
+    <sys:String x:Key="FailedToCreateRoomDetail">Не удается созд. группу.</sys:String>
 
-    <sys:String x:Key="RoomHasNoDescription">房间没有描述</sys:String>
-    <sys:String x:Key="RoomHasNoPwd">房间未设置密码</sys:String>
+    <sys:String x:Key="RoomHasNoDescription">Без описания</sys:String>
+    <sys:String x:Key="RoomHasNoPwd">Без пароля</sys:String>
 
-    <sys:String x:Key="WrongRoomPwd">房间的密码不正确</sys:String>
-    <sys:String x:Key="WrongRoomId">未找到房间，可能是因为房间的 ID 有误</sys:String>
+    <sys:String x:Key="WrongRoomPwd">Неправильный пароль</sys:String>
+    <sys:String x:Key="WrongRoomId">Группа не найдено. Перепроверьте ID группы</sys:String>
 
-    <sys:String x:Key="JoinFailed">加入失败</sys:String>
-    <sys:String x:Key="JoinFailedDetail">无法加入房间，{0}</sys:String>
+    <sys:String x:Key="JoinFailed">Ошибка</sys:String>
+    <sys:String x:Key="JoinFailedDetail">Не удается подкл. к группе: {0}</sys:String>
 
-    <sys:String x:Key="RoomConnectionStr">我使用 LauncherX 创建了一个联机房间 [{0}]，快加入我的房间吧！</sys:String>
-    <sys:String x:Key="RoomConnectionStrExported">成功将房间连接信息导出到剪切板</sys:String>
+    <sys:String x:Key="RoomConnectionStr">Здесь P2P группа для Сетевой Игры по LauncherX! [{0}] Давай играть вместе!</sys:String>
+    <sys:String x:Key="RoomConnectionStrExported">Инфо подключения этой группа сейчас в буфере обмена</sys:String>
 
-    <sys:String x:Key="RoomConnectionStrImportFailed1">无法从剪切板导入连接信息，请检查您的连接信息是否正确</sys:String>
-    <sys:String x:Key="RoomConnectionStrImportFailed2">无法从剪切板导入有用的连接信息，连接信息应该是一段包含 "[{9 位随机字符}]" 的编码</sys:String>
+    <sys:String x:Key="RoomConnectionStrImportFailed1">Инфо подключения не найден. Это правильно?</sys:String>
+    <sys:String x:Key="RoomConnectionStrImportFailed2">Инфо подключения не найден. Нужно включать код с "[{9х вероятных знаков}]"</sys:String>
 
-    <sys:String x:Key="Java8Description">Java 8：适用于 [1.17] 之前的版本，部分附属组件（例如 Forge）也需要这个版本的 Jre</sys:String>
-    <sys:String x:Key="Java16Description">Java 16：适用于 [1.17] 或更高版本的游戏</sys:String>
-    <sys:String x:Key="Java17Description">Java 17：适用于 [1.18 - pre2] 或更高版本的游戏</sys:String>
+    <sys:String x:Key="Java8Description">Java 8：для версий назад [1.17] (невклю.) некоторые аксессуары также нуждаются в этом.</sys:String>
+    <sys:String x:Key="Java16Description">Java 16：для версий [1.17.*]</sys:String>
+    <sys:String x:Key="Java17Description">Java 17：для [1.18+]</sys:String>
 
-    <sys:String x:Key="ResetAllSettings">重置所有设置</sys:String>
-    <sys:String x:Key="ResetAllSettingsDetail">注意！这将完全删除启动器的配置文件并重新运行配置向导，此操作无法恢复。</sys:String>
-    <sys:String x:Key="FailedToResetSettingsDetail">无法删除启动器配置文件，请检查是否存在文件占用情况。</sys:String>
+    <sys:String x:Key="ResetAllSettings">Сбрасывает все</sys:String>
+    <sys:String x:Key="ResetAllSettingsDetail">Внимание! Это полностью удалит файл конфигурации и снова настройки, это действие нельзя отменить.</sys:String>
+    <sys:String x:Key="FailedToResetSettingsDetail">Не удается удалить. Какой процесс занимал его?</sys:String>
 
-    <sys:String x:Key="MicrosoftAuthFailed1">无法完成验证，可能是因为用户输入了错误的验证代码、验证超时或是用户拒绝了应用的请求。</sys:String>
-    <sys:String x:Key="MicrosoftAuthFailed2">在尝试提取用户 claims 时出现问题，未找到字段：email</sys:String>
+    <sys:String x:Key="MicrosoftAuthFailed1">Ошибка: неверный код / превышено время / пользователь отказался</sys:String>
+    <sys:String x:Key="MicrosoftAuthFailed2">Не может получить claims аккаунта: Без информации "email"</sys:String>
 
     <sys:String x:Key="MultiPlayerGames">Сетевая</sys:String>
 
-    <sys:String x:Key="User">用户</sys:String>
-    <sys:String x:Key="ManageAccount">账户管理</sys:String>
-    <sys:String x:Key="SavedGameAccount">Аккаунты игр
-    (Если вы включили "класть аккаунт", нажмите аккаунт здесь, чтобы класть то. )</sys:String>
-    <sys:String x:Key="Reset">重置</sys:String>
-    <sys:String x:Key="SetOfflineSkin">设置离线皮肤</sys:String>
+    <sys:String x:Key="User">абонент</sys:String>
+    <sys:String x:Key="ManageAccount">наст. Аккаунта</sys:String>
+    <sys:String x:Key="SavedGameAccount">Аккаунты игр:
+    (Если вы включили "класть аккаунт", 
+    нажмите аккаунт здесь, чтобы класть то. )</sys:String>
+    <sys:String x:Key="Reset">сбрасывать</sys:String>
+    <sys:String x:Key="SetOfflineSkin">Скин оффлайн</sys:String>
 
-    <sys:String x:Key="MultiThreadDownload">多线程和分片下载</sys:String>
-    <sys:String x:Key="MultiThreadDownloadDescription">多线程和分片下载能够提升游戏下载速度，但会显著影响启动器性能。</sys:String>
+    <sys:String x:Key="MultiThreadDownload">Скачать по МПЗ</sys:String>
+    <sys:String x:Key="MultiThreadDownloadDescription">Многопоточная Загрузка работает быстрее, но требует большей производительности.</sys:String>
 
     <sys:String x:Key="ConnectionInfo">Сетевая игра:
     информация о подключении</sys:String>
-    <sys:String x:Key="MultiPlayerServiceStatus">联机服务状态</sys:String>
-    <sys:String x:Key="Support">支持</sys:String>
+    <sys:String x:Key="MultiPlayerServiceStatus">Статус сервис "Сетевая"</sys:String>
+    <sys:String x:Key="Support">поддержки</sys:String>
 
     <sys:String x:Key="Room">Группа</sys:String>
     <sys:String x:Key="RoomIdHint">Группи ID (форма GUID)</sys:String>
     <sys:String x:Key="RoomName">Имя груп.</sys:String>
-    <sys:String x:Key="RoomDescription">опись</sys:String>
+    <sys:String x:Key="RoomDescription">описание</sys:String>
     <sys:String x:Key="RoomPwd">Пароль груп.</sys:String>
 
     <sys:String x:Key="CreateRoom">Создать груп.</sys:String>
@@ -842,39 +854,45 @@
     <sys:String x:Key="JoinRoom">войти группу</sys:String>
     <sys:String x:Key="IsPrivateRoom">Отдельная</sys:String>
 
-    <sys:String x:Key="MultiPlayerConnectionHelper">联机协助</sys:String>
-    <sys:String x:Key="MultiPlayerConnectionHelperDescription1">在开启此功能之后，LauncherX 将会在打开后自动加入日冕群组服务网络，您将作为网络中的一个节点来帮助其他无法加入网络的玩家来完成流量的转发。这将提高其他玩家加入网络的成功率。</sys:String>
-    <sys:String x:Key="MultiPlayerConnectionHelperDescription2">Внимание: это поглотит вашу интернету</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelper">: помогать другим соединениям</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelperDescription1">
+        LauncherX подключается к CoronaStudio Group Service. Ваше устройство станет узлом для передачи подключений от других пользователей. 
+        Это облегчает другим пользователям связь со своими хозяевами
+    </sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelperDescription2">
+    
+        Внимание: это поглотит вашу интернету
+    </sys:String>
 
     <sys:String x:Key="BaseUserSettings">основные наст. Аккаунта CoronaStudio</sys:String>
-    <sys:String x:Key="InsiderPreviewSettings">先导版本体验设置</sys:String>
-    <sys:String x:Key="AuthDeviceManage">认证设备管理</sys:String>
+    <sys:String x:Key="InsiderPreviewSettings">Наст. превьи LauncherX</sys:String>
+    <sys:String x:Key="AuthDeviceManage">Управление зарегист. устройствами</sys:String>
 
-    <sys:String x:Key="StartupUI">启动界面</sys:String>
-    <sys:String x:Key="MainViewUpperForeground">主界面前景文字颜色</sys:String>
-    <sys:String x:Key="BottomNavigationBarOpacity">底部导航条不透明度</sys:String>
-    <sys:String x:Key="HideBottomNavigationBarInMainView">在主界面隐藏底部导航条</sys:String>
-    <sys:String x:Key="BrowseVideo">浏览视频</sys:String>
+    <sys:String x:Key="StartupUI">UI Пуска</sys:String>
+    <sys:String x:Key="MainViewUpperForeground">Цвет Текстов Пуска</sys:String>
+    <sys:String x:Key="BottomNavigationBarOpacity">непрозрачность нижней планк.</sys:String>
+    <sys:String x:Key="HideBottomNavigationBarInMainView">прятать ли нижнюю планку</sys:String>
+    <sys:String x:Key="BrowseVideo">Выб. Видео</sys:String>
 
     <sys:String x:Key="Text">Текст</sys:String>
-    <sys:String x:Key="Performance">性能</sys:String>
+    <sys:String x:Key="Performance">качество</sys:String>
 
-    <sys:String x:Key="BackgroundAndAccentColor">启动界面背景和主题色</sys:String>
-    <sys:String x:Key="BackgroundAndAccentColorDescription">启动界面背景和主题色既可以绑定也可以分别设置。</sys:String>
+    <sys:String x:Key="BackgroundAndAccentColor">Вид фона и Цвет акцента</sys:String>
+    <sys:String x:Key="BackgroundAndAccentColorDescription">они могут быть связаны или сконфигурированы независимо</sys:String>
     <sys:String x:Key="Font">Шрифт</sys:String>
-    <sys:String x:Key="FontDescription">当启动器从首选字体中找不到对应的字形时，会从备选字体中查询。您可以通过字体预览查看具体效果。</sys:String>
+    <sys:String x:Key="FontDescription">2-ой - резервная копия для шрифта 1-ого, если в 1-ого нет такого знаков.</sys:String>
 
-    <sys:String x:Key="RetrySearch">重新搜索</sys:String>
-    <sys:String x:Key="JavaToolTip">如果您系统弹出了和 Java 相关的错误提示，请关闭该提示并尝试重新安装您的 Java 实例</sys:String>
+    <sys:String x:Key="RetrySearch">Искать</sys:String>
+    <sys:String x:Key="JavaToolTip">если у вас появилось всплывающее окно об ошибке Java, заткни это и исправьте сломанную Java</sys:String>
 
-    <sys:String x:Key="ResourceCheckMaxDegreeOfParallelism">资源检查最大并行程度</sys:String>
+    <sys:String x:Key="ResourceCheckMaxDegreeOfParallelism">Макс. количество процессов Проверки Ресурсов</sys:String>
 
-    <sys:String x:Key="JavaDescription">请留意 Java 组合框中路径前的符号，这指示了启动器对相应 Java 可用性的判断。</sys:String>
-    <sys:String x:Key="MemorySizeDescription">建议给 Minecraft 分配 512MB 以上的内存以避免游戏运行时发生内存溢出。</sys:String>
-    <sys:String x:Key="SeparateSettingsForDifferentGames">对各个游戏版本分别进行设置</sys:String>
-    <sys:String x:Key="SeparateSettingsForDifferentGamesDescription">在本页面进行的设置将作为缺省值应用到所有的游戏版本。您可以在游戏列表选中某个游戏，然后在详细信息中具体更改各个游戏的设置。</sys:String>
+    <sys:String x:Key="JavaDescription">Знак налева путь Java показывает можно ли это использовать</sys:String>
+    <sys:String x:Key="MemorySizeDescription">Памяти больше 512MB будет здорово, чтобы избежать аварии overflow.</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGames">корректировка по каждой игре</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGamesDescription">Настройки здесь для игр по желанию. Клик определенную игру, чтобы корректировка по каждой игре.</sys:String>
 
-    <sys:String x:Key="ResetAllSettingsDescription">点击“重置配置”按钮后，LauncherX将删除自己的配置文件并关闭。注意：删除的配置将无法恢复。</sys:String>
+    <!-- <sys:String x:Key="ResetAllSettingsDescription">点击“重置配置”按钮后，LauncherX将删除自己的配置文件并关闭。注意：删除的配置将无法恢复。</sys:String> -->
 
     <sys:String x:Key="Framework">Framework</sys:String>
     <sys:String x:Key="Runtime">Runtime</sys:String>
@@ -882,166 +900,166 @@
 
     <sys:String x:Key="NoMoreNewApplication">Ни нового запроса</sys:String>
 
-    <sys:String x:Key="SelectAccount">选择账号</sys:String>
-    <sys:String x:Key="CopyFromClipBoard">从剪切板导入</sys:String>
-    <sys:String x:Key="CopyToClipBoard">复制到剪切板</sys:String>
+    <sys:String x:Key="SelectAccount">Выбрать Аккаунт</sys:String>
+    <sys:String x:Key="CopyFromClipBoard">Скоп. Из буфера</sys:String>
+    <sys:String x:Key="CopyToClipBoard">Скоп. К буферам</sys:String>
 
-    <sys:String x:Key="UseOneTimeCode">使用一次性验证代码</sys:String>
-    <sys:String x:Key="LoginToMsAccount">登录到您的微软账户</sys:String>
-    <sys:String x:Key="MsAccountLoginInstruction1">使用您设备自带的浏览器访问网址：</sys:String>
-    <sys:String x:Key="MsAccountLoginInstruction2">并按照网页的提示输入 LauncherX 所显示的一次性验证代码。</sys:String>
-    <sys:String x:Key="MsAccountLoginInstruction3">在上述操作完成之后，LauncherX 将自动完成剩余步骤，并将您的账户添加至启动器内。</sys:String>
+    <sys:String x:Key="UseOneTimeCode">войдите в Microsoft</sys:String>
+    <sys:String x:Key="LoginToMsAccount">по Одноразовым проверочным кодом</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction1">К сайту：</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction2">И Введите код здесь</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction3">После этого, будет LauncherX разберись с остальным.</sys:String>
 
-    <sys:String x:Key="ModDependencies">模组前置依赖</sys:String>
+    <sys:String x:Key="ModDependencies">зависимости Mod</sys:String>
 
     <sys:String x:Key="CreateFolder">Созд. путь</sys:String>
 
-    <sys:String x:Key="FailedToInstallCurseForgePackError">无法安装 CurseForge 前置环境，请稍后重试。这通常是由于下载源的问题导致的，也有可能是因为网络波动或是其他因素。</sys:String>
-    <sys:String x:Key="DownloadFailedLibError">补全失败的库文件：{0}文件名：{1}下载链接：{2}下载路径：{3}</sys:String>
-    <sys:String x:Key="CompletionFailedMessage">无法成功补全启动游戏所需的库文件，您可以等候片刻再次尝试启动。</sys:String>
+    <sys:String x:Key="FailedToInstallCurseForgePackError">Ошибка у установки зависимости CurseForge. Повторите позже!</sys:String>
+    <sys:String x:Key="DownloadFailedLibError">Файл：{0} Имя：{1} Ссылка：{2} Путь：{3}</sys:String>
+    <sys:String x:Key="CompletionFailedMessage">Ошибка у установки Assets. Повторите позже!</sys:String>
 
-    <sys:String x:Key="AuthLibInstallMessage1">发现使用第三方验证服务，准备下载 Authlib-Injector</sys:String>
-    <sys:String x:Key="AuthLibInstallMessage2">成功获取到最新版本 Authlib-Injector 信息，开始检查"</sys:String>
-    <sys:String x:Key="AuthLibInstallMessage3">Authlib-Injector 下载完成，开始配置</sys:String>
-    <sys:String x:Key="AuthLibInstallMessage4">开始预获取服务器配置</sys:String>
-    <sys:String x:Key="AuthLibInstallErrorMessage">无法获取最新版本的 Authlib-Injector，可能是网络错误。</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage1">Будет скачать Authlib-Injector для 3-й Auth</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage2">найдена новейшая вер. Authlib-Injector. тестирует..."</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage3">Authlib-Injector готово.</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage4">Загрузка Конфиг. из сервера...</sys:String>
+    <sys:String x:Key="AuthLibInstallErrorMessage">Ошибка у скачивания Authlib-Injector</sys:String>
 
-    <sys:String x:Key="DownloadFileCountMessage1">{0} 个可下载项目</sys:String>
+    <sys:String x:Key="DownloadFileCountMessage1">{0} варианты</sys:String>
 
-    <sys:String x:Key="UnknownWindow">不确定的窗体</sys:String>
-    <sys:String x:Key="SaveExportedModPack">保存导出的整合包</sys:String>
-    <sys:String x:Key="UnableToDeleteGame">无法删除游戏 {0}</sys:String>
-    <sys:String x:Key="UnableToDeleteGameDetail">在尝试删除游戏时出现了错误，请尝试手工删除！{0}</sys:String>
-    <sys:String x:Key="LocalAccountManagement">本地账户管理</sys:String>
+    <sys:String x:Key="UnknownWindow">неопределённое окно</sys:String>
+    <sys:String x:Key="SaveExportedModPack">Экспорт в пакете</sys:String>
+    <sys:String x:Key="UnableToDeleteGame">не удается удалить {0}</sys:String>
+    <sys:String x:Key="UnableToDeleteGameDetail">не удается удалить. пожалуйста, удалите вручную: {0}</sys:String>
+    <sys:String x:Key="LocalAccountManagement">Аккаунт</sys:String>
 
     <sys:String x:Key="SystemAccentColorBackground">Цвет Акцента</sys:String>
     <sys:String x:Key="GlassBackground">глазурь</sys:String>
 
-    <sys:String x:Key="FailedToCheckJavaInfoDetail">无法查询 Java 信息，异常信息：{0}</sys:String>
-    <sys:String x:Key="FailedToCheckSpecificPathJavaInfoDetail">无法获取路径为 [{0}] 的 Java 虚拟机信息，输出：{1}，错误信息：{2}</sys:String>
-    <sys:String x:Key="UnknownJreArch">未知的 JRE 架构 [{0}]</sys:String>
+    <sys:String x:Key="FailedToCheckJavaInfoDetail">Ошибка когда запрос к Java: {0}</sys:String>
+    <sys:String x:Key="FailedToCheckSpecificPathJavaInfoDetail">Не удается запрос к Java, который находится в [{0}]: {1} / инфо: {2}</sys:String>
+    <sys:String x:Key="UnknownJreArch">неизвестный артефакт JRE: [{0}]</sys:String>
     <sys:String x:Key="UnmatchedJavaArchWarning">
-        检测到不匹配的系统架构和 Java 运行时架构：
-        当前系统架构：{0}
-        当前 JRE 架构：{1}
-        使用与系统不匹配的 JRE 运行时可能导致严重的游戏性能与体验降级！
+        неудобный Java:
+        Архитектура OS: {0}
+        Арх. JRE: {1}
+        Это может вызвать проблемы с производительностью!
 	</sys:String>
 
 	
-	<sys:String x:Key="Colored">着色</sys:String>
-    <sys:String x:Key="HighContrastColored">高对比度着色</sys:String>
-    <sys:String x:Key="VersionCompatibleMcVersionDetail">该版本兼容共 {0} 个 MineCraft 版本</sys:String>
+	<sys:String x:Key="Colored">Цвет</sys:String>
+    <sys:String x:Key="HighContrastColored">Выс. контраст</sys:String>
+    <sys:String x:Key="VersionCompatibleMcVersionDetail">это работает с {0} версиями Minecraft</sys:String>
 
-    <sys:String x:Key="Ascending">升序</sys:String>
-    <sys:String x:Key="Descending">降序</sys:String>
+    <sys:String x:Key="Ascending">Восходящий</sys:String>
+    <sys:String x:Key="Descending">Нисходящий</sys:String>
 
-	<sys:String x:Key="NatTypeUnclassified">未分级 - {0}</sys:String>
-    <sys:String x:Key="NatTypeUnclassifiedDetail">当前 NAT 类型为：未分级 - 1，未知的联机体验</sys:String>
+	<sys:String x:Key="NatTypeUnclassified">без уровеня - {0}</sys:String>
+    <sys:String x:Key="NatTypeUnclassifiedDetail">не знает LauncherX, что случится у вас сетевой игры</sys:String>
 
-    <sys:String x:Key="CurseForgeModPack">CurseForge 整合包</sys:String>
-    <sys:String x:Key="ModrinthModPack">Modrinth 整合包</sys:String>
+    <sys:String x:Key="CurseForgeModPack">Пакет CurseForge</sys:String>
+    <sys:String x:Key="ModrinthModPack">Пакет Modrinth</sys:String>
 
-    <sys:String x:Key="EmbeddedLibrary">嵌入的库</sys:String>
-    <sys:String x:Key="OptionalDependency">可选的依赖</sys:String>
-    <sys:String x:Key="RequiredDependency">必须的依赖</sys:String>
-    <sys:String x:Key="Tool">工具</sys:String>
-    <sys:String x:Key="Incompatible">不兼容</sys:String>
-    <sys:String x:Key="Include">包含</sys:String>
+    <sys:String x:Key="EmbeddedLibrary">Lib Встроенно</sys:String>
+    <sys:String x:Key="OptionalDependency">Зависимость по желанию</sys:String>
+    <sys:String x:Key="RequiredDependency">Зависимость обязательно</sys:String>
+    <sys:String x:Key="Tool">Утилиты</sys:String>
+    <sys:String x:Key="Incompatible">несовмест.</sys:String>
+    <sys:String x:Key="Include">включать</sys:String>
 
-    <sys:String x:Key="NoEnoughMemory">MineCraft 没有足够的运行内存</sys:String>
-    <sys:String x:Key="NoEnoughMemory32">使用 32 位 Java 运行时或 32 位 操作系统导致 MineCraft 没有足够的内存</sys:String>
-    <sys:String x:Key="JavaVersionTooHigh">Java 运行时版本过高</sys:String>
-    <sys:String x:Key="UnsupportedJavaVersion">不受支持的 Java 运行时版本</sys:String>
-    <sys:String x:Key="JdkUse">使用 JDK 或高版本 Java 运行时导致崩溃</sys:String>
-    <sys:String x:Key="OpenJ9Use">使用 OpenJ9 导致崩溃</sys:String>
-    <sys:String x:Key="UnableToSetPixelFormat">使用存在问题的显卡驱动导致无法设置像素格式</sys:String>
-    <sys:String x:Key="UnsupportedIntelDriver">未使用独立显卡或存在问题的 Intel 显卡驱动程序</sys:String>
-    <sys:String x:Key="UnsupportedAmdDriver">存在问题的 AMD 显卡驱动程序</sys:String>
-    <sys:String x:Key="UnsupportedNvDriver">存在问题的 Nvidia 显卡驱动程序</sys:String>
-    <sys:String x:Key="ModCausedGameCrash">模组导致了游戏崩溃</sys:String>
-    <sys:String x:Key="DecompressedMod">由于解压了模组导致的启动失败</sys:String>
-    <sys:String x:Key="IncorrectModConfig">不正确的模组配置</sys:String>
-    <sys:String x:Key="ModMixinFailed">模组注入失败</sys:String>
-    <sys:String x:Key="ModLoaderError">模组加载器报告了错误</sys:String>
-    <sys:String x:Key="ModInitFailed">模组初始化失败</sys:String>
-    <sys:String x:Key="ModIdExceeded">模组安装数量超出最大数量限制</sys:String>
-    <sys:String x:Key="DuplicateMod">重复的模组</sys:String>
-    <sys:String x:Key="GpuDoesNotSupportOpenGl">显卡不支持 OpenGL</sys:String>
-    <sys:String x:Key="OpenGl1282Error">材质包或光影导致 OpenGL 报错</sys:String>
-    <sys:String x:Key="FailedToLoadWorldBecauseOptiFine">Optifine 导致的世界加载失败</sys:String>
-    <sys:String x:Key="TextureTooLargeOrLowEndGpu">材质或光影过大或是显卡配置不足</sys:String>
+    <sys:String x:Key="NoEnoughMemory">Minecraft нехватка памяти</sys:String>
+    <sys:String x:Key="NoEnoughMemory32">Minecraft нехватка памяти, потому что у Java 32-bit есть предел.</sys:String>
+    <sys:String x:Key="JavaVersionTooHigh">Вер. Java слишком высоко*</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersion">неподдерживаемый Java</sys:String>
+    <sys:String x:Key="JdkUse">Ошиб. не совместим с JDK / слишком новый Java</sys:String>
+    <sys:String x:Key="OpenJ9Use">Ошибки, из-за OpenJ9</sys:String>
+    <sys:String x:Key="UnableToSetPixelFormat">Ошибка драйвера GPU</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriver">Без GPU независимого / Ошибка драйвера iGPU Intel</sys:String>
+    <sys:String x:Key="UnsupportedAmdDriver">Ошибка драйвера GPU AMD</sys:String>
+    <sys:String x:Key="UnsupportedNvDriver">Ошибка драйвера GPU Nvidia</sys:String>
+    <sys:String x:Key="ModCausedGameCrash">Ошибка из Mod</sys:String>
+    <sys:String x:Key="DecompressedMod">Mod не может быть распакован</sys:String>
+    <sys:String x:Key="IncorrectModConfig">Конфиг. Mod неправильно</sys:String>
+    <sys:String x:Key="ModMixinFailed">Ошибка ModMixin</sys:String>
+    <sys:String x:Key="ModLoaderError">Ошибка из загрузчика Mod</sys:String>
+    <sys:String x:Key="ModInitFailed">Ошибка Mod инициализирует</sys:String>
+    <sys:String x:Key="ModIdExceeded">Mods слишком много</sys:String>
+    <sys:String x:Key="DuplicateMod">Дубликат Mods</sys:String>
+    <sys:String x:Key="GpuDoesNotSupportOpenGl">не поддерживает OpenGL вашего GPU</sys:String>
+    <sys:String x:Key="OpenGl1282Error">Ошибка OpenGL из шейдера/ Наст. Optifine</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFine">не удалось загрузить world, вызванный Optifine</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpu">Памяти GPU недостаточно для создания текстур</sys:String>
     <sys:String x:Key="FabricError">Ошибка Fabric</sys:String>
-    <sys:String x:Key="FabricErrorWithSolution">Fabric 报错（包含解决方案）</sys:String>
+    <sys:String x:Key="FabricErrorWithSolution">Fabric ошибка с раствором</sys:String>
     <sys:String x:Key="ForgeError">Ошибка Forge</sys:String>
-    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJava">旧版本 Forge 无法使用过高版本的 Java 运行时</sys:String>
-    <sys:String x:Key="MultipleForgeInVersionJson">版本 Json 中发现多个 Forge 配置</sys:String>
-    <sys:String x:Key="IncompatibleForgeAndOptifine">Forge 与 Optifine 不兼容</sys:String>
-    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFound">没有找到主类或是路径编码不正确</sys:String>
-    <sys:String x:Key="ManuallyTriggeredDebugCrash">手动触发的调试崩溃</sys:String>
-    <sys:String x:Key="ContentValidationFailed">内容验证失败</sys:String>
-    <sys:String x:Key="BlockCausedGameCrash">特定方块导致游戏崩溃</sys:String>
-    <sys:String x:Key="EntityCausedGameCrash">特定实体导致游戏崩溃</sys:String>
-    <sys:String x:Key="LogFileNotFound">没有找到可供分析的日志文件</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJava">Forge старая версия не может работать с более новой Java</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJson">В Json версии повторная конфигурация Forge</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifine">Forge не работает с то Optifine</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFound">Неправильная кодировка пути / MainClass не найдён</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrash">авария debug</sys:String>
+    <sys:String x:Key="ContentValidationFailed">Ошибка проверки</sys:String>
+    <sys:String x:Key="BlockCausedGameCrash">Из-за блоки</sys:String>
+    <sys:String x:Key="EntityCausedGameCrash">Из-за сущность</sys:String>
+    <sys:String x:Key="LogFileNotFound">Логи нет для анализ.</sys:String>
 
-	<sys:String x:Key="NoEnoughMemoryDetail">Minecraft 无法继续运行，可能是因为你分配给游戏的内存不足或游戏配置过高。你可以通过增加游戏分配的内存、删除要求高的材质、Mod和光影来解决问题。如果这些方法都不起作用，你可以尝试在游戏前关闭其他软件，或者考虑换台电脑。</sys:String>
-	<sys:String x:Key="NoEnoughMemory32Detail">看起来你正在使用 32 位的 Java，这可能导致 Minecraft 无法使用超过 1GB 的内存，导致崩溃。要解决这个问题，请在启动设置的 Java 选择中切换到 64 位的 Java，然后再启动游戏。如果你没有安装 64 位的 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
-	<sys:String x:Key="JavaVersionTooHighDetail">由于你使用的 Java 版本过高，游戏似乎已经崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到较低版本的 Java，然后再启动游戏。如果你没有安装 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
-	<sys:String x:Key="UnsupportedJavaVersionDetail">你当前使用的 Java 与游戏不兼容。请在启动设置的 Java 选择中切换到合适的 Java，然后再启动游戏。如果你没有安装 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
-	<sys:String x:Key="JdkUseDetail">由于使用了 JDK 或 Java 版本过高，游戏崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到 JRE，然后再启动游戏。</sys:String>
-	<sys:String x:Key="OpenJ9UseDetail">游戏因为使用 OpenJ9 而崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到非 OpenJ9 的 Java，然后再启动游戏。</sys:String>
-	<sys:String x:Key="UnsupportedIntelDriverDetail">你的显卡驱动存在问题或未使用独立显卡，导致游戏无法正常运行。为了解决这个问题，请尝试在启动 LauncherX 和 Minecraft 时使用独立显卡而不是 Intel 核显。如果问题仍然存在，请尝试将显卡驱动升级到最新版本或回退到出厂版本。如果问题仍然存在，可以尝试使用 Java8 或更低版本。如果问题依然无法解决，那么可能需要考虑更换一块性能更好的显卡。</sys:String>
+	<sys:String x:Key="NoEnoughMemoryDetail">Minecraft не может работать с недостаточным памяти. Вы можете добавить память/ удалите шейдеры, Mods, текстуры/ закройте другое ненужное приложение/ обновите компьютер. Вы можете установить ее с помощью: (Настройки - Скачать - Скачать Java)</sys:String>
+	<sys:String x:Key="NoEnoughMemory32Detail">Работает игра с Java-x32 имеет серьезный предел. пожалуйста, используйте 64-разрядную Java и дайте ей больше памяти!</sys:String>
+	<sys:String x:Key="JavaVersionTooHighDetail">Пожалуйста, используйте более низкую версию Java. Вы можете установить ее с помощью: (Настройки - Скачать - Скачать Java)</sys:String>
+	<sys:String x:Key="UnsupportedJavaVersionDetail">Пожалуйста, переключитесь на соответствующую Java при выборе Java в настройках запуска перед запуском игры. Вы можете установить ее с помощью: (Настройки - Скачать - Скачать Java)</sys:String>
+	<sys:String x:Key="JdkUseDetail">Пожалуйста, попробуйте использовать обычную JRE или более низкую версию Java.</sys:String>
+	<sys:String x:Key="OpenJ9UseDetail">Из-за OpenJ9 разбила игру. Попробуйте использовать другой Java!</sys:String>
+	<sys:String x:Key="UnsupportedIntelDriverDetail">Пожалуйста, разрешите Minecraft использовать независимый GPU или используйте Java8.</sys:String>
     
-    <sys:String x:Key="VideoDriverErrorDetail">你的显卡驱动存在问题，导致游戏无法正常运行。为了解决这个问题，请尝试将显卡驱动升级到最新版本或回退到出厂版本，然后再启动游戏。如果问题仍然存在，可以尝试使用 Java8 或更低版本。如果问题依然无法解决，那么可能需要考虑更换一块性能更好的显卡。</sys:String>
+    <sys:String x:Key="VideoDriverErrorDetail">Предлагает LauncherX вам использовать другие версии GPU драйвера, или использовать Java 8, или сменить аппаратное обеспечение</sys:String>
 
-	<sys:String x:Key="ModCausedGameCrashDetail">您当前启动的游戏中的一个或多个模组导致了游戏崩溃，您可以在下方的详细信息中寻找导致模组崩溃的相关信息，并尝试暂时禁用或是替换这些模组。</sys:String>
-	<sys:String x:Key="DecompressedModDetail">由于模组文件被解压缩了，导致游戏无法继续运行。为了解决这个问题，请将整个模组文件放入 [mods] 文件夹中，而不要解压缩它。如果已经解压了模组文件，请将其从 [mods] 文件夹中删除，然后再启动游戏。</sys:String>
-	<sys:String x:Key="IncorrectModConfigDetail">模组的一个或多个配置文件不正确导致了启动失败，您可以在下方的详细信息中寻找具体的配置文件名称，并修正它的错误。</sys:String>
-	<sys:String x:Key="ModMixinFailedDetail">一个或多个模组注入失败导致了启动失败，这通常意味着您使用了存在问题的模组或是不受当前游戏版本支持的模组。您可以在下方的详细信息中寻找具体的模组信息。</sys:String>
-	<sys:String x:Key="ModLoaderErrorDetail">模组加载器报告了一个或多个错误，您可以在下方的详细信息中查看报错的具体原因。</sys:String>
-	<sys:String x:Key="ModInitFailedDetail">一个或多个模组初始化失败导致游戏无法继续加载。请在下方的详细信息中寻找模组的相关错误信息。</sys:String>
-	<sys:String x:Key="ModIdExceededDetail">你安装的模组数量太多，超出了游戏的 ID 限制，导致游戏崩溃。为了解决这个问题，你可以尝试安装一些修复模组，如 JEID，或删除一些大型模组。这可以帮助你减少模组的数量，并让游戏更加稳定。</sys:String>
-	<sys:String x:Key="DuplicateModDetail">你重复安装了多个相同的模组，每个模组最多只能安装一次，请在下方的详细信息中找到模组的相应名称并在 [mods] 文件夹中删除重复的模组。</sys:String>
+	<sys:String x:Key="ModCausedGameCrashDetail">Mod(ы) вызвали ошибку в игре. найдите их ниже и отключите</sys:String>
+	<sys:String x:Key="DecompressedModDetail">Вам нужно сохранить файл Mod как .Jar и поместить его в папку [mods], если только автор Mod не попросил вас распаковать его.</sys:String>
+	<sys:String x:Key="IncorrectModConfigDetail">Неправильный один или несколько файлов конфигурации привели к сбою запуска.</sys:String>
+	<sys:String x:Key="ModMixinFailedDetail">Пожалуйста, убедитесь, что все ваши Mods совместимы с игрой!</sys:String>
+	<sys:String x:Key="ModLoaderErrorDetail">Здесь Ошибка(и) из ModLoader (загрузчик)</sys:String>
+	<sys:String x:Key="ModInitFailedDetail">Один Mod не может инициализироваться сам по себе, из-за чего игра не запускается</sys:String>
+	<sys:String x:Key="ModIdExceededDetail">Существует ограничение на количество Mods, которые вы можете установить. Вы можете попробовать установить JEID, чтобы исправить это.</sys:String>
+	<sys:String x:Key="DuplicateModDetail">Каждый Mod может быть установлен только один раз. найдите его в папке [mods] и удалите!</sys:String>
 	
-	<sys:String x:Key="OpenGl1282ErrorDetail">你所使用的光影或材质可能导致游戏出现问题，建议你尝试删除这些额外的资源，然后再启动游戏。这通常可以解决一些与游戏资源相关的问题。</sys:String>
-	<sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">你的游戏可能出现问题是由于所使用的 OptiFine 版本与游戏不兼容（https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world）。这个问题只会在某些 OptiFine 版本中出现，建议你更换 OptiFine 的版本，然后再启动游戏。你可以到 OptiFine 的官方网站下载最新的版本并安装，或者选择另一版本的 OptiFine 进行安装。</sys:String>
-	<sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">你的游戏可能由于使用了过高的渲染距离而无法正常运行。请尝试在游戏设置中将渲染距离降低一些，例如减少视野距离和区块加载距离等选项。如果问题仍然存在，你可能需要更新你的显卡驱动或更换一块更高性能的显卡。</sys:String>
-	<sys:String x:Key="FabricErrorDetail">Fabric 有可能报告了一个或多个错误，请尝试在下方的详细信息中查看具体的报错信息。</sys:String>
-	<sys:String x:Key="FabricErrorWithSolutionDetail">Fabric 有可能报告了一个或多个错误并很可能提供了解决方案，请尝试在下方的详细信息中查看具体的报错信息。</sys:String>
-	<sys:String x:Key="ForgeErrorDetail">Forge 有可能报告了一个或多个错误，请尝试在下方的详细信息中查看具体的报错信息</sys:String>
-	<sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">如果你的 Forge 版本比 36.2.26 低，那么你可以尝试更新 Forge 到 36.2.26 或更高版本。如果你已经使用了 36.2.26 或更高版本的 Forge，那么你可能需要更换 Java 版本。在使用 Forge 时，请注意检查 Forge 的版本与所使用的 Java 版本是否兼容，以避免出现此类错误。</sys:String>
-	<sys:String x:Key="MultipleForgeInVersionJsonDetail">游戏崩溃可能是由于使用了其他启动器修改了 Forge 版本，导致当前版本的文件异常。为了解决这个问题，请尝试全新安装 Forge，不要使用其他启动器来修改 Forge 版本。</sys:String>
-	<sys:String x:Key="IncompatibleForgeAndOptifineDetail">因为 OptiFine 与当前 Forge 版本不兼容，导致游戏崩溃。请前往 OptiFine 官网（https://optifine.net/downloads）查看 OptiFine 兼容的 Forge 版本，并按照对应版本重新安装游戏。</sys:String>
-	<sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">由于不正确的路径编码或是由于游戏安装损坏缺失主类导致游戏加载失败。您可以尝试将游戏目录放置在不包含中文或其他特殊字符的目录中，或者尝试重新安装这个游戏。如果以上的问题均无法解决问题，请向开发者报告。</sys:String>
-	<sys:String x:Key="ManuallyTriggeredDebugCrashDetail">您手动触发了调试崩溃。</sys:String>
-	<sys:String x:Key="ContentValidationFailedDetail">游戏遇到了校验失败的问题，可能是由于下载时出现了网络问题导致的。你可以尝试删除游戏（包括模组）并重新下载，或在重新下载时保证网络连接的稳定性。</sys:String>
-	<sys:String x:Key="BlockCausedGameCrashDetail">游戏中的某个方块导致游戏发生了崩溃，请在下方的详细信息中寻找有关该方块的具体信息（ID、坐标等），并尝试使用地图编辑器删除该方块。如果仍然无法解决该问题，请尝试重新创建一个世界或是考虑其他问题。</sys:String>
-	<sys:String x:Key="EntityCausedGameCrashDetail">游戏中的某个实体导致游戏发生了崩溃，请在下方的详细信息中寻找有关该实体的具体信息（ID、坐标等），并尝试使用地图编辑器删除该实体。如果仍然无法解决该问题，请尝试重新创建一个世界或是考虑其他问题。</sys:String>
-	<sys:String x:Key="LogFileNotFoundDetail">分析器缺少足够的日志文件来创建分析报告，请尝试联系开发者。</sys:String>
-    <sys:String x:Key="OtherCausedGameCrashDetail">不确定的原因导致了游戏崩溃，请尝试联系开发者。</sys:String>
+	<sys:String x:Key="OpenGl1282ErrorDetail">Шейдеры / пак. ресурсов - эти могут вызвать проблему </sys:String>
+	<sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">Возможно, этот OptiFine не совместим с игрой. (https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world) посетите их официальный сайт, чтобы найти совместимый вариант (https://optifine.net/downloads)</sys:String>
+	<sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">Ваш графический процессор не может работать с таким пакетом текстур или Видимость игры. </sys:String>
+	<sys:String x:Key="FabricErrorDetail">У Fabric ошибка</sys:String>
+	<sys:String x:Key="FabricErrorWithSolutionDetail">У Fabric ошибка (может быть с раствором) ниже.</sys:String>
+	<sys:String x:Key="ForgeErrorDetail">У Forge ошибка ниже.</sys:String>
+	<sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">Если ваша версия Forge ниже 36.2.26, обновите его. Или используйте более новую версию Java</sys:String>
+	<sys:String x:Key="MultipleForgeInVersionJsonDetail">Другой Лаунчер изменил Forge игры? пожалуйста, попробуйте переустановить его и не позволяйте другим лаунчером изменять его</sys:String>
+	<sys:String x:Key="IncompatibleForgeAndOptifineDetail">Та версия OptiFine не работает с тим Forge. Пожалуйста, посетите их официальный сайт, чтобы найти совместимый вариант (https://optifine.net/downloads) </sys:String>
+	<sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">Пожалуйста, убедитесь, что игра полностью установлена и путь к игре не поврежден (без специальных символов)!</sys:String>
+	<sys:String x:Key="ManuallyTriggeredDebugCrashDetail">авария debug</sys:String>
+	<sys:String x:Key="ContentValidationFailedDetail">Файл игры несовершенный. Попробуйте скачать их еще раз</sys:String>
+	<sys:String x:Key="BlockCausedGameCrashDetail">В мире игры блок разбил игру. Пожалуйста, ознакомьтесь с конкретной информацией в деталях ниже (координаты / ID) и удалить то.</sys:String>
+	<sys:String x:Key="EntityCausedGameCrashDetail">В мире игры сущность разбил игру. Пожалуйста, ознакомьтесь с конкретной информацией в деталях ниже (координаты / ID) и удалить то.</sys:String>
+	<sys:String x:Key="LogFileNotFoundDetail">Неизвестная причина вызвала аварию, потому что файл логи не может доказать.</sys:String>
+    <sys:String x:Key="OtherCausedGameCrashDetail">Неизвестная причина вызвала аварию. </sys:String>
 
-    <sys:String x:Key="DirectConnect">直连</sys:String>
+    <sys:String x:Key="DirectConnect">Прямое подкл.</sys:String>
 
-    <sys:String x:Key="ArchiveCorrupted">压缩包损坏，我们无法读取压缩文件的内容。</sys:String>
-    <sys:String x:Key="ModPackJsonCorruptedDetail">清单文件损坏，我们无法读取清单文件的内容。{0}</sys:String>
-    <sys:String x:Key="NetworkUnstable">这通常是由于网络波动导致的。</sys:String>
-    <sys:String x:Key="FailedToLoadModPack">无法加载整合包信息</sys:String>
-    <sys:String x:Key="FailedToLoadModPackDetail">无法加载 {0} 整合包的详细信息，但您依旧可以尝试继续安装。详细信息：{1}</sys:String>
+    <sys:String x:Key="ArchiveCorrupted">Архив пакета поврежден</sys:String>
+    <sys:String x:Key="ModPackJsonCorruptedDetail">У Json пакета ошибка: {0}</sys:String>
+    <sys:String x:Key="NetworkUnstable">Возможно, у сети ошибка</sys:String>
+    <sys:String x:Key="FailedToLoadModPack">Не-уд загрузить Инфо. пакета</sys:String>
+    <sys:String x:Key="FailedToLoadModPackDetail">Не удается загрузить информацию пакета {0} но все же его можно установить. причина:{1}</sys:String>
 
     <sys:String x:Key="InvalidPath">Недопустимый путь</sys:String>
-    <sys:String x:Key="FailedToLoadOriginalGameInfo">无法加载原版游戏信息，可能是网络问题。</sys:String>
+    <sys:String x:Key="FailedToLoadOriginalGameInfo">Не удается получить инфо. игры.</sys:String>
 
-    <sys:String x:Key="NeoForgedDescription">NeoForged 是一个源于 MineCraft Forge 的新的开发分支，由大部分原 Forge 开发人员组建。</sys:String>
-    <sys:String x:Key="QuiltDescription">Quilt 项目是一个开源、社区驱动的改装工具链，主要为 Minecraft 设计。</sys:String>
+    <sys:String x:Key="NeoForgedDescription">NeoForged - это новый филиал Minecraft Forge с ОИК. Большинство их членов были из Forge</sys:String>
+    <sys:String x:Key="QuiltDescription">Quilt - это цепочка инструментов модификации с открытым исходным кодом, основанную на сообществе, которая для Minecraft</sys:String>
 
-    <sys:String x:Key="FailedToReadFromClipBoard">无法从剪切板读取内容。</sys:String>
-    <sys:String x:Key="FolderDraggedOrFileNotExists">文件不存在或是您拖入了一个文件夹</sys:String>
-    <sys:String x:Key="FileTypeUnknownDetail">文件 {0} 包含未知的文件类型</sys:String>
+    <sys:String x:Key="FailedToReadFromClipBoard">не удается получить доступ к буферу обмена</sys:String>
+    <sys:String x:Key="FolderDraggedOrFileNotExists">недействительный файл или это каталог</sys:String>
+    <sys:String x:Key="FileTypeUnknownDetail">неизвестного типа файл: {0}</sys:String>
 
-    <sys:String x:Key="FailedToReadUpdatedFile">无法读取下载到的更新文件，请尝试手动更新！</sys:String>
-    <sys:String x:Key="DownloadedUpdateDoesNotContainExecutable">下载到的更新文件中不包含应用程序，请联系系统管理员！</sys:String>
-    <sys:String x:Key="DownloadedUpdateHashUnmatched">下载到的更新文件的哈希值与预期不符，请联系系统管理员！</sys:String>
-    <sys:String x:Key="FailedToInitFileStream">无法初始化文件流，请联系系统管理员！</sys:String>
-    <sys:String x:Key="UnixUpdateDownloadedMessage">更新下载完成", "点击确定打开下载完成的更新压缩包，解压之后手动替换老的应用程序即可。点击确定后，程序将主动退出。</sys:String>
+    <sys:String x:Key="FailedToReadUpdatedFile">ошибка обновления. попробуйте обновить вручную!</sys:String>
+    <sys:String x:Key="DownloadedUpdateDoesNotContainExecutable">ошибка загруженного пакета обновления</sys:String>
+    <sys:String x:Key="DownloadedUpdateHashUnmatched">загруженный пакет обновления сломался</sys:String>
+    <sys:String x:Key="FailedToInitFileStream">не удается получить доступ к файлу</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedMessage">скачала новую версию. замените файл программы после подтвердили. сейчас открывается загруженный пакет.</sys:String>
 
     <sys:String x:Key="Customization">Пользовательские</sys:String>
     <sys:String x:Key="ModPack">ModPack</sys:String>
@@ -1051,18 +1069,18 @@
     <sys:String x:Key="Mods">Mod</sys:String>
     <!-- AlsoCanFor ExactlyGames -->
 
-	<sys:String x:Key="FailedToSaveUserSettingsDetail">暂时无法保存用户设置，请稍候再试。</sys:String>
-    <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">无法创建房间，因为房间名为空</sys:String>
-    <sys:String x:Key="FailedToCreateGroupDetail">无法创建群组，可能是因为网络问题或服务器错误。服务器返回的原因：{0}</sys:String>
+	<sys:String x:Key="FailedToSaveUserSettingsDetail">Ещё не может сохранить профиль</sys:String>
+    <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">требуется имя группы</sys:String>
+    <sys:String x:Key="FailedToCreateGroupDetail">Ещё не может создать группу：{0}</sys:String>
     <sys:String x:Key="RoomDismissed">Удалильно</sys:String>
     <sys:String x:Key="RoomDismissedDetail">Вышёлись, потому что Хозяй удалил группу.</sys:String>
-    <sys:String x:Key="Joined">加入了房间</sys:String>
-    <sys:String x:Key="Left">离开了房间</sys:String>
+    <sys:String x:Key="Joined">присоединился</sys:String>
+    <sys:String x:Key="Left">вышёл</sys:String>
     <sys:String x:Key="Kicked">Хозяй удалил вас из группе</sys:String>
     <sys:String x:Key="Disconnected">Сеть ошибки</sys:String>
     <sys:String x:Key="RoomMemberChanged">Список участников изменен</sys:String>
-    <sys:String x:Key="FailedToJoinRoomDetail">无法加入群组，可能是因为网络问题或服务器错误，亦或是房间号码或密码错误。服务器返回的原因：{0}</sys:String>
-    <sys:String x:Key="FailedToKickMember">踢出成员失败</sys:String>
+    <sys:String x:Key="FailedToJoinRoomDetail">Не удается присоединился: {0}</sys:String>
+    <sys:String x:Key="FailedToKickMember">Не удается удалить</sys:String>
     <sys:String x:Key="FailedToKickSelf">Не удается удалить: Не можете удалить себя</sys:String>
     <sys:String x:Key="FailedToKickMemberDetail">Не удается удалить: Возможно, у сети ошибки. {0}</sys:String>
     <sys:String x:Key="MemberKicked">Удалено</sys:String>
@@ -1078,37 +1096,38 @@
     <sys:String x:Key="GameVersion">Версия</sys:String>
     <sys:String x:Key="VersionInsulation">Изоляция</sys:String>
 	<sys:String x:Key="Authenticator">Тип аккаунта</sys:String>
-    <sys:String x:Key="MinMemoryInMb">最小内存 (MB)</sys:String>
-    <sys:String x:Key="MaxMemoryInMb">最大内存 (MB)</sys:String>
+    <sys:String x:Key="MinMemoryInMb">Макс. памяти (MB)</sys:String>
+    <sys:String x:Key="MaxMemoryInMb">Мин. памяти (MB)</sys:String>
 
-    <sys:String x:Key="GameResourceNotFound">资源不存在</sys:String>
-    <sys:String x:Key="GameResourceNotFoundDetail">该游戏不存在资源：{t0ype}，已隐藏该标签。</sys:String>
-    <sys:String x:Key="ChooseModPackFile">选择整合包文件</sys:String>
-    <sys:String x:Key="SinceNow">距今已经</sys:String>
-    <sys:String x:Key="Published">发布了</sys:String>
-    <sys:String x:Key="NumVersion">{0} 个版本</sys:String>
-    <sys:String x:Key="SearchOnTheInternet">在互联网上查找：</sys:String>
+    <sys:String x:Key="GameResourceNotFound">Ресурс не существует</sys:String>
+    <sys:String x:Key="GameResourceNotFoundDetail">У той игры нет {0}. Тег скрыт.</sys:String>
+    <sys:String x:Key="ChooseModPackFile">Выбрать файл пакета</sys:String>
+    <sys:String x:Key="SinceNow">с тех пор</sys:String>
+    <sys:String x:Key="Published">выпущенные версии</sys:String>
+    <sys:String x:Key="NumVersion">{0}</sys:String>
+    <sys:String x:Key="SearchOnTheInternet">Поиск на Интернете：</sys:String>
 
-    <sys:String x:Key="GameNotInstall">未安装游戏</sys:String>
-    <sys:String x:Key="GameNotInstallDetail">您还没有安装任何游戏，请点击下方的下载标签来安装一个游戏。</sys:String>
-    <sys:String x:Key="GameNotSelectDetail">您还没有固定游戏，请在列表中选取一个游戏并点击右侧的图钉图标来进行固定。</sys:String>
-    <sys:String x:Key="StartLaunchGame">开始尝试启动游戏</sys:String>
+    <sys:String x:Key="GameNotInstall">игры не установка</sys:String>
+    <sys:String x:Key="GameNotInstallDetail">клик "Скачать" за игр</sys:String>
+    <sys:String x:Key="GameNotSelectDetail">игры не класть. клик шпильки игры из списка, чтобы кластите игры.</sys:String>
+    <sys:String x:Key="StartLaunchGame">Запуск</sys:String>
     <sys:String x:Key="RunningOldMineCraftUsingArm64JreWarning">
-        检测到当前系统和 JRE 运行时架构均为 Arm64。
-        但由于您运行的可能是较老版本的 Minecraft 实例，相关实例所包含的运行时可能无法在 Arm64 系统上正常运行。
-        您可以尝试继续启动，如果出现问题请尝试切换到 X86 架构的 JRE 运行时并尝试再次启动。
+        Ваши OS и JRE являются Arm64
+        А Minecraft вы будете запустить старный, может работать только с JRE x64. 
+        Но это стоит попробовать!
 	</sys:String>
     <sys:String x:Key="JreVersionTooHighWarning">
-        您当前选择的 Java 版本 [{0}] 高于了游戏所要求的版本 [{1}]，
-        使用新版本的 Java 虽然可能可以提高游戏性能，但也可能会导致游戏无法正常运行。
-        如果游戏无法正常运行，请尝试切换到游戏所要求的 Java 版本。
+        Выбрали вы Java [{0}] - эта версия выше, чем запрос игры [{1}]
+        Новый Java может оптимизировать игру, 
+        но также может привести к тому, что она не запустится
 	</sys:String>
-    <sys:String x:Key="FailedToInitAuthenticator">初始化验证器失败</sys:String>
-    <sys:String x:Key="FailedToInitAuthenticatorDetail">初始化验证器失败，请检查账户的有效性</sys:String>
-    <sys:String x:Key="CurrentLaunchSettings">当前的启动配置:</sys:String>
+    <sys:String x:Key="FailedToInitAuthenticator">Ошибка Аутентификатора</sys:String>
+    <sys:String x:Key="FailedToInitAuthenticatorDetail">Не удалось инициировать аккаунт игры, проверьте его.</sys:String>
+    <sys:String x:Key="CurrentLaunchSettings">Конфигурации:</sys:String>
     <sys:String x:Key="LauncherRunningUnderTranslationWarning">
-        检测到 LauncherX 可能运行在 ARM64 处理器模拟的 X86 环境中，在转译层上运行 LauncherX 可能会导致性能受到影响以及造成意料之外的异常。
-        Возможно, есть проблемы ниже：
+        Ваш LauncherX работает в режиме, который симулировать X86 на ARM64?
+        Работает с переводчиком ARM-X86 может привести к снижению производительности и другие вопросы
+        Например：
         - Не удается правильно проверять Java RE
         - Серьезный опыт и снижение производительности
         - Ненормальная функция
@@ -1123,16 +1142,16 @@
 
     <sys:String x:Key="InstallOptifineAsMod">установить Optifine как Mod</sys:String>
     <sys:String x:Key="InstallOptifineAsModDetail">установить Optifine как Mod в Fabric, но это нужен установка вручную OptiFabric по "Скачать-CurseForge".</sys:String>
-    <sys:String x:Key="EnterOfflineModeDetail">进入离线模式，可以在无网络的情况下使用该模式。大部分功能将被禁用！</sys:String>
+    <sys:String x:Key="EnterOfflineModeDetail">Тогда можно использовать без сети, но сохранить только основные функции</sys:String>
     
     <!-- <sys:String x:Key="ChooseFileTypeDetail">Выберите тип вашего файла. Обратите внимание, что некоторые типы могут еще не поддерживаться.</sys:String> -->
 
     <sys:String x:Key="NewFileDragged">Вы перетащили файл.</sys:String>
-    <sys:String x:Key="TryingToDetermineFileType">正在尝试自动确认文件的类型</sys:String>
+    <sys:String x:Key="TryingToDetermineFileType">Пытаеться определить тип файла</sys:String>
     <sys:String x:Key="FileTypeDetected">Этот файл может быть: </sys:String>
 
-    <sys:String x:Key="DownloadReadyToRunBuild">下载 ReadyToRun 构建</sys:String>
-    <sys:String x:Key="DownloadReadyToRunBuildDetail">采用 ReadyToRun 编译的启动器二进制会有更高的理论性能，但启动器本体的大小也会有所增大。</sys:String>
+    <sys:String x:Key="DownloadReadyToRunBuild">Скачать с ReadyToRun</sys:String>
+    <sys:String x:Key="DownloadReadyToRunBuildDetail">LauncherX с ReadyToRun может работать с большей эффективностью, но займёт больше места диска.</sys:String>
 
     <sys:String x:Key="CheckCSKBArticle">посмотри на CSKB</sys:String>
     <sys:String x:Key="MojangNoArm64JreSupportWarning">Из-за того, что у Mojang ещё не Arm64 JRE для загрузки, вы надо скачать "JRE для Arm64" самы.</sys:String>
@@ -1141,24 +1160,24 @@
     <sys:String x:Key="DataCollectionOptionsDetail">LauncherX собирает данные, о которых своих собственных деятельности, по Azure Application Insight. Эти данные помогут нам оптимизировать LauncherX.</sys:String>
     <sys:String x:Key="EnableTelemetry">Телеметрия</sys:String>
     <sys:String x:Key="DataCollectionManifest">Список Собранных Данных</sys:String>
-    <sys:String x:Key="DataCollectionTitle1">LauncherX 会收集并传输包括</sys:String>
-    <sys:String x:Key="DataCollectionTitle2">但不限于</sys:String>
-    <sys:String x:Key="DataCollectionTitle3">下表的数据来帮助我们改进：</sys:String>
-    <sys:String x:Key="DataCollectionManifestDetail1">- 用户计算机的配置信息</sys:String>
-    <sys:String x:Key="DataCollectionManifestDetail2">- 计算机名称</sys:String>
-    <sys:String x:Key="DataCollectionManifestDetail3">- 启动器内的网络活动</sys:String>
-    <sys:String x:Key="DataCollectionManifestDetail4">- 启动器内的任务调度详情</sys:String>
-    <sys:String x:Key="DataCollectionManifestDetail5">- 启动器产生的任何日志信息</sys:String>
-    <sys:String x:Key="DataCollectionManifestDetail6">- 部分启动器操作事件</sys:String>
-    <sys:String x:Key="DataCollectionManifestDetail7">- 崩溃信息</sys:String>
+    <sys:String x:Key="DataCollectionTitle1">LauncherX собирает данные похожие на этих вещей ниже</sys:String>
+    <sys:String x:Key="DataCollectionTitle2">, чтобы оптимизировать себя</sys:String>
+    <sys:String x:Key="DataCollectionTitle3">:</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail1">- информация об оборудовании</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail2">- Имя компьютера</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail3">- использование сети само по себе</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail4">- Задачи LauncherX</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail5">- Логи LauncherX</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail6">- Вызов событий</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail7">- Отчёт о сбое</sys:String>
 
-    <sys:String x:Key="CurseForgeApiLimitWarning">由于 API 的限制，我们至多显示请求到 10,000 个项目。如果您想查看更多的项目，请自行访问 CurseForge 官网。</sys:String>
+    <sys:String x:Key="CurseForgeApiLimitWarning">Ограничен API, только здесь отображается 10,000 объектов.</sys:String>
     <sys:String x:Key="InTotal">Вс.</sys:String>
     <sys:String x:Key="Pages">стр.</sys:String>
     <!-- ,? -->
 
-    <sys:String x:Key="ModNotFoundDetail">没有找到任何模组，或是部分模组已损坏并未显示。</sys:String>
-    <sys:String x:Key="GoToDownloadPage">前往下载页面</sys:String>
+    <sys:String x:Key="ModNotFoundDetail">Действительный Mod не найден</sys:String>
+    <sys:String x:Key="GoToDownloadPage">К странице "Скачать"</sys:String>
 
     <sys:String x:Key="HiveVersion">Hive NetLib</sys:String>
     <sys:String x:Key="ConnectXVersion">ConnectX</sys:String>
@@ -1169,9 +1188,9 @@
     <sys:String x:Key="DeepSearchDetail">Глубокий поиск Java: LauncherX будет искать Java по правилам во всех ваших компьютере. Затраченное время зависит от производительности вашего компьютера и количества дисков.</sys:String>
     
     <sys:String x:Key="UseProgressiveBlur">Прогрессивное размытие под текстом</sys:String>
-    <sys:String x:Key="ProgressiveBlurStrength">渐进式模糊效果强度</sys:String>
-    <sys:String x:Key="ShowUpperTextShadow">显示上层文字阴影</sys:String>
-    <sys:String x:Key="ImagePlusEffect">背景视差效果</sys:String>
+    <sys:String x:Key="ProgressiveBlurStrength">уровень ПР</sys:String>
+    <sys:String x:Key="ShowUpperTextShadow">тень под текстом</sys:String>
+    <sys:String x:Key="ImagePlusEffect">параллакс обоя</sys:String>
     <sys:String x:Key="UseSystemAccentColorAsPrimaryColor">Акцент OS</sys:String>
 
     <sys:String x:Key="CheckUpnpStatusDetail">У вас UPNP включен в роутере? Если все ещё не функционирует, Пожалуйста, проверьте, находитесь ли вы в сетевой среде с многоуровневой маршрутизацией.</sys:String>
@@ -1182,7 +1201,7 @@
 
     <sys:String x:Key="MojangApiLimitWarning">Из-за ограничения запроса Mojang API, рекомендуемое количество потоков не больше 5 когда выбрал ресурс Mojang.</sys:String>
 
-    <sys:String x:Key="Sponsor">спонсор</sys:String>
+    <sys:String x:Key="Sponsor">Спонсор</sys:String>
     <sys:String x:Key="SponsorPageSubTitle">LauncherX Создаём с всеми вами!</sys:String>
     <sys:String x:Key="SponsorSourceDetail">список из платформ [爱发电] обновляют самые новые каждый день, в произвольном порядке.</sys:String>
     <sys:String x:Key="SponsorList">спонсоров список</sys:String>
@@ -1222,9 +1241,9 @@
     <sys:String x:Key="MainWindowLoaded">Загружало</sys:String>
     <sys:String x:Key="MultipleDragNotSupport">Мультифайловая операция сейчас не поддерживается.</sys:String>
     <sys:String x:Key="UnsupportedFunction">Неподдерживаемый</sys:String>
-    <sys:String x:Key="FailedToGetDraggedFilePath">无法获取拖入文件的路径</sys:String>
+    <sys:String x:Key="FailedToGetDraggedFilePath">не удается получить путь перетащен</sys:String>
     <sys:String x:Key="FilePathEmpty">Путь нулевой</sys:String>
-    <sys:String x:Key="FileDragEventTriggered">文件拖放事件触发</sys:String>
+    <sys:String x:Key="FileDragEventTriggered">Файл перетащен</sys:String>
     <sys:String x:Key="OfficialWebsite">Сайт Официальный</sys:String>
 
-</ResourceDictionary>
+</ResourceDictionary> 
