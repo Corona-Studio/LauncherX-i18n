@@ -1,12 +1,17 @@
-﻿<ResourceDictionary xmlns="https://github.com/avaloniaui"
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=System.Runtime">
 
-    <sys:String x:Key="TranslatorCredits">LauncherX Official English</sys:String>
+    <!--> Imma put the rev number below to indicate how many times this file has been modified.<-->
+    <sys:String x:Key="TranslatorCredits">LauncherX Official - English / Rev1</sys:String>
+    <!--> This translation version is done by Croteco and Japerz from Corona Studio. <-->
+
     <sys:String x:Key="Ok">Confirm</sys:String>
     <sys:String x:Key="Cancel">Cancel</sys:String>
     <sys:String x:Key="Warning">Warning</sys:String>
     <sys:String x:Key="Error">Error</sys:String>
+    <sys:String x:Key="Fatal">Fatal</sys:String>
+    <sys:String x:Key="Debug">Debug</sys:String>
     <sys:String x:Key="Info">Information</sys:String>
     <sys:String x:Key="Note">Note</sys:String>
 
@@ -19,7 +24,7 @@
     <sys:String x:Key="Force">Force</sys:String>
 
     <sys:String x:Key="LaunchFailed">Game failed to start.</sys:String>
-    <sys:String x:Key="JavaNotFound">No Jre detected.</sys:String>
+    <sys:String x:Key="JavaNotFound">No Java detected.</sys:String>
     <sys:String x:Key="IllegalJavaInstallation">You are probably using a portable version of Java.</sys:String>
 
     <!--> App.xaml.cs <-->
@@ -33,7 +38,7 @@
 
     <!--> MainWindow.xaml <-->
 
-    <sys:String x:Key="GameStart">Game</sys:String>
+    <sys:String x:Key="GameStart">Launch</sys:String>
     <sys:String x:Key="GameList">Game List</sys:String>
     <sys:String x:Key="Dashboard">Dashboard</sys:String>
     <sys:String x:Key="Settings">Settings</sys:String>
@@ -54,8 +59,8 @@
 
     <!--> MainViewModel.cs <-->
 
-    <sys:String x:Key="RunningJobsFound">Running Jobs Found</sys:String>
-    <sys:String x:Key="ExitAndDropTasksHint">Remaining {0} job(s) in the queue. All running tasks will be discarded permanently. Are you sure to exit?</sys:String>
+    <sys:String x:Key="RunningJobsFound">Task(s) still in progress...</sys:String>
+    <sys:String x:Key="ExitAndDropTasksHint">Remaining {0} task(s) in the queue. All running tasks will be discarded permanently. Are you sure to exit?</sys:String>
     <sys:String x:Key="WaitToFinish">Wait To Finish</sys:String>
 
     <sys:String x:Key="GameNotSelect">Game Not Selected</sys:String>
@@ -76,9 +81,11 @@
     <!--> CreateNewAccountDialog.xaml <-->
 
     <sys:String x:Key="CreateNewAccount">Create New Account</sys:String>
+
     <sys:String x:Key="OfflineAccount">Offline Account</sys:String>
     <sys:String x:Key="MojangAccount">Mojang Account</sys:String>
     <sys:String x:Key="MicrosoftAccount">Microsoft Account</sys:String>
+
     <sys:String x:Key="OnlineAccount">Online Account</sys:String>
     <sys:String x:Key="Email">Email</sys:String>
     <sys:String x:Key="UserName">Username</sys:String>
@@ -88,8 +95,10 @@
     <sys:String x:Key="AuthLibServer">AuthLib Server</sys:String>
     <sys:String x:Key="Optional">Optional</sys:String>
     <sys:String x:Key="SaveAccount">Save Account</sys:String>
+
     <sys:String x:Key="CheckingAccount">Verifying account...</sys:String>
     <sys:String x:Key="Default">Default</sys:String>
+
     <sys:String x:Key="CheckFailed">Validation Failed</sys:String>
     <sys:String x:Key="SkinRequestFailed">Fail to get the skin.</sys:String>
 
@@ -104,7 +113,7 @@
     <!--> SettingsPage.xaml <-->
 
     <sys:String x:Key="GlobalGameSettings">Global Game Settings</sys:String>
-    <sys:String x:Key="RegionAndLang">Region And Language</sys:String>
+    <sys:String x:Key="RegionAndLang">Region and Language</sys:String>
     <sys:String x:Key="Appearance">Appearance</sys:String>
     <sys:String x:Key="Network">Network</sys:String>
     <sys:String x:Key="Advanced">Advanced</sys:String>
@@ -113,8 +122,8 @@
     <sys:String x:Key="LaunchSettings">Launch Settings</sys:String>
     <sys:String x:Key="JavaPath">Java Path</sys:String>
     <sys:String x:Key="AddManually">Add Manually</sys:String>
-    <sys:String x:Key="DownloadJava">Download Jre</sys:String>
-    <sys:String x:Key="SearchJava">Search For Jre</sys:String>
+    <sys:String x:Key="DownloadJava">Get Java</sys:String>
+    <sys:String x:Key="SearchJava">Search For Java</sys:String>
 
     <sys:String x:Key="MemorySize">Memory Size</sys:String>
     <sys:String x:Key="MbUnit">Unit: Mb</sys:String>
@@ -130,7 +139,7 @@
     <sys:String x:Key="Type">Type</sys:String>
 
     <sys:String x:Key="JvmAdvanceArgument">Advanced JVM Arguments</sys:String>
-    <sys:String x:Key="JoinServerAfterLaunched">Join A Server After Game Launch</sys:String>
+    <sys:String x:Key="JoinServerAfterLaunched">Join a Server After Game Launches</sys:String>
     <sys:String x:Key="ServerIpOrDomain">Server Ip/Domain</sys:String>
     <sys:String x:Key="Port">Port</sys:String>
 
@@ -150,6 +159,7 @@
 
     <sys:String x:Key="AppearancePageTitle">Modify the appearance of the launcher.</sys:String>
     <sys:String x:Key="AppearancePageDetail">You can see the window preview on the right.</sys:String>
+    
     <sys:String x:Key="ThemeMode">Theme Mode</sys:String>
     <sys:String x:Key="Language">Language</sys:String>
     <sys:String x:Key="UseFluidMove">Enable Fluid Move</sys:String>
@@ -162,10 +172,10 @@
     <sys:String x:Key="Browse">Browse</sys:String>
 
     <sys:String x:Key="AccentColor">Accent Color</sys:String>
-    <sys:String x:Key="GetAccountColorFromBgImage">Automatically Pick an Accent Color From Background</sys:String>
+    <sys:String x:Key="GetAccountColorFromBgImage">Background Color</sys:String>
     <sys:String x:Key="GetPaletteErrorHint">Palette is not found for current background, probably because you've changed reserved files or directories of the launcher.</sys:String>
-    <sys:String x:Key="UsePureColorAsAccentColor">Use Pure Color As Accent Color</sys:String>
-    <sys:String x:Key="UseSelectedColorAsAccentColor">Use Color Below As Accent Color</sys:String>
+    <sys:String x:Key="UsePureColorAsAccentColor">Pure Color</sys:String>
+    <sys:String x:Key="UseSelectedColorAsAccentColor">Color Palette</sys:String>
 
     <sys:String x:Key="Preview">Preview</sys:String>
     <sys:String x:Key="UiFontFamily">Interface Font</sys:String>
@@ -216,7 +226,7 @@
     <!--> SettingsPageViewModel.cs <-->
 
     <sys:String x:Key="TaskAdded">Task added to the queue.</sys:String>
-    <sys:String x:Key="PrepareToDownloadJava">Preparing to download JRE.</sys:String>
+    <sys:String x:Key="PrepareToDownloadJava">Preparing to download Java.</sys:String>
 
     <sys:String x:Key="PleaseCheckLogs">Please check launcher logs.</sys:String>
     <sys:String x:Key="Succeeded">Succeeded</sys:String>
@@ -245,7 +255,7 @@
 
     <sys:String x:Key="LastUsed">Last Used</sys:String>
     <sys:String x:Key="ClickToUseAccount">Click To Use</sys:String>
-    <sys:String x:Key="NeverUsed">Never Used</sys:String>
+    <sys:String x:Key="NeverUsed">Never Played</sys:String>
 
     <!--> AccountInfoControlTemplate.xaml <-->
 
@@ -280,12 +290,12 @@
 
     <sys:String x:Key="TaskCanceled">Task Canceled...</sys:String>
     <sys:String x:Key="DownloadingFile">Downloading File</sys:String>
-    <sys:String x:Key="LaunchGame">Launch Game</sys:String>
+    <sys:String x:Key="LaunchGame">Launch</sys:String>
 
     <sys:String x:Key="AuthFailed">Authentication Failed</sys:String>
     <sys:String x:Key="DecompressFailed">Error Wben Extracting Natives</sys:String>
     <sys:String x:Key="IncompleteArgument">Incomplete Launch Argument</sys:String>
-    <sys:String x:Key="NoJava">No JRE Specified</sys:String>
+    <sys:String x:Key="NoJava">No Java Specified</sys:String>
     <sys:String x:Key="None">None</sys:String>
     <sys:String x:Key="OperationFailed">Operation Failed</sys:String>
 
@@ -393,11 +403,11 @@
     <sys:String x:Key="OpenSourceProjectUsages">Open Source Project Usages</sys:String>
 
     <sys:String x:Key="Other">Other</sys:String>
-    <sys:String x:Key="OtherContent">This version of translation is done by Croteco. Contact me(croteco@outlook.com) if you're really boring.</sys:String>
+    <sys:String x:Key="OtherContent">This version of translation is done by Croteco / Japerz. (Shout out to Croteco's hard work! -Japerz)</sys:String>
 
     <!--> About Page <-->
 
-    <sys:String x:Key="ChangeLanguageRebootRequired">You've changed the display language. To apply it to all the components, please restart the launcher.</sys:String>
+    <sys:String x:Key="ChangeLanguageRebootRequired">You've changed the display language. To apply it to all the components, please restart LauncherX.</sys:String>
 
     <!--> GameLogsWindow.xaml <-->
 
@@ -408,8 +418,9 @@
     <!--> GameLogsWindow.xaml <-->
 
     <sys:String x:Key="NoSuchPageKeyExceptionMessage">No page found for key value of {0}.</sys:String>
+
     <sys:String x:Key="GetSettingsFailed">Error when reading the configuration file.</sys:String>
-    <sys:String x:Key="SearchGameHint">Search for the id of installed game. e.g. 1.15.2</sys:String>
+    <sys:String x:Key="SearchGameHint">Search for the id of installed game. e.g. 1.20.4</sys:String>
 
     <sys:String x:Key="Yes">Yes</sys:String>
     <sys:String x:Key="No">No</sys:String>
@@ -426,41 +437,42 @@
 
     <sys:String x:Key="GetJavaInfoFailed">Undefined Java Runtime...</sys:String>
     <sys:String x:Key="FileNotFound">File Not Found</sys:String>
-    <sys:String x:Key="GoodJavaRuntime">This version of JRE ( {0} ) is compatible with your system.</sys:String>
-    <sys:String x:Key="BadJavaRuntime">This version of JRE ( {0} ) is NOT compatible with your system architecture ( x{0} ). It may cause performance issues.</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">This version of Java ( {0} ) is compatible with your system.</sys:String>
+    <sys:String x:Key="BadJavaRuntime">This version of Java ( {0} ) is NOT compatible with your system architecture ( x{0} ). It may cause performance issues.</sys:String>
 
-    <sys:String x:Key="SelectedVersion">Selected Version</sys:String>
+    <sys:String x:Key="SelectedVersion">Select Version</sys:String>
     <sys:String x:Key="ManuallyCopyRedirectUrl">Copy RedirectUrl Manually</sys:String>
 
     <sys:String x:Key="Login">Login</sys:String>
     <sys:String x:Key="Register">Register</sys:String>
-    <sys:String x:Key="ConnectToService">Connect To the Service</sys:String>
+
+    <sys:String x:Key="ConnectToService">Connect Service</sys:String>
 
     <sys:String x:Key="IntroWelcomeText">Welcome to LauncherX</sys:String>
-    <sys:String x:Key="IntroWelcomeTextDetail">Click next to start  the configuration wizard.</sys:String>
+    <sys:String x:Key="IntroWelcomeTextDetail">Click next to start the setup wizard.</sys:String>
 
-    <sys:String x:Key="IntroSelectAppearance">Choose your favorite appearance.</sys:String>
+    <sys:String x:Key="IntroSelectAppearance">Choose your favorite appearance</sys:String>
     <sys:String x:Key="IntroSelectAppearanceDetail">More options are available at the "Appearance" tab in settings page.</sys:String>
 
-    <sys:String x:Key="IntroAddAccount">Add a game account.</sys:String>
+    <sys:String x:Key="IntroAddAccount">Add Game Account</sys:String>
     <sys:String x:Key="IntroAddAccountDetail">You can click on your username in the upper-left corner of the main window to manage your account or preview your skin in 3D after the wizard.</sys:String>
 
-    <sys:String x:Key="IntroGameSettings">Required game settings.</sys:String>
+    <sys:String x:Key="IntroGameSettings">Required game settings</sys:String>
     <sys:String x:Key="IntroGameSettingsDetail">Here are some configurations you must set to launch the game. Your can find more other settings at the "Global Game Settings" tab in the settings page later on.</sys:String>
 
-    <sys:String x:Key="IntroFinishedDetail">Congrats. You've finished the wizard, LauncherX is ready!</sys:String>
+    <sys:String x:Key="IntroFinishedDetail">Congrats! You've finished the wizard, LauncherX is ready!</sys:String>
 
     <sys:String x:Key="Previous">Previous</sys:String>
     <sys:String x:Key="Next">Next</sys:String>
 
-    <sys:String x:Key="RequestingGameList">Loading game list, please wait.</sys:String>
+    <sys:String x:Key="RequestingGameList">Hang tight! Loading game list...</sys:String>
 
     <sys:String x:Key="SystemInfo">System Information</sys:String>
     <sys:String x:Key="GameInfo">Game Information</sys:String>
     <sys:String x:Key="Memory">Memory</sys:String>
     <sys:String x:Key="Time">Time</sys:String>
     <sys:String x:Key="GameTime">Game Play Time</sys:String>
-    <sys:String x:Key="Count">Count</sys:String>
+    <sys:String x:Key="Count">Play count</sys:String>
 
     <sys:String x:Key="AccountType">Account Type</sys:String>
     <sys:String x:Key="ValidOnlineAccount">Valid Online Account</sys:String>
@@ -480,7 +492,7 @@
     <sys:String x:Key="Icon">Icon</sys:String>
 
     <sys:String x:Key="Offline">Offline</sys:String>
-    <sys:String x:Key="ChooseLoginType">Please choose your login method.</sys:String>
+    <sys:String x:Key="ChooseLoginType">Please choose login method.</sys:String>
     <sys:String x:Key="ChooseLoginTypeDetail">Please choose your authentication method. Use Mojang if you're unsure about this option.</sys:String>
 
     <sys:String x:Key="GlobalNotSet">Global Not Set</sys:String>
@@ -492,9 +504,9 @@
     <sys:String x:Key="GetFailed">Pull Failed</sys:String>
 
     <sys:String x:Key="ConfirmExit">Do you wish to exit?</sys:String>
-    <sys:String x:Key="ConfirmExitDetail">The configuration of LauncherX is not done yet. All the unsaved changes will be discarded.</sys:String>
+    <sys:String x:Key="ConfirmExitDetail">The setup of LauncherX is not done yet. All the unsaved changes will be discarded.</sys:String>
 
-    <sys:String x:Key="Choose">Choose</sys:String>
+    <sys:String x:Key="Choose">Choose </sys:String>
     <sys:String x:Key="CustomGameId">Custom Game Id</sys:String>
     <sys:String x:Key="NoAffiliatedComponentForVersion">No affiliated component to install for current version.</sys:String>
     <sys:String x:Key="OptionalAffiliatedComponent">Optional Affiliated Component</sys:String>
@@ -528,15 +540,18 @@
     <sys:String x:Key="ValidationCodeHasBeenSent">Validation Code Send</sys:String>
     <sys:String x:Key="PasswordIsDifferent">Two input password is not the same.</sys:String>
     <sys:String x:Key="PasswordFormat">Password must contain both upper and lower case of alphabet, at least one digit and at least one special character excludes underline.</sys:String>
+    <sys:String x:Key="UserNameFormat">Username can only contain uppercase and lowercase letters, numbers, dashes, or underscores, and must be 4-16 characters in length.</sys:String>
     <sys:String x:Key="StringLength">Length should between {2} and {1}.</sys:String>
     <sys:String x:Key="AutoLogin">Auto Login</sys:String>
 
     <sys:String x:Key="HelpAndFeedback">Help And Feedback</sys:String>
 
-    <sys:String x:Key="LauncherAccount">Launcher Account</sys:String>
+    <sys:String x:Key="LauncherAccount">Account</sys:String>
     <sys:String x:Key="RebootRequired">Restart Required</sys:String>
 
     <sys:String x:Key="GameSettings">Game Settings</sys:String>
+    <sys:String x:Key="VersionRootPath">Version Root Path</sys:String>
+    <sys:String x:Key="Saves">Saves</sys:String>
     <sys:String x:Key="Mod">Mod</sys:String>
     <sys:String x:Key="ResourcePack">Resource Pack</sys:String>
     <sys:String x:Key="ShaderPack">Shader Pack</sys:String>
@@ -552,32 +567,38 @@
     <sys:String x:Key="LauncherAccountDescription">Sign in to the LauncherX Account and get some fancy functions.</sys:String>
 
     <sys:String x:Key="Send">Send</sys:String>
-    <sys:String x:Key="SendDescription">Input message，press [ Enter ] to send</sys:String>
+    <sys:String x:Key="SendDescription">Enter message, press [ Enter ] to send</sys:String>
 
     <sys:String x:Key="NvidiaHardwareAcc">Hardware Acceleration (nVidia)</sys:String>
     <sys:String x:Key="NvidiaHardwareAccRebootRequired">You've changed the Hardware Acceleration option.Please restart the launcher to apply.</sys:String>
 
     <sys:String x:Key="VideoBackground">Video Background</sys:String>
+    <sys:String x:Key="MicaBackground">Mica Background(WIN11+)</sys:String>
+    <sys:String x:Key="GameScreenShots">Screenshots</sys:String>
     <sys:String x:Key="BlurRadius">Blur Radius</sys:String>
     <sys:String x:Key="Volume">Volume</sys:String>
     <sys:String x:Key="BackgroundAlignmentMode">Background Alignment Mode</sys:String>
 
     <sys:String x:Key="ResolutionDescription">Set resolution to 0 * 0 will change it to default.</sys:String>
 
-    <sys:String x:Key="WhatCanIShowYou">What Do I Show</sys:String>
+    <sys:String x:Key="WhatCanIShowYou">What can I show to ya?</sys:String>
     <sys:String x:Key="LauncherNotification">Launcher Notifications</sys:String>
 
     <sys:String x:Key="Second">Second</sys:String>
+    <sys:String x:Key="Minutes">Minutes</sys:String>
+    <sys:String x:Key="Hours">Hours</sys:String>
+    <sys:String x:Key="Days">Days</sys:String>
+    <sys:String x:Key="Years">Years</sys:String>
 
     <sys:String x:Key="Accept">Accept</sys:String>
     <sys:String x:Key="Deny">Deny</sys:String>
 
     <sys:String x:Key="AddSelf">Add Myself</sys:String>
-    <sys:String x:Key="UserState">User State</sys:String>
+    <sys:String x:Key="UserState">User Status</sys:String>
     <sys:String x:Key="UpdateChannel">Update Channel</sys:String>
     <sys:String x:Key="Logout">Logout</sys:String>
 
-    <sys:String x:Key="LauncherUpdateFound">Launcher New Version Available</sys:String>
+    <sys:String x:Key="LauncherUpdateFound">New LauncherX Release</sys:String>
     <sys:String x:Key="HotfixUpdateNotice">This version contains significant quality update.</sys:String>
     <sys:String x:Key="DoNotCloseNotice">Please wait and do not force your launcher to close.</sys:String>
     <sys:String x:Key="Update">Update</sys:String>
@@ -592,9 +613,10 @@
 
     <sys:String x:Key="ProtocolVersion">Protocol Version</sys:String>
     <sys:String x:Key="Search">Search</sys:String>
+    <sys:String x:Key="SearchOption">Search Options</sys:String>
 
-    <sys:String x:Key="TryStartGame">Try Start Game</sys:String>
-    <sys:String x:Key="StartingGame">Starting Game：{0}</sys:String>
+    <sys:String x:Key="TryStartGame">Try Launch the Game</sys:String>
+    <sys:String x:Key="StartingGame">Launching Game：{0}</sys:String>
 
     <sys:String x:Key="LaunchFailedTitle">Launch Failed For {0}</sys:String>
     <sys:String x:Key="LaunchFailedContent">Game restart failed for: {0}</sys:String>
@@ -615,7 +637,7 @@
     <sys:String x:Key="DeviceVerificationFailed">Device Verification Failed</sys:String>
     <sys:String x:Key="DeviceVerificationFailedContent">Please remove your not using device and add this one. Quitting LauncherX.</sys:String>
     <sys:String x:Key="ServerRefresh">Server Refresh</sys:String>
-    <sys:String x:Key="IsConfirm">Confirm ?</sys:String>
+    <sys:String x:Key="IsConfirm">Confirm?</sys:String>
     <sys:String x:Key="ConfirmToDeleteFriend">Are you sure to delete friend {0} ?</sys:String>
 
     <sys:String x:Key="MediaFile">Media File</sys:String>
@@ -628,7 +650,7 @@
     <sys:String x:Key="EmailUsed">Email Already Registered</sys:String>
 
     <sys:String x:Key="Hi">Hi:)</sys:String>
-    <sys:String x:Key="AuthResultNotFound">Auth Result NotF ound</sys:String>
+    <sys:String x:Key="AuthResultNotFound">Authentication Result Not Found</sys:String>
     <sys:String x:Key="AuthIncomplete">We can't validate your account</sys:String>
     <sys:String x:Key="AuthIncompleteContent">We can't validate your account, did you canceled the validation？ Reason:{0}</sys:String>
 
@@ -670,5 +692,560 @@
     <sys:String x:Key="ServerNoContent">No Content</sys:String>
     <sys:String x:Key="FalseCredential">Username and password are incorrect</sys:String>
     <sys:String x:Key="UnknownLoginError">Unknown login error</sys:String>
+
+    <sys:String x:Key="LatestRelease">Latest Release</sys:String>
+    <sys:String x:Key="LatestSnapshot">Latest Snapshot</sys:String>
+
+    <sys:String x:Key="FollowSystem">Follow System</sys:String>
+
+    <sys:String x:Key="UnknownErrorOccurs">Unknown Error Occured</sys:String>
+
+    <sys:String x:Key="NowYouCanLogin">You can login now</sys:String>
+    <sys:String x:Key="FailedToUploadAvatar">Failed to upload avatar</sys:String>
+
+    <sys:String x:Key="Rank">Rank</sys:String>
+    <sys:String x:Key="Popularity">Popularity</sys:String>
+    <sys:String x:Key="UpdateDate">Update Date</sys:String>
+    <sys:String x:Key="Name">Name</sys:String>
+    <sys:String x:Key="DownloadCount">Downloads</sys:String>
+
+    <sys:String x:Key="TimeBeforeDayUnit">Time(days ago)</sys:String>
+    <sys:String x:Key="GameTimeHourUnit">Play time(hours)</sys:String>
+
+    <sys:String x:Key="CurseForgeSearchTextHint">Mods, Texture Pack and Shaderpack's name, Example: BuildCraft</sys:String>
+    <sys:String x:Key="GameVersionTextHint">Game version, Example: 1.15.2</sys:String>
+
+    <sys:String x:Key="Tag">Tags</sys:String>
+    <sys:String x:Key="SortMethod">Sort</sys:String>
+
+    <sys:String x:Key="VersionList">Version List</sys:String>
+    <sys:String x:Key="DownloadResource">Resource Download</sys:String>
+
+    <sys:String x:Key="Detail">Details</sys:String>
+    <sys:String x:Key="AddonDetail">Mod Details</sys:String>
+    <sys:String x:Key="FailedToLoadAddonInfoDetail">Failed to load Mod details</sys:String>
+
+    <sys:String x:Key="Resource">Resources</sys:String>
+    <sys:String x:Key="OriginalGame">Game</sys:String>
+
+    <sys:String x:Key="UpdateTimeAgo">updated {0} ago</sys:String>
+    <sys:String x:Key="CountDownloads">{0:##,###} downloads</sys:String>
+
+    <sys:String x:Key="ReleaseEdition">Releases</sys:String>
+    <sys:String x:Key="SnapshotEdition">Snapshots</sys:String>
+    <sys:String x:Key="AlphaEdition">Alpha</sys:String>
+    <sys:String x:Key="BetaEdition">Beta</sys:String>
+    <sys:String x:Key="UnknownReleaseEdition">Unknown Releases</sys:String>
+
+    <sys:String x:Key="Chat">Messages</sys:String>
+    <sys:String x:Key="Home">Home</sys:String>
+
+    <sys:String x:Key="AutoScroll">Auto scroll</sys:String>
+    <sys:String x:Key="LogHighlight">Log highlight</sys:String>
+
+    <sys:String x:Key="GameProcessManagement">Game process management</sys:String>
+    <sys:String x:Key="KillProcess">Kill process</sys:String>
+
+    <sys:String x:Key="FalseJavaSelectionCase1">The game you are launching does not explicitly state which version of Java it requires, but we believe the game requires the Java 8 runtime to launch.</sys:String>
+    <sys:String x:Key="FalseJavaSelectionCase2">The game you are launching requires Java runtime version [{0}] or higher.</sys:String>
+    <sys:String x:Key="FalseJavaSelectionDetail">However, the runtime version you currently selected is [{0}]. Incorrect Java runtime configuration may cause launch failure. You can get Java by going to Settings-Global Game Settings.</sys:String>
+
+    <sys:String x:Key="ContinueLaunch">Continue Launch</sys:String>
+    <sys:String x:Key="AutoSelect">Auto Select</sys:String>
+
+    <sys:String x:Key="FailedToAutoSelectJavaMessage">No suitable Java runtime for this game from the existing Java libraries. The runtime version required by this game is [{0}].</sys:String>
+
+    <sys:String x:Key="FailedToResolveKey">Failed to resolve keys</sys:String>
+    <sys:String x:Key="FailedToResolveKeyDetail">We were unable to resolve the encryption key saved on your local computer, for this reason we need to reset it. Therefore, you need to log in to your LauncherX account again, and you also need to log in to all your game accounts again.</sys:String>
+
+    <sys:String x:Key="SwitchAccount">Switch account</sys:String>
+
+    <sys:String x:Key="Running">Running</sys:String>
+    <sys:String x:Key="Stopped">Terminated</sys:String>
+
+    <sys:String x:Key="UnsupportedServer">Unable to detect NAT type, maybe the server does not support it.</sys:String>
+    <sys:String x:Key="UdpBlocked">UDP Blocked</sys:String>
+    <sys:String x:Key="OpenInternet">Open Internet</sys:String>
+    <sys:String x:Key="SymmetricUdpFirewall">Public network, UDP firewall enabled</sys:String>
+    <sys:String x:Key="FullCone">Full Cone</sys:String>
+    <sys:String x:Key="RestrictedCone">Restricted Cone</sys:String>
+    <sys:String x:Key="PortRestrictedCone">Port Restricted Cone</sys:String>
+    <sys:String x:Key="Symmetric">Symmetric</sys:String>
+
+    <sys:String x:Key="UnsupportedServerDetail">[!] Unable to detect NAT type, maybe the server does not support it.</sys:String>
+    <sys:String x:Key="UdpBlockedDetail">Current NAT type: UDP Always Block</sys:String>
+    <sys:String x:Key="OpenInternetDetail">No NAT detected, Internet is open. You have a public IP address, and the firewall is not enabled, this will provide the best experience!</sys:String>
+    <sys:String x:Key="SymmetricUdpFirewallDetail">The current NAT type: public network, UDP firewall is enabled, the firewall may increase the difficulty of connection and the possibility of connection failure to a certain extent.</sys:String>
+    <sys:String x:Key="FullConeDetail">Current NAT type: Full Cone, best connection experience!</sys:String>
+    <sys:String x:Key="RestrictedConeDetail">Current NAT type: Restricted Cone, restricted connection experience.</sys:String>
+    <sys:String x:Key="PortRestrictedConeDetail">Current NAT type: Port restricted cone, highly restricted online experience.</sys:String>
+    <sys:String x:Key="SymmetricDetail">The current NAT type: Symmetric, there is a certain probability of connection failure; if you are using a mobile phone hotspot, please try to use other networks.</sys:String>
+
+    <sys:String x:Key="Supported">Supported</sys:String>
+    <sys:String x:Key="Unsupported">Unsupported</sys:String>
+
+    <sys:String x:Key="PleaseWait">Please wait...</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionPleaseWait">Trying to connect you, might take up to 1 minute.</sys:String>
+
+    <sys:String x:Key="ConnectFailed">Connection Failed</sys:String>
+    <sys:String x:Key="FailedToCreateRoomDetail">Unable to create a room, possibly due to network fluctuations.</sys:String>
+
+    <sys:String x:Key="RoomHasNoDescription">No room description.</sys:String>
+    <sys:String x:Key="RoomHasNoPwd">No room password.</sys:String>
+
+    <sys:String x:Key="WrongRoomPwd">Room password incorrect.</sys:String>
+    <sys:String x:Key="WrongRoomId">Room not found, possibly because the room ID is wrong.</sys:String>
+
+    <sys:String x:Key="JoinFailed">Joined Failed</sys:String>
+    <sys:String x:Key="JoinFailedDetail">Unable to join room, {0}</sys:String>
+
+    <sys:String x:Key="RoomConnectionStr">Hey! I created an multiplayer room [{0}] using LauncherX, join my room now!</sys:String>
+    <sys:String x:Key="RoomConnectionStrExported">Successfully copied room information to clipboard!</sys:String>
+
+    <sys:String x:Key="RoomConnectionStrImportFailed1">Unable to import room information from clipboard, please check if your room information is correct</sys:String>
+    <sys:String x:Key="RoomConnectionStrImportFailed2">Unable to import room information from clipboard. The room information should be an encoding containing "[{9 random characters}]"</sys:String>
+
+    <sys:String x:Key="Java8Description">Java 8: Applicable to versions prior to [1.17], some ancillary components (such as Forge) also require this version of Java</sys:String>
+    <sys:String x:Key="Java16Description">Java 16: for games [1.17] or higher</sys:String>
+    <sys:String x:Key="Java17Description">Java 17: For games [1.18 - pre2] or higher</sys:String>
+
+    <sys:String x:Key="ResetAllSettings">Reset all settings</sys:String>
+    <sys:String x:Key="ResetAllSettingsDetail">WARNING! This operation will completely wipe LauncherX's configs and rerun back to setup wizard, which cannot be undone.</sys:String>
+    <sys:String x:Key="FailedToResetSettingsDetail">Unable to delete LauncherX configuration file, please check whether there is file occupation.</sys:String>
+
+    <sys:String x:Key="MicrosoftAuthFailed1">Verification cannot be completed, either because the user entered the incorrect verification code, the verification timed out, or the user rejected the app's request.</sys:String>
+    <sys:String x:Key="MicrosoftAuthFailed2">A problem occurred while trying to extract user claims, field not found: email</sys:String>
+
+    <sys:String x:Key="MultiPlayerGames">Multiplayer</sys:String>
+
+    <sys:String x:Key="User">User</sys:String>
+    <sys:String x:Key="ManageAccount">Account Management</sys:String>
+    <sys:String x:Key="SavedGameAccount">Saved Game Account</sys:String>
+    <sys:String x:Key="Reset">Reset</sys:String>
+    <sys:String x:Key="SetOfflineSkin">Set Offline Skin</sys:String>
+
+    <sys:String x:Key="MultiThreadDownload">Multi-Threaded Download</sys:String>
+    <sys:String x:Key="MultiThreadDownloadDescription">Multi-threading downloads can improve game download speeds, but can significantly impact launcher performance.</sys:String>
+
+    <sys:String x:Key="ConnectionInfo">Room Information</sys:String>
+    <sys:String x:Key="MultiPlayerServiceStatus">Online service status</sys:String>
+    <sys:String x:Key="Support">Support</sys:String>
+
+    <sys:String x:Key="Room">Room</sys:String>
+    <sys:String x:Key="RoomIdHint">Standard Room ID in GUID format</sys:String>
+    <sys:String x:Key="RoomName">Room name</sys:String>
+    <sys:String x:Key="RoomDescription">Room description</sys:String>
+    <sys:String x:Key="RoomPwd">Room password</sys:String>
+
+    <sys:String x:Key="CreateRoom">Create Room</sys:String>
+    <sys:String x:Key="ShareRoom">Share Room</sys:String>
+    <sys:String x:Key="JoinRoom">Join Room</sys:String>
+    <sys:String x:Key="IsPrivateRoom">Private Room</sys:String>
+
+    <sys:String x:Key="MultiPlayerConnectionHelper">Connection Helper</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelperDescription1">After turning on this function, LauncherX will automatically join the Corona Network after it is turned on. You will serve as a node in the network to help other players who cannot join the network complete the forwarding of traffic. This will increase the success rate of other players joining the network.</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelperDescription2">NOTE: This service will consume some of your network bandwidth.</sys:String>
+
+    <sys:String x:Key="BaseUserSettings">User Settings</sys:String>
+    <sys:String x:Key="InsiderPreviewSettings">Insider Preview version Experience Settings</sys:String>
+    <sys:String x:Key="AuthDeviceManage">Device Authentication</sys:String>
+
+    <sys:String x:Key="StartupUI">Customize Home</sys:String>
+    <sys:String x:Key="MainViewUpperForeground">Main interface foreground text color</sys:String>
+    <sys:String x:Key="BottomNavigationBarOpacity">Navigation bar opacity</sys:String>
+    <sys:String x:Key="HideBottomNavigationBarInMainView">Hide navigation bar on main interface</sys:String>
+    <sys:String x:Key="BrowseVideo">Browse videos</sys:String>
+
+    <sys:String x:Key="Text">Text</sys:String>
+    <sys:String x:Key="Performance">Performace</sys:String>
+
+    <sys:String x:Key="BackgroundAndAccentColor">Home background and theme color</sys:String>
+    <sys:String x:Key="BackgroundAndAccentColorDescription">Home background and theme color can be bound or set separately.</sys:String>
+    <sys:String x:Key="Font">Font</sys:String>
+    <sys:String x:Key="FontDescription">When LauncherX cannot find a corresponding glyph in the preferred font, it will query the alternative fonts. You can check how it looks through font preview.</sys:String>
+
+    <sys:String x:Key="RetrySearch">Retry Search</sys:String>
+    <sys:String x:Key="JavaToolTip">If a Java-related error prompt pops up on your system, please close the prompt and try to reinstall your Java instance.</sys:String>
+
+    <sys:String x:Key="ResourceCheckMaxDegreeOfParallelism">Resource check maximum parallelism</sys:String>
+
+    <sys:String x:Key="JavaDescription">Note the symbol before the path in the Java combo box, which indicates the launcher's determination of the availability of the corresponding Java.</sys:String>
+    <sys:String x:Key="MemorySizeDescription">It is recommended to allocate more than 512MB of memory to Minecraft to avoid memory overflow when the game is running.</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGames">Separate settings for each game version</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGamesDescription">The settings made on this page will be applied as defaults to all game versions. You can select a game in the game list and then change the settings for each game in the details.</sys:String>
+
+    <sys:String x:Key="ResetAllSettingsDescription">After clicking the "Reset Configuration" button, LauncherX will delete its own configuration file and close. Note: Deleted configurations cannot be restored.</sys:String>
+
+    <sys:String x:Key="Framework">Framework</sys:String>
+    <sys:String x:Key="Runtime">Runtime</sys:String>
+    <sys:String x:Key="LauncherCoreVersion">ProjBobcat(Launch Core) Version</sys:String>
+
+    <sys:String x:Key="NoMoreNewApplication">No new application</sys:String>
+
+    <sys:String x:Key="SelectAccount">Select Account</sys:String>
+    <sys:String x:Key="CopyFromClipBoard">Copy from Clipboard</sys:String>
+    <sys:String x:Key="CopyToClipBoard">Copy to Clipboard</sys:String>
+
+    <sys:String x:Key="UseOneTimeCode">Use one-time verification code</sys:String>
+    <sys:String x:Key="LoginToMsAccount">Sign in to your Microsoft account</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction1">Use the browser that comes with your device to access the URL:</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction2">And follow the prompts on the web page to enter the one-time verification code displayed by LauncherX.</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction3">Once the above is complete, LauncherX will automatically complete the remaining steps and add your account to the launcher.</sys:String>
+
+    <sys:String x:Key="ModDependencies">Mod dependencies</sys:String>
+
+    <sys:String x:Key="CreateFolder">Create Folder</sys:String>
+
+    <sys:String x:Key="FailedToInstallCurseForgePackError">Unable to install CurseForge dependencies, please try again later. This is usually caused by a problem with the download source, but may also be caused by network fluctuations or other factors.</sys:String>
+    <sys:String x:Key="DownloadFailedLibError">Library download failed: {0} File name: {1} Download link: {2} Download path: {3}</sys:String>
+    <sys:String x:Key="CompletionFailedMessage">The library files required to start the game failed to download. You can wait for a while and try to start again.</sys:String>
+
+    <sys:String x:Key="AuthLibInstallMessage1">Third-party authentication service found, ready to download Authlib-Injector</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage2">Successfully downloaded the latest version of Authlib-Injector information, start checking </sys:String>
+    <sys:String x:Key="AuthLibInstallMessage3">Authlib-Injector downloaded. Configurating...</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage4">Start prefetching server configuration</sys:String>
+    <sys:String x:Key="AuthLibInstallErrorMessage">Unable to get the latest version of Authlib-Injector, possibly a network error.</sys:String>
+
+    <sys:String x:Key="DownloadFileCountMessage1">{0} downloadable items</sys:String>
+
+    <sys:String x:Key="UnknownWindow">Unknown Window</sys:String>
+    <sys:String x:Key="SaveExportedModPack">Save exported Modpack</sys:String>
+    <sys:String x:Key="UnableToDeleteGame">Unable to delete game {0}</sys:String>
+    <sys:String x:Key="UnableToDeleteGameDetail">An error occurred while trying to delete the game, please try to delete it manually! {0}</sys:String>
+    <sys:String x:Key="LocalAccountManagement">Local account management</sys:String>
+
+    <sys:String x:Key="SystemAccentColorBackground">System theme color</sys:String>
+    <sys:String x:Key="GlassBackground">Glass Background</sys:String>
+
+    <sys:String x:Key="FailedToCheckJavaInfoDetail">Unable to query Java information, exception information: {0}</sys:String>
+    <sys:String x:Key="FailedToCheckSpecificPathJavaInfoDetail">Unable to get Java virtual machine information with path [{0}], output: {1}, error message: {2}</sys:String>
+    <sys:String x:Key="UnknownJreArch">Unknown Java architecture [{0}]</sys:String>
+    <sys:String x:Key="UnmatchedJavaArchWarning">
+        Mismatched system architecture and Java runtime architecture detected:
+        Current system architecture: {0}
+        Current Java architecture: {1}
+        Using a Java runtime that does not match your system may result in severe degradation of game performance and experience!
+	</sys:String>
+
+	
+	<sys:String x:Key="Colored">Colored</sys:String>
+    <sys:String x:Key="HighContrastColored">High Contrast Colored</sys:String>
+    <sys:String x:Key="VersionCompatibleMcVersionDetail">This version is compatible with {0} Minecraft versions in total</sys:String>
+
+    <sys:String x:Key="Ascending">Ascend</sys:String>
+    <sys:String x:Key="Descending">Desend</sys:String>
+
+	<sys:String x:Key="NatTypeUnclassified">Unclassified - {0}</sys:String>
+    <sys:String x:Key="NatTypeUnclassifiedDetail">Current NAT type: Unclassified - 1, Unknown online experience</sys:String>
+
+    <sys:String x:Key="CurseForgeModPack">CurseForge Modpack</sys:String>
+    <sys:String x:Key="ModrinthModPack">Modrinth Modpack</sys:String>
+
+    <sys:String x:Key="EmbeddedLibrary">Embedded Library</sys:String>
+    <sys:String x:Key="OptionalDependency">Optional Dependency</sys:String>
+    <sys:String x:Key="RequiredDependency">Required Dependency</sys:String>
+    <sys:String x:Key="Tool">Tool</sys:String>
+    <sys:String x:Key="Incompatible">Incompatible</sys:String>
+    <sys:String x:Key="Include">Included</sys:String>
+
+    <sys:String x:Key="NoEnoughMemory">Minecraft does not have enough running memory</sys:String>
+    <sys:String x:Key="NoEnoughMemory32">Minecraft does not have enough memory when using a 32-bit Java runtime or a 32-bit operating system</sys:String>
+    <sys:String x:Key="JavaVersionTooHigh">Java runtime version is too high</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersion">Unsupported Java runtime version</sys:String>
+    <sys:String x:Key="JdkUse">Crashed when using JDK or higher version of Java runtime</sys:String>
+    <sys:String x:Key="OpenJ9Use">Crashed when using OpenJ9</sys:String>
+    <sys:String x:Key="UnableToSetPixelFormat">Using a problematic graphics card driver results in the inability to set the pixel format</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriver">Not using a discrete graphics card or having a problematic Intel graphics driver</sys:String>
+    <sys:String x:Key="UnsupportedAmdDriver">Unsupported AMD graphics driver</sys:String>
+    <sys:String x:Key="UnsupportedNvDriver">Unsupported Nvidia graphics driver</sys:String>
+    <sys:String x:Key="ModCausedGameCrash">Mod causes game to crash</sys:String>
+    <sys:String x:Key="DecompressedMod">Startup failure due to unzipping the module</sys:String>
+    <sys:String x:Key="IncorrectModConfig">Incorrect Mod configuration</sys:String>
+    <sys:String x:Key="ModMixinFailed">Mod injection failed</sys:String>
+    <sys:String x:Key="ModLoaderError">The mod loader reported an error</sys:String>
+    <sys:String x:Key="ModInitFailed">Mod initialization failed</sys:String>
+    <sys:String x:Key="ModIdExceeded">The number of installed Mods exceeds the maximum number limit</sys:String>
+    <sys:String x:Key="DuplicateMod">Duplicate Mods</sys:String>
+    <sys:String x:Key="GpuDoesNotSupportOpenGl">Graphics card does not support OpenGL</sys:String>
+    <sys:String x:Key="OpenGl1282Error">Texturepack or Shaderspack cause OpenGL errors</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFine">World loading failure caused by Optifine</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpu">The Texturepack or Shaderspack too large or the graphics card </sys:String>
+    <sys:String x:Key="FabricError">Fabric Error</sys:String>
+    <sys:String x:Key="FabricErrorWithSolution">Fabric Error(with solution)</sys:String>
+    <sys:String x:Key="ForgeError">Forge Error</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJava">Older versions of Forge cannot use higher versions of the Java runtime</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJson">Multiple Forge configurations found in version Json</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifine">Forge is not compatible with Optifine</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFound">Main class not found or path encoding is incorrect</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrash">Manually triggered debug crash</sys:String>
+    <sys:String x:Key="ContentValidationFailed">Content verification failed</sys:String>
+    <sys:String x:Key="BlockCausedGameCrash">Certain blocks cause the game to crash</sys:String>
+    <sys:String x:Key="EntityCausedGameCrash">Certain entities cause the game to crash</sys:String>
+    <sys:String x:Key="LogFileNotFound">No log files found for analysis</sys:String>
+
+	<sys:String x:Key="NoEnoughMemoryDetail">Minecraft cannot continue to run, either because you have insufficient memory allocated to the game or because the game settings are too high. You can solve the problem by increasing the memory allocated by the game and removing demanding Texturepacks, Mods, and Shaderpacks. If none of these methods work, you can try closing other software before playing, or consider switching to a different computer.</sys:String>
+	<sys:String x:Key="NoEnoughMemory32Detail">It looks like you are using 32-bit Java, which may cause Minecraft to be unable to use more than 1GB of memory, resulting in a crash. To resolve this issue, switch to 64-bit Java in the Java selection in the launch settings before launching the game. If you do not have 64-bit Java installed, you can click [Get Java] in the Global Game Settings tab to install it.</sys:String>
+	<sys:String x:Key="JavaVersionTooHighDetail">The game seems to have crashed because you are using an older version of Java. To resolve this issue, switch to a lower version of Java in the Java selection in the launch settings before launching the game. If you do not have Java installed, you can click [Get Java] in the Global Game Settings tab to install it.</sys:String>
+	<sys:String x:Key="UnsupportedJavaVersionDetail">The Java you are currently using is incompatible with the game. Please switch to the appropriate Java in the Java selection of the startup settings before launching the game. If you do not have Java installed, you can click [Get Java] in the Global Game Settings tab to install it.</sys:String>
+	<sys:String x:Key="JdkUseDetail">The game crashes due to using a JDK or an older Java version. To resolve this issue, switch to JRE in the Java selection of the launch settings before launching the game.</sys:String>
+	<sys:String x:Key="OpenJ9UseDetail">The game crashes because it uses OpenJ9. To resolve this issue, switch to a non-OpenJ9 Java in the Java selection in the launch settings before launching the game.</sys:String>
+	<sys:String x:Key="UnsupportedIntelDriverDetail">There is a problem with your graphics card driver or you are not using a discrete graphics card, causing the game to not run properly. To resolve this issue, try using the discrete graphics card instead of Intel graphics when launching LauncherX and Minecraft. If the problem persists, try upgrading the graphics card driver to the latest version or rolling back to the factory version. If the problem persists, you can try Java8 or lower. If the problem still cannot be solved, you may need to consider replacing the graphics card with a better performance.</sys:String>
+    
+    <sys:String x:Key="VideoDriverErrorDetail">There is a problem with your graphics card driver, causing the game to not run properly. In order to solve this problem, please try to upgrade the graphics card driver to the latest version or roll back to the factory version, and then start the game again. If the problem persists, you can try Java8 or lower. If the problem still cannot be solved, you may need to consider replacing the graphics card with a better performance.</sys:String>
+
+	<sys:String x:Key="ModCausedGameCrashDetail">One or more mods in the game you are currently launching cause the game to crash. You can find relevant information about the mods that cause the crash in the detailed information below and try to temporarily disable or replace these mods.</sys:String>
+	<sys:String x:Key="DecompressedModDetail">The game cannot continue to run because the mod file has been decompressed. To fix this, place the entire mod file into the [mods] folder without unzipping it. If you have unzipped the mod files, delete them from the [mods] folder before launching the game.</sys:String>
+	<sys:String x:Key="IncorrectModConfigDetail">One or more configuration files of the mod are incorrect, causing the startup to fail. You can find the specific configuration file name in the details below and correct its error.</sys:String>
+	<sys:String x:Key="ModMixinFailedDetail">One or more mods failed to inject, causing the startup to fail. This usually means you are using a problematic mod or a mod that is not supported by the current version of the game. You can find specific mod information in the details below.</sys:String>
+	<sys:String x:Key="ModLoaderErrorDetail">The mod loader reported one or more errors. You can view the specific reasons for the errors in the details below.</sys:String>
+	<sys:String x:Key="ModInitFailedDetail">One or more mods failed to initialize and the game cannot continue to load. Please look for module-related error messages in the details below.</sys:String>
+	<sys:String x:Key="ModIdExceededDetail">You have installed too many mods that exceed the game's ID limit, causing the game to crash. To solve this problem, you can try installing some repair mods like JEID, or remove some large mods. This can help you reduce the number of mods and make the game more stable.</sys:String>
+	<sys:String x:Key="DuplicateModDetail">You have installed multiple identical mods repeatedly. Each mod can only be installed once at most. Please find the corresponding name of the module in the details below and delete the duplicate mods in the [mods] folder.</sys:String>
+	
+	<sys:String x:Key="OpenGl1282ErrorDetail">The lights, shadows or materials you use may cause problems in the game. It is recommended that you try to delete these extra resources and then start the game again. This usually resolves some issues related to game resources.</sys:String>
+	<sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">The problem with your game may be due to the version of OptiFine being used that is incompatible with the game (https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world). This problem will only occur in some versions of OptiFine. It is recommended that you change the version of OptiFine and then start the game again. You can go to the official website of OptiFine to download the latest version and install it, or choose another version of OptiFine to install.</sys:String>
+	<sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">Your game may not run properly due to using a render distance that is too high. Please try lowering the render distance a bit in the game settings, such as reducing the view distance and chunk loading distance options. If the problem persists, you may need to update your graphics card driver or replace it with a higher-performance graphics card.</sys:String>
+	<sys:String x:Key="FabricErrorDetail">Fabric may have reported one or more errors, please try to view the specific error information in the details below.</sys:String>
+	<sys:String x:Key="FabricErrorWithSolutionDetail">Fabric may have reported one or more errors and may have provided a solution. Please try to view the specific error information in the details below.</sys:String>
+	<sys:String x:Key="ForgeErrorDetail">Forge may have reported one or more errors, please try to view the specific error information in the details below</sys:String>
+	<sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">If your Forge version is lower than 36.2.26, then you can try to update Forge to 36.2.26 or higher. If you are already using Forge version 36.2.26 or higher, you may need to change your Java version. When using Forge, please pay attention to check whether the version of Forge is compatible with the Java version used to avoid such errors.</sys:String>
+	<sys:String x:Key="MultipleForgeInVersionJsonDetail">The game crash may be caused by using another launcher to modify the Forge version, causing the current version of the file to be abnormal. To resolve this issue, try a clean installation of Forge and do not use other launchers to modify the Forge version.</sys:String>
+	<sys:String x:Key="IncompatibleForgeAndOptifineDetail">The game crashes because OptiFine is incompatible with the current version of Forge. Please go to the OptiFine official website (https://optifine.net/downloads) to check the Forge version that is compatible with OptiFine, and reinstall the game according to the corresponding version.</sys:String>
+	<sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">The game fails to load due to incorrect path encoding or a missing main class due to a corrupted game installation. You can try to place the game directory in a directory that does not contain Chinese or other special characters, or try to reinstall the game. If none of the above issues resolve the issue, please report it to the developer.</sys:String>
+	<sys:String x:Key="ManuallyTriggeredDebugCrashDetail">You manually triggered a debug crash.</sys:String>
+	<sys:String x:Key="ContentValidationFailedDetail">The game encountered a verification failure, possibly due to network issues during download. You can try deleting the game (including mods) and re-downloading it, or ensure the stability of your network connection when re-downloading.</sys:String>
+	<sys:String x:Key="BlockCausedGameCrashDetail">A block in the game is causing the game to crash, please find the specific information about the block (ID, coordinates, etc.) in the details below and try to delete the block using the world editor. If you still can't resolve the issue, try recreating the world or consider other issues.</sys:String>
+	<sys:String x:Key="EntityCausedGameCrashDetail">An entity in the game is causing the game to crash, please find specific information about the entity (ID, coordinates, etc.) in the details below and try to delete the entity using the world editor. If you still can't resolve the issue, try recreating the world or consider other issues.</sys:String>
+	<sys:String x:Key="LogFileNotFoundDetail">The analyzer lacks sufficient log files to create an analysis report, please try contacting the developer.</sys:String>
+    <sys:String x:Key="OtherCausedGameCrashDetail">The game crashed for an unknown reason, please try contacting the developer.</sys:String>
+
+    <sys:String x:Key="DirectConnect">Direct Connect</sys:String>
+
+    <sys:String x:Key="ArchiveCorrupted">Archive corrupted, failed to read the contents of the archive file.</sys:String>
+    <sys:String x:Key="ModPackJsonCorruptedDetail">Manifest corrupted, failed read the contents of the manifest file. {0}</sys:String>
+    <sys:String x:Key="NetworkUnstable">This is usually caused by network fluctuations.</sys:String>
+    <sys:String x:Key="FailedToLoadModPack">Unable to load modpack information</sys:String>
+    <sys:String x:Key="FailedToLoadModPackDetail">Unable to load {0} modpack details, but you can still try to continue the installation. Details: {1}</sys:String>
+
+    <sys:String x:Key="InvalidPath">Invalid path</sys:String>
+    <sys:String x:Key="FailedToLoadOriginalGameInfo">Unable to load original game information, it may be a network problem.</sys:String>
+
+    <sys:String x:Key="NeoForgedDescription">NeoForged is a new development fork derived from Minecraft Forge, formed by most of the original Forge developers.</sys:String>
+    <sys:String x:Key="QuiltDescription">The Quilt Project is an open source, community-driven modding toolchain designed primarily for Minecraft.</sys:String>
+
+    <sys:String x:Key="FailedToReadFromClipBoard">Unable to read content from clipboard.</sys:String>
+    <sys:String x:Key="FolderDraggedOrFileNotExists">The file does not exist or you dragged a folder</sys:String>
+    <sys:String x:Key="FileTypeUnknownDetail">File {0} contains an unknown file type</sys:String>
+
+    <sys:String x:Key="FailedToReadUpdatedFile">Unable to read the downloaded update file, please try to update manually!</sys:String>
+    <sys:String x:Key="DownloadedUpdateDoesNotContainExecutable">Downloaded update file does not contain the application, please contact your system administrator!</sys:String>
+    <sys:String x:Key="DownloadedUpdateHashUnmatched">The hash value of the downloaded update file is not as expected, please contact the system administrator!</sys:String>
+    <sys:String x:Key="FailedToInitFileStream">Unable to initialize file stream, please contact your system administrator!</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedMessage">Update downloaded. Click OK to open the downloaded update compressed package, and then manually replace the old application after decompression. After clicking OK, the program will automatically exit.</sys:String>
+
+    <sys:String x:Key="Customization">Customization</sys:String>
+    <sys:String x:Key="ModPack">Modpack</sys:String>
+    <sys:String x:Key="BukkitPlugins">Bukkit Plugins</sys:String>
+    <sys:String x:Key="Addons">Addons</sys:String>
+    <sys:String x:Key="Worlds">Worlds</sys:String>
+    <sys:String x:Key="Mods">Mods</sys:String>
+
+	<sys:String x:Key="FailedToSaveUserSettingsDetail">Unable to save user settings at the moment, please try again later.</sys:String>
+    <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">The room cannot be created because the room name is empty</sys:String>
+    <sys:String x:Key="FailedToCreateGroupDetail">The group could not be created, possibly due to a network problem or server error. Reason returned by the server: {0}</sys:String>
+    <sys:String x:Key="RoomDismissed">Room Dismissed</sys:String>
+    <sys:String x:Key="RoomDismissedDetail">Room dismissed by the host, and you have left the room. Hope to see you again! </sys:String>
+    <sys:String x:Key="Joined">Joined the room</sys:String>
+    <sys:String x:Key="Left">Left the room</sys:String>
+    <sys:String x:Key="Kicked">Kicked by the host</sys:String>
+    <sys:String x:Key="Disconnected">Disconnected</sys:String>
+    <sys:String x:Key="RoomMemberChanged">Room member changed</sys:String>
+    <sys:String x:Key="FailedToJoinRoomDetail">Unable to join the group, it may be due to network problems or server errors, or the room number or password is wrong. Reason returned by the server: {0}</sys:String>
+    <sys:String x:Key="FailedToKickMember">Failed to kick member</sys:String>
+    <sys:String x:Key="FailedToKickSelf">Really? Trying to kick yourself out?</sys:String>
+    <sys:String x:Key="FailedToKickMemberDetail">Unable to kick members, possibly due to network issues or server errors. Reason returned by the server: {0}</sys:String>
+    <sys:String x:Key="MemberKicked">Member Kicked!</sys:String>
+    <sys:String x:Key="MemberKickedDetail">Member {0} successfully kicked. What have they done?</sys:String>
+    <sys:String x:Key="RoomExited">Room Exited</sys:String>
+    <sys:String x:Key="RoomExitedDetail">You have exited the room or the room has been dismissed by the host! See ya!</sys:String>
+
+    <sys:String x:Key="ThirdPartyLogin">Third-party Login</sys:String>
+
+    <sys:String x:Key="SaveSupportPack">Save Support Pack</sys:String>
+    <sys:String x:Key="TryLaunchedGame">Try Launching Game</sys:String>
+    <sys:String x:Key="GameResourcePath">Game Resource Path</sys:String>
+    <sys:String x:Key="GameVersion">Game Version</sys:String>
+    <sys:String x:Key="VersionInsulation">Version Insulation</sys:String>
+	<sys:String x:Key="Authenticator">Authenticator</sys:String>
+    <sys:String x:Key="MinMemoryInMb">Minimum Memory(MB)</sys:String>
+    <sys:String x:Key="MaxMemoryInMb">Maximum Memory(MB)</sys:String>
+
+    <sys:String x:Key="GameResourceNotFound">Game Resource Not Found</sys:String>
+    <sys:String x:Key="GameResourceNotFoundDetail">The resource does not exist for this game: {0}, the tag has been hidden.</sys:String>
+    <sys:String x:Key="ChooseModPackFile">Select Gamepack file</sys:String>
+    <sys:String x:Key="SinceNow">Since</sys:String>
+    <sys:String x:Key="Published">Released</sys:String>
+    <sys:String x:Key="NumVersion">{0} Versions</sys:String>
+    <sys:String x:Key="SearchOnTheInternet">Seach on internet:</sys:String>
+
+    <sys:String x:Key="GameNotInstall">Game not installed</sys:String>
+    <sys:String x:Key="GameNotInstallDetail">Oops! No game installed yet! Go to [Download] in navigation to get a game!</sys:String>
+    <sys:String x:Key="GameNotSelectDetail">You haven't pinned a game yet. Please select a game in the list and click the pin icon on the right to pin it.</sys:String>
+    <sys:String x:Key="StartLaunchGame">Start trying launching game...</sys:String>
+    <sys:String x:Key="RunningOldMineCraftUsingArm64JreWarning">
+        Detected that the current system and Java runtime architecture are both Arm64.
+        However, because you may be running an older version of Minecraft instance, the runtime included in the instance may not run properly on Arm64 systems.
+        You can try to continue launching, and if problems occur try switching to the Java runtime for the X86 architecture and try launch again.
+	</sys:String>
+    <sys:String x:Key="JreVersionTooHighWarning">
+        The Java version you are currently selecting [{0}] is higher than the version required by the game [{1}].
+        While using a new version of Java may improve game performance, it may also cause the game to not run properly.
+        If the game doesn't run properly, try switching to the Java version the game requires.
+	</sys:String>
+    <sys:String x:Key="FailedToInitAuthenticator">Failed to Initialize Authenticator</sys:String>
+    <sys:String x:Key="FailedToInitAuthenticatorDetail">Failed to initialize authenticator, please check the validity of the account</sys:String>
+    <sys:String x:Key="CurrentLaunchSettings">Current launch configuration:</sys:String>
+    <sys:String x:Key="LauncherRunningUnderTranslationWarning">
+        It has been detected that LauncherX may be running in an X86 environment emulated by an ARM64 processor. Running LauncherX on a translation layer may cause performance impact and unexpected exceptions.
+        Problems that may result from running with a translation layer:
+         - Unable to correctly identify and detect the running status of the Java runtime
+         - Severe experience and performance degradation
+         - Some functions are abnormal
+
+        Please reconfirm your system architecture and re-download LauncherX.
+	</sys:String>
+	<sys:String x:Key="TryingToLoginToCsAccount">Logging in Corona Account...</sys:String>
+    <sys:String x:Key="FailedToLoginToCsAccount">Failed to log into Corona Account</sys:String>
+    <sys:String x:Key="LoggedIntoCsAccount">Successfully logged into the Corona Account</sys:String>
+    <sys:String x:Key="OpenDeviceManagementPage">Open device management page and logout</sys:String>
+    <sys:String x:Key="LogoutAndReturn">Logout and Return</sys:String>
+
+    <sys:String x:Key="InstallOptifineAsMod">Install Optifine as a MOD</sys:String>
+    <sys:String x:Key="InstallOptifineAsModDetail">Optifine will be installed into Fabric as a mod. After the installation is complete, you need to manually download and install the OptiFabric mod to add it to Fabric. You can find this mod in the Downloads-CurseForge tab.</sys:String>
+    <sys:String x:Key="EnterOfflineModeDetail">Entered offline mode. Most features will be disabled!</sys:String>
+    
+    <sys:String x:Key="NewFileDragged">You dragged in a new file</sys:String>
+    <sys:String x:Key="TryingToDetermineFileType">Trying to automatically confirm the file's type</sys:String>
+    <sys:String x:Key="FileTypeDetected">Successfully identified, possible file types:</sys:String>
+
+    <sys:String x:Key="DownloadReadyToRunBuild">Download the ReadyToRun build</sys:String>
+    <sys:String x:Key="DownloadReadyToRunBuildDetail">Launcher binaries compiled with ReadyToRun will have higher theoretical performance, but the size of the launcher body will also increase.</sys:String>
+
+    <sys:String x:Key="CheckCSKBArticle">Check CSKB article</sys:String>
+    <sys:String x:Key="MojangNoArm64JreSupportWarning">Mojang currently does not officially support the download of the Arm64 version of JRE. Therefore, please refer to the Corona Knowledge Base or tutorials on the Internet to install the runtime manually.</sys:String>
+
+    <sys:String x:Key="DataCollectionOptions">Data collection options</sys:String>
+    <sys:String x:Key="DataCollectionOptionsDetail">LauncherX uses Azure Application Insight to collect some key operating data and crash information, which can better help us understand the user experience and promptly fix problems that affect the experience.</sys:String>
+    <sys:String x:Key="EnableTelemetry">Enable telemetry</sys:String>
+    <sys:String x:Key="DataCollectionManifest">Data collection checklist</sys:String>
+    <sys:String x:Key="DataCollectionTitle1">LauncherX collects and transmits </sys:String>
+    <sys:String x:Key="DataCollectionTitle2">but not limited to </sys:String>
+    <sys:String x:Key="DataCollectionTitle3">the data in the following table helps us improve:</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail1">- Configuration information of the user's device</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail2">- Device name</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail3">- Network activity within the launcher</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail4">- Task scheduling details within the launcher</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail5">- Any log messages generated by the launcher</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail6">- Some launcher action events</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail7">- Crash information</sys:String>
+
+    <sys:String x:Key="CurseForgeApiLimitWarning">Due to API limitations, we can only display requests up to 10,000 items. If you want to see more projects, please visit the CurseForge official website yourself.</sys:String>
+    <sys:String x:Key="InTotal">in total</sys:String>
+    <sys:String x:Key="Pages">page</sys:String>
+
+    <sys:String x:Key="ModNotFoundDetail">No mods were found, or some mods were damaged and not displayed.</sys:String>
+    <sys:String x:Key="GoToDownloadPage">Download Content</sys:String>
+
+    <sys:String x:Key="HiveVersion">Hive Version</sys:String>
+    <sys:String x:Key="ConnectXVersion">ConnectX Version</sys:String>
+
+    <sys:String x:Key="PinAccountAtAccountPage">Pin Account at Account Page</sys:String>
+    <sys:String x:Key="CheckJreStatus">Check Java Status</sys:String>
+    <sys:String x:Key="DeepSearch">Deep Search</sys:String>
+    <sys:String x:Key="DeepSearchDetail">When using Deep Search for Java, LauncherX will search all disks on your local computer looking for Java. Depending on the performance of your computer and the number of disks, this process may take tens of seconds or even longer.</sys:String>
+    
+    <sys:String x:Key="UseProgressiveBlur">Use Progressive Blur</sys:String>
+    <sys:String x:Key="ProgressiveBlurStrength">Progressive Blur Effect Strength</sys:String>
+    <sys:String x:Key="ShowUpperTextShadow">Show upper text shadow</sys:String>
+    <sys:String x:Key="ImagePlusEffect">Background parallax effect</sys:String>
+    <sys:String x:Key="UseSystemAccentColorAsPrimaryColor">System theme as primary color</sys:String>
+
+    <sys:String x:Key="CheckUpnpStatusDetail">Please check whether you have enabled the UPNP function of the router. If it is already enabled, please check whether you are in a network environment with multi-layer routing.</sys:String>
+    <sys:String x:Key="Operation">Operation</sys:String>
+    <sys:String x:Key="LeaveRoom">Leave Room</sys:String>
+    <sys:String x:Key="DisconnectService">Disconnect Service</sys:String>
+    <sys:String x:Key="KickFromRoom">Kick from room</sys:String>
+
+    <sys:String x:Key="MojangApiLimitWarning">Due to the request limit of the official API, we do not recommend using a thread count greater than 5 when using the Mojang download source. This can cause a large number of failed requests.</sys:String>
+
+    <sys:String x:Key="Sponsor">Sponsors</sys:String>
+    <sys:String x:Key="SponsorPageSubTitle">The development and growth of LauncherX is inseparable from the full support of every sponsor!</sys:String>
+    <sys:String x:Key="SponsorSourceDetail">This list of sponsors comes from the [Afdian] platform. In no particular order, the list is updated once a day and only displays some of the latest sponsorship records.</sys:String>
+    <sys:String x:Key="SponsorList">Sponsor List</sys:String>
+
+    <sys:String x:Key="LoginToCsAccountForMoreFeatures">Login to your Corona Account to use more features</sys:String>
+    <sys:String x:Key="ClickAccountCardToPreview">Click account card on the right to preview</sys:String>
+    <sys:String x:Key="SwitchTo3DView">Switch to 3D View</sys:String>
+    <sys:String x:Key="ThreeDOptions">3D Option</sys:String>
+    <sys:String x:Key="EnableAnimation">Enable Animation</sys:String>
+    <sys:String x:Key="DisableAnimation">Disable Animation</sys:String>
+    <sys:String x:Key="ShowUpperSkin">Show Upper Skin</sys:String>
+    <sys:String x:Key="HideUpperSkin">Hide Upper Skin</sys:String>
+    <sys:String x:Key="ShowCape">Show Cape</sys:String>
+    <sys:String x:Key="HideCape">Hide Cape</sys:String>
+	<sys:String x:Key="SwitchTo2DView">Switch to 2D View</sys:String>
+
+    <sys:String x:Key="LoadingModInfo">Loading Mod information, hang tight...</sys:String>
+
+	<sys:String x:Key="AddGameResource">Add game resources</sys:String>
+    <sys:String x:Key="Logs">Logs</sys:String>
+    <sys:String x:Key="ExportAs">Export as</sys:String>
+
+    <sys:String x:Key="LoadLargeItemWarning">The interface may freeze temporarily when loading some large projects, please give it a second.</sys:String>
+
+    <sys:String x:Key="CurrentStatus">Current Status:</sys:String>
+
+    <sys:String x:Key="Source">Source</sys:String>
+    <sys:String x:Key="Solution">Solution</sys:String>
+    <sys:String x:Key="GenerateSupportPack">Generate Support Pack</sys:String>
+
+    <sys:String x:Key="GameProcessExited">Game Process Exited</sys:String>
+    <sys:String x:Key="Back">Back</sys:String>
+    <sys:String x:Key="InOfflineDetail">Offline, most functionality disabled.</sys:String>
+    <sys:String x:Key="TryingToAutoLogin">Trying to relogin...</sys:String>
+
+    <sys:String x:Key="LoadingMainWindow">Loading Main Interface</sys:String>
+    <sys:String x:Key="MainWindowLoaded">Main Interface Loaded</sys:String>
+    <sys:String x:Key="MultipleDragNotSupport">Main interface currently does not support multiple file drag and drop functions.</sys:String>
+    <sys:String x:Key="UnsupportedFunction">Features not supported yet</sys:String>
+    <sys:String x:Key="FailedToGetDraggedFilePath">Unable to get path of dragged file</sys:String>
+    <sys:String x:Key="FilePathEmpty">File path is empty</sys:String>
+    <sys:String x:Key="FileDragEventTriggered">File drag and drop event triggered</sys:String>
+    <sys:String x:Key="OfficialWebsite">Official website</sys:String>
+
+    <sys:String x:Key="PreviousPage">Previous</sys:String>
+    <sys:String x:Key="NextPage">Next</sys:String>
+
+    <sys:String x:Key="Month">Month</sys:String>
+
+    <sys:String x:Key="Yesterday">yesterday</sys:String>
+    <sys:String x:Key="DayBeforeYesterday">day before yesterday</sys:String>
+
+    <sys:String x:Key="More">More</sys:String>
+    <sys:String x:Key="Compatibility">Compatibility</sys:String>
+
+     <sys:String x:Key="Fishing">Fishing</sys:String>
+    <sys:String x:Key="Sleeping">Sleeping</sys:String>
+    <sys:String x:Key="Busy">Busy</sys:String>
+    <sys:String x:Key="Happy">HAPPY!</sys:String>
+    <sys:String x:Key="Emo">EMO</sys:String>
+    <sys:String x:Key="Studying">Studying</sys:String>
+    <sys:String x:Key="Eating">Eating</sys:String>
+
+    <sys:String x:Key="X">( ͡° ͜ʖ ͡°)</sys:String>
+
+    <sys:String x:Key="ResourcePackNotFoundDetail">Resourcepack Not Found</sys:String>
+    <sys:String x:Key="ScreenshotNotFoundDetail">Screenshots Not Found</sys:String>
+    <sys:String x:Key="ShaderPackNotFoundDetail">Shaderpack Not Found</sys:String>
 
 </ResourceDictionary>
