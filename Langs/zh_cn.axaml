@@ -402,7 +402,7 @@
     <sys:String x:Key="TranslationContributor">翻译贡献者</sys:String>
 
     <sys:String x:Key="Thanks">鸣谢</sys:String>
-    <sys:String x:Key="Thanks1">感谢由 BangBang93 以及 McBbs 提供的 MineCraft 资源文件下载加速服务</sys:String>
+    <sys:String x:Key="Thanks1">感谢由 BangBang93 以及 McBbs 提供的 Minecraft 资源文件下载加速服务</sys:String>
     <sys:String x:Key="Thanks2">感谢由 优势科技-星星 赞助的服务器</sys:String>
     <sys:String x:Key="Thanks3">感谢 CI010 为 ProjBobcat 启动核心开发提供的技术指导</sys:String>
 
@@ -832,7 +832,7 @@
 
     <sys:String x:Key="User">用户</sys:String>
     <sys:String x:Key="ManageAccount">账户管理</sys:String>
-    <sys:String x:Key="SavedGameAccount">名下的游戏账户</sys:String>
+    <sys:String x:Key="SavedGameAccount">保存的游戏账户</sys:String>
     <sys:String x:Key="Reset">重置</sys:String>
     <sys:String x:Key="SetOfflineSkin">设置离线皮肤</sys:String>
 
@@ -942,7 +942,7 @@
 	
 	<sys:String x:Key="Colored">着色</sys:String>
     <sys:String x:Key="HighContrastColored">高对比度着色</sys:String>
-    <sys:String x:Key="VersionCompatibleMcVersionDetail">该版本兼容共 {0} 个 MineCraft 版本</sys:String>
+    <sys:String x:Key="VersionCompatibleMcVersionDetail">该版本兼容共 {0} 个 Minecraft 版本</sys:String>
 
     <sys:String x:Key="Ascending">升序</sys:String>
     <sys:String x:Key="Descending">降序</sys:String>
@@ -960,8 +960,8 @@
     <sys:String x:Key="Incompatible">不兼容</sys:String>
     <sys:String x:Key="Include">包含</sys:String>
 
-    <sys:String x:Key="NoEnoughMemory">MineCraft 没有足够的运行内存</sys:String>
-    <sys:String x:Key="NoEnoughMemory32">使用 32 位 Java 运行时或 32 位 操作系统导致 MineCraft 没有足够的内存</sys:String>
+    <sys:String x:Key="NoEnoughMemory">Minecraft 没有足够的运行内存</sys:String>
+    <sys:String x:Key="NoEnoughMemory32">使用 32 位 Java 运行时或 32 位 操作系统导致 Minecraft 没有足够的内存</sys:String>
     <sys:String x:Key="JavaVersionTooHigh">Java 运行时版本过高</sys:String>
     <sys:String x:Key="UnsupportedJavaVersion">不受支持的 Java 运行时版本</sys:String>
     <sys:String x:Key="JdkUse">使用 JDK 或高版本 Java 运行时导致崩溃</sys:String>
@@ -1042,7 +1042,7 @@
     <sys:String x:Key="InvalidPath">无效的路径</sys:String>
     <sys:String x:Key="FailedToLoadOriginalGameInfo">无法加载原版游戏信息，可能是网络问题。</sys:String>
 
-    <sys:String x:Key="NeoForgedDescription">NeoForged 是一个源于 MineCraft Forge 的新的开发分支，由大部分原 Forge 开发人员组建。</sys:String>
+    <sys:String x:Key="NeoForgedDescription">NeoForged 是一个源于 Minecraft Forge 的新的开发分支，由大部分原 Forge 开发人员组建。</sys:String>
     <sys:String x:Key="QuiltDescription">Quilt 项目是一个开源、社区驱动的改装工具链，主要为 Minecraft 设计。</sys:String>
 
     <sys:String x:Key="FailedToReadFromClipBoard">无法从剪切板读取内容。</sys:String>
@@ -1106,7 +1106,7 @@
     <sys:String x:Key="StartLaunchGame">开始尝试启动游戏</sys:String>
     <sys:String x:Key="RunningOldMineCraftUsingArm64JreWarning">
         检测到当前系统和 JRE 运行时架构均为 Arm64。
-        但由于您运行的可能是较老版本的 MineCraft 实例，相关实例所包含的运行时可能无法在 Arm64 系统上正常运行。
+        但由于您运行的可能是较老版本的 Minecraft 实例，相关实例所包含的运行时可能无法在 Arm64 系统上正常运行。
         您可以尝试继续启动，如果出现问题请尝试切换到 X86 架构的 JRE 运行时并尝试再次启动。
 	</sys:String>
     <sys:String x:Key="JreVersionTooHighWarning">
@@ -1262,5 +1262,117 @@
     <sys:String x:Key="ScreenshotNotFoundDetail">没有找到任何游戏截图</sys:String>
     <sys:String x:Key="ShaderPackNotFoundDetail">没有找到任何光影</sys:String>
     
+
+    <!-- Curseforge分类 START -->
+    <sys:String x:Key="Teleportation">传送类</sys:String>
+    <sys:String x:Key="LuckyBlocks">幸运方块</sys:String>
+    <sys:String x:Key="BuildingGadgets">建设工具</sys:String>
+    <sys:String x:Key="Buildcraft">建设工艺</sys:String>
+    <sys:String x:Key="Galacticraft">星际mod相关</sys:String>
+    <sys:String x:Key="RolePlaying">角色扮演</sys:String>
+    <sys:String x:Key="HardcoreQuestingMode">极限模式任务</sys:String>
+    <sys:String x:Key="Guidebook">引导书</sys:String>
+    <sys:String x:Key="AdminTools">管理员工具</sys:String>
+    <sys:String x:Key="TinkersConstruct">匠魂相关</sys:String>
+    <sys:String x:Key="BloodMagic">血魔法相关</sys:String>
+    <sys:String x:Key="Progression">进度相关</sys:String>
+    <sys:String x:Key="DeveloperTools">开发工具</sys:String>
+    <sys:String x:Key="Mechanics">机制修改</sys:String>
+    <sys:String x:Key="Miscellaneous">杂项</sys:String>
+    <sys:String x:Key="ChatRelated">聊天系统相关</sys:String>
+    <sys:String x:Key="AntiGriefingTools">反作弊</sys:String>
+    <sys:String x:Key="Mobs">生物</sys:String>
+    <sys:String x:Key="Multiplayer">面向多人游戏</sys:String>
+    <sys:String x:Key="Recipes">合成配方</sys:String>
+    <sys:String x:Key="MapAndInformation">地图和信息</sys:String>
+    <sys:String x:Key="GameMap">游戏地图</sys:String>
+    <sys:String x:Key="MiniGame">小游戏</sys:String>
+    <sys:String x:Key="Medieval">中世纪</sys:String>
+    <sys:String x:Key="Thaumcraft">神秘时代相关</sys:String>
+    <sys:String x:Key="TwitchIntegration">Twitch组件</sys:String>
+    <sys:String x:Key="Creation">创造</sys:String>
+    <sys:String x:Key="PlayerTransport">玩家交通</sys:String>
+    <sys:String x:Key="EnergyFluidAndItemTransport">能量流体和物品传输</sys:String>
+    <sys:String x:Key="Steampunk">蒸汽朋克</sys:String>
+    <sys:String x:Key="Automation">自动化</sys:String>
+    <sys:String x:Key="WorldGen">世界生成</sys:String>
+    <sys:String x:Key="DataPacks">数据包</sys:String>
+    <sys:String x:Key="SmallLight">轻量级</sys:String>
+    <sys:String x:Key="Configuration">配置类</sys:String>
+    <sys:String x:Key="Food">美食模组</sys:String>
+    <sys:String x:Key="WorldEditingAndManagement">世界编辑和管理</sys:String>
+    <sys:String x:Key="Traditional">传统</sys:String>
+    <sys:String x:Key="IndustrialCraft">工业模组相关</sys:String>
+    <sys:String x:Key="APIAndLibrary">前置和依赖</sys:String>
+    <sys:String x:Key="AdventureAndRPG">冒险和角色扮演</sys:String>
+    <sys:String x:Key="FontPacks">字体包</sys:String>
+    <sys:String x:Key="ModdedWorld">修改后的地图</sys:String>
+    <sys:String x:Key="Economy">经济</sys:String>
+    <sys:String x:Key="Scenarios">景观</sys:String>
+    <sys:String x:Key="ServerUtility">服务器工具</sys:String>
+    <sys:String x:Key="Skyblock">空岛</sys:String>
+    <sys:String x:Key="Farming">农业玩法</sys:String>
+    <sys:String x:Key="General">一般</sys:String>
+    <sys:String x:Key="Adventure">冒险类</sys:String>
+    <sys:String x:Key="Hardcore">硬核模组</sys:String>
+    <sys:String x:Key="CombatPvP">战斗</sys:String>
+    <sys:String x:Key="KubeJS">KubeJS脚本</sys:String>
+    <sys:String x:Key="Biomes">生物群系</sys:String>
+    <sys:String x:Key="Energy">能源</sys:String>
+    <sys:String x:Key="ThermalExpansion">热力系列扩展</sys:String>
+    <sys:String x:Key="VanillaPlus">原版增强</sys:String>
+    <sys:String x:Key="UtilityQoL">QoL和工具</sys:String>
+    <sys:String x:Key="Fixes">修复类</sys:String>
+    <sys:String x:Key="FancyMenu">FancyMenu配置</sys:String>
+    <sys:String x:Key="Structures">结构(生成)</sys:String>
+    <sys:String x:Key="ArmorToolsAndWeapons">战斗用品和工具</sys:String>
+    <sys:String x:Key="WorldGenerators">世界生成</sys:String>
+    <sys:String x:Key="Fun">趣味模组</sys:String>
+    <sys:String x:Key="WebsiteAdministration">网站管理</sys:String>
+    <sys:String x:Key="Genetics">遗传</sys:String>
+    <sys:String x:Key="SciFi">科幻</sys:String>
+    <sys:String x:Key="Puzzle">解密</sys:String>
+    <sys:String x:Key="Create">机械动力相关</sys:String>
+    <sys:String x:Key="Vanilla">原版修改</sys:String>
+    <sys:String x:Key="Fantasy">奇幻</sys:String>
+    <sys:String x:Key="Magic">魔法</sys:String>
+    <sys:String x:Key="CraftTweaker">CraftTweaker相关</sys:String> <!-- 如果太长则把 CraftTweaker 改成 CrT -->
+    <sys:String x:Key="IntegratedDynamics">集成动力相关</sys:String>
+    <sys:String x:Key="Realistic">拟真</sys:String>
+    <sys:String x:Key="OresAndResources">资源类</sys:String>
+    <sys:String x:Key="ExtraLarge">放大化</sys:String>
+    <sys:String x:Key="Processing">物品处理</sys:String>
+    <sys:String x:Key="MCreator">MCreator制作</sys:String>
+    <sys:String x:Key="Exploration">探索类</sys:String>
+    <sys:String x:Key="FTBOfficialPack">FTB官方任务包</sys:String>
+    <sys:String x:Key="Scripts">脚本</sys:String>
+    <sys:String x:Key="Modern">现代风格</sys:String>
+    <sys:String x:Key="Parkour">跑酷地图</sys:String>
+    <sys:String x:Key="BugFixes">错误修复</sys:String>
+    <sys:String x:Key="PerformanceType">性能优化</sys:String> <!-- 与上文Performance区分 使用命名PerformanceType -->
+    <sys:String x:Key="ModSupport">模组支持</sys:String>
+    <sys:String x:Key="Tech">科技类</sys:String>
+    <sys:String x:Key="Library">支持库</sys:String>
+    <sys:String x:Key="Utility">工具</sys:String>
+    <sys:String x:Key="Forestry">森林</sys:String>
+    <sys:String x:Key="Technology">科技</sys:String>
+    <sys:String x:Key="Cosmetic">太空</sys:String>
+    <sys:String x:Key="Quests">任务类</sys:String>
+    <sys:String x:Key="Storage">物品储存</sys:String>
+    <sys:String x:Key="PhotoRealistic">现实图片</sys:String>
+    <sys:String x:Key="Redstone">红石</sys:String>
+    <sys:String x:Key="Informational">信息类</sys:String>
+    <sys:String x:Key="Education">教育相关</sys:String>
+    <sys:String x:Key="Survival">生存类</sys:String>
+    <sys:String x:Key="Animated">动画</sys:String>
+    <sys:String x:Key="MapBased">基于地图</sys:String>
+    <sys:String x:Key="X8">8x 材质包</sys:String>
+    <sys:String x:Key="X16">16x 材质包</sys:String>
+    <sys:String x:Key="X32">32x 材质包</sys:String>
+    <sys:String x:Key="X64">64x 材质包</sys:String>
+    <sys:String x:Key="X128">128x 材质包</sys:String>
+    <sys:String x:Key="X256">256x 材质包</sys:String>
+    <sys:String x:Key="X512AndHigher">512x及更高材质</sys:String>
+    <!-- Curseforge分类 END -->
 
 </ResourceDictionary>
