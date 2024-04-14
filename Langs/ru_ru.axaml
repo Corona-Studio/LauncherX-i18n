@@ -472,7 +472,9 @@
     <sys:String x:Key="IntroFinishedDetail">Поздравляю. Вы закончили работу с мастером, лаунчер готов!</sys:String>
 
     <sys:String x:Key="Previous">Назад</sys:String>
-    <sys:String x:Key="Next">Вперёд</sys:String>
+    <sys:String x:Key="Next">Вперёд</sys:String>    
+    <sys:String x:Key="PreviousPage">Назад</sys:String>
+    <sys:String x:Key="NextPage">Вперёд</sys:String>
 
     <sys:String x:Key="RequestingGameList">Загрузка списка игр, подождите.</sys:String>
 
