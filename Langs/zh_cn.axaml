@@ -571,7 +571,7 @@
     <sys:String x:Key="ReleaseNote">发行说明</sys:String>
 
     <sys:String x:Key="ManageServer">管理服务器</sys:String>
-    <sys:String x:Key="ManageServerDescription">在这里您可以预览和添加您常玩的游戏服务器。</sys:String>
+    <sys:String x:Key="ManageServerDescription">在这里您可以预览和添加您常玩的游戏服务器。点击以选中启动后加入的服务器。</sys:String>
     <sys:String x:Key="Refresh">刷新</sys:String>
     <sys:String x:Key="AddNew">添加</sys:String>
 
@@ -937,17 +937,17 @@
         当前系统架构：{0}
         当前 JRE 架构：{1}
         使用与系统不匹配的 JRE 运行时可能导致严重的游戏性能与体验降级！
-	</sys:String>
+    </sys:String>
 
-	
-	<sys:String x:Key="Colored">着色</sys:String>
+
+    <sys:String x:Key="Colored">着色</sys:String>
     <sys:String x:Key="HighContrastColored">高对比度着色</sys:String>
     <sys:String x:Key="VersionCompatibleMcVersionDetail">该版本兼容共 {0} 个 Minecraft 版本</sys:String>
 
     <sys:String x:Key="Ascending">升序</sys:String>
     <sys:String x:Key="Descending">降序</sys:String>
 
-	<sys:String x:Key="NatTypeUnclassified">未分级 - {0}</sys:String>
+    <sys:String x:Key="NatTypeUnclassified">未分级 - {0}</sys:String>
     <sys:String x:Key="NatTypeUnclassifiedDetail">当前 NAT 类型为：未分级 - 1，未知的联机体验</sys:String>
 
     <sys:String x:Key="CurseForgeModPack">CurseForge 整合包</sys:String>
@@ -995,40 +995,40 @@
     <sys:String x:Key="EntityCausedGameCrash">特定实体导致游戏崩溃</sys:String>
     <sys:String x:Key="LogFileNotFound">没有找到可供分析的日志文件</sys:String>
 
-	<sys:String x:Key="NoEnoughMemoryDetail">Minecraft 无法继续运行，可能是因为你分配给游戏的内存不足或游戏配置过高。你可以通过增加游戏分配的内存、删除要求高的材质、Mod和光影来解决问题。如果这些方法都不起作用，你可以尝试在游戏前关闭其他软件，或者考虑换台电脑。</sys:String>
-	<sys:String x:Key="NoEnoughMemory32Detail">看起来你正在使用 32 位的 Java，这可能导致 Minecraft 无法使用超过 1GB 的内存，导致崩溃。要解决这个问题，请在启动设置的 Java 选择中切换到 64 位的 Java，然后再启动游戏。如果你没有安装 64 位的 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
-	<sys:String x:Key="JavaVersionTooHighDetail">由于你使用的 Java 版本过高，游戏似乎已经崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到较低版本的 Java，然后再启动游戏。如果你没有安装 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
-	<sys:String x:Key="UnsupportedJavaVersionDetail">你当前使用的 Java 与游戏不兼容。请在启动设置的 Java 选择中切换到合适的 Java，然后再启动游戏。如果你没有安装 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
-	<sys:String x:Key="JdkUseDetail">由于使用了 JDK 或 Java 版本过高，游戏崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到 JRE，然后再启动游戏。</sys:String>
-	<sys:String x:Key="OpenJ9UseDetail">游戏因为使用 OpenJ9 而崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到非 OpenJ9 的 Java，然后再启动游戏。</sys:String>
-	<sys:String x:Key="UnsupportedIntelDriverDetail">你的显卡驱动存在问题或未使用独立显卡，导致游戏无法正常运行。为了解决这个问题，请尝试在启动 LauncherX 和 Minecraft 时使用独立显卡而不是 Intel 核显。如果问题仍然存在，请尝试将显卡驱动升级到最新版本或回退到出厂版本。如果问题仍然存在，可以尝试使用 Java8 或更低版本。如果问题依然无法解决，那么可能需要考虑更换一块性能更好的显卡。</sys:String>
-    
+    <sys:String x:Key="NoEnoughMemoryDetail">Minecraft 无法继续运行，可能是因为你分配给游戏的内存不足或游戏配置过高。你可以通过增加游戏分配的内存、删除要求高的材质、Mod和光影来解决问题。如果这些方法都不起作用，你可以尝试在游戏前关闭其他软件，或者考虑换台电脑。</sys:String>
+    <sys:String x:Key="NoEnoughMemory32Detail">看起来你正在使用 32 位的 Java，这可能导致 Minecraft 无法使用超过 1GB 的内存，导致崩溃。要解决这个问题，请在启动设置的 Java 选择中切换到 64 位的 Java，然后再启动游戏。如果你没有安装 64 位的 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
+    <sys:String x:Key="JavaVersionTooHighDetail">由于你使用的 Java 版本过高，游戏似乎已经崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到较低版本的 Java，然后再启动游戏。如果你没有安装 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersionDetail">你当前使用的 Java 与游戏不兼容。请在启动设置的 Java 选择中切换到合适的 Java，然后再启动游戏。如果你没有安装 Java，可以在游戏设置界面点击 [获取 Java] 来进行安装。</sys:String>
+    <sys:String x:Key="JdkUseDetail">由于使用了 JDK 或 Java 版本过高，游戏崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到 JRE，然后再启动游戏。</sys:String>
+    <sys:String x:Key="OpenJ9UseDetail">游戏因为使用 OpenJ9 而崩溃了。为了解决这个问题，请在启动设置的 Java 选择中切换到非 OpenJ9 的 Java，然后再启动游戏。</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriverDetail">你的显卡驱动存在问题或未使用独立显卡，导致游戏无法正常运行。为了解决这个问题，请尝试在启动 LauncherX 和 Minecraft 时使用独立显卡而不是 Intel 核显。如果问题仍然存在，请尝试将显卡驱动升级到最新版本或回退到出厂版本。如果问题仍然存在，可以尝试使用 Java8 或更低版本。如果问题依然无法解决，那么可能需要考虑更换一块性能更好的显卡。</sys:String>
+
     <sys:String x:Key="VideoDriverErrorDetail">你的显卡驱动存在问题，导致游戏无法正常运行。为了解决这个问题，请尝试将显卡驱动升级到最新版本或回退到出厂版本，然后再启动游戏。如果问题仍然存在，可以尝试使用 Java8 或更低版本。如果问题依然无法解决，那么可能需要考虑更换一块性能更好的显卡。</sys:String>
 
-	<sys:String x:Key="ModCausedGameCrashDetail">您当前启动的游戏中的一个或多个模组导致了游戏崩溃，您可以在下方的详细信息中寻找导致模组崩溃的相关信息，并尝试暂时禁用或是替换这些模组。</sys:String>
-	<sys:String x:Key="DecompressedModDetail">由于模组文件被解压缩了，导致游戏无法继续运行。为了解决这个问题，请将整个模组文件放入 [mods] 文件夹中，而不要解压缩它。如果已经解压了模组文件，请将其从 [mods] 文件夹中删除，然后再启动游戏。</sys:String>
-	<sys:String x:Key="IncorrectModConfigDetail">模组的一个或多个配置文件不正确导致了启动失败，您可以在下方的详细信息中寻找具体的配置文件名称，并修正它的错误。</sys:String>
-	<sys:String x:Key="ModMixinFailedDetail">一个或多个模组注入失败导致了启动失败，这通常意味着您使用了存在问题的模组或是不受当前游戏版本支持的模组。您可以在下方的详细信息中寻找具体的模组信息。</sys:String>
-	<sys:String x:Key="ModLoaderErrorDetail">模组加载器报告了一个或多个错误，您可以在下方的详细信息中查看报错的具体原因。</sys:String>
-	<sys:String x:Key="ModInitFailedDetail">一个或多个模组初始化失败导致游戏无法继续加载。请在下方的详细信息中寻找模组的相关错误信息。</sys:String>
-	<sys:String x:Key="ModIdExceededDetail">你安装的模组数量太多，超出了游戏的 ID 限制，导致游戏崩溃。为了解决这个问题，你可以尝试安装一些修复模组，如 JEID，或删除一些大型模组。这可以帮助你减少模组的数量，并让游戏更加稳定。</sys:String>
-	<sys:String x:Key="DuplicateModDetail">你重复安装了多个相同的模组，每个模组最多只能安装一次，请在下方的详细信息中找到模组的相应名称并在 [mods] 文件夹中删除重复的模组。</sys:String>
-	
-	<sys:String x:Key="OpenGl1282ErrorDetail">你所使用的光影或材质可能导致游戏出现问题，建议你尝试删除这些额外的资源，然后再启动游戏。这通常可以解决一些与游戏资源相关的问题。</sys:String>
-	<sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">你的游戏可能出现问题是由于所使用的 OptiFine 版本与游戏不兼容（https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world）。这个问题只会在某些 OptiFine 版本中出现，建议你更换 OptiFine 的版本，然后再启动游戏。你可以到 OptiFine 的官方网站下载最新的版本并安装，或者选择另一版本的 OptiFine 进行安装。</sys:String>
-	<sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">你的游戏可能由于使用了过高的渲染距离而无法正常运行。请尝试在游戏设置中将渲染距离降低一些，例如减少视野距离和区块加载距离等选项。如果问题仍然存在，你可能需要更新你的显卡驱动或更换一块更高性能的显卡。</sys:String>
-	<sys:String x:Key="FabricErrorDetail">Fabric 有可能报告了一个或多个错误，请尝试在下方的详细信息中查看具体的报错信息。</sys:String>
-	<sys:String x:Key="FabricErrorWithSolutionDetail">Fabric 有可能报告了一个或多个错误并很可能提供了解决方案，请尝试在下方的详细信息中查看具体的报错信息。</sys:String>
-	<sys:String x:Key="ForgeErrorDetail">Forge 有可能报告了一个或多个错误，请尝试在下方的详细信息中查看具体的报错信息</sys:String>
-	<sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">如果你的 Forge 版本比 36.2.26 低，那么你可以尝试更新 Forge 到 36.2.26 或更高版本。如果你已经使用了 36.2.26 或更高版本的 Forge，那么你可能需要更换 Java 版本。在使用 Forge 时，请注意检查 Forge 的版本与所使用的 Java 版本是否兼容，以避免出现此类错误。</sys:String>
-	<sys:String x:Key="MultipleForgeInVersionJsonDetail">游戏崩溃可能是由于使用了其他启动器修改了 Forge 版本，导致当前版本的文件异常。为了解决这个问题，请尝试全新安装 Forge，不要使用其他启动器来修改 Forge 版本。</sys:String>
-	<sys:String x:Key="IncompatibleForgeAndOptifineDetail">因为 OptiFine 与当前 Forge 版本不兼容，导致游戏崩溃。请前往 OptiFine 官网（https://optifine.net/downloads）查看 OptiFine 兼容的 Forge 版本，并按照对应版本重新安装游戏。</sys:String>
-	<sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">由于不正确的路径编码或是由于游戏安装损坏缺失主类导致游戏加载失败。您可以尝试将游戏目录放置在不包含中文或其他特殊字符的目录中，或者尝试重新安装这个游戏。如果以上的问题均无法解决问题，请向开发者报告。</sys:String>
-	<sys:String x:Key="ManuallyTriggeredDebugCrashDetail">您手动触发了调试崩溃。</sys:String>
-	<sys:String x:Key="ContentValidationFailedDetail">游戏遇到了校验失败的问题，可能是由于下载时出现了网络问题导致的。你可以尝试删除游戏（包括模组）并重新下载，或在重新下载时保证网络连接的稳定性。</sys:String>
-	<sys:String x:Key="BlockCausedGameCrashDetail">游戏中的某个方块导致游戏发生了崩溃，请在下方的详细信息中寻找有关该方块的具体信息（ID、坐标等），并尝试使用地图编辑器删除该方块。如果仍然无法解决该问题，请尝试重新创建一个世界或是考虑其他问题。</sys:String>
-	<sys:String x:Key="EntityCausedGameCrashDetail">游戏中的某个实体导致游戏发生了崩溃，请在下方的详细信息中寻找有关该实体的具体信息（ID、坐标等），并尝试使用地图编辑器删除该实体。如果仍然无法解决该问题，请尝试重新创建一个世界或是考虑其他问题。</sys:String>
-	<sys:String x:Key="LogFileNotFoundDetail">分析器缺少足够的日志文件来创建分析报告，请尝试联系开发者。</sys:String>
+    <sys:String x:Key="ModCausedGameCrashDetail">您当前启动的游戏中的一个或多个模组导致了游戏崩溃，您可以在下方的详细信息中寻找导致模组崩溃的相关信息，并尝试暂时禁用或是替换这些模组。</sys:String>
+    <sys:String x:Key="DecompressedModDetail">由于模组文件被解压缩了，导致游戏无法继续运行。为了解决这个问题，请将整个模组文件放入 [mods] 文件夹中，而不要解压缩它。如果已经解压了模组文件，请将其从 [mods] 文件夹中删除，然后再启动游戏。</sys:String>
+    <sys:String x:Key="IncorrectModConfigDetail">模组的一个或多个配置文件不正确导致了启动失败，您可以在下方的详细信息中寻找具体的配置文件名称，并修正它的错误。</sys:String>
+    <sys:String x:Key="ModMixinFailedDetail">一个或多个模组注入失败导致了启动失败，这通常意味着您使用了存在问题的模组或是不受当前游戏版本支持的模组。您可以在下方的详细信息中寻找具体的模组信息。</sys:String>
+    <sys:String x:Key="ModLoaderErrorDetail">模组加载器报告了一个或多个错误，您可以在下方的详细信息中查看报错的具体原因。</sys:String>
+    <sys:String x:Key="ModInitFailedDetail">一个或多个模组初始化失败导致游戏无法继续加载。请在下方的详细信息中寻找模组的相关错误信息。</sys:String>
+    <sys:String x:Key="ModIdExceededDetail">你安装的模组数量太多，超出了游戏的 ID 限制，导致游戏崩溃。为了解决这个问题，你可以尝试安装一些修复模组，如 JEID，或删除一些大型模组。这可以帮助你减少模组的数量，并让游戏更加稳定。</sys:String>
+    <sys:String x:Key="DuplicateModDetail">你重复安装了多个相同的模组，每个模组最多只能安装一次，请在下方的详细信息中找到模组的相应名称并在 [mods] 文件夹中删除重复的模组。</sys:String>
+
+    <sys:String x:Key="OpenGl1282ErrorDetail">你所使用的光影或材质可能导致游戏出现问题，建议你尝试删除这些额外的资源，然后再启动游戏。这通常可以解决一些与游戏资源相关的问题。</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">你的游戏可能出现问题是由于所使用的 OptiFine 版本与游戏不兼容（https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world）。这个问题只会在某些 OptiFine 版本中出现，建议你更换 OptiFine 的版本，然后再启动游戏。你可以到 OptiFine 的官方网站下载最新的版本并安装，或者选择另一版本的 OptiFine 进行安装。</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">你的游戏可能由于使用了过高的渲染距离而无法正常运行。请尝试在游戏设置中将渲染距离降低一些，例如减少视野距离和区块加载距离等选项。如果问题仍然存在，你可能需要更新你的显卡驱动或更换一块更高性能的显卡。</sys:String>
+    <sys:String x:Key="FabricErrorDetail">Fabric 有可能报告了一个或多个错误，请尝试在下方的详细信息中查看具体的报错信息。</sys:String>
+    <sys:String x:Key="FabricErrorWithSolutionDetail">Fabric 有可能报告了一个或多个错误并很可能提供了解决方案，请尝试在下方的详细信息中查看具体的报错信息。</sys:String>
+    <sys:String x:Key="ForgeErrorDetail">Forge 有可能报告了一个或多个错误，请尝试在下方的详细信息中查看具体的报错信息</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">如果你的 Forge 版本比 36.2.26 低，那么你可以尝试更新 Forge 到 36.2.26 或更高版本。如果你已经使用了 36.2.26 或更高版本的 Forge，那么你可能需要更换 Java 版本。在使用 Forge 时，请注意检查 Forge 的版本与所使用的 Java 版本是否兼容，以避免出现此类错误。</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJsonDetail">游戏崩溃可能是由于使用了其他启动器修改了 Forge 版本，导致当前版本的文件异常。为了解决这个问题，请尝试全新安装 Forge，不要使用其他启动器来修改 Forge 版本。</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifineDetail">因为 OptiFine 与当前 Forge 版本不兼容，导致游戏崩溃。请前往 OptiFine 官网（https://optifine.net/downloads）查看 OptiFine 兼容的 Forge 版本，并按照对应版本重新安装游戏。</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">由于不正确的路径编码或是由于游戏安装损坏缺失主类导致游戏加载失败。您可以尝试将游戏目录放置在不包含中文或其他特殊字符的目录中，或者尝试重新安装这个游戏。如果以上的问题均无法解决问题，请向开发者报告。</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrashDetail">您手动触发了调试崩溃。</sys:String>
+    <sys:String x:Key="ContentValidationFailedDetail">游戏遇到了校验失败的问题，可能是由于下载时出现了网络问题导致的。你可以尝试删除游戏（包括模组）并重新下载，或在重新下载时保证网络连接的稳定性。</sys:String>
+    <sys:String x:Key="BlockCausedGameCrashDetail">游戏中的某个方块导致游戏发生了崩溃，请在下方的详细信息中寻找有关该方块的具体信息（ID、坐标等），并尝试使用地图编辑器删除该方块。如果仍然无法解决该问题，请尝试重新创建一个世界或是考虑其他问题。</sys:String>
+    <sys:String x:Key="EntityCausedGameCrashDetail">游戏中的某个实体导致游戏发生了崩溃，请在下方的详细信息中寻找有关该实体的具体信息（ID、坐标等），并尝试使用地图编辑器删除该实体。如果仍然无法解决该问题，请尝试重新创建一个世界或是考虑其他问题。</sys:String>
+    <sys:String x:Key="LogFileNotFoundDetail">分析器缺少足够的日志文件来创建分析报告，请尝试联系开发者。</sys:String>
     <sys:String x:Key="OtherCausedGameCrashDetail">不确定的原因导致了游戏崩溃，请尝试联系开发者。</sys:String>
 
     <sys:String x:Key="DirectConnect">直连</sys:String>
@@ -1053,7 +1053,8 @@
     <sys:String x:Key="DownloadedUpdateDoesNotContainExecutable">下载到的更新文件中不包含应用程序，请联系系统管理员！</sys:String>
     <sys:String x:Key="DownloadedUpdateHashUnmatched">下载到的更新文件的哈希值与预期不符，请联系系统管理员！</sys:String>
     <sys:String x:Key="FailedToInitFileStream">无法初始化文件流，请联系系统管理员！</sys:String>
-    <sys:String x:Key="UnixUpdateDownloadedMessage">更新下载完成", "点击确定打开下载完成的更新压缩包，解压之后手动替换老的应用程序即可。点击确定后，程序将主动退出。</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedMessage">更新下载完成</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedDetailMessage">点击确定打开下载完成的更新压缩包，解压之后手动替换老的应用程序即可。点击确定后，程序将主动退出。</sys:String>
 
     <sys:String x:Key="Customization">自定义</sys:String>
     <sys:String x:Key="ModPack">整合包</sys:String>
@@ -1062,7 +1063,7 @@
     <sys:String x:Key="Worlds">地图存档</sys:String>
     <sys:String x:Key="Mods">模组</sys:String>
 
-	<sys:String x:Key="FailedToSaveUserSettingsDetail">暂时无法保存用户设置，请稍候再试。</sys:String>
+    <sys:String x:Key="FailedToSaveUserSettingsDetail">暂时无法保存用户设置，请稍候再试。</sys:String>
     <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">无法创建房间，因为房间名为空</sys:String>
     <sys:String x:Key="FailedToCreateGroupDetail">无法创建群组，可能是因为网络问题或服务器错误。服务器返回的原因：{0}</sys:String>
     <sys:String x:Key="RoomDismissed">房间已被解散</sys:String>
@@ -1088,7 +1089,7 @@
     <sys:String x:Key="GameResourcePath">游戏资源路径</sys:String>
     <sys:String x:Key="GameVersion">游戏版本</sys:String>
     <sys:String x:Key="VersionInsulation">版本隔离</sys:String>
-	<sys:String x:Key="Authenticator">验证模型</sys:String>
+    <sys:String x:Key="Authenticator">验证模型</sys:String>
     <sys:String x:Key="MinMemoryInMb">最小内存 (MB)</sys:String>
     <sys:String x:Key="MaxMemoryInMb">最大内存 (MB)</sys:String>
 
@@ -1106,14 +1107,15 @@
     <sys:String x:Key="StartLaunchGame">开始尝试启动游戏</sys:String>
     <sys:String x:Key="RunningOldMineCraftUsingArm64JreWarning">
         检测到当前系统和 JRE 运行时架构均为 Arm64。
-        但由于您运行的可能是较老版本的 Minecraft 实例，相关实例所包含的运行时可能无法在 Arm64 系统上正常运行。
-        您可以尝试继续启动，如果出现问题请尝试切换到 X86 架构的 JRE 运行时并尝试再次启动。
-	</sys:String>
+        但由于您运行的可能是较老版本的 MineCraft 实例，相关实例所包含的运行时可能无法在 Arm64 系统上正常运行。
+        LauncherX 将会尝试将部分 natives 替换为对应的系统架构进行启动，这有可能可以修复启动的问题。
+        如果出现问题请尝试切换到 X86 架构的 JRE 运行时并尝试再次启动。
+    </sys:String>
     <sys:String x:Key="JreVersionTooHighWarning">
         您当前选择的 Java 版本 [{0}] 高于了游戏所要求的版本 [{1}]，
         使用新版本的 Java 虽然可能可以提高游戏性能，但也可能会导致游戏无法正常运行。
         如果游戏无法正常运行，请尝试切换到游戏所要求的 Java 版本。
-	</sys:String>
+    </sys:String>
     <sys:String x:Key="FailedToInitAuthenticator">初始化验证器失败</sys:String>
     <sys:String x:Key="FailedToInitAuthenticatorDetail">初始化验证器失败，请检查账户的有效性</sys:String>
     <sys:String x:Key="CurrentLaunchSettings">当前的启动配置:</sys:String>
@@ -1125,8 +1127,8 @@
         - 部分功能出现异常
 
         请再次确认您的系统架构并重新下载 LauncherX。
-	</sys:String>
-	<sys:String x:Key="TryingToLoginToCsAccount">尝试登录日冕账户</sys:String>
+    </sys:String>
+    <sys:String x:Key="TryingToLoginToCsAccount">尝试登录日冕账户</sys:String>
     <sys:String x:Key="FailedToLoginToCsAccount">无法登陆日冕账户</sys:String>
     <sys:String x:Key="LoggedIntoCsAccount">成功登录日冕账户</sys:String>
     <sys:String x:Key="OpenDeviceManagementPage">打开设备管理页面并注销</sys:String>
@@ -1135,7 +1137,7 @@
     <sys:String x:Key="InstallOptifineAsMod">将 Optifine 以模组的形式安装</sys:String>
     <sys:String x:Key="InstallOptifineAsModDetail">Optifine 将作为一个模组安装到 Fabric 中。在安装完成之后，您需要手动下载安装 OptiFabric 模组来将它到 Fabric 中。您可以在 下载-CurseForge 标签页中查找该模组。</sys:String>
     <sys:String x:Key="EnterOfflineModeDetail">进入离线模式，可以在无网络的情况下使用该模式。大部分功能将被禁用！</sys:String>
-    
+
     <sys:String x:Key="NewFileDragged">您拖入了一个新文件</sys:String>
     <sys:String x:Key="TryingToDetermineFileType">正在尝试自动确认文件的类型</sys:String>
     <sys:String x:Key="FileTypeDetected">成功识别，可能的文件类型：</sys:String>
@@ -1175,7 +1177,7 @@
     <sys:String x:Key="CheckJreStatus">检查 Jre 状态</sys:String>
     <sys:String x:Key="DeepSearch">深度搜索</sys:String>
     <sys:String x:Key="DeepSearchDetail">使用深度搜索 Java 时，LauncherX 将会搜索本地计算机的所有磁盘来寻找 JR。取决于计算机的性能和磁盘数量，该过程可能会持续数十秒甚至更长的时间。</sys:String>
-    
+
     <sys:String x:Key="UseProgressiveBlur">通过渐进式模糊优化上层文字显示效果</sys:String>
     <sys:String x:Key="ProgressiveBlurStrength">渐进式模糊效果强度</sys:String>
     <sys:String x:Key="ShowUpperTextShadow">显示上层文字阴影</sys:String>
@@ -1205,11 +1207,11 @@
     <sys:String x:Key="HideUpperSkin">隐藏上层皮肤</sys:String>
     <sys:String x:Key="ShowCape">显示披风</sys:String>
     <sys:String x:Key="HideCape">隐藏披风</sys:String>
-	<sys:String x:Key="SwitchTo2DView">切换到 2D 视图</sys:String>
+    <sys:String x:Key="SwitchTo2DView">切换到 2D 视图</sys:String>
 
     <sys:String x:Key="LoadingModInfo">正在加载模组信息，请耐心等待。</sys:String>
 
-	<sys:String x:Key="AddGameResource">添加游戏资源</sys:String>
+    <sys:String x:Key="AddGameResource">添加游戏资源</sys:String>
     <sys:String x:Key="Logs">日志</sys:String>
     <sys:String x:Key="ExportAs">导出为</sys:String>
 
@@ -1261,7 +1263,7 @@
     <sys:String x:Key="ResourcePackNotFoundDetail">没有找到任何资源包</sys:String>
     <sys:String x:Key="ScreenshotNotFoundDetail">没有找到任何游戏截图</sys:String>
     <sys:String x:Key="ShaderPackNotFoundDetail">没有找到任何光影</sys:String>
-    
+
 
     <!-- Curseforge分类 START -->
     <sys:String x:Key="Teleportation">传送类</sys:String>
