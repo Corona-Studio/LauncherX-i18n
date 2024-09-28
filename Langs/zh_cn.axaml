@@ -820,6 +820,7 @@
     <sys:String x:Key="Java8Description">Java 8：适用于 [1.17] 之前的版本，部分附属组件（例如 Forge）也需要这个版本的 Jre</sys:String>
     <sys:String x:Key="Java16Description">Java 16：适用于 [1.17] 或更高版本的游戏</sys:String>
     <sys:String x:Key="Java17Description">Java 17：适用于 [1.18 - pre2] 或更高版本的游戏</sys:String>
+    <sys:String x:Key="Java21Description">Java 21：使用此版本可能可以提升游戏性能。对旧版本的兼容性极差。</sys:String>
 
     <sys:String x:Key="ResetAllSettings">重置所有设置</sys:String>
     <sys:String x:Key="ResetAllSettingsDetail">注意！这将完全删除启动器的配置文件并重新运行配置向导，此操作无法恢复。</sys:String>
@@ -1376,5 +1377,184 @@
     <sys:String x:Key="X256">256x 材质包</sys:String>
     <sys:String x:Key="X512AndHigher">512x及更高材质</sys:String>
     <!-- Curseforge分类 END -->
+
+    <sys:String x:Key="StartingBackendHost">开始初始化后端主机</sys:String>
+    <sys:String x:Key="ConnectedToSignalR">成功与 SignalR 服务器建立连接</sys:String>
+    <sys:String x:Key="DisconnectedToSignalR">从 SignalR 服务器断开</sys:String>
+    <sys:String x:Key="FailedToConnectTo">无法连接到 SignalR 服务器，可能是网络问题</sys:String>
+    <sys:String x:Key="LoggedIntoCSA">成功登录日冕账户，开始连接 SignalR 服务器</sys:String>
+
+    <sys:String x:Key="InitChatService">初始化聊天服务</sys:String>
+    <sys:String x:Key="LoadChatHistoryMessage">加载与 {0} 的聊天记录</sys:String>
+
+    <sys:String x:Key="InitDeviceService">初始化设备认证服务</sys:String>
+    <sys:String x:Key="LoadingDeviceList">加载注册设备列表</sys:String>
+    <sys:String x:Key="DeviceListLoaded">成功从服务器获取到设备列表</sys:String>
+    <sys:String x:Key="DeviceListLoadedCount">设备列表加载完成，共 {deviceCount} 个设备</sys:String>
+    <sys:String x:Key="TryRegisterDevice">尝试注册设备</sys:String>
+    <sys:String x:Key="TryRegisterDeviceDetail">设备 {0} 注册成功</sys:String>
+
+    <sys:String x:Key="TryUnregisterDevice">尝试反注册设备</sys:String>
+    <sys:String x:Key="TryUnregisterDeviceDetail">设备 {0} 反注册成功</sys:String>
+
+    <sys:String x:Key="InitFriendService">初始化设备认证服务</sys:String>
+    <sys:String x:Key="LoadingFriendList">加载注册设备列表</sys:String>
+    <sys:String x:Key="FriendListLoadedCount">用户好友列表获取完成，共 {0} 个好友</sys:String>
+
+    <sys:String x:Key="InitUpdateService">初始化更新服务</sys:String>
+    <sys:String x:Key="StartCheckingLauncherUpdate">开始检查启动器本体更新</sys:String>
+    <sys:String x:Key="LatestBuildFetched">成功从服务器获取最新构建</sys:String>
+    <sys:String x:Key="UpdateFoundDetail">发现更新版本，ID：{0}</sys:String>
+    <sys:String x:Key="NoUpdateFound">没有检测到本体更新</sys:String>
+
+    <sys:String x:Key="PleaseTryAgainLaterDetail">您可以多次尝试来尝试解决该问题。详细信息：{0}</sys:String>
+
+    <sys:String x:Key="CanNotSafeDeleteMessage">
+        该游戏被其他游戏依赖，删除该游戏将会导致依赖于该版本的游戏被隐藏。您确定要删除吗？
+        被依赖的游戏版本：[{0}]
+	</sys:String>
+
+    <sys:String x:Key="StartAssetCheck">开始进行游戏资源(Asset)检查</sys:String>
+	<sys:String x:Key="NoVersionManifestFound">没有提供 Version Manifest， 开始下载</sys:String>
+    <sys:String x:Key="NoAssetIndexesFound">没有发现 Asset Indexes 文件， 开始下载</sys:String>
+    <sys:String x:Key="FailedToResolveAssetIndexesMessage">解析Asset Indexes 文件失败！原因：{0}</sys:String>
+    <sys:String x:Key="AssetIndexesDownloaded">Asset Indexes 文件下载完成</sys:String>
+    <sys:String x:Key="StartResolveAssetIndexes">开始解析Asset Indexes 文件...</sys:String>
+    <sys:String x:Key="FileBrokenOrEmpty">文件可能损坏或为空</sys:String>
+    <sys:String x:Key="StartCheckingAssets">检索并验证 Asset 资源</sys:String>
+    <sys:String x:Key="AssetsResolved">Assets 解析完成</sys:String>
+
+    <sys:String x:Key="StartLibraryCheck">开始进行游戏资源(Library)检查</sys:String>
+    <sys:String x:Key="StartCheckingLibraries">检索并验证 Library</sys:String>
+    <sys:String x:Key="LibraryResolved">检查 Library 完成</sys:String>
+
+    <sys:String x:Key="Auto">自动</sys:String>
+    <sys:String x:Key="Visible">可见</sys:String>
+    <sys:String x:Key="Hidden">不可见</sys:String>
+
+    <sys:String x:Key="Low">低</sys:String>
+    <sys:String x:Key="Medium">中</sys:String>
+    <sys:String x:Key="High">高</sys:String>
+    <sys:String x:Key="Extreme">最大</sys:String>
+
+    <sys:String x:Key="DownloadToTargetFolder">下载到指定目录</sys:String>
+    <sys:String x:Key="DownloadToTargetGame">下载到游戏</sys:String>
+
+    <sys:String x:Key="CanUpgradeTo">可更新到：</sys:String>
+    <sys:String x:Key="FollowingFileWillBeDeleted">更新将删除下列的文件：</sys:String>
+    <sys:String x:Key="OpenModWebPage">打开模组网页</sys:String>
+
+    <sys:String x:Key="FailedToInit3DSkinPreview">初始化 3D 皮肤预览时出现错误</sys:String>
+
+    <sys:String x:Key="DoNotCompress">不尝试压缩</sys:String>
+
+    <sys:String x:Key="AskIfDownloadDependencies">是否下载依赖</sys:String>
+    <sys:String x:Key="AskIfDownloadDependenciesDetail">您将要下载的文件可能包含一个或多个依赖，如果您选择“同时下载依赖”，LauncherX 将尝试下载该文件所需的全部依赖。</sys:String>
+    <sys:String x:Key="OnlyDownloadFile">仅下载该文件</sys:String>
+    <sys:String x:Key="AlsoDownloadDependencies">同时下载依赖</sys:String>
+
+    <sys:String x:Key="AllCacheHasBeenCleared">所有缓存文件均已被清除</sys:String>
+    <sys:String x:Key="FailedToClearCache">清理渐进式模糊缓存失败</sys:String>
+
+    <sys:String x:Key="NoAccountSelected">未选择账户</sys:String>
+    <sys:String x:Key="NoAccountSelectedDetail">请检查您是否选择了有效的账户</sys:String>
+
+    <sys:String x:Key="InstallablePackFound">发现可以安装的完整包</sys:String>
+    <sys:String x:Key="FullPackOpenedDetail">
+        您疑似打开了一个包含待安装的 LX 完整包的文件。
+        该完整包是由第三方分发的，请自行确认该包的来源以及确认其并没有遭到篡改。
+        您可以通过以下信息来确认该包的完整性：
+
+        SHA1: {0}
+        MD5: {1}
+
+        如果您并不知道这是什么意思，请直接点击下方的删除按钮。
+	</sys:String>
+    <sys:String x:Key="IgnoreAndDelete">忽略并删除</sys:String>
+    <sys:String x:Key="IncorrectSystemArch">不正确的系统架构</sys:String>
+
+    <sys:String x:Key="SettingsNeedToReboot">需要重启的设置</sys:String>
+    <sys:String x:Key="SettingsNeedToRebootDetail">您当前更改的这个设置需要重新启动启动器来完成完全应用！</sys:String>
+
+    <sys:String x:Key="BasicInfo">基本信息</sys:String>
+    <sys:String x:Key="ModPackName">整合包名字</sys:String>
+    <sys:String x:Key="ModPackAuthor">整合包作者</sys:String>
+    <sys:String x:Key="ModPackVersion">整合包版本</sys:String>
+    <sys:String x:Key="ReleasePlatform">发布平台</sys:String>
+    <sys:String x:Key="LauncherSettings">启动器设置</sys:String>
+    <sys:String x:Key="SaveBasicSettings">保存基础配置</sys:String>
+    <sys:String x:Key="SaveWallpapers">保存的壁纸（可能会使文件体积激增）</sys:String>
+    <sys:String x:Key="GameFiles">游戏文件</sys:String>
+    <sys:String x:Key="KeepSettings">保留配置</sys:String>
+    <sys:String x:Key="KeepDefaultSettings">保留默认配置</sys:String>
+    <sys:String x:Key="KeepMods">保留模组</sys:String>
+    <sys:String x:Key="KeepResourcePacks">保留资源包</sys:String>
+    <sys:String x:Key="KeepShaderPacks">保留光影包</sys:String>
+    <sys:String x:Key="AdditionalSettings">额外选项</sys:String>
+    <sys:String x:Key="UseThirdPartyApiToReduceSize">通过第三方 API 压缩完整包体积</sys:String>
+    <sys:String x:Key="IgnoreDisabledMods">忽略被禁用的模组</sys:String>
+    <sys:String x:Key="UseThirdPartyApiToReduceSizeDetail">启用该功能后，启动器将会尝试将能够从 CurseForge/Modrinth 匹配到的 Mod 文件替换为其对应的 ID。并在安装整合包时重新下载他们。</sys:String>
+
+    <sys:String x:Key="UseCurseForgeToUpgradeMods">使用 CurseForge 更新该游戏的 MOD</sys:String>
+    <sys:String x:Key="UseModrinthToUpgradeMods">使用 Modrinth 更新该游戏的 MOD</sys:String>
+    <sys:String x:Key="DisableModsInsteadDelete">将会被替换的 MOD 禁用而不是删除"</sys:String>
+    <sys:String x:Key="ModUpdateWarningDetail">※ 该更新功能并不能保证一定正确的解析模组的依赖信息。请仔细检查列表中的项目并根据需求选择需要更新的模组。并在更新完成后仔细检查模组文件夹的内容！</sys:String>
+    <sys:String x:Key="CurrentSelectedGamePath">当前选择的游戏目录</sys:String>
+    <sys:String x:Key="Exclude">排除</sys:String>
+
+    <sys:String x:Key="DownloadAllDependenciesIfPossible">下载全部依赖（如果存在）</sys:String>
+    <sys:String x:Key="DownloadFileToPathDetail">将文件下载到 {0} 的 {1} 目录</sys:String>
+
+    <sys:String x:Key="UseCurseForgeToCheck">使用 CurseForge 检查</sys:String>
+    <sys:String x:Key="UseModrinthToCheck">使用 Modrinth 检查</sys:String>
+    <sys:String x:Key="CheckUpdate">检查更新</sys:String>
+
+    <sys:String x:Key="Translation">翻译</sys:String>
+    <sys:String x:Key="GameGeneralSettings">游戏通用设定</sys:String>
+    <sys:String x:Key="JavaVmSettings">Java 虚拟机设定</sys:String>
+
+    <sys:String x:Key="ResourcesDownloadMaxTry">资源补全最大重试次数</sys:String>
+    <sys:String x:Key="UseQuickResourceCheck">使用快速资源检查</sys:String>
+	<sys:String x:Key="UseQuickResourceCheckDetail">※ 使用快速资源检查可以极大缩短文件检查的速度，但是在某些情况下可能会出现漏判的情况。如果出现启动失败的情况，可以尝试关闭此按钮并启动游戏。</sys:String>
+	<sys:String x:Key="NativeLibrariesReplacePolicy">原生库替换策略</sys:String>
+
+    <sys:String x:Key="Color">颜色</sys:String>
+    <sys:String x:Key="Background">背景</sys:String>
+    <sys:String x:Key="ImageStretchMethod">图片拉伸方式</sys:String>
+    <sys:String x:Key="EnableExperimentalAnimation">启用实验性动画</sys:String>
+    <sys:String x:Key="ProgressiveBlurQuality">背景图片渐进式模糊质量</sys:String>
+    <sys:String x:Key="ProgressiveBlurQualityDetail">※ 修改质量选项后需要点击下面的按钮来清理渐进式模糊缓存。变更将在下一次应用模糊时生效。选择较高的质量将会消耗较多的内存。</sys:String>
+    <sys:String x:Key="ClearProgressiveBlurCache">清理渐进式模糊缓存</sys:String>
+    <sys:String x:Key="UseExternalLanguagePack">[开发者] 使用外部语言文档进行调试</sys:String>
+    <sys:String x:Key="BasicInterfaceSettings">基础界面设定</sys:String>
+    <sys:String x:Key="UseNewUI">使用新版 UI</sys:String>
+    <sys:String x:Key="MainWindowButtonGroupVisibility">主界面按钮组可见性</sys:String>
+
+    <sys:String x:Key="SupportUs">支持我们</sys:String>
+    <sys:String x:Key="SupportUsDetail">如果您喜欢我们的作品，您可以前往我们的官方发布贴来给予我们宝贵的评价！</sys:String>
+    <sys:String x:Key="LinkToProject">作品链接</sys:String>
+
+    <sys:String x:Key="JavaVmSettingsDetail">选择全局使用的 Java、下载、搜索、安装、管理 Java</sys:String>
+    <sys:String x:Key="GameGeneralSettingsDetail">游戏内存大小、GC、窗口分辨率、JavaAgent 参数、高级启动参数</sys:String>
+    <sys:String x:Key="LauncherBehaviours">启动器行为</sys:String>
+    <sys:String x:Key="LauncherBehavioursDetail">游戏资源检查、原生库替换策略、启动后行为、日志记录</sys:String>
+    <sys:String x:Key="BasicSettingsGuide">基本设置指南</sys:String>
+    <sys:String x:Key="JavaVmDownloadTips">关于 Java 运行时下载的相关提示</sys:String>
+
+
+    <sys:String x:Key="BasicSettingsDetail">背景材质、主界面花纹、前景文字颜色、底部导航条样式</sys:String>
+    <sys:String x:Key="BackgroundDetail">更改背景样式、图片背景模糊、视差效果、渐进式模糊</sys:String>
+    <sys:String x:Key="ColorDetail">主题模式、主题色、自定义主题色的计算方式</sys:String>
+    <sys:String x:Key="TextDetail">界面语言、界面字体、语言文档测试</sys:String>
+    <sys:String x:Key="PerformanceDetail">界面动画效果设定</sys:String>
+    <sys:String x:Key="ExperimentalAnimation">实验性动画</sys:String>
+    <sys:String x:Key="ExperimentalAnimationDetail">启用实验性动画能够显著提高界面动画的流畅程度。并一定程度的减少资源占用。但是动画本身可能存在一些异常。</sys:String>
+
+    <sys:String x:Key="OpenCurrentGameRoot">打开当前游戏根目录</sys:String>
+    <sys:String x:Key="PublishAsFullPack">发布为完整包</sys:String>
+    <sys:String x:Key="ChangeListPanelStatus">展开/收起列表</sys:String>
+
+    <sys:String x:Key="FlushLogBuffer">刷新日志缓冲区</sys:String>
+    <sys:String x:Key="ContactUs">联系我们</sys:String>
 
 </ResourceDictionary>
