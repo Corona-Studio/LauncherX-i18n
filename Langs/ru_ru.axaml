@@ -438,7 +438,7 @@
   <sys:String x:Key="Years">г.</sys:String>
   <sys:String x:Key="Accept">Да</sys:String>
   <sys:String x:Key="Deny">Нет</sys:String>
-  <sys:String x:Key="AddSelf">Доб. Этот Устр.</sys:String>
+  <sys:String x:Key="AddSelf">Добавить Этот Устр.</sys:String>
   <sys:String x:Key="UserState">статус</sys:String>
   <sys:String x:Key="UpdateChannel">канал</sys:String>
   <sys:String x:Key="Logout">выход</sys:String>
