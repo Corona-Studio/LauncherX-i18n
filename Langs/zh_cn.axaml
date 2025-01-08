@@ -1412,10 +1412,10 @@
     <sys:String x:Key="CanNotSafeDeleteMessage">
         该游戏被其他游戏依赖，删除该游戏将会导致依赖于该版本的游戏被隐藏。您确定要删除吗？
         被依赖的游戏版本：[{0}]
-	</sys:String>
+    </sys:String>
 
     <sys:String x:Key="StartAssetCheck">开始进行游戏资源(Asset)检查</sys:String>
-	<sys:String x:Key="NoVersionManifestFound">没有提供 Version Manifest， 开始下载</sys:String>
+    <sys:String x:Key="NoVersionManifestFound">没有提供 Version Manifest， 开始下载</sys:String>
     <sys:String x:Key="NoAssetIndexesFound">没有发现 Asset Indexes 文件， 开始下载</sys:String>
     <sys:String x:Key="FailedToResolveAssetIndexesMessage">解析Asset Indexes 文件失败！原因：{0}</sys:String>
     <sys:String x:Key="AssetIndexesDownloaded">Asset Indexes 文件下载完成</sys:String>
@@ -1469,7 +1469,7 @@
         MD5: {1}
 
         如果您并不知道这是什么意思，请直接点击下方的删除按钮。
-	</sys:String>
+    </sys:String>
     <sys:String x:Key="IgnoreAndDelete">忽略并删除</sys:String>
     <sys:String x:Key="IncorrectSystemArch">不正确的系统架构</sys:String>
 
@@ -1515,8 +1515,8 @@
 
     <sys:String x:Key="ResourcesDownloadMaxTry">资源补全最大重试次数</sys:String>
     <sys:String x:Key="UseQuickResourceCheck">使用快速资源检查</sys:String>
-	<sys:String x:Key="UseQuickResourceCheckDetail">※ 使用快速资源检查可以极大缩短文件检查的速度，但是在某些情况下可能会出现漏判的情况。如果出现启动失败的情况，可以尝试关闭此按钮并启动游戏。</sys:String>
-	<sys:String x:Key="NativeLibrariesReplacePolicy">原生库替换策略</sys:String>
+    <sys:String x:Key="UseQuickResourceCheckDetail">※ 使用快速资源检查可以极大缩短文件检查的速度，但是在某些情况下可能会出现漏判的情况。如果出现启动失败的情况，可以尝试关闭此按钮并启动游戏。</sys:String>
+    <sys:String x:Key="NativeLibrariesReplacePolicy">原生库替换策略</sys:String>
 
     <sys:String x:Key="Color">颜色</sys:String>
     <sys:String x:Key="Background">背景</sys:String>
