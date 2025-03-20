@@ -820,7 +820,7 @@
     <sys:String x:Key="Java8Description">Java 8：适用于 [1.17] 之前的版本，部分附属组件（例如 Forge）也需要这个版本的 Jre</sys:String>
     <sys:String x:Key="Java16Description">Java 16：适用于 [1.17] 或更高版本的游戏</sys:String>
     <sys:String x:Key="Java17Description">Java 17：适用于 [1.18 - pre2] 或更高版本的游戏</sys:String>
-    <sys:String x:Key="Java21Description">Java 21：使用此版本可能可以提升游戏性能。对旧版本的兼容性极差。</sys:String>
+    <sys:String x:Key="Java21Description">Java 21：适用于 [1.20.5] 或更高版本的游戏。使用此版本可能可以提升游戏性能，对旧版本的兼容性极差</sys:String>
 
     <sys:String x:Key="ResetAllSettings">重置所有设置</sys:String>
     <sys:String x:Key="ResetAllSettingsDetail">注意！这将完全删除启动器的配置文件并重新运行配置向导，此操作无法恢复。</sys:String>
@@ -1396,8 +1396,8 @@
     <sys:String x:Key="TryUnregisterDevice">尝试反注册设备</sys:String>
     <sys:String x:Key="TryUnregisterDeviceDetail">设备 {0} 反注册成功</sys:String>
 
-    <sys:String x:Key="InitFriendService">初始化设备认证服务</sys:String>
-    <sys:String x:Key="LoadingFriendList">加载注册设备列表</sys:String>
+    <sys:String x:Key="InitFriendService">初始化好友服务</sys:String>
+    <sys:String x:Key="LoadingFriendList">加载用户好友列表</sys:String>
     <sys:String x:Key="FriendListLoadedCount">用户好友列表获取完成，共 {0} 个好友</sys:String>
 
     <sys:String x:Key="InitUpdateService">初始化更新服务</sys:String>
