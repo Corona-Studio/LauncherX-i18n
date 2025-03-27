@@ -1,10 +1,14 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <!--> LauncherX 多语言文档注意事项 <-->
+    <!--> 如果您在翻译字段中看到了 {0} 这样的字符串，请将其直接保留在翻译之后的源文当中 <-->
+    <!--> 请不要修改字段的 x:Key 值 <-->
+    <!--> 请注意原文中空格的格式及其他风格信息 <-->
 
-    <!--> Imma put the rev number below to indicate how many times this file has been modified.<-->
-    <sys:String x:Key="TranslatorCredits">LauncherX Official - English / Rev1</sys:String>
-    <!--> This translation version is done by Croteco and Japerz from Corona Studio. <-->
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
+    <sys:String x:Key="TranslatorCredits">LauncherX Official - English / Rev2</sys:String>
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
 
     <sys:String x:Key="Ok">Confirm</sys:String>
     <sys:String x:Key="Cancel">Cancel</sys:String>
@@ -13,47 +17,46 @@
     <sys:String x:Key="Fatal">Fatal</sys:String>
     <sys:String x:Key="Debug">Debug</sys:String>
     <sys:String x:Key="Info">Information</sys:String>
-    <sys:String x:Key="Note">Note</sys:String>
+    <!-- <sys:String x:Key="Note">提示</sys:String> -->
 
     <sys:String x:Key="Open">Open</sys:String>
-    <sys:String x:Key="Close">Close</sys:String>
+    <!-- <sys:String x:Key="Close">关闭</sys:String> -->
 
     <sys:String x:Key="Exit">Quit</sys:String>
-    <sys:String x:Key="Maximize">Maximize</sys:String>
+    <!-- <sys:String x:Key="Maximize">最大化</sys:String> -->
     <sys:String x:Key="Minimize">Minimize</sys:String>
     <sys:String x:Key="Force">Force</sys:String>
 
-    <sys:String x:Key="LaunchFailed">Game failed to start.</sys:String>
-    <sys:String x:Key="JavaNotFound">No Java detected.</sys:String>
-    <sys:String x:Key="IllegalJavaInstallation">You are probably using a portable version of Java.</sys:String>
+    <!-- <sys:String x:Key="LaunchFailed">游戏启动失败。</sys:String> -->
+    <!-- <sys:String x:Key="JavaNotFound">启动器没有检测到Java。</sys:String> -->
+    <!-- <sys:String x:Key="IllegalJavaInstallation">您可能正在使用绿色版Java。</sys:String> -->
 
     <!--> App.xaml.cs <-->
 
-    <sys:String x:Key="EmptyDirFailed">Failed to clean up folder(s).</sys:String>
+    <!-- <sys:String x:Key="EmptyDirFailed">清空文件夹失败</sys:String> -->
     <sys:String x:Key="ExitMainPg">Quit LauncherX</sys:String>
     <sys:String x:Key="TryContinue">Continue to Use LauncherX</sys:String>
-    <sys:String x:Key="UncaughtEx">Confused Unga Bunga.</sys:String>
+    <!-- <sys:String x:Key="UncaughtEx">LauncherX遭遇了不可描述的错误。</sys:String> -->
 
     <!--> App.xaml.cs <-->
 
     <!--> MainWindow.xaml <-->
 
-    <sys:String x:Key="GameStart">Launch</sys:String>
+    <sys:String x:Key="GameStart">Launch Game</sys:String>
     <sys:String x:Key="GameList">Game List</sys:String>
     <sys:String x:Key="Dashboard">Dashboard</sys:String>
     <sys:String x:Key="Settings">Settings</sys:String>
 
-    <sys:String x:Key="BetaHint">Beta Version. For inner testings only.</sys:String>
-    <sys:String x:Key="Start">Launch</sys:String>
+    <sys:String x:Key="Start">Launching</sys:String>
     <sys:String x:Key="TaskCenter">Task Center</sys:String>
 
     <!--> MainWindow.xaml <-->
 
     <!--> MainWindow.xaml.cs <-->
 
-    <sys:String x:Key="IllegalSettings">Incorrect Configuration</sys:String>
-    <sys:String x:Key="IllegalSettingsHint1">Settings are partially restored to default due to some incorrect configurations you've made in the last change of the settings:</sys:String>
-    <sys:String x:Key="IllegalSettingsHint2">Incorrect configuration(s) found, please check the settings page:</sys:String>
+    <!-- <sys:String x:Key="IllegalSettings">不正确的配置</sys:String> -->
+    <!-- <sys:String x:Key="IllegalSettingsHint1">在上一次修改的启动器设置中，由于您不正确的配置，我们已经将部分参数修改为默认设置：</sys:String> -->
+    <!-- <sys:String x:Key="IllegalSettingsHint2">检测到您有不正确的设置，请前往设置页面修改：</sys:String> -->
 
     <!--> MainWindow.xaml.cs <-->
 
@@ -66,8 +69,8 @@
     <sys:String x:Key="GameNotSelect">Game Not Selected</sys:String>
     <sys:String x:Key="GameNotSelectHint">No selected game to launch.</sys:String>
 
-    <sys:String x:Key="AccountNotSelect">Account Not Selected</sys:String>
-    <sys:String x:Key="AccountNotSelectHint">Account not selected or selected one is invalid.</sys:String>
+    <!-- <sys:String x:Key="AccountNotSelect">未选择账户</sys:String> -->
+    <!-- <sys:String x:Key="AccountNotSelectHint">未选择启动用账户或选择的账户无效</sys:String> -->
 
     <!--> MainViewModel.cs <-->
 
@@ -86,7 +89,7 @@
     <sys:String x:Key="MojangAccount">Mojang Account</sys:String>
     <sys:String x:Key="MicrosoftAccount">Microsoft Account</sys:String>
 
-    <sys:String x:Key="OnlineAccount">Online Account</sys:String>
+    <!-- <sys:String x:Key="OnlineAccount">在线账户</sys:String> -->
     <sys:String x:Key="Email">Email</sys:String>
     <sys:String x:Key="UserName">Username</sys:String>
     <sys:String x:Key="DisplayName">Display Name</sys:String>
@@ -99,21 +102,23 @@
     <sys:String x:Key="CheckingAccount">Verifying account...</sys:String>
     <sys:String x:Key="Default">Default</sys:String>
 
+    <!-- <sys:String x:Key="CheckSucceeded">验证成功</sys:String> -->
     <sys:String x:Key="CheckFailed">Validation Failed</sys:String>
+
     <sys:String x:Key="SkinRequestFailed">Fail to get the skin.</sys:String>
 
     <!--> CreateNewAccountDialog.xaml <-->
 
     <!--> GameListPage.xaml <-->
 
-    <sys:String x:Key="NoGameYet">No Game Yet</sys:String>
+    <!-- <sys:String x:Key="NoGameYet">暂无任何游戏</sys:String> -->
 
     <!--> GameListPage.xaml <-->
 
     <!--> SettingsPage.xaml <-->
 
     <sys:String x:Key="GlobalGameSettings">Global Game Settings</sys:String>
-    <sys:String x:Key="RegionAndLang">Region and Language</sys:String>
+    <!-- <sys:String x:Key="RegionAndLang">区域和语言</sys:String> -->
     <sys:String x:Key="Appearance">Appearance</sys:String>
     <sys:String x:Key="Network">Network</sys:String>
     <sys:String x:Key="Advanced">Advanced</sys:String>
@@ -140,31 +145,31 @@
 
     <sys:String x:Key="JvmAdvanceArgument">Advanced JVM Arguments</sys:String>
     <sys:String x:Key="JoinServerAfterLaunched">Join a Server After Game Launches</sys:String>
-    <sys:String x:Key="ServerIpOrDomain">Server Ip/Domain</sys:String>
+    <sys:String x:Key="ServerIpOrDomain">Server IP / Domain</sys:String>
     <sys:String x:Key="Port">Port</sys:String>
 
     <sys:String x:Key="Path">Path</sys:String>
     <sys:String x:Key="AdditionalArgument">Additional Argument</sys:String>
 
     <sys:String x:Key="LauncherBehavior">Launcher Behavior</sys:String>
-    <sys:String x:Key="CheckGameFile">Check Game Files</sys:String>
-    <sys:String x:Key="CheckSha1WhenFixingGameFile">Check Integrity Of Auto-Completed Game Files</sys:String>
+    <sys:String x:Key="CheckGameFile">Checking Game Files</sys:String>
+    <sys:String x:Key="CheckSha1WhenFixingGameFile">Check Integrity of Auto-Completed Game Files</sys:String>
     <sys:String x:Key="GameLaunchedLauncherBehavior">Launcher Behavior After Game Launch</sys:String>
     <sys:String x:Key="DisplayGameLogs">Show Game Logs</sys:String>
 
-    <sys:String x:Key="BaseUiSettings">Basic Interface Settings</sys:String>
-    <sys:String x:Key="GlobalAnimationDuration">Global Animation Duration</sys:String>
-    <sys:String x:Key="GlobalAnimationEasingFunction">Global Animation Easing Function</sys:String>
-    <sys:String x:Key="GlobalAnimationEasingMode">Global Animation Easing Mode</sys:String>
+    <!-- <sys:String x:Key="BaseUiSettings">基础界面设置</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationDuration">全局动画时长</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationEasingFunction">全局动画缓动函数</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationEasingMode">全局动画缓动模式</sys:String> -->
 
-    <sys:String x:Key="AppearancePageTitle">Modify the appearance of the launcher.</sys:String>
-    <sys:String x:Key="AppearancePageDetail">You can see the window preview on the right.</sys:String>
-    
+    <!-- <sys:String x:Key="AppearancePageTitle">在这里修改你的启动器外观</sys:String> -->
+    <!-- <sys:String x:Key="AppearancePageDetail">在右侧您可以看到窗口预览。</sys:String> -->
+
     <sys:String x:Key="ThemeMode">Theme Mode</sys:String>
     <sys:String x:Key="Language">Language</sys:String>
     <sys:String x:Key="UseFluidMove">Enable Fluid Move</sys:String>
 
-    <sys:String x:Key="MainInterfaceBackground">Main Interface Background</sys:String>
+    <!-- <sys:String x:Key="MainInterfaceBackground">主界面背景</sys:String> -->
     <sys:String x:Key="BackgroundTexture">Background Texture</sys:String>
     <sys:String x:Key="BackgroundType">Background Type</sys:String>
 
@@ -178,7 +183,7 @@
     <sys:String x:Key="UseSelectedColorAsAccentColor">Color Palette</sys:String>
 
     <sys:String x:Key="Preview">Preview</sys:String>
-    <sys:String x:Key="UiFontFamily">Interface Font</sys:String>
+    <!-- <sys:String x:Key="UiFontFamily">界面字体</sys:String> -->
     <sys:String x:Key="PrimaryFont">Primary Font</sys:String>
     <sys:String x:Key="SecondaryFont">Secondary Font</sys:String>
 
@@ -187,7 +192,7 @@
     <sys:String x:Key="PreviewFontHint">Input any character to preview.</sys:String>
 
     <sys:String x:Key="FontChangedHint">You've changed font settings. To apply changes, please restart the launcher.</sys:String>
-    <sys:String x:Key="FontFamilyPreviewTestText">The quick brown fox jumps over the lazy dog. THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG. 0123456789</sys:String>
+    <!-- <sys:String x:Key="FontFamilyPreviewTestText">汉体书写信息技术标准相容 AaBbCc A a B b C c 0123456789</sys:String> -->
 
     <sys:String x:Key="BaseNetworkSettings">Basic Network Settings</sys:String>
     <sys:String x:Key="ResourceDownloadServer">Resource Download Server</sys:String>
@@ -239,7 +244,7 @@
     <sys:String x:Key="ImportingPleaseWait">Importing...</sys:String>
     <sys:String x:Key="AlreadyImported">Image Already Imported</sys:String>
 
-    <sys:String x:Key="FetchMojangServerInfo">Fetch Mojang Server Info</sys:String>
+    <!-- <sys:String x:Key="FetchMojangServerInfo">获取Mojang服务信息</sys:String> -->
     <sys:String x:Key="Unknown">Unknown</sys:String>
 
 
@@ -254,7 +259,7 @@
     <!--> AccountInfoControlTemplate.xaml <-->
 
     <sys:String x:Key="LastUsed">Last Used</sys:String>
-    <sys:String x:Key="ClickToUseAccount">Click To Use</sys:String>
+    <!-- <sys:String x:Key="ClickToUseAccount">点击来使用该账户</sys:String> -->
     <sys:String x:Key="NeverUsed">Never Played</sys:String>
 
     <!--> AccountInfoControlTemplate.xaml <-->
@@ -280,15 +285,15 @@
     <!--> TaskCenterPanel.xaml <-->
 
     <sys:String x:Key="TaskQueue">Task Queue</sys:String>
-    <sys:String x:Key="NoMoreTask">Nothing Here</sys:String>
+    <!-- <sys:String x:Key="NoMoreTask">暂无任务</sys:String> -->
     <sys:String x:Key="NotifyHistory">Notification History</sys:String>
-    <sys:String x:Key="NoMoreNotify">No New Notifications</sys:String>
+    <!-- <sys:String x:Key="NoMoreNotify">暂无通知</sys:String> -->
 
     <!--> TaskCenterPanel.xaml <-->
 
     <!--> ITaskCenterJob <-->
 
-    <sys:String x:Key="TaskCanceled">Task Canceled...</sys:String>
+    <!-- <sys:String x:Key="TaskCanceled">任务已被取消...</sys:String> -->
     <sys:String x:Key="DownloadingFile">Downloading File</sys:String>
     <sys:String x:Key="LaunchGame">Launch</sys:String>
 
@@ -300,7 +305,7 @@
     <sys:String x:Key="OperationFailed">Operation Failed</sys:String>
 
     <sys:String x:Key="Duration">Duration</sys:String>
-    <sys:String x:Key="ResourceCompletion">Resource Completion</sys:String>
+    <!-- <sys:String x:Key="ResourceCompletion">资源补全</sys:String> -->
     <sys:String x:Key="Reason">Reason</sys:String>
     <sys:String x:Key="Retry">Retry</sys:String>
     <sys:String x:Key="Completion">Completion</sys:String>
@@ -320,9 +325,9 @@
 
     <!--> Models <-->
 
-    <sys:String x:Key="EaseIn">Ease In</sys:String>
-    <sys:String x:Key="EaseOut">Ease Out</sys:String>
-    <sys:String x:Key="EaseInOut">Ease In and Out</sys:String>
+    <!-- <sys:String x:Key="EaseIn">缓入</sys:String> -->
+    <!-- <sys:String x:Key="EaseOut">缓出</sys:String> -->
+    <!-- <sys:String x:Key="EaseInOut">缓入、出</sys:String> -->
 
     <sys:String x:Key="Shape1">Line</sys:String>
     <sys:String x:Key="Shape2">Circle</sys:String>
@@ -336,18 +341,18 @@
     <sys:String x:Key="BangBangApiMirror">Bangbang93 Mirror</sys:String>
     <sys:String x:Key="McBbsMirror">McBbs Mirror</sys:String>
 
-    <sys:String x:Key="BackEase">Retraction</sys:String>
-    <sys:String x:Key="BounceEase">Bounce</sys:String>
-    <sys:String x:Key="CircleEase">Circle</sys:String>
-    <sys:String x:Key="CubicEase">t³ Function</sys:String>
-    <sys:String x:Key="ElasticEase">Elastic</sys:String>
-    <sys:String x:Key="ExponentialEase">Exponential</sys:String>
-    <sys:String x:Key="PowerEase">t*p Function</sys:String>
-    <sys:String x:Key="QuadraticEase">t² Function</sys:String>
-    <sys:String x:Key="QuinticEase">t⁵ Function</sys:String>
-    <sys:String x:Key="SineEase">Sin(t) Function</sys:String>
+    <!-- <sys:String x:Key="BackEase">收回</sys:String> -->
+    <!-- <sys:String x:Key="BounceEase">弹跳</sys:String> -->
+    <!-- <sys:String x:Key="CircleEase">循环</sys:String> -->
+    <!-- <sys:String x:Key="CubicEase">t³函数</sys:String> -->
+    <!-- <sys:String x:Key="ElasticEase">弹簧</sys:String> -->
+    <!-- <sys:String x:Key="ExponentialEase">指数</sys:String> -->
+    <!-- <sys:String x:Key="PowerEase">t*p函数</sys:String> -->
+    <!-- <sys:String x:Key="QuadraticEase">t²函数</sys:String> -->
+    <!-- <sys:String x:Key="QuinticEase">t⁵函数</sys:String> -->
+    <!-- <sys:String x:Key="SineEase">Sin(t)函数</sys:String> -->
 
-    <sys:String x:Key="NoSelectedBgImage">Background File Path Unset</sys:String>
+    <!-- <sys:String x:Key="NoSelectedBgImage">未设置壁纸路径</sys:String> -->
 
     <sys:String x:Key="StaySame">Remain the same</sys:String>
 
@@ -360,7 +365,7 @@
     <sys:String x:Key="TimeOutOrError">Time out or exceptions found</sys:String>
     <sys:String x:Key="Times">Times</sys:String>
 
-    <sys:String x:Key="TestDelayFailedDetail">Could not test the latency of {0}</sys:String>
+    <!-- <sys:String x:Key="TestDelayFailedDetail">无法测试{0}的延迟</sys:String> -->
 
     <sys:String x:Key="LightTheme">Light Theme</sys:String>
     <sys:String x:Key="DarkTheme">Dark Theme</sys:String>
@@ -369,8 +374,7 @@
 
     <!--> About Page <-->
 
-    <sys:String x:Key="AboutUs">About Us (Chinese Simplified)</sys:String>
-
+    <!-- <sys:String x:Key="AboutUs">关于我们</sys:String> -->
     <sys:String x:Key="AboutUsContent">LauncherX is the next generation Minecraft launcher.</sys:String>
     <sys:String x:Key="TeamContent">Corona Studio comes from CMFL Dev Team. We are the software develop team founded by people who likes Minecraft.</sys:String>
 
@@ -393,17 +397,21 @@
     <sys:String x:Key="Manager">Manager</sys:String>
     <sys:String x:Key="QualityControlGroup">Quality Control Group</sys:String>
 
-    <sys:String x:Key="Translation Contributor">Translation Contributor</sys:String>
+    <sys:String x:Key="TranslationContributor">Translation Contributor</sys:String>
 
     <sys:String x:Key="Thanks">Thanks</sys:String>
-    <sys:String x:Key="Thanks1">感谢由 BangBang93 以及 McBbs 提供的 MineCraft 资源文件下载加速服务</sys:String>
-    <sys:String x:Key="Thanks2">感谢由 优势科技-星星 赞助的服务器</sys:String>
-    <sys:String x:Key="Thanks3">感谢 CI010 为 ProjBobcat 启动核心开发提供的技术指导</sys:String>
+    <sys:String x:Key="Thanks1">Thanks to BangBang93 and McBbs for providing accelerated Minecraft resource file downloads</sys:String>
+    <sys:String x:Key="Thanks2">Server sponsored by 优势科技-星星</sys:String>
+    <!-- <sys:String x:Key="Thanks3">感谢 CI010 为 ProjBobcat 启动核心开发提供的技术指导</sys:String> -->
 
     <sys:String x:Key="OpenSourceProjectUsages">Open Source Project Usages</sys:String>
 
+
     <sys:String x:Key="Other">Other</sys:String>
-    <sys:String x:Key="OtherContent">This version of translation is done by Croteco / Japerz. (Shout out to Croteco's hard work! -Japerz)</sys:String>
+
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+    <sys:String x:Key="OtherContent">This version of translation is done by Croteco / Japerz(杰帕斯). (Shout out to Croteco's hard work! -Japerz)</sys:String>
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
 
     <!--> About Page <-->
 
@@ -419,15 +427,16 @@
 
     <sys:String x:Key="NoSuchPageKeyExceptionMessage">No page found for key value of {0}.</sys:String>
 
-    <sys:String x:Key="GetSettingsFailed">Error when reading the configuration file.</sys:String>
-    <sys:String x:Key="SearchGameHint">Search for the id of installed game. e.g. 1.20.4</sys:String>
+
+    <!-- <sys:String x:Key="GetSettingsFailed">读取设置文件时出现了一些错误</sys:String> -->
+    <!-- <sys:String x:Key="SearchGameHint">搜索游戏的 id，例如：1.15.2</sys:String> -->
 
     <sys:String x:Key="Yes">Yes</sys:String>
     <sys:String x:Key="No">No</sys:String>
 
     <sys:String x:Key="DownloadFailed">Download Failed</sys:String>
     <sys:String x:Key="RequestOnlineGame">Requesting for online game...</sys:String>
-    <sys:String x:Key="RequestFailed">Request Failed</sys:String>
+    <!-- <sys:String x:Key="RequestFailed">获取失败</sys:String> -->
 
     <sys:String x:Key="Finished">Done</sys:String>
     <sys:String x:Key="Download">Download</sys:String>
@@ -441,15 +450,15 @@
     <sys:String x:Key="BadJavaRuntime">This version of Java ( {0} ) is NOT compatible with your system architecture ( x{0} ). It may cause performance issues.</sys:String>
 
     <sys:String x:Key="SelectedVersion">Select Version</sys:String>
-    <sys:String x:Key="ManuallyCopyRedirectUrl">Copy RedirectUrl Manually</sys:String>
+    <!-- <sys:String x:Key="ManuallyCopyRedirectUrl">手动复制 RedirectUrl</sys:String> -->
 
     <sys:String x:Key="Login">Login</sys:String>
     <sys:String x:Key="Register">Register</sys:String>
 
     <sys:String x:Key="ConnectToService">Connect Service</sys:String>
 
-    <sys:String x:Key="IntroWelcomeText">Welcome to LauncherX</sys:String>
-    <sys:String x:Key="IntroWelcomeTextDetail">Click next to start the setup wizard.</sys:String>
+    <!-- <sys:String x:Key="IntroWelcomeText">欢迎使用 LauncherX</sys:String> -->
+    <!-- <sys:String x:Key="IntroWelcomeTextDetail">下面即将开始正式的配置向导，请点击下一步继续。</sys:String> -->
 
     <sys:String x:Key="IntroSelectAppearance">Choose your favorite appearance</sys:String>
     <sys:String x:Key="IntroSelectAppearanceDetail">More options are available at the "Appearance" tab in settings page.</sys:String>
@@ -465,21 +474,21 @@
     <sys:String x:Key="Previous">Previous</sys:String>
     <sys:String x:Key="Next">Next</sys:String>
 
-    <sys:String x:Key="RequestingGameList">Hang tight! Loading game list...</sys:String>
+    <!-- <sys:String x:Key="RequestingGameList">稍等片刻，正在加载游戏列表</sys:String> -->
 
     <sys:String x:Key="SystemInfo">System Information</sys:String>
     <sys:String x:Key="GameInfo">Game Information</sys:String>
-    <sys:String x:Key="Memory">Memory</sys:String>
+    <!-- <sys:String x:Key="Memory">内存</sys:String> -->
     <sys:String x:Key="Time">Time</sys:String>
     <sys:String x:Key="GameTime">Game Play Time</sys:String>
     <sys:String x:Key="Count">Play count</sys:String>
 
-    <sys:String x:Key="AccountType">Account Type</sys:String>
-    <sys:String x:Key="ValidOnlineAccount">Valid Online Account</sys:String>
+    <!-- <sys:String x:Key="AccountType">账户类型</sys:String> -->
+    <!-- <sys:String x:Key="ValidOnlineAccount">有效的在线账户</sys:String> -->
 
-    <sys:String x:Key="StatData">Statistics</sys:String>
+    <!-- <sys:String x:Key="StatData">统计数据</sys:String> -->
     <sys:String x:Key="News">News</sys:String>
-    <sys:String x:Key="GetGames">Get Games</sys:String>
+    <!-- <sys:String x:Key="GetGames">获取游戏</sys:String> -->
 
     <sys:String x:Key="Free">Free</sys:String>
     <sys:String x:Key="Using">In Use</sys:String>
@@ -498,8 +507,8 @@
     <sys:String x:Key="GlobalNotSet">Global Not Set</sys:String>
     <sys:String x:Key="SaveSettingsFailed">Save Settings Failed</sys:String>
 
-    <sys:String x:Key="FalseFabricInstallSettings">Incorrect Fabric Installation</sys:String>
-    <sys:String x:Key="FalseFabricInstallSettingsDetail">You have only selected the Fabric Loader OR the Fabric Yarn. To install fabric you need BOTH of them.</sys:String>
+    <!-- <sys:String x:Key="FalseFabricInstallSettings">不正确的 Fabric 安装配置</sys:String> -->
+    <!-- <sys:String x:Key="FalseFabricInstallSettingsDetail">您只选择了 Fabric Loader 或是 Fabric Yarn，请在两个列表里选择合适的版本安装才能够继续！</sys:String> -->
 
     <sys:String x:Key="GetFailed">Pull Failed</sys:String>
 
@@ -516,15 +525,16 @@
     <sys:String x:Key="LiteLoaderDescription">LiteLoader is a lightweight Minecraft mod loader designed to provide simple, high performance and reliable function for mods that do not need to change the game mechanics.</sys:String>
     <sys:String x:Key="OptifineDescription">To provide performance adjustment and advanced graphic implementation (such as shader) for Minecraft.</sys:String>
 
-    <sys:String x:Key="NotSupportedOperation">Unsupported Operation</sys:String>
-    <sys:String x:Key="MultiFilesNotSupportedOperationDetail">Multifile operation not supported right now.</sys:String>
+    <!-- <sys:String x:Key="NotSupportedOperation">不受支持的操作</sys:String> -->
+    <!-- <sys:String x:Key="MultiFilesNotSupportedOperationDetail">暂时不支持多文件操作，我们将在今后支持。</sys:String> -->
 
-    <sys:String x:Key="DragDetected">You dragged in a file (or files).</sys:String>
-    <sys:String x:Key="ChooseFileTypeDetail">Please choose the type of your file. Note that some types might not be supported yet.</sys:String>
+    <!-- <sys:String x:Key="DragDetected">您拖入了文件</sys:String> -->
+    <!-- <sys:String x:Key="ChooseFileTypeDetail">请在下方选择您的文件类型。注意，部分文件可能暂时不受支持。</sys:String> -->
 
     <sys:String x:Key="Author">Author</sys:String>
     <sys:String x:Key="Version">Version</sys:String>
     <sys:String x:Key="Loading">Loading</sys:String>
+
 
     <sys:String x:Key="AddFriend">Add a Friend</sys:String>
     <sys:String x:Key="ValidateFriend">Validate Friends</sys:String>
@@ -533,12 +543,12 @@
     <sys:String x:Key="CanNotEmpty">Required Field</sys:String>
 
     <sys:String x:Key="EmailFormatError">This might not be a Email address</sys:String>
-    <sys:String x:Key="EmailRequired">Email Address Required</sys:String>
+    <!-- <sys:String x:Key="EmailRequired">请输入邮箱</sys:String> -->
 
-    <sys:String x:Key="ConfirmEmail">Confirm Email</sys:String>
-    <sys:String x:Key="ValidationCode">Validation Code</sys:String>
-    <sys:String x:Key="ValidationCodeHasBeenSent">Validation Code Send</sys:String>
-    <sys:String x:Key="PasswordIsDifferent">Two input password is not the same.</sys:String>
+    <!-- <sys:String x:Key="ConfirmEmail">验证邮箱</sys:String> -->
+    <!-- <sys:String x:Key="ValidationCode">验证码</sys:String> -->
+    <!-- <sys:String x:Key="ValidationCodeHasBeenSent">验证码已经发送到您的邮箱</sys:String> -->
+    <!-- <sys:String x:Key="PasswordIsDifferent">两次输入的密码不相同</sys:String> -->
     <sys:String x:Key="PasswordFormat">Password must contain both upper and lower case of alphabet, at least one digit and at least one special character excludes underline.</sys:String>
     <sys:String x:Key="UserNameFormat">Username can only contain uppercase and lowercase letters, numbers, dashes, or underscores, and must be 4-16 characters in length.</sys:String>
     <sys:String x:Key="StringLength">Length should between {2} and {1}.</sys:String>
@@ -569,22 +579,22 @@
     <sys:String x:Key="Send">Send</sys:String>
     <sys:String x:Key="SendDescription">Enter message, press [ Enter ] to send</sys:String>
 
-    <sys:String x:Key="NvidiaHardwareAcc">Hardware Acceleration (nVidia)</sys:String>
-    <sys:String x:Key="NvidiaHardwareAccRebootRequired">You've changed the Hardware Acceleration option.Please restart the launcher to apply.</sys:String>
+    <!-- <sys:String x:Key="NvidiaHardwareAcc">硬件加速渲染 （Nvidia）</sys:String> -->
+    <!-- <sys:String x:Key="NvidiaHardwareAccRebootRequired">您修改了启动器的硬件加速设置，这部分设置需要重启启动器后才能应用</sys:String> -->
 
     <sys:String x:Key="VideoBackground">Video Background</sys:String>
     <sys:String x:Key="MicaBackground">Mica Background(WIN11+)</sys:String>
     <sys:String x:Key="GameScreenShots">Screenshots</sys:String>
     <sys:String x:Key="BlurRadius">Blur Radius</sys:String>
-    <sys:String x:Key="Volume">Volume</sys:String>
+    <!-- <sys:String x:Key="Volume">音量</sys:String> -->
     <sys:String x:Key="BackgroundAlignmentMode">Background Alignment Mode</sys:String>
 
     <sys:String x:Key="ResolutionDescription">Set resolution to 0 * 0 will change it to default.</sys:String>
 
-    <sys:String x:Key="WhatCanIShowYou">What can I show to ya?</sys:String>
+    <!-- <sys:String x:Key="WhatCanIShowYou">我能为您展示什么？</sys:String> -->
     <sys:String x:Key="LauncherNotification">Launcher Notifications</sys:String>
 
-    <sys:String x:Key="Second">Second</sys:String>
+    <sys:String x:Key="Seconds">Seconds</sys:String>
     <sys:String x:Key="Minutes">Minutes</sys:String>
     <sys:String x:Key="Hours">Hours</sys:String>
     <sys:String x:Key="Days">Days</sys:String>
@@ -599,17 +609,17 @@
     <sys:String x:Key="Logout">Logout</sys:String>
 
     <sys:String x:Key="LauncherUpdateFound">New LauncherX Release</sys:String>
-    <sys:String x:Key="HotfixUpdateNotice">This version contains significant quality update.</sys:String>
-    <sys:String x:Key="DoNotCloseNotice">Please wait and do not force your launcher to close.</sys:String>
+    <sys:String x:Key="HotfixUpdateNotice">Quality Update</sys:String>
+    <sys:String x:Key="DoNotCloseNotice">Just a moment. Keep your launcherX open.</sys:String>
     <sys:String x:Key="Update">Update</sys:String>
 
-    <sys:String x:Key="ShowPassword">Show Password</sys:String>
+    <!-- <sys:String x:Key="ShowPassword">显示密码</sys:String> -->
     <sys:String x:Key="ForgetPassword">Forget Password</sys:String>
 
-    <sys:String x:Key="ClickToChange">Click to Change</sys:String>
+    <!-- <sys:String x:Key="ClickToChange">点击修改</sys:String> -->
 
     <sys:String x:Key="AuthServerHint">Optional(usually https://[domain]/api/yggdrasil/)</sys:String>
-    <sys:String x:Key="MsLoginDetail">Clicking on the confirm button will redirect you to the authentication page of Microsoft Account. Once you finished the process, LauncherX will add your game account.</sys:String>
+    <!-- <sys:String x:Key="MsLoginDetail">您在上方输入邮箱之后。点击确认，您将在浏览器中完成微软账户的登录。完成之后，启动器将为您添加您的账户。</sys:String> -->
 
     <sys:String x:Key="ProtocolVersion">Protocol Version</sys:String>
     <sys:String x:Key="Search">Search</sys:String>
@@ -618,21 +628,21 @@
     <sys:String x:Key="TryStartGame">Try Launch the Game</sys:String>
     <sys:String x:Key="StartingGame">Launching Game：{0}</sys:String>
 
-    <sys:String x:Key="LaunchFailedTitle">Launch Failed For {0}</sys:String>
-    <sys:String x:Key="LaunchFailedContent">Game restart failed for: {0}</sys:String>
+    <!-- <sys:String x:Key="LaunchFailedTitle">{0} 启动失败</sys:String> -->
+    <!-- <sys:String x:Key="LaunchFailedContent">我们在尝试启动游戏时出现了问题，具体原因：{0}</sys:String> -->
     <sys:String x:Key="PreparingMainUI">Preparing main interface, this might take a while.</sys:String>
 
     <sys:String x:Key="YouAreNotLogin">You Are Not Logged In.</sys:String>
     <sys:String x:Key="YouAreNotLoginContent">Login is required to use unstable versions of LauncherX。</sys:String>
-    <sys:String x:Key="RegisterSucceededContent">We've sent you an email. Click the link in the email to activate your account.</sys:String>
+    <!-- <sys:String x:Key="RegisterSucceededContent">我们已经发送了一封激活邮件 到您的邮箱。请点击邮件内的链接激活。激活后就可以登录了</sys:String> -->
     <sys:String x:Key="AccountUnavailable">Account Unavailable</sys:String>
     <sys:String x:Key="AccountUnavailableContent">You are not a insider , do you wish to change account? (Press cancel to exit)</sys:String>
     <sys:String x:Key="GetInsider">Get Insider Qualification</sys:String>
     <sys:String x:Key="ChannelSwitched">Update Channel Switched</sys:String>
     <sys:String x:Key="ChannelSwitchedContent">
-        Your original channel is「{0}」. {2}
-        Your're using LauncherX of「{1}」, {2}
-        We've changed your update channel to「{1}」.
+        Your previous branch was "{0}". {2}
+        Since you ran the LauncherX version for the "{1}" branch, {2}
+        We have switched your branch to "{1}".
     </sys:String>
     <sys:String x:Key="DeviceVerificationFailed">Device Verification Failed</sys:String>
     <sys:String x:Key="DeviceVerificationFailedContent">Please remove your not using device and add this one. Quitting LauncherX.</sys:String>
@@ -640,9 +650,9 @@
     <sys:String x:Key="IsConfirm">Confirm?</sys:String>
     <sys:String x:Key="ConfirmToDeleteFriend">Are you sure to delete friend {0} ?</sys:String>
 
-    <sys:String x:Key="MediaFile">Media File</sys:String>
+    <!-- <sys:String x:Key="MediaFile">媒体文件</sys:String> -->
 
-    <sys:String x:Key="LoginSucceededContent">Validation successful, your account will encrypted and stored. Click next to continue.</sys:String>
+    <!-- <sys:String x:Key="LoginSucceededContent">账户已完成验证并已加密保存，请点击下一步继续。</sys:String> -->
 
     <sys:String x:Key="UpdateDownloadFailed">Can't download update</sys:String>
     <sys:String x:Key="UpdateDownloadFailedContent">Can't download update，probably because of bad network connection. Reason:{0}</sys:String>
@@ -650,14 +660,14 @@
     <sys:String x:Key="EmailUsed">Email Already Registered</sys:String>
 
     <sys:String x:Key="Hi">Hi:)</sys:String>
-    <sys:String x:Key="AuthResultNotFound">Authentication Result Not Found</sys:String>
-    <sys:String x:Key="AuthIncomplete">We can't validate your account</sys:String>
-    <sys:String x:Key="AuthIncompleteContent">We can't validate your account, did you canceled the validation？ Reason:{0}</sys:String>
+    <!-- <sys:String x:Key="AuthResultNotFound">未找到认证结果</sys:String> -->
+    <!-- <sys:String x:Key="AuthIncomplete">无法完成账户验证</sys:String> -->
+    <!-- <sys:String x:Key="AuthIncompleteContent">我们无法完成账号的验证，这可能是因为您取消了验证或是其他原因。具体原因：{0}</sys:String> -->
 
-    <sys:String x:Key="TotalSold">Sold</sys:String>
-    <sys:String x:Key="Last24Hours">In the past 24 hours</sys:String>
-    <sys:String x:Key="SoldPerSecond">Sold per second</sys:String>
-    <sys:String x:Key="Copies">Copies</sys:String>
+    <!-- <sys:String x:Key="TotalSold">一共售出</sys:String> -->
+    <!-- <sys:String x:Key="Last24Hours">过去 24 小时</sys:String> -->
+    <!-- <sys:String x:Key="SoldPerSecond">每秒售出</sys:String> -->
+    <!-- <sys:String x:Key="Copies">份</sys:String> -->
 
     <sys:String x:Key="Online">Online</sys:String>
     <sys:String x:Key="AFK">AFK</sys:String>
@@ -675,7 +685,7 @@
     <sys:String x:Key="BottomCenter">BottomCenter</sys:String>
     <sys:String x:Key="BottomRight">BottomRight</sys:String>
 
-    <sys:String x:Key="ImageLoadFailed">Image Loading Failed</sys:String>
+    <!-- <sys:String x:Key="ImageLoadFailed">图片加载失败</sys:String> -->
 
     <sys:String x:Key="SetServerSucceededContent">Successfully set server to: {0}</sys:String>
 
@@ -700,7 +710,7 @@
 
     <sys:String x:Key="UnknownErrorOccurs">Unknown Error Occured</sys:String>
 
-    <sys:String x:Key="NowYouCanLogin">You can login now</sys:String>
+    <!-- <sys:String x:Key="NowYouCanLogin">现在你可以登录了</sys:String> -->
     <sys:String x:Key="FailedToUploadAvatar">Failed to upload avatar</sys:String>
 
     <sys:String x:Key="Rank">Rank</sys:String>
@@ -709,14 +719,14 @@
     <sys:String x:Key="Name">Name</sys:String>
     <sys:String x:Key="DownloadCount">Downloads</sys:String>
 
-    <sys:String x:Key="TimeBeforeDayUnit">Time(days ago)</sys:String>
-    <sys:String x:Key="GameTimeHourUnit">Play time(hours)</sys:String>
+    <!-- <sys:String x:Key="TimeBeforeDayUnit">时间（天前）</sys:String> -->
+    <!-- <sys:String x:Key="GameTimeHourUnit">游戏时长（小时）</sys:String> -->
 
     <sys:String x:Key="CurseForgeSearchTextHint">Mods, Texture Pack and Shaderpack's name, Example: BuildCraft</sys:String>
     <sys:String x:Key="GameVersionTextHint">Game version, Example: 1.15.2</sys:String>
 
     <sys:String x:Key="Tag">Tags</sys:String>
-    <sys:String x:Key="SortMethod">Sort</sys:String>
+    <!-- <sys:String x:Key="SortMethod">排序方式</sys:String> -->
 
     <sys:String x:Key="VersionList">Version List</sys:String>
     <sys:String x:Key="DownloadResource">Resource Download</sys:String>
@@ -741,9 +751,9 @@
     <sys:String x:Key="Home">Home</sys:String>
 
     <sys:String x:Key="AutoScroll">Auto scroll</sys:String>
-    <sys:String x:Key="LogHighlight">Log highlight</sys:String>
+    <!-- <sys:String x:Key="LogHighlight">日志高亮</sys:String> -->
 
-    <sys:String x:Key="GameProcessManagement">Game process management</sys:String>
+    <!-- <sys:String x:Key="GameProcessManagement">游戏进程管理</sys:String> -->
     <sys:String x:Key="KillProcess">Kill process</sys:String>
 
     <sys:String x:Key="FalseJavaSelectionCase1">The game you are launching does not explicitly state which version of Java it requires, but we believe the game requires the Java 8 runtime to launch.</sys:String>
@@ -751,7 +761,7 @@
     <sys:String x:Key="FalseJavaSelectionDetail">However, the runtime version you currently selected is [{0}]. Incorrect Java runtime configuration may cause launch failure. You can get Java by going to Settings-Global Game Settings.</sys:String>
 
     <sys:String x:Key="ContinueLaunch">Continue Launch</sys:String>
-    <sys:String x:Key="AutoSelect">Auto Select</sys:String>
+    <sys:String x:Key="AutoSelect">Auto</sys:String>
 
     <sys:String x:Key="FailedToAutoSelectJavaMessage">No suitable Java runtime for this game from the existing Java libraries. The runtime version required by this game is [{0}].</sys:String>
 
@@ -763,53 +773,54 @@
     <sys:String x:Key="Running">Running</sys:String>
     <sys:String x:Key="Stopped">Terminated</sys:String>
 
-    <sys:String x:Key="UnsupportedServer">Unable to detect NAT type, maybe the server does not support it.</sys:String>
-    <sys:String x:Key="UdpBlocked">UDP Blocked</sys:String>
-    <sys:String x:Key="OpenInternet">Open Internet</sys:String>
-    <sys:String x:Key="SymmetricUdpFirewall">Public network, UDP firewall enabled</sys:String>
-    <sys:String x:Key="FullCone">Full Cone</sys:String>
-    <sys:String x:Key="RestrictedCone">Restricted Cone</sys:String>
-    <sys:String x:Key="PortRestrictedCone">Port Restricted Cone</sys:String>
-    <sys:String x:Key="Symmetric">Symmetric</sys:String>
+    <!-- <sys:String x:Key="UnsupportedServer">无法检测 NAT 类型，可能是服务器不支持</sys:String> -->
+    <!-- <sys:String x:Key="UdpBlocked">UDP 始终阻止</sys:String> -->
+    <!-- <sys:String x:Key="OpenInternet">开放互联网</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricUdpFirewall">公网，UDP 防火墙启用</sys:String> -->
+    <!-- <sys:String x:Key="FullCone">完全锥形</sys:String> -->
+    <!-- <sys:String x:Key="RestrictedCone">受限锥形</sys:String> -->
+    <!-- <sys:String x:Key="PortRestrictedCone">端口受限锥形</sys:String> -->
+    <!-- <sys:String x:Key="Symmetric">对称</sys:String> -->
 
-    <sys:String x:Key="UnsupportedServerDetail">[!] Unable to detect NAT type, maybe the server does not support it.</sys:String>
-    <sys:String x:Key="UdpBlockedDetail">Current NAT type: UDP Always Block</sys:String>
-    <sys:String x:Key="OpenInternetDetail">No NAT detected, Internet is open. You have a public IP address, and the firewall is not enabled, this will provide the best experience!</sys:String>
-    <sys:String x:Key="SymmetricUdpFirewallDetail">The current NAT type: public network, UDP firewall is enabled, the firewall may increase the difficulty of connection and the possibility of connection failure to a certain extent.</sys:String>
-    <sys:String x:Key="FullConeDetail">Current NAT type: Full Cone, best connection experience!</sys:String>
-    <sys:String x:Key="RestrictedConeDetail">Current NAT type: Restricted Cone, restricted connection experience.</sys:String>
-    <sys:String x:Key="PortRestrictedConeDetail">Current NAT type: Port restricted cone, highly restricted online experience.</sys:String>
-    <sys:String x:Key="SymmetricDetail">The current NAT type: Symmetric, there is a certain probability of connection failure; if you are using a mobile phone hotspot, please try to use other networks.</sys:String>
+    <!-- <sys:String x:Key="UnsupportedServerDetail">[!] 无法检测 NAT 类型，可能是服务器不支持</sys:String> -->
+    <!-- <sys:String x:Key="UdpBlockedDetail">当前 NAT 类型为：UDP 始终阻止</sys:String> -->
+    <!-- <sys:String x:Key="OpenInternetDetail">没有检测到 NAT，开放互联网，您拥有公网 IP 地址，并且防火墙并未启用，这将提供最佳的体验</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricUdpFirewallDetail">当前 NAT 类型为：公网，UDP 防火墙启用，防火墙可能会在一定程度上导致联机难度和联机失败可能性的增加</sys:String> -->
+    <!-- <sys:String x:Key="FullConeDetail">当前 NAT 类型为：完全锥形，最佳的连接体验</sys:String> -->
+    <!-- <sys:String x:Key="RestrictedConeDetail">当前 NAT 类型为：受限锥形，受限的连接体验</sys:String> -->
+    <!-- <sys:String x:Key="PortRestrictedConeDetail">当前 NAT 类型为：端口受限锥形，高度受限的联机体验</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricDetail">当前 NAT 类型为：对称 NAT，有一定几率连接失败；如果你正使用手机热点，请尝试使用其他网络</sys:String> -->
 
-    <sys:String x:Key="Supported">Supported</sys:String>
+    <!-- <sys:String x:Key="Supported">受支持</sys:String> -->
     <sys:String x:Key="Unsupported">Unsupported</sys:String>
 
     <sys:String x:Key="PleaseWait">Please wait...</sys:String>
     <sys:String x:Key="MultiPlayerConnectionPleaseWait">Trying to connect you, might take up to 1 minute.</sys:String>
 
-    <sys:String x:Key="ConnectFailed">Connection Failed</sys:String>
-    <sys:String x:Key="FailedToCreateRoomDetail">Unable to create a room, possibly due to network fluctuations.</sys:String>
+    <!-- <sys:String x:Key="ConnectFailed">连接失败</sys:String> -->
+    <!-- <sys:String x:Key="FailedToCreateRoomDetail">无法创建房间，可能是因为网络波动导致的</sys:String> -->
 
     <sys:String x:Key="RoomHasNoDescription">No room description.</sys:String>
     <sys:String x:Key="RoomHasNoPwd">No room password.</sys:String>
 
-    <sys:String x:Key="WrongRoomPwd">Room password incorrect.</sys:String>
-    <sys:String x:Key="WrongRoomId">Room not found, possibly because the room ID is wrong.</sys:String>
+    <!-- <sys:String x:Key="WrongRoomPwd">房间的密码不正确</sys:String> -->
+    <!-- <sys:String x:Key="WrongRoomId">未找到房间，可能是因为房间的 ID 有误</sys:String> -->
 
     <sys:String x:Key="JoinFailed">Joined Failed</sys:String>
-    <sys:String x:Key="JoinFailedDetail">Unable to join room, {0}</sys:String>
+    <!-- <sys:String x:Key="JoinFailedDetail">无法加入房间，{0}</sys:String> -->
 
     <sys:String x:Key="RoomConnectionStr">Hey! I created an multiplayer room [{0}] using LauncherX, join my room now!</sys:String>
     <sys:String x:Key="RoomConnectionStrExported">Successfully copied room information to clipboard!</sys:String>
 
     <sys:String x:Key="RoomConnectionStrImportFailed1">Unable to import room information from clipboard, please check if your room information is correct</sys:String>
-    <sys:String x:Key="RoomConnectionStrImportFailed2">Unable to import room information from clipboard. The room information should be an encoding containing "[{9 random characters}]"</sys:String>
+    <sys:String x:Key="RoomConnectionStrImportFailed2">Cannot import valid connection info from clipboard. Ensure it contains a code like "[{9 random characters}]"</sys:String>
 
     <sys:String x:Key="Java8Description">Java 8: Applicable to versions prior to [1.17], some ancillary components (such as Forge) also require this version of Java</sys:String>
-    <sys:String x:Key="Java16Description">Java 16: for games [1.17] or higher</sys:String>
+    <sys:String x:Key="Java16Description">Java 16: For games [1.17] or higher</sys:String>
     <sys:String x:Key="Java17Description">Java 17: For games [1.18 - pre2] or higher</sys:String>
+    <sys:String x:Key="Java21Description">Java 21: For games [1.20.5] or higher. Faster, but incompatible with old game versions</sys:String>
 
-    <sys:String x:Key="ResetAllSettings">Reset all settings</sys:String>
+    <sys:String x:Key="ResetAllSettings">RESET ALL SETTINGS</sys:String>
     <sys:String x:Key="ResetAllSettingsDetail">WARNING! This operation will completely wipe LauncherX's configs and rerun back to setup wizard, which cannot be undone.</sys:String>
     <sys:String x:Key="FailedToResetSettingsDetail">Unable to delete LauncherX configuration file, please check whether there is file occupation.</sys:String>
 
@@ -821,15 +832,15 @@
     <sys:String x:Key="User">User</sys:String>
     <sys:String x:Key="ManageAccount">Account Management</sys:String>
     <sys:String x:Key="SavedGameAccount">Saved Game Account</sys:String>
-    <sys:String x:Key="Reset">Reset</sys:String>
+    <sys:String x:Key="Reset">RESET</sys:String>
     <sys:String x:Key="SetOfflineSkin">Set Offline Skin</sys:String>
 
     <sys:String x:Key="MultiThreadDownload">Multi-Threaded Download</sys:String>
     <sys:String x:Key="MultiThreadDownloadDescription">Multi-threading downloads can improve game download speeds, but can significantly impact launcher performance.</sys:String>
 
     <sys:String x:Key="ConnectionInfo">Room Information</sys:String>
-    <sys:String x:Key="MultiPlayerServiceStatus">Online service status</sys:String>
-    <sys:String x:Key="Support">Support</sys:String>
+    <!-- <sys:String x:Key="MultiPlayerServiceStatus">联机服务状态</sys:String> -->
+    <!-- <sys:String x:Key="Support">支持</sys:String> -->
 
     <sys:String x:Key="Room">Room</sys:String>
     <sys:String x:Key="RoomIdHint">Standard Room ID in GUID format</sys:String>
@@ -844,19 +855,19 @@
 
     <sys:String x:Key="MultiPlayerConnectionHelper">Connection Helper</sys:String>
     <sys:String x:Key="MultiPlayerConnectionHelperDescription1">After turning on this function, LauncherX will automatically join the Corona Network after it is turned on. You will serve as a node in the network to help other players who cannot join the network complete the forwarding of traffic. This will increase the success rate of other players joining the network.</sys:String>
-    <sys:String x:Key="MultiPlayerConnectionHelperDescription2">NOTE: This service will consume some of your network bandwidth.</sys:String>
+    <!-- <sys:String x:Key="MultiPlayerConnectionHelperDescription2">注意：这项服务将消耗一些您的网络带宽。</sys:String> -->
 
     <sys:String x:Key="BaseUserSettings">User Settings</sys:String>
     <sys:String x:Key="InsiderPreviewSettings">Insider Preview version Experience Settings</sys:String>
     <sys:String x:Key="AuthDeviceManage">Device Authentication</sys:String>
 
-    <sys:String x:Key="StartupUI">Customize Home</sys:String>
-    <sys:String x:Key="MainViewUpperForeground">Main interface foreground text color</sys:String>
-    <sys:String x:Key="BottomNavigationBarOpacity">Navigation bar opacity</sys:String>
-    <sys:String x:Key="HideBottomNavigationBarInMainView">Hide navigation bar on main interface</sys:String>
-    <sys:String x:Key="BrowseVideo">Browse videos</sys:String>
+    <!-- <sys:String x:Key="StartupUI">启动界面</sys:String> -->
+    <sys:String x:Key="MainViewUpperForeground">Main Interface Foreground Text Color</sys:String>
+    <sys:String x:Key="BottomNavigationBarOpacity">Navigation Bar Opacity</sys:String>
+    <sys:String x:Key="HideBottomNavigationBarInMainView">Hide Navigation Bar on Main Interface</sys:String>
+    <!-- <sys:String x:Key="BrowseVideo">浏览视频</sys:String> -->
 
-    <sys:String x:Key="Text">Text</sys:String>
+    <sys:String x:Key="Text">Typography</sys:String>
     <sys:String x:Key="Performance">Performace</sys:String>
 
     <sys:String x:Key="BackgroundAndAccentColor">Home background and theme color</sys:String>
@@ -874,13 +885,13 @@
     <sys:String x:Key="SeparateSettingsForDifferentGames">Separate settings for each game version</sys:String>
     <sys:String x:Key="SeparateSettingsForDifferentGamesDescription">The settings made on this page will be applied as defaults to all game versions. You can select a game in the game list and then change the settings for each game in the details.</sys:String>
 
-    <sys:String x:Key="ResetAllSettingsDescription">After clicking the "Reset Configuration" button, LauncherX will delete its own configuration file and close. Note: Deleted configurations cannot be restored.</sys:String>
+    <!-- <sys:String x:Key="ResetAllSettingsDescription">点击“重置配置”按钮后，LauncherX将删除自己的配置文件并关闭。注意：删除的配置将无法恢复。</sys:String> -->
 
     <sys:String x:Key="Framework">Framework</sys:String>
     <sys:String x:Key="Runtime">Runtime</sys:String>
     <sys:String x:Key="LauncherCoreVersion">ProjBobcat(Launch Core) Version</sys:String>
 
-    <sys:String x:Key="NoMoreNewApplication">No new application</sys:String>
+    <!-- <sys:String x:Key="NoMoreNewApplication">暂无新申请</sys:String> -->
 
     <sys:String x:Key="SelectAccount">Select Account</sys:String>
     <sys:String x:Key="CopyFromClipBoard">Copy from Clipboard</sys:String>
@@ -892,23 +903,23 @@
     <sys:String x:Key="MsAccountLoginInstruction2">And follow the prompts on the web page to enter the one-time verification code displayed by LauncherX.</sys:String>
     <sys:String x:Key="MsAccountLoginInstruction3">Once the above is complete, LauncherX will automatically complete the remaining steps and add your account to the launcher.</sys:String>
 
-    <sys:String x:Key="ModDependencies">Mod dependencies</sys:String>
+    <!-- <sys:String x:Key="ModDependencies">模组前置依赖</sys:String> -->
 
     <sys:String x:Key="CreateFolder">Create Folder</sys:String>
 
     <sys:String x:Key="FailedToInstallCurseForgePackError">Unable to install CurseForge dependencies, please try again later. This is usually caused by a problem with the download source, but may also be caused by network fluctuations or other factors.</sys:String>
-    <sys:String x:Key="DownloadFailedLibError">Library download failed: {0} File name: {1} Download link: {2} Download path: {3}</sys:String>
+    <!-- <sys:String x:Key="DownloadFailedLibError">补全失败的库文件：{0}文件名：{1}下载链接：{2}下载路径：{3}</sys:String> -->
     <sys:String x:Key="CompletionFailedMessage">The library files required to start the game failed to download. You can wait for a while and try to start again.</sys:String>
 
     <sys:String x:Key="AuthLibInstallMessage1">Third-party authentication service found, ready to download Authlib-Injector</sys:String>
-    <sys:String x:Key="AuthLibInstallMessage2">Successfully downloaded the latest version of Authlib-Injector information, start checking </sys:String>
+    <sys:String x:Key="AuthLibInstallMessage2">Latest Authlib-Injector info retrieved. Checking...</sys:String>
     <sys:String x:Key="AuthLibInstallMessage3">Authlib-Injector downloaded. Configurating...</sys:String>
     <sys:String x:Key="AuthLibInstallMessage4">Start prefetching server configuration</sys:String>
     <sys:String x:Key="AuthLibInstallErrorMessage">Unable to get the latest version of Authlib-Injector, possibly a network error.</sys:String>
 
-    <sys:String x:Key="DownloadFileCountMessage1">{0} downloadable items</sys:String>
+    <!-- <sys:String x:Key="DownloadFileCountMessage1">{0} 个可下载项目</sys:String> -->
 
-    <sys:String x:Key="UnknownWindow">Unknown Window</sys:String>
+    <!-- <sys:String x:Key="UnknownWindow">不确定的窗体</sys:String> -->
     <sys:String x:Key="SaveExportedModPack">Save exported Modpack</sys:String>
     <sys:String x:Key="UnableToDeleteGame">Unable to delete game {0}</sys:String>
     <sys:String x:Key="UnableToDeleteGameDetail">An error occurred while trying to delete the game, please try to delete it manually! {0}</sys:String>
@@ -927,7 +938,7 @@
         Using a Java runtime that does not match your system may result in severe degradation of game performance and experience!
 	</sys:String>
 
-	
+
 	<sys:String x:Key="Colored">Colored</sys:String>
     <sys:String x:Key="HighContrastColored">High Contrast Colored</sys:String>
     <sys:String x:Key="VersionCompatibleMcVersionDetail">This version is compatible with {0} Minecraft versions in total</sys:String>
@@ -935,8 +946,8 @@
     <sys:String x:Key="Ascending">Ascend</sys:String>
     <sys:String x:Key="Descending">Desend</sys:String>
 
-	<sys:String x:Key="NatTypeUnclassified">Unclassified - {0}</sys:String>
-    <sys:String x:Key="NatTypeUnclassifiedDetail">Current NAT type: Unclassified - 1, Unknown online experience</sys:String>
+    <!-- <sys:String x:Key="NatTypeUnclassified">未分级 - {0}</sys:String> -->
+    <!-- <sys:String x:Key="NatTypeUnclassifiedDetail">当前 NAT 类型为：未分级 - 1，未知的联机体验</sys:String> -->
 
     <sys:String x:Key="CurseForgeModPack">CurseForge Modpack</sys:String>
     <sys:String x:Key="ModrinthModPack">Modrinth Modpack</sys:String>
@@ -990,7 +1001,7 @@
 	<sys:String x:Key="JdkUseDetail">The game crashes due to using a JDK or an older Java version. To resolve this issue, switch to JRE in the Java selection of the launch settings before launching the game.</sys:String>
 	<sys:String x:Key="OpenJ9UseDetail">The game crashes because it uses OpenJ9. To resolve this issue, switch to a non-OpenJ9 Java in the Java selection in the launch settings before launching the game.</sys:String>
 	<sys:String x:Key="UnsupportedIntelDriverDetail">There is a problem with your graphics card driver or you are not using a discrete graphics card, causing the game to not run properly. To resolve this issue, try using the discrete graphics card instead of Intel graphics when launching LauncherX and Minecraft. If the problem persists, try upgrading the graphics card driver to the latest version or rolling back to the factory version. If the problem persists, you can try Java8 or lower. If the problem still cannot be solved, you may need to consider replacing the graphics card with a better performance.</sys:String>
-    
+
     <sys:String x:Key="VideoDriverErrorDetail">There is a problem with your graphics card driver, causing the game to not run properly. In order to solve this problem, please try to upgrade the graphics card driver to the latest version or roll back to the factory version, and then start the game again. If the problem persists, you can try Java8 or lower. If the problem still cannot be solved, you may need to consider replacing the graphics card with a better performance.</sys:String>
 
 	<sys:String x:Key="ModCausedGameCrashDetail">One or more mods in the game you are currently launching cause the game to crash. You can find relevant information about the mods that cause the crash in the detailed information below and try to temporarily disable or replace these mods.</sys:String>
@@ -1001,7 +1012,7 @@
 	<sys:String x:Key="ModInitFailedDetail">One or more mods failed to initialize and the game cannot continue to load. Please look for module-related error messages in the details below.</sys:String>
 	<sys:String x:Key="ModIdExceededDetail">You have installed too many mods that exceed the game's ID limit, causing the game to crash. To solve this problem, you can try installing some repair mods like JEID, or remove some large mods. This can help you reduce the number of mods and make the game more stable.</sys:String>
 	<sys:String x:Key="DuplicateModDetail">You have installed multiple identical mods repeatedly. Each mod can only be installed once at most. Please find the corresponding name of the module in the details below and delete the duplicate mods in the [mods] folder.</sys:String>
-	
+
 	<sys:String x:Key="OpenGl1282ErrorDetail">The lights, shadows or materials you use may cause problems in the game. It is recommended that you try to delete these extra resources and then start the game again. This usually resolves some issues related to game resources.</sys:String>
 	<sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">The problem with your game may be due to the version of OptiFine being used that is incompatible with the game (https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world). This problem will only occur in some versions of OptiFine. It is recommended that you change the version of OptiFine and then start the game again. You can go to the official website of OptiFine to download the latest version and install it, or choose another version of OptiFine to install.</sys:String>
 	<sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">Your game may not run properly due to using a render distance that is too high. Please try lowering the render distance a bit in the game settings, such as reducing the view distance and chunk loading distance options. If the problem persists, you may need to update your graphics card driver or replace it with a higher-performance graphics card.</sys:String>
@@ -1011,7 +1022,7 @@
 	<sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">If your Forge version is lower than 36.2.26, then you can try to update Forge to 36.2.26 or higher. If you are already using Forge version 36.2.26 or higher, you may need to change your Java version. When using Forge, please pay attention to check whether the version of Forge is compatible with the Java version used to avoid such errors.</sys:String>
 	<sys:String x:Key="MultipleForgeInVersionJsonDetail">The game crash may be caused by using another launcher to modify the Forge version, causing the current version of the file to be abnormal. To resolve this issue, try a clean installation of Forge and do not use other launchers to modify the Forge version.</sys:String>
 	<sys:String x:Key="IncompatibleForgeAndOptifineDetail">The game crashes because OptiFine is incompatible with the current version of Forge. Please go to the OptiFine official website (https://optifine.net/downloads) to check the Forge version that is compatible with OptiFine, and reinstall the game according to the corresponding version.</sys:String>
-	<sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">The game fails to load due to incorrect path encoding or a missing main class due to a corrupted game installation. You can try to place the game directory in a directory that does not contain Chinese or other special characters, or try to reinstall the game. If none of the above issues resolve the issue, please report it to the developer.</sys:String>
+	<sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">The game crashes due to incorrect path encoding or missing main class caused by a corrupted game installation. You can try placing the game directory in a location without Chinese or special characters, or attempt to reinstall the game. If the issue persists, please report it to the developer.</sys:String>
 	<sys:String x:Key="ManuallyTriggeredDebugCrashDetail">You manually triggered a debug crash.</sys:String>
 	<sys:String x:Key="ContentValidationFailedDetail">The game encountered a verification failure, possibly due to network issues during download. You can try deleting the game (including mods) and re-downloading it, or ensure the stability of your network connection when re-downloading.</sys:String>
 	<sys:String x:Key="BlockCausedGameCrashDetail">A block in the game is causing the game to crash, please find the specific information about the block (ID, coordinates, etc.) in the details below and try to delete the block using the world editor. If you still can't resolve the issue, try recreating the world or consider other issues.</sys:String>
@@ -1042,6 +1053,7 @@
     <sys:String x:Key="DownloadedUpdateHashUnmatched">The hash value of the downloaded update file is not as expected, please contact the system administrator!</sys:String>
     <sys:String x:Key="FailedToInitFileStream">Unable to initialize file stream, please contact your system administrator!</sys:String>
     <sys:String x:Key="UnixUpdateDownloadedMessage">Update downloaded. Click OK to open the downloaded update compressed package, and then manually replace the old application after decompression. After clicking OK, the program will automatically exit.</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedDetailMessage">Click OK to open the update package. Extract and replace the old application manually. The program will now exit.</sys:String>
 
     <sys:String x:Key="Customization">Customization</sys:String>
     <sys:String x:Key="ModPack">Modpack</sys:String>
@@ -1051,8 +1063,8 @@
     <sys:String x:Key="Mods">Mods</sys:String>
 
 	<sys:String x:Key="FailedToSaveUserSettingsDetail">Unable to save user settings at the moment, please try again later.</sys:String>
-    <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">The room cannot be created because the room name is empty</sys:String>
-    <sys:String x:Key="FailedToCreateGroupDetail">The group could not be created, possibly due to a network problem or server error. Reason returned by the server: {0}</sys:String>
+    <!-- <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">无法创建房间，因为房间名为空</sys:String> -->
+    <sys:String x:Key="FailedToPerformGroupOpDetail">{0} server returned: {1}</sys:String>
     <sys:String x:Key="RoomDismissed">Room Dismissed</sys:String>
     <sys:String x:Key="RoomDismissedDetail">Room dismissed by the host, and you have left the room. Hope to see you again! </sys:String>
     <sys:String x:Key="Joined">Joined the room</sys:String>
@@ -1060,19 +1072,18 @@
     <sys:String x:Key="Kicked">Kicked by the host</sys:String>
     <sys:String x:Key="Disconnected">Disconnected</sys:String>
     <sys:String x:Key="RoomMemberChanged">Room member changed</sys:String>
-    <sys:String x:Key="FailedToJoinRoomDetail">Unable to join the group, it may be due to network problems or server errors, or the room number or password is wrong. Reason returned by the server: {0}</sys:String>
     <sys:String x:Key="FailedToKickMember">Failed to kick member</sys:String>
     <sys:String x:Key="FailedToKickSelf">Really? Trying to kick yourself out?</sys:String>
-    <sys:String x:Key="FailedToKickMemberDetail">Unable to kick members, possibly due to network issues or server errors. Reason returned by the server: {0}</sys:String>
+    <sys:String x:Key="FailedToKickMemberDetail">Unable to kick members, possibly due to network issues or server errors. Server returned: {0}</sys:String>
     <sys:String x:Key="MemberKicked">Member Kicked!</sys:String>
-    <sys:String x:Key="MemberKickedDetail">Member {0} successfully kicked. What have they done?</sys:String>
+    <!-- <sys:String x:Key="MemberKickedDetail">已成功踢出成员 {0}</sys:String> -->
     <sys:String x:Key="RoomExited">Room Exited</sys:String>
     <sys:String x:Key="RoomExitedDetail">You have exited the room or the room has been dismissed by the host! See ya!</sys:String>
 
     <sys:String x:Key="ThirdPartyLogin">Third-party Login</sys:String>
 
     <sys:String x:Key="SaveSupportPack">Save Support Pack</sys:String>
-    <sys:String x:Key="TryLaunchedGame">Try Launching Game</sys:String>
+    <sys:String x:Key="TryLaunchedGame">Game Being Launched</sys:String>
     <sys:String x:Key="GameResourcePath">Game Resource Path</sys:String>
     <sys:String x:Key="GameVersion">Game Version</sys:String>
     <sys:String x:Key="VersionInsulation">Version Insulation</sys:String>
@@ -1080,13 +1091,13 @@
     <sys:String x:Key="MinMemoryInMb">Minimum Memory(MB)</sys:String>
     <sys:String x:Key="MaxMemoryInMb">Maximum Memory(MB)</sys:String>
 
-    <sys:String x:Key="GameResourceNotFound">Game Resource Not Found</sys:String>
-    <sys:String x:Key="GameResourceNotFoundDetail">The resource does not exist for this game: {0}, the tag has been hidden.</sys:String>
+    <!-- <sys:String x:Key="GameResourceNotFound">资源不存在</sys:String> -->
+    <!-- <sys:String x:Key="GameResourceNotFoundDetail">该游戏不存在资源：{0}，已隐藏该标签。</sys:String> -->
     <sys:String x:Key="ChooseModPackFile">Select Gamepack file</sys:String>
     <sys:String x:Key="SinceNow">Since</sys:String>
     <sys:String x:Key="Published">Released</sys:String>
     <sys:String x:Key="NumVersion">{0} Versions</sys:String>
-    <sys:String x:Key="SearchOnTheInternet">Seach on internet:</sys:String>
+    <!-- <sys:String x:Key="SearchOnTheInternet">在互联网上查找：</sys:String> -->
 
     <sys:String x:Key="GameNotInstall">Game not installed</sys:String>
     <sys:String x:Key="GameNotInstallDetail">Oops! No game installed yet! Go to [Download] in navigation to get a game!</sys:String>
@@ -1114,6 +1125,7 @@
 
         Please reconfirm your system architecture and re-download LauncherX.
 	</sys:String>
+
 	<sys:String x:Key="TryingToLoginToCsAccount">Logging in Corona Account...</sys:String>
     <sys:String x:Key="FailedToLoginToCsAccount">Failed to log into Corona Account</sys:String>
     <sys:String x:Key="LoggedIntoCsAccount">Successfully logged into the Corona Account</sys:String>
@@ -1123,7 +1135,7 @@
     <sys:String x:Key="InstallOptifineAsMod">Install Optifine as a MOD</sys:String>
     <sys:String x:Key="InstallOptifineAsModDetail">Optifine will be installed into Fabric as a mod. After the installation is complete, you need to manually download and install the OptiFabric mod to add it to Fabric. You can find this mod in the Downloads-CurseForge tab.</sys:String>
     <sys:String x:Key="EnterOfflineModeDetail">Entered offline mode. Most features will be disabled!</sys:String>
-    
+
     <sys:String x:Key="NewFileDragged">You dragged in a new file</sys:String>
     <sys:String x:Key="TryingToDetermineFileType">Trying to automatically confirm the file's type</sys:String>
     <sys:String x:Key="FileTypeDetected">Successfully identified, possible file types:</sys:String>
@@ -1137,7 +1149,7 @@
     <sys:String x:Key="DataCollectionOptions">Data collection options</sys:String>
     <sys:String x:Key="DataCollectionOptionsDetail">LauncherX uses Azure Application Insight to collect some key operating data and crash information, which can better help us understand the user experience and promptly fix problems that affect the experience.</sys:String>
     <sys:String x:Key="EnableTelemetry">Enable telemetry</sys:String>
-    <sys:String x:Key="DataCollectionManifest">Data collection checklist</sys:String>
+    <sys:String x:Key="DataCollectionManifest">Data Collection checklist</sys:String>
     <sys:String x:Key="DataCollectionTitle1">LauncherX collects and transmits </sys:String>
     <sys:String x:Key="DataCollectionTitle2">but not limited to </sys:String>
     <sys:String x:Key="DataCollectionTitle3">the data in the following table helps us improve:</sys:String>
@@ -1150,8 +1162,8 @@
     <sys:String x:Key="DataCollectionManifestDetail7">- Crash information</sys:String>
 
     <sys:String x:Key="CurseForgeApiLimitWarning">Due to API limitations, we can only display requests up to 10,000 items. If you want to see more projects, please visit the CurseForge official website yourself.</sys:String>
-    <sys:String x:Key="InTotal">in total</sys:String>
-    <sys:String x:Key="Pages">page</sys:String>
+    <sys:String x:Key="InTotal">total </sys:String>
+    <sys:String x:Key="Pages"> page(s)</sys:String>
 
     <sys:String x:Key="ModNotFoundDetail">No mods were found, or some mods were damaged and not displayed.</sys:String>
     <sys:String x:Key="GoToDownloadPage">Download Content</sys:String>
@@ -1163,14 +1175,14 @@
     <sys:String x:Key="CheckJreStatus">Check Java Status</sys:String>
     <sys:String x:Key="DeepSearch">Deep Search</sys:String>
     <sys:String x:Key="DeepSearchDetail">When using Deep Search for Java, LauncherX will search all disks on your local computer looking for Java. Depending on the performance of your computer and the number of disks, this process may take tens of seconds or even longer.</sys:String>
-    
+
     <sys:String x:Key="UseProgressiveBlur">Use Progressive Blur</sys:String>
     <sys:String x:Key="ProgressiveBlurStrength">Progressive Blur Effect Strength</sys:String>
-    <sys:String x:Key="ShowUpperTextShadow">Show upper text shadow</sys:String>
-    <sys:String x:Key="ImagePlusEffect">Background parallax effect</sys:String>
-    <sys:String x:Key="UseSystemAccentColorAsPrimaryColor">System theme as primary color</sys:String>
+    <sys:String x:Key="ShowUpperTextShadow">Show Upper Text Shadow</sys:String>
+    <sys:String x:Key="ImagePlusEffect">Background Parallax Effect</sys:String>
+    <sys:String x:Key="UseSystemAccentColorAsPrimaryColor">Use System Accent</sys:String>
 
-    <sys:String x:Key="CheckUpnpStatusDetail">Please check whether you have enabled the UPNP function of the router. If it is already enabled, please check whether you are in a network environment with multi-layer routing.</sys:String>
+    <!-- <sys:String x:Key="CheckUpnpStatusDetail">请检查您是否已经开启路由器的 UPNP 功能。如果已经开启，请检查是否处在拥有多层路由的网络环境中</sys:String> -->
     <sys:String x:Key="Operation">Operation</sys:String>
     <sys:String x:Key="LeaveRoom">Leave Room</sys:String>
     <sys:String x:Key="DisconnectService">Disconnect Service</sys:String>
@@ -1242,10 +1254,488 @@
     <sys:String x:Key="Studying">Studying</sys:String>
     <sys:String x:Key="Eating">Eating</sys:String>
 
-    <sys:String x:Key="X">( ͡° ͜ʖ ͡°)</sys:String>
+    <!--> 关于这个字段，可以改成相关语言的梗词之类的 <-->
+
+    <sys:String x:Key="X">ඞSus</sys:String>
 
     <sys:String x:Key="ResourcePackNotFoundDetail">Resourcepack Not Found</sys:String>
     <sys:String x:Key="ScreenshotNotFoundDetail">Screenshots Not Found</sys:String>
     <sys:String x:Key="ShaderPackNotFoundDetail">Shaderpack Not Found</sys:String>
+
+
+    <!-- CurseForge分类 START -->
+    <sys:String x:Key="Teleportation">Teleportation</sys:String>
+    <sys:String x:Key="LuckyBlocks">LuckyBlocks</sys:String>
+    <sys:String x:Key="BuildingGadgets">Building Gadgets</sys:String>
+    <sys:String x:Key="Buildcraft">Buildcraft</sys:String>
+    <sys:String x:Key="Galacticraft">Galacticraft</sys:String>
+    <sys:String x:Key="RolePlaying">RolePlaying</sys:String>
+    <sys:String x:Key="HardcoreQuestingMode">Hardcore Questing</sys:String>
+    <sys:String x:Key="Guidebook">Guidebook</sys:String>
+    <sys:String x:Key="AdminTools">Admin Tools</sys:String>
+    <sys:String x:Key="TinkersConstruct">Tinkers Construct</sys:String>
+    <sys:String x:Key="BloodMagic">BloodMagic</sys:String>
+    <sys:String x:Key="Progression">Progression</sys:String>
+    <sys:String x:Key="DeveloperTools">DeveloperTools</sys:String>
+    <sys:String x:Key="Mechanics">Mechanics</sys:String>
+    <sys:String x:Key="Miscellaneous">Miscellaneous</sys:String>
+    <sys:String x:Key="ChatRelated">Chat Related</sys:String>
+    <sys:String x:Key="AntiGriefingTools">Anti-Cheat</sys:String>
+    <sys:String x:Key="Mobs">Mobs</sys:String>
+    <sys:String x:Key="Multiplayer">Multiplayer</sys:String>
+    <sys:String x:Key="Recipes">Recipes</sys:String>
+    <sys:String x:Key="MapAndInformation">Map &amp; Info</sys:String>
+    <sys:String x:Key="GameMap">Map</sys:String>
+    <sys:String x:Key="MiniGame">MiniGame</sys:String>
+    <sys:String x:Key="Medieval">Medieval</sys:String>
+    <sys:String x:Key="Thaumcraft">Thaumcraft</sys:String>
+    <sys:String x:Key="TwitchIntegration">Twitch Integration</sys:String>
+    <sys:String x:Key="Creation">Creation</sys:String>
+    <sys:String x:Key="PlayerTransport">Player Transport</sys:String>
+    <sys:String x:Key="EnergyFluidAndItemTransport">Energy &amp; Item Transport</sys:String>
+    <sys:String x:Key="Steampunk">Steampunk</sys:String>
+    <sys:String x:Key="Automation">Automation</sys:String>
+    <sys:String x:Key="WorldGen">World Gen</sys:String>
+    <sys:String x:Key="DataPacks">Data Packs</sys:String>
+    <sys:String x:Key="SmallLight">Light</sys:String>
+    <sys:String x:Key="Configuration">Configuration</sys:String>
+    <sys:String x:Key="Food">Food</sys:String>
+    <sys:String x:Key="WorldEditingAndManagement">World Editing</sys:String>
+    <sys:String x:Key="Traditional">Traditional</sys:String>
+    <sys:String x:Key="IndustrialCraft">IndustrialCraft</sys:String>
+    <sys:String x:Key="APIAndLibrary">API &amp; Library</sys:String>
+    <sys:String x:Key="AdventureAndRPG">Adventure &amp; RPG</sys:String>
+    <sys:String x:Key="FontPacks">FontPacks</sys:String>
+    <sys:String x:Key="ModdedWorld">Modded World</sys:String>
+    <sys:String x:Key="Economy">Economy</sys:String>
+    <sys:String x:Key="Scenarios">Scenarios</sys:String>
+    <sys:String x:Key="ServerUtility">Server Utility</sys:String>
+    <sys:String x:Key="Skyblock">Skyblock</sys:String>
+    <sys:String x:Key="Farming">Farming</sys:String>
+    <sys:String x:Key="General">General</sys:String>
+    <sys:String x:Key="Adventure">Adventure</sys:String>
+    <sys:String x:Key="Hardcore">Hardcore</sys:String>
+    <sys:String x:Key="CombatPvP">PvP</sys:String>
+    <sys:String x:Key="KubeJS">KubeJS</sys:String>
+    <sys:String x:Key="Biomes">Biomes</sys:String>
+    <sys:String x:Key="Energy">Energy</sys:String>
+    <sys:String x:Key="ThermalExpansion">ThermalExpansion</sys:String>
+    <sys:String x:Key="VanillaPlus">Vanilla+</sys:String>
+    <sys:String x:Key="UtilityQoL">QoL &amp; Tools</sys:String>
+    <sys:String x:Key="Fixes">Fixes</sys:String>
+    <sys:String x:Key="FancyMenu">FancyMenu Config</sys:String>
+    <sys:String x:Key="Structures">Structures</sys:String>
+    <sys:String x:Key="ArmorToolsAndWeapons">Armor, Tools &amp; Weapons</sys:String>
+    <sys:String x:Key="WorldGenerators">World Gen</sys:String>
+    <sys:String x:Key="Fun">Fun</sys:String>
+    <sys:String x:Key="WebsiteAdministration">Web Admin</sys:String>
+    <sys:String x:Key="Genetics">Genetics</sys:String>
+    <sys:String x:Key="SciFi">SciFi</sys:String>
+    <sys:String x:Key="Puzzle">Puzzle</sys:String>
+    <sys:String x:Key="Create">Create</sys:String>
+    <sys:String x:Key="Vanilla">Vanilla</sys:String>
+    <sys:String x:Key="Fantasy">Fantasy</sys:String>
+    <sys:String x:Key="Magic">Magic</sys:String>
+    <sys:String x:Key="CraftTweaker">Craft Tweaker</sys:String> <!-- 如果太长则把 CraftTweaker 改成 CrT -->
+    <sys:String x:Key="IntegratedDynamics">Integrated Dynamics</sys:String>
+    <sys:String x:Key="Realistic">Realistic</sys:String>
+    <sys:String x:Key="OresAndResources">Ores &amp; Resources</sys:String>
+    <sys:String x:Key="ExtraLarge">ExtraLarge</sys:String>
+    <sys:String x:Key="Processing">Processing</sys:String>
+    <sys:String x:Key="MCreator">MCreator</sys:String>
+    <sys:String x:Key="Exploration">Exploration</sys:String>
+    <sys:String x:Key="FTBOfficialPack">FTB Official</sys:String>
+    <sys:String x:Key="Scripts">Scripts</sys:String>
+    <sys:String x:Key="Modern">Modern</sys:String>
+    <sys:String x:Key="Parkour">Parkour</sys:String>
+    <sys:String x:Key="BugFixes">BugFixes</sys:String>
+    <sys:String x:Key="PerformanceType">Performance Type</sys:String> <!-- 与上文Performance区分 使用命名PerformanceType -->
+    <sys:String x:Key="ModSupport">ModSupport</sys:String>
+    <sys:String x:Key="Tech">Tech</sys:String>
+    <sys:String x:Key="Library">Library</sys:String>
+    <sys:String x:Key="Utility">Utility</sys:String>
+    <sys:String x:Key="Forestry">Forestry</sys:String>
+    <sys:String x:Key="Technology">Technology</sys:String>
+    <sys:String x:Key="Cosmetic">Space</sys:String>
+    <sys:String x:Key="Quests">Quests</sys:String>
+    <sys:String x:Key="Storage">Storage</sys:String>
+    <sys:String x:Key="PhotoRealistic">Realistic Photo</sys:String>
+    <sys:String x:Key="Redstone">Redstone</sys:String>
+    <sys:String x:Key="Informational">Information</sys:String>
+    <sys:String x:Key="Education">Education</sys:String>
+    <sys:String x:Key="Survival">Survival</sys:String>
+    <sys:String x:Key="Animated">Animated</sys:String>
+    <sys:String x:Key="MapBased">MapBased</sys:String>
+    <sys:String x:Key="X8">8x RP</sys:String>
+    <sys:String x:Key="X16">16x RP</sys:String>
+    <sys:String x:Key="X32">32x RP</sys:String>
+    <sys:String x:Key="X64">64x RP</sys:String>
+    <sys:String x:Key="X128">128x RP</sys:String>
+    <sys:String x:Key="X256">256x RP</sys:String>
+    <sys:String x:Key="X512AndHigher">512x or Higher RP</sys:String>
+    <!-- CurseForge分类 END -->
+
+    <sys:String x:Key="StartingBackendHost">Initializing Backend Host</sys:String>
+    <sys:String x:Key="ConnectedToSignalR">Successfully connected to the SignalR server!</sys:String>
+    <sys:String x:Key="DisconnectedToSignalR">Disconnected from the SignalR server.</sys:String>
+    <sys:String x:Key="FailedToConnectTo">Failed to connect to SignalR server. Check your network.</sys:String>
+    <sys:String x:Key="LoggedIntoCSA">Corona account logged in. Connecting to SignalR...</sys:String>
+
+    <sys:String x:Key="InitChatService">Chat service initializing...</sys:String>
+    <sys:String x:Key="LoadChatHistoryMessage">Loading chat history with {0}</sys:String>
+
+    <sys:String x:Key="InitDeviceService">Starting Device Authentication</sys:String>
+    <sys:String x:Key="LoadingDeviceList">Retrieving registered devices</sys:String>
+    <sys:String x:Key="DeviceListLoaded">Device list retrieved successfully</sys:String>
+    <sys:String x:Key="DeviceListLoadedCount">Device list loaded ({deviceCount} devices).</sys:String>
+    <sys:String x:Key="TryRegisterDevice">Registering device...</sys:String>
+    <sys:String x:Key="TryRegisterDeviceDetail">Device {0} is good to go!</sys:String>
+
+    <sys:String x:Key="TryUnregisterDevice">Unregistering device...</sys:String>
+    <sys:String x:Key="TryUnregisterDeviceDetail">Device {0} unregistered.</sys:String>
+
+    <sys:String x:Key="InitFriendService">Initializing Friend Service</sys:String>
+    <sys:String x:Key="LoadingFriendList">Loading friend list...</sys:String>
+    <sys:String x:Key="FriendListLoadedCount">Friend list retrieved ({0} friends).</sys:String>
+
+    <sys:String x:Key="InitUpdateService">Initializing Update Service</sys:String>
+    <sys:String x:Key="StartCheckingLauncherUpdate">Checking LauncherX update...</sys:String>
+    <sys:String x:Key="LatestBuildFetched">Latest build retrieved successfully</sys:String>
+    <sys:String x:Key="UpdateFoundDetail">New update available. ID: {0}</sys:String>
+    <sys:String x:Key="NoUpdateFound">LauncherX is up to date</sys:String>
+
+    <sys:String x:Key="PleaseTryAgainLaterDetail">Feel free to retry to resolve the issue. Details: {0}</sys:String>
+
+    <sys:String x:Key="CanNotSafeDeleteMessage">
+        This game is a dependency for other games. Removing it will hide the dependent versions. Continue?
+        Game version affected: [{0}]
+    </sys:String>
+
+    <sys:String x:Key="StartAssetCheck">Checking Game Assets...</sys:String>
+    <sys:String x:Key="NoVersionManifestFound">Missing Version Manifest. Downloading...</sys:String>
+    <sys:String x:Key="NoAssetIndexesFound">Missing Asset Indexes. Downloading...</sys:String>
+    <sys:String x:Key="FailedToResolveAssetIndexesMessage">Failed to parse Asset Indexes file! Reason: {0}</sys:String>
+    <sys:String x:Key="AssetIndexesDownloaded">Asset Indexes Downloaded.</sys:String>
+    <sys:String x:Key="StartResolveAssetIndexes">Parsing Asset Indexes file...</sys:String>
+    <sys:String x:Key="FileBrokenOrEmpty">File may be corrupted or empty.</sys:String>
+    <sys:String x:Key="StartCheckingAssets">Retrieving and verifying Assets...</sys:String>
+    <sys:String x:Key="AssetsResolved">Assets Check Completed</sys:String>
+
+    <sys:String x:Key="StartLibraryCheck">Checking Game Libraries...</sys:String>
+    <sys:String x:Key="StartCheckingLibraries">Retrieving and verifying Libraries...</sys:String>
+    <sys:String x:Key="LibraryResolved">Library check Completed</sys:String>
+
+    <sys:String x:Key="Auto">Auto</sys:String>
+    <sys:String x:Key="Visible">Visible</sys:String>
+    <sys:String x:Key="Hidden">Hidden</sys:String>
+
+    <sys:String x:Key="Low">Low</sys:String>
+    <sys:String x:Key="Medium">Medium</sys:String>
+    <sys:String x:Key="High">High</sys:String>
+    <sys:String x:Key="Extreme">Extreme</sys:String>
+
+    <sys:String x:Key="DownloadToTargetFolder">Downloading to target folder...</sys:String>
+    <sys:String x:Key="DownloadToTargetGame">Downloading to game...</sys:String>
+
+    <sys:String x:Key="CanUpgradeTo">Upgradable to:</sys:String>
+    <sys:String x:Key="FollowingFileWillBeDeleted">Update will delete these files:</sys:String>
+    <sys:String x:Key="OpenModWebPage">Visit Mod Website</sys:String>
+
+    <sys:String x:Key="FailedToInit3DSkinPreview">Error initializing 3D skin preview :(</sys:String>
+
+    <sys:String x:Key="DoNotCompress">No Compression</sys:String>
+
+    <sys:String x:Key="AskIfDownloadDependencies">Download Dependencies?</sys:String>
+    <sys:String x:Key="AskIfDownloadDependenciesDetail">This file may have dependencies. If you select "Download dependencies," LauncherX will attempt to download all required files.</sys:String>
+    <sys:String x:Key="OnlyDownloadFile">Skip Dependencies</sys:String>
+    <sys:String x:Key="AlsoDownloadDependencies">Download With Dependencies</sys:String>
+
+    <sys:String x:Key="AllCacheHasBeenCleared">All cache files have been cleared</sys:String>
+    <sys:String x:Key="FailedToClearCache">Failed to clear progressive blur cache</sys:String>
+
+    <sys:String x:Key="NoAccountSelected">No account selected</sys:String>
+    <sys:String x:Key="NoAccountSelectedDetail">Please check if you have selected a valid account.</sys:String>
+
+    <sys:String x:Key="InstallablePackFound">Installable Package Detected</sys:String>
+    <sys:String x:Key="FullPackOpenedDetail">
+        It looks like you have opened a file containing an LauncherX installation package.
+        This package is distributed by a third party. Please verify its source and ensure it has not been tampered with.
+        You can check the package integrity using the following information:
+
+        SHA1: {0}
+        MD5: {1}
+
+        If you are unsure what this means, please click the "Ignore &amp; Delete" button below.
+    </sys:String>
+    <sys:String x:Key="IgnoreAndDelete">Ignore &amp; Delete </sys:String>
+    <sys:String x:Key="IncorrectSystemArch">Unsupported System Architecture</sys:String>
+
+    <sys:String x:Key="SettingsNeedToReboot">Settings requiring restart</sys:String>
+    <sys:String x:Key="SettingsNeedToRebootDetail">This setting change requires restarting LauncherX to apply fully!</sys:String>
+
+    <sys:String x:Key="BasicInfo">Basic Information</sys:String>
+    <sys:String x:Key="ModPackName">Modpack Name</sys:String>
+    <sys:String x:Key="ModPackAuthor">Modpack Author</sys:String>
+    <sys:String x:Key="ModPackVersion">Modpack Version</sys:String>
+    <sys:String x:Key="ReleasePlatform">Release Platform</sys:String>
+    <sys:String x:Key="LauncherSettings">Launcher Settings</sys:String>
+    <sys:String x:Key="SaveBasicSettings">Save Basic Configuration</sys:String>
+    <sys:String x:Key="SaveWallpapers">Save Wallpapers (May significantly increase file size)</sys:String>
+    <sys:String x:Key="GameFiles">Game Files</sys:String>
+    <sys:String x:Key="KeepSettings">Keep Configuration</sys:String>
+    <sys:String x:Key="KeepDefaultSettings">Keep Default Configuration</sys:String>
+    <sys:String x:Key="KeepMods">Keep Mods</sys:String>
+    <sys:String x:Key="KeepResourcePacks">Keep Resource Packs</sys:String>
+    <sys:String x:Key="KeepShaderPacks">Keep Shader Packs</sys:String>
+    <sys:String x:Key="AdditionalSettings">Additional Options</sys:String>
+    <sys:String x:Key="UseThirdPartyApiToReduceSize">Reduce Package Size Using Third-Party API</sys:String>
+    <sys:String x:Key="IgnoreDisabledMods">Ignore Disabled Mods</sys:String>
+    <sys:String x:Key="UseThirdPartyApiToReduceSizeDetail">
+        Enabling this option allows LauncherX to replace matched mod files from CurseForge/Modrinth with their corresponding IDs, 
+        and redownload them during modpack installation.
+    </sys:String>
+
+    <sys:String x:Key="UseCurseForgeToUpgradeMods">Update game mods via CurseForge</sys:String>
+    <sys:String x:Key="UseModrinthToUpgradeMods">Update game mods via Modrinth</sys:String>
+    <sys:String x:Key="DisableModsInsteadDelete">Disable replaced mods instead of deleting them</sys:String>
+    <sys:String x:Key="ModUpdateWarningDetail">※ This update feature does not guarantee accurate dependency resolution. Please review the listed mods carefully and select those you wish to update. After updating, verify the mod folder contents thoroughly!</sys:String>
+    <sys:String x:Key="CurrentSelectedGamePath">Current selected game directory</sys:String>
+    <sys:String x:Key="Exclude">Exclude</sys:String>
+
+    <sys:String x:Key="DownloadAllDependenciesIfPossible">Download all dependencies (if any)</sys:String>
+    <sys:String x:Key="DownloadFileToPathDetail">Download file to the {1} directory of {0}</sys:String>
+
+    <sys:String x:Key="UseCurseForgeToCheck">Check via CurseForge</sys:String>
+    <sys:String x:Key="UseModrinthToCheck">Check via Modrinth</sys:String>
+    <sys:String x:Key="CheckUpdate">Check Updates</sys:String>
+
+    <sys:String x:Key="Translation">Translation</sys:String>
+    <sys:String x:Key="GameGeneralSettings">General Game Settings</sys:String>
+    <sys:String x:Key="JavaVmSettings">Java Virtual Machine Settings</sys:String>
+
+    <sys:String x:Key="ResourcesDownloadMaxTry">Maximum resource completion retries</sys:String>
+    <sys:String x:Key="UseQuickResourceCheck">Enable Quick Resource Verification</sys:String>
+    <sys:String x:Key="UseQuickResourceCheckDetail">※ Using quick resource verification speeds up file checks but may cause missed detections in some cases. If the game fails to launch, disable this option and try again.</sys:String>
+    <sys:String x:Key="NativeLibrariesReplacePolicy">Native Library Replacement Policy</sys:String>
+
+    <sys:String x:Key="Color">Color</sys:String>
+    <sys:String x:Key="Background">Background</sys:String>
+    <sys:String x:Key="ImageStretchMethod">Image Stretching Method</sys:String>
+    <!-- <sys:String x:Key="EnableExperimentalAnimation">启用实验性动画</sys:String> -->
+    <sys:String x:Key="ProgressiveBlurQuality">Background Image Progressive Blur Quality</sys:String>
+    <sys:String x:Key="ProgressiveBlurQualityDetail">※ After modifying the quality settings, click the button below to clear the progressive blur cache. Changes will take effect the next time the blur is applied. Higher quality settings will consume more memory.</sys:String>
+    <sys:String x:Key="ClearProgressiveBlurCache">Clear Progressive Blur Cache</sys:String>
+    <sys:String x:Key="UseExternalLanguagePack">[DEVELOPER] Debug using external language pack</sys:String>
+    <sys:String x:Key="BasicInterfaceSettings">Basic Interface Settings</sys:String>
+    <!-- <sys:String x:Key="UseNewUI">使用新版 UI</sys:String> -->
+    <sys:String x:Key="MainWindowButtonGroupVisibility">Main Interface Button Group Visibility</sys:String>
+
+    <sys:String x:Key="SupportUs">Support us</sys:String>
+    <sys:String x:Key="SupportUsDetail">If you enjoy our work, feel free to visit our official release thread and leave us your valuable feedback!</sys:String>
+    <sys:String x:Key="LinkToProject">Project Link</sys:String>
+
+    <sys:String x:Key="JavaVmSettingsDetail">Choose global Java, download, search, install, and manage Java</sys:String>
+    <sys:String x:Key="GameGeneralSettingsDetail">Game Memory, GC, Window Resolution, JavaAgent Arguments, Advanced Startup Parameters</sys:String>
+    <sys:String x:Key="LauncherBehaviours">Launcher Behavior</sys:String>
+    <sys:String x:Key="LauncherBehavioursDetail">Game Asset Check, Native Library Replacement Strategy, Post-Launch Behavior, Logging</sys:String>
+    <sys:String x:Key="BasicSettingsGuide">(→) Basic Settings Guide</sys:String>
+    <sys:String x:Key="JavaVmDownloadTips">(→) Java Runtime Download Tips</sys:String>
+
+
+    <sys:String x:Key="BasicSettingsDetail">Background Texture, Main Interface Pattern, Foreground Text Color, Bottom Navigation Bar Style</sys:String>
+    <sys:String x:Key="BackgroundDetail">Background Style, Image Background Blur, Parallax Effect, Progressive Blur</sys:String>
+    <sys:String x:Key="ColorDetail">Theme Mode, Theme Color, Custom Theme Color Calculation Method</sys:String>
+    <sys:String x:Key="TextDetail">Language, Font, Language Pack Testing</sys:String>
+    <sys:String x:Key="PerformanceDetail">Interface Animation Settings</sys:String>
+    <sys:String x:Key="ExperimentalAnimation">Experimental Animations</sys:String>
+    <sys:String x:Key="ExperimentalAnimationDetail">Enabling experimental animations will improve UI animation fluidity and decrease resource usage, but may cause some animation issues.</sys:String>
+
+    <sys:String x:Key="OpenCurrentGameRoot">Open Game Directory</sys:String>
+    <sys:String x:Key="PublishAsFullPack">Publish as Full Pack</sys:String>
+    <sys:String x:Key="ChangeListPanelStatus">Expand/Collapse list</sys:String>
+
+    <sys:String x:Key="FlushLogBuffer">Refresh log buffer</sys:String>
+    <sys:String x:Key="ContactUs">Contact Us</sys:String>
+
+    <sys:String x:Key="RoomNotExistsDetail">Room does not exist. Please check the room ID.</sys:String>
+    <sys:String x:Key="SessionDetachedDetail">User session expired. Please try restarting LauncherX.</sys:String>
+
+	<sys:String x:Key="AlreadyInRoomDetail">You're already in the room. Please exit before proceeding.</sys:String>
+    <sys:String x:Key="GroupIsFullDetail">Room is full.</sys:String>
+    <sys:String x:Key="PasswordIncorrectDetail">Room password is incorrect. Please double-check.</sys:String>
+    <sys:String x:Key="NetworkControllerErrorDetail">Network controller not initialized or failed. Please reach out to the administrator.</sys:String>
+    <sys:String x:Key="InternalErrorDetail">An internal error occurred. Please reach out to the administrator.</sys:String>
+
+    <sys:String x:Key="ParentVersionNotFoundDetail">{0} is missing the required parent version</sys:String>
+    <sys:String x:Key="GameJsonCorruptedDetail">{0} Game JSON corrupted</sys:String>
+    <sys:String x:Key="LackGameJsonDetail">{0} Missing Game JSON</sys:String>
+    <sys:String x:Key="NoCandidateJsonFoundDetail">{0} No candidate JSON found</sys:String>
+    <sys:String x:Key="GamePathNotFoundDetail">{0} Game path does not exist</sys:String>
+
+    <sys:String x:Key="OfflineResourcePackDescription">LauncherX Custom Offline Skins Pack</sys:String>
+
+    <sys:String x:Key="SelectUpdateSavePath">Select save location for the update</sys:String>
+    <sys:String x:Key="OsNotSupported">Unsupported OS</sys:String>
+
+    <sys:String x:Key="ExportFullPackTaskName">Export {0} to Full Modpack</sys:String>
+    <sys:String x:Key="StartExportModPack">Exporting modpack in progress...</sys:String>
+    <sys:String x:Key="AddingCoreSupportFiles">Adding core files to modpack [{0}]...</sys:String>
+    <sys:String x:Key="AddingFilesToModPack">Adding files to modpack [{0}]...</sys:String>
+    <sys:String x:Key="TryStripModPackSize">Reducing modpack size...</sys:String>
+	<sys:String x:Key="FailedToStripModPackSize">An error occurred while trying to reduce the modpack size.</sys:String>
+    <sys:String x:Key="DownloadingLauncherStableBuild">Downloading stable version of LauncherX [{0}]...</sys:String>
+    <sys:String x:Key="ModPackFileSaved">[{0}] file saved successfully.</sys:String>
+    <sys:String x:Key="ModPackExportHashMessage">Compressed full modpack export completed. Below is the verification info for the modpack. Please provide this to the player for integrity check:</sys:String>
+    <sys:String x:Key="StrippedModPackInfo">Stripped modpack verification details [{0}]</sys:String>
+    <sys:String x:Key="StrippedModPackHashInfo">Stripped modpack Hash details [{0}]</sys:String>
+    <sys:String x:Key="FullPackExported">Modpack export completed</sys:String>
+    <sys:String x:Key="FullPackExportedDetail">Exported {0} to full modpack [{1}] completed</sys:String>
+
+    <sys:String x:Key="ExportToModPackTaskName">Export {0} to {1} modpack</sys:String>
+    <sys:String x:Key="FileReplaced">Successfully replaced file {0}...</sys:String>
+    <sys:String x:Key="WritingManifestFile">Writing to manifest file...</sys:String>
+    <sys:String x:Key="SavingFileDetail">Saving file, please wait...</sys:String>
+
+    <sys:String x:Key="ComputingModHashes">Hashing existing mods, this may take a while...</sys:String>
+    <sys:String x:Key="ResourceDepsResolved">Successfully resolved dependencies for this resource: {0}</sys:String>
+    <sys:String x:Key="FailedToResolveResourceDepsBecauseSha1">Failed to resolve dependencies for this resource. Reason: Missing SHA1 checksum</sys:String>
+
+    <sys:String x:Key="FailedToInstallBecauseNoOnlineGameList">Installation failed. Unable to fetch the online game list. This may be due to a temporary network issue.</sys:String>
+    <sys:String x:Key="FailedToAcquireOnlineGameList">Failed to retrieve online game versions. Try refreshing the game list on the "Downloads" page.</sys:String>
+
+    <sys:String x:Key="FailedToResolveResourceDepsBecauseGameVersion">Problem occurred while fetching modpack dependencies. Could not retrieve the base Minecraft version. Please verify your modpack.</sys:String>
+    <sys:String x:Key="FailedToInstallPreModrinthEnv">Failed to install Modrinth pre-requisite environment. Please retry later. This is typically due to download source issues, network instability, or other factors.</sys:String>
+
+    <sys:String x:Key="UpdateCurseForgeGameModTaskName">Update game mods with {0}</sys:String>
+
+    <sys:String x:Key="VerifySavedAccountInfo">Verify saved account information</sys:String>
+    <sys:String x:Key="VerifyingAccountInfoDetail">Verifying account information for [{0}] ({1} / {2})</sys:String>
+    <sys:String x:Key="VerificationCompleted">Verification complete</sys:String>
+
+    <sys:String x:Key="GameResolveFailed">[{0}] game resolve failed: {1}</sys:String>
+
+    <sys:String x:Key="CheckJreTaskName">Check Java runtime environment</sys:String>
+
+    <sys:String x:Key="ClearDownloadCacheTaskName">Clear Download Cache</sys:String>
+    <sys:String x:Key="FileDeletedDetail">Successfully deleted file [{0}]</sys:String>
+    <sys:String x:Key="DownloadCacheClearedSummary">Cleanup done. {0} bytes were cleared.</sys:String>
+
+    <sys:String x:Key="FailedToSetJrePermission">Failed to set Java runtime file permissions</sys:String>
+    <sys:String x:Key="FailedToSetJrePermissionDetail">Unable to set permissions for file [{0}]. Please try running the command [chmod +x \"{0}\"] in the terminal manually.</sys:String>
+    <sys:String x:Key="FailedToDownloadJre">Failed to download runtime</sys:String>
+    <sys:String x:Key="FailedToDownloadJreDetail">Some Java runtime files failed to download. Please check your network and retry!</sys:String>
+
+    <sys:String x:Key="OriginalGameIdIsEmpty">The original game ID is empty. Please check if the game information is correct.</sys:String>
+    <sys:String x:Key="OriginalGameNotFound">Original game installation failed or not found. Please verify the game information.</sys:String>
+    <sys:String x:Key="JavaNotFoundDetail">Java runtime not found or not selected. Please go to "Settings" - "Game Settings" to select or install it.</sys:String>
+    <sys:String x:Key="FailedToDownloadComponentDetail">Failed to download {0}. Please check your network connection or try again later.</sys:String>
+    <sys:String x:Key="WaitingForPreviousInstallation">Waiting for the previous installation to finish...</sys:String>
+
+    <sys:String x:Key="FailedToResolveVersion">Failed to resolve version {0}</sys:String>
+    <sys:String x:Key="WaitingForGameWindow">Launching game, waiting for the game window...</sys:String>
+    <sys:String x:Key="WaitingForGameProcessToExit">Game launched, waiting for the game process to exit...</sys:String>
+    <sys:String x:Key="FailedToSetUserStatus">Failed to set user status or wait for the game process to exit!</sys:String>
+
+    <sys:String x:Key="SslCertOutdated">Network may be unstable or SSL certificate expired.</sys:String>
+
+    <sys:String x:Key="GameAlreadyHasConfig">Game {0} already has a configuration</sys:String>
+    <sys:String x:Key="FolderRulesAlreadyExistDetail">A FOLDER_RULES already exists for this game. Would you like to overwrite it?</sys:String>
+    <sys:String x:Key="Override">Overwrite</sys:String>
+    <sys:String x:Key="FailedToCreateDefaultRule">Failed to create default file rule for {0}</sys:String>
+
+    <sys:String x:Key="FailedToRate">Unable to rate</sys:String>
+    <sys:String x:Key="FailedToRateBecauseNoPermission">This may be because you don't have the required permissions or your permissions have been disabled.</sys:String>
+    <sys:String x:Key="ResourceAlreadyRated">You have already rated this resource!</sys:String>
+    <sys:String x:Key="ResourceAlreadyRatedDetail">Each resource can only be rated once. If you're not satisfied with the current information, you can submit what you believe is correct below.</sys:String>
+    <sys:String x:Key="FailedToSubmitResourceInfo">Unable to submit resource information</sys:String>
+    <sys:String x:Key="SuccessfullyRated">Rating successful</sys:String>
+    <sys:String x:Key="SuccessfullyRatedDetail">Thank you! Your rating has been successfully submitted and is currently under review.</sys:String>
+
+    <sys:String x:Key="FileIsInUse">Game file is in use or other IO error</sys:String>
+    <sys:String x:Key="FileIsInUseDetail">The game file may be in use by another program. Please check if the game is running multiple instances or if antivirus software is scanning the game directory.</sys:String>
+
+    <sys:String x:Key="ContributeCountDetail">Contributed {0} times</sys:String>
+
+    <sys:String x:Key="DownloadAndInstallModPack">Download and install modpack</sys:String>
+
+    <sys:String x:Key="FailedToRemoveWallpaper">Failed to remove wallpaper</sys:String>
+    <sys:String x:Key="FailedToRemoveWallpaperDetail">Unable to remove the wallpaper! Please try deleting it manually later. Filename: {0}, located in the LauncherX/Bg directory.</sys:String>
+
+    <sys:String x:Key="ContributionTranslationDescription">Please provide your translation for [{0}] below.</sys:String>
+    <sys:String x:Key="ContributionLinkDescription">Please provide the resource link for [{0}] below.</sys:String>
+    <sys:String x:Key="ContributionTagDescription">Please provide appropriate category tags for [{0}] below. Separate multiple tags with commas (',').</sys:String>
+
+    <sys:String x:Key="FilterStopped">Filtering stopped</sys:String>
+    <sys:String x:Key="FilterStoppedBecauseApiLimitation">Filtering has been stopped due to CurseForge API limitations. Please try using more specific search keywords to help you find the resources you need more accurately.</sys:String>
+    <sys:String x:Key="FilterStoppedBecauseUserCancelled">The filtering process was stopped, possibly due to too many requests or network congestion. You can try again later. It may also be because you manually canceled the filter.</sys:String>
+    <sys:String x:Key="ResourceInfoAcquisitionTimeout">Resource information acquisition timed out</sys:String>
+    <sys:String x:Key="ResourceInfoAcquisitionTimeoutDetail">Unable to fetch resource information at the moment, possibly due to network congestion. {0}</sys:String>
+    <sys:String x:Key="DeleteAllDisabledMod">Delete all disabled mods</sys:String>
+    <sys:String x:Key="AreYouSure">Are you sure? This action cannot be undone.</sys:String>
+    <sys:String x:Key="FailedToDelete">Deletion failed</sys:String>
+    <sys:String x:Key="ModDeletionFailedDetail">This operation may have been partially successful. You may need to manually delete some files that failed to delete.</sys:String>
+    <sys:String x:Key="RemoveAllUpdateFlags">Remove update flags from all mods</sys:String>
+    <sys:String x:Key="RemoveAllUpdateFlagsDetail">Are you sure you want to do this? This will remove the update prefix from all mods (including disabled ones) and cannot be undone.</sys:String>
+    <sys:String x:Key="FailedToRemoveTags">Failed to remove tags</sys:String>
+    <sys:String x:Key="FailedToRemoveTagsDetail">This operation may have been partially successful. You may need to manually modify some files that failed to update.</sys:String>
+
+    <sys:String x:Key="InvalidSessionDetail">Invalid login session, you may need to log in again.</sys:String>
+    <sys:String x:Key="LaunchBrokenGameMessage">You are attempting to launch a corrupted game. Please check the error message displayed in the game list and try to resolve the issue before launching again.</sys:String>
+    <sys:String x:Key="EnableAutoJavaSelection">Enable automatic Java selection?</sys:String>
+    <sys:String x:Key="EnableAutoJavaSelectionDetail">Enabling automatic Java selection will allow the launcher to automatically choose the appropriate Java version for the game. The dialog will no longer appear in the future.</sys:String>
+    <sys:String x:Key="GoToJavaDownloadPageMessage">Clicking Yes will take you to the settings page to download the corresponding Java version.</sys:String>
+
+    <sys:String x:Key="ContributeThirdPartyResourceInfo">Contribute third-party resource information</sys:String>
+    <sys:String x:Key="DoYouThinkIfTheResourceIsAccurate">Is the information for this resource accurate?</sys:String>
+    <sys:String x:Key="AddResourceTranslation">Add resource translation</sys:String>
+    <sys:String x:Key="AddResourceLink">Add resource link</sys:String>
+    <sys:String x:Key="AddResourceTag">Add resource tag</sys:String>
+
+    <sys:String x:Key="UseFolderRules">Use FOLDER_RULES rules</sys:String>
+
+    <sys:String x:Key="ResourceContributionWarning">
+        Please note, if you have previously submitted a request for this resource, this submission will replace the previous one! 
+        Any inappropriate content submitted may lead to the suspension of your submission privileges upon review.
+    </sys:String>
+
+    <sys:String x:Key="CopyAndOpenVerificationUrl">Copy &amp; Open Verification Site</sys:String>
+
+    <sys:String x:Key="PleaseSelectJreVersion">Choose the JRE version to download</sys:String>
+
+    <sys:String x:Key="ApiLimitationPageWarning">Due to API limitations, we can only estimate the remaining pages based on available data. We will continue updating the available pages.</sys:String>
+    <sys:String x:Key="LongWaitHint">If it takes too long, we recommend trying another download source in "Settings" - "Network".</sys:String>
+
+    <sys:String x:Key="RemoveAllModsUpdatePrefix">Remove [UPDATE] prefix from all mods</sys:String>
+    <sys:String x:Key="RemoveAllDisabledMods">Delete all disabled mods</sys:String>
+    <sys:String x:Key="AutoSelectSuitableJava">Select Java Automatically</sys:String>
+
+    <sys:String x:Key="ShadowDepth">Shadow Depth</sys:String>
+    <sys:String x:Key="ShadowRadius">Shadow Radius</sys:String>
+    <sys:String x:Key="ShadowOpacity">Shadow Opacity</sys:String>
+
+    <sys:String x:Key="Contributors">Contributors</sys:String>
+    <sys:String x:Key="ContributorsDescription">This section displays all users who have contributed to LauncherX third-party resources. We appreciate everyone’s generous contributions!</sys:String>
+    <sys:String x:Key="ContributorList">Contributor List</sys:String>
+    <sys:String x:Key="ContributorListDetail">The list below shows all contributors sorted by contribution number. Due to a limit, only 100 entries will be displayed. If you've contributed more than 50 times, contact the administrator for free beta access to LauncherX and future benefits!</sys:String>
+    
+    <sys:String x:Key="UseMultiSourcesCompletion">Use Multiple Sources for Completion</sys:String>
+    <sys:String x:Key="MultiSourcesCompletionPolicy">Multiple Sources Completion Policy</sys:String>
+
+    <sys:String x:Key="NoGameFound">Oops... No game found!</sys:String>
+    <sys:String x:Key="NoGameFoundDetail">We couldn't find any games. You can click the button below to go to the download page.</sys:String>
+    <sys:String x:Key="GenerateExportSettings">Generate export configuration</sys:String>
+    <sys:String x:Key="EditExportSettings">Edit export configuration</sys:String>
+    <sys:String x:Key="GameDirectoryManagement">Game directory management</sys:String>
+    <sys:String x:Key="LauncherRootPath">LauncherX root directory</sys:String>
+
+
+    <sys:String x:Key="GameCrashDetected">Oops! Game error/exception detected</sys:String>
+
+    <sys:String x:Key="TelemetryAndDataCollection">Telemetry and Data Collection</sys:String>
+
+    <sys:String x:Key="PerformingUpdate">Updating...</sys:String>
+    <sys:String x:Key="PerformingUpdateDetail">LauncherX is updating now. Please wait a moment.</sys:String>
+    <sys:String x:Key="FailedToExtractLauncherIcon">Unable to extract notification icon</sys:String>
+    <sys:String x:Key="FailedToExtractLauncherIconDetail">LauncherX failed to extract the notification icon. This will not affect the functionality, but system notifications may not have an icon.</sys:String>
 
 </ResourceDictionary>
