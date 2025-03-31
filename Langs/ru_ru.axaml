@@ -1249,6 +1249,7 @@
   <sys:String x:Key="PreviousPage">Назад</sys:String>
   <sys:String x:Key="NextPage">Вперёд</sys:String>
 
+<!-- 2025-3-31 -->
     <!-- Curseforge分类 START -->
   <sys:String x:Key="Teleportation">Телепортация</sys:String>
   <sys:String x:Key="LuckyBlocks">Lucky Blocks</sys:String>
