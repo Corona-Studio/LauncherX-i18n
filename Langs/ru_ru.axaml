@@ -64,7 +64,7 @@
 
   <sys:String x:Key="RunningJobsFound">Найдены запущенные задачи</sys:String>
   <sys:String x:Key="ExitAndDropTasksHint">Осталось задач в очереди: {0}. Все запущенные задачи будут отброшены и не могут быть восстановлены. Всё равно выйти?</sys:String>
-  <sys:String x:Key="WaitToFinish">Подожди</sys:String>
+  <sys:String x:Key="WaitToFinish">Подождите</sys:String>
 
   <sys:String x:Key="GameNotSelect">Без игры выбрана</sys:String>
   <sys:String x:Key="GameNotSelectHint">Ни одна игра не выбрана для запуска.</sys:String>
@@ -1593,158 +1593,158 @@
     <sys:String x:Key="StartExportModPack">Начало экспорта сборки...</sys:String>
     <sys:String x:Key="AddingCoreSupportFiles">[{0}] Добавление системных файлов...</sys:String>
     <sys:String x:Key="AddingFilesToModPack">[{0}] Добавление файлов в сборку...</sys:String>
-    <sys:String x:Key="TryStripModPackSize">Сжатие размера сборки...</sys:String>
-<sys:String x:Key="FailedToStripModPackSize">Ошибка уменьшения сборки</sys:String>
-<sys:String x:Key="DownloadingLauncherStableBuild">Загрузка стабильной версии LauncherX [{0}]...</sys:String>
-<sys:String x:Key="ModPackFileSaved">[{0}] файл сохранён</sys:String>
-<sys:String x:Key="ModPackExportHashMessage">Экспорт сборки завершён. Информация для проверки:</sys:String>
-<sys:String x:Key="StrippedModPackInfo">Хеш упрощённой сборки [{0}]</sys:String>
-<sys:String x:Key="StrippedModPackHashInfo">Хеш упрощённой сборки [{0}]</sys:String>
-<sys:String x:Key="FullPackExported">Сборка экспортирована</sys:String>
-<sys:String x:Key="FullPackExportedDetail">Экспорт {0} в сборку [{1}] завершён</sys:String>
+        <sys:String x:Key="TryStripModPackSize">Сжатие размера сборки...</sys:String>
+    <sys:String x:Key="FailedToStripModPackSize">Ошибка уменьшения сборки</sys:String>
+    <sys:String x:Key="DownloadingLauncherStableBuild">Загрузка стабильной версии LauncherX [{0}]...</sys:String>
+    <sys:String x:Key="ModPackFileSaved">[{0}] файл сохранён</sys:String>
+    <sys:String x:Key="ModPackExportHashMessage">Экспорт сборки завершён. Информация для проверки:</sys:String>
+    <sys:String x:Key="StrippedModPackInfo">Хеш упрощённой сборки [{0}]</sys:String>
+    <sys:String x:Key="StrippedModPackHashInfo">Хеш упрощённой сборки [{0}]</sys:String>
+    <sys:String x:Key="FullPackExported">Сборка экспортирована</sys:String>
+    <sys:String x:Key="FullPackExportedDetail">Экспорт {0} в сборку [{1}] завершён</sys:String>
 
-<sys:String x:Key="ExportToModPackTaskName">Экспорт {0} в сборку {1}</sys:String>
-<sys:String x:Key="FileReplaced">Файл {0} заменён...</sys:String>
-<sys:String x:Key="WritingManifestFile">Создание манифеста...</sys:String>
-<sys:String x:Key="SavingFileDetail">Сохранение файлов...</sys:String>
+    <sys:String x:Key="ExportToModPackTaskName">Экспорт {0} в сборку {1}</sys:String>
+    <sys:String x:Key="FileReplaced">Файл {0} заменён...</sys:String>
+    <sys:String x:Key="WritingManifestFile">Создание манифеста...</sys:String>
+    <sys:String x:Key="SavingFileDetail">Сохранение файлов...</sys:String>
 
-<sys:String x:Key="ComputingModHashes">Вычисление хешей модов...</sys:String>
-<sys:String x:Key="ResourceDepsResolved">Зависимости ресурса {0} разрешены</sys:String>
-<sys:String x:Key="FailedToResolveResourceDepsBecauseSha1">Ошибка зависимостей: отсутствует SHA1</sys:String>
+    <sys:String x:Key="ComputingModHashes">Вычисление хешей модов...</sys:String>
+    <sys:String x:Key="ResourceDepsResolved">Зависимости ресурса {0} разрешены</sys:String>
+    <sys:String x:Key="FailedToResolveResourceDepsBecauseSha1">Ошибка зависимостей: отсутствует SHA1</sys:String>
 
-<sys:String x:Key="FailedToInstallBecauseNoOnlineGameList">Ошибка установки: нет списка версий</sys:String>
-<sys:String x:Key="FailedToAcquireOnlineGameList">Ошибка получения списка версий. Обновите в разделе загрузок.</sys:String>
+    <sys:String x:Key="FailedToInstallBecauseNoOnlineGameList">Ошибка установки: нет списка версий</sys:String>
+    <sys:String x:Key="FailedToAcquireOnlineGameList">Ошибка получения списка версий. Обновите в разделе загрузок.</sys:String>
 
-<sys:String x:Key="FailedToResolveResourceDepsBecauseGameVersion">Ошибка определения версии Minecraft в сборке</sys:String>
-<sys:String x:Key="FailedToInstallPreModrinthEnv">Ошибка установки Modrinth. Проверьте соединение.</sys:String>
+    <sys:String x:Key="FailedToResolveResourceDepsBecauseGameVersion">Ошибка определения версии Minecraft в сборке</sys:String>
+    <sys:String x:Key="FailedToInstallPreModrinthEnv">Ошибка установки Modrinth. Проверьте соединение.</sys:String>
 
-<sys:String x:Key="UpdateCurseForgeGameModTaskName">Обновление модов через {0}</sys:String>
+    <sys:String x:Key="UpdateCurseForgeGameModTaskName">Обновление модов через {0}</sys:String>
 
-<sys:String x:Key="VerifySavedAccountInfo">Проверка аккаунта</sys:String>
-<sys:String x:Key="VerifyingAccountInfoDetail">Проверка аккаунта [{0}] ({1}/{2})</sys:String>
-<sys:String x:Key="VerificationCompleted">Проверка завершена</sys:String>
+    <sys:String x:Key="VerifySavedAccountInfo">Проверка аккаунта</sys:String>
+    <sys:String x:Key="VerifyingAccountInfoDetail">Проверка аккаунта [{0}] ({1}/{2})</sys:String>
+    <sys:String x:Key="VerificationCompleted">Проверка завершена</sys:String>
 
-<sys:String x:Key="GameResolveFailed">[{0}] Ошибка запуска: {1}</sys:String>
+    <sys:String x:Key="GameResolveFailed">[{0}] Ошибка запуска: {1}</sys:String>
 
-<sys:String x:Key="CheckJreTaskName">Проверка Java</sys:String>
+    <sys:String x:Key="CheckJreTaskName">Проверка Java</sys:String>
 
-<sys:String x:Key="ClearDownloadCacheTaskName">Очистка кэша</sys:String>
-<sys:String x:Key="FileDeletedDetail">Удалён файл [{0}]</sys:String>
-<sys:String x:Key="DownloadCacheClearedSummary">Очищено {0} байт</sys:String>
+    <sys:String x:Key="ClearDownloadCacheTaskName">Очистка кэша</sys:String>
+    <sys:String x:Key="FileDeletedDetail">Удалён файл [{0}]</sys:String>
+    <sys:String x:Key="DownloadCacheClearedSummary">Очищено {0} байт</sys:String>
 
-<sys:String x:Key="FailedToSetJrePermission">Ошибка прав доступа Java</sys:String>
-<sys:String x:Key="FailedToSetJrePermissionDetail">Ошибка прав для [{0}]. Выполните: chmod +x "{0}"</sys:String>
-<sys:String x:Key="FailedToDownloadJre">Ошибка загрузки Java</sys:String>
-<sys:String x:Key="FailedToDownloadJreDetail">Ошибка загрузки Java. Проверьте интернет.</sys:String>
+    <sys:String x:Key="FailedToSetJrePermission">Ошибка прав доступа Java</sys:String>
+    <sys:String x:Key="FailedToSetJrePermissionDetail">Ошибка прав для [{0}]. Выполните: chmod +x "{0}"</sys:String>
+    <sys:String x:Key="FailedToDownloadJre">Ошибка загрузки Java</sys:String>
+    <sys:String x:Key="FailedToDownloadJreDetail">Ошибка загрузки Java. Проверьте интернет.</sys:String>
 
-<sys:String x:Key="OriginalGameIdIsEmpty">ID игры отсутствует</sys:String>
-<sys:String x:Key="OriginalGameNotFound">Оригинальная игра не найдена</sys:String>
-<sys:String x:Key="JavaNotFoundDetail">Java не найдена. Установите в настройках.</sys:String>
-<sys:String x:Key="FailedToDownloadComponentDetail">Ошибка загрузки {0}</sys:String>
-<sys:String x:Key="WaitingForPreviousInstallation">Ожидание завершения установки...</sys:String>
+    <sys:String x:Key="OriginalGameIdIsEmpty">ID игры отсутствует</sys:String>
+    <sys:String x:Key="OriginalGameNotFound">Оригинальная игра не найдена</sys:String>
+    <sys:String x:Key="JavaNotFoundDetail">Java не найдена. Установите в настройках.</sys:String>
+    <sys:String x:Key="FailedToDownloadComponentDetail">Ошибка загрузки {0}</sys:String>
+    <sys:String x:Key="WaitingForPreviousInstallation">Ожидание завершения установки...</sys:String>
 
-<sys:String x:Key="FailedToResolveVersion">Ошибка версии {0}</sys:String>
-<sys:String x:Key="WaitingForGameWindow">Ожидание запуска игры...</sys:String>
-<sys:String x:Key="WaitingForGameProcessToExit">Ожидание завершения игры...</sys:String>
-<sys:String x:Key="FailedToSetUserStatus">Ошибка статуса пользователя</sys:String>
+    <sys:String x:Key="FailedToResolveVersion">Ошибка версии {0}</sys:String>
+    <sys:String x:Key="WaitingForGameWindow">Ожидание запуска игры...</sys:String>
+    <sys:String x:Key="WaitingForGameProcessToExit">Ожидание завершения игры...</sys:String>
+    <sys:String x:Key="FailedToSetUserStatus">Ошибка статуса пользователя</sys:String>
 
-<sys:String x:Key="SslCertOutdated">Проблемы с SSL-сертификатом</sys:String>
+    <sys:String x:Key="SslCertOutdated">Проблемы с SSL-сертификатом</sys:String>
 
-<sys:String x:Key="GameAlreadyHasConfig">Конфиг {0} уже существует</sys:String>
-<sys:String x:Key="FolderRulesAlreadyExistDetail">Перезаписать существующие FOLDER_RULES?</sys:String>
-<sys:String x:Key="Override">Перезаписать</sys:String>
-<sys:String x:Key="FailedToCreateDefaultRule">Ошибка создания правил для {0}</sys:String>
+    <sys:String x:Key="GameAlreadyHasConfig">Конфиг {0} уже существует</sys:String>
+    <sys:String x:Key="FolderRulesAlreadyExistDetail">Перезаписать существующие FOLDER_RULES?</sys:String>
+    <sys:String x:Key="Override">Перезаписать</sys:String>
+    <sys:String x:Key="FailedToCreateDefaultRule">Ошибка создания правил для {0}</sys:String>
 
-<sys:String x:Key="FailedToRate">Ошибка оценки</sys:String>
-<sys:String x:Key="FailedToRateBecauseNoPermission">Нет прав для оценки</sys:String>
-<sys:String x:Key="ResourceAlreadyRated">Ресурс уже оценён</sys:String>
-<sys:String x:Key="ResourceAlreadyRatedDetail">Оценка возможна только 1 раз</sys:String>
-<sys:String x:Key="FailedToSubmitResourceInfo">Ошибка отправки данных</sys:String>
-<sys:String x:Key="SuccessfullyRated">Оценка принята</sys:String>
-<sys:String x:Key="SuccessfullyRatedDetail">Оценка отправлена на проверку</sys:String>
+    <sys:String x:Key="FailedToRate">Ошибка оценки</sys:String>
+    <sys:String x:Key="FailedToRateBecauseNoPermission">Нет прав для оценки</sys:String>
+    <sys:String x:Key="ResourceAlreadyRated">Ресурс уже оценён</sys:String>
+    <sys:String x:Key="ResourceAlreadyRatedDetail">Оценка возможна только 1 раз</sys:String>
+    <sys:String x:Key="FailedToSubmitResourceInfo">Ошибка отправки данных</sys:String>
+    <sys:String x:Key="SuccessfullyRated">Оценка принята</sys:String>
+    <sys:String x:Key="SuccessfullyRatedDetail">Оценка отправлена на проверку</sys:String>
 
-<sys:String x:Key="FileIsInUse">Файл используется</sys:String>
-<sys:String x:Key="FileIsInUseDetail">Закройте другие программы, использующие файлы</sys:String>
+    <sys:String x:Key="FileIsInUse">Файл используется</sys:String>
+    <sys:String x:Key="FileIsInUseDetail">Закройте другие программы, использующие файлы</sys:String>
 
-<sys:String x:Key="ContributeCountDetail">Вклад: {0}</sys:String>
+    <sys:String x:Key="ContributeCountDetail">Вклад: {0}</sys:String>
 
-<sys:String x:Key="DownloadAndInstallModPack">Установить сборку</sys:String>
+    <sys:String x:Key="DownloadAndInstallModPack">Установить сборку</sys:String>
 
-<sys:String x:Key="FailedToRemoveWallpaper">Ошибка удаления обоев</sys:String>
-<sys:String x:Key="FailedToRemoveWallpaperDetail">Удалите вручную: {0} в LauncherX/Bg</sys:String>
+    <sys:String x:Key="FailedToRemoveWallpaper">Ошибка удаления обоев</sys:String>
+    <sys:String x:Key="FailedToRemoveWallpaperDetail">Удалите вручную: {0} в LauncherX/Bg</sys:String>
 
-<sys:String x:Key="ContributionTranslationDescription">Введите перевод для [{0}]:</sys:String>
-<sys:String x:Key="ContributionLinkDescription">Введите ссылку для [{0}]:</sys:String>
-<sys:String x:Key="ContributionTagDescription">Введите теги для [{0}] через запятую:</sys:String>
+    <sys:String x:Key="ContributionTranslationDescription">Введите перевод для [{0}]:</sys:String>
+    <sys:String x:Key="ContributionLinkDescription">Введите ссылку для [{0}]:</sys:String>
+    <sys:String x:Key="ContributionTagDescription">Введите теги для [{0}] через запятую:</sys:String>
 
-<sys:String x:Key="FilterStopped">Фильтр остановлен</sys:String>
-<sys:String x:Key="FilterStoppedBecauseApiLimitation">Ограничение API CurseForge. Уточните запрос</sys:String>
-<sys:String x:Key="FilterStoppedBecauseUserCancelled">Фильтр прерван пользователем</sys:String>
-<sys:String x:Key="ResourceInfoAcquisitionTimeout">Таймаут получения данных</sys:String>
-<sys:String x:Key="ResourceInfoAcquisitionTimeoutDetail">Ошибка сети. {0}</sys:String>
-<sys:String x:Key="DeleteAllDisabledMod">Удалить отключённые моды</sys:String>
-<sys:String x:Key="AreYouSure">Подтвердите действие</sys:String>
-<sys:String x:Key="FailedToDelete">Ошибка удаления</sys:String>
-<sys:String x:Key="ModDeletionFailedDetail">Некоторые файлы не удалены</sys:String>
-<sys:String x:Key="RemoveAllUpdateFlags">Снять метки обновлений</sys:String>
-<sys:String x:Key="RemoveAllUpdateFlagsDetail">Снять все метки [UPDATE]? Необратимо</sys:String>
-<sys:String x:Key="FailedToRemoveTags">Ошибка удаления тегов</sys:String>
-<sys:String x:Key="FailedToRemoveTagsDetail">Некоторые теги не удалены</sys:String>
+    <sys:String x:Key="FilterStopped">Фильтр остановлен</sys:String>
+    <sys:String x:Key="FilterStoppedBecauseApiLimitation">Ограничение API CurseForge. Уточните запрос</sys:String>
+    <sys:String x:Key="FilterStoppedBecauseUserCancelled">Фильтр прерван пользователем</sys:String>
+    <sys:String x:Key="ResourceInfoAcquisitionTimeout">Таймаут получения данных</sys:String>
+    <sys:String x:Key="ResourceInfoAcquisitionTimeoutDetail">Ошибка сети. {0}</sys:String>
+    <sys:String x:Key="DeleteAllDisabledMod">Удалить отключённые моды</sys:String>
+    <sys:String x:Key="AreYouSure">Подтвердите действие</sys:String>
+    <sys:String x:Key="FailedToDelete">Ошибка удаления</sys:String>
+    <sys:String x:Key="ModDeletionFailedDetail">Некоторые файлы не удалены</sys:String>
+    <sys:String x:Key="RemoveAllUpdateFlags">Снять метки обновлений</sys:String>
+    <sys:String x:Key="RemoveAllUpdateFlagsDetail">Снять все метки [UPDATE]? Необратимо</sys:String>
+    <sys:String x:Key="FailedToRemoveTags">Ошибка удаления тегов</sys:String>
+    <sys:String x:Key="FailedToRemoveTagsDetail">Некоторые теги не удалены</sys:String>
 
-<sys:String x:Key="InvalidSessionDetail">Требуется повторный вход</sys:String>
-<sys:String x:Key="LaunchBrokenGameMessage">Запуск повреждённой игры</sys:String>
-<sys:String x:Key="EnableAutoJavaSelection">Автовыбор Java?</sys:String>
-<sys:String x:Key="EnableAutoJavaSelectionDetail">Автовыбор отключит это окно</sys:String>
-<sys:String x:Key="GoToJavaDownloadPageMessage">Перейти к установке Java?</sys:String>
+    <sys:String x:Key="InvalidSessionDetail">Требуется повторный вход</sys:String>
+    <sys:String x:Key="LaunchBrokenGameMessage">Запуск повреждённой игры</sys:String>
+    <sys:String x:Key="EnableAutoJavaSelection">Автовыбор Java?</sys:String>
+    <sys:String x:Key="EnableAutoJavaSelectionDetail">Автовыбор отключит это окно</sys:String>
+    <sys:String x:Key="GoToJavaDownloadPageMessage">Перейти к установке Java?</sys:String>
 
-<sys:String x:Key="ContributeThirdPartyResourceInfo">Дополнить информацию</sys:String>
-<sys:String x:Key="DoYouThinkIfTheResourceIsAccurate">Данные верны?</sys:String>
-<sys:String x:Key="AddResourceTranslation">Добавить перевод</sys:String>
-<sys:String x:Key="AddResourceLink">Добавить ссылку</sys:String>
-<sys:String x:Key="AddResourceTag">Добавить теги</sys:String>
+    <sys:String x:Key="ContributeThirdPartyResourceInfo">Дополнить информацию</sys:String>
+    <sys:String x:Key="DoYouThinkIfTheResourceIsAccurate">Данные верны?</sys:String>
+    <sys:String x:Key="AddResourceTranslation">Добавить перевод</sys:String>
+    <sys:String x:Key="AddResourceLink">Добавить ссылку</sys:String>
+    <sys:String x:Key="AddResourceTag">Добавить теги</sys:String>
 
-<sys:String x:Key="UseFolderRules">Использовать FOLDER_RULES</sys:String>
+    <sys:String x:Key="UseFolderRules">Использовать FOLDER_RULES</sys:String>
 
-<sys:String x:Key="ResourceContributionWarning">Повторная отправка перезапишет предыдущие данные</sys:String>
+    <sys:String x:Key="ResourceContributionWarning">Повторная отправка перезапишет предыдущие данные</sys:String>
 
-<sys:String x:Key="CopyAndOpenVerificationUrl">Копировать и открыть ссылку</sys:String>
+    <sys:String x:Key="CopyAndOpenVerificationUrl">Копировать и открыть ссылку</sys:String>
 
-<sys:String x:Key="PleaseSelectJreVersion">Выберите версию Java</sys:String>
+    <sys:String x:Key="PleaseSelectJreVersion">Выберите версию Java</sys:String>
 
-<sys:String x:Key="ApiLimitationPageWarning">Количество страниц приблизительно</sys:String>
-<sys:String x:Key="LongWaitHint">При долгой загрузке смените источник</sys:String>
+    <sys:String x:Key="ApiLimitationPageWarning">Количество страниц приблизительно</sys:String>
+    <sys:String x:Key="LongWaitHint">При долгой загрузке смените источник</sys:String>
 
-<sys:String x:Key="RemoveAllModsUpdatePrefix">Удалить все [UPDATE]</sys:String>
-<sys:String x:Key="RemoveAllDisabledMods">Удалить отключённые моды</sys:String>
-<sys:String x:Key="AutoSelectSuitableJava">Автовыбор Java</sys:String>
+    <sys:String x:Key="RemoveAllModsUpdatePrefix">Удалить все [UPDATE]</sys:String>
+    <sys:String x:Key="RemoveAllDisabledMods">Удалить отключённые моды</sys:String>
+    <sys:String x:Key="AutoSelectSuitableJava">Автовыбор Java</sys:String>
 
-<sys:String x:Key="ShadowDepth">Глубина тени</sys:String>
-<sys:String x:Key="ShadowRadius">Радиус тени</sys:String>
-<sys:String x:Key="ShadowOpacity">Непрозрачность тени</sys:String>
+    <sys:String x:Key="ShadowDepth">Глубина тени</sys:String>
+    <sys:String x:Key="ShadowRadius">Радиус тени</sys:String>
+    <sys:String x:Key="ShadowOpacity">Непрозрачность тени</sys:String>
 
-<sys:String x:Key="Contributors">Участники</sys:String>
-<sys:String x:Key="ContributorsDescription">Благодарим всех участников!</sys:String>
-<sys:String x:Key="ContributorList">Список участников</sys:String>
-<sys:String x:Key="ContributorListDetail">Топ-100 участников. 50+ вкладов = бонусы</sys:String>
+    <sys:String x:Key="Contributors">Участники</sys:String>
+    <sys:String x:Key="ContributorsDescription">Благодарим всех участников!</sys:String>
+    <sys:String x:Key="ContributorList">Список участников</sys:String>
+    <sys:String x:Key="ContributorListDetail">Топ-100 участников. 50+ вкладов = бонусы</sys:String>
 
-<sys:String x:Key="UseMultiSourcesCompletion">Мультиисточники</sys:String>
-<sys:String x:Key="MultiSourcesCompletionPolicy">Стратегия мультиисточников</sys:String>
+    <sys:String x:Key="UseMultiSourcesCompletion">Мультиисточники</sys:String>
+    <sys:String x:Key="MultiSourcesCompletionPolicy">Стратегия мультиисточников</sys:String>
 
-<sys:String x:Key="NoGameFound">Игр не найдено</sys:String>
-<sys:String x:Key="NoGameFoundDetail">Перейдите в раздел загрузок</sys:String>
-<sys:String x:Key="GenerateExportSettings">Создать настройки</sys:String>
-<sys:String x:Key="EditExportSettings">Изменить настройки</sys:String>
-<sys:String x:Key="GameDirectoryManagement">Управление папками</sys:String>
-<sys:String x:Key="LauncherRootPath">Корневая папка</sys:String>
+    <sys:String x:Key="NoGameFound">Игр не найдено</sys:String>
+    <sys:String x:Key="NoGameFoundDetail">Перейдите в раздел загрузок</sys:String>
+    <sys:String x:Key="GenerateExportSettings">Создать настройки</sys:String>
+    <sys:String x:Key="EditExportSettings">Изменить настройки</sys:String>
+    <sys:String x:Key="GameDirectoryManagement">Управление папками</sys:String>
+    <sys:String x:Key="LauncherRootPath">Корневая папка</sys:String>
 
-<sys:String x:Key="GameCrashDetected">Обнаружен сбой игры</sys:String>
+    <sys:String x:Key="GameCrashDetected">Обнаружен сбой игры</sys:String>
 
-<sys:String x:Key="TelemetryAndDataCollection">Сбор данных</sys:String>
+    <sys:String x:Key="TelemetryAndDataCollection">Сбор данных</sys:String>
 
-<sys:String x:Key="PerformingUpdate">Обновление...</sys:String>
-<sys:String x:Key="PerformingUpdateDetail">Подождите</sys:String>
-<sys:String x:Key="FailedToExtractLauncherIcon">Ошибка иконки</sys:String>
-<sys:String x:Key="FailedToExtractLauncherIconDetail">Иконки уведомлений недоступны</sys:String>
-<sys:String x:Key="AuthLibInstallMessage2">Проверка Authlib-Injector</sys:String>
+    <sys:String x:Key="PerformingUpdate">Обновление...</sys:String>
+    <sys:String x:Key="PerformingUpdateDetail">Подождите</sys:String>
+    <sys:String x:Key="FailedToExtractLauncherIcon">Ошибка иконки</sys:String>
+    <sys:String x:Key="FailedToExtractLauncherIconDetail">Иконки уведомлений недоступны</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage2">Проверка Authlib-Injector</sys:String>
 
 </ResourceDictionary>
