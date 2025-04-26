@@ -67,7 +67,7 @@
 
     <sys:String x:Key="SkinRequestFailed">Échec de la récupération du skin</sys:String>
 
-    <sys:String x:Key="GlobalGameSettings">Paramètres globaux du jeu</sys:String>
+    <sys:String x:Key="GlobalGameSettings">Globaux</sys:String>
     <sys:String x:Key="Appearance">Apparence</sys:String>
     <sys:String x:Key="Network">Réseau</sys:String>
     <sys:String x:Key="Advanced">Avancé</sys:String>
@@ -196,7 +196,7 @@
     <sys:String x:Key="NotifyHistory">Historique des notifications</sys:String>
 
     <sys:String x:Key="DownloadingFile">Téléchargement du fichier en cours</sys:String>
-    <sys:String x:Key="LaunchGame">Lancer le jeu</sys:String>
+    <sys:String x:Key="LaunchGame">Lancer</sys:String>
 
     <sys:String x:Key="AuthFailed">Échec de l'authentification du compte</sys:String>
     <sys:String x:Key="DecompressFailed">Erreur de décompression des Natives</sys:String>
@@ -346,7 +346,7 @@
 
     <sys:String x:Key="Offline">Hors ligne</sys:String>
     <sys:String x:Key="ChooseLoginType">Veuillez choisir votre méthode de connexion</sys:String>
-    <sys:String x:Key="ChooseLoginTypeDetail">Veuillez choisir votre méthode d'authentification. Si vous ne savez pas quelle méthode utiliser, utilisez l'authentification Mojang.</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">Veuillez choisir votre méthode d'authentification. Si vous ne savez pas quelle méthode utiliser, utilisez l'authentification Offline (hors ligne).</sys:String>
 
     <sys:String x:Key="GlobalNotSet">Non défini globalement</sys:String>
     <sys:String x:Key="SaveSettingsFailed">Échec de l'enregistrement des paramètres</sys:String>
@@ -982,8 +982,8 @@
     <sys:String x:Key="FileDragEventTriggered">Événement de glisser-déposer déclenché</sys:String>
     <sys:String x:Key="OfficialWebsite">Site officiel</sys:String>
 
-    <sys:String x:Key="PreviousPage">Page précédente</sys:String>
-    <sys:String x:Key="NextPage">Page suivante</sys:String>
+    <sys:String x:Key="PreviousPage">Précédente</sys:String>
+    <sys:String x:Key="NextPage">Suivante</sys:String>
 
     <sys:String x:Key="Month">Mois</sys:String>
 
@@ -1149,9 +1149,6 @@
     <sys:String x:Key="UpdateWillDeleteFiles">La mise à jour supprimera les fichiers suivants :</sys:String>
     <sys:String x:Key="CheckValidAccount">Veuillez vérifier si vous avez sélectionné un compte valide</sys:String>
     <sys:String x:Key="ModCategory">Catégorie de mod</sys:String>
-    <sys:String x:Key="Teleportation">Téléportation</sys:String>
-    <sys:String x:Key="RolePlaying">Jeu de rôle</sys:String>
-    <sys:String x:Key="Tech">Technologie</sys:String>
     <sys:String x:Key="SignalRConnected">Connexion au serveur SignalR établie avec succès</sys:String>
     <sys:String x:Key="SignalRConnectionFailed">Impossible de se connecter au serveur SignalR, peut-être en raison de problèmes de réseau</sys:String>
 
@@ -1161,7 +1158,6 @@
     <sys:String x:Key="StartCheckingLauncherUpdate">Vérification des mises à jour du lanceur</sys:String>
     <sys:String x:Key="LatestBuildFetched">Dernière version récupérée avec succès</sys:String>
     <sys:String x:Key="UpdateFoundDetail">Mise à jour disponible, ID : {0}</sys:String>
-    <sys:String x:Key="NoUpdateFound">Aucune mise à jour disponible</sys:String>
 
     <sys:String x:Key="PleaseTryAgainLaterDetail">Vous pouvez réessayer plusieurs fois pour résoudre ce problème. Détails : {0}</sys:String>
 
@@ -1196,7 +1192,6 @@
     <sys:String x:Key="DownloadToTargetFolder">Télécharger dans le dossier spécifié</sys:String>
     <sys:String x:Key="DownloadToTargetGame">Télécharger dans le jeu</sys:String>
 
-    <sys:String x:Key="CanUpgradeTo">Peut être mis à jour vers :</sys:String>
     <sys:String x:Key="FollowingFileWillBeDeleted">Les fichiers suivants seront supprimés lors de la mise à jour :</sys:String>
     <sys:String x:Key="OpenModWebPage">Ouvrir la page web du mod</sys:String>
 

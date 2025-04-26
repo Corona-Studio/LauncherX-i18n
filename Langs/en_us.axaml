@@ -117,8 +117,8 @@
 
     <!--> SettingsPage.xaml <-->
 
-    <sys:String x:Key="GlobalGameSettings">Global Game Settings</sys:String>
-    <!-- <sys:String x:Key="RegionAndLang">区域和语言</sys:String> -->
+    <sys:String x:Key="GlobalGameSettings">Global</sys:String>
+    <sys:String x:Key="RegionAndLang">Region and Language</sys:String>
     <sys:String x:Key="Appearance">Appearance</sys:String>
     <sys:String x:Key="Network">Network</sys:String>
     <sys:String x:Key="Advanced">Advanced</sys:String>
