@@ -1,0 +1,1743 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <sys:String x:Key="TranslatorCredits">Github hehetoshang/B站 好想炸鱼/B站小号 往生桃影 - हिंदी</sys:String>
+
+    <sys:String x:Key="Ok">पुष्टि करें</sys:String>
+    <sys:String x:Key="Cancel">रद्द करें</sys:String>
+    <sys:String x:Key="Warning">चेतावनी</sys:String>
+    <sys:String x:Key="Error">त्रुटि</sys:String>
+    <sys:String x:Key="Fatal">घातक</sys:String>
+    <sys:String x:Key="Debug">डिबग</sys:String>
+    <sys:String x:Key="Info">जानकारी</sys:String>
+    <!-- <sys:String x:Key="Note">提示</sys:String> -->
+
+    <sys:String x:Key="Open">खोलें</sys:String>
+    <!-- <sys:String x:Key="Close">关闭</sys:String> -->
+
+    <sys:String x:Key="Exit">बाहर निकलें</sys:String>
+    <!-- <sys:String x:Key="Maximize">最大化</sys:String> -->
+    <sys:String x:Key="Minimize">छोटा करें</sys:String>
+    <sys:String x:Key="Force">जबरदस्ती</sys:String>
+
+    <!-- <sys:String x:Key="LaunchFailed">游戏启动失败。</sys:String> -->
+    <!-- <sys:String x:Key="JavaNotFound">启动器没有检测到Java。</sys:String> -->
+    <!-- <sys:String x:Key="IllegalJavaInstallation">您可能正在使用绿色版Java。</sys:String> -->
+
+    <!--> App.xaml.cs <-->
+
+    <!-- <sys:String x:Key="EmptyDirFailed">清空文件夹失败</sys:String> -->
+    <sys:String x:Key="ExitMainPg">LauncherX से बाहर निकलें</sys:String>
+    <sys:String x:Key="TryContinue">LauncherX का उपयोग जारी रखें</sys:String>
+    <!-- <sys:String x:Key="UncaughtEx">LauncherX遭遇了不可描述的错误。</sys:String> -->
+
+    <!--> App.xaml.cs <-->
+
+    <!--> MainWindow.xaml <-->
+
+    <sys:String x:Key="GameStart">गेम लॉन्च करें</sys:String>
+    <sys:String x:Key="GameList">गेम सूची</sys:String>
+    <sys:String x:Key="Dashboard">डैशबोर्ड</sys:String>
+    <sys:String x:Key="Settings">सेटिंग्स</sys:String>
+
+    <sys:String x:Key="Start">लॉन्च हो रहा है</sys:String>
+    <sys:String x:Key="TaskCenter">कार्य केंद्र</sys:String>
+
+    <!--> MainWindow.xaml <-->
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <!-- <sys:String x:Key="IllegalSettings">不正确的配置</sys:String> -->
+    <!-- <sys:String x:Key="IllegalSettingsHint1">在上一次修改的启动器设置中，由于您不正确的配置，我们已经将部分参数修改为默认设置：</sys:String> -->
+    <!-- <sys:String x:Key="IllegalSettingsHint2">检测到您有不正确的设置，请前往设置页面修改：</sys:String> -->
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <!--> MainViewModel.cs <-->
+
+    <sys:String x:Key="RunningJobsFound">कार्य(क) प्रगति पर है...</sys:String>
+    <sys:String x:Key="ExitAndDropTasksHint">कतार में {0} कार्य शेष हैं। सभी चल रहे कार्यों को स्थायी रूप से हटा दिया जाएगा। क्या आप बाहर निकलना चाहते हैं?</sys:String>
+    <sys:String x:Key="WaitToFinish">समाप्त होने की प्रतीक्षा करें</sys:String>
+
+    <sys:String x:Key="GameNotSelect">गेम चयनित नहीं</sys:String>
+    <sys:String x:Key="GameNotSelectHint">लॉन्च करने के लिए कोई गेम चयनित नहीं है।</sys:String>
+
+    <!-- <sys:String x:Key="AccountNotSelect">未选择账户</sys:String> -->
+    <!-- <sys:String x:Key="AccountNotSelectHint">未选择启动用账户或选择的账户无效</sys:String> -->
+
+    <!--> MainViewModel.cs <-->
+
+    <!--> AccountPage.xaml <-->
+
+    <sys:String x:Key="Welcome">स्वागत है</sys:String>
+    <sys:String x:Key="Delete">हटाएं</sys:String>
+
+    <!--> AccountPage.xaml <-->
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <sys:String x:Key="CreateNewAccount">नया खाता बनाएं</sys:String>
+
+    <sys:String x:Key="OfflineAccount">ऑफ़लाइन खाता</sys:String>
+    <sys:String x:Key="MojangAccount">Mojang खाता</sys:String>
+    <sys:String x:Key="MicrosoftAccount">Microsoft खाता</sys:String>
+
+    <!-- <sys:String x:Key="OnlineAccount">在线账户</sys:String> -->
+    <sys:String x:Key="Email">ईमेल</sys:String>
+    <sys:String x:Key="UserName">उपयोगकर्ता नाम</sys:String>
+    <sys:String x:Key="DisplayName">प्रदर्शन नाम</sys:String>
+    <sys:String x:Key="Password">पासवर्ड</sys:String>
+    <sys:String x:Key="ConfirmPassword">पासवर्ड की पुष्टि करें</sys:String>
+    <sys:String x:Key="AuthLibServer">AuthLib सर्वर</sys:String>
+    <sys:String x:Key="Optional">वैकल्पिक</sys:String>
+    <sys:String x:Key="SaveAccount">खाता सहेजें</sys:String>
+
+    <sys:String x:Key="CheckingAccount">खाता सत्यापित किया जा रहा है...</sys:String>
+    <sys:String x:Key="Default">डिफ़ॉल्ट</sys:String>
+
+    <!-- <sys:String x:Key="CheckSucceeded">验证成功</sys:String> -->
+    <sys:String x:Key="CheckFailed">सत्यापन विफल</sys:String>
+
+    <sys:String x:Key="SkinRequestFailed">स्किन प्राप्त करने में विफल</sys:String>
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <!--> GameListPage.xaml <-->
+
+    <!-- <sys:String x:Key="NoGameYet">暂无任何游戏</sys:String> -->
+
+    <!--> GameListPage.xaml <-->
+
+    <!--> SettingsPage.xaml <-->
+
+    <sys:String x:Key="GlobalGameSettings">वैश्विक</sys:String>
+    <sys:String x:Key="RegionAndLang">क्षेत्र और भाषा</sys:String>
+    <sys:String x:Key="Appearance">दिखावट</sys:String>
+    <sys:String x:Key="Network">नेटवर्क</sys:String>
+    <sys:String x:Key="Advanced">उन्नत</sys:String>
+    <sys:String x:Key="About">के बारे में</sys:String>
+
+    <sys:String x:Key="LaunchSettings">लॉन्च सेटिंग्स</sys:String>
+    <sys:String x:Key="JavaPath">Java पथ</sys:String>
+    <sys:String x:Key="AddManually">मैन्युअल रूप से जोड़ें</sys:String>
+    <sys:String x:Key="DownloadJava">Java प्राप्त करें</sys:String>
+    <sys:String x:Key="SearchJava">Java खोजें</sys:String>
+
+    <sys:String x:Key="MemorySize">मेमोरी आकार</sys:String>
+    <sys:String x:Key="MbUnit">इकाई: एमबी</sys:String>
+    <sys:String x:Key="GameWindowTitle">गेम विंडो शीर्षक</sys:String>
+
+    <sys:String x:Key="GameWindowSize">गेम विंडो आकार</sys:String>
+    <sys:String x:Key="Width">चौड़ाई</sys:String>
+    <sys:String x:Key="Height">ऊंचाई</sys:String>
+    <sys:String x:Key="FullScreen">पूर्ण स्क्रीन</sys:String>
+
+    <sys:String x:Key="Enable">सक्षम करें</sys:String>
+    <sys:String x:Key="Disable">अक्षम करें</sys:String>
+    <sys:String x:Key="Type">प्रकार</sys:String>
+
+    <sys:String x:Key="JvmAdvanceArgument">उन्नत JVM तर्क</sys:String>
+    <sys:String x:Key="JoinServerAfterLaunched">गेम लॉन्च होने के बाद सर्वर से जुड़ें</sys:String>
+    <sys:String x:Key="ServerIpOrDomain">सर्वर IP / डोमेन</sys:String>
+    <sys:String x:Key="Port">पोर्ट</sys:String>
+
+    <sys:String x:Key="Path">पथ</sys:String>
+    <sys:String x:Key="AdditionalArgument">अतिरिक्त तर्क</sys:String>
+
+    <sys:String x:Key="LauncherBehavior">लॉन्चर व्यवहार</sys:String>
+    <sys:String x:Key="CheckGameFile">गेम फाइलों की जाँच</sys:String>
+    <sys:String x:Key="CheckSha1WhenFixingGameFile">स्वतः-पूर्ण गेम फाइलों की अखंडता की जाँच</sys:String>
+    <sys:String x:Key="GameLaunchedLauncherBehavior">गेम लॉन्च के बाद लॉन्चर व्यवहार</sys:String>
+    <sys:String x:Key="DisplayGameLogs">गेम लॉग दिखाएं</sys:String>
+
+    <!-- <sys:String x:Key="BaseUiSettings">基础界面设置</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationDuration">全局动画时长</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationEasingFunction">全局动画缓动函数</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationEasingMode">全局动画缓动模式</sys:String> -->
+
+    <!-- <sys:String x:Key="AppearancePageTitle">在这里修改你的启动器外观</sys:String> -->
+    <!-- <sys:String x:Key="AppearancePageDetail">在右侧您可以看到窗口预览。</sys:String> -->
+
+    <sys:String x:Key="ThemeMode">थीम मोड</sys:String>
+    <sys:String x:Key="Language">भाषा</sys:String>
+    <sys:String x:Key="UseFluidMove">फ्लुइड मूव सक्षम करें</sys:String>
+
+    <!-- <sys:String x:Key="MainInterfaceBackground">主界面背景</sys:String> -->
+    <sys:String x:Key="BackgroundTexture">पृष्ठभूमि बनावट</sys:String>
+    <sys:String x:Key="BackgroundType">पृष्ठभूमि प्रकार</sys:String>
+
+    <sys:String x:Key="SelectBackgroundImage">पृष्ठभूमि छवि चुनें</sys:String>
+    <sys:String x:Key="Browse">ब्राउज़ करें</sys:String>
+
+    <sys:String x:Key="AccentColor">एक्सेंट रंग</sys:String>
+    <sys:String x:Key="GetAccountColorFromBgImage">पृष्ठभूमि रंग</sys:String>
+    <sys:String x:Key="GetPaletteErrorHint">वर्तमान पृष्ठभूमि के लिए पैलेट नहीं मिला, संभवतः क्योंकि आपने लॉन्चर की आरक्षित फाइलों या निर्देशिकाओं को बदल दिया है।</sys:String>
+    <sys:String x:Key="UsePureColorAsAccentColor">शुद्ध रंग</sys:String>
+    <sys:String x:Key="UseSelectedColorAsAccentColor">रंग पैलेट</sys:String>
+
+    <sys:String x:Key="Preview">पूर्वावलोकन</sys:String>
+    <!-- <sys:String x:Key="UiFontFamily">界面字体</sys:String> -->
+    <sys:String x:Key="PrimaryFont">प्राथमिक फ़ॉन्ट</sys:String>
+    <sys:String x:Key="SecondaryFont">द्वितीयक फ़ॉन्ट</sys:String>
+
+    <sys:String x:Key="PreviewFont">पूर्वावलोकन फ़ॉन्ट</sys:String>
+    <sys:String x:Key="PreviewFontSize">पूर्वावलोकन फ़ॉन्ट आकार</sys:String>
+    <sys:String x:Key="PreviewFontHint">पूर्वावलोकन के लिए कोई भी वर्ण दर्ज करें।</sys:String>
+
+    <sys:String x:Key="FontChangedHint">आपने फ़ॉन्ट सेटिंग्स बदल दी हैं। परिवर्तनों को लागू करने के लिए, कृपया लॉन्चर को पुनरारंभ करें।</sys:String>
+    <!-- <sys:String x:Key="FontFamilyPreviewTestText">汉体书写信息技术标准相容 AaBbCc A a B b C c 0123456789</sys:String> -->
+
+    <sys:String x:Key="BaseNetworkSettings">मूल नेटवर्क सेटिंग्स</sys:String>
+    <sys:String x:Key="ResourceDownloadServer">संसाधन डाउनलोड सर्वर</sys:String>
+    <sys:String x:Key="DownloadThreadCount">डाउनलोड थ्रेड संख्या</sys:String>
+    <sys:String x:Key="AutoDetectDownloadMethod">स्वतः डाउनलोड विधि का पता लगाएं</sys:String>
+    <sys:String x:Key="UseMultiPartDownload">बड़ी फाइलों के लिए ब्लॉक डाउनलोड सक्षम करें</sys:String>
+    <sys:String x:Key="MultiPartCount">ब्लॉक संख्या</sys:String>
+
+    <sys:String x:Key="NetworkConnectionTest">नेटवर्क कनेक्शन परीक्षण</sys:String>
+    <sys:String x:Key="NetworkTestDescription">नेटवर्क कनेक्शन परीक्षण का उपयोग करके, आप वर्तमान नेटवर्क स्थिति के बारे में बेहतर जान सकते हैं, जिसमें विलंबता और सर्वर स्थिति जैसी कुछ बुनियादी जानकारी शामिल है। ये तब मददगार हो सकते हैं जब आप किसी समस्या का निवारण करने का प्रयास कर रहे हों।</sys:String>
+
+    <sys:String x:Key="LauncherLogLevel">लॉन्चर लॉग स्तर</sys:String>
+    <sys:String x:Key="DcAndPp">डेटा संग्रह और गोपनीयता नीति</sys:String>
+    <sys:String x:Key="AllowDataCollection">डेटा संग्रह की अनुमति दें</sys:String>
+
+    <sys:String x:Key="WhatDataWeCollect">हम कौन सी जानकारी एकत्र करते हैं</sys:String>
+    <sys:String x:Key="WhatDataWeCollectContent">
+        हम मूल जानकारी जैसे उपयोग की जाने वाली भाषा और ऑपरेटिंग सिस्टम संस्करण एकत्र करेंगे। हम रनटाइम पर लॉन्चर की जानकारी एकत्र करेंगे, जैसे क्रैश, अपवाद, लॉन्चर चलने का समय,
+        गेम लॉन्च और गेम चलने का समय। ये सभी डेटा हमारे सर्वर पर सुरक्षित रखे जाएंगे।
+    </sys:String>
+
+    <sys:String x:Key="HowWeUseData">आपकी जानकारी का उपयोग</sys:String>
+    <sys:String x:Key="HowWeUseDataContent">
+        हमारे द्वारा एकत्र किए गए डेटा से हमें अपने उपयोगकर्ता समूह और प्रोग्राम त्रुटियों का विश्लेषण करने में मदद मिलेगी। भाषा और क्षेत्रीय सेटिंग्स हमें अपने उपयोगकर्ता समूहों के भौगोलिक वितरण को जानने में मदद करेंगी।
+        त्रुटि लॉग और क्रैश जानकारी हमें लॉन्चर को सुधारने में मदद करेगी ताकि हम आप सभी के लिए एक बेहतर उत्पाद प्रदान कर सकें।
+    </sys:String>
+
+    <!--> SettingsPage.xaml <-->
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <sys:String x:Key="GeneratedJavaAgentArg">जनरेटेड Java AgentArg:</sys:String>
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <sys:String x:Key="TaskAdded">कार्य कतार में जोड़ा गया</sys:String>
+    <sys:String x:Key="PrepareToDownloadJava">Java डाउनलोड करने की तैयारी</sys:String>
+
+    <sys:String x:Key="PleaseCheckLogs">कृपया लॉन्चर लॉग जांचें</sys:String>
+    <sys:String x:Key="Succeeded">सफल</sys:String>
+    <sys:String x:Key="Failed">असफल</sys:String>
+
+    <sys:String x:Key="ImageFile">छवि फ़ाइल</sys:String>
+    <sys:String x:Key="ImportBgImage">पृष्ठभूमि छवि आयात करें</sys:String>
+    <sys:String x:Key="BrowseBgImageDialogTitle">आयात के लिए पृष्ठभूमि छवि चुनें</sys:String>
+    <sys:String x:Key="PrepareToImportBgImage">छवि आयात करने की तैयारी...</sys:String>
+    <sys:String x:Key="ImportingPleaseWait">आयात हो रहा है...</sys:String>
+    <sys:String x:Key="AlreadyImported">छवि पहले से आयात की गई</sys:String>
+
+    <!-- <sys:String x:Key="FetchMojangServerInfo">获取Mojang服务信息</sys:String> -->
+    <sys:String x:Key="Unknown">अज्ञात</sys:String>
+
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <sys:String x:Key="SelectAccountProfile">खाता प्रोफ़ाइल चुनें</sys:String>
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <sys:String x:Key="LastUsed">अंतिम बार उपयोग किया गया</sys:String>
+    <!-- <sys:String x:Key="ClickToUseAccount">点击来使用该账户</sys:String> -->
+    <sys:String x:Key="NeverUsed">कभी नहीं खेला</sys:String>
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <sys:String x:Key="CheckingDelay">विलंबता जांच</sys:String>
+
+    <sys:String x:Key="ServerStatus1Hint">संचालन में।</sys:String>
+    <sys:String x:Key="ServerStatus2Hint">नेटवर्क उतार-चढ़ाव पाया गया। आपको अब अस्थायी सेवा व्यवधान का अनुभव हो सकता है, या आपके स्थानीय नेटवर्क पर समस्याएं हो सकती हैं।</sys:String>
+    <sys:String x:Key="ServerStatus3Hint">सेवा उपलब्ध नहीं। सर्वर से संचार करने में असमर्थ या सेवा बंद।</sys:String>
+    <sys:String x:Key="CurrentStatusIs">वर्तमान स्थिति</sys:String>
+    <sys:String x:Key="WhichMeans">जिसका अर्थ है:</sys:String>
+
+        <!--> ServerStatusControlTemplate.xaml <-->
+
+    <!--> SearchBar.xaml <-->
+
+    <sys:String x:Key="SearchSomething">कुछ खोजें</sys:String>
+
+    <!--> SearchBar.xaml <-->
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <sys:String x:Key="TaskQueue">कार्य कतार</sys:String>
+    <!-- <sys:String x:Key="NoMoreTask">暂无任务</sys:String> -->
+    <sys:String x:Key="NotifyHistory">सूचना इतिहास</sys:String>
+    <!-- <sys:String x:Key="NoMoreNotify">暂无通知</sys:String> -->
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <!--> ITaskCenterJob <-->
+
+    <!-- <sys:String x:Key="TaskCanceled">任务已被取消...</sys:String> -->
+    <sys:String x:Key="DownloadingFile">फ़ाइल डाउनलोड हो रही है</sys:String>
+    <sys:String x:Key="LaunchGame">लॉन्च करें</sys:String>
+
+    <sys:String x:Key="AuthFailed">प्रमाणीकरण विफल</sys:String>
+    <sys:String x:Key="DecompressFailed">नेटिव्स निकालते समय त्रुटि</sys:String>
+    <sys:String x:Key="IncompleteArgument">अधूरा लॉन्च तर्क</sys:String>
+    <sys:String x:Key="NoJava">कोई Java निर्दिष्ट नहीं किया गया</sys:String>
+    <sys:String x:Key="None">कोई नहीं</sys:String>
+    <sys:String x:Key="OperationFailed">ऑपरेशन विफल</sys:String>
+
+    <sys:String x:Key="Duration">अवधि</sys:String>
+    <!-- <sys:String x:Key="ResourceCompletion">资源补全</sys:String> -->
+    <sys:String x:Key="Reason">कारण</sys:String>
+    <sys:String x:Key="Retry">पुन: प्रयास करें</sys:String>
+    <sys:String x:Key="Completion">पूर्णता</sys:String>
+
+    <sys:String x:Key="GameExitDetected">गेम बंद होना पाया गया</sys:String>
+    <sys:String x:Key="GameExitedNormal">गेम सामान्य रूप से बंद हो गया</sys:String>
+    <sys:String x:Key="GameExitedUnexpectedly">गेम अप्रत्याशित रूप से बंद हो गया</sys:String>
+
+    <sys:String x:Key="SearchGame">गेम खोजें</sys:String>
+    <sys:String x:Key="GameNotFound">गेम नहीं मिला</sys:String>
+    <sys:String x:Key="GameNotFoundDetail">गेम का कोई संस्करण नहीं मिला, आपको शायद लॉन्चर में एक डाउनलोड करने की ज़रूरत होगी।</sys:String>
+    <sys:String x:Key="SearchGameCompleted">गेम खोज पूरी हो गई</sys:String>
+
+    <sys:String x:Key="TaskCenterBriefing1">{0} कार्य(क) चल रहे हैं</sys:String>
+
+    <!--> ITaskCenterJob <-->
+
+    <!--> Models <-->
+
+    <!-- <sys:String x:Key="EaseIn">缓入</sys:String> -->
+    <!-- <sys:String x:Key="EaseOut">缓出</sys:String> -->
+    <!-- <sys:String x:Key="EaseInOut">缓入、出</sys:String> -->
+
+    <sys:String x:Key="Shape1">रेखा</sys:String>
+    <sys:String x:Key="Shape2">वृत्त</sys:String>
+    <sys:String x:Key="Shape3">चाप</sys:String>
+
+    <sys:String x:Key="BlurBackground">धुंधली पृष्ठभूमि</sys:String>
+    <sys:String x:Key="ImageBackground">छवि पृष्ठभूमि</sys:String>
+    <sys:String x:Key="PureColorBackground">शुद्ध रंग पृष्ठभूमि</sys:String>
+
+    <sys:String x:Key="OfficialMirror">Mojang आधिकारिक मिरर</sys:String>
+    <sys:String x:Key="BangBangApiMirror">Bangbang93 मिरर</sys:String>
+    <sys:String x:Key="McBbsMirror">McBbs मिरर</sys:String>
+
+    <!-- <sys:String x:Key="BackEase">收回</sys:String> -->
+    <!-- <sys:String x:Key="BounceEase">弹跳</sys:String> -->
+    <!-- <sys:String x:Key="CircleEase">循环</sys:String> -->
+    <!-- <sys:String x:Key="CubicEase">t³函数</sys:String> -->
+    <!-- <sys:String x:Key="ElasticEase">弹簧</sys:String> -->
+    <!-- <sys:String x:Key="ExponentialEase">指数</sys:String> -->
+    <!-- <sys:String x:Key="PowerEase">t*p函数</sys:String> -->
+    <!-- <sys:String x:Key="QuadraticEase">t²函数</sys:String> -->
+    <!-- <sys:String x:Key="QuinticEase">t⁵函数</sys:String> -->
+    <!-- <sys:String x:Key="SineEase">Sin(t)函数</sys:String> -->
+
+    <!-- <sys:String x:Key="NoSelectedBgImage">未设置壁纸路径</sys:String> -->
+
+    <sys:String x:Key="StaySame">वैसा ही रहें</sys:String>
+
+    <sys:String x:Key="All">सभी</sys:String>
+
+    <sys:String x:Key="SkinNotFound">स्किन नहीं मिला</sys:String>
+    <sys:String x:Key="SkinNotFoundDetail">{0} के लिए स्किन नहीं मिला।</sys:String>
+
+    <sys:String x:Key="Delay">विलंब</sys:String>
+    <sys:String x:Key="TimeOutOrError">समय समाप्त हो गया या अपवाद पाए गए</sys:String>
+    <sys:String x:Key="Times">बार</sys:String>
+
+    <!-- <sys:String x:Key="TestDelayFailedDetail">无法测试{0}的延迟</sys:String> -->
+
+    <sys:String x:Key="LightTheme">हल्का थीम</sys:String>
+    <sys:String x:Key="DarkTheme">काला थीम</sys:String>
+
+    <!--> Models <-->
+
+    <!--> About Page <-->
+
+    <!-- <sys:String x:Key="AboutUs">关于我们</sys:String> -->
+    <sys:String x:Key="AboutUsContent">LauncherX अगली पीढ़ी का Minecraft लॉन्चर है।</sys:String>
+    <sys:String x:Key="TeamContent">Corona Studio CMFL Dev Team से आता है। हम उन लोगों द्वारा स्थापित सॉफ्टवेयर विकास टीम हैं जो Minecraft पसंद करते हैं।</sys:String>
+
+    <sys:String x:Key="VersionInfo">संस्करण जानकारी</sys:String>
+    <sys:String x:Key="ReleaseBranch">रिलीज़ शाखा</sys:String>
+    <sys:String x:Key="BinaryVersion">बाइनरी संस्करण</sys:String>
+
+    <sys:String x:Key="LauncherTeam">लॉन्चर टीम</sys:String>
+    <sys:String x:Key="ChiefDeveloper">प्रमुख विकासक</sys:String>
+    <sys:String x:Key="Interaction">संवाद</sys:String>
+    <sys:String x:Key="TechAdviser">प्रौद्योगिकी सलाहकार</sys:String>
+
+    <sys:String x:Key="BackendTeam">बैकएंड टीम</sys:String>
+    <sys:String x:Key="Docking">डॉकिंग</sys:String>
+
+    <sys:String x:Key="ProjBobcatTeam">PROJBOBCAT TEAM</sys:String>
+    <sys:String x:Key="CodeReview">कोड समीक्षा</sys:String>
+
+    <sys:String x:Key="QualityControlTeam">गुणवत्ता नियंत्रण टीम</sys:String>
+    <sys:String x:Key="Manager">प्रबंधक</sys:String>
+    <sys:String x:Key="QualityControlGroup">गुणवत्ता नियंत्रण समूह</sys:String>
+
+    <sys:String x:Key="TranslationContributor">अनुवाद योगदानकर्ता</sys:String>
+    <sys:String x:Key="TranslateGroupMember1">里卡 - 繁体中文</sys:String>
+    <sys:String x:Key="TranslateGroupMember2">法棍面包 - 西班牙语</sys:String>
+    <sys:String x:Key="TranslateGroupMember3">jonW - 英语</sys:String>
+    <sys:String x:Key="TranslateGroupMember4">MILK蛋糕，月银秋5990 - 文言文</sys:String>
+    <sys:String x:Key="TranslateGroupMember5">Github hehetoshang/B站 好想炸鱼/B站小号 往生桃影 - 印度语</sys:String>
+
+    <sys:String x:Key="Thanks">धन्यवाद</sys:String>
+    <sys:String x:Key="Thanks1">धन्यवाद BangBang93 और McBbs को Minecraft संसाधन फ़ाइलों के त्वरित डाउनलोड के लिए</sys:String>
+    <sys:String x:Key="Thanks2">सर्वर प्रायोजित 优势科技-星星 द्वारा</sys:String>
+    <!-- <sys:String x:Key="Thanks3">感谢 CI010 为 ProjBobcat 启动核心开发提供的技术指导</sys:String> -->
+
+    <sys:String x:Key="OpenSourceProjectUsages">ओपन सोर्स प्रोजेक्ट उपयोग</sys:String>
+
+    <sys:String x:Key="Other">अन्य</sys:String>
+
+
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+    <sys:String x:Key="OtherContent">सबसे सुंदर स्मृतियाँ वो होती हैं जो किसी के साथ बिताए गए हैं।</sys:String>
+    <!--> 翻译：最美好的回忆是那些与某人一起度过的时光。 <-->
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+
+    <!--> About Page <-->
+
+    <sys:String x:Key="ChangeLanguageRebootRequired">आपने प्रदर्शन भाषा बदली है। इसे सभी घटकों पर लागू करने के लिए, कृपया LauncherX को पुनरारंभ करें।</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="GameLogsWindowTitle">रीयलटाइम गेम लॉग</sys:String>
+    <sys:String x:Key="TopMost">हमेशा ऊपर</sys:String>
+    <sys:String x:Key="Moveable">चलाए जा सकने वाला</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="NoSuchPageKeyExceptionMessage">कुंजी मान {0} के लिए कोई पेज नहीं मिला।</sys:String>
+
+
+    <!-- <sys:String x:Key="GetSettingsFailed">读取设置文件时出现了一些错误</sys:String> -->
+    <!-- <sys:String x:Key="SearchGameHint">搜索游戏的 id，例如：1.15.2</sys:String> -->
+
+    <sys:String x:Key="Yes">हाँ</sys:String>
+    <sys:String x:Key="No">नहीं</sys:String>
+
+    <sys:String x:Key="DownloadFailed">डाउनलोड विफल</sys:String>
+    <sys:String x:Key="RequestOnlineGame">ऑनलाइन गेम का अनुरोध कर रहा है...</sys:String>
+    <!-- <sys:String x:Key="RequestFailed">获取失败</sys:String> -->
+
+    <sys:String x:Key="Finished">समाप्त</sys:String>
+    <sys:String x:Key="Download">डाउनलोड</sys:String>
+
+    <sys:String x:Key="Env">पर्यावरण</sys:String>
+    <sys:String x:Key="Install">इंस्टॉल</sys:String>
+
+    <sys:String x:Key="GetJavaInfoFailed">अपरिभाषित Java रनटाइम...</sys:String>
+    <sys:String x:Key="FileNotFound">फ़ाइल नहीं मिली</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">यह संस्करण Java ( {0} ) आपके सिस्टम के साथ संगत है।</sys:String>
+    <sys:String x:Key="BadJavaRuntime">यह संस्करण Java ( {0} ) आपके सिस्टम आर्किटेक्चर ( x{0} ) के साथ संगत नहीं है। यह प्रदर्शन समस्याएँ पैदा कर सकता है।</sys:String>
+
+    <sys:String x:Key="SelectedVersion">संस्करण चुनें</sys:String>
+    <!-- <sys:String x:Key="ManuallyCopyRedirectUrl">手动复制 RedirectUrl</sys:String> -->
+
+    <sys:String x:Key="Login">लॉगिन</sys:String>
+    <sys:String x:Key="Register">रजिस्टर</sys:String>
+
+    <sys:String x:Key="ConnectToService">सेवा से कनेक्ट करें</sys:String>
+
+    <!-- <sys:String x:Key="IntroWelcomeText">欢迎使用 LauncherX</sys:String> -->
+    <!-- <sys:String x:Key="IntroWelcomeTextDetail">下面即将开始正式的配置向导，请点击下一步继续。</sys:String> -->
+
+    <sys:String x:Key="IntroSelectAppearance">अपनी पसंदीदा उपस्थिति चुनें</sys:String>
+    <sys:String x:Key="IntroSelectAppearanceDetail">अधिक विकल्प सेटिंग पेज में "दिखावट" टैब पर उपलब्ध हैं।</sys:String>
+
+    <sys:String x:Key="IntroAddAccount">गेम खाता जोड़ें</sys:String>
+    <sys:String x:Key="IntroAddAccountDetail">विज़ार्ड के बाद आप मुख्य विंडो के ऊपरी-बाएँ कोने में अपने उपयोगकर्ता नाम पर क्लिक करके अपने खाते का प्रबंधन कर सकते हैं या अपनी स्किन को 3D में पूर्वावलोकन कर सकते हैं।</sys:String>
+
+    <sys:String x:Key="IntroGameSettings">आवश्यक गेम सेटिंग</sys:String>
+    <sys:String x:Key="IntroGameSettingsDetail">यहाँ कुछ विन्यास हैं जिन्हें आप गेम लॉन्च करने के लिए सेट करना चाहिए। बाद में आप सेटिंग पेज में "वैश्विक गेम सेटिंग" टैब में और अधिक सेटिंग पा सकते हैं।</sys:String>
+
+    <sys:String x:Key="IntroFinishedDetail">बधाई हो! आपने विज़ार्ड पूरा कर लिया है, LauncherX तैयार है!</sys:String>
+
+    <sys:String x:Key="Previous">पिछला</sys:String>
+    <sys:String x:Key="Next">अगला</sys:String>
+
+    <!-- <sys:String x:Key="RequestingGameList">稍等片刻，正在加载游戏列表</sys:String> -->
+
+    <sys:String x:Key="SystemInfo">सिस्टम जानकारी</sys:String>
+    <sys:String x:Key="GameInfo">गेम जानकारी</sys:String>
+    <!-- <sys:String x:Key="Memory">内存</sys:String> -->
+    <sys:String x:Key="Time">समय</sys:String>
+    <sys:String x:Key="GameTime">गेम खेलने का समय</sys:String>
+    <sys:String x:Key="Count">खेलने की संख्या</sys:String>
+
+    <!-- <sys:String x:Key="AccountType">账户类型</sys:String> -->
+    <!-- <sys:String x:Key="ValidOnlineAccount">有效的在线账户</sys:String> -->
+
+    <!-- <sys:String x:Key="StatData">统计数据</sys:String> -->
+    <sys:String x:Key="News">समाचार</sys:String>
+    <!-- <sys:String x:Key="GetGames">获取游戏</sys:String> -->
+
+    <sys:String x:Key="Free">मुफ्त</sys:String>
+    <sys:String x:Key="Using">प्रयोग में</sys:String>
+    <sys:String x:Key="Game">गेम</sys:String>
+
+    <sys:String x:Key="Save">सहेजें</sys:String>
+    <sys:String x:Key="BasicSettings">मूल सेटिंग</sys:String>
+    <sys:String x:Key="GameName">गेम का नाम</sys:String>
+    <sys:String x:Key="GamePath">गेम का पथ</sys:String>
+    <sys:String x:Key="Icon">आइकन</sys:String>
+
+    <sys:String x:Key="Offline">ऑफ़लाइन</sys:String>
+    <sys:String x:Key="ChooseLoginType">कृपया लॉगिन विधि चुनें।</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">कृपया अपनी प्रमाणीकरण विधि चुनें। यदि आप इस विकल्प के बारे में अनिश्चित हैं तो Mojang का उपयोग करें।</sys:String>
+
+    <sys:String x:Key="GlobalNotSet">वैश्विक सेट नहीं किया गया</sys:String>
+    <sys:String x:Key="SaveSettingsFailed">सेटिंग सहेजना विफल</sys:String>
+
+    <!-- <sys:String x:Key="FalseFabricInstallSettings">不正确的 Fabric 安装配置</sys:String> -->
+    <!-- <sys:String x:Key="FalseFabricInstallSettingsDetail">您只选择了 Fabric Loader 或是 Fabric Yarn，请在两个列表里选择合适的版本安装才能够继续！</sys:String> -->
+
+    <sys:String x:Key="GetFailed">पुल विफल</sys:String>
+
+    <sys:String x:Key="ConfirmExit">क्या आप बाहर निकलना चाहते हैं?</sys:String>
+    <sys:String x:Key="ConfirmExitDetail">LauncherX की सेटअप अभी पूरी नहीं हुई है। सभी असहेजे परिवर्तन खो जाएंगे।</sys:String>
+
+    <sys:String x:Key="Choose">चुनें </sys:String>
+    <sys:String x:Key="CustomGameId">कस्टम गेम आईडी</sys:String>
+    <sys:String x:Key="NoAffiliatedComponentForVersion">वर्तमान संस्करण के लिए कोई संबद्ध घटक इंस्टॉल नहीं करना है।</sys:String>
+    <sys:String x:Key="OptionalAffiliatedComponent">वैकल्पिक संबद्ध घटक</sys:String>
+
+    <sys:String x:Key="ForgeDescription">Minecraft Forge एक मुफ्त और ओपन सोर्स मॉडिफ़ाई एपीआई और माइनक्राफ्ट के लिए लोडर है। इसका उद्देश्य समुदाय द्वारा बनाए गए मोड्स की संगतता से निपटना सरल बनाना है।</sys:String>
+    <sys:String x:Key="FabricDescription">Fabric एक हल्का प्रयोगात्मक माइनक्राफ्ट मॉडिफाइंग टूल चेन है।</sys:String>
+    <sys:String x:Key="LiteLoaderDescription">LiteLoader एक हल्का माइनक्राफ्ट मॉड लोडर है जो उन मोड्स के लिए सरल, उच्च प्रदर्शन और विश्वसनीय कार्य प्रदान करने के लिए डिज़ाइन किया गया है जिन्हें गेम यंत्रणा बदलने की आवश्यकता नहीं है।</sys:String>
+    <sys:String x:Key="OptifineDescription">माइनक्राफ्ट के लिए प्रदर्शन समायोजन और उन्नत ग्राफिक कार्यान्वयन (जैसे शेडर) प्रदान करना।</sys:String>
+
+    <!-- <sys:String x:Key="NotSupportedOperation">不受支持的操作</sys:String> -->
+    <!-- <sys:String x:Key="MultiFilesNotSupportedOperationDetail">暂时不支持多文件操作，我们将在今后支持。</sys:String> -->
+
+    <!-- <sys:String x:Key="DragDetected">您拖入了文件</sys:String> -->
+    <!-- <sys:String x:Key="ChooseFileTypeDetail">请在下方选择您的文件类型。注意，部分文件可能暂时不受支持。</sys:String> -->
+
+    <sys:String x:Key="Author">लेखक</sys:String>
+    <sys:String x:Key="Version">संस्करण</sys:String>
+    <sys:String x:Key="Loading">लोड हो रहा है</sys:String>
+
+
+    <sys:String x:Key="AddFriend">एक दोस्त जोड़ें</sys:String>
+    <sys:String x:Key="ValidateFriend">दोस्तों को मान्य करें</sys:String>
+    <!-- Error Message -->
+
+    <sys:String x:Key="CanNotEmpty">आवश्यक फ़ील्ड</sys:String>
+
+    <sys:String x:Key="EmailFormatError">यह एक ईमेल पता नहीं हो सकता है</sys:String>
+    <!-- <sys:String x:Key="EmailRequired">请输入邮箱</sys:String> -->
+
+    <!-- <sys:String x:Key="ConfirmEmail">验证邮箱</sys:String> -->
+    <!-- <sys:String x:Key="ValidationCode">验证码</sys:String> -->
+    <!-- <sys:String x:Key="ValidationCodeHasBeenSent">验证码已经发送到您的邮箱</sys:String> -->
+    <!-- <sys:String x:Key="PasswordIsDifferent">两次输入的密码不相同</sys:String> -->
+    <sys:String x:Key="PasswordFormat">पासवर्ड में वर्णमाला के बड़े और छोटे दोनों अक्षर, कम से कम एक अंक और कम से कम एक विशेष वर्ण (अंडरलाइन को छोड़कर) होने चाहिए।</sys:String>
+    <sys:String x:Key="UserNameFormat">उपयोगकर्ता नाम में केवल अंग्रेज़ी के बड़े और छोटे अक्षर, संख्याएँ, डैश या अंडरस्कोर हो सकते हैं, और इसकी लंबाई 4 - 16 अक्षर के बीच होनी चाहिए।</sys:String>
+    <sys:String x:Key="StringLength">लंबाई {2} और {1} के बीच होनी चाहिए।</sys:String>
+    <sys:String x:Key="AutoLogin">ऑटो लॉगिन</sys:String>
+
+    <sys:String x:Key="HelpAndFeedback">सहायता और प्रतिक्रिया</sys:String>
+
+    <sys:String x:Key="LauncherAccount">खाता</sys:String>
+    <sys:String x:Key="RebootRequired">पुनरारंभ आवश्यक</sys:String>
+
+    <sys:String x:Key="GameSettings">गेम सेटिंग</sys:String>
+    <sys:String x:Key="VersionRootPath">संस्करण रूट पथ</sys:String>
+    <sys:String x:Key="Saves">सेव</sys:String>
+    <sys:String x:Key="Mod">मॉड</sys:String>
+    <sys:String x:Key="ResourcePack">संसाधन पैक</sys:String>
+    <sys:String x:Key="ShaderPack">शेडर पैक</sys:String>
+
+    <sys:String x:Key="ReleaseNote">रिलीज़ नोट</sys:String>
+
+    <sys:String x:Key="ManageServer">सर्वर का प्रबंधन करें</sys:String>
+    <sys:String x:Key="ManageServerDescription">अपने अक्सर खेले जाने वाले सर्वर जोड़ें या पूर्वावलोकन करें।</sys:String>
+    <sys:String x:Key="Refresh">रिफ्रेश</sys:String>
+    <sys:String x:Key="AddNew">जोड़ें</sys:String>
+
+    <sys:String x:Key="Account">खाता</sys:String>
+    <sys:String x:Key="LauncherAccountDescription">LauncherX खाते में साइन इन करें और कुछ शानदार सुविधाएँ प्राप्त करें।</sys:String>
+
+    <sys:String x:Key="Send">भेजें</sys:String>
+    <sys:String x:Key="SendDescription">संदेश दर्ज करें, भेजने के लिए [ Enter ] दबाएँ</sys:String>
+
+    <!-- <sys:String x:Key="NvidiaHardwareAcc">硬件加速渲染 （Nvidia）</sys:String> -->
+    <!-- <sys:String x:Key="NvidiaHardwareAccRebootRequired">您修改了启动器的硬件加速设置，这部分设置需要重启启动器后才能应用</sys:String> -->
+
+    <sys:String x:Key="VideoBackground">वीडियो पृष्ठभूमि</sys:String>
+    <sys:String x:Key="MicaBackground">माइका पृष्ठभूमि (WIN11+)</sys:String>
+    <sys:String x:Key="GameScreenShots">स्क्रीनशॉट</sys:String>
+    <sys:String x:Key="BlurRadius">धुंधलापन त्रिज्या</sys:String>
+    <!-- <sys:String x:Key="Volume">音量</sys:String> -->
+    <sys:String x:Key="BackgroundAlignmentMode">पृष्ठभूमि संरेखण मोड</sys:String>
+
+    <sys:String x:Key="ResolutionDescription">रिज़ॉल्यूशन को 0 * 0 सेट करने से यह डिफ़ॉल्ट में बदल जाएगा।</sys:String>
+
+    <!-- <sys:String x:Key="WhatCanIShowYou">我能为您展示什么？</sys:String> -->
+    <sys:String x:Key="LauncherNotification">लॉन्चर सूचनाएँ</sys:String>
+
+    <sys:String x:Key="Seconds">सेकंड</sys:String>
+    <sys:String x:Key="Minutes">मिनट</sys:String>
+    <sys:String x:Key="Hours">घंटे</sys:String>
+    <sys:String x:Key="Days">दिन</sys:String>
+    <sys:String x:Key="Years">साल</sys:String>
+
+    <sys:String x:Key="Accept">स्वीकार करें</sys:String>
+    <sys:String x:Key="Deny">अस्वीकार करें</sys:String>
+
+    <sys:String x:Key="AddSelf">खुद को जोड़ें</sys:String>
+    <sys:String x:Key="UserState">उपयोगकर्ता स्थिति</sys:String>
+    <sys:String x:Key="UpdateChannel">अपडेट चैनल</sys:String>
+    <sys:String x:Key="Logout">लॉगआउट</sys:String>
+
+    <sys:String x:Key="LauncherUpdateFound">नया LauncherX रिलीज़</sys:String>
+    <sys:String x:Key="HotfixUpdateNotice">गुणवत्ता अपडेट</sys:String>
+    <sys:String x:Key="DoNotCloseNotice">थोड़ी देर रुकें। अपना LauncherX खुला रखें।</sys:String>
+    <sys:String x:Key="Update">अपडेट</sys:String>
+
+    <!-- <sys:String x:Key="ShowPassword">显示密码</sys:String> -->
+    <sys:String x:Key="ForgetPassword">पासवर्ड भूल गए</sys:String>
+
+    <!-- <sys:String x:Key="ClickToChange">点击修改</sys:String> -->
+
+    <sys:String x:Key="AuthServerHint">Optional(usually https://[domain]/api/yggdrasil/)</sys:String>
+    <!-- <sys:String x:Key="MsLoginDetail">您在上方输入邮箱之后。点击确认，您将在浏览器中完成微软账户的登录。完成之后，启动器将为您添加您的账户。</sys:String> -->
+
+    <sys:String x:Key="ProtocolVersion">प्रोटोकॉल संस्करण</sys:String>
+    <sys:String x:Key="Search">खोजें</sys:String>
+    <sys:String x:Key="SearchOption">खोज विकल्प</sys:String>
+
+    <sys:String x:Key="TryStartGame">गेम लॉन्च करने का प्रयास करें</sys:String>
+    <sys:String x:Key="StartingGame">गेम लॉन्च हो रहा है: {0}</sys:String>
+
+    <!-- <sys:String x:Key="LaunchFailedTitle">{0} 启动失败</sys:String> -->
+    <!-- <sys:String x:Key="LaunchFailedContent">我们在尝试启动游戏时出现了问题，具体原因：{0}</sys:String> -->
+    <sys:String x:Key="PreparingMainUI">मुख्य इंटरफ़ेस तैयार कर रहा है, इसमें कुछ समय लग सकता है।</sys:String>
+
+    <sys:String x:Key="YouAreNotLogin">आप लॉग इन नहीं हैं।</sys:String>
+    <sys:String x:Key="YouAreNotLoginContent">LauncherX के अस्थिर संस्करणों का उपयोग करने के लिए लॉगिन आवश्यक है।</sys:String>
+    <!-- <sys:String x:Key="RegisterSucceededContent">我们已经发送了一封激活邮件 到您的邮箱。请点击邮件内的链接激活。激活后就可以登录了</sys:String> -->
+    <sys:String x:Key="AccountUnavailable">खाता अनुपलब्ध</sys:String>
+    <sys:String x:Key="AccountUnavailableContent">आप एक इंसाइडर नहीं हैं, क्या आप खाता बदलना चाहते हैं? (रद्द करें पर दबाएं ताकि बाहर निकलें)</sys:String>
+    <sys:String x:Key="GetInsider">इंसाइडर योग्यता प्राप्त करें</sys:String>
+    <sys:String x:Key="ChannelSwitched">अपडेट चैनल स्विच किया गया</sys:String>
+    <sys:String x:Key="ChannelSwitchedContent">
+        आपकी पिछली शाखा "{0}" थी। {2}
+        चूंकि आपने "{1}" शाखा के लिए LauncherX संस्करण चलाया, {2}
+        हमने आपकी शाखा को "{1}" पर स्विच कर दिया है।
+    </sys:String>
+    <sys:String x:Key="DeviceVerificationFailed">डिवाइस प्रमाणीकरण विफल</sys:String>
+    <sys:String x:Key="DeviceVerificationFailedContent">कृपया अपने ना-उपयोग किए जाने वाले डिवाइस को हटाएं और इसे जोड़ें। LauncherX बंद कर रहा है।</sys:String>
+    <sys:String x:Key="ServerRefresh">सर्वर रिफ्रेश</sys:String>
+    <sys:String x:Key="IsConfirm">क्या पुष्टि करें?</sys:String>
+    <sys:String x:Key="ConfirmToDeleteFriend">क्या आप दोस्त {0} को हटाने के लिए संकल्पित हैं?</sys:String>
+
+    <!-- <sys:String x:Key="MediaFile">媒体文件</sys:String> -->
+
+    <!-- <sys:String x:Key="LoginSucceededContent">账户已完成验证并已加密保存，请点击下一步继续。</sys:String> -->
+
+    <sys:String x:Key="UpdateDownloadFailed">अपडेट डाउनलोड नहीं हो सका</sys:String>
+    <sys:String x:Key="UpdateDownloadFailedContent">अपडेट डाउनलोड नहीं हो सका, शायद खराब नेटवर्क कनेक्शन के कारण। कारण: {0}</sys:String>
+
+    <sys:String x:Key="EmailUsed">ईमेल पहले से पंजीकृत है</sys:String>
+
+    <sys:String x:Key="Hi">नमस्ते:)</sys:String>
+    <!-- <sys:String x:Key="AuthResultNotFound">未找到认证结果</sys:String> -->
+    <!-- <sys:String x:Key="AuthIncomplete">无法完成账户验证</sys:String> -->
+    <!-- <sys:String x:Key="AuthIncompleteContent">我们无法完成账号的验证，这可能是因为您取消了验证或是其他原因。具体原因：{0}</sys:String> -->
+
+    <!-- <sys:String x:Key="TotalSold">一共售出</sys:String> -->
+    <!-- <sys:String x:Key="Last24Hours">过去 24 小时</sys:String> -->
+    <!-- <sys:String x:Key="SoldPerSecond">每秒售出</sys:String> -->
+    <!-- <sys:String x:Key="Copies">份</sys:String> -->
+
+    <sys:String x:Key="Online">ऑनलाइन</sys:String>
+    <sys:String x:Key="AFK">कुछ समय के लिए अनुपस्थित</sys:String>
+    <sys:String x:Key="PlayingContent">खेल रहा है: {0}</sys:String>
+
+    <sys:String x:Key="DeleteGameContent">सावधान! यह गेम, सेव, संसाधन पैक, मॉड, शेडर पैक और अन्य डेटा को हटा देगा और इसे वापस नहीं किया जा सकता।</sys:String>
+
+    <sys:String x:Key="TopLeft">ऊपरी बाएँ</sys:String>
+    <sys:String x:Key="TopCenter">ऊपरी मध्य</sys:String>
+    <sys:String x:Key="TopRight">ऊपरी दाएँ</sys:String>
+    <sys:String x:Key="CenterLeft">मध्य बाएँ</sys:String>
+    <sys:String x:Key="Center">मध्य</sys:String>
+    <sys:String x:Key="CenterRight">मध्य दाएँ</sys:String>
+    <sys:String x:Key="BottomLeft">निचला बाएँ</sys:String>
+    <sys:String x:Key="BottomCenter">निचला मध्य</sys:String>
+    <sys:String x:Key="BottomRight">निचला दाएँ</sys:String>
+
+    <!-- <sys:String x:Key="ImageLoadFailed">图片加载失败</sys:String> -->
+
+    <sys:String x:Key="SetServerSucceededContent">सर्वर सफलतापूर्वक सेट कर दिया गया: {0}</sys:String>
+
+    <sys:String x:Key="ChangeModEnableFailed">मॉड सक्षम/अक्षम करने में विफलता हुई।</sys:String>
+
+    <sys:String x:Key="ConfirmDeleteImageDetail">क्या आप पृष्ठभूमि छवि हटाने की पुष्टि करना चाहते हैं? इस क्रिया को पूर्ववत् नहीं किया जा सकता।</sys:String>
+
+    <sys:String x:Key="Higgs">हिग्स (सबसे तेज)</sys:String>
+    <sys:String x:Key="Neutrino">न्यूट्रिनो (तेज)</sys:String>
+    <sys:String x:Key="Proton">प्रोटॉन (धीमा)</sys:String>
+
+    <sys:String x:Key="Stable">स्थिर</sys:String>
+
+    <sys:String x:Key="ServerNoContent">कोई सामग्री नहीं</sys:String>
+    <sys:String x:Key="FalseCredential">उपयोगकर्ता नाम और पासवर्ड गलत हैं।</sys:String>
+    <sys:String x:Key="UnknownLoginError">अज्ञात लॉगिन त्रुटि</sys:String>
+
+    <sys:String x:Key="LatestRelease">नवीनतम रिलीज</sys:String>
+    <sys:String x:Key="LatestSnapshot">नवीनतम स्नैपशॉट</sys:String>
+
+    <sys:String x:Key="FollowSystem">सिस्टम का अनुसरण करें</sys:String>
+
+    <sys:String x:Key="UnknownErrorOccurs">अज्ञात त्रुटि हुई</sys:String>
+
+    <!-- <sys:String x:Key="NowYouCanLogin">现在你可以登录了</sys:String> -->
+    <sys:String x:Key="FailedToUploadAvatar">एवेटार अपलोड करने में विफलता</sys:String>
+
+    <sys:String x:Key="Rank">रैंक</sys:String>
+    <sys:String x:Key="Popularity">लोकप्रियता</sys:String>
+    <sys:String x:Key="UpdateDate">अद्यतन तारीख</sys:String>
+    <sys:String x:Key="Name">नाम</sys:String>
+    <sys:String x:Key="DownloadCount">डाउनलोड संख्या</sys:String>
+
+    <!-- <sys:String x:Key="TimeBeforeDayUnit">时间（天前）</sys:String> -->
+    <!-- <sys:String x:Key="GameTimeHourUnit">游戏时长（小时）</sys:String> -->
+
+    <sys:String x:Key="CurseForgeSearchTextHint">मॉड, टेक्सचर पैक और शेडर पैक का नाम, उदाहरण: BuildCraft</sys:String>
+    <sys:String x:Key="GameVersionTextHint">गेम संस्करण, उदाहरण: 1.15.2</sys:String>
+
+    <sys:String x:Key="Tag">टैग</sys:String>
+    <!-- <sys:String x:Key="SortMethod">排序方式</sys:String> -->
+
+    <sys:String x:Key="VersionList">संस्करण सूची</sys:String>
+    <sys:String x:Key="DownloadResource">संसाधन डाउनलोड</sys:String>
+
+    <sys:String x:Key="Detail">विवरण</sys:String>
+    <sys:String x:Key="AddonDetail">मॉड विवरण</sys:String>
+    <sys:String x:Key="FailedToLoadAddonInfoDetail">मॉड विवरण लोड करने में विफलता</sys:String>
+
+    <sys:String x:Key="Resource">संसाधन</sys:String>
+    <sys:String x:Key="OriginalGame">गेम</sys:String>
+
+    <sys:String x:Key="UpdateTimeAgo">{0} पहले अद्यतन किया गया</sys:String>
+    <sys:String x:Key="CountDownloads">{0:##,###} डाउनलोड</sys:String>
+
+
+    <sys:String x:Key="ReleaseEdition">रिलीज़</sys:String>
+    <sys:String x:Key="SnapshotEdition">स्नैपशॉट</sys:String>
+    <sys:String x:Key="AlphaEdition">अल्फा</sys:String>
+    <sys:String x:Key="BetaEdition">बीटा</sys:String>
+    <sys:String x:Key="UnknownReleaseEdition">अज्ञात रिलीज़</sys:String>
+
+    <sys:String x:Key="Chat">संदेश</sys:String>
+    <sys:String x:Key="Home">होम</sys:String>
+
+    <sys:String x:Key="AutoScroll">स्वचालित स्क्रॉल</sys:String>
+    <!-- <sys:String x:Key="LogHighlight">日志高亮</sys:String> -->
+
+    <!-- <sys:String x:Key="GameProcessManagement">游戏进程管理</sys:String> -->
+    <sys:String x:Key="KillProcess">प्रक्रिया समाप्त करें</sys:String>
+
+    <sys:String x:Key="FalseJavaSelectionCase1">आप जिस गेम को लॉन्च कर रहे हैं, उसमें स्पष्ट रूप से यह नहीं बताया गया है कि उसे किस संस्करण के जावा की आवश्यकता है, लेकिन हमारा मानना है कि गेम को लॉन्च करने के लिए जावा 8 रनटाइम की आवश्यकता है।</sys:String>
+    <sys:String x:Key="FalseJavaSelectionCase2">आप जिस गेम को लॉन्च कर रहे हैं, उसे जावा रनटाइम संस्करण [{0}] या उससे ऊपर की आवश्यकता है।</sys:String>
+    <sys:String x:Key="FalseJavaSelectionDetail">हालाँकि, आप जिस रनटाइम संस्करण का चयन कर रहे हैं, वह [{0}] है। गलत जावा रनटाइम कॉन्फ़िगरेशन लॉन्च विफलता का कारण बन सकता है। आप सेटिंग्स - वैश्विक गेम सेटिंग्स में जाकर जावा प्राप्त कर सकते हैं।</sys:String>
+
+    <sys:String x:Key="ContinueLaunch">लॉन्च जारी रखें</sys:String>
+    <sys:String x:Key="AutoSelect">स्वचालित</sys:String>
+
+    <sys:String x:Key="FailedToAutoSelectJavaMessage">मौजूदा जावा लाइब्रेरियों में से इस गेम के लिए कोई उपयुक्त जावा रनटाइम नहीं मिला। इस गेम को आवश्यक रनटाइम संस्करण [{0}] है।</sys:String>
+
+    <sys:String x:Key="FailedToResolveKey">कुंजियों को हल करने में विफलता</sys:String>
+    <sys:String x:Key="FailedToResolveKeyDetail">हम आपके स्थानीय कंप्यूटर पर सेव की गई एन्क्रिप्शन कुंजी को हल करने में असमर्थ हैं, इस कारण हमें इसे रीसेट करने की आवश्यकता है। इसलिए, आपको अपने LauncherX खाते में फिर से लॉग इन करना होगा, और आपको अपने सभी गेम खातों में भी फिर से लॉग इन करना होगा।</sys:String>
+
+    <sys:String x:Key="SwitchAccount">खाता बदलें</sys:String>
+
+    <sys:String x:Key="Running">चल रहा है</sys:String>
+    <sys:String x:Key="Stopped">बंद हो गया</sys:String>
+
+    <!-- <sys:String x:Key="UnsupportedServer">无法检测 NAT 类型，可能是服务器不支持</sys:String> -->
+    <!-- <sys:String x:Key="UdpBlocked">UDP 始终阻止</sys:String> -->
+    <!-- <sys:String x:Key="OpenInternet">开放互联网</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricUdpFirewall">公网，UDP 防火墙启用</sys:String> -->
+    <!-- <sys:String x:Key="FullCone">完全锥形</sys:String> -->
+    <!-- <sys:String x:Key="RestrictedCone">受限锥形</sys:String> -->
+    <!-- <sys:String x:Key="PortRestrictedCone">端口受限锥形</sys:String> -->
+    <!-- <sys:String x:Key="Symmetric">对称</sys:String> -->
+
+    <!-- <sys:String x:Key="UnsupportedServerDetail">[!] 无法检测 NAT 类型，可能是服务器不支持</sys:String> -->
+    <!-- <sys:String x:Key="UdpBlockedDetail">当前 NAT 类型为：UDP 始终阻止</sys:String> -->
+    <!-- <sys:String x:Key="OpenInternetDetail">没有检测到 NAT，开放互联网，您拥有公网 IP 地址，并且防火墙并未启用，这将提供最佳的体验</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricUdpFirewallDetail">当前 NAT 类型为：公网，UDP 防火墙启用，防火墙可能会在一定程度上导致联机难度和联机失败可能性的增加</sys:String> -->
+    <!-- <sys:String x:Key="FullConeDetail">当前 NAT 类型为：完全锥形，最佳的连接体验</sys:String> -->
+    <!-- <sys:String x:Key="RestrictedConeDetail">当前 NAT 类型为：受限锥形，受限的连接体验</sys:String> -->
+    <!-- <sys:String x:Key="PortRestrictedConeDetail">当前 NAT 类型为：端口受限锥形，高度受限的联机体验</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricDetail">当前 NAT 类型为：对称 NAT，有一定几率连接失败；如果你正使用手机热点，请尝试使用其他网络</sys:String> -->
+
+    <!-- <sys:String x:Key="Supported">受支持</sys:String> -->
+    <sys:String x:Key="Unsupported">समर्थित नहीं</sys:String>
+
+    <sys:String x:Key="PleaseWait">कृपया प्रतीक्षा करें...</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionPleaseWait">आपको कनेक्ट करने की कोशिश कर रहा है, यह 1 मिनट तक ले सकता है।</sys:String>
+
+    <!-- <sys:String x:Key="ConnectFailed">连接失败</sys:String> -->
+    <!-- <sys:String x:Key="FailedToCreateRoomDetail">无法创建房间，可能是因为网络波动导致的</sys:String> -->
+
+    <sys:String x:Key="RoomHasNoDescription">कोई कमरे का विवरण नहीं है।</sys:String>
+    <sys:String x:Key="RoomHasNoPwd">कमरे का कोई पासवर्ड नहीं है।</sys:String>
+
+    <!-- <sys:String x:Key="WrongRoomPwd">房间的密码不正确</sys:String> -->
+    <!-- <sys:String x:Key="WrongRoomId">未找到房间，可能是因为房间的 ID 有误</sys:String> -->
+
+    <sys:String x:Key="JoinFailed">शामिल होने में विफलता</sys:String>
+    <!-- <sys:String x:Key="JoinFailedDetail">无法加入房间，{0}</sys:String> -->
+
+    <sys:String x:Key="RoomConnectionStr">अरे! मैंने LauncherX का उपयोग करके एक मल्टीप्लेयर कमरा [{0}] बनाया है, अभी मेरे कमरे में शामिल हों!</sys:String>
+    <sys:String x:Key="RoomConnectionStrExported">कमरे की जानकारी सफलतापूर्वक क्लिपबोर्ड में कॉपी कर ली गई!</sys:String>
+
+    <sys:String x:Key="RoomConnectionStrImportFailed1">क्लिपबोर्ड से कमरे की जानकारी आयात करने में असमर्थ, कृपया जाँचें कि आपकी कमरे की जानकारी सही है या नहीं</sys:String>
+    <sys:String x:Key="RoomConnectionStrImportFailed2">क्लिपबोर्ड से वैध कनेक्शन जानकारी आयात नहीं की जा सकती। सुनिश्चित करें कि इसमें "[{9 यादृच्छिक अक्षर}]" जैसा कोड है।</sys:String>
+
+    <sys:String x:Key="Java8Description">जावा 8: [1.17] से पहले के संस्करणों के लिए उपयुक्त, कुछ सहायक घटक (जैसे Forge) को भी जावा के इस संस्करण की आवश्यकता होती है</sys:String>
+    <sys:String x:Key="Java16Description">जावा 16: [1.17] या उससे ऊपर के गेम के लिए</sys:String>
+    <sys:String x:Key="Java17Description">जावा 17: [1.18 - pre2] या उससे ऊपर के गेम के लिए</sys:String>
+    <sys:String x:Key="Java21Description">जावा 21: [1.20.5] या उससे ऊपर के गेम के लिए। तेज़, लेकिन पुराने गेम संस्करणों के साथ असंगत</sys:String>
+
+    <sys:String x:Key="ResetAllSettings">सभी सेटिंग्स रीसेट करें</sys:String>
+    <sys:String x:Key="ResetAllSettingsDetail">चेतावनी! यह ऑपरेशन LauncherX की कॉन्फ़िगरेशन को पूरी तरह से मिटा देगा और सेटअप विज़ार्ड को फिर से चलाएगा, जिसे वापस नहीं लिया जा सकता।</sys:String>
+    <sys:String x:Key="FailedToResetSettingsDetail">LauncherX कॉन्फ़िगरेशन फ़ाइल को हटाने में असमर्थ, कृपया जाँचें कि क्या कोई फ़ाइल कब्ज़ा में है।</sys:String>
+
+    <sys:String x:Key="MicrosoftAuthFailed1">प्रमाणीकरण पूरा नहीं किया जा सकता, या तो क्योंकि उपयोगकर्ता ने गलत प्रमाणीकरण कोड दर्ज किया है, प्रमाणीकरण का समय समाप्त हो गया है, या उपयोगकर्ता ने ऐप के अनुरोध को अस्वीकार कर दिया है।</sys:String>
+    <sys:String x:Key="MicrosoftAuthFailed2">उपयोगकर्ता दावों को निकालने की कोशिश करते समय एक समस्या आई, फ़ील्ड नहीं मिला: ईमेल</sys:String>
+
+    <sys:String x:Key="MultiPlayerGames">मल्टीप्लेयर</sys:String>
+
+    <sys:String x:Key="User">उपयोगकर्ता</sys:String>
+    <sys:String x:Key="ManageAccount">खाता प्रबंधन</sys:String>
+    <sys:String x:Key="SavedGameAccount">सेव किया गया गेम खाता</sys:String>
+    <sys:String x:Key="Reset">रीसेट</sys:String>
+    <sys:String x:Key="SetOfflineSkin">ऑफ़लाइन स्किन सेट करें</sys:String>
+
+    <sys:String x:Key="MultiThreadDownload">मल्टी-थ्रेडेड डाउनलोड</sys:String>
+    <sys:String x:Key="MultiThreadDownloadDescription">मल्टी-थ्रेडिंग डाउनलोड गेम डाउनलोड की गति में सुधार कर सकते हैं, लेकिन लॉन्चर के प्रदर्शन पर काफ़ी प्रभाव डाल सकते हैं।</sys:String>
+
+    <sys:String x:Key="ConnectionInfo">कमरे की जानकारी</sys:String>
+    <!-- <sys:String x:Key="MultiPlayerServiceStatus">联机服务状态</sys:String> -->
+    <!-- <sys:String x:Key="Support">支持</sys:String> -->
+
+    <sys:String x:Key="Room">कमरा</sys:String>
+    <sys:String x:Key="RoomIdHint">GUID प्रारूप में मानक कमरा आईडी</sys:String>
+    <sys:String x:Key="RoomName">कमरे का नाम</sys:String>
+    <sys:String x:Key="RoomDescription">कमरे का विवरण</sys:String>
+    <sys:String x:Key="RoomPwd">कमरे का पासवर्ड</sys:String>
+
+    <sys:String x:Key="CreateRoom">कमरा बनाएं</sys:String>
+    <sys:String x:Key="ShareRoom">कमरा साझा करें</sys:String>
+    <sys:String x:Key="JoinRoom">कमरे में शामिल हों</sys:String>
+    <sys:String x:Key="IsPrivateRoom">निजी कमरा</sys:String>
+
+    <sys:String x:Key="MultiPlayerConnectionHelper">कनेक्शन सहायक</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelperDescription1">इस फ़ंक्शन को चालू करने के बाद, LauncherX चालू होने के बाद स्वचालित रूप से कोरोना नेटवर्क में शामिल हो जाएगा। आप नेटवर्क में एक नोड के रूप में सेवा करेंगे ताकि अन्य खिलाड़ियों को जो नेटवर्क में शामिल नहीं हो सकते हैं, ट्रैफ़िक के फॉरवर्डिंग को पूरा करने में मदद मिल सके। यह अन्य खिलाड़ियों के नेटवर्क में शामिल होने की सफलता दर को बढ़ाएगा।</sys:String>
+    <!-- <sys:String x:Key="MultiPlayerConnectionHelperDescription2">注意：这项服务将消耗一些您的网络带宽。</sys:String> -->
+
+    <sys:String x:Key="BaseUserSettings">उपयोगकर्ता सेटिंग्स</sys:String>
+    <sys:String x:Key="InsiderPreviewSettings">इंसाइडर प्रीव्यू संस्करण अनुभव सेटिंग्स</sys:String>
+    <sys:String x:Key="AuthDeviceManage">डिवाइस प्रमाणीकरण</sys:String>
+
+    <!-- <sys:String x:Key="StartupUI">启动界面</sys:String> -->
+    <sys:String x:Key="MainViewUpperForeground">मुख्य इंटरफ़ेस पूर्वग्राउंड टेक्स्ट रंग</sys:String>
+    <sys:String x:Key="BottomNavigationBarOpacity">नेविगेशन बार अस्पष्टता</sys:String>
+    <sys:String x:Key="HideBottomNavigationBarInMainView">मुख्य इंटरफ़ेस पर नेविगेशन बार छिपाएं</sys:String>
+    <!-- <sys:String x:Key="BrowseVideo">浏览视频</sys:String> -->
+
+    <sys:String x:Key="Text">टाइपोग्राफी</sys:String>
+    <sys:String x:Key="Performance">प्रदर्शन</sys:String>
+
+    <sys:String x:Key="BackgroundAndAccentColor">होम बैकग्राउंड और थीम रंग</sys:String>
+    <sys:String x:Key="BackgroundAndAccentColorDescription">होम बैकग्राउंड और थीम रंग बंधे हुए हो सकते हैं या अलग-अलग सेट किए जा सकते हैं।</sys:String>
+    <sys:String x:Key="Font">फ़ॉन्ट</sys:String>
+    <sys:String x:Key="FontDescription">जब LauncherX पसंदीदा फ़ॉन्ट में संबंधित ग्लिफ नहीं पाता है, तो यह वैकल्पिक फ़ॉन्ट्स का अनुरोध करेगा। आप फ़ॉन्ट प्रीव्यू के माध्यम से देख सकते हैं कि यह कैसा दिखता है।</sys:String>
+
+    <sys:String x:Key="RetrySearch">पुन: खोजें</sys:String>
+    <sys:String x:Key="JavaToolTip">यदि आपके सिस्टम पर जावा से संबंधित कोई त्रुटि संकेतक पॉप अप होता है, तो कृपया संकेतक को बंद करें और अपने जावा इंस्टेंस को फिर से इंस्टॉल करने का प्रयास करें।</sys:String>
+
+    <sys:String x:Key="ResourceCheckMaxDegreeOfParallelism">संसाधन जाँच अधिकतम समानांतरता</sys:String>
+
+    <sys:String x:Key="JavaDescription">जावा कॉम्बो बॉक्स में पथ से पहले के प्रतीक पर ध्यान दें, जो लॉन्चर द्वारा संबंधित जावा की उपलब्धता के निर्धारण को इंगित करता है।</sys:String>
+    <sys:String x:Key="MemorySizeDescription">मinecraft को 512MB से अधिक मेमोरी आवंटित करने की सिफारिश की जाती है ताकि गेम चलते समय मेमोरी ओवरफ़्लो से बचा जा सके।</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGames">प्रत्येक गेम संस्करण के लिए अलग सेटिंग्स</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGamesDescription">इस पेज पर किए गए सेटिंग्स को सभी गेम संस्करणों पर डिफ़ॉल्ट रूप से लागू किया जाएगा। आप गेम सूची में एक गेम चुन सकते हैं और फिर विवरण में प्रत्येक गेम के लिए सेटिंग्स बदल सकते हैं।</sys:String>
+
+    <!-- <sys:String x:Key="ResetAllSettingsDescription">点击“重置配置”按钮后，LauncherX将删除自己的配置文件并关闭。注意：删除的配置将无法恢复。</sys:String> -->
+
+    <sys:String x:Key="Framework">फ़्रेमवर्क</sys:String>
+    <sys:String x:Key="Runtime">रनटाइम</sys:String>
+    <sys:String x:Key="LauncherCoreVersion">ProjBobcat(लॉन्च कोर) संस्करण</sys:String>
+
+    <!-- <sys:String x:Key="NoMoreNewApplication">暂无新申请</sys:String> -->
+
+    <sys:String x:Key="SelectAccount">खाता चुनें</sys:String>
+    <sys:String x:Key="CopyFromClipBoard">क्लिपबोर्ड से कॉपी करें</sys:String>
+    <sys:String x:Key="CopyToClipBoard">क्लिपबोर्ड में कॉपी करें</sys:String>
+
+    <sys:String x:Key="UseOneTimeCode">एक बार का प्रमाणीकरण कोड उपयोग करें</sys:String>
+    <sys:String x:Key="LoginToMsAccount">अपने माइक्रोसॉफ्ट खाते में साइन इन करें</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction1">अपने डिवाइस के साथ आने वाले ब्राउज़र का उपयोग करके यूआरएल पर जाएं:</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction2">और वेब पेज पर दिए गए संकेतों का पालन करके LauncherX द्वारा प्रदर्शित एक बार का प्रमाणीकरण कोड दर्ज करें।</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction3">एक बार उपरोक्त पूरा हो जाने के बाद, LauncherX स्वचालित रूप से शेष चरणों को पूरा करेगा और आपका खाता लॉन्चर में जोड़ देगा।</sys:String>
+
+    <!-- <sys:String x:Key="ModDependencies">模组前置依赖</sys:String> -->
+
+    <sys:String x:Key="CreateFolder">फ़ोल्डर बनाएं</sys:String>
+
+    <sys:String x:Key="FailedToInstallCurseForgePackError">CurseForge निर्भरताओं को इंस्टॉल करने में असमर्थ, कृपया बाद में पुन: प्रयास करें। यह आमतौर पर डाउनलोड स्रोत में समस्या के कारण होता है, लेकिन यह नेटवर्क उतार-चढ़ाव या अन्य कारकों के कारण भी हो सकता है।</sys:String>
+    <!-- <sys:String x:Key="DownloadFailedLibError">补全失败的库文件：{0}文件名：{1}下载链接：{2}下载路径：{3}</sys:String> -->
+    <sys:String x:Key="CompletionFailedMessage">गेम को लॉन्च करने के लिए आवश्यक लाइब्रेरी फ़ाइलें डाउनलोड नहीं हो पाईं। आप कुछ समय प्रतीक्षा कर सकते हैं और फिर से लॉन्च करने का प्रयास कर सकते हैं।</sys:String>
+
+    <sys:String x:Key="AuthLibInstallMessage1">तीसरे पक्ष की प्रमाणीकरण सेवा पाई गई, Authlib-Injector डाउनलोड करने के लिए तैयार</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage2">नवीनतम Authlib-Injector जानकारी प्राप्त की गई। जाँच कर रहा है...</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage3">Authlib-Injector डाउनलोड किया गया। कॉन्फ़िगर कर रहा है...</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage4">सर्वर कॉन्फ़िगरेशन को प्रीफ़ेच करना शुरू करें</sys:String>
+    <sys:String x:Key="AuthLibInstallErrorMessage">Authlib-Injector का नवीनतम संस्करण प्राप्त करने में असमर्थ, संभवतः नेटवर्क त्रुटि है।</sys:String>
+
+    <!-- <sys:String x:Key="DownloadFileCountMessage1">{0} 个可下载项目</sys:String> -->
+
+    <!-- <sys:String x:Key="UnknownWindow">不确定的窗体</sys:String> -->
+    <sys:String x:Key="SaveExportedModPack">निर्यातित मॉडपैक सहेजें</sys:String>
+    <sys:String x:Key="UnableToDeleteGame">गेम {0} हटाने में असमर्थ</sys:String>
+    <sys:String x:Key="UnableToDeleteGameDetail">गेम हटाने की कोशिश करते समय एक त्रुटि आई, कृपया इसे मैन्युअल रूप से हटाने का प्रयास करें! {0}</sys:String>
+    <sys:String x:Key="LocalAccountManagement">स्थानीय खाता प्रबंधन</sys:String>
+
+    <sys:String x:Key="SystemAccentColorBackground">सिस्टम थीम रंग</sys:String>
+    <sys:String x:Key="GlassBackground">ग्लास बैकग्राउंड</sys:String>
+
+    <sys:String x:Key="FailedToCheckJavaInfoDetail">जावा जानकारी का अनुरोध करने में असमर्थ, अपवाद जानकारी: {0}</sys:String>
+    <sys:String x:Key="FailedToCheckSpecificPathJavaInfoDetail">पथ [{0}] के साथ जावा वर्चुअल मशीन जानकारी प्राप्त करने में असमर्थ, आउटपुट: {1}, त्रुटि संदेश: {2}</sys:String>
+    <sys:String x:Key="UnknownJreArch">अज्ञात जावा आर्किटेक्चर [{0}]</sys:String>
+    <sys:String x:Key="UnmatchedJavaArchWarning">
+        सिस्टम आर्किटेक्चर और जावा रनटाइम आर्किटेक्चर मेल नहीं खाता पाया गया:
+        वर्तमान सिस्टम आर्किटेक्चर: {0}
+        वर्तमान जावा आर्किटेक्चर: {1}
+        अपने सिस्टम से मेल नहीं खाने वाले जावा रनटाइम का उपयोग करने से गेम के प्रदर्शन और अनुभव में गंभीर गिरावट आ सकती है!
+    </sys:String>
+
+
+    <sys:String x:Key="Colored">रंगीन</sys:String>
+    <sys:String x:Key="HighContrastColored">उच्च विपरीत रंगीन</sys:String>
+    <sys:String x:Key="VersionCompatibleMcVersionDetail">यह संस्करण कुल {0} माइनक्राफ्ट संस्करणों के साथ संगत है</sys:String>
+
+    <sys:String x:Key="Ascending">आरोही</sys:String>
+    <sys:String x:Key="Descending">अवरोही</sys:String>
+
+    <!-- <sys:String x:Key="NatTypeUnclassified">未分级 - {0}</sys:String> -->
+    <!-- <sys:String x:Key="NatTypeUnclassifiedDetail">当前 NAT 类型为：未分级 - 1，未知的联机体验</sys:String> -->
+
+    <sys:String x:Key="CurseForgeModPack">CurseForge मॉडपैक</sys:String>
+    <sys:String x:Key="ModrinthModPack">Modrinth मॉडपैक</sys:String>
+
+    <sys:String x:Key="EmbeddedLibrary">सम्मिलित लाइब्रेरी</sys:String>
+    <sys:String x:Key="OptionalDependency">वैकल्पिक निर्भरता</sys:String>
+    <sys:String x:Key="RequiredDependency">आवश्यक निर्भरता</sys:String>
+    <sys:String x:Key="Tool">उपकरण</sys:String>
+    <sys:String x:Key="Incompatible">असंगत</sys:String>
+    <sys:String x:Key="Include">सम्मिलित</sys:String>
+
+    <sys:String x:Key="NoEnoughMemory">माइनक्राफ्ट के पास पर्याप्त चलाने की मेमोरी नहीं है</sys:String>
+    <sys:String x:Key="NoEnoughMemory32">32-बिट जावा रनटाइम या 32-बिट ऑपरेटिंग सिस्टम का उपयोग करते समय माइनक्राफ्ट के पास पर्याप्त मेमोरी नहीं है</sys:String>
+    <sys:String x:Key="JavaVersionTooHigh">जावा रनटाइम संस्करण बहुत अधिक है</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersion">समर्थित नहीं जावा रनटाइम संस्करण</sys:String>
+    <sys:String x:Key="JdkUse">JDK या उच्च संस्करण के जावा रनटाइम का उपयोग करते समय क्रैश हो गया</sys:String>
+    <sys:String x:Key="OpenJ9Use">OpenJ9 का उपयोग करते समय क्रैश हो गया</sys:String>
+    <sys:String x:Key="UnableToSetPixelFormat">समस्याग्रस्त ग्राफिक्स कार्ड ड्राइवर का उपयोग करने से पिक्सेल प्रारूप सेट करने में असमर्थ</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriver">एक अलग ग्राफिक्स कार्ड का उपयोग नहीं कर रहे हैं या इंटेल ग्राफिक्स ड्राइवर में समस्या है</sys:String>
+    <sys:String x:Key="UnsupportedAmdDriver">समर्थित नहीं AMD ग्राफिक्स ड्राइवर</sys:String>
+    <sys:String x:Key="UnsupportedNvDriver">समर्थित नहीं Nvidia ग्राफिक्स ड्राइवर</sys:String>
+    <sys:String x:Key="ModCausedGameCrash">मॉड गेम को क्रैश करा रहा है</sys:String>
+    <sys:String x:Key="DecompressedMod">मॉड्यूल को अनजिप करने के कारण लॉन्च विफलता</sys:String>
+    <sys:String x:Key="IncorrectModConfig">गलत मॉड कॉन्फ़िगरेशन</sys:String>
+    <sys:String x:Key="ModMixinFailed">मॉड इंजेक्शन विफल</sys:String>
+    <sys:String x:Key="ModLoaderError">मॉड लोडर ने एक त्रुटि रिपोर्ट की</sys:String>
+    <sys:String x:Key="ModInitFailed">मॉड इनिशियलाइजेशन विफल</sys:String>
+    <sys:String x:Key="ModIdExceeded">स्थापित मॉड्स की संख्या अधिकतम संख्या सीमा से अधिक है</sys:String>
+    <sys:String x:Key="DuplicateMod">डुप्लिकेट मॉड्स</sys:String>
+    <sys:String x:Key="GpuDoesNotSupportOpenGl">ग्राफिक्स कार्ड OpenGL का समर्थन नहीं करता</sys:String>
+    <sys:String x:Key="OpenGl1282Error">टेक्सचरपैक या शेडरस्पैक OpenGL त्रुटियों का कारण बनता है</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFine">Optifine के कारण विश्व लोड करने में विफलता</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpu">टेक्सचरपैक या शेडरस्पैक बहुत बड़ा है या ग्राफिक्स कार्ड </sys:String>
+    <sys:String x:Key="FabricError">Fabric त्रुटि</sys:String>
+    <sys:String x:Key="FabricErrorWithSolution">Fabric त्रुटि (समाधान के साथ)</sys:String>
+    <sys:String x:Key="ForgeError">Forge त्रुटि</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJava">पुराने संस्करणों के Forge उच्च संस्करणों के जावा रनटाइम का उपयोग नहीं कर सकते</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJson">संस्करण Json में कई Forge कॉन्फ़िगरेशन पाए गए</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifine">Forge Optifine के साथ संगत नहीं है</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFound">मुख्य क्लास नहीं मिली या पथ एन्कोडिंग गलत है</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrash">मैन्युअल रूप से डिबग क्रैश ट्रिगर किया गया</sys:String>
+    <sys:String x:Key="ContentValidationFailed">सामग्री सत्यापन विफल</sys:String>
+    <sys:String x:Key="BlockCausedGameCrash">कुछ ब्लॉक गेम को क्रैश करा रहे हैं</sys:String>
+    <sys:String x:Key="EntityCausedGameCrash">कुछ इकाइयाँ गेम को क्रैश करा रही हैं</sys:String>
+    <sys:String x:Key="LogFileNotFound">विश्लेषण के लिए कोई लॉग फ़ाइल नहीं मिली</sys:String>
+
+    <sys:String x:Key="NoEnoughMemoryDetail">माइनक्राफ्ट जारी नहीं चल सकता, या तो इसलिए कि आपके पास गेम को आवंटित पर्याप्त मेमोरी नहीं है या क्योंकि गेम सेटिंग्स बहुत अधिक हैं। आप गेम द्वारा आवंटित मेमोरी बढ़ाकर और मांग वाले टेक्सचरपैक, मॉड और शेडरपैक हटाकर समस्या को हल कर सकते हैं। यदि इनमें से कोई भी तरीका काम नहीं करता है, तो आप खेलने से पहले अन्य सॉफ्टवेयर बंद करने का प्रयास कर सकते हैं, या एक अलग कंप्यूटर में स्विच करने पर विचार कर सकते हैं।</sys:String>
+    <sys:String x:Key="NoEnoughMemory32Detail">ऐसा लगता है कि आप 32-बिट जावा का उपयोग कर रहे हैं, जिससे माइनक्राफ्ट 1GB से अधिक मेमोरी का उपयोग नहीं कर पाएगा, जिसके परिणामस्वरूप क्रैश हो सकता है। इस समस्या को हल करने के लिए, गेम लॉन्च करने से पहले लॉन्च सेटिंग्स में जावा चयन में 64-बिट जावा में स्विच करें। यदि आपके पास 64-बिट जावा इंस्टॉल नहीं है, तो आप वैश्विक गेम सेटिंग्स टैब में [जावा प्राप्त करें] पर क्लिक करके इसे इंस्टॉल कर सकते हैं।</sys:String>
+    <sys:String x:Key="JavaVersionTooHighDetail">ऐसा लगता है कि गेम क्रैश हो गया है क्योंकि आप जावा के पुराने संस्करण का उपयोग कर रहे हैं। इस समस्या को हल करने के लिए, गेम लॉन्च करने से पहले लॉन्च सेटिंग्स में जावा चयन में निचले संस्करण के जावा में स्विच करें। यदि आपके पास जावा इंस्टॉल नहीं है, तो आप वैश्विक गेम सेटिंग्स टैब में [जावा प्राप्त करें] पर क्लिक करके इसे इंस्टॉल कर सकते हैं।</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersionDetail">आप जो जावा वर्तमान में उपयोग कर रहे हैं, वह गेम के साथ असंगत है। कृपया गेम लॉन्च करने से पहले स्टार्टअप सेटिंग्स के जावा चयन में उपयुक्त जावा में स्विच करें। यदि आपके पास जावा इंस्टॉल नहीं है, तो आप वैश्विक गेम सेटिंग्स टैब में [जावा प्राप्त करें] पर क्लिक करके इसे इंस्टॉल कर सकते हैं।</sys:String>
+    <sys:String x:Key="JdkUseDetail">JDK या पुराने जावा संस्करण का उपयोग करने के कारण गेम क्रैश हो जाता है। इस समस्या को हल करने के लिए, गेम लॉन्च करने से पहले लॉन्च सेटिंग्स के जावा चयन में JRE में स्विच करें।</sys:String>
+    <sys:String x:Key="OpenJ9UseDetail">गेम OpenJ9 का उपयोग करने के कारण क्रैश हो जाता है। इस समस्या को हल करने के लिए, गेम लॉन्च करने से पहले लॉन्च सेटिंग्स में जावा चयन में एक गैर-OpenJ9 जावा में स्विच करें।</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriverDetail">आपके ग्राफिक्स कार्ड ड्राइवर में समस्या है या आप एक अलग ग्राफिक्स कार्ड का उपयोग नहीं कर रहे हैं, जिससे गेम ठीक से नहीं चल पा रहा है। इस समस्या को हल करने के लिए, LauncherX और माइनक्राफ्ट लॉन्च करते समय इंटेल ग्राफिक्स के बजाय अलग ग्राफिक्स कार्ड का उपयोग करने का प्रयास करें। यदि समस्या बनी रहती है, तो ग्राफिक्स कार्ड ड्राइवर को नवीनतम संस्करण में अपग्रेड करने का प्रयास करें या फैक्ट्री संस्करण में वापस ले जाएं। यदि समस्या बनी रहती है, तो आप जावा 8 या उससे नीचे का प्रयास कर सकते हैं। यदि समस्या अभी भी हल नहीं हो पाती, तो आपको शायद बेहतर प्रदर्शन के साथ ग्राफिक्स कार्ड बदलने पर विचार करना होगा।</sys:String>
+
+    <sys:String x:Key="VideoDriverErrorDetail">आपके ग्राफिक्स कार्ड ड्राइवर में समस्या है, जिससे गेम ठीक से नहीं चल पा रहा है। इस समस्या को हल करने के लिए, कृपया ग्राफिक्स कार्ड ड्राइवर को नवीनतम संस्करण में अपग्रेड करने का प्रयास करें या फैक्ट्री संस्करण में वापस ले जाएं, और फिर से गेम लॉन्च करें। यदि समस्या बनी रहती है, तो आप जावा 8 या उससे नीचे का प्रयास कर सकते हैं। यदि समस्या अभी भी हल नहीं हो पाती, तो आपको शायद बेहतर प्रदर्शन के साथ ग्राफिक्स कार्ड बदलने पर विचार करना होगा।</sys:String>
+
+    <sys:String x:Key="ModCausedGameCrashDetail">आप जिस गेम को वर्तमान में लॉन्च कर रहे हैं, उसमें एक या अधिक मॉड गेम को क्रैश करा रहे हैं। आप नीचे विस्तृत जानकारी में क्रैश करने वाले मॉड्स के संबंधित जानकारी पा सकते हैं और इन मॉड्स को अस्थायी रूप से अक्षम करने या बदलने का प्रयास कर सकते हैं।</sys:String>
+    <sys:String x:Key="DecompressedModDetail">गेम जारी नहीं चल सकता क्योंकि मॉड फ़ाइल को अनजिप कर दिया गया है। इसे ठीक करने के लिए, पूरी मॉड फ़ाइल को [मॉड्स] फ़ोल्डर में बिना अनजिप किए रखें। यदि आपने मॉड फ़ाइलों को अनजिप कर दिया है, तो गेम लॉन्च करने से पहले उन्हें [मॉड्स] फ़ोल्डर से हटा दें।</sys:String>
+    <sys:String x:Key="IncorrectModConfigDetail">मॉड के एक या अधिक कॉन्फ़िगरेशन फ़ाइल गलत हैं, जिससे लॉन्च विफल हो रहा है। आप नीचे विवरण में विशिष्ट कॉन्फ़िगरेशन फ़ाइल का नाम पा सकते हैं और इसकी त्रुटि को ठीक कर सकते हैं।</sys:String>
+    <sys:String x:Key="ModMixinFailedDetail">एक या अधिक मॉड इंजेक्शन में विफल रहे, जिससे लॉन्च विफल हो रहा है। इसका मतलब आमतौर पर यह है कि आप एक समस्याग्रस्त मॉड या एक मॉड का उपयोग कर रहे हैं जो गेम के वर्तमान संस्करण द्वारा समर्थित नहीं है। आप नीचे विवरण में विशिष्ट मॉड जानकारी पा सकते हैं।</sys:String>
+    <sys:String x:Key="ModLoaderErrorDetail">मॉड लोडर ने एक या अधिक त्रुटियों की रिपोर्ट की। आप नीचे विवरण में त्रुटियों के विशिष्ट कारण देख सकते हैं।</sys:String>
+    <sys:String x:Key="ModInitFailedDetail">एक या अधिक मॉड इनिशियलाइजेशन में विफल रहे और गेम जारी नहीं लोड कर सकता। कृपया नीचे विवरण में मॉड्यूल से संबंधित त्रुटि संदेशों की तलाश करें।</sys:String>
+    <sys:String x:Key="ModIdExceededDetail">आपने बहुत सारे मॉड्स स्थापित कर लिए हैं जो गेम की आईडी सीमा से अधिक हैं, जिससे गेम क्रैश हो जाता है। इस समस्या को हल करने के लिए, आप JEID जैसे कुछ रिपेयर मॉड्स स्थापित करने का प्रयास कर सकते हैं, या कुछ बड़े मॉड्स हटा सकते हैं। यह आपको मॉड्स की संख्या कम करने में मदद करेगा और गेम को अधिक स्थिर बनाएगा।</sys:String>
+    <sys:String x:Key="DuplicateModDetail">आपने बार-बार कई समान मॉड्स स्थापित कर लिए हैं। प्रत्येक मॉड अधिकतम एक बार ही स्थापित किया जा सकता है। कृपया नीचे विवरण में मॉड्यूल का संबंधित नाम पाएं और [मॉड्स] फ़ोल्डर में डुप्लिकेट मॉड्स हटाएं।</sys:String>
+
+    <sys:String x:Key="OpenGl1282ErrorDetail">आप जिन प्रकाशों, छायाओं या सामग्रियों का उपयोग कर रहे हैं, वे गेम में समस्याएं पैदा कर सकते हैं। सुझाव है कि आप इन अतिरिक्त संसाधनों को हटाने का प्रयास करें और फिर से गेम लॉन्च करें। यह आमतौर पर गेम संसाधनों से संबंधित कुछ मुद्दों को हल करेगा।</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">आपके गेम में समस्या OptiFine के इस्तेमाल के संस्करण के कारण हो सकती है जो गेम के साथ असंगत है (https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world)। यह समस्या केवल OptiFine के कुछ संस्करणों में होगी। सुझाव है कि आप OptiFine का संस्करण बदलें और फिर से गेम लॉन्च करें। आप OptiFine की आधिकारिक वेबसाइट पर जाकर नवीनतम संस्करण डाउनलोड कर सकते हैं और इसे इंस्टॉल कर सकते हैं, या OptiFine का कोई अन्य संस्करण इंस्टॉल करने का चयन कर सकते हैं।</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">आपका गेम ठीक से नहीं चल सकता हो सकता है क्योंकि आप बहुत अधिक रेंडर दूरी का उपयोग कर रहे हैं। कृपया गेम सेटिंग्स में रेंडर दूरी को थोड़ा कम करने का प्रयास करें, जैसे कि दृश्य दूरी और चंक लोडिंग दूरी विकल्पों को कम करें। यदि समस्या बनी रहती है, तो आपको अपने ग्राफिक्स कार्ड ड्राइवर को अपडेट करना होगा या इसे उच्च प्रदर्शन के साथ एक ग्राफिक्स कार्ड से बदलना होगा।</sys:String>
+    <sys:String x:Key="FabricErrorDetail">Fabric ने एक या अधिक त्रुटियों की रिपोर्ट की हो सकती है, कृपया नीचे विवरण में विशिष्ट त्रुटि जानकारी देखने का प्रयास करें।</sys:String>
+    <sys:String x:Key="FabricErrorWithSolutionDetail">Fabric ने एक या अधिक त्रुटियों की रिपोर्ट की हो सकती है और समाधान प्रदान किया हो सकता है। कृपया नीचे विवरण में विशिष्ट त्रुटि जानकारी देखने का प्रयास करें।</sys:String>
+    <sys:String x:Key="ForgeErrorDetail">Forge ने एक या अधिक त्रुटियों की रिपोर्ट की हो सकती है, कृपया नीचे विवरण में विशिष्ट त्रुटि जानकारी देखने का प्रयास करें</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">यदि आपका Forge संस्करण 36.2.26 से कम है, तो आप Forge को 36.2.26 या उससे ऊपर के संस्करण में अपडेट करने का प्रयास कर सकते हैं। यदि आप पहले से ही Forge संस्करण 36.2.26 या उससे ऊपर का उपयोग कर रहे हैं, तो आपको अपने जावा संस्करण को बदलने की आवश्यकता हो सकती है। Forge का उपयोग करते समय, कृपया यह जाँचने पर ध्यान दें कि Forge का संस्करण उपयोग किए जा रहे जावा संस्करण के साथ संगत है या नहीं, ताकि ऐसी त्रुटियों से बचा जा सके।</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJsonDetail">गेम क्रैश का कारण दूसरे लॉन्चर का उपयोग करके Forge संस्करण को संशोधित करना हो सकता है, जिससे फ़ाइल का वर्तमान संस्करण असामान्य हो गया है। इस समस्या को हल करने के लिए, Forge की साफ इंस्टॉलेशन का प्रयास करें और अन्य लॉन्चर का उपयोग करके Forge संस्करण को संशोधित न करें।</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifineDetail">गेम क्रैश हो जाता है क्योंकि OptiFine वर्तमान Forge संस्करण के साथ संगत नहीं है। कृपया OptiFine की आधिकारिक वेबसाइट (https://optifine.net/downloads) पर जाकर OptiFine के साथ संगत Forge संस्करण की जाँच करें, और संबंधित संस्करण के अनुसार गेम को फिर से इंस्टॉल करें।</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">गेम क्रैश हो जाता है क्योंकि गेम इंस्टॉलेशन के कारण पथ एन्कोडिंग गलत है या मुख्य क्लास गायब है। आप गेम डायरेक्टरी को बिना चीनी या विशेष वर्णों वाले स्थान पर रखने का प्रयास कर सकते हैं, या गेम को फिर से इंस्टॉल करने का प्रयास कर सकते हैं। यदि समस्या बनी रहती है, तो कृपया डेवलपर को रिपोर्ट करें।</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrashDetail">आपने मैन्युअल रूप से डिबग क्रैश ट्रिगर किया है।</sys:String>
+    <sys:String x:Key="ContentValidationFailedDetail">गेम में सत्यापन विफलता आई, संभवतः डाउनलोड के दौरान नेटवर्क मुद्दों के कारण। आप गेम (मॉड्स सहित) को हटाने और फिर से डाउनलोड करने का प्रयास कर सकते हैं, या फिर से डाउनलोड करते समय अपने नेटवर्क कनेक्शन की स्थिरता सुनिश्चित कर सकते हैं।</sys:String>
+    <sys:String x:Key="BlockCausedGameCrashDetail">गेम में एक ब्लॉक गेम को क्रैश करा रहा है, कृपया नीचे विवरण में ब्लॉक की विशिष्ट जानकारी (आईडी, निर्देशांक, आदि) पाएं और विश्व संपादक का उपयोग करके ब्लॉक को हटाने का प्रयास करें। यदि आप अभी भी समस्या को हल नहीं कर सकते हैं, तो विश्व को फिर से बनाने का प्रयास करें या अन्य मुद्दों पर विचार करें।</sys:String>
+    <sys:String x:Key="EntityCausedGameCrashDetail">गेम में एक इकाई गेम को क्रैश करा रही है, कृपया नीचे विवरण में इकाई की विशिष्ट जानकारी (आईडी, निर्देशांक, आदि) पाएं और विश्व संपादक का उपयोग करके इकाई को हटाने का प्रयास करें। यदि आप अभी भी समस्या को हल नहीं कर सकते हैं, तो विश्व को फिर से बनाने का प्रयास करें या अन्य मुद्दों पर विचार करें।</sys:String>
+    <sys:String x:Key="LogFileNotFoundDetail">विश्लेषक के पास विश्लेषण रिपोर्ट बनाने के लिए पर्याप्त लॉ그 फ़ाइलें नहीं हैं, कृपया डेवलपर से संपर्क करने का प्रयास करें।</sys:String>
+    <sys:String x:Key="OtherCausedGameCrashDetail">गेम अज्ञात कारण से क्रैश हो गया, कृपया डेवलपर से संपर्क करने का प्रयास करें।</sys:String>
+
+    <sys:String x:Key="DirectConnect">सीधा कनेक्ट</sys:String>
+
+    <sys:String x:Key="ArchiveCorrupted">आर्काइव खराब हो गया, आर्काइव फ़ाइल की सामग्री पढ़ने में विफलता।</sys:String>
+    <sys:String x:Key="ModPackJsonCorruptedDetail">मैनिफ़ेस्ट खराब हो गया, मैनिफ़ेस्ट फ़ाइल की सामग्री पढ़ने में विफल। {0}</sys:String>
+    <sys:String x:Key="NetworkUnstable">यह आमतौर पर नेटवर्क उतार-चढ़ाव के कारण होता है।</sys:String>
+    <sys:String x:Key="FailedToLoadModPack">मॉडपैक जानकारी लोड करने में असमर्थ</sys:String>
+    <sys:String x:Key="FailedToLoadModPackDetail">{0} मॉडपैक विवरण लोड करने में असमर्थ, लेकिन आप अभी भी इंस्टॉलेशन जारी रखने का प्रयास कर सकते हैं। विवरण: {1}</sys:String>
+
+    <sys:String x:Key="InvalidPath">अमान्य पथ</sys:String>
+    <sys:String x:Key="FailedToLoadOriginalGameInfo">मूल गेम जानकारी लोड करने में असमर्थ, यह नेटवर्क समस्या हो सकती है।</sys:String>
+
+    <sys:String x:Key="NeoForgedDescription">NeoForged Minecraft Forge से व्युत्पन्न एक नया विकास फोर्क है, जो मूल Forge डेवलपरों में से अधिकांश द्वारा बनाया गया है।</sys:String>
+    <sys:String x:Key="QuiltDescription">The Quilt Project एक ओपन सोर्स, समुदाय-संचालित मॉडिंग टूलचेन है जो मुख्य रूप से माइनक्राफ्ट के लिए डिज़ाइन किया गया है।</sys:String>
+
+    <sys:String x:Key="FailedToReadFromClipBoard">क्लिपबोर्ड से सामग्री पढ़ने में असमर्थ।</sys:String>
+    <sys:String x:Key="FolderDraggedOrFileNotExists">फ़ाइल मौजूद नहीं है या आपने एक फ़ोल्डर खींचा है</sys:String>
+    <sys:String x:Key="FileTypeUnknownDetail">फ़ाइल {0} में एक अज्ञात फ़ाइल प्रकार है</sys:String>
+
+    <sys:String x:Key="FailedToReadUpdatedFile">डाउनलोड की गई अपडेट फ़ाइल पढ़ने में असमर्थ, कृपया मैन्युअल रूप से अपडेट करने का प्रयास करें!</sys:String>
+    <sys:String x:Key="DownloadedUpdateDoesNotContainExecutable">डाउनलोड की गई अपडेट फ़ाइल में एप्लिकेशन नहीं है, कृपया अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें!</sys:String>
+    <sys:String x:Key="DownloadedUpdateHashUnmatched">डाउनलोड की गई अपडेट फ़ाइल का हैश मान अपेक्षित नहीं है, कृपया सिस्टम एडमिनिस्ट्रेटर से संपर्क करें!</sys:String>
+    <sys:String x:Key="FailedToInitFileStream">फ़ाइल स्ट्रीम आरंभ करने में असमर्थ, कृपया अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें!</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedMessage">अपडेट डाउनलोड किया गया। ओके पर क्लिक करें ताकि डाउनलोड की गई अपडेट संकुचित पैकेज खोला जा सके, और फिर डीकंप्रेशन के बाद मैनुअल रूप से पुराने एप्लिकेशन को बदलें। ओके पर क्लिक करने के बाद, प्रोग्राम स्वचालित रूप से बंद हो जाएगा।</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedDetailMessage">ओके पर क्लिक करें ताकि अपडेट पैकेज खोला जा सके। निकालें और मैनुअल रूप से पुराने एप्लिकेशन को बदलें। प्रोग्राम अब बंद हो जाएगा।</sys:String>
+
+    <sys:String x:Key="Customization">कस्टमाइजेशन</sys:String>
+    <sys:String x:Key="ModPack">मॉडपैक</sys:String>
+    <sys:String x:Key="BukkitPlugins">Bukkit प्लगइन</sys:String>
+    <sys:String x:Key="Addons">एडॉन</sys:String>
+    <sys:String x:Key="Worlds">विश्व</sys:String>
+    <sys:String x:Key="Mods">मॉड्स</sys:String>
+
+    <sys:String x:Key="FailedToSaveUserSettingsDetail">वर्तमान में उपयोगकर्ता सेटिंग्स सहेजने में असमर्थ, कृपया बाद में पुन: प्रयास करें।</sys:String>
+    <!-- <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">无法创建房间，因为房间名为空</sys:String> -->
+    <sys:String x:Key="FailedToPerformGroupOpDetail">{0} सर्वर ने लौटाया: {1}</sys:String>
+    <sys:String x:Key="RoomDismissed">कमरा समाप्त हो गया</sys:String>
+    <sys:String x:Key="RoomDismissedDetail">होस्ट द्वारा कमरा समाप्त कर दिया गया, और आप कमरे से बाहर आ गए हैं। फिर मिलेंगे!</sys:String>
+    <sys:String x:Key="Joined">कमरे में शामिल हो गए</sys:String>
+    <sys:String x:Key="Left">कमरे से बाहर आ गए</sys:String>
+    <sys:String x:Key="Kicked">होस्ट द्वारा निकाला गया</sys:String>
+    <sys:String x:Key="Disconnected">कनेक्शन खत्म हो गया</sys:String>
+    <sys:String x:Key="RoomMemberChanged">कमरे के सदस्य में बदलाव</sys:String>
+    <sys:String x:Key="FailedToKickMember">सदस्य को निकालने में विफलता</sys:String>
+    <sys:String x:Key="FailedToKickSelf">वास्तव में? खुद को बाहर निकालने की कोशिश कर रहे हैं?</sys:String>
+    <sys:String x:Key="FailedToKickMemberDetail">सदस्यों को निकालने में असमर्थ, संभवतः नेटवर्क मुद्दों या सर्वर त्रुटियों के कारण। सर्वर ने लौटाया: {0}</sys:String>
+    <sys:String x:Key="MemberKicked">सदस्य निकाला गया!</sys:String>
+    <!-- <sys:String x:Key="MemberKickedDetail">已成功踢出成员 {0}</sys:String> -->
+    <sys:String x:Key="RoomExited">कमरे से बाहर निकला</sys:String>
+    <sys:String x:Key="RoomExitedDetail">आपने कमरे से बाहर निकल लिया है या होस्ट द्वारा कमरा समाप्त कर दिया गया है! फिर मिलेंगे!</sys:String>
+
+    <sys:String x:Key="ThirdPartyLogin">तीसरे पक्ष का लॉगिन</sys:String>
+
+    <sys:String x:Key="SaveSupportPack">सपोर्ट पैक सहेजें</sys:String>
+    <sys:String x:Key="TryLaunchedGame">गेम लॉन्च की जा रही है</sys:String>
+    <sys:String x:Key="GameResourcePath">गेम संसाधन पथ</sys:String>
+    <sys:String x:Key="GameVersion">गेम संस्करण</sys:String>
+    <sys:String x:Key="VersionInsulation">संस्करण अलगाव</sys:String>
+    <sys:String x:Key="Authenticator">प्रमाणीकारक</sys:String>
+    <sys:String x:Key="MinMemoryInMb">न्यूनतम मेमोरी(MB)</sys:String>
+    <sys:String x:Key="MaxMemoryInMb">अधिकतम मेमोरी(MB)</sys:String>
+
+    <!-- <sys:String x:Key="GameResourceNotFound">资源不存在</sys:String> -->
+    <!-- <sys:String x:Key="GameResourceNotFoundDetail">该游戏不存在资源：{0}，已隐藏该标签。</sys:String> -->
+    <sys:String x:Key="ChooseModPackFile">गेमपैक फ़ाइल चुनें</sys:String>
+    <sys:String x:Key="SinceNow">इस समय से</sys:String>
+    <sys:String x:Key="Published">जारी किया गया</sys:String>
+    <sys:String x:Key="NumVersion">{0} संस्करण</sys:String>
+    <!-- <sys:String x:Key="SearchOnTheInternet">在互联网上查找：</sys:String> -->
+
+    <sys:String x:Key="GameNotInstall">गेम इंस्टॉल नहीं है</sys:String>
+    <sys:String x:Key="GameNotInstallDetail">ओह! अभी तक कोई गेम इंस्टॉल नहीं है! नेविगेशन में [डाउनलोड] पर जाकर एक गेम प्राप्त करें!</sys:String>
+    <sys:String x:Key="GameNotSelectDetail">आपने अभी तक कोई गेम पिन नहीं किया है। कृपया सूची में एक गेम चुनें और दाईं ओर पिन आइकन पर क्लिक करके इसे पिन करें।</sys:String>
+    <sys:String x:Key="StartLaunchGame">गेम लॉन्च करने की कोशिश शुरू करें...</sys:String>
+    <sys:String x:Key="RunningOldMineCraftUsingArm64JreWarning">
+        पाया गया है कि वर्तमान सिस्टम और जावा रनटाइम आर्किटेक्चर दोनों Arm64 हैं।
+        हालाँकि, क्योंकि आप संभवतः माइनक्राफ्ट के पुराने संस्करण के इंस्टेंस को चला रहे हैं, इंस्टेंस में शामिल रनटाइम Arm64 सिस्टम पर ठीक से नहीं चल सकता।
+        आप लॉन्च करना जारी रखने का प्रयास कर सकते हैं, और यदि समस्याएं आती हैं तो X86 आर्किटेक्चर के लिए जावा रनटाइम में स्विच करके फिर से लॉन्च करने का प्रयास करें।
+    </sys:String>
+    <sys:String x:Key="JreVersionTooHighWarning">
+        आप जो जावा संस्करण वर्तमान में चुन रहे हैं [{0}], वह गेम द्वारा आवश्यक संस्करण [{1}] से अधिक है।
+        नए संस्करण के जावा का उपयोग करने से गेम के प्रदर्शन में सुधार हो सकता है, लेकिन यह भी गेम को ठीक से नहीं चल सकता है।
+        यदि गेम ठीक से नहीं चलता है, तो गेम द्वारा आवश्यक जावा संस्करण में स्विच करने का प्रयास करें。
+    </sys:String>
+    <sys:String x:Key="FailedToInitAuthenticator">प्रमाणीकारक आरंभ करने में विफलता</sys:String>
+    <sys:String x:Key="FailedToInitAuthenticatorDetail">प्रमाणीकारक आरंभ करने में विफल, कृपया खाते की वैधता की जाँच करें</sys:String>
+    <sys:String x:Key="CurrentLaunchSettings">वर्तमान लॉन्च कॉन्फ़िगरेशन:</sys:String>
+    <sys:String x:Key="LauncherRunningUnderTranslationWarning">
+        पाया गया है कि LauncherX संभवतः ARM64 प्रोसेसर द्वारा अनुकरण किए गए X86 वातावरण में चल रहा है। ट्रांसलेशन लेयर पर LauncherX चलाने से प्रदर्शन पर प्रभाव पड़ सकता है और अप्रत्याशित अपवाद हो सकते हैं।
+        ट्रांसलेशन लेयर के साथ चलाने से होने वाली समस्याएं:
+         - जावा रनटाइम की चल रही स्थिति को सही ढंग से पहचानने और पता लगाने में असमर्थ
+         - गंभीर अनुभव और प्रदर्शन में गिरावट
+         - कुछ कार्य असामान्य हैं
+
+        कृपया अपने सिस्टम आर्किटेक्चर को फिर से पुष्टि करें और LauncherX को फिर से डाउनलोड करें।
+    </sys:String>
+
+
+		<sys:String x:Key="TryingToLoginToCsAccount">कोरोना खाते में लॉगिन करने की कोशिश कर रहा है...</sys:String>
+    <sys:String x:Key="FailedToLoginToCsAccount">कोरोना खाते में लॉगिन करने में विफलता</sys:String>
+    <sys:String x:Key="LoggedIntoCsAccount">सफलतापूर्वक कोरोना खाते में लॉगिन हो गया</sys:String>
+    <sys:String x:Key="OpenDeviceManagementPage">डिवाइस प्रबंधन पेज खोलें और लॉगआउट करें</sys:String>
+    <sys:String x:Key="LogoutAndReturn">लॉगआउट करें और वापस आएं</sys:String>
+
+    <sys:String x:Key="InstallOptifineAsMod">ऑप्टिफाइन को एक मॉड के रूप में स्थापित करें</sys:String>
+    <sys:String x:Key="InstallOptifineAsModDetail">ऑप्टिफाइन को एक मॉड के रूप में फैब्रिक में स्थापित किया जाएगा। स्थापना पूरी होने के बाद, आपको वैकल्पिक रूप से OptiFabric मॉड को मैन्युअल रूप से डाउनलोड और स्थापित करना होगा ताकि इसे फैब्रिक में जोड़ा जा सके। आप इस मॉड को डाउनलोड-कर्सफोर्ज टैब में पा सकते हैं।</sys:String>
+    <sys:String x:Key="EnterOfflineModeDetail">ऑफ़लाइन मोड में प्रवेश किया गया। अधिकांश सुविधाएं अक्षम हो जाएंगी!</sys:String>
+
+    <sys:String x:Key="NewFileDragged">आपने एक नई फ़ाइल खींची है</sys:String>
+    <sys:String x:Key="TryingToDetermineFileType">फ़ाइल के प्रकार की स्वचालित रूप से पुष्टि करने की कोशिश कर रहा है</sys:String>
+    <sys:String x:Key="FileTypeDetected">सफलतापूर्वक पहचाना गया, संभावित फ़ाइल प्रकार:</sys:String>
+
+    <sys:String x:Key="DownloadReadyToRunBuild">तत्काल चलाने योग्य बिल्ड डाउनलोड करें</sys:String>
+    <sys:String x:Key="DownloadReadyToRunBuildDetail">तत्काल चलाने योग्य से संकलित लॉन्चर बाइनरियों का सैद्धांतिक प्रदर्शन अधिक होगा, लेकिन लॉन्चर बॉडी का आकार भी बढ़ जाएगा।</sys:String>
+
+    <sys:String x:Key="CheckCSKBArticle">सीएसकेबी लेख जांचें</sys:String>
+    <sys:String x:Key="MojangNoArm64JreSupportWarning">मोजांग वर्तमान में आधिकारिक तौर पर Arm64 संस्करण के जेआरई के डाउनलोड का समर्थन नहीं करता है। इसलिए, कृपया कोरोना ज्ञान कोष या इंटरनेट पर ट्यूटोरियल का संदर्भ लेकर रनटाइम को मैन्युअल रूप से स्थापित करें।</sys:String>
+
+    <sys:String x:Key="DataCollectionOptions">डेटा संग्रह विकल्प</sys:String>
+    <sys:String x:Key="DataCollectionOptionsDetail">लॉन्चरएक्स कुछ प्रमुख संचालन डेटा और क्रैश जानकारी एकत्र करने के लिए एज़ुर ऐप्लिकेशन इनसाइट का उपयोग करता है, जो हमें उपयोगकर्ता अनुभव को बेहतर ढंग से समझने और अनुभव को प्रभावित करने वाली समस्याओं को समय पर ठीक करने में मदद कर सकता है।</sys:String>
+    <sys:String x:Key="EnableTelemetry">टेलीमेट्री सक्षम करें</sys:String>
+    <sys:String x:Key="DataCollectionManifest">डेटा संग्रह चेकलिस्ट</sys:String>
+    <sys:String x:Key="DataCollectionTitle1">लॉन्चरएक्स एकत्रित और प्रसारित करता है </sys:String>
+    <sys:String x:Key="DataCollectionTitle2">लेकिन सीमित नहीं है </sys:String>
+    <sys:String x:Key="DataCollectionTitle3">निम्नलिखित तालिका में दिए गए डेटा से हमारी सुधार में मदद मिलती है:</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail1">- उपयोगकर्ता के डिवाइस की कॉन्फ़िगरेशन जानकारी</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail2">- डिवाइस नाम</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail3">- लॉन्चर के भीतर नेटवर्क गतिविधि</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail4">- लॉन्चर के भीतर कार्य अनुसूची विवरण</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail5">- लॉन्चर द्वारा उत्पन्न कोई भी लॉग संदेश</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail6">- कुछ लॉन्चर क्रिया घटनाएं</sys:String>
+    <sys:String x:Key="DataCollectionManifestDetail7">- क्रैश जानकारी</sys:String>
+
+    <sys:String x:Key="CurseForgeApiLimitWarning">एपीआई सीमाओं के कारण, हम केवल 10,000 आइटमों तक के अनुरोध प्रदर्शित कर सकते हैं। यदि आप अधिक परियोजनाएं देखना चाहते हैं, तो कृपया स्वयं कर्सफोर्ज की आधिकारिक वेबसाइट पर जाएं।</sys:String>
+    <sys:String x:Key="InTotal">कुल </sys:String>
+    <sys:String x:Key="Pages"> पेज(ें)</sys:String>
+
+    <sys:String x:Key="ModNotFoundDetail">कोई मॉड नहीं मिला, या कुछ मॉड खराब हो गए और प्रदर्शित नहीं हुए।</sys:String>
+    <sys:String x:Key="GoToDownloadPage">सामग्री डाउनलोड करें</sys:String>
+
+    <sys:String x:Key="HiveVersion">हाइव संस्करण</sys:String>
+    <sys:String x:Key="ConnectXVersion">कनेक्टएक्स संस्करण</sys:String>
+
+    <sys:String x:Key="PinAccountAtAccountPage">खाता पृष्ठ पर खाता पिन करें</sys:String>
+    <sys:String x:Key="CheckJreStatus">जावा स्थिति जांचें</sys:String>
+    <sys:String x:Key="DeepSearch">गहरी खोज</sys:String>
+    <sys:String x:Key="DeepSearchDetail">जावा के लिए गहरी खोज का उपयोग करते समय, लॉन्चरएक्स आपके स्थानीय कंप्यूटर की सभी डिस्कों को जावा की तलाश में खोजेगा। आपके कंप्यूटर के प्रदर्शन और डिस्कों की संख्या के आधार पर, यह प्रक्रिया दसियों सेकंड या उससे भी अधिक समय ले सकती है।</sys:String>
+
+    <sys:String x:Key="UseProgressiveBlur">प्रगतिशील ब्लर का उपयोग करें</sys:String>
+    <sys:String x:Key="ProgressiveBlurStrength">प्रगतिशील ब्लर प्रभाव की ताकत</sys:String>
+    <sys:String x:Key="ShowUpperTextShadow">ऊपरी पाठ छाया दिखाएं</sys:String>
+    <sys:String x:Key="ImagePlusEffect">पृष्ठभूमि पैरालैक्स प्रभाव</sys:String>
+    <sys:String x:Key="UseSystemAccentColorAsPrimaryColor">सिस्टम एक्सेंट का उपयोग करें</sys:String>
+
+    <!-- <sys:String x:Key="CheckUpnpStatusDetail">请检查您是否已经开启路由器的 UPNP 功能。如果已经开启，请检查是否处在拥有多层路由的网络环境中</sys:String> -->
+    <sys:String x:Key="Operation">ऑपरेशन</sys:String>
+    <sys:String x:Key="LeaveRoom">कमरे छोड़ें</sys:String>
+    <sys:String x:Key="DisconnectService">सेवा डिस्कनेक्ट करें</sys:String>
+    <sys:String x:Key="KickFromRoom">कमरे से निकालें</sys:String>
+
+    <sys:String x:Key="MojangApiLimitWarning">आधिकारिक एपीआई की अनुरोध सीमा के कारण, हम मोजांग डाउनलोड स्रोत का उपयोग करते समय 5 से अधिक थ्रेड काउंट का उपयोग करने की सिफारिश नहीं करते हैं। यह बड़ी संख्या में विफल अनुरोधों का कारण बन सकता है।</sys:String>
+
+    <sys:String x:Key="Sponsor">प्रायोजक</sys:String>
+    <sys:String x:Key="SponsorPageSubTitle">लॉन्चरएक्स का विकास और विकास हर प्रायोजक के पूर्ण समर्थन से अलग नहीं हो सकता!</sys:String>
+    <sys:String x:Key="SponsorSourceDetail">प्रायोजकों की यह सूची [अफ़दियान] प्लेटफ़ॉर्म से आती है। किसी विशेष क्रम में नहीं, सूची प्रतिदिन एक बार अपडेट होती है और केवल कुछ नवीनतम प्रायोजन रिकॉर्ड प्रदर्शित करती है।</sys:String>
+    <sys:String x:Key="SponsorList">प्रायोजक सूची</sys:String>
+
+    <sys:String x:Key="LoginToCsAccountForMoreFeatures">अधिक सुविधाओं का उपयोग करने के लिए अपने कोरोना खाते में लॉगिन करें</sys:String>
+    <sys:String x:Key="ClickAccountCardToPreview">दाईं ओर खाता कार्ड पर क्लिक करें पूर्वावलोकन के लिए</sys:String>
+    <sys:String x:Key="SwitchTo3DView">3D दृश्य में स्विच करें</sys:String>
+    <sys:String x:Key="ThreeDOptions">3D विकल्प</sys:String>
+    <sys:String x:Key="EnableAnimation">एनिमेशन सक्षम करें</sys:String>
+    <sys:String x:Key="DisableAnimation">एनिमेशन अक्षम करें</sys:String>
+    <sys:String x:Key="ShowUpperSkin">ऊपरी स्किन दिखाएं</sys:String>
+    <sys:String x:Key="HideUpperSkin">ऊपरी स्किन छिपाएं</sys:String>
+    <sys:String x:Key="ShowCape">केप दिखाएं</sys:String>
+    <sys:String x:Key="HideCape">केप छिपाएं</sys:String>
+	<sys:String x:Key="SwitchTo2DView">2D दृश्य में स्विच करें</sys:String>
+
+    <sys:String x:Key="LoadingModInfo">मॉड जानकारी लोड हो रही है, थोड़ा धैर्य रखें...</sys:String>
+
+	<sys:String x:Key="AddGameResource">गेम संसाधन जोड़ें</sys:String>
+    <sys:String x:Key="Logs">लॉग</sys:String>
+    <sys:String x:Key="ExportAs">के रूप में निर्यात करें</sys:String>
+
+    <sys:String x:Key="LoadLargeItemWarning">कुछ बड़ी परियोजनाओं को लोड करते समय इंटरफ़ेस अस्थायी रूप से फ्रीज हो सकता है, कृपया कुछ समय इंतजार करें।</sys:String>
+
+    <sys:String x:Key="CurrentStatus">वर्तमान स्थिति:</sys:String>
+
+    <sys:String x:Key="Source">स्रोत</sys:String>
+    <sys:String x:Key="Solution">समाधान</sys:String>
+    <sys:String x:Key="GenerateSupportPack">सपोर्ट पैक उत्पन्न करें</sys:String>
+
+    <sys:String x:Key="GameProcessExited">गेम प्रोसेस बंद हो गया</sys:String>
+    <sys:String x:Key="Back">वापस</sys:String>
+    <sys:String x:Key="InOfflineDetail">ऑफ़लाइन, अधिकांश कार्यक्षमता अक्षम है।</sys:String>
+    <sys:String x:Key="TryingToAutoLogin">स्वचालित रूप से पुन: लॉगिन करने की कोशिश कर रहा है...</sys:String>
+
+    <sys:String x:Key="LoadingMainWindow">मुख्य इंटरफ़ेस लोड हो रहा है</sys:String>
+    <sys:String x:Key="MainWindowLoaded">मुख्य इंटरफ़ेस लोड हो गया</sys:String>
+    <sys:String x:Key="MultipleDragNotSupport">मुख्य इंटरफ़ेस वर्तमान में एकाधिक फ़ाइल खींचें और छोड़ें कार्यों का समर्थन नहीं करता है।</sys:String>
+    <sys:String x:Key="UnsupportedFunction">अभी तक समर्थित नहीं होने वाली सुविधाएं</sys:String>
+    <sys:String x:Key="FailedToGetDraggedFilePath">खींची गई फ़ाइल का पथ प्राप्त करने में असमर्थ</sys:String>
+    <sys:String x:Key="FilePathEmpty">फ़ाइल पथ खाली है</sys:String>
+    <sys:String x:Key="FileDragEventTriggered">फ़ाइल खींचें और छोड़ें घटना ट्रिगर हुई</sys:String>
+    <sys:String x:Key="OfficialWebsite">आधिकारिक वेबसाइट</sys:String>
+
+    <sys:String x:Key="PreviousPage">पिछला</sys:String>
+    <sys:String x:Key="NextPage">अगला</sys:String>
+
+    <sys:String x:Key="Month">महीना</sys:String>
+
+    <sys:String x:Key="Yesterday">कल</sys:String>
+    <sys:String x:Key="DayBeforeYesterday">परसों</sys:String>
+
+    <sys:String x:Key="More">अधिक</sys:String>
+    <sys:String x:Key="Compatibility">संगतता</sys:String>
+
+     <sys:String x:Key="Fishing">मछली पकड़ना</sys:String>
+    <sys:String x:Key="Sleeping">सो रहा है</sys:String>
+    <sys:String x:Key="Busy">व्यस्त</sys:String>
+    <sys:String x:Key="Happy">खुश!</sys:String>
+    <sys:String x:Key="Emo">एमो</sys:String>
+    <sys:String x:Key="Studying">पढ़ाई कर रहा है</sys:String>
+    <sys:String x:Key="Eating">खा रहा है</sys:String>
+
+    <!--> 关于这个字段，可以改成相关语言的梗词之类的 <-->
+
+    <sys:String x:Key="X">ඞसंदिग्ध</sys:String>
+
+    <sys:String x:Key="ResourcePackNotFoundDetail">संसाधन पैक नहीं मिला</sys:String>
+    <sys:String x:Key="ScreenshotNotFoundDetail">स्क्रीनशॉट नहीं मिले</sys:String>
+    <sys:String x:Key="ShaderPackNotFoundDetail">शेडर पैक नहीं मिला</sys:String>
+
+
+    <!-- CurseForge分类 START -->
+    <sys:String x:Key="Teleportation">टेलीपोर्टेशन</sys:String>
+    <sys:String x:Key="LuckyBlocks">भाग्यशाली ब्लॉक</sys:String>
+    <sys:String x:Key="BuildingGadgets">बिल्डिंग गैजेट</sys:String>
+    <sys:String x:Key="Buildcraft">बिल्डक्राफ्ट</sys:String>
+    <sys:String x:Key="Galacticraft">गैलेक्टिक्राफ्ट</sys:String>
+    <sys:String x:Key="RolePlaying">रोल प्ले</sys:String>
+    <sys:String x:Key="HardcoreQuestingMode">हार्डकोर क्वेस्टिंग मोड</sys:String>
+    <sys:String x:Key="Guidebook">गाइडबुक</sys:String>
+    <sys:String x:Key="AdminTools">एडमिन टूल</sys:String>
+    <sys:String x:Key="TinkersConstruct">टिंकर्स कंस्ट्रक्ट</sys:String>
+    <sys:String x:Key="BloodMagic">ब्लड मैजिक</sys:String>
+    <sys:String x:Key="Progression">प्रगति</sys:String>
+    <sys:String x:Key="DeveloperTools">डेवलपर टूल</sys:String>
+    <sys:String x:Key="Mechanics">मैकेनिक्स</sys:String>
+    <sys:String x:Key="Miscellaneous">विविध</sys:String>
+    <sys:String x:Key="ChatRelated">चैट से संबंधित</sys:String>
+    <sys:String x:Key="AntiGriefingTools">एंटी-चीट</sys:String>
+    <sys:String x:Key="Mobs">दानव</sys:String>
+    <sys:String x:Key="Multiplayer">मल्टीप्लेयर</sys:String>
+    <sys:String x:Key="Recipes">रेसिपी</sys:String>
+    <sys:String x:Key="MapAndInformation">मानचित्र और जानकारी</sys:String>
+    <sys:String x:Key="GameMap">मानचित्र</sys:String>
+    <sys:String x:Key="MiniGame">मिनी गेम</sys:String>
+    <sys:String x:Key="Medieval">मध्यकालीन</sys:String>
+    <sys:String x:Key="Thaumcraft">थॉमक्राफ्ट</sys:String>
+    <sys:String x:Key="TwitchIntegration">ट्विच इंटीग्रेशन</sys:String>
+    <sys:String x:Key="Creation">सृजन</sys:String>
+    <sys:String x:Key="PlayerTransport">प्लेयर ट्रांसपोर्ट</sys:String>
+    <sys:String x:Key="EnergyFluidAndItemTransport">ऊर्जा और आइटम ट्रांसपोर्ट</sys:String>
+    <sys:String x:Key="Steampunk">स्टीमपंक</sys:String>
+    <sys:String x:Key="Automation">ऑटोमेशन</sys:String>
+    <sys:String x:Key="WorldGen">विश्व निर्माण</sys:String>
+    <sys:String x:Key="DataPacks">डेटा पैक</sys:String>
+    <sys:String x:Key="SmallLight">प्रकाश</sys:String>
+    <sys:String x:Key="Configuration">कॉन्फ़िगरेशन</sys:String>
+    <sys:String x:Key="Food">भोजन</sys:String>
+    <sys:String x:Key="WorldEditingAndManagement">विश्व संपादन</sys:String>
+    <sys:String x:Key="Traditional">पारंपरिक</sys:String>
+    <sys:String x:Key="IndustrialCraft">इंडस्ट्रियलक्राफ्ट</sys:String>
+    <sys:String x:Key="APIAndLibrary">एपीआई और लाइब्रेरी</sys:String>
+    <sys:String x:Key="AdventureAndRPG">साहसिक और आरपीजी</sys:String>
+    <sys:String x:Key="FontPacks">फ़ॉन्ट पैक</sys:String>
+    <sys:String x:Key="ModdedWorld">मॉडेड विश्व</sys:String>
+    <sys:String x:Key="Economy">अर्थव्यवस्था</sys:String>
+    <sys:String x:Key="Scenarios">परिदृश्य</sys:String>
+    <sys:String x:Key="ServerUtility">सर्वर उपयोगिता</sys:String>
+    <sys:String x:Key="Skyblock">स्काईब्लॉक</sys:String>
+    <sys:String x:Key="Farming">खेती</sys:String>
+    <sys:String x:Key="General">सामान्य</sys:String>
+    <sys:String x:Key="Adventure">साहसिक</sys:String>
+    <sys:String x:Key="Hardcore">हार्डकोर</sys:String>
+    <sys:String x:Key="CombatPvP">पीवीपी</sys:String>
+    <sys:String x:Key="KubeJS">क्यूबेजेएस</sys:String>
+    <sys:String x:Key="Biomes">जैवमंडल</sys:String>
+    <sys:String x:Key="Energy">ऊर्जा</sys:String>
+    <sys:String x:Key="ThermalExpansion">थर्मल एक्सपेंशन</sys:String>
+    <sys:String x:Key="VanillaPlus">वेनिला+</sys:String>
+    <sys:String x:Key="UtilityQoL">सुविधा और सुविधा</sys:String>
+    <sys:String x:Key="Fixes">सुधार</sys:String>
+    <sys:String x:Key="FancyMenu">फैंसी मेनू कॉन्फ़िगरेशन</sys:String>
+    <sys:String x:Key="Structures">संरचनाएं</sys:String>
+    <sys:String x:Key="ArmorToolsAndWeapons">कवच, औजार और हथियार</sys:String>
+    <sys:String x:Key="WorldGenerators">विश्व निर्माता</sys:String>
+    <sys:String x:Key="Fun">मज़ा</sys:String>
+    <sys:String x:Key="WebsiteAdministration">वेब एडमिन</sys:String>
+    <sys:String x:Key="Genetics">जेनेटिक्स</sys:String>
+    <sys:String x:Key="SciFi">साइ-फाई</sys:String>
+    <sys:String x:Key="Puzzle">पज़ल</sys:String>
+    <sys:String x:Key="Create">क्रिएट</sys:String>
+    <sys:String x:Key="Vanilla">वेनिला</sys:String>
+    <sys:String x:Key="Fantasy">कल्पना</sys:String>
+    <sys:String x:Key="Magic">जादू</sys:String>
+    <sys:String x:Key="CraftTweaker">क्राफ्ट ट्वीकर</sys:String> <!-- 如果太长则把 CraftTweaker 改成 CrT -->
+    <sys:String x:Key="IntegratedDynamics">इंटीग्रेटेड डायनामिक्स</sys:String>
+    <sys:String x:Key="Realistic">वास्तविक</sys:String>
+    <sys:String x:Key="OresAndResources">खनिज और संसाधन</sys:String>
+    <sys:String x:Key="ExtraLarge">एक्स्ट्रा लार्ज</sys:String>
+    <sys:String x:Key="Processing">प्रसंस्करण</sys:String>
+    <sys:String x:Key="MCreator">एमसी क्रिएटर</sys:String>
+    <sys:String x:Key="Exploration">अन्वेषण</sys:String>
+    <sys:String x:Key="FTBOfficialPack">एफटीबी आधिकारिक</sys:String>
+    <sys:String x:Key="Scripts">स्क्रिप्ट</sys:String>
+    <sys:String x:Key="Modern">आधुनिक</sys:String>
+    <sys:String x:Key="Parkour">पार्कूर</sys:String>
+    <sys:String x:Key="BugFixes">बग सुधार</sys:String>
+    <sys:String x:Key="PerformanceType">प्रदर्शन प्रकार</sys:String> <!-- 与上文Performance区分 使用命名PerformanceType -->
+    <sys:String x:Key="ModSupport">मॉड समर्थन</sys:String>
+    <sys:String x:Key="Tech">टेक</sys:String>
+    <sys:String x:Key="Library">लाइब्रेरी</sys:String>
+    <sys:String x:Key="Utility">उपयोगिता</sys:String>
+    <sys:String x:Key="Forestry">वानिकी</sys:String>
+    <sys:String x:Key="Technology">प्रौद्योगिकी</sys:String>
+    <sys:String x:Key="Cosmetic">स्पेस</sys:String>
+    <sys:String x:Key="Quests">क्वेस्ट</sys:String>
+    <sys:String x:Key="Storage">भंडारण</sys:String>
+    <sys:String x:Key="PhotoRealistic">वास्तविकता जैसी तस्वीर</sys:String>
+    <sys:String x:Key="Redstone">रेडस्टोन</sys:String>
+    <sys:String x:Key="Informational">सूचनात्मक</sys:String>
+    <sys:String x:Key="Education">शिक्षा</sys:String>
+    <sys:String x:Key="Survival">बचाव</sys:String>
+    <sys:String x:Key="Animated">एनिमेटेड</sys:String>
+    <sys:String x:Key="MapBased">मानचित्र आधारित</sys:String>
+    <sys:String x:Key="X8">8x RP</sys:String>
+    <sys:String x:Key="X16">16x RP</sys:String>
+    <sys:String x:Key="X32">32x RP</sys:String>
+    <sys:String x:Key="X64">64x RP</sys:String>
+    <sys:String x:Key="X128">128x RP</sys:String>
+    <sys:String x:Key="X256">256x RP</sys:String>
+    <sys:String x:Key="X512AndHigher">512x या उच्च RP</sys:String>
+    <!-- CurseForge分类 END -->
+
+    <sys:String x:Key="StartingBackendHost">बैकएंड होस्ट आरंभ कर रहा है</sys:String>
+    <sys:String x:Key="ConnectedToSignalR">सिग्नलआर सर्वर से सफलतापूर्वक कनेक्ट हो गया!</sys:String>
+    <sys:String x:Key="DisconnectedToSignalR">सिग्नलआर सर्वर से डिस्कनेक्ट हो गया।</sys:String>
+    <sys:String x:Key="FailedToConnectTo">सिग्नलआर सर्वर से कनेक्ट करने में विफलता। अपना नेटवर्क जांचें।</sys:String>
+    <sys:String x:Key="LoggedIntoCSA">कोरोना खाते में लॉगिन हो गया। सिग्नलआर से कनेक्ट हो रहा है...</sys:String>
+
+    <sys:String x:Key="InitChatService">चैट सेवा आरंभ हो रही है...</sys:String>
+    <sys:String x:Key="LoadChatHistoryMessage">{0} के साथ चैट इतिहास लोड हो रहा है</sys:String>
+
+    <sys:String x:Key="InitDeviceService">डिवाइस प्रमाणीकरण शुरू कर रहा है</sys:String>
+    <sys:String x:Key="LoadingDeviceList">पंजीकृत डिवाइसों को प्राप्त कर रहा है</sys:String>
+    <sys:String x:Key="DeviceListLoaded">डिवाइस सूची सफलतापूर्वक प्राप्त हो गई</sys:String>
+    <sys:String x:Key="DeviceListLoadedCount">डिवाइस सूची लोड हो गई ({deviceCount} डिवाइस)।</sys:String>
+    <sys:String x:Key="TryRegisterDevice">डिवाइस पंजीकरण कर रहा है...</sys:String>
+    <sys:String x:Key="TryRegisterDeviceDetail">डिवाइस {0} तैयार है!</sys:String>
+
+    <sys:String x:Key="TryUnregisterDevice">डिवाइस का पंजीकरण रद्द कर रहा है...</sys:String>
+    <sys:String x:Key="TryUnregisterDeviceDetail">डिवाइस {0} का पंजीकरण रद्द कर दिया गया।</sys:String>
+
+    <sys:String x:Key="InitFriendService">दोस्त सेवा आरंभ कर रहा है</sys:String>
+    <sys:String x:Key="LoadingFriendList">दोस्त सूची लोड हो रही है...</sys:String>
+    <sys:String x:Key="FriendListLoadedCount">दोस्त सूची प्राप्त हो गई ({0} दोस्त)।</sys:String>
+
+    <sys:String x:Key="InitUpdateService">अपडेट सेवा आरंभ कर रहा है</sys:String>
+    <sys:String x:Key="StartCheckingLauncherUpdate">लॉन्चरएक्स अपडेट जांच रहा है...</sys:String>
+    <sys:String x:Key="LatestBuildFetched">नवीनतम बिल्ड सफलतापूर्वक प्राप्त हो गया</sys:String>
+    <sys:String x:Key="UpdateFoundDetail">नया अपडेट उपलब्ध है। आईडी: {0}</sys:String>
+    <sys:String x:Key="NoUpdateFound">लॉन्चरएक्स अद्यतित है।</sys:String>
+
+    <sys:String x:Key="PleaseTryAgainLaterDetail">समस्या को हल करने के लिए कृपया फिर से प्रयास करें। विवरण: {0}</sys:String>
+
+    <sys:String x:Key="CanNotSafeDeleteMessage">
+        यह गेम अन्य गेमों के लिए एक निर्भरता है। इसे हटाने से निर्भर संस्करण छिप जाएंगे। जारी रखें?
+        प्रभावित गेम संस्करण: [{0}]
+    </sys:String>
+
+    <sys:String x:Key="StartAssetCheck">गेम संपत्तियों की जांच कर रहा है...</sys:String>
+    <sys:String x:Key="NoVersionManifestFound">संस्करण मैनिफ़ेस्ट गायब है। डाउनलोड कर रहा है...</sys:String>
+    <sys:String x:Key="NoAssetIndexesFound">एसेट इंडेक्स गायब है। डाउनलोड कर रहा है...</sys:String>
+    <sys:String x:Key="FailedToResolveAssetIndexesMessage">एसेट इंडेक्स फ़ाइल को पार्स करने में विफलता! कारण: {0}</sys:String>
+    <sys:String x:Key="AssetIndexesDownloaded">एसेट इंडेक्स डाउनलोड किए गए।</sys:String>
+    <sys:String x:Key="StartResolveAssetIndexes">एसेट इंडेक्स फ़ाइल को पार्स कर रहा है...</sys:String>
+    <sys:String x:Key="FileBrokenOrEmpty">फ़ाइल खराब या खाली हो सकती है।</sys:String>
+    <sys:String x:Key="StartCheckingAssets">संपत्तियों को प्राप्त और सत्यापित कर रहा है...</sys:String>
+    <sys:String x:Key="AssetsResolved">संपत्तियों की जांच पूरी हो गई</sys:String>
+
+    <sys:String x:Key="StartLibraryCheck">गेम लाइब्रेरियों की जांच कर रहा है...</sys:String>
+    <sys:String x:Key="StartCheckingLibraries">लाइब्रेरियों को प्राप्त और सत्यापित कर रहा है...</sys:String>
+    <sys:String x:Key="LibraryResolved">लाइब्रेरी की जांच पूरी हो गई</sys:String>
+
+    <sys:String x:Key="Auto">स्वचालित</sys:String>
+    <sys:String x:Key="Visible">दृश्यमान</sys:String>
+    <sys:String x:Key="Hidden">छिपा हुआ</sys:String>
+
+    <sys:String x:Key="Low">कम</sys:String>
+    <sys:String x:Key="Medium">मध्यम</sys:String>
+    <sys:String x:Key="High">उच्च</sys:String>
+    <sys:String x:Key="Extreme">चरम</sys:String>
+
+    <sys:String x:Key="DownloadToTargetFolder">लक्ष्य फ़ोल्डर में डाउनलोड कर रहा है...</sys:String>
+    <sys:String x:Key="DownloadToTargetGame">गेम में डाउनलोड कर रहा है...</sys:String>
+
+    <sys:String x:Key="CanUpgradeTo">निम्न में अपग्रेड करने योग्य:</sys:String>
+    <sys:String x:Key="FollowingFileWillBeDeleted">अपडेट इन फ़ाइलों को हटा देगा:</sys:String>
+    <sys:String x:Key="OpenModWebPage">मॉड वेब पेज पर जाएं</sys:String>
+
+    <sys:String x:Key="FailedToInit3DSkinPreview">3D स्किन पूर्वावलोकन आरंभ करने में त्रुटि :(</sys:String>
+
+    <sys:String x:Key="DoNotCompress">कोई संपीड़न नहीं</sys:String>
+
+    <sys:String x:Key="AskIfDownloadDependencies">निर्भरताएं डाउनलोड करें?</sys:String>
+    <sys:String x:Key="AskIfDownloadDependenciesDetail">इस फ़ाइल में निर्भरताएं हो सकती हैं। यदि आप "निर्भरताएं डाउनलोड करें" चुनते हैं, तो लॉन्चरएक्स सभी आवश्यक फ़ाइलों को डाउनलोड करने का प्रयास करेगा।</sys:String>
+    <sys:String x:Key="OnlyDownloadFile">निर्भरताओं को छोड़ें</sys:String>
+    <sys:String x:Key="AlsoDownloadDependencies">निर्भरताओं के साथ डाउनलोड करें</sys:String>
+
+    <sys:String x:Key="AllCacheHasBeenCleared">सभी कैश फ़ाइलें साफ़ कर दी गई हैं</sys:String>
+    <sys:String x:Key="FailedToClearCache">प्रगतिशील ब्लर कैश साफ़ करने में विफलता</sys:String>
+
+    <sys:String x:Key="NoAccountSelected">कोई खाता चुना नहीं गया</sys:String>
+    <sys:String x:Key="NoAccountSelectedDetail">कृपया जांचें कि आपने कोई मान्य खाता चुना है या नहीं।</sys:String>
+
+    <sys:String x:Key="InstallablePackFound">स्थापना योग्य पैकेज पाया गया</sys:String>
+    <sys:String x:Key="FullPackOpenedDetail">
+        ऐसा लगता है कि आपने एक फ़ाइल खोली है जिसमें एक लॉन्चरएक्स स्थापना पैकेज है।
+        यह पैकेज एक तीसरे पक्ष द्वारा वितरित किया गया है। कृपया इसके स्रोत को सत्यापित करें और सुनिश्चित करें कि इसमें हेरफेर नहीं किया गया है।
+        आप निम्नलिखित जानकारी का उपयोग करके पैकेज की अखंडता की जांच कर सकते हैं:
+
+        SHA1: {0}
+        MD5: {1}
+
+        यदि आप यह नहीं जानते कि इसका क्या मतलब है, तो कृपया नीचे "अनदेखा करें और हटाएं" बटन पर क्लिक करें।
+    </sys:String>
+    <sys:String x:Key="IgnoreAndDelete">अनदेखा करें और हटाएं </sys:String>
+    <sys:String x:Key="IncorrectSystemArch">समर्थित नहीं सिस्टम आर्किटेक्चर</sys:String>
+
+    <sys:String x:Key="SettingsNeedToReboot">पुनरारंभ की आवश्यकता वाली सेटिंग्स</sys:String>
+    <sys:String x:Key="SettingsNeedToRebootDetail">इस सेटिंग परिवर्तन को पूरी तरह से लागू करने के लिए लॉन्चरएक्स को पुनरारंभ करना आवश्यक है!</sys:String>
+
+    <sys:String x:Key="BasicInfo">बुनियादी जानकारी</sys:String>
+    <sys:String x:Key="ModPackName">मॉडपैक नाम</sys:String>
+    <sys:String x:Key="ModPackAuthor">मॉडपैक लेखक</sys:String>
+    <sys:String x:Key="ModPackVersion">मॉडपैक संस्करण</sys:String>
+    <sys:String x:Key="ReleasePlatform">रिलीज प्लेटफ़ॉर्म</sys:String>
+    <sys:String x:Key="LauncherSettings">लॉन्चर सेटिंग्स</sys:String>
+    <sys:String x:Key="SaveBasicSettings">बुनियादी कॉन्फ़िगरेशन सहेजें</sys:String>
+    <sys:String x:Key="SaveWallpapers">वॉलपेपर सहेजें (संभवतः फ़ाइल आकार में काफ़ी वृद्धि हो सकती है)</sys:String>
+    <sys:String x:Key="GameFiles">गेम फ़ाइलें</sys:String>
+    <sys:String x:Key="KeepSettings">कॉन्फ़िगरेशन रखें</sys:String>
+    <sys:String x:Key="KeepDefaultSettings">डिफ़ॉल्ट कॉन्फ़िगरेशन रखें</sys:String>
+    <sys:String x:Key="KeepMods">मॉड रखें</sys:String>
+    <sys:String x:Key="KeepResourcePacks">संसाधन पैक रखें</sys:String>
+    <sys:String x:Key="KeepShaderPacks">शेडर पैक रखें</sys:String>
+    <sys:String x:Key="AdditionalSettings">अतिरिक्त विकल्प</sys:String>
+    <sys:String x:Key="UseThirdPartyApiToReduceSize">तीसरे पक्ष के एपीआई का उपयोग करके पैकेज आकार कम करें</sys:String>
+    <sys:String x:Key="IgnoreDisabledMods">अक्षम मॉडों को अनदेखा करें</sys:String>
+    <sys:String x:Key="UseThirdPartyApiToReduceSizeDetail">
+        इस विकल्प को सक्षम करने से लॉन्चरएक्स कर्सफोर्ज/मॉड्रिंथ से मेल खाने वाले मॉड फ़ाइलों को उनके संबंधित आईडी से बदल सकता है,
+        और मॉडपैक स्थापना के दौरान उन्हें फिर से डाउनलोड कर सकता है।
+    </sys:String>
+
+    <sys:String x:Key="UseCurseForgeToUpgradeMods">कर्सफोर्ज के माध्यम से गेम मॉड अपडेट करें</sys:String>
+    <sys:String x:Key="UseModrinthToUpgradeMods">मॉड्रिंथ के माध्यम से गेम मॉड अपडेट करें</sys:String>
+    <sys:String x:Key="DisableModsInsteadDelete">मॉडों को हटाने के बजाय अक्षम करें</sys:String>
+    <sys:String x:Key="ModUpdateWarningDetail">※ यह अपडेट सुविधा सटीक निर्भरता संकल्प की गारंटी नहीं देती है। कृपया सूचीबद्ध मॉडों की सावधानीपूर्वक समीक्षा करें और उन्हें चुनें जिन्हें आप अपडेट करना चाहते हैं। अपडेट करने के बाद, मॉड फ़ोल्डर की सामग्री की पूरी तरह से सत्यापन करें!</sys:String>
+    <sys:String x:Key="CurrentSelectedGamePath">वर्तमान में चुना गया गेम निर्देशिका</sys:String>
+    <sys:String x:Key="Exclude">छोड़ें</sys:String>
+
+    <sys:String x:Key="DownloadAllDependenciesIfPossible">सभी निर्भरताएं डाउनलोड करें (यदि कोई हो)</sys:String>
+    <sys:String x:Key="DownloadFileToPathDetail">{0} के {1} निर्देशिका में फ़ाइल डाउनलोड करें</sys:String>
+
+    <sys:String x:Key="UseCurseForgeToCheck">कर्सफोर्ज के माध्यम से जांचें</sys:String>
+    <sys:String x:Key="UseModrinthToCheck">मॉड्रिंथ के माध्यम से जांचें</sys:String>
+    <sys:String x:Key="CheckUpdate">अपडेट जांचें</sys:String>
+
+    <sys:String x:Key="Translation">अनुवाद</sys:String>
+    <sys:String x:Key="GameGeneralSettings">सामान्य गेम सेटिंग्स</sys:String>
+    <sys:String x:Key="JavaVmSettings">जावा वर्चुअल मशीन सेटिंग्स</sys:String>
+
+    <sys:String x:Key="ResourcesDownloadMaxTry">संसाधन पूर्णता की अधिकतम पुनरावृत्तियाँ</sys:String>
+    <sys:String x:Key="UseQuickResourceCheck">त्वरित संसाधन सत्यापन सक्षम करें</sys:String>
+    <sys:String x:Key="UseQuickResourceCheckDetail">※ त्वरित संसाधन सत्यापन का उपयोग करने से फ़ाइल जांच तेज हो जाती है, लेकिन कुछ मामलों में पता नहीं चल पाने का कारण बन सकता है। यदि गेम लॉन्च करने में विफल होता है, तो इस विकल्प को अक्षम करें और फिर से प्रयास करें।</sys:String>
+    <sys:String x:Key="NativeLibrariesReplacePolicy">नेटिव लाइब्रेरी प्रतिस्थापन नीति</sys:String>
+
+    <sys:String x:Key="Color">रंग</sys:String>
+    <sys:String x:Key="Background">पृष्ठभूमि</sys:String>
+    <sys:String x:Key="ImageStretchMethod">छवि खींचने की विधि</sys:String>
+    <!-- <sys:String x:Key="EnableExperimentalAnimation">启用实验性动画</sys:String> -->
+    <sys:String x:Key="ProgressiveBlurQuality">पृष्ठभूमि छवि प्रगतिशील ब्लर गुणवत्ता</sys:String>
+    <sys:String x:Key="ProgressiveBlurQualityDetail">※ गुणवत्ता सेटिंग्स में बदलाव करने के बाद, नीचे दिए गए बटन पर क्लिक करें ताकि प्रगतिशील ब्लर कैश साफ़ हो जाए। परिवर्तन अगली बार ब्लर लागू होने पर प्रभावी होंगे। उच्च गुणवत्ता की सेटिंग्स अधिक मेमोरी का उपभोग करेंगी।</sys:String>
+    <sys:String x:Key="ClearProgressiveBlurCache">प्रगतिशील ब्लर कैश साफ़ करें</sys:String>
+    <sys:String x:Key="UseExternalLanguagePack">[डेवलपर] बाहरी भाषा पैक का उपयोग करके डिबग करें</sys:String>
+    <sys:String x:Key="BasicInterfaceSettings">बुनियादी इंटरफ़ेस सेटिंग्स</sys:String>
+    <!-- <sys:String x:Key="UseNewUI">使用新版 UI</sys:String> -->
+    <sys:String x:Key="MainWindowButtonGroupVisibility">मुख्य इंटरफ़ेस बटन समूह दृश्यता</sys:String>
+
+
+    <sys:String x:Key="SupportUs">हमारा समर्थन करें</sys:String>
+    <sys:String x:Key="SupportUsDetail">यदि आपको हमारा काम पसंद आया है, तो हमारे आधिकारिक रिलीज थ्रेड में जाने और हमें अपनी मूल्यवान प्रतिक्रिया छोड़ने में संकोच न करें!</sys:String>
+    <sys:String x:Key="LinkToProject">प्रोजेक्ट लिंक</sys:String>
+
+    <sys:String x:Key="JavaVmSettingsDetail">ग्लोबल जावा चुनें, जावा डाउनलोड करें, खोजें, इंस्टॉल करें और प्रबंधित करें</sys:String>
+    <sys:String x:Key="GameGeneralSettingsDetail">गेम मेमोरी, जीसी, विंडो रिज़ॉल्यूशन, जावा एजेंट आर्ग्यूमेंट, उन्नत स्टार्टअप पैरामीटर</sys:String>
+    <sys:String x:Key="LauncherBehaviours">लॉन्चर व्यवहार</sys:String>
+    <sys:String x:Key="LauncherBehavioursDetail">गेम संपत्ति जांच, नेटिव लाइब्रेरी प्रतिस्थापन रणनीति, लॉन्च के बाद का व्यवहार, लॉगिंग</sys:String>
+    <sys:String x:Key="BasicSettingsGuide">(→) बुनियादी सेटिंग गाइड</sys:String>
+    <sys:String x:Key="JavaVmDownloadTips">(→) जावा रनटाइम डाउनलोड टिप्स</sys:String>
+
+
+    <sys:String x:Key="BasicSettingsDetail">पृष्ठभूमि टेक्सचर, मुख्य इंटरफ़ेस पैटर्न, अग्रभूमि पाठ रंग, नीचे नेविगेशन बार स्टाइल</sys:String>
+    <sys:String x:Key="BackgroundDetail">पृष्ठभूमि स्टाइल, छवि पृष्ठभूमि ब्लर, पैरालैक्स प्रभाव, प्रगतिशील ब्लर</sys:String>
+    <sys:String x:Key="ColorDetail">थीम मोड, थीम रंग, कस्टम थीम रंग गणना विधि</sys:String>
+    <sys:String x:Key="TextDetail">भाषा, फ़ॉन्ट, भाषा पैक परीक्षण</sys:String>
+    <sys:String x:Key="PerformanceDetail">इंटरफ़ेस एनिमेशन सेटिंग्स</sys:String>
+    <sys:String x:Key="ExperimentalAnimation">प्रयोगात्मक एनिमेशन</sys:String>
+    <sys:String x:Key="ExperimentalAnimationDetail">प्रयोगात्मक एनिमेशन सक्षम करने से यूआई एनिमेशन की दौड़ में सुधार होगा और संसाधन उपयोग कम होगा, लेकिन कुछ एनिमेशन समस्याएं हो सकती हैं।</sys:String>
+
+    <sys:String x:Key="OpenCurrentGameRoot">गेम निर्देशिका खोलें</sys:String>
+    <sys:String x:Key="PublishAsFullPack">पूर्ण पैक के रूप में प्रकाशित करें</sys:String>
+    <sys:String x:Key="ChangeListPanelStatus">सूची का विस्तार/संकुचन करें</sys:String>
+
+    <sys:String x:Key="FlushLogBuffer">लॉग बफ़र को रिफ़्रेश करें</sys:String>
+    <sys:String x:Key="ContactUs">हमसे संपर्क करें</sys:String>
+
+    <sys:String x:Key="RoomNotExistsDetail">कमरा मौजूद नहीं है। कृपया कमरा आईडी जाँचें।</sys:String>
+    <sys:String x:Key="SessionDetachedDetail">उपयोगकर्ता सत्र समाप्त हो गया है। कृपया लॉन्चरएक्स को पुनः आरंभ करने की कोशिश करें।</sys:String>
+
+    <sys:String x:Key="AlreadyInRoomDetail">आप पहले से ही कमरे में हैं। आगे बढ़ने से पहले बाहर निकलें।</sys:String>
+    <sys:String x:Key="GroupIsFullDetail">कमरा भरा हुआ है।</sys:String>
+    <sys:String x:Key="PasswordIncorrectDetail">कमरे का पासवर्ड गलत है। कृपया दोबारा जाँचें।</sys:String>
+    <sys:String x:Key="NetworkControllerErrorDetail">नेटवर्क कंट्रोलर प्रारंभ नहीं हुआ या विफल हो गया। कृपया प्रशासक से संपर्क करें।</sys:String>
+    <sys:String x:Key="InternalErrorDetail">एक आंतरिक त्रुटि हुई है। कृपया प्रशासक से संपर्क करें।</sys:String>
+
+    <sys:String x:Key="ParentVersionNotFoundDetail">{0} के लिए आवश्यक मूल संस्करण गायब है</sys:String>
+    <sys:String x:Key="GameJsonCorruptedDetail">{0} गेम जेसन खराब है</sys:String>
+    <sys:String x:Key="LackGameJsonDetail">{0} में गेम जेसन का अभाव है</sys:String>
+    <sys:String x:Key="NoCandidateJsonFoundDetail">{0} के लिए कोई उम्मीदवार जेसन नहीं मिला</sys:String>
+    <sys:String x:Key="GamePathNotFoundDetail">{0} गेम पथ मौजूद नहीं है</sys:String>
+
+    <sys:String x:Key="OfflineResourcePackDescription">लॉन्चरएक्स कस्टम ऑफ़लाइन स्किन पैक</sys:String>
+
+    <sys:String x:Key="SelectUpdateSavePath">अपडेट के लिए सहेजने का स्थान चुनें</sys:String>
+    <sys:String x:Key="OsNotSupported">समर्थित नहीं ऑपरेटिंग सिस्टम</sys:String>
+
+    <sys:String x:Key="ExportFullPackTaskName">{0} को पूर्ण मॉडपैक में निर्यात करें</sys:String>
+    <sys:String x:Key="StartExportModPack">मॉडपैक निर्यात कर रहा है...</sys:String>
+    <sys:String x:Key="AddingCoreSupportFiles">मॉडपैक [{0}] में कोर फ़ाइलें जोड़ रहा है...</sys:String>
+    <sys:String x:Key="AddingFilesToModPack">मॉडपैक [{0}] में फ़ाइलें जोड़ रहा है...</sys:String>
+    <sys:String x:Key="TryStripModPackSize">मॉडपैक का आकार कम कर रहा है...</sys:String>
+    <sys:String x:Key="FailedToStripModPackSize">मॉडपैक का आकार कम करने के दौरान एक त्रुटि हुई।</sys:String>
+    <sys:String x:Key="DownloadingLauncherStableBuild">लॉन्चरएक्स का स्थिर संस्करण डाउनलोड कर रहा है [{0}]...</sys:String>
+    <sys:String x:Key="ModPackFileSaved">[{0}] फ़ाइल सफलतापूर्वक सहेजी गई।</sys:String>
+    <sys:String x:Key="ModPackExportHashMessage">संकुचित पूर्ण मॉडपैक निर्यात पूरा हो गया। नीचे मॉडपैक की सत्यापन जानकारी है। कृपया अखंडता जांच के लिए इसे खिलाड़ी को प्रदान करें:</sys:String>
+    <sys:String x:Key="StrippedModPackInfo">छोटा किया गया मॉडपैक सत्यापन विवरण [{0}]</sys:String>
+    <sys:String x:Key="StrippedModPackHashInfo">छोटा किया गया मॉडपैक हैश विवरण [{0}]</sys:String>
+    <sys:String x:Key="FullPackExported">मॉडपैक निर्यात पूरा हो गया</sys:String>
+    <sys:String x:Key="FullPackExportedDetail">{0} को पूर्ण मॉडपैक [{1}] में निर्यात करना पूरा हो गया</sys:String>
+
+    <sys:String x:Key="ExportToModPackTaskName">{0} को {1} मॉडपैक में निर्यात करें</sys:String>
+    <sys:String x:Key="FileReplaced">फ़ाइल {0} सफलतापूर्वक बदल दी गई...</sys:String>
+    <sys:String x:Key="WritingManifestFile">मैनिफ़ेस्ट फ़ाइल में लिखा जा रहा है...</sys:String>
+    <sys:String x:Key="SavingFileDetail">फ़ाइल को सहेजा जा रहा है, कृपया प्रतीक्षा करें...</sys:String>
+
+    <sys:String x:Key="ComputingModHashes">मौजूदा मॉडों का हैशिंग कर रहा है, यह कुछ समय ले सकता है...</sys:String>
+    <sys:String x:Key="ResourceDepsResolved">इस संसाधन के लिए निर्भरताएं सफलतापूर्वक हल हुई: {0}</sys:String>
+    <sys:String x:Key="FailedToResolveResourceDepsBecauseSha1">इस संसाधन के लिए निर्भरताएं हल करने में विफल रहा। कारण: एसएचए1 चेकसम का अभाव</sys:String>
+
+    <sys:String x:Key="FailedToInstallBecauseNoOnlineGameList">इंस्टॉलेशन विफल। ऑनलाइन गेम सूची प्राप्त करने में असमर्थ। यह अस्थायी नेटवर्क समस्या के कारण हो सकता है।</sys:String>
+    <sys:String x:Key="FailedToAcquireOnlineGameList">ऑनलाइन गेम संस्करण प्राप्त करने में विफल रहा। "डाउनलोड" पेज पर गेम सूची को रिफ़्रेश करने का प्रयास करें।</sys:String>
+
+    <sys:String x:Key="FailedToResolveResourceDepsBecauseGameVersion">मॉडपैक निर्भरताएं प्राप्त करते समय समस्या आई। मूल माइनक्राफ्ट संस्करण प्राप्त नहीं कर सका। कृपया अपने मॉडपैक को सत्यापित करें।</sys:String>
+    <sys:String x:Key="FailedToInstallPreModrinthEnv">मॉड्रिंथ पूर्व-आवश्यक वातावरण इंस्टॉल करने में विफल रहा। कृपया बाद में पुन: प्रयास करें। यह आमतौर पर डाउनलोड स्रोत समस्याओं, नेटवर्क अस्थिरता या अन्य कारकों के कारण होता है।</sys:String>
+
+    <sys:String x:Key="UpdateCurseForgeGameModTaskName">{0} के साथ गेम मॉड अपडेट करें</sys:String>
+
+    <sys:String x:Key="VerifySavedAccountInfo">सहेजी गई खाता जानकारी को सत्यापित करें</sys:String>
+    <sys:String x:Key="VerifyingAccountInfoDetail">[{0}] के लिए खाता जानकारी सत्यापित कर रहा है ({1} / {2})</sys:String>
+    <sys:String x:Key="VerificationCompleted">सत्यापन पूरा हो गया</sys:String>
+
+    <sys:String x:Key="GameResolveFailed">[{0}] गेम हल करने में विफल रहा: {1}</sys:String>
+
+    <sys:String x:Key="CheckJreTaskName">जावा रनटाइम वातावरण की जांच करें</sys:String>
+
+    <sys:String x:Key="ClearDownloadCacheTaskName">डाउनलोड कैश साफ़ करें</sys:String>
+    <sys:String x:Key="FileDeletedDetail">फ़ाइल [{0}] सफलतापूर्वक हटा दी गई</sys:String>
+    <sys:String x:Key="DownloadCacheClearedSummary">सफाई पूरी हो गई। {0} बाइट साफ़ हो गए।</sys:String>
+
+    <sys:String x:Key="FailedToSetJrePermission">जावा रनटाइम फ़ाइल की अनुमतियां सेट करने में विफल रहा</sys:String>
+    <sys:String x:Key="FailedToSetJrePermissionDetail">फ़ाइल [{0}] के लिए अनुमतियां सेट करने में असमर्थ। कृपया टर्मिनल में कमांड [chmod +x \"{0}\"] को मैन्युअल रूप से चलाने की कोशिश करें।</sys:String>
+    <sys:String x:Key="FailedToDownloadJre">रनटाइम डाउनलोड करने में विफल रहा</sys:String>
+    <sys:String x:Key="FailedToDownloadJreDetail">कुछ जावा रनटाइम फ़ाइलें डाउनलोड करने में विफल रहीं। कृपया अपना नेटवर्क जाँचें और पुन: प्रयास करें!</sys:String>
+
+    <sys:String x:Key="OriginalGameIdIsEmpty">मूल गेम आईडी खाली है। कृपया जाँचें कि गेम जानकारी सही है या नहीं।</sys:String>
+    <sys:String x:Key="OriginalGameNotFound">मूल गेम इंस्टॉलेशन विफल हो गया या नहीं मिला। कृपया गेम जानकारी को सत्यापित करें।</sys:String>
+    <sys:String x:Key="JavaNotFoundDetail">जावा रनटाइम नहीं मिला या चुना नहीं गया। कृपया "सेटिंग्स" - "गेम सेटिंग्स" में जाकर इसे चुनें या इंस्टॉल करें।</sys:String>
+    <sys:String x:Key="FailedToDownloadComponentDetail">{0} डाउनलोड करने में विफल रहा। कृपया अपना नेटवर्क कनेक्शन जाँचें या बाद में पुन: प्रयास करें।</sys:String>
+    <sys:String x:Key="WaitingForPreviousInstallation">पिछले इंस्टॉलेशन के समाप्त होने का इंतजार कर रहा है...</sys:String>
+
+    <sys:String x:Key="FailedToResolveVersion">संस्करण {0} हल करने में विफल रहा</sys:String>
+    <sys:String x:Key="WaitingForGameWindow">गेम लॉन्च हो रहा है, गेम विंडो का इंतजार कर रहा है...</sys:String>
+    <sys:String x:Key="WaitingForGameProcessToExit">गेम लॉन्च हो गया, गेम प्रोसेस के बाहर निकलने का इंतजार कर रहा है...</sys:String>
+    <sys:String x:Key="FailedToSetUserStatus">उपयोगकर्ता स्थिति सेट करने में विफल रहा या गेम प्रोसेस के बाहर निकलने का इंतजार करने में विफल रहा!</sys:String>
+
+    <sys:String x:Key="SslCertOutdated">नेटवर्क अस्थिर हो सकता है या एसएसएल प्रमाणपत्र समाप्त हो गया है।</sys:String>
+
+    <sys:String x:Key="GameAlreadyHasConfig">गेम {0} का पहले से ही कॉन्फ़िगरेशन है</sys:String>
+    <sys:String x:Key="FolderRulesAlreadyExistDetail">इस गेम के लिए पहले से ही एक FOLDER_RULES मौजूद है। क्या आप इसे अधिलेखित करना चाहते हैं?</sys:String>
+    <sys:String x:Key="Override">अधिलेखित करें</sys:String>
+    <sys:String x:Key="FailedToCreateDefaultRule">{0} के लिए डिफ़ॉल्ट फ़ाइल नियम बनाने में विफल रहा</sys:String>
+
+    <sys:String x:Key="FailedToRate">रेटिंग करने में असमर्थ</sys:String>
+    <sys:String x:Key="FailedToRateBecauseNoPermission">यह इसलिए हो सकता है क्योंकि आपके पास आवश्यक अनुमतियां नहीं हैं या आपकी अनुमतियां अक्षम कर दी गई हैं।</sys:String>
+    <sys:String x:Key="ResourceAlreadyRated">आपने इस संसाधन को पहले ही रेट कर दिया है!</sys:String>
+    <sys:String x:Key="ResourceAlreadyRatedDetail">प्रत्येक संसाधन को केवल एक बार रेट किया जा सकता है। यदि आप वर्तमान जानकारी से संतुष्ट नहीं हैं, तो आप नीचे जो सही मानते हैं उसे सबमिट कर सकते हैं।</sys:String>
+    <sys:String x:Key="FailedToSubmitResourceInfo">संसाधन जानकारी सबमिट करने में असमर्थ</sys:String>
+    <sys:String x:Key="SuccessfullyRated">सफलतापूर्वक रेट किया गया</sys:String>
+    <sys:String x:Key="SuccessfullyRatedDetail">धन्यवाद! आपकी रेटिंग सफलतापूर्वक सबमिट की गई है और वर्तमान में समीक्षा के अधीन है।</sys:String>
+
+    <sys:String x:Key="FileIsInUse">गेम फ़ाइल उपयोग में है या अन्य आईओ त्रुटि</sys:String>
+    <sys:String x:Key="FileIsInUseDetail">गेम फ़ाइल किसी अन्य प्रोग्राम द्वारा उपयोग में हो सकती है। कृपया जाँचें कि गेम एकाधिक इंस्टेंस चल रहा है या एंटीवायरस सॉफ़्टवेयर गेम निर्देशिका को स्कैन कर रहा है।</sys:String>
+
+    <sys:String x:Key="ContributeCountDetail">{0} बार योगदान दिया</sys:String>
+
+    <sys:String x:Key="DownloadAndInstallModPack">मॉडपैक डाउनलोड और इंस्टॉल करें</sys:String>
+
+    <sys:String x:Key="FailedToRemoveWallpaper">वॉलपेपर हटाने में विफल रहा</sys:String>
+    <sys:String x:Key="FailedToRemoveWallpaperDetail">वॉलपेपर हटाने में असमर्थ! कृपया बाद में इसे मैन्युअल रूप से हटाने की कोशिश करें। फ़ाइल नाम: {0}, लॉन्चरएक्स/बीजी निर्देशिका में स्थित।</sys:String>
+
+    <sys:String x:Key="ContributionTranslationDescription">कृपया नीचे [{0}] के लिए अपना अनुवाद प्रदान करें।</sys:String>
+    <sys:String x:Key="ContributionLinkDescription">कृपया नीचे [{0}] के लिए संसाधन लिंक प्रदान करें।</sys:String>
+    <sys:String x:Key="ContributionTagDescription">कृपया नीचे [{0}] के लिए उपयुक्त श्रेणी टैग प्रदान करें। एकाधिक टैग को अल्पविराम (',') से अलग करें।</sys:String>
+
+    <sys:String x:Key="FilterStopped">फ़िल्टरिंग रुक गई</sys:String>
+    <sys:String x:Key="FilterStoppedBecauseApiLimitation">कर्सफोर्ज एपीआई सीमाओं के कारण फ़िल्टरिंग रुक गई है। कृपया अधिक विशिष्ट खोज कीवर्ड का उपयोग करने की कोशिश करें ताकि आप अधिक सटीकता से आवश्यक संसाधन ढूंढ सकें।</sys:String>
+    <sys:String x:Key="FilterStoppedBecauseUserCancelled">फ़िल्टरिंग प्रक्रिया रुक गई, संभवतः बहुत सारे अनुरोधों या नेटवर्क भीड़ के कारण। आप बाद में पुन: प्रयास कर सकते हैं। यह भी हो सकता है क्योंकि आपने मैन्युअल रूप से फ़िल्टर रोक दिया है।</sys:String>
+    <sys:String x:Key="ResourceInfoAcquisitionTimeout">संसाधन जानकारी प्राप्त करने में समय समाप्त हो गया</sys:String>
+    <sys:String x:Key="ResourceInfoAcquisitionTimeoutDetail">इस समय संसाधन जानकारी प्राप्त करने में असमर्थ, संभवतः नेटवर्क भीड़ के कारण। {0}</sys:String>
+    <sys:String x:Key="DeleteAllDisabledMod">सभी अक्षम मॉड हटाएं</sys:String>
+    <sys:String x:Key="AreYouSure">क्या आप सुनिश्चित हैं? यह कार्रवाई वापस नहीं ली जा सकती।</sys:String>
+    <sys:String x:Key="FailedToDelete">हटाने में विफल रहा</sys:String>
+    <sys:String x:Key="ModDeletionFailedDetail">यह ऑपरेशन आंशिक रूप से सफल हो सकता है। आपको कुछ फ़ाइलें जो हटाने में विफल रहीं उन्हें मैन्युअल रूप से हटाने की आवश्यकता हो सकती है।</sys:String>
+    <sys:String x:Key="RemoveAllUpdateFlags">सभी मॉड से अपडेट फ़्लैग हटाएं</sys:String>
+    <sys:String x:Key="RemoveAllUpdateFlagsDetail">क्या आप इसे करना चाहते हैं? यह सभी मॉड (अक्षम मॉडों सहित) से अपडेट उपसर्ग को हटा देगा और वापस नहीं लिया जा सकता।</sys:String>
+    <sys:String x:Key="FailedToRemoveTags">टैग हटाने में विफल रहा</sys:String>
+    <sys:String x:Key="FailedToRemoveTagsDetail">यह ऑपरेशन आंशिक रूप से सफल हो सकता है। आपको कुछ फ़ाइलें जो अपडेट करने में विफल रहीं उन्हें मैन्युअल रूप से संशोधित करने की आवश्यकता हो सकती है।</sys:String>
+
+    <sys:String x:Key="InvalidSessionDetail">अमान्य लॉगिन सत्र, आपको संभवतः फिर से लॉगिन करने की आवश्यकता होगी।</sys:String>
+    <sys:String x:Key="LaunchBrokenGameMessage">आप एक खराब गेम लॉन्च करने का प्रयास कर रहे हैं। कृपया गेम सूची में प्रदर्शित त्रुटि संदेश की जांच करें और फिर से लॉन्च करने से पहले समस्या को हल करने की कोशिश करें।</sys:String>
+    <sys:String x:Key="EnableAutoJavaSelection">स्वचालित जावा चयन सक्षम करें?</sys:String>
+    <sys:String x:Key="EnableAutoJavaSelectionDetail">स्वचालित जावा चयन सक्षम करने से लॉन्चर गेम के लिए उपयुक्त जावा संस्करण को स्वचालित रूप से चुन सकेगा। भविष्य में यह डायलॉग नहीं दिखाई देगा।</sys:String>
+    <sys:String x:Key="GoToJavaDownloadPageMessage">हाँ पर क्लिक करने से आप सेटिंग्स पेज पर जाएंगे जहाँ से संबंधित जावा संस्करण डाउनलोड कर सकते हैं।</sys:String>
+
+    <sys:String x:Key="ContributeThirdPartyResourceInfo">तीसरे पक्ष के संसाधन जानकारी में योगदान दें</sys:String>
+    <sys:String x:Key="DoYouThinkIfTheResourceIsAccurate">क्या आपको लगता है कि इस संसाधन की जानकारी सही है?</sys:String>
+    <sys:String x:Key="AddResourceTranslation">संसाधन अनुवाद जोड़ें</sys:String>
+    <sys:String x:Key="AddResourceLink">संसाधन लिंक जोड़ें</sys:String>
+    <sys:String x:Key="AddResourceTag">संसाधन टैग जोड़ें</sys:String>
+
+    <sys:String x:Key="UseFolderRules">FOLDER_RULES नियमों का उपयोग करें</sys:String>
+
+    <sys:String x:Key="ResourceContributionWarning">
+        कृपया ध्यान दें, यदि आपने पहले से ही इस संसाधन के लिए एक अनुरोध सबमिट किया है, तो यह सबमिशन पिछले अनुरोध को प्रतिस्थापित करेगा!
+        किसी भी अनुचित सामग्री को सबमिट करने से समीक्षा के बाद आपकी सबमिशन विशेषाधिकार निलंबित हो सकते हैं।
+    </sys:String>
+
+    <sys:String x:Key="CopyAndOpenVerificationUrl">कॉपी और सत्यापन साइट खोलें</sys:String>
+
+    <sys:String x:Key="PleaseSelectJreVersion">डाउनलोड करने के लिए जेआरई संस्करण चुनें</sys:String>
+
+    <sys:String x:Key="ApiLimitationPageWarning">एपीआई सीमाओं के कारण, हम केवल उपलब्ध डेटा के आधार पर शेष पेजों का अनुमान लगा सकते हैं। हम उपलब्ध पेजों को अपडेट करते रहेंगे।</sys:String>
+    <sys:String x:Key="LongWaitHint">यदि यह बहुत लंबा समय लेता है, तो हम "सेटिंग्स" - "नेटवर्क" में दूसरा डाउनलोड स्रोत आज़माने की सिफारिश करते हैं।</sys:String>
+
+    <sys:String x:Key="RemoveAllModsUpdatePrefix">सभी मॉड से [UPDATE] उपसर्ग हटाएं</sys:String>
+    <sys:String x:Key="RemoveAllDisabledMods">सभी अक्षम मॉड हटाएं</sys:String>
+    <sys:String x:Key="AutoSelectSuitableJava">स्वचालित रूप से उपयुक्त जावा चुनें</sys:String>
+
+    <sys:String x:Key="ShadowDepth">छाया गहराई</sys:String>
+    <sys:String x:Key="ShadowRadius">छाया त्रिज्या</sys:String>
+    <sys:String x:Key="ShadowOpacity">छाया अपारदर्शिता</sys:String>
+
+    <sys:String x:Key="Contributors">योगदानकर्ता</sys:String>
+    <sys:String x:Key="ContributorsDescription">यह खंड उन सभी उपयोगकर्ताओं को प्रदर्शित करता है जिन्होंने लॉन्चरएक्स तीसरे पक्ष के संसाधनों में योगदान दिया है। हम हर किसी के उदार योगदान की सराहना करते हैं!</sys:String>
+    <sys:String x:Key="ContributorList">योगदानकर्ता सूची</sys:String>
+    <sys:String x:Key="ContributorListDetail">नीचे दी गई सूची योगदान संख्या के अनुसार सभी योगदानकर्ताओं को दिखाती है। एक सीमा के कारण, केवल 100 प्रविष्टियां प्रदर्शित होंगी। यदि आपने 50 से अधिक बार योगदान दिया है, तो प्रशासक से संपर्क करें ताकि लॉन्चरएक्स के मुफ्त बीटा एक्सेस और भविष्य के लाभ के लिए!</sys:String>
+
+    <sys:String x:Key="UseMultiSourcesCompletion">पूर्णता के लिए कई स्रोतों का उपयोग करें</sys:String>
+    <sys:String x:Key="MultiSourcesCompletionPolicy">कई स्रोतों की पूर्णता नीति</sys:String>
+
+    <sys:String x:Key="NoGameFound">ओह! कोई गेम नहीं मिला!</sys:String>
+    <sys:String x:Key="NoGameFoundDetail">हमें कोई गेम नहीं मिला। आप नीचे दिए गए बटन पर क्लिक करके डाउनलोड पेज पर जा सकते हैं।</sys:String>
+    <sys:String x:Key="GenerateExportSettings">निर्यात कॉन्फ़िगरेशन उत्पन्न करें</sys:String>
+    <sys:String x:Key="EditExportSettings">निर्यात कॉन्फ़िगरेशन संपादित करें</sys:String>
+    <sys:String x:Key="GameDirectoryManagement">गेम निर्देशिका प्रबंधन</sys:String>
+    <sys:String x:Key="LauncherRootPath">लॉन्चरएक्स रूट निर्देशिका</sys:String>
+
+
+    <sys:String x:Key="GameCrashDetected">ओह! गेम त्रुटि/अपवाद पाया गया</sys:String>
+
+    <sys:String x:Key="TelemetryAndDataCollection">टेलीमेट्री और डेटा संग्रह</sys:String>
+
+    <sys:String x:Key="PerformingUpdate">अपडेट कर रहा है...</sys:String>
+    <sys:String x:Key="PerformingUpdateDetail">लॉन्चरएक्स अब अपडेट कर रहा है। कृपया कुछ समय प्रतीक्षा करें।</sys:String>
+    <sys:String x:Key="FailedToExtractLauncherIcon">सूचना आइकन निकालने में असमर्थ</sys:String>
+    <sys:String x:Key="FailedToExtractLauncherIconDetail">लॉन्चरएक्स सूचना आइकन निकालने में विफल रहा। यह कार्यक्षमता को प्रभावित नहीं करेगा, लेकिन सिस्टम सूचनाओं में आइकन नहीं हो सकता।</sys:String>
+
+</ResourceDictionary>
