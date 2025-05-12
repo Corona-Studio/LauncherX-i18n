@@ -91,7 +91,7 @@
     <sys:String x:Key="MicrosoftAccount">Microsoft 賬戶</sys:String>
 
     <!-- <sys:String x:Key="OnlineAccount">在綫賬戶</sys:String> -->
-    <sys:String x:Key="Email">電子郵箱</sys:String>
+    <sys:String x:Key="Email">賬戶(用戶名/電子郵箱)</sys:String>
     <sys:String x:Key="UserName">用戶名</sys:String>
     <sys:String x:Key="DisplayName">玩家名稱</sys:String>
     <sys:String x:Key="Password">密碼</sys:String>
