@@ -1,0 +1,1736 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+
+    <!--> LauncherX 多语言文档注意事项 <-->
+    <!--> 如果您在翻译字段中看到了 {0} 这样的字符串，请将其直接保留在翻译之后的源文当中 <-->
+    <!--> 请不要修改字段的 x:Key 值 <-->
+    <!--> 请注意原文中空格的格式及其他风格信息 <-->
+
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
+    <sys:String x:Key="TranslatorCredits">LauncherX 官方 - 繁體中文</sys:String>
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
+
+    <sys:String x:Key="Ok">確定</sys:String>
+    <sys:String x:Key="Cancel">取消</sys:String>
+    <sys:String x:Key="Warning">警告</sys:String>
+    <sys:String x:Key="Error">錯誤</sys:String>
+    <sys:String x:Key="Fatal">致命</sys:String>
+    <sys:String x:Key="Debug">調試</sys:String>
+    <sys:String x:Key="Info">信息</sys:String>
+    <!-- <sys:String x:Key="Note">提示</sys:String> -->
+
+    <sys:String x:Key="Open">開啓</sys:String>
+    <!-- <sys:String x:Key="Close">關閉</sys:String> -->
+
+    <sys:String x:Key="Exit">離開</sys:String>
+    <!-- <sys:String x:Key="Maximize">最大化</sys:String> -->
+    <sys:String x:Key="Minimize">最小化</sys:String>
+    <sys:String x:Key="Force">强制</sys:String>
+
+    <!-- <sys:String x:Key="LaunchFailed">游戲啓動失敗。</sys:String> -->
+    <!-- <sys:String x:Key="JavaNotFound">啓動器沒有檢測到Java。</sys:String> -->
+    <!-- <sys:String x:Key="IllegalJavaInstallation">可能正在使用綠色版Java。</sys:String> -->
+
+    <!--> App.xaml.cs <-->
+
+    <!-- <sys:String x:Key="EmptyDirFailed">清空文件夾失敗</sys:String> -->
+    <sys:String x:Key="ExitMainPg">離開LauncherX</sys:String>
+    <sys:String x:Key="TryContinue">嘗試繼續使用</sys:String>
+    <!-- <sys:String x:Key="UncaughtEx">LauncherX遭遇了不可描述的錯誤。</sys:String> -->
+
+    <!--> App.xaml.cs <-->
+
+    <!--> MainWindow.xaml <-->
+
+    <sys:String x:Key="GameStart">開始游戲</sys:String>
+    <sys:String x:Key="GameList">游戲列表</sys:String>
+    <sys:String x:Key="Dashboard">儀表盤</sys:String>
+    <sys:String x:Key="Settings">設置</sys:String>
+
+    <sys:String x:Key="Start">啓動</sys:String>
+    <sys:String x:Key="TaskCenter">任務中心</sys:String>
+
+    <!--> MainWindow.xaml <-->
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <!-- <sys:String x:Key="IllegalSettings">配置不正確</sys:String> -->
+    <!-- <sys:String x:Key="IllegalSettingsHint1">在上一次修改的啓動器設置中，由於不正確的配置，我們已經將部分參數修改為默認設置：</sys:String> -->
+    <!-- <sys:String x:Key="IllegalSettingsHint2">檢測到有不正確的配置，請前往設置頁修改：</sys:String> -->
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <!--> MainViewModel.cs <-->
+
+    <sys:String x:Key="RunningJobsFound">還有正在運行的任務</sys:String>
+    <sys:String x:Key="ExitAndDropTasksHint">還有 {0} 個任務在調度隊列中，確定要退出啓動器嗎？所有運行中的任務都將永久銷毀。</sys:String>
+    <sys:String x:Key="WaitToFinish">等待完成</sys:String>
+
+    <sys:String x:Key="GameNotSelect">未固定游戲</sys:String>
+    <sys:String x:Key="GameNotSelectHint">未在1主界面固定游戲</sys:String>
+
+    <!-- <sys:String x:Key="AccountNotSelect">未選擇賬戶</sys:String> -->
+    <!-- <sys:String x:Key="AccountNotSelectHint">未選擇啓動的賬戶或選擇的賬戶無效</sys:String> -->
+
+    <!--> MainViewModel.cs <-->
+
+    <!--> AccountPage.xaml <-->
+
+    <sys:String x:Key="Welcome">歡迎</sys:String>
+    <sys:String x:Key="Delete">刪除</sys:String>
+
+    <!--> AccountPage.xaml <-->
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <sys:String x:Key="CreateNewAccount">建立新賬戶</sys:String>
+
+    <sys:String x:Key="OfflineAccount">離綫賬戶</sys:String>
+    <sys:String x:Key="MojangAccount">Mojang 賬戶</sys:String>
+    <sys:String x:Key="MicrosoftAccount">Microsoft 賬戶</sys:String>
+
+    <!-- <sys:String x:Key="OnlineAccount">在綫賬戶</sys:String> -->
+    <sys:String x:Key="Email">賬戶(用戶名/電子郵箱)</sys:String>
+    <sys:String x:Key="UserName">用戶名</sys:String>
+    <sys:String x:Key="DisplayName">玩家名稱</sys:String>
+    <sys:String x:Key="Password">密碼</sys:String>
+    <sys:String x:Key="ConfirmPassword">確認密碼</sys:String>
+    <sys:String x:Key="AuthLibServer">AuthLib伺服器</sys:String>
+    <sys:String x:Key="Optional">可選</sys:String>
+    <sys:String x:Key="SaveAccount">保持賬戶</sys:String>
+
+    <sys:String x:Key="CheckingAccount">正在核驗賬戶...</sys:String>
+    <sys:String x:Key="Default">默認</sys:String>
+
+    <!-- <sys:String x:Key="CheckSucceeded">核驗成功</sys:String> -->
+    <sys:String x:Key="CheckFailed">核驗失敗</sys:String>
+
+    <sys:String x:Key="SkinRequestFailed">皮膚獲取失敗</sys:String>
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <!--> GameListPage.xaml <-->
+
+    <!-- <sys:String x:Key="NoGameYet">暫無游戲</sys:String> -->
+
+    <!--> GameListPage.xaml <-->
+
+    <!--> SettingsPage.xaml <-->
+
+    <sys:String x:Key="GlobalGameSettings">全局游戲設置</sys:String>
+    <!-- <sys:String x:Key="RegionAndLang">地區與語言</sys:String> -->
+    <sys:String x:Key="Appearance">外觀</sys:String>
+    <sys:String x:Key="Network">網絡</sys:String>
+    <sys:String x:Key="Advanced">進階</sys:String>
+    <sys:String x:Key="About">關於</sys:String>
+
+    <sys:String x:Key="LaunchSettings">啓動設置</sys:String>
+    <sys:String x:Key="JavaPath">Java路徑</sys:String>
+    <sys:String x:Key="AddManually">手動添加</sys:String>
+    <sys:String x:Key="DownloadJava">下載Java</sys:String>
+    <sys:String x:Key="SearchJava">檢索Java</sys:String>
+
+    <sys:String x:Key="MemorySize">内存</sys:String>
+    <sys:String x:Key="MbUnit">單位：兆字節</sys:String>
+    <sys:String x:Key="GameWindowTitle">游戲窗口標題</sys:String>
+
+    <sys:String x:Key="GameWindowSize">游戲窗口大小</sys:String>
+    <sys:String x:Key="Width">寬度</sys:String>
+    <sys:String x:Key="Height">高度</sys:String>
+    <sys:String x:Key="FullScreen">全屏</sys:String>
+
+    <sys:String x:Key="Enable">啓用</sys:String>
+    <sys:String x:Key="Disable">停用</sys:String>
+    <sys:String x:Key="Type">類型</sys:String>
+
+    <sys:String x:Key="JvmAdvanceArgument">Java虛擬機高級啓動參數</sys:String>
+    <sys:String x:Key="JoinServerAfterLaunched">啓動後加入伺服器</sys:String>
+    <sys:String x:Key="ServerIpOrDomain">伺服器Ip或域名</sys:String>
+    <sys:String x:Key="Port">端口</sys:String>
+
+    <sys:String x:Key="Path">路徑</sys:String>
+    <sys:String x:Key="AdditionalArgument">額外參數</sys:String>
+
+    <sys:String x:Key="LauncherBehavior">啓動器行爲</sys:String>
+    <sys:String x:Key="CheckGameFile">檢查游戲文件</sys:String>
+    <sys:String x:Key="CheckSha1WhenFixingGameFile">補全游戲文件時檢查文件完整性</sys:String>
+    <sys:String x:Key="GameLaunchedLauncherBehavior">游戲啓動后啓動器行爲</sys:String>
+    <sys:String x:Key="DisplayGameLogs">啓動游戲時顯示日志</sys:String>
+
+    <!-- <sys:String x:Key="BaseUiSettings">基礎界面設置</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationDuration">全局動畫時常</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationEasingFunction">全局動畫緩動函數</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationEasingMode">全局動畫緩動模式</sys:String> -->
+
+    <!-- <sys:String x:Key="AppearancePageTitle">在這裏修改啓動器外觀</sys:String> -->
+    <!-- <sys:String x:Key="AppearancePageDetail">在右側可以看到窗口預覽。</sys:String> -->
+
+    <sys:String x:Key="ThemeMode">主題模式</sys:String>
+    <sys:String x:Key="Language">語言</sys:String>
+    <sys:String x:Key="UseFluidMove">啓用平滑滾動</sys:String>
+
+    <!-- <sys:String x:Key="MainInterfaceBackground">主界面背景</sys:String> -->
+    <sys:String x:Key="BackgroundTexture">主界面紋理</sys:String>
+    <sys:String x:Key="BackgroundType">主界面背景類型</sys:String>
+
+    <sys:String x:Key="SelectBackgroundImage">選擇壁紙</sys:String>
+    <sys:String x:Key="Browse">瀏覽</sys:String>
+
+    <sys:String x:Key="AccentColor">主題色</sys:String>
+    <sys:String x:Key="GetAccountColorFromBgImage">從背景壁紙中選擇一種主題色</sys:String>
+    <sys:String x:Key="GetPaletteErrorHint">未找到與當前壁紙對應的調色板，也許是因爲啓動器保留目錄被擅自修改了。</sys:String>
+    <sys:String x:Key="UsePureColorAsAccentColor">使用主界面的純色背景作爲主題色</sys:String>
+    <sys:String x:Key="UseSelectedColorAsAccentColor">從下面的顔色中選擇主題色</sys:String>
+
+    <sys:String x:Key="Preview">預覽</sys:String>
+    <!-- <sys:String x:Key="UiFontFamily">界面字體</sys:String> -->
+    <sys:String x:Key="PrimaryFont">首選字體</sys:String>
+    <sys:String x:Key="SecondaryFont">備選字體</sys:String>
+
+    <sys:String x:Key="PreviewFont">預覽字體</sys:String>
+    <sys:String x:Key="PreviewFontSize">預覽字體大小</sys:String>
+    <sys:String x:Key="PreviewFontHint">輸入文字來預覽字體</sys:String>
+
+    <sys:String x:Key="FontChangedHint">字體設置被修改，需要重啓啓動器來應用</sys:String>
+    <!-- <sys:String x:Key="FontFamilyPreviewTestText">漢體書寫信息技術標準相容 AaBbCc A a B b C c 0123456789</sys:String> -->
+
+    <sys:String x:Key="BaseNetworkSettings">基礎網絡設定</sys:String>
+    <sys:String x:Key="ResourceDownloadServer">資源下載伺服器</sys:String>
+    <sys:String x:Key="DownloadThreadCount">下載執行緒數</sys:String>
+    <sys:String x:Key="AutoDetectDownloadMethod">自動決定下載資源方式</sys:String>
+    <sys:String x:Key="UseMultiPartDownload">大文件啓用分片下載</sys:String>
+    <sys:String x:Key="MultiPartCount">分片數量</sys:String>
+
+    <sys:String x:Key="NetworkConnectionTest">網絡連接測試</sys:String>
+    <sys:String x:Key="NetworkTestDescription">通過網絡連接測試，閣下可以瞭解當前的網絡狀況，包括延遲、伺服器狀態等基礎信息。同時也能排除一些基礎故障。</sys:String>
+
+    <sys:String x:Key="LauncherLogLevel">啓動器日志記錄等級</sys:String>
+    <sys:String x:Key="DcAndPp">數據采集與隱私條例</sys:String>
+    <sys:String x:Key="AllowDataCollection">運行啓動器采集運行數據</sys:String>
+
+    <sys:String x:Key="WhatDataWeCollect">我們會采集那些數據</sys:String>
+    <sys:String x:Key="WhatDataWeCollectContent">
+        我們將會收集閣下電腦設備嘅基本資料，包括但不限於使用語言同操作系統版本。同時，我哋亦會記錄遊戲啟動器嘅運作數據，例如系統崩潰、異常情況、使用時間、已啟動遊戲及遊戲時長等。所有收集到嘅數據都會經過嚴格加密處理，並妥善存儲於高安全性嘅伺服器內。
+    </sys:String>
+
+    <sys:String x:Key="HowWeUseData">我们如何使用这些数据</sys:String>
+    <sys:String x:Key="HowWeUseDataContent">
+        此等數據將有助于我們進行用戶群體分析及錯誤診斷。地區及語言設定數據可讓我們更準確掌握用戶分佈情況；產生的錯誤信息
+        日志和崩潰信息將會幫助我們解決啓動器缺陷，並以此將更好的體驗帶給用戶。
+    </sys:String>
+
+    <!--> SettingsPage.xaml <-->
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <sys:String x:Key="GeneratedJavaAgentArg">拼接後JavaAgent啟動參數：</sys:String>
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <sys:String x:Key="TaskAdded">任務已成功加入任務隊列</sys:String>
+    <sys:String x:Key="PrepareToDownloadJava">準備下載Java運行環境</sys:String>
+
+    <sys:String x:Key="PleaseCheckLogs">請檢查啓動器日志</sys:String>
+    <sys:String x:Key="Succeeded">成功</sys:String>
+    <sys:String x:Key="Failed">失敗</sys:String>
+
+    <sys:String x:Key="ImageFile">圖片文件</sys:String>
+    <sys:String x:Key="ImportBgImage">導入壁紙文件</sys:String>
+    <sys:String x:Key="BrowseBgImageDialogTitle">選擇要導入的壁紙</sys:String>
+    <sys:String x:Key="PrepareToImportBgImage">準備導入壁紙...</sys:String>
+    <sys:String x:Key="ImportingPleaseWait">請稍後，導入中...</sys:String>
+    <sys:String x:Key="AlreadyImported">已導入，將不重複導入...</sys:String>
+
+    <!-- <sys:String x:Key="FetchMojangServerInfo">獲取Mojang服務資訊</sys:String> -->
+    <sys:String x:Key="Unknown">未知</sys:String>
+
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <sys:String x:Key="SelectAccountProfile">選擇賬戶所使用的檔案</sys:String>
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <sys:String x:Key="LastUsed">上次使用</sys:String>
+    <!-- <sys:String x:Key="ClickToUseAccount">點擊來使用該賬戶</sys:String> -->
+    <sys:String x:Key="NeverUsed">從未使用</sys:String>
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <sys:String x:Key="CheckingDelay">正在測試延遲</sys:String>
+
+    <sys:String x:Key="ServerStatus1Hint">服務穩定</sys:String>
+    <sys:String x:Key="ServerStatus2Hint">服務可能出現不穩定情況，或會引致短暫服務中斷；亦可能因本地網絡問題導致嚴重數據包丟失。</sys:String>
+    <sys:String x:Key="ServerStatus3Hint">服務發生異常，現已暫停運作；亦可能因本地網絡問題導致無法與伺服器正常通訊。</sys:String>
+    <sys:String x:Key="CurrentStatusIs">當前的狀態是</sys:String>
+    <sys:String x:Key="WhichMeans">意味著</sys:String>
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <!--> SearchBar.xaml <-->
+
+    <sys:String x:Key="SearchSomething">搜點什麽？</sys:String>
+
+    <!--> SearchBar.xaml <-->
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <sys:String x:Key="TaskQueue">調度隊列</sys:String>
+    <!-- <sys:String x:Key="NoMoreTask">暫無任務</sys:String> -->
+    <sys:String x:Key="NotifyHistory">歷史通知</sys:String>
+    <!-- <sys:String x:Key="NoMoreNotify">暫無通知</sys:String> -->
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <!--> ITaskCenterJob <-->
+
+    <!-- <sys:String x:Key="TaskCanceled">任務已取消...</sys:String> -->
+    <sys:String x:Key="DownloadingFile">正在下載文件</sys:String>
+    <sys:String x:Key="LaunchGame">啓動游戲</sys:String>
+
+    <sys:String x:Key="AuthFailed">賬戶認證失敗</sys:String>
+    <sys:String x:Key="DecompressFailed">Natives解壓錯誤</sys:String>
+    <sys:String x:Key="IncompleteArgument">啓動參數不完整</sys:String>
+    <sys:String x:Key="NoJava">沒有指定Java虛擬機</sys:String>
+    <sys:String x:Key="None">空</sys:String>
+    <sys:String x:Key="OperationFailed">操作錯誤</sys:String>
+
+    <sys:String x:Key="Duration">用時</sys:String>
+    <!-- <sys:String x:Key="ResourceCompletion">資源補全</sys:String> -->
+    <sys:String x:Key="Reason">原因</sys:String>
+    <sys:String x:Key="Retry">重試</sys:String>
+    <sys:String x:Key="Completion">補全</sys:String>
+
+    <sys:String x:Key="GameExitDetected">檢測到游戲進程結束</sys:String>
+    <sys:String x:Key="GameExitedNormal">正常退出</sys:String>
+    <sys:String x:Key="GameExitedUnexpectedly">非正常退出</sys:String>
+
+    <sys:String x:Key="SearchGame">搜索游戲</sys:String>
+    <sys:String x:Key="GameNotFound">沒有找到游戲</sys:String>
+    <sys:String x:Key="GameNotFoundDetail">沒有找到任何游戲，閣下可以透過啟動器下載新遊戲。</sys:String>
+    <sys:String x:Key="SearchGameCompleted">游戲搜索完成</sys:String>
+
+    <sys:String x:Key="TaskCenterBriefing1">當前有{0}個任務在運行</sys:String>
+
+    <!--> ITaskCenterJob <-->
+
+    <!--> Models <-->
+
+    <!-- <sys:String x:Key="EaseIn">緩入</sys:String> -->
+    <!-- <sys:String x:Key="EaseOut">緩出</sys:String> -->
+    <!-- <sys:String x:Key="EaseInOut">緩入、出</sys:String> -->
+
+    <sys:String x:Key="Shape1">直綫</sys:String>
+    <sys:String x:Key="Shape2">圓圈</sys:String>
+    <sys:String x:Key="Shape3">弧綫</sys:String>
+
+    <sys:String x:Key="BlurBackground">模糊半透明背景</sys:String>
+    <sys:String x:Key="ImageBackground">圖片背景</sys:String>
+    <sys:String x:Key="PureColorBackground">純色背景</sys:String>
+
+    <sys:String x:Key="OfficialMirror">Mojang官方伺服器</sys:String>
+    <sys:String x:Key="BangBangApiMirror">Bangbang93的下載伺服器</sys:String>
+    <sys:String x:Key="McBbsMirror">McBbs的下載伺服器</sys:String>
+
+    <!-- <sys:String x:Key="BackEase">收回</sys:String> -->
+    <!-- <sys:String x:Key="BounceEase">彈跳</sys:String> -->
+    <!-- <sys:String x:Key="CircleEase">循環</sys:String> -->
+    <!-- <sys:String x:Key="CubicEase">t³函數</sys:String> -->
+    <!-- <sys:String x:Key="ElasticEase">彈簧</sys:String> -->
+    <!-- <sys:String x:Key="ExponentialEase">指數</sys:String> -->
+    <!-- <sys:String x:Key="PowerEase">t*p函數</sys:String> -->
+    <!-- <sys:String x:Key="QuadraticEase">t²函數</sys:String> -->
+    <!-- <sys:String x:Key="QuinticEase">t⁵函數</sys:String> -->
+    <!-- <sys:String x:Key="SineEase">Sin(t)函數</sys:String> -->
+
+    <!-- <sys:String x:Key="NoSelectedBgImage">未設置壁紙路徑</sys:String> -->
+
+    <sys:String x:Key="StaySame">保持原狀</sys:String>
+
+    <sys:String x:Key="All">全部</sys:String>
+
+    <sys:String x:Key="SkinNotFound">沒有找到皮膚</sys:String>
+    <sys:String x:Key="SkinNotFoundDetail">沒有找到 {0} 的皮膚</sys:String>
+
+    <sys:String x:Key="Delay">延遲</sys:String>
+    <sys:String x:Key="TimeOutOrError">超時或出錯</sys:String>
+    <sys:String x:Key="Times">次</sys:String>
+
+    <!-- <sys:String x:Key="TestDelayFailedDetail">無法測試{0}的延遲</sys:String> -->
+
+    <sys:String x:Key="LightTheme">亮色主題</sys:String>
+    <sys:String x:Key="DarkTheme">暗色主題</sys:String>
+
+    <!--> Models <-->
+
+    <!--> About Page <-->
+
+    <!-- <sys:String x:Key="AboutUs">關於我們</sys:String> -->
+    <sys:String x:Key="AboutUsContent">LauncherX 是下一代 Minecraft 啓動器。</sys:String>
+    <sys:String x:Key="TeamContent">Corona Studio 源於 CMFL 開發組。我們是以 Minecraft 為業務核心的由愛好者和專業人士組成的計算機開發團隊。</sys:String>
+
+    <sys:String x:Key="VersionInfo">版本信息</sys:String>
+    <sys:String x:Key="ReleaseBranch">發行分支</sys:String>
+    <sys:String x:Key="BinaryVersion">二進制版本</sys:String>
+
+    <sys:String x:Key="LauncherTeam">啓動器團隊</sys:String>
+    <sys:String x:Key="ChiefDeveloper">首席開發</sys:String>
+    <sys:String x:Key="Interaction">交互</sys:String>
+    <sys:String x:Key="TechAdviser">技術顧問</sys:String>
+
+    <sys:String x:Key="BackendTeam">後端團隊</sys:String>
+    <sys:String x:Key="Docking">對接</sys:String>
+
+    <sys:String x:Key="ProjBobcatTeam">PROJBOBCAT團隊</sys:String>
+    <sys:String x:Key="CodeReview">代碼審查</sys:String>
+
+    <sys:String x:Key="QualityControlTeam">質量控制團隊</sys:String>
+    <sys:String x:Key="Manager">主管</sys:String>
+    <sys:String x:Key="QualityControlGroup">質量控制組</sys:String>
+
+    <sys:String x:Key="TranslationContributor">翻譯貢獻者</sys:String>
+
+    <sys:String x:Key="Thanks">鳴謝</sys:String>
+    <sys:String x:Key="Thanks1">感謝 BangBang93 及 McBbs 提供的 Minecraft 資源文件下載加速服務</sys:String>
+    <sys:String x:Key="Thanks2">感謝 优势科技-星星 贊助的服務器</sys:String>
+    <!-- <sys:String x:Key="Thanks3">感謝 CI010 為 ProjBobcat 啓動核心開發提供的技術支持</sys:String> -->
+
+    <sys:String x:Key="OpenSourceProjectUsages">開放源代碼項目使用</sys:String>
+
+
+    <sys:String x:Key="Other">其他</sys:String>
+
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+    <sys:String x:Key="OtherContent">O(∩_∩)O 口也！</sys:String>
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+
+    <!--> About Page <-->
+
+    <sys:String x:Key="ChangeLanguageRebootRequired">已修改介面顯示語言，部分界面元素需重新啟動後方可生效。</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="GameLogsWindowTitle">游戲日志實時顯示窗口</sys:String>
+    <sys:String x:Key="TopMost">置於頂層</sys:String>
+    <sys:String x:Key="Moveable">可移動</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="NoSuchPageKeyExceptionMessage">沒有找到鍵值為 {0} 的頁面。</sys:String>
+
+
+    <!-- <sys:String x:Key="GetSettingsFailed">讀取設置文件時發生了錯誤</sys:String> -->
+    <!-- <sys:String x:Key="SearchGameHint">搜尋游戲id，如：1.15.2</sys:String> -->
+
+    <sys:String x:Key="Yes">是</sys:String>
+    <sys:String x:Key="No">否</sys:String>
+
+    <sys:String x:Key="DownloadFailed">下載失敗</sys:String>
+    <sys:String x:Key="RequestOnlineGame">獲取在綫游戲...</sys:String>
+    <!-- <sys:String x:Key="RequestFailed">獲取失敗</sys:String> -->
+
+    <sys:String x:Key="Finished">完成</sys:String>
+    <sys:String x:Key="Download">下載</sys:String>
+
+    <sys:String x:Key="Env">前置環境</sys:String>
+    <sys:String x:Key="Install">安裝</sys:String>
+
+    <sys:String x:Key="GetJavaInfoFailed">我們不能確認這個運行環境的具體情況...</sys:String>
+    <sys:String x:Key="FileNotFound">未找到文件</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">該 Java 運行環境 ( {0} ) 匹配閣下的系統。</sys:String>
+    <sys:String x:Key="BadJavaRuntime">該 Java 運行環境 ( {0} 位 ) 與閣下的系統架構 ( {1} 位 ) 不匹配，可能導致性能問題。</sys:String>
+
+    <sys:String x:Key="SelectedVersion">選擇版本</sys:String>
+    <!-- <sys:String x:Key="ManuallyCopyRedirectUrl">手動複製 RedirectUrl</sys:String> -->
+
+    <sys:String x:Key="Login">登錄</sys:String>
+    <sys:String x:Key="Register">注冊</sys:String>
+
+    <sys:String x:Key="ConnectToService">連接到服務</sys:String>
+
+    <!-- <sys:String x:Key="IntroWelcomeText">歡迎使用 LauncherX</sys:String> -->
+    <!-- <sys:String x:Key="IntroWelcomeTextDetail">下即將開始正式配置嚮導，請點擊下一步繼續。</sys:String> -->
+
+    <sys:String x:Key="IntroSelectAppearance">選擇一個喜歡的外觀</sys:String>
+    <sys:String x:Key="IntroSelectAppearanceDetail">稍後閣下可於啟動器設定頁面的“外觀”選項卡中修改更多外觀設定。</sys:String>
+
+    <sys:String x:Key="IntroAddAccount">添加一個游戲賬戶</sys:String>
+    <sys:String x:Key="IntroAddAccountDetail">完成向導後，閣下可點擊啟動器主界面右上角的用戶名稱，管理遊戲帳戶或以3D模式預覽遊戲皮膚。</sys:String>
+
+    <sys:String x:Key="IntroGameSettings">完成必要的游戲設置</sys:String>
+    <sys:String x:Key="IntroGameSettingsDetail">在这里閣下需完成部分啟動必需的核心設定。完成後，可於設定介面中的“全局游戲設置”選項卡內調整更多自訂選項。</sys:String>
+
+    <sys:String x:Key="IntroFinishedDetail">閣下已經完成了所有的設置項目，快開始體驗 LauncherX 吧！</sys:String>
+
+    <sys:String x:Key="Previous">上一步</sys:String>
+    <sys:String x:Key="Next">下一步</sys:String>
+
+    <!-- <sys:String x:Key="RequestingGameList">正在載入遊戲列表，請稍候片刻</sys:String> -->
+
+    <sys:String x:Key="SystemInfo">系統信息</sys:String>
+    <sys:String x:Key="GameInfo">游戲信息</sys:String>
+    <!-- <sys:String x:Key="Memory">内存</sys:String> -->
+    <sys:String x:Key="Time">時間</sys:String>
+    <sys:String x:Key="GameTime">游戲時長</sys:String>
+    <sys:String x:Key="Count">次數</sys:String>
+
+    <!-- <sys:String x:Key="AccountType">賬戶類型</sys:String> -->
+    <!-- <sys:String x:Key="ValidOnlineAccount">有效的在綫賬戶</sys:String> -->
+
+    <!-- <sys:String x:Key="StatData">統計數據</sys:String> -->
+    <sys:String x:Key="News">新聞</sys:String>
+    <!-- <sys:String x:Key="GetGames">獲取游戲</sys:String> -->
+
+    <sys:String x:Key="Free">空閑</sys:String>
+    <sys:String x:Key="Using">使用中</sys:String>
+    <sys:String x:Key="Game">游戲</sys:String>
+
+    <sys:String x:Key="Save">保存</sys:String>
+    <sys:String x:Key="BasicSettings">基礎設置</sys:String>
+    <sys:String x:Key="GameName">游戲名稱</sys:String>
+    <sys:String x:Key="GamePath">游戲路徑</sys:String>
+    <sys:String x:Key="Icon">圖標</sys:String>
+
+    <sys:String x:Key="Offline">離綫</sys:String>
+    <sys:String x:Key="ChooseLoginType">請選擇登錄方式</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">請選擇驗證方式，如閣下不確定應使用哪種驗證方式，建議選用 Mojang 驗證。</sys:String>
+
+    <sys:String x:Key="GlobalNotSet">全局未設定</sys:String>
+    <sys:String x:Key="SaveSettingsFailed">設置保存失敗</sys:String>
+
+    <!-- <sys:String x:Key="FalseFabricInstallSettings">錯誤的 Fabric 安裝配置</sys:String> -->
+    <!-- <sys:String x:Key="FalseFabricInstallSettingsDetail">閣下僅選擇了 Fabric Loader 或是 Fabric Yarn，請在兩個列表裏選擇合適的版本安裝才能夠繼續！</sys:String> -->
+
+    <sys:String x:Key="GetFailed">拉取失敗</sys:String>
+
+    <sys:String x:Key="ConfirmExit">確定要退出嗎？</sys:String>
+    <sys:String x:Key="ConfirmExitDetail">閣下還未完成 LauncherX 的設置，所有未儲存的更改都將捨棄。</sys:String>
+
+    <sys:String x:Key="Choose">選擇</sys:String>
+    <sys:String x:Key="CustomGameId">自定義游戲 Id</sys:String>
+    <sys:String x:Key="NoAffiliatedComponentForVersion">該版本暫無可用的附屬文件可供安裝。</sys:String>
+    <sys:String x:Key="OptionalAffiliatedComponent">可選附屬組件</sys:String>
+
+    <sys:String x:Key="ForgeDescription">Minecraft Forge 係一個免費嘅開源修改 API 同加載器，主要用於簡化 Minecraft 社區創作嘅遊戲模組之間嘅兼容性。</sys:String>
+    <sys:String x:Key="FabricDescription">Fabric 係 Minecraft 嘅輕量級實驗性改裝工具鏈。</sys:String>
+    <sys:String x:Key="LiteLoaderDescription">LiteLoader 係 Minecraft 嘅輕量級 Mod 加載器，專門為無需修改遊戲機制嘅 Mod 提供簡單、高效能同可靠嘅加載功能。</sys:String>
+    <sys:String x:Key="OptifineDescription">提供 Minecraft 性能調整與高級圖形實現（例如光影）。</sys:String>
+
+    <!-- <sys:String x:Key="NotSupportedOperation">不受支持的操作</sys:String> -->
+    <!-- <sys:String x:Key="MultiFilesNotSupportedOperationDetail">暫不支持多文件操作，我們將在未來支持。</sys:String> -->
+
+    <!-- <sys:String x:Key="DragDetected">文件已被拖入</sys:String> -->
+    <!-- <sys:String x:Key="ChooseFileTypeDetail">請在下方選擇文件類型。注意，部分文件可能不受支持。</sys:String> -->
+
+    <sys:String x:Key="Author">作者</sys:String>
+    <sys:String x:Key="Version">版本</sys:String>
+    <sys:String x:Key="Loading">加載中</sys:String>
+
+
+    <sys:String x:Key="AddFriend">添加好友</sys:String>
+    <sys:String x:Key="ValidateFriend">好友驗證</sys:String>
+    <!-- Error Message -->
+
+    <sys:String x:Key="CanNotEmpty">此項必填</sys:String>
+
+    <sys:String x:Key="EmailFormatError">這看起來不像電郵</sys:String>
+    <!-- <sys:String x:Key="EmailRequired">請輸入電郵</sys:String> -->
+
+    <!-- <sys:String x:Key="ConfirmEmail">驗證電郵</sys:String> -->
+    <!-- <sys:String x:Key="ValidationCode">驗證碼</sys:String> -->
+    <!-- <sys:String x:Key="ValidationCodeHasBeenSent">驗證碼已經發送</sys:String> -->
+    <!-- <sys:String x:Key="PasswordIsDifferent">兩次輸入的密碼不相同</sys:String> -->
+    <sys:String x:Key="PasswordFormat">密碼必須包含大小寫字母、數字與除底綫以外的特殊符號</sys:String>
+    <sys:String x:Key="UserNameFormat">只能包含大小寫字母、數字、橫杠或底綫，長度為 4-16</sys:String>
+    <sys:String x:Key="StringLength">長度必須在{2}-{1}之間</sys:String>
+    <sys:String x:Key="AutoLogin">自動登錄</sys:String>
+
+    <sys:String x:Key="HelpAndFeedback">幫助與反饋</sys:String>
+
+    <sys:String x:Key="LauncherAccount">啓動器賬戶</sys:String>
+    <sys:String x:Key="RebootRequired">需要重啓</sys:String>
+
+    <sys:String x:Key="GameSettings">游戲設置</sys:String>
+    <sys:String x:Key="VersionRootPath">版本根目錄</sys:String>
+    <sys:String x:Key="Saves">存檔</sys:String>
+    <sys:String x:Key="Mod">模組</sys:String>
+    <sys:String x:Key="ResourcePack">資源包</sys:String>
+    <sys:String x:Key="ShaderPack">光影包</sys:String>
+
+    <sys:String x:Key="ReleaseNote">發行説明</sys:String>
+
+    <sys:String x:Key="ManageServer">管理伺服器</sys:String>
+    <sys:String x:Key="ManageServerDescription">在這裏閣下可以預覽和添加常玩的伺服器。點擊以選擇啓動後加入的伺服器。</sys:String>
+    <sys:String x:Key="Refresh">刷新</sys:String>
+    <sys:String x:Key="AddNew">添加</sys:String>
+
+    <sys:String x:Key="Account">賬戶</sys:String>
+    <sys:String x:Key="LauncherAccountDescription">登錄到 LauncherX 賬戶以獲得豐富體驗</sys:String>
+
+    <sys:String x:Key="Send">發送</sys:String>
+    <sys:String x:Key="SendDescription">輸入消息，按 [ Enter ] 發送</sys:String>
+
+    <!-- <sys:String x:Key="NvidiaHardwareAcc">硬件加速渲染 （Nvidia）</sys:String> -->
+    <!-- <sys:String x:Key="NvidiaHardwareAccRebootRequired">啓動器的硬件加速設置被修改，這部分設置需要重啓啓動器后才能應用</sys:String> -->
+
+    <sys:String x:Key="VideoBackground">視頻背景</sys:String>
+    <sys:String x:Key="MicaBackground">Mica 材質（Windows11以上）</sys:String>
+    <sys:String x:Key="GameScreenShots">游戲截圖</sys:String>
+    <sys:String x:Key="BlurRadius">模糊半徑</sys:String>
+    <!-- <sys:String x:Key="Volume">音量</sys:String> -->
+    <sys:String x:Key="BackgroundAlignmentMode">背景圖片對齊方式</sys:String>
+
+    <sys:String x:Key="ResolutionDescription">當解析度 0 * 0 时，將會使用游戲默認解析度。</sys:String>
+
+    <!-- <sys:String x:Key="WhatCanIShowYou">能爲閣下展示什麽？</sys:String> -->
+    <sys:String x:Key="LauncherNotification">啓動器通知</sys:String>
+
+    <sys:String x:Key="Seconds">秒</sys:String>
+    <sys:String x:Key="Minutes">分鐘</sys:String>
+    <sys:String x:Key="Hours">小時</sys:String>
+    <sys:String x:Key="Days">天</sys:String>
+    <sys:String x:Key="Years">年</sys:String>
+
+    <sys:String x:Key="Accept">接受</sys:String>
+    <sys:String x:Key="Deny">拒絕</sys:String>
+
+    <sys:String x:Key="AddSelf">添加自己</sys:String>
+    <sys:String x:Key="UserState">用戶狀態</sys:String>
+    <sys:String x:Key="UpdateChannel">更新通道</sys:String>
+    <sys:String x:Key="Logout">注銷</sys:String>
+
+    <sys:String x:Key="LauncherUpdateFound">發現新的本體更新</sys:String>
+    <sys:String x:Key="HotfixUpdateNotice">該版本包含重要的質量更新</sys:String>
+    <sys:String x:Key="DoNotCloseNotice">稍等片刻，切勿强制關閉啓動器。</sys:String>
+    <sys:String x:Key="Update">更新</sys:String>
+
+    <!-- <sys:String x:Key="ShowPassword">顯示密碼</sys:String> -->
+    <sys:String x:Key="ForgetPassword">忘記密碼</sys:String>
+
+    <!-- <sys:String x:Key="ClickToChange">點擊修改</sys:String> -->
+
+    <sys:String x:Key="AuthServerHint">可選（通常爲https://[域名]/api/yggdrasil/）</sys:String>
+    <!-- <sys:String x:Key="MsLoginDetail">在上方輸入電郵之後。點擊確認，閣下將在瀏覽器中完成微軟賬戶的登錄。完成后，啓動器將會添加閣下的賬戶。</sys:String> -->
+
+    <sys:String x:Key="ProtocolVersion">協議版本</sys:String>
+    <sys:String x:Key="Search">搜索</sys:String>
+    <sys:String x:Key="SearchOption">搜索選項</sys:String>
+
+    <sys:String x:Key="TryStartGame">嘗試啓動游戲</sys:String>
+    <sys:String x:Key="StartingGame">開始啓動游戲：{0}</sys:String>
+
+    <!-- <sys:String x:Key="LaunchFailedTitle">{0} 啓動失敗</sys:String> -->
+    <!-- <sys:String x:Key="LaunchFailedContent">我們在啓動游戲是遇到了問題，具體原因：{0}</sys:String> -->
+    <sys:String x:Key="PreparingMainUI">正在準備主界面，這可能需要一些時間。</sys:String>
+
+    <sys:String x:Key="YouAreNotLogin">閣下尚未登錄</sys:String>
+    <sys:String x:Key="YouAreNotLoginContent">必須登錄以使用非穩定版LauncherX。</sys:String>
+    <!-- <sys:String x:Key="RegisterSucceededContent">我們已經發送了激活郵件到閣下的電郵。請點擊郵件内的鏈接激活賬戶。激活之後就可以登錄了</sys:String> -->
+    <sys:String x:Key="AccountUnavailable">無法使用此賬戶</sys:String>
+    <sys:String x:Key="AccountUnavailableContent">閣下非内部測試用戶。點擊確定登錄其他賬戶，點擊取消退出啓動器</sys:String>
+    <sys:String x:Key="GetInsider">獲得内測資格</sys:String>
+    <sys:String x:Key="ChannelSwitched">已自動切換分支</sys:String>
+    <sys:String x:Key="ChannelSwitchedContent">
+        閣下原先的分支為「{0}」。{2}
+        由於運行了「{1}」分支版本的 LauncherX，{2}
+        我們已將設置的分支切換到「{1}」。
+    </sys:String>
+    <sys:String x:Key="DeviceVerificationFailed">設備驗證失敗</sys:String>
+    <sys:String x:Key="DeviceVerificationFailedContent">閣下的賬戶不能再注冊新的設備，LauncherX即將退出。</sys:String>
+    <sys:String x:Key="ServerRefresh">伺服器刷新</sys:String>
+    <sys:String x:Key="IsConfirm">確認嗎？</sys:String>
+    <sys:String x:Key="ConfirmToDeleteFriend">確認要刪除好友{0}嗎？</sys:String>
+
+    <!-- <sys:String x:Key="MediaFile">媒體文件</sys:String> -->
+
+    <!-- <sys:String x:Key="LoginSucceededContent">賬戶已經完成驗證並加密保存，請點擊下一步繼續。</sys:String> -->
+
+    <sys:String x:Key="UpdateDownloadFailed">無法下載更新</sys:String>
+    <sys:String x:Key="UpdateDownloadFailedContent">無法下載更新，可能是網絡連接問題。原因：{0}</sys:String>
+
+    <sys:String x:Key="EmailUsed">電郵地址已使用</sys:String>
+
+    <sys:String x:Key="Hi">Hi~</sys:String>
+    <!-- <sys:String x:Key="AuthResultNotFound">未找到驗證結果</sys:String> -->
+    <!-- <sys:String x:Key="AuthIncomplete">無法完成賬戶驗證</sys:String> -->
+    <!-- <sys:String x:Key="AuthIncompleteContent">我們無法完成賬戶驗證，這可能是因爲閣下取消了驗證或其他原因。具體原因：{0}</sys:String> -->
+
+    <!-- <sys:String x:Key="TotalSold">一共售出</sys:String> -->
+    <!-- <sys:String x:Key="Last24Hours">過去 24 小時</sys:String> -->
+    <!-- <sys:String x:Key="SoldPerSecond">每秒售出</sys:String> -->
+    <!-- <sys:String x:Key="Copies">份</sys:String> -->
+
+    <sys:String x:Key="Online">在綫</sys:String>
+    <sys:String x:Key="AFK">挂機</sys:String>
+    <sys:String x:Key="PlayingContent">正在玩：{0}</sys:String>
+
+    <sys:String x:Key="DeleteGameContent">將刪除包括游戲存檔、本體、資源包、光影、模組、游玩記錄等數據。該操作 [無法撤銷]，請謹慎操作！</sys:String>
+
+    <sys:String x:Key="TopLeft">左上角</sys:String>
+    <sys:String x:Key="TopCenter">中上</sys:String>
+    <sys:String x:Key="TopRight">右上角</sys:String>
+    <sys:String x:Key="CenterLeft">左中</sys:String>
+    <sys:String x:Key="Center">正中</sys:String>
+    <sys:String x:Key="CenterRight">右中</sys:String>
+    <sys:String x:Key="BottomLeft">左下角</sys:String>
+    <sys:String x:Key="BottomCenter">中下</sys:String>
+    <sys:String x:Key="BottomRight">右下角</sys:String>
+
+    <!-- <sys:String x:Key="ImageLoadFailed">圖片加載失敗</sys:String> -->
+
+    <sys:String x:Key="SetServerSucceededContent">成功將伺服器設置為：{0}</sys:String>
+
+    <sys:String x:Key="ChangeModEnableFailed">啓用/禁用模組失敗！</sys:String>
+
+    <sys:String x:Key="ConfirmDeleteImageDetail">確定刪除該壁紙？此操作無法撤銷。</sys:String>
+
+    <sys:String x:Key="Higgs">希格斯（最快）</sys:String>
+    <sys:String x:Key="Neutrino">微中子（快速）</sys:String>
+    <sys:String x:Key="Proton">質子（慢速）</sys:String>
+
+    <sys:String x:Key="Stable">穩定</sys:String>
+
+    <sys:String x:Key="ServerNoContent">伺服器無返回</sys:String>
+    <sys:String x:Key="FalseCredential">賬戶或密碼錯誤</sys:String>
+    <sys:String x:Key="UnknownLoginError">未知的登錄錯誤</sys:String>
+
+    <sys:String x:Key="LatestRelease">最新正式版</sys:String>
+    <sys:String x:Key="LatestSnapshot">最新快照版</sys:String>
+
+    <sys:String x:Key="FollowSystem">跟隨系統</sys:String>
+
+    <sys:String x:Key="UnknownErrorOccurs">發生未知錯誤</sys:String>
+
+    <!-- <sys:String x:Key="NowYouCanLogin">現在可以登錄了</sys:String> -->
+    <sys:String x:Key="FailedToUploadAvatar">無法上傳頭像</sys:String>
+
+    <sys:String x:Key="Rank">排行</sys:String>
+    <sys:String x:Key="Popularity">熱門度</sys:String>
+    <sys:String x:Key="UpdateDate">更新日期</sys:String>
+    <sys:String x:Key="Name">名稱</sys:String>
+    <sys:String x:Key="DownloadCount">下載量</sys:String>
+
+    <!-- <sys:String x:Key="TimeBeforeDayUnit">時間（天前）</sys:String> -->
+    <!-- <sys:String x:Key="GameTimeHourUnit">游戲時長（小時）</sys:String> -->
+
+    <sys:String x:Key="CurseForgeSearchTextHint">模組、材質包、光影的名字，例如 'BuildCraft'</sys:String>
+    <sys:String x:Key="GameVersionTextHint">游戲版本，例如 1.15.2</sys:String>
+
+    <sys:String x:Key="Tag">標簽</sys:String>
+    <!-- <sys:String x:Key="SortMethod">排序方式</sys:String> -->
+
+    <sys:String x:Key="VersionList">版本列表</sys:String>
+    <sys:String x:Key="DownloadResource">資源下載</sys:String>
+
+    <sys:String x:Key="Detail">詳細信息</sys:String>
+    <sys:String x:Key="AddonDetail">模組信息</sys:String>
+    <sys:String x:Key="FailedToLoadAddonInfoDetail">無法加載模組詳細信息</sys:String>
+
+    <sys:String x:Key="Resource">資源</sys:String>
+    <sys:String x:Key="OriginalGame">游戲本體</sys:String>
+
+    <sys:String x:Key="UpdateTimeAgo">{0} 前更新</sys:String>
+    <sys:String x:Key="CountDownloads">{0:##,###} 次下載</sys:String>
+
+    <sys:String x:Key="ReleaseEdition">正式版</sys:String>
+    <sys:String x:Key="SnapshotEdition">快照版</sys:String>
+    <sys:String x:Key="AlphaEdition">Alpha 版</sys:String>
+    <sys:String x:Key="BetaEdition">Beta 版</sys:String>
+    <sys:String x:Key="UnknownReleaseEdition">未知發行版本</sys:String>
+
+    <sys:String x:Key="Chat">聊天</sys:String>
+    <sys:String x:Key="Home">主頁</sys:String>
+
+    <sys:String x:Key="AutoScroll">自動滾動</sys:String>
+    <!-- <sys:String x:Key="LogHighlight">日志高亮</sys:String> -->
+
+    <!-- <sys:String x:Key="GameProcessManagement">游戲進程管理</sys:String> -->
+    <sys:String x:Key="KillProcess">結束進程</sys:String>
+
+    <sys:String x:Key="FalseJavaSelectionCase1">此遊戲並未明確標明所需之 Java 版本，但我們認爲該遊戲需以 Java 8 運行環境方可正常啟動。</sys:String>
+    <sys:String x:Key="FalseJavaSelectionCase2">此遊戲啟動時需使用版本為 [{0}] 更新版本 Java 運行環境。</sys:String>
+    <sys:String x:Key="FalseJavaSelectionDetail">但是目前選擇的運行環境版本為 [{0}]。錯誤的Java運行環境可能導致啓動失敗。閣下可以前往 設置-全局游戲設置 獲取 Java。</sys:String>
+
+    <sys:String x:Key="ContinueLaunch">繼續啓動</sys:String>
+    <sys:String x:Key="AutoSelect">自動選擇</sys:String>
+
+    <sys:String x:Key="FailedToAutoSelectJavaMessage">無法從現有 Java 库中选取适合此游戏嘅Java运行環境。該游戲需要的運行環境為 [{0}]。</sys:String>
+
+    <sys:String x:Key="FailedToResolveKey">無法解析密鑰</sys:String>
+    <sys:String x:Key="FailedToResolveKeyDetail">由於無法解析儲存於閣下本地電腦嘅加密密鑰，我哋需要重設該密鑰。因此，閣下需重新完成 LauncherX 嘅賬戶登入程序，同時亦需重新登入所有遊戲賬戶。</sys:String>
+
+    <sys:String x:Key="SwitchAccount">切換賬戶</sys:String>
+
+    <sys:String x:Key="Running">運行中</sys:String>
+    <sys:String x:Key="Stopped">已停止</sys:String>
+
+    <!-- <sys:String x:Key="UnsupportedServer">無法檢測 NAT 類型，可能係伺服器唔支援</sys:String> -->
+    <!-- <sys:String x:Key="UdpBlocked">UDP 長期被封鎖</sys:String> -->
+    <!-- <sys:String x:Key="OpenInternet">開放式互聯網</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricUdpFirewall">公網（UDP 防火牆已啟用）</sys:String> -->
+    <!-- <sys:String x:Key="FullCone">全錐形 NAT</sys:String> -->
+    <!-- <sys:String x:Key="RestrictedCone">受限錐形 NAT</sys:String> -->
+    <!-- <sys:String x:Key="PortRestrictedCone">端口受限錐形 NAT</sys:String> -->
+    <!-- <sys:String x:Key="Symmetric">對稱型 NAT</sys:String> -->
+
+    <!-- <sys:String x:Key="UnsupportedServerDetail">[!] 無法檢測 NAT 類型，可能是伺服器不支持</sys:String> -->
+    <!-- <sys:String x:Key="UdpBlockedDetail">目前 NAT 類型：UDP 長期被封鎖</sys:String> -->
+    <!-- <sys:String x:Key="OpenInternetDetail">未檢測到 NAT，開放式互聯網，閣下擁有公網 IP 地址且防火牆未啟用，此為最佳聯機狀態</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricUdpFirewallDetail">目前 NAT 類型：公網（UDP 防火牆已啟用），防火牆可能會增加聯機難度及失敗率</sys:String> -->
+    <!-- <sys:String x:Key="FullConeDetail">目前 NAT 類型：全錐形 NAT（最佳聯機體驗）</sys:String> -->
+    <!-- <sys:String x:Key="RestrictedConeDetail">目前 NAT 類型：受限錐形 NAT（聯機體驗受限）</sys:String> -->
+    <!-- <sys:String x:Key="PortRestrictedConeDetail">目前 NAT 類型：端口受限錐形 NAT（聯機體驗高度受限）</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricDetail">目前 NAT 類型：對稱型 NAT（可能出現聯機失敗；如使用手機熱點，建議轉用其他網絡）</sys:String> -->
+
+    <!-- <sys:String x:Key="Supported">受支持</sys:String> -->
+    <sys:String x:Key="Unsupported">不受支持</sys:String>
+
+    <sys:String x:Key="PleaseWait">請稍等</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionPleaseWait">請等待當前聯機操作完成，最多需要等1分鐘</sys:String>
+
+    <!-- <sys:String x:Key="ConnectFailed">連線失敗</sys:String> -->
+    <!-- <sys:String x:Key="FailedToCreateRoomDetail">無法創建房間，可能係網絡不穩定導致</sys:String> -->
+
+    <sys:String x:Key="RoomHasNoDescription">房間冇描述</sys:String>
+    <sys:String x:Key="RoomHasNoPwd">房間冇設置密碼</sys:String>
+
+    <!-- <sys:String x:Key="WrongRoomPwd">房間密碼唔正確</sys:String> -->
+    <!-- <sys:String x:Key="WrongRoomId">搵唔到房間，可能係房間ID有誤</sys:String> -->
+
+    <sys:String x:Key="JoinFailed">加入失敗</sys:String>
+    <!-- <sys:String x:Key="JoinFailedDetail">無法加入房間，{0}</sys:String> -->
+
+    <sys:String x:Key="RoomConnectionStr">我使用 LauncherX 創建了一個聯機房間 [{0}] 快加入我的房間吧！#{1}#如果無法複製 Emoji 串，可以嘗試這段 ID [{2}]。也可以複製整段文本來導入！
+    </sys:String>
+    <sys:String x:Key="RoomConnectionStrExported">已成功將房間連線資料匯出到剪貼簿</sys:String>
+
+    <sys:String x:Key="RoomConnectionStrImportFailed1">無法從剪貼簿匯入連線資料，請檢查資料是否正確</sys:String>
+    <sys:String x:Key="RoomConnectionStrImportFailed2">無法從剪貼簿匯入有效連線資料，正確格式應包含「[{9位隨機字符}]」編碼</sys:String>
+
+    <sys:String x:Key="Java8Description">Java 8：適用於 [1.17] 之前版本，部分附加組件（例如 Forge）亦需此版本 Jre</sys:String>
+    <sys:String x:Key="Java16Description">Java 16：適用於 [1.17] 或更新版本遊戲</sys:String>
+    <sys:String x:Key="Java17Description">Java 17：適用於 [1.18 - pre2] 或更新版本遊戲</sys:String>
+    <sys:String x:Key="Java21Description">Java 21：適用於 [1.20.5] 或更新版本遊戲。使用此版本可能提升遊戲效能，但對舊版本兼容性極差</sys:String>
+
+    <sys:String x:Key="ResetAllSettings">重設所有設定</sys:String>
+    <sys:String x:Key="ResetAllSettingsDetail">注意！此操作將完全刪除啟動器設定檔並重新執行設定向導，且無法復原。</sys:String>
+    <sys:String x:Key="FailedToResetSettingsDetail">無法刪除啟動器設定檔，請檢查是否有檔案被佔用。</sys:String>
+
+    <sys:String x:Key="MicrosoftAuthFailed1">驗證失敗，可能原因：用戶輸入錯誤驗證碼、驗證超時或用戶拒絕應用程式請求。</sys:String>
+    <sys:String x:Key="MicrosoftAuthFailed2">提取用戶 claims 時出現問題，缺少必要欄位：email</sys:String>
+
+    <sys:String x:Key="MultiPlayerGames">多人遊戲</sys:String>
+
+    <sys:String x:Key="User">用戶</sys:String>
+    <sys:String x:Key="ManageAccount">賬戶管理</sys:String>
+    <sys:String x:Key="SavedGameAccount">保存的游戲賬戶</sys:String>
+    <sys:String x:Key="Reset">重置</sys:String>
+    <sys:String x:Key="SetOfflineSkin">設置離綫皮膚</sys:String>
+
+    <sys:String x:Key="MultiThreadDownload">多線程及分片下載</sys:String>
+    <sys:String x:Key="MultiThreadDownloadDescription">啟用多線程及分片下載可提升遊戲下載速度，但會明顯影響啟動器效能。</sys:String>
+
+    <sys:String x:Key="ConnectionInfo">連線資訊</sys:String>
+    <!-- <sys:String x:Key="MultiPlayerServiceStatus">聯機服務狀態</sys:String> -->
+    <!-- <sys:String x:Key="Support">支援</sys:String> -->
+
+    <sys:String x:Key="Room">房間</sys:String>
+    <sys:String x:Key="RoomIdHint">房間ID，標準GUID格式</sys:String>
+    <sys:String x:Key="RoomName">房間名稱</sys:String>
+    <sys:String x:Key="RoomDescription">房間描述</sys:String>
+    <sys:String x:Key="RoomPwd">房間密碼</sys:String>
+
+    <sys:String x:Key="CreateRoom">創建房間</sys:String>
+    <sys:String x:Key="ShareRoom">分享房間</sys:String>
+    <sys:String x:Key="JoinRoom">加入房間</sys:String>
+    <sys:String x:Key="IsPrivateRoom">私人房間</sys:String>
+
+    <sys:String x:Key="MultiPlayerConnectionHelper">連線協助</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelperDescription1">啟用此功能後，LauncherX將自動加入日冕群組服務網絡，閣下將成為網絡節點協助其他無法連線嘅玩家轉發流量，此舉可提高其他玩家連線成功率。</sys:String>
+    <!-- <sys:String x:Key="MultiPlayerConnectionHelperDescription2">注意：此服務會佔用部分網絡頻寬。</sys:String> -->
+
+    <sys:String x:Key="BaseUserSettings">用戶基本設定</sys:String>
+    <sys:String x:Key="InsiderPreviewSettings">預覽版體驗設定</sys:String>
+    <sys:String x:Key="AuthDeviceManage">認證裝置管理</sys:String>
+
+    <!-- <sys:String x:Key="StartupUI">啓動界面</sys:String> -->
+    <sys:String x:Key="MainViewUpperForeground">主界面前景文字顏色</sys:String>
+    <sys:String x:Key="BottomNavigationBarOpacity">底部導航列透明度</sys:String>
+    <sys:String x:Key="HideBottomNavigationBarInMainView">在主界面隱藏底部導航列</sys:String>
+    <!-- <sys:String x:Key="BrowseVideo">瀏覽影片</sys:String> -->
+
+    <sys:String x:Key="Text">文字</sys:String>
+    <sys:String x:Key="Performance">效能</sys:String>
+
+    <sys:String x:Key="BackgroundAndAccentColor">啟動界面背景與主題色</sys:String>
+    <sys:String x:Key="BackgroundAndAccentColorDescription">啟動界面背景同主題色可以綁定或者分開設定。</sys:String>
+    <sys:String x:Key="Font">字型</sys:String>
+    <sys:String x:Key="FontDescription">當啟動器喺首選字型搵唔到對應字形時，會從備用字型中查詢。你可以透過字型預覽查看具體效果。</sys:String>
+
+    <sys:String x:Key="RetrySearch">重新搜尋</sys:String>
+    <sys:String x:Key="JavaToolTip">如果系統彈出同Java相關嘅錯誤提示，請關閉提示並嘗試重新安裝你嘅Java實例</sys:String>
+
+    <sys:String x:Key="ResourceCheckMaxDegreeOfParallelism">資源檢查最大並行程度</sys:String>
+
+    <sys:String x:Key="JavaDescription">請留意Java組合框中路徑前嘅符號，呢個表示啟動器對相應Java可用性嘅判斷。</sys:String>
+    <sys:String x:Key="MemorySizeDescription">建議畀 Minecraft 分配 512MB 以上嘅記憶體，避免遊戲運行環境發生記憶體溢出。</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGames">為唔同遊戲版本分開設定</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGamesDescription">本頁面嘅設定會作為預設值應用到所有遊戲版本。你可以喺遊戲列表選擇特定遊戲，然後喺詳細信息中修改各個遊戲嘅設定。</sys:String>
+
+    <!-- <sys:String x:Key="ResetAllSettingsDescription">點擊「重置配置」按鈕後，LauncherX會刪除自己嘅配置檔並關閉。注意：刪除嘅配置將無法恢復。</sys:String> -->
+
+    <sys:String x:Key="Framework">框架</sys:String>
+    <sys:String x:Key="Runtime">運行環境</sys:String>
+    <sys:String x:Key="LauncherCoreVersion">ProjBobcat（啟動核心）版本</sys:String>
+
+    <!-- <sys:String x:Key="NoMoreNewApplication">暫無新申請</sys:String> -->
+
+    <sys:String x:Key="SelectAccount">選擇賬戶</sys:String>
+    <sys:String x:Key="CopyFromClipBoard">從剪貼簿匯入</sys:String>
+    <sys:String x:Key="CopyToClipBoard">複製到剪貼簿</sys:String>
+
+    <sys:String x:Key="UseOneTimeCode">使用一次性驗證碼</sys:String>
+    <sys:String x:Key="LoginToMsAccount">登入Microsoft帳戶</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction1">使用設備的瀏覽器訪問網址：</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction2">並按照網頁提示輸入LauncherX顯示嘅一次性驗證碼。</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction3">完成上述操作後，LauncherX會自動完成剩餘步驟，並將閣下的帳戶加入啟動器。</sys:String>
+
+    <!-- <sys:String x:Key="ModDependencies">模組前置依賴</sys:String> -->
+
+    <sys:String x:Key="CreateFolder">創建目錄</sys:String>
+
+    <sys:String x:Key="FailedToInstallCurseForgePackError">無法安裝 CurseForge 前置環境，請稍後再試。通常係下載源問題，亦可能係網絡波動或其他因素導致。</sys:String>
+    <!-- <sys:String x:Key="DownloadFailedLibError">補全失敗嘅庫文件：{0}文件名：{1}下載鏈接：{2}下載路徑：{3}</sys:String> -->
+    <sys:String x:Key="CompletionFailedMessage">無法成功補全啟動遊戲所需嘅庫文件，你可以等一陣再試。</sys:String>
+
+    <sys:String x:Key="AuthLibInstallMessage1">檢測到使用第三方驗證服務，準備下載 Authlib-Injector</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage2">成功獲取最新版 Authlib-Injector 信息，開始檢查</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage3">Authlib-Injector 下載完成，開始配置</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage4">開始預獲取伺服器配置</sys:String>
+    <sys:String x:Key="AuthLibInstallErrorMessage">無法獲取最新版 Authlib-Injector，可能係網絡錯誤。</sys:String>
+
+    <!-- <sys:String x:Key="DownloadFileCountMessage1">{0} 個可下載項目</sys:String> -->
+
+    <!-- <sys:String x:Key="UnknownWindow">不明視窗</sys:String> -->
+    <sys:String x:Key="SaveExportedModPack">保存導出嘅整合包</sys:String>
+    <sys:String x:Key="UnableToDeleteGame">無法刪除遊戲 {0}</sys:String>
+    <sys:String x:Key="UnableToDeleteGameDetail">刪除遊戲時出錯，請手動刪除！{0}</sys:String>
+    <sys:String x:Key="LocalAccountManagement">本地帳戶管理</sys:String>
+
+    <sys:String x:Key="SystemAccentColorBackground">系統主題色</sys:String>
+    <sys:String x:Key="GlassBackground">琉璃背景</sys:String>
+
+    <sys:String x:Key="FailedToCheckJavaInfoDetail">無法查詢 Java 信息，異常信息：{0}</sys:String>
+    <sys:String x:Key="FailedToCheckSpecificPathJavaInfoDetail">無法獲取路徑 [{0}] 嘅 Java 虛擬機信息，輸出：{1}，錯誤信息：{2}</sys:String>
+    <sys:String x:Key="UnknownJreArch">未知嘅 JRE 架構 [{0}]</sys:String>
+    <sys:String x:Key="UnmatchedJavaArchWarning">
+        檢測到系統架構同 Java 運行環境架構唔匹配：
+        當前系統架構：{0}
+        當前 JRE 架構：{1}
+        使用同系統唔匹配嘅 JRE 運行環境可能導致遊戲效能嚴重下降！
+    </sys:String>
+
+
+    <sys:String x:Key="Colored">着色</sys:String>
+    <sys:String x:Key="HighContrastColored">高對比度着色</sys:String>
+    <sys:String x:Key="VersionCompatibleMcVersionDetail">該版本兼容共 {0} 個 Minecraft 版本</sys:String>
+
+    <sys:String x:Key="Ascending">升序</sys:String>
+    <sys:String x:Key="Descending">降序</sys:String>
+
+    <!-- <sys:String x:Key="NatTypeUnclassified">未分級 - {0}</sys:String> -->
+    <!-- <sys:String x:Key="NatTypeUnclassifiedDetail">當前 NAT 類型為：未分級 - 1，未知嘅連線體驗</sys:String> -->
+
+    <sys:String x:Key="CurseForgeModPack">CurseForge 整合包</sys:String>
+    <sys:String x:Key="ModrinthModPack">Modrinth 整合包</sys:String>
+
+    <sys:String x:Key="EmbeddedLibrary">內置庫</sys:String>
+    <sys:String x:Key="OptionalDependency">可選依賴</sys:String>
+    <sys:String x:Key="RequiredDependency">必需依賴</sys:String>
+    <sys:String x:Key="Tool">工具</sys:String>
+    <sys:String x:Key="Incompatible">不兼容</sys:String>
+    <sys:String x:Key="Include">包含</sys:String>
+
+    <sys:String x:Key="NoEnoughMemory">Minecraft 記憶體不足</sys:String>
+    <sys:String x:Key="NoEnoughMemory32">使用 32 位 Java 運行環境或 32 位操作系統導致記憶體不足</sys:String>
+    <sys:String x:Key="JavaVersionTooHigh">Java 運行環境版本過高</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersion">不支援嘅 Java 運行環境版本</sys:String>
+    <sys:String x:Key="JdkUse">使用 JDK 或高版本 Java 運行環境導致崩潰</sys:String>
+    <sys:String x:Key="OpenJ9Use">使用 OpenJ9 導致崩潰</sys:String>
+    <sys:String x:Key="UnableToSetPixelFormat">顯示卡驅動有問題導致無法設定像素格式</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriver">未使用獨立顯示卡或有問題嘅 Intel 顯示卡驅動</sys:String>
+    <sys:String x:Key="UnsupportedAmdDriver">有問題嘅 AMD 顯示卡驅動</sys:String>
+    <sys:String x:Key="UnsupportedNvDriver">有問題嘅 Nvidia 顯示卡驅動</sys:String>
+    <sys:String x:Key="ModCausedGameCrash">模組導致遊戲崩潰</sys:String>
+    <sys:String x:Key="DecompressedMod">解壓模組導致啟動失敗</sys:String>
+    <sys:String x:Key="IncorrectModConfig">錯誤嘅模組配置</sys:String>
+    <sys:String x:Key="ModMixinFailed">模組注入失敗</sys:String>
+    <sys:String x:Key="ModLoaderError">模組加載器報告錯誤</sys:String>
+    <sys:String x:Key="ModInitFailed">模組初始化失敗</sys:String>
+    <sys:String x:Key="ModIdExceeded">模組數量超出限制</sys:String>
+    <sys:String x:Key="DuplicateMod">重複模組</sys:String>
+    <sys:String x:Key="GpuDoesNotSupportOpenGl">顯示卡不支援 OpenGL</sys:String>
+    <sys:String x:Key="OpenGl1282Error">材質包或光影導致 OpenGL 錯誤</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFine">Optifine 導致無法載入世界</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpu">材質/光影過大或顯示卡性能不足</sys:String>
+    <sys:String x:Key="FabricError">Fabric 錯誤</sys:String>
+    <sys:String x:Key="FabricErrorWithSolution">Fabric 錯誤（含解決方案）</sys:String>
+    <sys:String x:Key="ForgeError">Forge 錯誤</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJava">舊版 Forge 不支援高版本 Java</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJson">版本 Json 中發現多個 Forge 配置</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifine">Forge 與 Optifine 不兼容</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFound">找不到主類或路徑編碼錯誤</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrash">手動觸發嘅調試崩潰</sys:String>
+    <sys:String x:Key="ContentValidationFailed">內容驗證失敗</sys:String>
+    <sys:String x:Key="BlockCausedGameCrash">特定方塊導致崩潰</sys:String>
+    <sys:String x:Key="EntityCausedGameCrash">特定實體導致崩潰</sys:String>
+    <sys:String x:Key="LogFileNotFound">找不到可分析嘅日誌文件</sys:String>
+
+    <sys:String x:Key="NoEnoughMemoryDetail">Minecraft 無法繼續運行，可能係你分配畀遊戲嘅記憶體唔夠或者配置過高。你可以增加分配記憶體、刪除高要求材質包同Mod，或者關閉其他軟件。如果都唔得，可能要考慮換電腦。</sys:String>
+    <sys:String x:Key="NoEnoughMemory32Detail">你而家使用緊32位Java，令Minecraft用唔到超過1GB記憶體導致崩潰。請喺啟動設定轉用64位Java，如果冇安裝可以去[獲取Java]下載。</sys:String>
+    <sys:String x:Key="JavaVersionTooHighDetail">Java版本過高導致遊戲崩潰，請喺啟動設定轉用較低版本Java，或者去[獲取Java]下載合適版本。</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersionDetail">當前Java版本與遊戲唔兼容，請喺啟動設定轉用合適版本，或者去[獲取Java]下載。</sys:String>
+    <sys:String x:Key="JdkUseDetail">使用JDK或Java版本過高導致崩潰，請喺啟動設定轉用JRE。</sys:String>
+    <sys:String x:Key="OpenJ9UseDetail">使用OpenJ9導致崩潰，請喺啟動設定轉用非OpenJ9嘅Java。</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriverDetail">顯示卡驅動有問題或未用獨立顯示卡，請嘗試：使用獨立顯示卡而非Intel整合顯示核心運行、更新或還原驅動程式、轉用Java8或更低版本、考慮升級顯示卡</sys:String>
+
+    <sys:String x:Key="VideoDriverErrorDetail">顯示卡驅動有問題，請嘗試：更新或還原驅動程式、轉用Java8或更低版本、考慮升級顯示卡</sys:String>
+
+    <sys:String x:Key="ModCausedGameCrashDetail">有模組導致遊戲崩潰，請查看下方詳細信息並嘗試禁用或更換相關模組。</sys:String>
+    <sys:String x:Key="DecompressedModDetail">模組檔案被解壓導致問題，請將完整模組檔案放入[mods]資料夾，不要解壓。</sys:String>
+    <sys:String x:Key="IncorrectModConfigDetail">模組配置錯誤導致啟動失敗，請查看下方詳細信息修正錯誤配置。</sys:String>
+    <sys:String x:Key="ModMixinFailedDetail">模組注入失敗，可能係模組有問題或版本唔支援，請查看詳細信息。</sys:String>
+    <sys:String x:Key="ModLoaderErrorDetail">模組加載器報告錯誤，請查看下方詳細信息。</sys:String>
+    <sys:String x:Key="ModInitFailedDetail">模組初始化失敗，請查看下方錯誤信息。</sys:String>
+    <sys:String x:Key="ModIdExceededDetail">模組數量超出限制，超出了游戲 ID 限制，導致游戲崩潰。為解決此問題，可以安裝JEID等修復模組，或刪除部分大型模組。</sys:String>
+    <sys:String x:Key="DuplicateModDetail">重複安裝相同模組，請喺[mods]資料夾刪除重複檔案。</sys:String>
+
+    <sys:String x:Key="OpenGl1282ErrorDetail">光影或材質包導致問題，建議刪除後再試。</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">OptiFine版本唔兼容導致問題（https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world）。請到官網下載兼容版本。或選擇另一版本 OptiFine 進行安裝。</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">渲染距離過高或顯示卡性能不足，請降低設置或升級顯示卡。</sys:String>
+    <sys:String x:Key="FabricErrorDetail">Fabric 報告了一個或多個錯誤，請查看詳細報錯信息。</sys:String>
+    <sys:String x:Key="FabricErrorWithSolutionDetail">Fabric 報告了一個或多個錯誤並提供解決方案，請查看詳細信息。</sys:String>
+    <sys:String x:Key="ForgeErrorDetail">Forge 報告了一個或多個錯誤，請查看詳細信息。</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">舊版Forge(低於36.2.26)唔支援新Java，請更新Forge或更換Java版本。</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJsonDetail">其他啟動器修改導致Forge異常，請重新安裝Forge，不要使用其他啓動器修改Forge版本。</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifineDetail">OptiFine與Forge版本唔兼容，請到OptiFine官網（https://optifine.net/downloads）下載兼容版本。</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">路徑編碼錯誤或主類缺失，請將遊戲目錄移到冇中文嘅路徑，或重新安裝遊戲。如無法解決問題，請向開發者報告。</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrashDetail">你手動觸發咗調試崩潰。</sys:String>
+    <sys:String x:Key="ContentValidationFailedDetail">下載時網絡問題導致校驗失敗，請刪除遊戲重新下載，並保持網絡穩定。</sys:String>
+    <sys:String x:Key="BlockCausedGameCrashDetail">某個方塊導致崩潰，請在下方詳細信息查詢該方塊信息（ID、坐標等）並用編輯器刪除該方塊，如無法解決問題，請重新創建新世界或考慮其他因素。</sys:String>
+    <sys:String x:Key="EntityCausedGameCrashDetail">某個實體導致崩潰，請在下方詳細信息查詢該實體信息（ID、坐標等）並用編輯器刪除該實體，如無法解決問題，請重新創建新世界或考慮其他因素。</sys:String>
+    <sys:String x:Key="LogFileNotFoundDetail">分析器缺少日誌文件無法分析，請聯繫開發者。</sys:String>
+    <sys:String x:Key="OtherCausedGameCrashDetail">不明原因導致崩潰，請聯繫開發者。</sys:String>
+
+    <sys:String x:Key="DirectConnect">直連</sys:String>
+
+    <sys:String x:Key="ArchiveCorrupted">壓縮檔損壞，我哋無法讀取內容。</sys:String>
+    <sys:String x:Key="ModPackJsonCorruptedDetail">清單檔案損壞，無法讀取內容。{0}</sys:String>
+    <sys:String x:Key="NetworkUnstable">通常係網絡波動導致。</sys:String>
+    <sys:String x:Key="FailedToLoadModPack">無法載入整合包資訊</sys:String>
+    <sys:String x:Key="FailedToLoadModPackDetail">無法載入 {0} 整合包詳細資訊，但你仍可嘗試繼續安裝。詳細資料：{1}</sys:String>
+
+    <sys:String x:Key="InvalidPath">無效路徑</sys:String>
+    <sys:String x:Key="FailedToLoadOriginalGameInfo">無法載入原版遊戲資訊，可能係網絡問題。</sys:String>
+
+    <sys:String x:Key="NeoForgedDescription">NeoForged 係一個源自 Minecraft Forge 嘅新開發分支，由大部分原 Forge 開發人員組成。</sys:String>
+    <sys:String x:Key="QuiltDescription">Quilt 係一個開源、社區驅動嘅改裝工具鏈，主要為 Minecraft 設計。</sys:String>
+
+    <sys:String x:Key="FailedToReadFromClipBoard">無法從剪貼簿讀取內容。</sys:String>
+    <sys:String x:Key="FolderDraggedOrFileNotExists">檔案不存在或你拖入咗一個資料夾</sys:String>
+    <sys:String x:Key="FileTypeUnknownDetail">檔案 {0} 包含未知檔案類型</sys:String>
+
+    <sys:String x:Key="FailedToReadUpdatedFile">無法讀取下載到嘅更新檔案，請嘗試手動更新！</sys:String>
+    <sys:String x:Key="DownloadedUpdateDoesNotContainExecutable">下載到嘅更新檔案唔包含應用程式，請聯繫系統管理員！</sys:String>
+    <sys:String x:Key="DownloadedUpdateHashUnmatched">下載到嘅更新檔案哈希值不符，請聯繫系統管理員！</sys:String>
+    <sys:String x:Key="FailedToInitFileStream">無法初始化檔案流，請聯繫系統管理員！</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedMessage">更新下載完成</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedDetailMessage">點擊確定打開下載完成嘅更新壓縮檔，解壓後手動替換舊應用程式。點擊確定後程式會自動退出。</sys:String>
+
+    <sys:String x:Key="Customization">自訂</sys:String>
+    <sys:String x:Key="ModPack">整合包</sys:String>
+    <sys:String x:Key="BukkitPlugins">Bukkit插件</sys:String>
+    <sys:String x:Key="Addons">附加元件(Addons)</sys:String>
+    <sys:String x:Key="Worlds">地圖存檔</sys:String>
+    <sys:String x:Key="Mods">模組</sys:String>
+
+    <sys:String x:Key="FailedToSaveUserSettingsDetail">暫時無法儲存用戶設定，請稍後再試。</sys:String>
+    <!-- <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">無法創建房間，因為房間名為空</sys:String> -->
+    <sys:String x:Key="FailedToPerformGroupOpDetail">{0}伺服器回傳原因：{1}</sys:String>
+    <sys:String x:Key="RoomDismissed">房間已解散</sys:String>
+	<sys:String x:Key="RoomDismissedDetail">房間已被房主解散，你已自動離開</sys:String>
+	<sys:String x:Key="Joined">加入咗房間</sys:String>
+	<sys:String x:Key="Left">離開咗房間</sys:String>
+	<sys:String x:Key="Kicked">被房主踢出房間</sys:String>
+	<sys:String x:Key="Disconnected">斷開連接</sys:String>
+	<sys:String x:Key="RoomMemberChanged">成員資訊變更</sys:String>
+	<sys:String x:Key="FailedToKickMember">踢出成員失敗</sys:String>
+	<sys:String x:Key="FailedToKickSelf">無法踢出自己</sys:String>
+	<sys:String x:Key="FailedToKickMemberDetail">無法踢出成員，可能係網絡問題或伺服器錯誤。伺服器回傳原因：{0}</sys:String>
+	<sys:String x:Key="MemberKicked">成功踢出成員</sys:String>
+    <!-- <sys:String x:Key="MemberKickedDetail">已成功踢出成員 {0}</sys:String> -->
+	<sys:String x:Key="RoomExited">你已退出房間</sys:String>
+	<sys:String x:Key="RoomExitedDetail">你已退出房間或房間被解散</sys:String>
+
+    <sys:String x:Key="ThirdPartyLogin">第三方登入</sys:String>
+
+    <sys:String x:Key="SaveSupportPack">儲存支援包</sys:String>
+	<sys:String x:Key="TryLaunchedGame">嘗試啟動嘅遊戲</sys:String>
+	<sys:String x:Key="GameResourcePath">遊戲資源路徑</sys:String>
+	<sys:String x:Key="GameVersion">遊戲版本</sys:String>
+	<sys:String x:Key="VersionInsulation">版本隔離</sys:String>
+	<sys:String x:Key="Authenticator">驗證模式</sys:String>
+	<sys:String x:Key="MinMemoryInMb">最小記憶體 (MB)</sys:String>
+	<sys:String x:Key="MaxMemoryInMb">最大記憶體 (MB)</sys:String>
+
+    <!-- <sys:String x:Key="GameResourceNotFound">資源不存在</sys:String> -->
+	<!-- <sys:String x:Key="GameResourceNotFoundDetail">該遊戲不存在資源：{0}，已隱藏該標籤。</sys:String> -->
+	<sys:String x:Key="ChooseModPackFile">選擇整合包檔案</sys:String>
+	<sys:String x:Key="SinceNow">距今已經</sys:String>
+	<sys:String x:Key="Published">發佈咗</sys:String>
+	<sys:String x:Key="NumVersion">{0} 個版本</sys:String>
+	<!-- <sys:String x:Key="SearchOnTheInternet">在互聯網上查找：</sys:String> -->
+
+    <sys:String x:Key="GameNotInstall">未安裝遊戲</sys:String>
+	<sys:String x:Key="GameNotInstallDetail">你仲未安裝任何遊戲，請點擊下方下載標籤安裝。</sys:String>
+	<sys:String x:Key="GameNotSelectDetail">你仲未固定遊戲，請在列表中選擇遊戲並點擊右側圖釘圖標固定。</sys:String>
+	<sys:String x:Key="StartLaunchGame">開始嘗試啟動遊戲</sys:String>
+    <sys:String x:Key="RunningOldMineCraftUsingArm64JreWarning">
+        檢測到系統同JRE運行環境都係Arm64架構。
+		但由於你可能運行較舊版本Minecraft，相關實例包含嘅運行環境可能無法在Arm64系統正常運行。
+		LauncherX會嘗試將部分natives替換為對應系統架構啟動，可能修復啟動問題。
+        如有問題請嘗試切換到X86架構JRE運行環境再試。
+    </sys:String>
+    <sys:String x:Key="JreVersionTooHighWarning">
+        你選擇嘅Java版本[{0}]高於遊戲要求版本[{1}]，
+		使用新版本Java可能提升效能，但也可能導致遊戲異常。
+		如遊戲無法正常運行，請切換到遊戲要求嘅Java版本。
+    </sys:String>
+	<sys:String x:Key="FailedToInitAuthenticator">初始化驗證器失敗</sys:String>
+	<sys:String x:Key="FailedToInitAuthenticatorDetail">初始化驗證器失敗，請檢查帳戶有效性</sys:String>
+	<sys:String x:Key="CurrentLaunchSettings">當前啟動配置：</sys:String>
+    <sys:String x:Key="LauncherRunningUnderTranslationWarning">
+        檢測到LauncherX可能運行於ARM64處理器模擬嘅X86環境，轉譯層運行可能導致性能下降與異常。
+		可能導致問題：
+		- 無法正確識別檢測Java運行環境狀態
+		- 嚴重性能下降
+		- 部分功能異常
+
+		請確認系統架構並重新下載LauncherX。
+    </sys:String>
+    <sys:String x:Key="TryingToLoginToCsAccount">嘗試登入日冕帳戶</sys:String>
+	<sys:String x:Key="FailedToLoginToCsAccount">無法登入日冕帳戶</sys:String>
+	<sys:String x:Key="LoggedIntoCsAccount">成功登入日冕帳戶</sys:String>
+	<sys:String x:Key="OpenDeviceManagementPage">打開裝置管理頁面並登出</sys:String>
+	<sys:String x:Key="LogoutAndReturn">登出並返回</sys:String>
+
+    <sys:String x:Key="InstallOptifineAsMod">將Optifine作為模組安裝</sys:String>
+	<sys:String x:Key="InstallOptifineAsModDetail">Optifine會作為模組安裝到Fabric中。安裝完成後，你需要手動下載安裝OptiFabric模組。你可以在下載-CurseForge標籤頁查找該模組。</sys:String>
+	<sys:String x:Key="EnterOfflineModeDetail">進入離線模式，可在無網絡情況下使用。大部分功能將被停用！</sys:String>
+
+    <sys:String x:Key="NewFileDragged">你拖入咗一個新檔案</sys:String>
+	<sys:String x:Key="TryingToDetermineFileType">正在嘗試自動確認檔案類型</sys:String>
+	<sys:String x:Key="FileTypeDetected">成功識別，可能嘅檔案類型：</sys:String>
+
+	<sys:String x:Key="DownloadReadyToRunBuild">下載 ReadyToRun 構建</sys:String>
+	<sys:String x:Key="DownloadReadyToRunBuildDetail">使用 ReadyToRun 編譯嘅啟動器理論性能更高，但啟動器檔案大小亦會增加。</sys:String>
+
+	<sys:String x:Key="CheckCSKBArticle">查看 CSKB 文章</sys:String>
+	<sys:String x:Key="MojangNoArm64JreSupportWarning">由於 Mojang 官方目前未支援 Arm64 版本 JRE 下載，請參考日冕知識庫或網上教學手動安裝運行環境。</sys:String>
+
+	<sys:String x:Key="DataCollectionOptions">數據收集選項</sys:String>
+	<sys:String x:Key="DataCollectionOptionsDetail">LauncherX 使用 Azure Application Insight 收集關鍵運行數據同崩潰資訊，幫助我哋改善用戶體驗同修復問題。</sys:String>
+	<sys:String x:Key="EnableTelemetry">啟用遙測</sys:String>
+	<sys:String x:Key="DataCollectionManifest">數據收集清單</sys:String>
+	<sys:String x:Key="DataCollectionTitle1">LauncherX 會收集並傳輸包括</sys:String>
+	<sys:String x:Key="DataCollectionTitle2">但不限於</sys:String>
+	<sys:String x:Key="DataCollectionTitle3">下表數據來幫助改進：</sys:String>
+	<sys:String x:Key="DataCollectionManifestDetail1">- 用戶電腦配置資訊</sys:String>
+	<sys:String x:Key="DataCollectionManifestDetail2">- 電腦名稱</sys:String>
+	<sys:String x:Key="DataCollectionManifestDetail3">- 啟動器內網絡活動</sys:String>
+	<sys:String x:Key="DataCollectionManifestDetail4">- 啟動器任務調度詳情</sys:String>
+	<sys:String x:Key="DataCollectionManifestDetail5">- 啟動器產生嘅任何日誌資訊</sys:String>
+	<sys:String x:Key="DataCollectionManifestDetail6">- 部分啟動器操作事件</sys:String>
+	<sys:String x:Key="DataCollectionManifestDetail7">- 崩潰資訊</sys:String>
+
+    <sys:String x:Key="CurseForgeApiLimitWarning">由於API限制，最多只會顯示10,000個項目。如要查看更多，請自行前往CurseForge官網。</sys:String>
+	<sys:String x:Key="InTotal">共</sys:String>
+	<sys:String x:Key="Pages">頁</sys:String>
+
+	<sys:String x:Key="ModNotFoundDetail">搵唔到任何模組，或者部分模組已損壞未顯示。</sys:String>
+	<sys:String x:Key="GoToDownloadPage">前往下載頁面</sys:String>
+
+	<sys:String x:Key="HiveVersion">Hive網絡庫版本</sys:String>
+	<sys:String x:Key="ConnectXVersion">ConnectX連線組件版本</sys:String>
+
+	<sys:String x:Key="PinAccountAtAccountPage">喺帳戶頁面固定啟動帳戶</sys:String>
+	<sys:String x:Key="CheckJreStatus">檢查Jre狀態</sys:String>
+	<sys:String x:Key="DeepSearch">深度搜索</sys:String>
+	<sys:String x:Key="DeepSearchDetail">使用深度搜索Java時，LauncherX會搜索本機所有磁碟尋找JRE。視乎電腦性能同磁碟數量，過程可能需要數十秒或更長時間。</sys:String>
+
+	<sys:String x:Key="UseProgressiveBlur">使用漸進式模糊優化上層文字顯示效果</sys:String>
+	<sys:String x:Key="ProgressiveBlurStrength">漸進式模糊效果強度</sys:String>
+	<sys:String x:Key="ShowUpperTextShadow">顯示上層文字陰影</sys:String>
+	<sys:String x:Key="ImagePlusEffect">背景視差效果</sys:String>
+	<sys:String x:Key="UseSystemAccentColorAsPrimaryColor">使用系統主題色作為主色</sys:String>
+
+	<!-- <sys:String x:Key="CheckUpnpStatusDetail">請檢查你嘅路由器係咪已開啟UPNP功能。如果已開啟，請檢查係咪處於多層路由網絡環境</sys:String> -->
+	<sys:String x:Key="Operation">操作</sys:String>
+	<sys:String x:Key="LeaveRoom">離開房間</sys:String>
+	<sys:String x:Key="DisconnectService">斷開服務</sys:String>
+	<sys:String x:Key="KickFromRoom">從房間踢出</sys:String>
+
+	<sys:String x:Key="MojangApiLimitWarning">由於官方API請求限制，建議使用Mojang下載源時唔好設置超過5個線程，否則可能導致大量請求失敗。</sys:String>
+
+	<sys:String x:Key="Sponsor">贊助者</sys:String>
+	<sys:String x:Key="SponsorPageSubTitle">LauncherX嘅發展離唔開每位贊助者嘅支持！</sys:String>
+	<sys:String x:Key="SponsorSourceDetail">呢個贊助者列表來自[愛發電]平台。排名不分先後，每日更新一次，只顯示部分最新贊助記錄。</sys:String>
+	<sys:String x:Key="SponsorList">贊助者列表</sys:String>
+
+    <sys:String x:Key="LoginToCsAccountForMoreFeatures">登入日冕帳號以使用更多功能</sys:String>
+	<sys:String x:Key="ClickAccountCardToPreview">點擊右側帳號卡片預覽</sys:String>
+	<sys:String x:Key="SwitchTo3DView">切換到 3D 視圖</sys:String>
+	<sys:String x:Key="ThreeDOptions">3D 選項</sys:String>
+	<sys:String x:Key="EnableAnimation">啟用動畫</sys:String>
+	<sys:String x:Key="DisableAnimation">停用動畫</sys:String>
+	<sys:String x:Key="ShowUpperSkin">顯示上層皮膚</sys:String>
+	<sys:String x:Key="HideUpperSkin">隱藏上層皮膚</sys:String>
+	<sys:String x:Key="ShowCape">顯示披風</sys:String>
+	<sys:String x:Key="HideCape">隱藏披風</sys:String>
+	<sys:String x:Key="SwitchTo2DView">切換到 2D 視圖</sys:String>
+
+	<sys:String x:Key="LoadingModInfo">正在載入模組資訊，請耐心等候。</sys:String>
+
+	<sys:String x:Key="AddGameResource">新增遊戲資源</sys:String>
+	<sys:String x:Key="Logs">日誌</sys:String>
+	<sys:String x:Key="ExportAs">匯出為</sys:String>
+
+	<sys:String x:Key="LoadLargeItemWarning">載入大型項目時界面可能會短暫無反應，請耐心等候。</sys:String>
+
+	<sys:String x:Key="CurrentStatus">當前狀態：</sys:String>
+
+	<sys:String x:Key="Source">來源</sys:String>
+	<sys:String x:Key="Solution">解決方案</sys:String>
+	<sys:String x:Key="GenerateSupportPack">產生支援包</sys:String>
+
+	<sys:String x:Key="GameProcessExited">遊戲進程已結束</sys:String>
+	<sys:String x:Key="Back">返回</sys:String>
+	<sys:String x:Key="InOfflineDetail">已離線，大部分功能已停用</sys:String>
+	<sys:String x:Key="TryingToAutoLogin">正在嘗試自動登入...</sys:String>
+
+	<sys:String x:Key="LoadingMainWindow">正在載入主視窗</sys:String>
+	<sys:String x:Key="MainWindowLoaded">主視窗載入完成</sys:String>
+	<sys:String x:Key="MultipleDragNotSupport">主視窗暫不支援多檔案拖放功能</sys:String>
+	<sys:String x:Key="UnsupportedFunction">暫不支援的功能</sys:String>
+	<sys:String x:Key="FailedToGetDraggedFilePath">無法取得拖入檔案的路徑</sys:String>
+	<sys:String x:Key="FilePathEmpty">檔案路徑為空</sys:String>
+	<sys:String x:Key="FileDragEventTriggered">檔案拖放事件觸發</sys:String>
+	<sys:String x:Key="OfficialWebsite">官方網站</sys:String>
+
+	<sys:String x:Key="PreviousPage">上一頁</sys:String>
+	<sys:String x:Key="NextPage">下一頁</sys:String>
+
+	<sys:String x:Key="Month">月</sys:String>
+
+	<sys:String x:Key="Yesterday">昨天</sys:String>
+	<sys:String x:Key="DayBeforeYesterday">前天</sys:String>
+
+	<sys:String x:Key="More">更多</sys:String>
+	<sys:String x:Key="Compatibility">兼容性</sys:String>
+
+    <sys:String x:Key="Fishing">偷鷄ing</sys:String>
+    <sys:String x:Key="Sleeping">揾周公ing</sys:String>
+    <sys:String x:Key="Busy">做紧嘢</sys:String>
+    <sys:String x:Key="Happy">好冧</sys:String>
+    <sys:String x:Key="Emo">閉翳</sys:String>
+    <sys:String x:Key="Studying">学习中</sys:String>
+    <sys:String x:Key="Eating">食飯ing</sys:String>
+
+    <!--> 关于这个字段，可以改成相关语言的梗词之类的 <-->
+
+    <sys:String x:Key="X">手冫中冫中</sys:String>
+
+	<sys:String x:Key="ResourcePackNotFoundDetail">搵唔到任何資源包</sys:String>
+	<sys:String x:Key="ScreenshotNotFoundDetail">搵唔到任何遊戲截圖</sys:String>
+	<sys:String x:Key="ShaderPackNotFoundDetail">搵唔到任何光影</sys:String>
+
+
+    <!-- CurseForge分类 START -->
+    <sys:String x:Key="Teleportation">傳送類</sys:String>
+	<sys:String x:Key="LuckyBlocks">幸運方塊</sys:String>
+	<sys:String x:Key="BuildingGadgets">建築工具</sys:String>
+	<sys:String x:Key="Buildcraft">建築工藝</sys:String>
+	<sys:String x:Key="Galacticraft">星際模組相關</sys:String>
+	<sys:String x:Key="RolePlaying">角色扮演</sys:String>
+	<sys:String x:Key="HardcoreQuestingMode">極限模式任務</sys:String>
+	<sys:String x:Key="Guidebook">指引書</sys:String>
+	<sys:String x:Key="AdminTools">管理員工具</sys:String>
+	<sys:String x:Key="TinkersConstruct">匠魂相關</sys:String>
+	<sys:String x:Key="BloodMagic">血魔法相關</sys:String>
+	<sys:String x:Key="Progression">進度相關</sys:String>
+	<sys:String x:Key="DeveloperTools">開發工具</sys:String>
+	<sys:String x:Key="Mechanics">機制修改</sys:String>
+	<sys:String x:Key="Miscellaneous">雜項</sys:String>
+	<sys:String x:Key="ChatRelated">聊天系統相關</sys:String>
+	<sys:String x:Key="AntiGriefingTools">反作弊</sys:String>
+	<sys:String x:Key="Mobs">生物</sys:String>
+	<sys:String x:Key="Multiplayer">多人遊戲向</sys:String>
+	<sys:String x:Key="Recipes">合成配方</sys:String>
+	<sys:String x:Key="MapAndInformation">地圖與資訊</sys:String>
+	<sys:String x:Key="GameMap">遊戲地圖</sys:String>
+	<sys:String x:Key="MiniGame">小遊戲</sys:String>
+	<sys:String x:Key="Medieval">中世紀</sys:String>
+	<sys:String x:Key="Thaumcraft">神秘時代相關</sys:String>
+	<sys:String x:Key="TwitchIntegration">Twitch組件</sys:String>
+	<sys:String x:Key="Creation">創造</sys:String>
+	<sys:String x:Key="PlayerTransport">玩家交通</sys:String>
+	<sys:String x:Key="EnergyFluidAndItemTransport">能量流體與物品傳輸</sys:String>
+	<sys:String x:Key="Steampunk">蒸汽龐克</sys:String>
+	<sys:String x:Key="Automation">自動化</sys:String>
+	<sys:String x:Key="WorldGen">世界生成</sys:String>
+	<sys:String x:Key="DataPacks">數據包</sys:String>
+	<sys:String x:Key="SmallLight">輕量級</sys:String>
+	<sys:String x:Key="Configuration">配置類</sys:String>
+	<sys:String x:Key="Food">美食模組</sys:String>
+	<sys:String x:Key="WorldEditingAndManagement">世界編輯與管理</sys:String>
+	<sys:String x:Key="Traditional">傳統</sys:String>
+	<sys:String x:Key="IndustrialCraft">工業模組相關</sys:String>
+	<sys:String x:Key="APIAndLibrary">前置與依賴</sys:String>
+	<sys:String x:Key="AdventureAndRPG">冒險與角色扮演</sys:String>
+	<sys:String x:Key="FontPacks">字體包</sys:String>
+	<sys:String x:Key="ModdedWorld">修改後嘅地圖</sys:String>
+	<sys:String x:Key="Economy">經濟</sys:String>
+	<sys:String x:Key="Scenarios">景觀</sys:String>
+	<sys:String x:Key="ServerUtility">伺服器工具</sys:String>
+	<sys:String x:Key="Skyblock">空島</sys:String>
+	<sys:String x:Key="Farming">農業玩法</sys:String>
+	<sys:String x:Key="General">一般</sys:String>
+	<sys:String x:Key="Adventure">冒險類</sys:String>
+	<sys:String x:Key="Hardcore">硬核模組</sys:String>
+	<sys:String x:Key="CombatPvP">戰鬥</sys:String>
+	<sys:String x:Key="KubeJS">KubeJS腳本</sys:String>
+	<sys:String x:Key="Biomes">生物群系</sys:String>
+	<sys:String x:Key="Energy">能源</sys:String>
+	<sys:String x:Key="ThermalExpansion">熱力系列擴展</sys:String>
+	<sys:String x:Key="VanillaPlus">原版增強</sys:String>
+	<sys:String x:Key="UtilityQoL">QoL與工具</sys:String>
+	<sys:String x:Key="Fixes">修復類</sys:String>
+	<sys:String x:Key="FancyMenu">FancyMenu配置</sys:String>
+	<sys:String x:Key="Structures">結構(生成)</sys:String>
+	<sys:String x:Key="ArmorToolsAndWeapons">戰鬥用品與工具</sys:String>
+	<sys:String x:Key="WorldGenerators">世界生成</sys:String>
+	<sys:String x:Key="Fun">趣味模組</sys:String>
+	<sys:String x:Key="WebsiteAdministration">網站管理</sys:String>
+	<sys:String x:Key="Genetics">遺傳</sys:String>
+	<sys:String x:Key="SciFi">科幻</sys:String>
+	<sys:String x:Key="Puzzle">解密</sys:String>
+	<sys:String x:Key="Create">機械動力相關</sys:String>
+	<sys:String x:Key="Vanilla">原版修改</sys:String>
+	<sys:String x:Key="Fantasy">奇幻</sys:String>
+	<sys:String x:Key="Magic">魔法</sys:String>
+	<sys:String x:Key="CraftTweaker">CraftTweaker相關</sys:String>
+	<sys:String x:Key="IntegratedDynamics">集成動力相關</sys:String>
+	<sys:String x:Key="Realistic">擬真</sys:String>
+	<sys:String x:Key="OresAndResources">資源類</sys:String>
+	<sys:String x:Key="ExtraLarge">放大化</sys:String>
+	<sys:String x:Key="Processing">物品處理</sys:String>
+	<sys:String x:Key="MCreator">MCreator製作</sys:String>
+	<sys:String x:Key="Exploration">探索類</sys:String>
+	<sys:String x:Key="FTBOfficialPack">FTB官方任務包</sys:String>
+	<sys:String x:Key="Scripts">腳本</sys:String>
+	<sys:String x:Key="Modern">現代風格</sys:String>
+	<sys:String x:Key="Parkour">跑酷地圖</sys:String>
+	<sys:String x:Key="BugFixes">錯誤修復</sys:String>
+	<sys:String x:Key="PerformanceType">性能優化</sys:String>
+	<sys:String x:Key="ModSupport">模組支援</sys:String>
+	<sys:String x:Key="Tech">科技類</sys:String>
+	<sys:String x:Key="Library">支援庫</sys:String>
+	<sys:String x:Key="Utility">工具</sys:String>
+	<sys:String x:Key="Forestry">森林</sys:String>
+	<sys:String x:Key="Technology">科技</sys:String>
+	<sys:String x:Key="Cosmetic">太空</sys:String>
+	<sys:String x:Key="Quests">任務類</sys:String>
+	<sys:String x:Key="Storage">物品儲存</sys:String>
+	<sys:String x:Key="PhotoRealistic">現實圖片</sys:String>
+	<sys:String x:Key="Redstone">紅石</sys:String>
+	<sys:String x:Key="Informational">資訊類</sys:String>
+	<sys:String x:Key="Education">教育相關</sys:String>
+	<sys:String x:Key="Survival">生存類</sys:String>
+	<sys:String x:Key="Animated">動畫</sys:String>
+	<sys:String x:Key="MapBased">基於地圖</sys:String>
+	<sys:String x:Key="X8">8x 材質包</sys:String>
+	<sys:String x:Key="X16">16x 材質包</sys:String>
+	<sys:String x:Key="X32">32x 材質包</sys:String>
+	<sys:String x:Key="X64">64x 材質包</sys:String>
+	<sys:String x:Key="X128">128x 材質包</sys:String>
+	<sys:String x:Key="X256">256x 材質包</sys:String>
+	<sys:String x:Key="X512AndHigher">512x及更高材質</sys:String>
+    <!-- CurseForge分类 END -->
+
+	<sys:String x:Key="StartingBackendHost">開始初始化後端主機</sys:String>
+	<sys:String x:Key="ConnectedToSignalR">成功與 SignalR 伺服器建立連接</sys:String>
+	<sys:String x:Key="DisconnectedToSignalR">從 SignalR 伺服器斷開</sys:String>
+	<sys:String x:Key="FailedToConnectTo">無法連接到 SignalR 伺服器，可能係網絡問題</sys:String>
+	<sys:String x:Key="LoggedIntoCSA">成功登入日冕帳戶，開始連接 SignalR 伺服器</sys:String>
+
+    <sys:String x:Key="InitChatService">初始化聊天服務</sys:String>
+	<sys:String x:Key="LoadChatHistoryMessage">載入與 {0} 嘅聊天記錄</sys:String>
+
+    <sys:String x:Key="InitDeviceService">初始化設備認證服務</sys:String>
+	<sys:String x:Key="LoadingDeviceList">載入註冊設備列表</sys:String>
+	<sys:String x:Key="DeviceListLoaded">成功從伺服器獲取到設備列表</sys:String>
+	<sys:String x:Key="DeviceListLoadedCount">設備列表載入完成，共 {deviceCount} 個設備</sys:String>
+	<sys:String x:Key="TryRegisterDevice">嘗試註冊設備</sys:String>
+	<sys:String x:Key="TryRegisterDeviceDetail">設備 {0} 註冊成功</sys:String>
+
+    <sys:String x:Key="TryUnregisterDevice">嘗試反註冊設備</sys:String>
+	<sys:String x:Key="TryUnregisterDeviceDetail">設備 {0} 反註冊成功</sys:String>
+
+    <sys:String x:Key="InitFriendService">初始化好友服務</sys:String>
+	<sys:String x:Key="LoadingFriendList">載入用戶好友列表</sys:String>
+	<sys:String x:Key="FriendListLoadedCount">用戶好友列表獲取完成，共 {0} 個好友</sys:String>
+
+    <sys:String x:Key="InitUpdateService">初始化更新服務</sys:String>
+	<sys:String x:Key="StartCheckingLauncherUpdate">開始檢查啟動器本體更新</sys:String>
+	<sys:String x:Key="LatestBuildFetched">成功從伺服器獲取最新構建</sys:String>
+	<sys:String x:Key="UpdateFoundDetail">發現更新版本，ID：{0}</sys:String>
+	<sys:String x:Key="NoUpdateFound">沒有檢測到本體更新</sys:String>
+
+    <sys:String x:Key="PleaseTryAgainLaterDetail">你可以多次嘗試嚟解決呢個問題。詳細資訊：{0}</sys:String>
+
+    <sys:String x:Key="CanNotSafeDeleteMessage">
+    此遊戲被其他遊戲依賴，刪除會導致依賴嘅遊戲被隱藏。你確定要刪除嗎？
+    被依賴嘅遊戲版本：[{0}]
+	</sys:String>
+
+    <sys:String x:Key="StartAssetCheck">開始進行遊戲資源(Asset)檢查</sys:String>
+	<sys:String x:Key="NoVersionManifestFound">未提供 Version Manifest，開始下載</sys:String>
+	<sys:String x:Key="NoAssetIndexesFound">未發現 Asset Indexes 檔案，開始下載</sys:String>
+	<sys:String x:Key="FailedToResolveAssetIndexesMessage">解析 Asset Indexes 檔案失敗！原因：{0}</sys:String>
+	<sys:String x:Key="AssetIndexesDownloaded">Asset Indexes 檔案下載完成</sys:String>
+	<sys:String x:Key="StartResolveAssetIndexes">開始解析 Asset Indexes 檔案...</sys:String>
+	<sys:String x:Key="FileBrokenOrEmpty">檔案可能損壞或為空</sys:String>
+	<sys:String x:Key="StartCheckingAssets">檢索並驗證 Asset 資源</sys:String>
+	<sys:String x:Key="AssetsResolved">Assets 解析完成</sys:String>
+
+	<sys:String x:Key="StartLibraryCheck">開始進行遊戲程式庫(Library)檢查</sys:String>
+	<sys:String x:Key="StartCheckingLibraries">檢索並驗證 Library</sys:String>
+	<sys:String x:Key="LibraryResolved">檢查 Library 完成</sys:String>
+
+	<sys:String x:Key="Auto">自動</sys:String>
+	<sys:String x:Key="Visible">可見</sys:String>
+	<sys:String x:Key="Hidden">不可見</sys:String>
+
+    <sys:String x:Key="Low">低</sys:String>
+	<sys:String x:Key="Medium">中</sys:String>
+	<sys:String x:Key="High">高</sys:String>
+	<sys:String x:Key="Extreme">最高</sys:String>
+
+    <sys:String x:Key="DownloadToTargetFolder">下載到指定目錄</sys:String>
+	<sys:String x:Key="DownloadToTargetGame">下載到遊戲</sys:String>
+
+	<sys:String x:Key="CanUpgradeTo">可更新到：</sys:String>
+	<sys:String x:Key="FollowingFileWillBeDeleted">更新將刪除以下檔案：</sys:String>
+	<sys:String x:Key="OpenModWebPage">開啟模組網頁</sys:String>
+
+    <sys:String x:Key="FailedToInit3DSkinPreview">初始化 3D 皮膚預覽時出現錯誤</sys:String>
+
+    <sys:String x:Key="DoNotCompress">不嘗試壓縮</sys:String>
+
+	<sys:String x:Key="AskIfDownloadDependencies">是否下載相依項目</sys:String>
+	<sys:String x:Key="AskIfDownloadDependenciesDetail">將要下載的檔案可能包含一個或多個相依項目，如果選擇「同時下載相依項目」，LauncherX 將嘗試下載該檔案所需的全部相依項目。</sys:String>
+	<sys:String x:Key="OnlyDownloadFile">僅下載該檔案</sys:String>
+	<sys:String x:Key="AlsoDownloadDependencies">同時下載相依項目</sys:String>
+
+    <sys:String x:Key="AllCacheHasBeenCleared">所有快取檔案均已清除</sys:String>
+	<sys:String x:Key="FailedToClearCache">清理漸進式模糊快取失敗</sys:String>
+
+	<sys:String x:Key="NoAccountSelected">未選擇帳戶</sys:String>
+	<sys:String x:Key="NoAccountSelectedDetail">請檢查是否選擇了有效帳戶</sys:String>
+
+	<sys:String x:Key="InstallablePackFound">發現可安裝的完整套件包</sys:String>
+	<sys:String x:Key="FullPackOpenedDetail">
+		閣下疑似開啟了一個包含待安裝的 LX 完整套件包的檔案。
+		該完整套件包是由第三方分發的，請自行確認該套件包的來源以及確認其並未遭到篡改。
+		可以透過以下資訊來確認該套件包的完整性：
+
+		SHA1: {0}
+		MD5: {1}
+
+		如閣下不瞭解内容含義，請直接點擊下方的刪除按鈕。
+	</sys:String>
+	<sys:String x:Key="IgnoreAndDelete">忽略並刪除</sys:String>
+	<sys:String x:Key="IncorrectSystemArch">不正確的系統架構</sys:String>
+
+    <sys:String x:Key="SettingsNeedToReboot">需要重啟的設定</sys:String>
+	<sys:String x:Key="SettingsNeedToRebootDetail">當前變更的這個設定需要重新啟動啟動器才能完全套用！</sys:String>
+
+    <sys:String x:Key="BasicInfo">基本資料</sys:String>
+	<sys:String x:Key="ModPackName">整合包名稱</sys:String>
+	<sys:String x:Key="ModPackAuthor">整合包作者</sys:String>
+	<sys:String x:Key="ModPackVersion">整合包版本</sys:String>
+	<sys:String x:Key="ReleasePlatform">發佈平台</sys:String>
+    <sys:String x:Key="LauncherSettings">啟動器設定</sys:String>
+	<sys:String x:Key="SaveBasicSettings">儲存基本設定</sys:String>
+	<sys:String x:Key="SaveWallpapers">儲存的桌布（可能大幅增加檔案大小）</sys:String>
+	<sys:String x:Key="GameFiles">遊戲檔案</sys:String>
+    <sys:String x:Key="KeepSettings">保留設定</sys:String>
+	<sys:String x:Key="KeepDefaultSettings">保留預設設定</sys:String>
+	<sys:String x:Key="KeepMods">保留模組</sys:String>
+	<sys:String x:Key="KeepResourcePacks">保留資源包</sys:String>
+	<sys:String x:Key="KeepShaderPacks">保留光影包</sys:String>
+    <sys:String x:Key="AdditionalSettings">額外選項</sys:String>
+	<sys:String x:Key="UseThirdPartyApiToReduceSize">使用第三方 API 壓縮完整包大小</sys:String>
+	<sys:String x:Key="IgnoreDisabledMods">忽略已停用的模組</sys:String>
+	<sys:String x:Key="UseThirdPartyApiToReduceSizeDetail">啟用此功能後，啟動器會嘗試將能從 CurseForge/Modrinth 匹配到的模組檔案替換為對應 ID，並在安裝整合包時重新下載。</sys:String>
+
+    <sys:String x:Key="UseCurseForgeToUpgradeMods">使用 CurseForge 更新此遊戲模組</sys:String>
+	<sys:String x:Key="UseModrinthToUpgradeMods">使用 Modrinth 更新此遊戲模組</sys:String>
+	<sys:String x:Key="DisableModsInsteadDelete">停用而非刪除將被替換的模組</sys:String>
+	<sys:String x:Key="ModUpdateWarningDetail">※ 此更新功能無法保證正確解析模組的相依性資訊。請仔細檢查清單項目並選擇需要更新的模組，完成後請檢查模組資料夾內容！</sys:String>
+    <sys:String x:Key="CurrentSelectedGamePath">目前選擇的遊戲目錄</sys:String>
+	<sys:String x:Key="Exclude">排除</sys:String>
+
+    <sys:String x:Key="DownloadAllDependenciesIfPossible">下載所有相依項目（如存在）</sys:String>
+	<sys:String x:Key="DownloadFileToPathDetail">將檔案下載至 {0} 的 {1} 目錄</sys:String>
+
+    <sys:String x:Key="UseCurseForgeToCheck">使用 CurseForge 檢查</sys:String>
+	<sys:String x:Key="UseModrinthToCheck">使用 Modrinth 檢查</sys:String>
+	<sys:String x:Key="CheckUpdate">檢查更新</sys:String>
+
+    <sys:String x:Key="Translation">翻譯</sys:String>
+	<sys:String x:Key="GameGeneralSettings">遊戲通用設定</sys:String>
+	<sys:String x:Key="JavaVmSettings">Java 虛擬機器設定</sys:String>
+
+    <sys:String x:Key="ResourcesDownloadMaxTry">資源補全最大重試次數</sys:String>
+	<sys:String x:Key="UseQuickResourceCheck">使用快速資源檢查</sys:String>
+	<sys:String x:Key="UseQuickResourceCheckDetail">※ 快速資源檢查可大幅縮短檢查時間，但可能出現漏判情況。如啟動失敗，可嘗試關閉此選項。</sys:String>
+	<sys:String x:Key="NativeLibrariesReplacePolicy">原生程式庫替換策略</sys:String>
+
+    <sys:String x:Key="Color">色彩</sys:String>
+	<sys:String x:Key="Background">背景</sys:String>
+	<sys:String x:Key="ImageStretchMethod">圖片拉伸方式</sys:String>
+	<sys:String x:Key="ProgressiveBlurQuality">背景圖片漸進式模糊品質</sys:String>
+	<sys:String x:Key="ProgressiveBlurQualityDetail">※ 變更品質選項後需點擊下方按鈕清除漸進式模糊快取。變更將在下次套用模糊時生效。較高品質會消耗較多記憶體。</sys:String>
+	<sys:String x:Key="ClearProgressiveBlurCache">清除漸進式模糊快取</sys:String>
+    <sys:String x:Key="UseExternalLanguagePack">[開發者] 使用外部語言文件進行除錯</sys:String>
+	<sys:String x:Key="BasicInterfaceSettings">基本介面設定</sys:String>
+    <!-- <sys:String x:Key="UseNewUI">使用新版 UI</sys:String> -->
+    <sys:String x:Key="MainWindowButtonGroupVisibility">主視窗按鈕群組可見性</sys:String>
+
+    <sys:String x:Key="SupportUs">支援我們</sys:String>
+	<sys:String x:Key="SupportUsDetail">如果閣下喜歡我們的作品，請前往官方發佈頁給予寶貴評價！</sys:String>
+	<sys:String x:Key="LinkToProject">作品連結</sys:String>
+
+    <sys:String x:Key="JavaVmSettingsDetail">選擇全域使用的 Java、下載、搜尋、安裝、管理 Java</sys:String>
+	<sys:String x:Key="GameGeneralSettingsDetail">遊戲記憶體大小、GC、視窗解析度、JavaAgent 參數、進階啟動參數</sys:String>
+	<sys:String x:Key="LauncherBehaviours">啟動器行為</sys:String>
+	<sys:String x:Key="LauncherBehavioursDetail">遊戲資源檢查、原生程式庫替換策略、啟動後行為、記錄檔</sys:String>
+	<sys:String x:Key="BasicSettingsGuide">基本設定指南</sys:String>
+	<sys:String x:Key="JavaVmDownloadTips">關於 Java 執行環境下載的相關提示</sys:String>
+
+
+    <sys:String x:Key="BasicSettingsDetail">背景材質、主視窗花紋、前景文字色彩、底部導覽列樣式</sys:String>
+	<sys:String x:Key="BackgroundDetail">變更背景樣式、圖片背景模糊、視差效果、漸進式模糊</sys:String>
+	<sys:String x:Key="ColorDetail">主題模式、主題色、自訂主題色的計算方式</sys:String>
+	<sys:String x:Key="TextDetail">介面語言、介面字型、語言文件測試</sys:String>
+	<sys:String x:Key="PerformanceDetail">介面動畫效果設定</sys:String>
+	<sys:String x:Key="ExperimentalAnimation">實驗性動畫</sys:String>
+	<sys:String x:Key="ExperimentalAnimationDetail">啟用實驗性動畫可提升介面動畫流暢度並減少資源佔用，但可能出現異常。</sys:String>
+
+    <sys:String x:Key="OpenCurrentGameRoot">開啟目前遊戲根目錄</sys:String>
+	<sys:String x:Key="PublishAsFullPack">發佈為完整包</sys:String>
+	<sys:String x:Key="ChangeListPanelStatus">展開/收合清單</sys:String>
+
+    <sys:String x:Key="FlushLogBuffer">重新整理記錄緩衝區</sys:String>
+	<sys:String x:Key="ContactUs">聯絡我們</sys:String>
+
+    <sys:String x:Key="RoomNotExistsDetail">房間不存在，請檢查房間 ID。</sys:String>
+	<sys:String x:Key="SessionDetachedDetail">用戶狀態失效，請嘗試重新啟動啟動器。</sys:String>
+
+	<sys:String x:Key="AlreadyInRoomDetail">已在房間中！請先離開房間。</sys:String>
+	<sys:String x:Key="GroupIsFullDetail">房間已滿。</sys:String>
+	<sys:String x:Key="PasswordIncorrectDetail">房間密碼錯誤，請檢查密碼。</sys:String>
+	<sys:String x:Key="NetworkControllerErrorDetail">網路控制器未初始化或出錯，請聯絡管理員。</sys:String>
+	<sys:String x:Key="InternalErrorDetail">內部錯誤，請聯絡管理員。</sys:String>
+
+    <sys:String x:Key="ParentVersionNotFoundDetail">{0} 遊戲相依的上層版本缺失</sys:String>
+	<sys:String x:Key="GameJsonCorruptedDetail">{0} 遊戲 Json 損壞</sys:String>
+	<sys:String x:Key="LackGameJsonDetail">{0} 缺少遊戲 Json</sys:String>
+	<sys:String x:Key="NoCandidateJsonFoundDetail">{0} 未找到候選 Json</sys:String>
+	<sys:String x:Key="GamePathNotFoundDetail">{0} 遊戲路徑不存在</sys:String>
+
+    <sys:String x:Key="OfflineResourcePackDescription">LauncherX 自訂離線皮膚資源包</sys:String>
+
+    <sys:String x:Key="SelectUpdateSavePath">選擇更新儲存位置</sys:String>
+	<sys:String x:Key="OsNotSupported">不支援的作業系統</sys:String>
+
+    <sys:String x:Key="ExportFullPackTaskName">匯出 {0} 到完整整合</sys:String>
+	<sys:String x:Key="StartExportModPack">開始匯出整合包...</sys:String>
+	<sys:String x:Key="AddingCoreSupportFiles">[{0}] 向整合包新增核心支援檔案...</sys:String>
+	<sys:String x:Key="AddingFilesToModPack">[{0}] 向整合包新增檔案...</sys:String>
+	<sys:String x:Key="TryStripModPackSize">嘗試縮減整合包大小...</sys:String>
+	<sys:String x:Key="FailedToStripModPackSize">嘗試縮減整合包大小時發生錯誤</sys:String>
+	<sys:String x:Key="DownloadingLauncherStableBuild">下載 LauncherX 穩定版 [{0}]...</sys:String>
+	<sys:String x:Key="ModPackFileSaved">[{0}] 檔案儲存完成</sys:String>
+	<sys:String x:Key="ModPackExportHashMessage">壓縮後的完整包匯出完成，以下是該包的驗證資訊，請提供給使用者以驗證完整性：</sys:String>
+	<sys:String x:Key="StrippedModPackInfo">精簡包驗證資訊 [{0}]</sys:String>
+	<sys:String x:Key="StrippedModPackHashInfo">精簡包雜湊驗證資訊 [{0}]</sys:String>
+	<sys:String x:Key="FullPackExported">整合包匯出完成</sys:String>
+	<sys:String x:Key="FullPackExportedDetail">匯出 {0} 到完整整合 [{1}] 完成</sys:String>
+
+    <sys:String x:Key="ExportToModPackTaskName">匯出 {0} 到 {1} 整合包</sys:String>
+	<sys:String x:Key="FileReplaced">成功替換檔案 {0}...</sys:String>
+	<sys:String x:Key="WritingManifestFile">寫入清單檔案...</sys:String>
+	<sys:String x:Key="SavingFileDetail">正在儲存檔案，這可能需要一些時間...</sys:String>
+
+    <sys:String x:Key="ComputingModHashes">正在計算現有模組的哈希值，這可能需要一些時間...</sys:String>
+	<sys:String x:Key="ResourceDepsResolved">成功解析該資源所需的依賴項目：{0}</sys:String>
+	<sys:String x:Key="FailedToResolveResourceDepsBecauseSha1">無法解析該資源的依賴項目，原因：缺少 SHA1 校驗值</sys:String>
+
+
+    <sys:String x:Key="FailedToInstallBecauseNoOnlineGameList">安裝失敗，無法取得線上遊戲清單。可能是暫時的網路問題。</sys:String>
+	<sys:String x:Key="FailedToAcquireOnlineGameList">無法取得線上遊戲版本，請嘗試在「下載」頁面重新整理線上遊戲清單。</sys:String>
+
+    <sys:String x:Key="FailedToResolveResourceDepsBecauseGameVersion">嘗試取得整合包依賴時發生問題，無法取得整合包基於的 Minecraft 版本，請檢查整合包。</sys:String>
+	<sys:String x:Key="FailedToInstallPreModrinthEnv">無法安裝 Modrinth 前置環境，請稍後重試。這通常是由於下載源的問題導致，也可能是因為網路波動或其他因素。</sys:String>
+
+    <sys:String x:Key="UpdateCurseForgeGameModTaskName">使用 {0} 更新遊戲模組</sys:String>
+
+    <sys:String x:Key="VerifySavedAccountInfo">驗證已儲存的帳戶資訊</sys:String>
+	<sys:String x:Key="VerifyingAccountInfoDetail">正在驗證帳戶 [{0}] 的資訊 （{1} / {2}）</sys:String>
+	<sys:String x:Key="VerificationCompleted">驗證完成</sys:String>
+
+    <sys:String x:Key="GameResolveFailed">[{0}] 遊戲解析失敗 {1}</sys:String>
+
+    <sys:String x:Key="CheckJreTaskName">檢查 Java 執行環境</sys:String>
+
+    <sys:String x:Key="ClearDownloadCacheTaskName">清理下載快取</sys:String>
+	<sys:String x:Key="FileDeletedDetail">成功刪除檔案 [{0}]</sys:String>
+	<sys:String x:Key="DownloadCacheClearedSummary">清理完成，總共清理了 {0} bytes</sys:String>
+
+    <sys:String x:Key="FailedToSetJrePermission">無法設定 Java 執行環境的檔案權限</sys:String>
+	<sys:String x:Key="FailedToSetJrePermissionDetail">無法設定檔案 [{0}] 的權限，請嘗試在終端手動執行指令 [chmod +x \"{0}\"]</sys:String>
+	<sys:String x:Key="FailedToDownloadJre">執行環境下載失敗</sys:String>
+	<sys:String x:Key="FailedToDownloadJreDetail">部分 Java 執行環境檔案下載失敗，請檢查網路環境並重試下載！</sys:String>
+
+    <sys:String x:Key="OriginalGameIdIsEmpty">原版遊戲 ID 為空，請檢查遊戲資訊是否正確。</sys:String>
+	<sys:String x:Key="OriginalGameNotFound">原版遊戲安裝失敗或未找到，請檢查遊戲資訊是否正確。</sys:String>
+	<sys:String x:Key="JavaNotFoundDetail">找不到或未選擇 Java 執行環境，請前往 設定-遊戲設定 進行選擇或安裝。</sys:String>
+	<sys:String x:Key="FailedToDownloadComponentDetail">下載 {0} 失敗，請檢查網路連線或稍後重試。</sys:String>
+	<sys:String x:Key="WaitingForPreviousInstallation">等待上一個安裝結束...</sys:String>
+
+    <sys:String x:Key="FailedToResolveVersion">無法解析版本 {0}</sys:String>
+    <sys:String x:Key="WaitingForGameWindow">啟動遊戲，等待遊戲視窗出現</sys:String>
+	<sys:String x:Key="WaitingForGameProcessToExit">啟動完成，等待遊戲進程結束</sys:String>
+	<sys:String x:Key="FailedToSetUserStatus">無法設定使用者狀態或等待遊戲進程結束！</sys:String>
+
+    <sys:String x:Key="SslCertOutdated">網路可能不穩定或 SSL 憑證過期。</sys:String>
+
+    <sys:String x:Key="GameAlreadyHasConfig">遊戲 {0} 已存在設定</sys:String>
+	<sys:String x:Key="FolderRulesAlreadyExistDetail">這個遊戲已經存在一份 FOLDER_RULES，真的要覆蓋它嗎？</sys:String>
+	<sys:String x:Key="Override">覆蓋</sys:String>
+	<sys:String x:Key="FailedToCreateDefaultRule">無法為 {0} 建立預設的檔案規則</sys:String>
+
+    <sys:String x:Key="FailedToRate">無法評分</sys:String>
+	<sys:String x:Key="FailedToRateBecauseNoPermission">可能是因為沒有對應的權限或權限已被停用。</sys:String>
+	<sys:String x:Key="ResourceAlreadyRated">已經評分過這個資源了！</sys:String>
+	<sys:String x:Key="ResourceAlreadyRatedDetail">每個資源僅能評價一次，如果閣下不滿意目前的資訊，可以在下方提交正確的資訊。</sys:String>
+	<sys:String x:Key="FailedToSubmitResourceInfo">無法提交資源資訊</sys:String>
+	<sys:String x:Key="SuccessfullyRated">評分成功</sys:String>
+	<sys:String x:Key="SuccessfullyRatedDetail">評分成功，我們將會加快對該資源的審核進度！</sys:String>
+
+    <sys:String x:Key="FileIsInUse">遊戲檔案被佔用或其他 IO 錯誤</sys:String>
+	<sys:String x:Key="FileIsInUseDetail">遊戲檔案可能被其他軟體佔用，請檢查是否有遊戲多開或防毒軟體正在掃描遊戲目錄。</sys:String>
+
+    <sys:String x:Key="ContributeCountDetail">成功貢獻 {0} 次</sys:String>
+
+    <sys:String x:Key="DownloadAndInstallModPack">下載並安裝整合包</sys:String>
+
+    <sys:String x:Key="FailedToRemoveWallpaper">刪除桌布失敗</sys:String>
+	<sys:String x:Key="FailedToRemoveWallpaperDetail">無法刪除該桌布！請嘗試稍後手動刪除。檔案名稱：{0}，位於 LauncherX/Bg 目錄中。</sys:String>
+
+
+    <sys:String x:Key="ContributionTranslationDescription">請在下方填寫閣下認為 [{0}] 的正確翻譯。</sys:String>
+	<sys:String x:Key="ContributionLinkDescription">請在下方填寫 [{0}] 的資源連結。</sys:String>
+	<sys:String x:Key="ContributionTagDescription">請在下方填寫符合 [{0}] 內容的分類標籤，多個標籤之間請使用英文逗號（','）分隔。</sys:String>
+
+    <sys:String x:Key="FilterStopped">篩選終止</sys:String>
+	<sys:String x:Key="FilterStoppedBecauseApiLimitation">由於 CurseForge API 的限制，我們終止了進一步的篩選。請嘗試使用更詳細的搜尋關鍵字來幫助閣下更準確地找到需要的資源。</sys:String>
+	<sys:String x:Key="FilterStoppedBecauseUserCancelled">可能是因為請求過多或網路壅塞，我們終止了篩選過程，可以稍後再試。也可能是因為手動取消了篩選。</sys:String>
+	<sys:String x:Key="ResourceInfoAcquisitionTimeout">取得資源資訊逾時</sys:String>
+	<sys:String x:Key="ResourceInfoAcquisitionTimeoutDetail">暫時無法取得資源資訊，可能是網路繁忙導致。{0}</sys:String>
+    <sys:String x:Key="DeleteAllDisabledMod">刪除所有被停用的模組</sys:String>
+	<sys:String x:Key="AreYouSure">確定要這麼做嗎？此操作無法復原。</sys:String>
+	<sys:String x:Key="FailedToDelete">刪除失敗</sys:String>
+	<sys:String x:Key="ModDeletionFailedDetail">此操作可能部分成功，可能需要手動刪除部分刪除失敗的檔案。</sys:String>
+	<sys:String x:Key="RemoveAllUpdateFlags">移除所有模組的更新標記</sys:String>
+	<sys:String x:Key="RemoveAllUpdateFlagsDetail">確定要這麼做嗎？這會使所有模組（包括被停用的）的更新前綴被移除，此操作無法復原。</sys:String>
+	<sys:String x:Key="FailedToRemoveTags">移除標籤失敗</sys:String>
+	<sys:String x:Key="FailedToRemoveTagsDetail">此操作可能部分成功，可能需要手動修改部分修改失敗的檔案。</sys:String>
+
+    <sys:String x:Key="InvalidSessionDetail">無效的登入狀態，可能需要重新登入。</sys:String>
+    <sys:String x:Key="LaunchBrokenGameMessage">正在嘗試啟動一個已損壞的遊戲，請檢查遊戲清單中顯示的錯誤資訊並嘗試解決後再啟動。</sys:String>
+	<sys:String x:Key="EnableAutoJavaSelection">是否啟用自動 Java 選擇？</sys:String>
+	<sys:String x:Key="EnableAutoJavaSelectionDetail">啟用自動 Java 選擇將會由啟動器完全自動決策適合遊戲的 Java 版本，下次不會再彈出對話框。</sys:String>
+    <sys:String x:Key="GoToJavaDownloadPageMessage">點擊「是」可以前往設定頁面下載對應的 Java 版本。</sys:String>
+
+    <sys:String x:Key="ContributeThirdPartyResourceInfo">貢獻第三方資源資訊</sys:String>
+    <sys:String x:Key="DoYouThinkIfTheResourceIsAccurate">資源資訊是否準確？</sys:String>
+	<sys:String x:Key="AddResourceTranslation">新增翻譯</sys:String>
+	<sys:String x:Key="AddResourceLink">新增連結</sys:String>
+	<sys:String x:Key="AddResourceTag">新增標籤</sys:String>
+
+    <sys:String x:Key="UseFolderRules">使用 FOLDER_RULES 規則</sys:String>
+
+    <sys:String x:Key="ResourceContributionWarning">請注意，如果閣下之前已經為該資源提交過補充申請，本次提交會直接覆蓋先前的內容！任何惡意提交的內容在被審核後可能會導致提交權限被封禁。</sys:String>
+
+    <sys:String x:Key="CopyAndOpenVerificationUrl">複製並開啟驗證網站</sys:String>
+
+    <sys:String x:Key="PleaseSelectJreVersion">選擇要下載的 JRE 版本</sys:String>
+
+    <sys:String x:Key="ApiLimitationPageWarning">由於 API 的限制，我們僅能透過現有數據預估大致的剩餘頁數。我們會持續更新可用頁數。</sys:String>
+    <sys:String x:Key="LongWaitHint">如果等待太久，建議在設定-網路中嘗試其他下載源</sys:String>
+
+    <sys:String x:Key="RemoveAllModsUpdatePrefix">移除所有模組的 [UPDATE] 前綴</sys:String>
+	<sys:String x:Key="RemoveAllDisabledMods">刪除所有被停用的模組</sys:String>
+    <sys:String x:Key="AutoSelectSuitableJava">自動選擇適合遊戲的 Java</sys:String>
+
+    <sys:String x:Key="ShadowDepth">陰影深度</sys:String>
+	<sys:String x:Key="ShadowRadius">陰影半徑</sys:String>
+	<sys:String x:Key="ShadowOpacity">陰影不透明度</sys:String>
+
+    <sys:String x:Key="Contributors">貢獻者</sys:String>
+	<sys:String x:Key="ContributorsDescription">此處展示所有參與LauncherX第三方資源貢獻的用戶。感謝每位貢獻者的無私付出！</sys:String>
+	<sys:String x:Key="ContributorList">貢獻者清單</sys:String>
+	<sys:String x:Key="ContributorListDetail">以下按貢獻次數排序顯示貢獻者（最多100項）。完成50次以上貢獻可聯繫管理員開通LauncherX內測權限，未來將獲得更多福利！</sys:String>
+    
+    <sys:String x:Key="UseMultiSourcesCompletion">啟用多重來源補全</sys:String>
+	<sys:String x:Key="MultiSourcesCompletionPolicy">多重來源補全策略</sys:String>
+
+    <sys:String x:Key="NoGameFound">未找到遊戲</sys:String>
+	<sys:String x:Key="NoGameFoundDetail">未偵測到任何遊戲，可點擊下方按鈕前往下載頁面。</sys:String>
+	<sys:String x:Key="GenerateExportSettings">產生匯出設定</sys:String>
+	<sys:String x:Key="EditExportSettings">編輯匯出設定</sys:String>
+	<sys:String x:Key="GameDirectoryManagement">遊戲目錄管理</sys:String>
+	<sys:String x:Key="LauncherRootPath">啟動器根目錄</sys:String>
+
+    <sys:String x:Key="GameCrashDetected">偵測到遊戲異常崩潰</sys:String>
+
+    <sys:String x:Key="TelemetryAndDataCollection">遙測與資料收集</sys:String>
+
+    <sys:String x:Key="PerformingUpdate">更新進行中</sys:String>
+	<sys:String x:Key="PerformingUpdateDetail">LauncherX正在更新，請稍候...</sys:String>
+	<sys:String x:Key="FailedToExtractLauncherIcon">無法解壓縮通知圖示</sys:String>
+	<sys:String x:Key="FailedToExtractLauncherIconDetail">通知圖示解壓縮失敗，不影響啟動器主要功能，但系統通知可能無法顯示圖示。</sys:String>
+
+</ResourceDictionary>
