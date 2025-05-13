@@ -1047,7 +1047,7 @@
     <sys:String x:Key="QuiltDescription">Quilt 项目是一个开源、社区驱动的改装工具链，主要为 Minecraft 设计。</sys:String>
 
     <sys:String x:Key="FailedToReadFromClipBoard">无法从剪切板读取内容。</sys:String>
-    <sys:String x:Key="FolderDraggedOrFileNotExists">文件不存在或是您拖入了一个文件夹</sys:String>
+    <sys:String x:Key="FolderDraggedOrFileNotExists">文件不存在或是选中了一个文件夹</sys:String>
     <sys:String x:Key="FileTypeUnknownDetail">文件 {0} 包含未知的文件类型</sys:String>
 
     <sys:String x:Key="FailedToReadUpdatedFile">无法读取下载到的更新文件，请尝试手动更新！</sys:String>
@@ -1138,7 +1138,7 @@
     <sys:String x:Key="InstallOptifineAsModDetail">Optifine 将作为一个模组安装到 Fabric 中。在安装完成之后，您需要手动下载安装 OptiFabric 模组来将它到 Fabric 中。您可以在 下载-CurseForge 标签页中查找该模组。</sys:String>
     <sys:String x:Key="EnterOfflineModeDetail">进入离线模式，可以在无网络的情况下使用该模式。大部分功能将被禁用！</sys:String>
 
-    <sys:String x:Key="NewFileDragged">您拖入了一个新文件</sys:String>
+    <sys:String x:Key="NewFileDragged">新的资源文件</sys:String>
     <sys:String x:Key="TryingToDetermineFileType">正在尝试自动确认文件的类型</sys:String>
     <sys:String x:Key="FileTypeDetected">成功识别，可能的文件类型：</sys:String>
 
