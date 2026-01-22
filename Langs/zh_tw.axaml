@@ -302,7 +302,7 @@
     <sys:String x:Key="DecompressFailed">Natives解壓錯誤</sys:String>
     <sys:String x:Key="IncompleteArgument">不完整的啟動參數</sys:String>
     <sys:String x:Key="NoJava">未指定Java虛擬機</sys:String>
-    <sys:String x:Key="None">暫無程序</sys:String>
+    <sys:String x:Key="None">暫無</sys:String>
     <sys:String x:Key="OperationFailed">執行錯誤</sys:String>
 
     <sys:String x:Key="Duration">用時</sys:String>
