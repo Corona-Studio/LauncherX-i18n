@@ -886,6 +886,7 @@
   <sys:String x:Key="LoadingModInfo">正在載入模組資訊，請耐心等候。</sys:String>
   <sys:String x:Key="AddGameResource">新增遊戲資源</sys:String>
   <sys:String x:Key="Logs">日誌</sys:String>
+  <sys:String x:Key="NoLogsYet">暫無日誌</sys:String>
   <sys:String x:Key="ExportAs">匯出為</sys:String>
   <sys:String x:Key="LoadLargeItemWarning">載入大型項目時界面可能會短暫無反應，請耐心等候。</sys:String>
   <sys:String x:Key="CurrentStatus">當前狀態：</sys:String>

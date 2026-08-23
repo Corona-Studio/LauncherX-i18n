@@ -1188,6 +1188,7 @@
 
     <sys:String x:Key="AddGameResource">添加游戏资源</sys:String>
     <sys:String x:Key="Logs">日志</sys:String>
+    <sys:String x:Key="NoLogsYet">暂无日志</sys:String>
     <sys:String x:Key="ExportAs">导出为</sys:String>
 
     <sys:String x:Key="LoadLargeItemWarning">在加载某些大型项目时界面可能会出现短暂卡死的现象，请耐心等待。</sys:String>

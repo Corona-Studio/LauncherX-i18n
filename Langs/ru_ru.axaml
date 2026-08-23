@@ -901,6 +901,7 @@
   <sys:String x:Key="LoadingModInfo">Загр. информации Mods...</sys:String>
   <sys:String x:Key="AddGameResource">Доб. ресурс игры</sys:String>
   <sys:String x:Key="Logs">Логи</sys:String>
+  <sys:String x:Key="NoLogsYet">Пока нет логов</sys:String>
   <sys:String x:Key="ExportAs">экспорт</sys:String>
   <sys:String x:Key="LoadLargeItemWarning">Интерфейс может зависать на короткое время при загрузке некоторых крупных проектов...</sys:String>
   <sys:String x:Key="CurrentStatus">Статус: </sys:String>

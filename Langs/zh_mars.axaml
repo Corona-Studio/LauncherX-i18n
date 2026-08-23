@@ -886,6 +886,7 @@
   <sys:String x:Key="LoadingModInfo">囸茬咖酨嗼蒩信息，埥恧杺等待。</sys:String>
   <sys:String x:Key="AddGameResource">婖咖遊戱粢羱</sys:String>
   <sys:String x:Key="Logs">ㄖ梽</sys:String>
+  <sys:String x:Key="NoLogsYet">暫無ㄖ梽</sys:String>
   <sys:String x:Key="ExportAs">导炪潙</sys:String>
   <sys:String x:Key="LoadLargeItemWarning">茬咖酨湈些汏侀頙朩溡鎅媔妸能浍炪哯短暫鉲屍哋哯潒，埥恧杺等待。</sys:String>
   <sys:String x:Key="CurrentStatus">當湔匨忲:</sys:String>

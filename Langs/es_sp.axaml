@@ -882,6 +882,7 @@
   <sys:String x:Key="LoadingModInfo">Cargando información del módulo, espere pacientemente.</sys:String>
   <sys:String x:Key="AddGameResource">Agregar recursos del juego</sys:String>
   <sys:String x:Key="Logs">Iniciar sesión</sys:String>
+  <sys:String x:Key="NoLogsYet">Aún no hay registros</sys:String>
   <sys:String x:Key="ExportAs">Exportar como</sys:String>
   <sys:String x:Key="LoadLargeItemWarning">La interfaz puede congelarse temporalmente al cargar algunos proyectos grandes; tenga paciencia.</sys:String>
   <sys:String x:Key="CurrentStatus">Estado actual:</sys:String>

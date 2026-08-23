@@ -895,6 +895,7 @@
   <sys:String x:Key="LoadingModInfo">方加载模组信，请耐心候。</sys:String>
   <sys:String x:Key="AddGameResource">增戏资</sys:String>
   <sys:String x:Key="Logs">日志</sys:String>
+  <sys:String x:Key="NoLogsYet">暫無日誌</sys:String>
   <sys:String x:Key="ExportAs">出为</sys:String>
   <sys:String x:Key="LoadLargeItemWarning">在加载某些大型项目时界面或将出现短暂卡死之现象，请耐心候。</sys:String>
   <sys:String x:Key="CurrentStatus">今状态:</sys:String>

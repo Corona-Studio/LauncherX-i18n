@@ -886,6 +886,7 @@
   <sys:String x:Key="LoadingModInfo">Chargement des informations des mods, veuillez patienter.</sys:String>
   <sys:String x:Key="AddGameResource">Ajouter une ressource de jeu</sys:String>
   <sys:String x:Key="Logs">Journaux</sys:String>
+  <sys:String x:Key="NoLogsYet">Aucun journal pour le moment</sys:String>
   <sys:String x:Key="ExportAs">Exporter comme</sys:String>
   <sys:String x:Key="LoadLargeItemWarning">L'interface peut se figer brièvement lors du chargement de certains éléments volumineux, veuillez patienter.</sys:String>
   <sys:String x:Key="CurrentStatus">État actuel :</sys:String>

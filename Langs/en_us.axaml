@@ -884,6 +884,7 @@
   <sys:String x:Key="LoadingModInfo">Loading Mod information, hang tight...</sys:String>
   <sys:String x:Key="AddGameResource">Add game resources</sys:String>
   <sys:String x:Key="Logs">Logs</sys:String>
+  <sys:String x:Key="NoLogsYet">No logs yet</sys:String>
   <sys:String x:Key="ExportAs">Export as</sys:String>
   <sys:String x:Key="LoadLargeItemWarning">The interface may freeze temporarily when loading some large projects, please give it a second.</sys:String>
   <sys:String x:Key="CurrentStatus">Current Status:</sys:String>
