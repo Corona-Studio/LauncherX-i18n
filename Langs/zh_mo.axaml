@@ -1564,4 +1564,17 @@ URL：{2}</sys:String>
   <sys:String x:Key="TaskErrorServerSuggestion">1. 稍後重試，等待下載服務恢復。
 2. 在網路設定中切換下載來源。
 3. 若持續較久，請複製診斷資訊並回饋。</sys:String>
+    <sys:String x:Key="InstallTarget">安裝 - {0}</sys:String>
+    <sys:String x:Key="DownloadTarget">下載 - {0}</sys:String>
+    <sys:String x:Key="DeleteTarget">刪除 - {0}</sys:String>
+    <sys:String x:Key="PairWithDash">{0} - {1}</sys:String>
+    <sys:String x:Key="PairWithColon">{0}：{1}</sys:String>
+    <sys:String x:Key="PairWithParentheses">{0}（{1}）</sys:String>
+    <sys:String x:Key="PairWithPipe">{0} | {1}</sys:String>
+    <sys:String x:Key="PairWithSpace">{0} {1}</sys:String>
+    <sys:String x:Key="TripletWithSpace">{0} {1} {2}</sys:String>
+    <sys:String x:Key="PairConcatenated">{0}{1}</sys:String>
+    <sys:String x:Key="ValueWithEllipsis">{0}……</sys:String>
+    <sys:String x:Key="ValueInBrackets">【{0}】</sys:String>
+    <sys:String x:Key="ValueInParentheses">（{0}）</sys:String>
 </ResourceDictionary>

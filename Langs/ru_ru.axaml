@@ -1579,4 +1579,17 @@ URL:{2}</sys:String>
   <sys:String x:Key="TaskErrorServerSuggestion">1. Повторите попытку позже и дождитесь возобновления службы загрузки.
 2. Переключите источник загрузки в настройках сети.
 3. Если проблема сохраняется в течение длительного времени, скопируйте диагностическую информацию и оставьте отзыв.</sys:String>
+    <sys:String x:Key="InstallTarget">Установить - {0}</sys:String>
+    <sys:String x:Key="DownloadTarget">Скачать - {0}</sys:String>
+    <sys:String x:Key="DeleteTarget">Удалить - {0}</sys:String>
+    <sys:String x:Key="PairWithDash">{0} - {1}</sys:String>
+    <sys:String x:Key="PairWithColon">{0}: {1}</sys:String>
+    <sys:String x:Key="PairWithParentheses">{0} ({1})</sys:String>
+    <sys:String x:Key="PairWithPipe">{0} | {1}</sys:String>
+    <sys:String x:Key="PairWithSpace">{0} {1}</sys:String>
+    <sys:String x:Key="TripletWithSpace">{0} {1} {2}</sys:String>
+    <sys:String x:Key="PairConcatenated">{0}{1}</sys:String>
+    <sys:String x:Key="ValueWithEllipsis">{0}...</sys:String>
+    <sys:String x:Key="ValueInBrackets">[{0}]</sys:String>
+    <sys:String x:Key="ValueInParentheses">({0})</sys:String>
 </ResourceDictionary>

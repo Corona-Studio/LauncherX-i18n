@@ -1908,4 +1908,17 @@
     <sys:String x:Key="TaskErrorServerSummary">服务器返回了内部错误，通常不是本地文件或设置造成的。</sys:String>
     <sys:String x:Key="TaskErrorServerSuggestion">1. 稍后重试，等待下载服务恢复。&#10;2. 在网络设置中切换下载源。&#10;3. 若持续较久，请复制诊断信息并反馈。</sys:String>
 
+    <sys:String x:Key="InstallTarget">安装 - {0}</sys:String>
+    <sys:String x:Key="DownloadTarget">下载 - {0}</sys:String>
+    <sys:String x:Key="DeleteTarget">删除 - {0}</sys:String>
+    <sys:String x:Key="PairWithDash">{0} - {1}</sys:String>
+    <sys:String x:Key="PairWithColon">{0}：{1}</sys:String>
+    <sys:String x:Key="PairWithParentheses">{0}（{1}）</sys:String>
+    <sys:String x:Key="PairWithPipe">{0} | {1}</sys:String>
+    <sys:String x:Key="PairWithSpace">{0} {1}</sys:String>
+    <sys:String x:Key="TripletWithSpace">{0} {1} {2}</sys:String>
+    <sys:String x:Key="PairConcatenated">{0}{1}</sys:String>
+    <sys:String x:Key="ValueWithEllipsis">{0}……</sys:String>
+    <sys:String x:Key="ValueInBrackets">【{0}】</sys:String>
+    <sys:String x:Key="ValueInParentheses">（{0}）</sys:String>
 </ResourceDictionary>

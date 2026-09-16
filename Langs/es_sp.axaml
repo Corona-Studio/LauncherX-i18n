@@ -1554,4 +1554,17 @@ Descomprima o mueva LauncherX.exe a una nueva carpeta separada e inténtelo nuev
   <sys:String x:Key="TaskErrorServerSuggestion">1. Vuelva a intentarlo más tarde y espere a que se reanude el servicio de descarga.
 2. Cambie la fuente de descarga en la configuración de red.
 3. Si el problema persiste durante mucho tiempo, copie la información de diagnóstico y envíe sus comentarios.</sys:String>
+    <sys:String x:Key="InstallTarget">Instalar - {0}</sys:String>
+    <sys:String x:Key="DownloadTarget">Descarga. - {0}</sys:String>
+    <sys:String x:Key="DeleteTarget">Eliminar - {0}</sys:String>
+    <sys:String x:Key="PairWithDash">{0} - {1}</sys:String>
+    <sys:String x:Key="PairWithColon">{0}: {1}</sys:String>
+    <sys:String x:Key="PairWithParentheses">{0} ({1})</sys:String>
+    <sys:String x:Key="PairWithPipe">{0} | {1}</sys:String>
+    <sys:String x:Key="PairWithSpace">{0} {1}</sys:String>
+    <sys:String x:Key="TripletWithSpace">{0} {1} {2}</sys:String>
+    <sys:String x:Key="PairConcatenated">{0}{1}</sys:String>
+    <sys:String x:Key="ValueWithEllipsis">{0}...</sys:String>
+    <sys:String x:Key="ValueInBrackets">[{0}]</sys:String>
+    <sys:String x:Key="ValueInParentheses">({0})</sys:String>
 </ResourceDictionary>

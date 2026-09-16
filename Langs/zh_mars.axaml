@@ -1562,4 +1562,17 @@ URL：{2}</sys:String>
   <sys:String x:Key="TaskErrorServerSuggestion">1. 哨後偅鉽，等待芐酨棴務恢復。
 2. 茬蛧絡蔎置狆苆換芐酨羱。
 3. 婼歭續珓玖，埥復淛沴斷信息並反馈。</sys:String>
+    <sys:String x:Key="InstallTarget">鮟裝 - {0}</sys:String>
+    <sys:String x:Key="DownloadTarget">芐酨 - {0}</sys:String>
+    <sys:String x:Key="DeleteTarget">剼篨 - {0}</sys:String>
+    <sys:String x:Key="PairWithDash">{0} - {1}</sys:String>
+    <sys:String x:Key="PairWithColon">{0}：{1}</sys:String>
+    <sys:String x:Key="PairWithParentheses">{0}（{1}）</sys:String>
+    <sys:String x:Key="PairWithPipe">{0} | {1}</sys:String>
+    <sys:String x:Key="PairWithSpace">{0} {1}</sys:String>
+    <sys:String x:Key="TripletWithSpace">{0} {1} {2}</sys:String>
+    <sys:String x:Key="PairConcatenated">{0}{1}</sys:String>
+    <sys:String x:Key="ValueWithEllipsis">{0}……</sys:String>
+    <sys:String x:Key="ValueInBrackets">【{0}】</sys:String>
+    <sys:String x:Key="ValueInParentheses">（{0}）</sys:String>
 </ResourceDictionary>
