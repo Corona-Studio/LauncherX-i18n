@@ -1,0 +1,6 @@
+# Normalize text files to LF in the index and worktree.
+* text=auto eol=lf
+
+# Windows command scripts require CRLF for compatibility with cmd.exe.
+*.bat text eol=crlf
+*.cmd text eol=crlf
