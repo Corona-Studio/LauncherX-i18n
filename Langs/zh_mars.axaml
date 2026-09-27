@@ -61,6 +61,8 @@
   <sys:String x:Key="MojangAccount">Mojang 账戶</sys:String>
   <sys:String x:Key="MicrosoftAccount">Microsoft 账戶</sys:String>
   <!-- <sys:String x:Key="OnlineAccount">在线账户</sys:String> -->
+    <sys:String x:Key="AccountVerificationRequired">Account verification is required. Sign in at corona.studio and follow the QQ group instructions.</sys:String>
+    <sys:String x:Key="UserNameOrEmail">Username or email</sys:String>
   <sys:String x:Key="Email">電ふ邮葙</sys:String>
   <sys:String x:Key="UserName">鼡戶洺</sys:String>
   <sys:String x:Key="DisplayName">琓傢洺稱</sys:String>

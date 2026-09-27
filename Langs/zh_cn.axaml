@@ -92,6 +92,8 @@
     <sys:String x:Key="MicrosoftAccount">Microsoft 账户</sys:String>
 
     <!-- <sys:String x:Key="OnlineAccount">在线账户</sys:String> -->
+    <sys:String x:Key="AccountVerificationRequired">账号尚未完成验证，请访问 corona.studio 登录，按提示加入 QQ 群完成验证。</sys:String>
+    <sys:String x:Key="UserNameOrEmail">用户名或邮箱</sys:String>
     <sys:String x:Key="Email">电子邮箱</sys:String>
     <sys:String x:Key="UserName">用户名</sys:String>
     <sys:String x:Key="DisplayName">玩家名称</sys:String>

@@ -61,6 +61,8 @@
   <sys:String x:Key="MojangAccount">外掛登入</sys:String>
   <sys:String x:Key="MicrosoftAccount">Microsoft 帳號登入</sys:String>
   <!-- <sys:String x:Key="OnlineAccount">在线账户</sys:String> -->
+    <sys:String x:Key="AccountVerificationRequired">Account verification is required. Sign in at corona.studio and follow the QQ group instructions.</sys:String>
+    <sys:String x:Key="UserNameOrEmail">Username or email</sys:String>
   <sys:String x:Key="Email">帳號（使用者名稱 / 電子郵件）</sys:String>
   <sys:String x:Key="UserName">使用者名稱</sys:String>
   <sys:String x:Key="DisplayName">玩家名稱</sys:String>

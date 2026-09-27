@@ -61,6 +61,8 @@
   <sys:String x:Key="MojangAccount">Mojang/AuthLib</sys:String>
   <sys:String x:Key="MicrosoftAccount">Аккаунт Microsoft</sys:String>
   <!-- <sys:String x:Key="OnlineAccount">在线账户</sys:String> -->
+    <sys:String x:Key="AccountVerificationRequired">Account verification is required. Sign in at corona.studio and follow the QQ group instructions.</sys:String>
+    <sys:String x:Key="UserNameOrEmail">Username or email</sys:String>
   <sys:String x:Key="Email">Почта</sys:String>
   <sys:String x:Key="UserName">Имя пользователя</sys:String>
   <sys:String x:Key="DisplayName">Отображаемое имя</sys:String>
