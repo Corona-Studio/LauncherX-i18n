@@ -597,6 +597,8 @@
   <sys:String x:Key="MicrosoftAuthFailed2">Error en extraer de UserClaims. Faltar：email</sys:String>
   <sys:String x:Key="MultiPlayerGames">Multijugador</sys:String>
   <sys:String x:Key="User">Usuario</sys:String>
+  <sys:String x:Key="HonoraryShareholder">Accionista honorario</sys:String>
+  <sys:String x:Key="UploadAvatar">Cambiar avatar</sys:String>
   <sys:String x:Key="ManageAccount">Gestión de cuentas</sys:String>
   <sys:String x:Key="SavedGameAccount">Perfils de Minecraft</sys:String>
   <sys:String x:Key="Reset">Reajustar</sys:String>

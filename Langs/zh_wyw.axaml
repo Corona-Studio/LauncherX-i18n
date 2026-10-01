@@ -602,6 +602,8 @@
   <sys:String x:Key="MicrosoftAuthFailed2">在试提取人 claims 时出现患，未找到字段：email</sys:String>
   <sys:String x:Key="MultiPlayerGames">多人戏</sys:String>
   <sys:String x:Key="User">人</sys:String>
+  <sys:String x:Key="HonoraryShareholder">榮譽股東</sys:String>
+  <sys:String x:Key="UploadAvatar">更換頭像</sys:String>
   <sys:String x:Key="ManageAccount">户管理</sys:String>
   <sys:String x:Key="SavedGameAccount">保存之戏户</sys:String>
   <sys:String x:Key="Reset">重置</sys:String>

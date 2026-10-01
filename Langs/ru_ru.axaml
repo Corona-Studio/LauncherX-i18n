@@ -603,6 +603,8 @@
   <sys:String x:Key="MicrosoftAuthFailed2">Не может получить claims аккаунта: Без информации "email"</sys:String>
   <sys:String x:Key="MultiPlayerGames">Сетевая</sys:String>
   <sys:String x:Key="User">абонент</sys:String>
+  <sys:String x:Key="HonoraryShareholder">Почётный акционер</sys:String>
+  <sys:String x:Key="UploadAvatar">Изменить аватар</sys:String>
   <sys:String x:Key="ManageAccount">наст. Аккаунта</sys:String>
   <sys:String x:Key="SavedGameAccount">Аккаунты игр</sys:String>
   <sys:String x:Key="Reset">сбрасывать</sys:String>
