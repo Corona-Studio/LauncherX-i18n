@@ -490,6 +490,15 @@
   <sys:String x:Key="ServerNoContent">棴務噐嘸返冋</sys:String>
   <sys:String x:Key="FalseCredential">账戶戓滵犸措誤</sys:String>
   <sys:String x:Key="UnknownLoginError">沬倁哋憕淥措誤</sys:String>
+  <sys:String x:Key="LoginEmailRequired">请输入账号或邮箱。</sys:String>
+  <sys:String x:Key="LoginPasswordRequired">请输入密码。</sys:String>
+  <sys:String x:Key="LoginNetworkError">无法连接登录服务，请检查网络后重试。</sys:String>
+  <sys:String x:Key="LoginSecureConnectionError">无法建立安全连接，请检查系统时间和网络设置后重试。</sys:String>
+  <sys:String x:Key="LoginTimeoutError">连接登录服务超时，请检查网络后重试。</sys:String>
+  <sys:String x:Key="LoginTooManyAttempts">尝试次数过多，请稍后再试。</sys:String>
+  <sys:String x:Key="LoginServerUnavailable">登录服务暂时不可用，请稍后再试。</sys:String>
+  <sys:String x:Key="LoginUnexpectedResponse">登录服务返回异常数据，请稍后重试。</sys:String>
+  <sys:String x:Key="LoginUnexpectedError">登录时遇到问题，请重试；若仍失败，请查看日志并联系支持人员。</sys:String>
   <sys:String x:Key="LatestRelease">朂噺囸鉽蝂</sys:String>
   <sys:String x:Key="LatestSnapshot">朂噺赽燳蝂</sys:String>
   <sys:String x:Key="FollowSystem">茛隨係統</sys:String>

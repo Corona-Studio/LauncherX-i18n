@@ -496,6 +496,15 @@
   <sys:String x:Key="ServerNoContent">Error al conectar a Server.</sys:String>
   <sys:String x:Key="FalseCredential">Error en cuenta o contraseña</sys:String>
   <sys:String x:Key="UnknownLoginError">Error Desconocida</sys:String>
+  <sys:String x:Key="LoginEmailRequired">Introduce tu cuenta o correo electrónico.</sys:String>
+  <sys:String x:Key="LoginPasswordRequired">Introduce tu contraseña.</sys:String>
+  <sys:String x:Key="LoginNetworkError">No se puede conectar con el servicio de inicio de sesión. Comprueba la red e inténtalo de nuevo.</sys:String>
+  <sys:String x:Key="LoginSecureConnectionError">No se pudo establecer una conexión segura. Comprueba la hora del sistema y la configuración de red, e inténtalo de nuevo.</sys:String>
+  <sys:String x:Key="LoginTimeoutError">Se agotó el tiempo de conexión. Comprueba la red e inténtalo de nuevo.</sys:String>
+  <sys:String x:Key="LoginTooManyAttempts">Demasiados intentos. Inténtalo más tarde.</sys:String>
+  <sys:String x:Key="LoginServerUnavailable">El servicio de inicio de sesión no está disponible temporalmente. Inténtalo más tarde.</sys:String>
+  <sys:String x:Key="LoginUnexpectedResponse">El servicio devolvió datos inesperados. Inténtalo más tarde.</sys:String>
+  <sys:String x:Key="LoginUnexpectedError">Se produjo un problema al iniciar sesión. Inténtalo de nuevo; si persiste, consulta los registros y contacta con soporte.</sys:String>
   <sys:String x:Key="LatestRelease">Último Release</sys:String>
   <sys:String x:Key="LatestSnapshot">Último Snapshot</sys:String>
   <sys:String x:Key="FollowSystem">Sincronizar con OS</sys:String>

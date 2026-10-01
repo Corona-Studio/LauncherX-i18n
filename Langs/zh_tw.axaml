@@ -490,6 +490,15 @@
   <sys:String x:Key="ServerNoContent">伺服器無回應</sys:String>
   <sys:String x:Key="FalseCredential">帳號或密碼錯誤</sys:String>
   <sys:String x:Key="UnknownLoginError">未知的登入錯誤</sys:String>
+  <sys:String x:Key="LoginEmailRequired">請輸入帳號或電子郵件。</sys:String>
+  <sys:String x:Key="LoginPasswordRequired">請輸入密碼。</sys:String>
+  <sys:String x:Key="LoginNetworkError">無法連線至登入服務，請檢查網路後重試。</sys:String>
+  <sys:String x:Key="LoginSecureConnectionError">無法建立安全連線，請檢查系統時間與網路設定後重試。</sys:String>
+  <sys:String x:Key="LoginTimeoutError">連線至登入服務逾時，請檢查網路後重試。</sys:String>
+  <sys:String x:Key="LoginTooManyAttempts">嘗試次數過多，請稍後再試。</sys:String>
+  <sys:String x:Key="LoginServerUnavailable">登入服務暫時無法使用，請稍後再試。</sys:String>
+  <sys:String x:Key="LoginUnexpectedResponse">登入服務傳回異常資料，請稍後重試。</sys:String>
+  <sys:String x:Key="LoginUnexpectedError">登入時發生問題，請重試；若仍失敗，請查看日誌並聯絡支援人員。</sys:String>
   <sys:String x:Key="LatestRelease">最新正式版</sys:String>
   <sys:String x:Key="LatestSnapshot">最新快照版</sys:String>
   <sys:String x:Key="FollowSystem">跟隨系統</sys:String>

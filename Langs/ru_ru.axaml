@@ -502,6 +502,15 @@
   <sys:String x:Key="ServerNoContent">Без ответа сервера</sys:String>
   <sys:String x:Key="FalseCredential">неверный пароль / аккаунт</sys:String>
   <sys:String x:Key="UnknownLoginError">не удалось войти</sys:String>
+  <sys:String x:Key="LoginEmailRequired">Введите имя учётной записи или адрес почты.</sys:String>
+  <sys:String x:Key="LoginPasswordRequired">Введите пароль.</sys:String>
+  <sys:String x:Key="LoginNetworkError">Не удалось связаться со службой входа. Проверьте сеть и повторите попытку.</sys:String>
+  <sys:String x:Key="LoginSecureConnectionError">Не удалось установить защищённое соединение. Проверьте время системы и настройки сети, затем повторите попытку.</sys:String>
+  <sys:String x:Key="LoginTimeoutError">Время подключения к службе входа истекло. Проверьте сеть и повторите попытку.</sys:String>
+  <sys:String x:Key="LoginTooManyAttempts">Слишком много попыток. Повторите позже.</sys:String>
+  <sys:String x:Key="LoginServerUnavailable">Служба входа временно недоступна. Повторите позже.</sys:String>
+  <sys:String x:Key="LoginUnexpectedResponse">Служба входа вернула некорректные данные. Повторите позже.</sys:String>
+  <sys:String x:Key="LoginUnexpectedError">При входе возникла проблема. Повторите попытку; если ошибка сохраняется, проверьте журналы и обратитесь в поддержку.</sys:String>
   <sys:String x:Key="LatestRelease">Последний выпуск</sys:String>
   <sys:String x:Key="LatestSnapshot">Последний снапшот</sys:String>
   <sys:String x:Key="FollowSystem">OS</sys:String>
