@@ -582,6 +582,8 @@
   <sys:String x:Key="MicrosoftAuthFailed2">A problem occurred while trying to extract user claims, field not found: email</sys:String>
   <sys:String x:Key="MultiPlayerGames">Multiplayer</sys:String>
   <sys:String x:Key="User">User</sys:String>
+  <sys:String x:Key="HonoraryShareholder">Honorary Shareholder</sys:String>
+  <sys:String x:Key="UploadAvatar">Change avatar</sys:String>
   <sys:String x:Key="ManageAccount">Account Management</sys:String>
   <sys:String x:Key="SavedGameAccount">Saved Game Account</sys:String>
   <sys:String x:Key="Reset">RESET</sys:String>

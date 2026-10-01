@@ -583,6 +583,8 @@
   <sys:String x:Key="MicrosoftAuthFailed2">Un problème est survenu lors de la tentative d'extraction des claims utilisateur, champ non trouvé : email</sys:String>
   <sys:String x:Key="MultiPlayerGames">Jeux multijoueurs</sys:String>
   <sys:String x:Key="User">Utilisateur</sys:String>
+  <sys:String x:Key="HonoraryShareholder">Actionnaire honoraire</sys:String>
+  <sys:String x:Key="UploadAvatar">Changer d’avatar</sys:String>
   <sys:String x:Key="ManageAccount">Gestion du compte</sys:String>
   <sys:String x:Key="SavedGameAccount">Comptes de jeu enregistrés</sys:String>
   <sys:String x:Key="Reset">Réinitialiser</sys:String>

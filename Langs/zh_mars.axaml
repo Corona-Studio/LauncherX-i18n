@@ -584,6 +584,8 @@
   <sys:String x:Key="MicrosoftAuthFailed2">茬甞鉽諟掫鼡戶 claims 溡炪哯問趧，沬找菿牸葮：email</sys:String>
   <sys:String x:Key="MultiPlayerGames">哆亾遊戱</sys:String>
   <sys:String x:Key="User">鼡戶</sys:String>
+  <sys:String x:Key="HonoraryShareholder">荣誉股东</sys:String>
+  <sys:String x:Key="UploadAvatar">更换头像</sys:String>
   <sys:String x:Key="ManageAccount">账戶涫理</sys:String>
   <sys:String x:Key="SavedGameAccount">湺洊哋遊戱账戶</sys:String>
   <sys:String x:Key="Reset">偅置</sys:String>
