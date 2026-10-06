@@ -1639,4 +1639,10 @@ URL:{2}</sys:String>
   <sys:String x:Key="PerGameEnvironment">Environment variables</sys:String>
   <sys:String x:Key="PerGameEnvironmentHint">One NAME=value per line. These values override global and GAME_ENV variables for this game.</sys:String>
   <sys:String x:Key="ResetPerGameOverrides">Reset overrides to global settings</sys:String>
+    <sys:String x:Key="PerGameTabBasic">Основное</sys:String>
+    <sys:String x:Key="PerGameTabJava">Java</sys:String>
+    <sys:String x:Key="PerGameTabWindow">Окно</sys:String>
+    <sys:String x:Key="PerGameTabAdvanced">Дополнительно</sys:String>
+    <sys:String x:Key="PerGameTabServers">Серверы</sys:String>
+    <sys:String x:Key="PerGameTabWorlds">Миры</sys:String>
 </ResourceDictionary>

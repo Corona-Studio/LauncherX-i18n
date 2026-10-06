@@ -1628,4 +1628,10 @@ Please unzip or move LauncherX.exe to a separate new folder and try again.</sys:
   <sys:String x:Key="PerGameEnvironment">Environment variables</sys:String>
   <sys:String x:Key="PerGameEnvironmentHint">One NAME=value per line. These values override global and GAME_ENV variables for this game.</sys:String>
   <sys:String x:Key="ResetPerGameOverrides">Reset overrides to global settings</sys:String>
+    <sys:String x:Key="PerGameTabBasic">Basic</sys:String>
+    <sys:String x:Key="PerGameTabJava">Java</sys:String>
+    <sys:String x:Key="PerGameTabWindow">Window</sys:String>
+    <sys:String x:Key="PerGameTabAdvanced">Advanced</sys:String>
+    <sys:String x:Key="PerGameTabServers">Servers</sys:String>
+    <sys:String x:Key="PerGameTabWorlds">Worlds</sys:String>
 </ResourceDictionary>

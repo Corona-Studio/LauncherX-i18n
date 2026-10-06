@@ -1968,4 +1968,10 @@
   <sys:String x:Key="PerGameEnvironment">环境变量</sys:String>
   <sys:String x:Key="PerGameEnvironmentHint">每行一个 NAME=value，此游戏的值会覆盖全局及 GAME_ENV 中的同名变量。</sys:String>
   <sys:String x:Key="ResetPerGameOverrides">将覆盖项重置为全局设置</sys:String>
+    <sys:String x:Key="PerGameTabBasic">基本</sys:String>
+    <sys:String x:Key="PerGameTabJava">Java</sys:String>
+    <sys:String x:Key="PerGameTabWindow">窗口</sys:String>
+    <sys:String x:Key="PerGameTabAdvanced">高级</sys:String>
+    <sys:String x:Key="PerGameTabServers">服务器</sys:String>
+    <sys:String x:Key="PerGameTabWorlds">世界</sys:String>
 </ResourceDictionary>

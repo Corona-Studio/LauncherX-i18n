@@ -1624,4 +1624,10 @@ Veuillez décompresser ou déplacer LauncherX.exe vers un nouveau dossier distin
   <sys:String x:Key="PerGameEnvironment">Environment variables</sys:String>
   <sys:String x:Key="PerGameEnvironmentHint">One NAME=value per line. These values override global and GAME_ENV variables for this game.</sys:String>
   <sys:String x:Key="ResetPerGameOverrides">Reset overrides to global settings</sys:String>
+    <sys:String x:Key="PerGameTabBasic">Général</sys:String>
+    <sys:String x:Key="PerGameTabJava">Java</sys:String>
+    <sys:String x:Key="PerGameTabWindow">Fenêtre</sys:String>
+    <sys:String x:Key="PerGameTabAdvanced">Avancé</sys:String>
+    <sys:String x:Key="PerGameTabServers">Serveurs</sys:String>
+    <sys:String x:Key="PerGameTabWorlds">Mondes</sys:String>
 </ResourceDictionary>
