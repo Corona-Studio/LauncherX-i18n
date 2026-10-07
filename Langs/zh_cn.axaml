@@ -1967,7 +1967,7 @@
   <sys:String x:Key="PerGameArgumentsHint">输入命令行参数，包含空格的值使用引号包围；JVM 参数与游戏参数分别设置。</sys:String>
   <sys:String x:Key="PerGameEnvironment">环境变量</sys:String>
   <sys:String x:Key="PerGameEnvironmentHint">每行一个 NAME=value，此游戏的值会覆盖全局及 GAME_ENV 中的同名变量。</sys:String>
-  <sys:String x:Key="ResetPerGameOverrides">将覆盖项重置为全局设置</sys:String>
+  <sys:String x:Key="ResetPerGameOverrides">将此游戏的启动设置恢复为全局默认</sys:String>
     <sys:String x:Key="PerGameTabBasic">基本</sys:String>
     <sys:String x:Key="PerGameTabJava">Java</sys:String>
     <sys:String x:Key="PerGameTabWindow">窗口</sys:String>

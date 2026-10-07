@@ -1613,7 +1613,7 @@ Descomprima o mueva LauncherX.exe a una nueva carpeta separada e inténtelo nuev
   <sys:String x:Key="PerGameArgumentsHint">Enter command-line arguments; quote values containing spaces. JVM and game arguments are separate.</sys:String>
   <sys:String x:Key="PerGameEnvironment">Environment variables</sys:String>
   <sys:String x:Key="PerGameEnvironmentHint">One NAME=value per line. These values override global and GAME_ENV variables for this game.</sys:String>
-  <sys:String x:Key="ResetPerGameOverrides">Reset overrides to global settings</sys:String>
+  <sys:String x:Key="ResetPerGameOverrides">Restore this game's launch settings to global defaults</sys:String>
     <sys:String x:Key="PerGameTabBasic">General</sys:String>
     <sys:String x:Key="PerGameTabJava">Java</sys:String>
     <sys:String x:Key="PerGameTabWindow">Ventana</sys:String>
