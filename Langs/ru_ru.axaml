@@ -1676,7 +1676,6 @@ URL:{2}</sys:String>
     <sys:String x:Key="ModDetailsReading">Чтение сведений о файле…</sys:String>
     <sys:String x:Key="ModDetailsUnavailable">Не удалось прочитать файл. Проверьте его наличие и доступность.</sys:String>
     <sys:String x:Key="ChangeAccountSkin">Изменить скин онлайн</sys:String>
-    <sys:String x:Key="RecentSettingsLink">Вернуться к последним настройкам: {0}</sys:String>
     <sys:String x:Key="InstallLoaderApi">Install compatible Fabric API / Quilt standard libraries</sys:String>
     <sys:String x:Key="NoCompatibleLoaderApi">No compatible loader API found. The game is installed; add its API manually.</sys:String>
     <sys:String x:Key="ComponentLoadingFailed">Some component versions could not be loaded. Retry or check network settings.</sys:String>

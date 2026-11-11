@@ -1665,7 +1665,6 @@ Please unzip or move LauncherX.exe to a separate new folder and try again.</sys:
     <sys:String x:Key="ModDetailsReading">Reading file information…</sys:String>
     <sys:String x:Key="ModDetailsUnavailable">Unable to read the file. Check that it exists and is accessible.</sys:String>
     <sys:String x:Key="ChangeAccountSkin">Change skin online</sys:String>
-    <sys:String x:Key="RecentSettingsLink">Return to last edited settings: {0}</sys:String>
     <sys:String x:Key="InstallLoaderApi">Install compatible Fabric API / Quilt standard libraries</sys:String>
     <sys:String x:Key="NoCompatibleLoaderApi">No compatible loader API found. The game is installed; add its API manually.</sys:String>
     <sys:String x:Key="ComponentLoadingFailed">Some component versions could not be loaded. Retry or check network settings.</sys:String>

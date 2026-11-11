@@ -1660,7 +1660,6 @@ URL：{2}</sys:String>
     <sys:String x:Key="ModDetailsReading">正在讀取檔案資訊…</sys:String>
     <sys:String x:Key="ModDetailsUnavailable">無法讀取檔案資訊，請檢查檔案是否存在或被佔用。</sys:String>
     <sys:String x:Key="ChangeAccountSkin">前往更換造型</sys:String>
-    <sys:String x:Key="RecentSettingsLink">返回上次操作的設定：{0}</sys:String>
     <sys:String x:Key="InstallLoaderApi">同時安裝相容的 Fabric API / Quilt 標準函式庫</sys:String>
     <sys:String x:Key="NoCompatibleLoaderApi">No compatible loader API found. The game is installed; add its API manually.</sys:String>
     <sys:String x:Key="ComponentLoadingFailed">Some component versions could not be loaded. Retry or check network settings.</sys:String>
