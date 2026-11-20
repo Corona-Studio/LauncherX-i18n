@@ -1,0 +1,1763 @@
+<ResourceDictionary
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+
+    <!--> LauncherX 多语言文档注意事项 <-->
+    <!--> 如果您在翻译字段中看到了 {0} 这样的字符串，请将其直接保留在翻译之后的源文当中 <-->
+    <!--> 请不要修改字段的 x:Key 值 <-->
+    <!--> 请注意原文中空格的格式及其他风格信息 <-->
+
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
+    <sys:String x:Key="TranslatorCredits">Amizh - Uy Aminoac</sys:String>
+    <!--> 翻译作者信息，可以随意修改，将显示在语言设置下方 <-->
+
+    <sys:String x:Key="Ok">Gnid Euq</sys:String>
+    <sys:String x:Key="Cancel">Oaix Uq</sys:String>
+    <sys:String x:Key="Warning">Oag Gnij</sys:String>
+    <sys:String x:Key="Error">Uw Ouc</sys:String>
+    <sys:String x:Key="Fatal">Gnim Ihz</sys:String>
+    <sys:String x:Key="Debug">Ihs Oait</sys:String>
+    <sys:String x:Key="Info">Ix Nix</sys:String>
+    <!-- <sys:String x:Key="Note">提示</sys:String> -->
+
+    <sys:String x:Key="Open">Iak Ad</sys:String>
+    <!-- <sys:String x:Key="Close">关闭</sys:String> -->
+
+    <sys:String x:Key="Exit">Uhc Iut</sys:String>
+    <!-- <sys:String x:Key="Maximize">最大化</sys:String> -->
+    <sys:String x:Key="Minimize">Auh Oaix Iuz</sys:String>
+    <sys:String x:Key="Force">Ihz Gnaiq</sys:String>
+
+    <!-- <sys:String x:Key="LaunchFailed">游戏启动失败。</sys:String> -->
+    <!-- <sys:String x:Key="JavaNotFound">启动器没有检测到Java。</sys:String> -->
+    <!-- <sys:String x:Key="IllegalJavaInstallation">您可能正在使用绿色版Java。</sys:String> -->
+
+    <!--> App.xaml.cs <-->
+
+    <!-- <sys:String x:Key="EmptyDirFailed">清空文件夹失败</sys:String> -->
+    <sys:String x:Key="ExitMainPg">Uhc IutLauncherX</sys:String>
+    <sys:String x:Key="TryContinue">Gnoy Ihs Ux Ij Ihs Gnahc</sys:String>
+    <!-- <sys:String x:Key="UncaughtEx">LauncherX遭遇了不可描述的错误。</sys:String> -->
+
+    <!--> App.xaml.cs <-->
+
+    <!--> MainWindow.xaml <-->
+
+    <sys:String x:Key="GameStart">Ix Uoy Ihs Iak</sys:String>
+    <sys:String x:Key="GameList">Oaib Eil Ix Uoy</sys:String>
+    <sys:String x:Key="Dashboard">Nab Oaib Iy</sys:String>
+    <sys:String x:Key="Settings">Ihz Ehs</sys:String>
+
+    <sys:String x:Key="Start">Gnod Iq</sys:String>
+    <sys:String x:Key="TaskCenter">Nix Gnohz Uw Ner</sys:String>
+
+    <!--> MainWindow.xaml <-->
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <!-- <sys:String x:Key="IllegalSettings">不正确的配置</sys:String> -->
+    <!-- <sys:String x:Key="IllegalSettingsHint1">在上一次修改的启动器设置中，由于您不正确的配置，我们已经将部分参数修改为默认设置：</sys:String> -->
+    <!-- <sys:String x:Key="IllegalSettingsHint2">检测到您有不正确的设置，请前往设置页面修改：</sys:String> -->
+
+    <!--> MainWindow.xaml.cs <-->
+
+    <!--> MainViewModel.cs <-->
+
+    <sys:String x:Key="RunningJobsFound">Uw Ner Ed Gnix Nuy Iaz Gnehz Uoy Iah</sys:String>
+    <sys:String x:Key="ExitAndDropTasksHint">Uoy Iah {0} Gnohz Gnad Eil Iud Ud Oaid Iaz Uw Ner Eg，Am Iq Gnod Iq Uhc Iut Oay Gnid Euq Nin？Uf Iuh Af Uw Eiq Iuh Oaix Gnaij Uod Uw Ner Ed Gnix Nuy Iaz Gnehz Uoy Ous。</sys:String>
+    <sys:String x:Key="WaitToFinish">Gnehc Naw Iad Gned</sys:String>
+
+    <sys:String x:Key="GameNotSelect">Ix Uoy Gnid Ug Iew</sys:String>
+    <sys:String x:Key="GameNotSelectHint">Ix Uoy Gnid Ug Naim Eij Uhz Iaz Iew</sys:String>
+
+    <!-- <sys:String x:Key="AccountNotSelect">未选择账户</sys:String> -->
+    <!-- <sys:String x:Key="AccountNotSelectHint">未选择启动用账户或选择的账户无效</sys:String> -->
+
+    <!--> MainViewModel.cs <-->
+
+    <!--> AccountPage.xaml <-->
+
+    <sys:String x:Key="Welcome">Gniy Nauh</sys:String>
+    <sys:String x:Key="Delete">Uhc Nahs</sys:String>
+
+    <!--> AccountPage.xaml <-->
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <sys:String x:Key="CreateNewAccount">Uh Gnahz Nix Naij Gnauhc</sys:String>
+
+    <sys:String x:Key="OfflineAccount">Uh Gnahz Naix Il</sys:String>
+    <sys:String x:Key="MojangAccount">Mojang Uh Gnahz</sys:String>
+    <sys:String x:Key="MicrosoftAccount">Microsoft Uh Gnahz</sys:String>
+
+    <!-- <sys:String x:Key="OnlineAccount">在线账户</sys:String> -->
+    <sys:String x:Key="Email">Gnaix Uoy Iz Naid</sys:String>
+    <sys:String x:Key="UserName">Gnim Uh Gnoy</sys:String>
+    <sys:String x:Key="DisplayName">Gnehc Gnim Aij Naw</sys:String>
+    <sys:String x:Key="Password">Am Im</sys:String>
+    <sys:String x:Key="ConfirmPassword">Am Im Ner Euq</sys:String>
+    <sys:String x:Key="AuthLibServer">AuthLibIq Uw Uf</sys:String>
+    <sys:String x:Key="Optional">Naux Ek</sys:String>
+    <sys:String x:Key="SaveAccount">Uh Gnahz Nuc Oab</sys:String>
+
+    <sys:String x:Key="CheckingAccount">Uh Gnahz Nay Eh Iaz Gnehz...</sys:String>
+    <sys:String x:Key="Default">Ner Om</sys:String>
+
+    <!-- <sys:String x:Key="CheckSucceeded">验证成功</sys:String> -->
+    <sys:String x:Key="CheckFailed">Iab Ihs Gnehz Nay</sys:String>
+
+    <sys:String x:Key="SkinRequestFailed">Iab Ihs Uq Ouh Uf Ip</sys:String>
+
+    <!--> CreateNewAccountDialog.xaml <-->
+
+    <!--> GameListPage.xaml <-->
+
+    <!-- <sys:String x:Key="NoGameYet">暂无任何游戏</sys:String> -->
+
+    <!--> GameListPage.xaml <-->
+
+    <!--> SettingsPage.xaml <-->
+
+    <sys:String x:Key="GlobalGameSettings">Ihz Ehs Ix Uoy Uj Nauq</sys:String>
+    <!-- <sys:String x:Key="RegionAndLang">区域和语言</sys:String> -->
+    <sys:String x:Key="Appearance">Naug Iaw</sys:String>
+    <sys:String x:Key="Network">Oul Gnaw</sys:String>
+    <sys:String x:Key="Advanced">Ij Oag</sys:String>
+    <sys:String x:Key="About">Uy Naug</sys:String>
+
+    <sys:String x:Key="LaunchSettings">Ihz Ehs Gnod Iq</sys:String>
+    <sys:String x:Key="JavaPath">JavaGnij Ul</sys:String>
+    <sys:String x:Key="AddManually">Aij Nait Gnod Uohs</sys:String>
+    <sys:String x:Key="DownloadJava">Iaz AixJava</sys:String>
+    <sys:String x:Key="SearchJava">Ous UosJava</sys:String>
+
+    <sys:String x:Key="MemorySize">Oaix Ad Nuc Ien</sys:String>
+    <sys:String x:Key="MbUnit">Iew Nad：Mb</sys:String>
+    <sys:String x:Key="GameWindowTitle">It Oaib Uok Gnauhc Ix Uoy</sys:String>
+
+    <sys:String x:Key="GameWindowSize">Oaix Ad Uok Gnauhc Ix Uoy</sys:String>
+    <sys:String x:Key="Width">Ud Nauk</sys:String>
+    <sys:String x:Key="Height">Ud Oag</sys:String>
+    <sys:String x:Key="FullScreen">Gnip Nauq</sys:String>
+
+    <sys:String x:Key="Enable">Gnoy Iq</sys:String>
+    <sys:String x:Key="Disable">Gnoy Nij</sys:String>
+    <sys:String x:Key="Type">Gnix Iel</sys:String>
+
+    <sys:String x:Key="JvmAdvanceArgument">JavaUhs Nac Gnod Iq Ij Oag Ij In Ux</sys:String>
+    <sys:String x:Key="JoinServerAfterLaunched">Iq Uw Uf Ur Aij Uoh Gnod Iq</sys:String>
+    <sys:String x:Key="ServerIpOrDomain">Iq Uw UfIpGnim Uy Ouh</sys:String>
+    <sys:String x:Key="Port">Uok Naud</sys:String>
+
+    <sys:String x:Key="Path">Gnij Ul</sys:String>
+    <sys:String x:Key="AdditionalArgument">Uhs Nac Iaw E</sys:String>
+
+    <sys:String x:Key="LauncherBehavior">Iew Gnix Iq Gnod Iq</sys:String>
+    <sys:String x:Key="CheckGameFile">Naij New Ix Uoy Ahc Naij</sys:String>
+    <sys:String x:Key="CheckSha1WhenFixingGameFile">Gnix Gnehz Naw Naij New Ahc Naij Ihs Naij New Ix Uoy Nauq Ub</sys:String>
+    <sys:String x:Key="GameLaunchedLauncherBehavior">Iew Gnix Iq Gnod Iq Uoh Gnod Iq Ix Uoy</sys:String>
+    <sys:String x:Key="DisplayGameLogs">Ihz Ir Uhc Uhs Ihs Naix Ihs Ix Uoy Gnod Iq</sys:String>
+
+    <!-- <sys:String x:Key="BaseUiSettings">基础界面设置</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationDuration">全局动画时长</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationEasingFunction">全局动画缓动函数</sys:String> -->
+    <!-- <sys:String x:Key="GlobalAnimationEasingMode">全局动画缓动模式</sys:String> -->
+
+    <!-- <sys:String x:Key="AppearancePageTitle">在这里修改你的启动器外观</sys:String> -->
+    <!-- <sys:String x:Key="AppearancePageDetail">在右侧您可以看到窗口预览。</sys:String> -->
+
+    <sys:String x:Key="ThemeMode">Ihs Om It Uhz</sys:String>
+    <sys:String x:Key="Language">Nay Uy</sys:String>
+    <sys:String x:Key="UseFluidMove">Gnod Nug Auh Gnip Gnoy Iq</sys:String>
+
+    <!-- <sys:String x:Key="MainInterfaceBackground">主界面背景</sys:String> -->
+    <sys:String x:Key="BackgroundTexture">Il New Naim Eij Uhz</sys:String>
+    <sys:String x:Key="BackgroundType">Gnix Iel Gnij Ieb Naim Eij Uhz</sys:String>
+
+    <sys:String x:Key="SelectBackgroundImage">Ihz Ib Ez Naux</sys:String>
+    <sys:String x:Key="Browse">Nal Uil</sys:String>
+
+    <sys:String x:Key="AccentColor">Es It Uhz</sys:String>
+    <sys:String x:Key="GetAccountColorFromBgImage">Es It Uhz Gnohz Iy Ez Naux Gnohz Ihz Ib Gnij Ieb Gnoc</sys:String>
+    <sys:String x:Key="GetPaletteErrorHint">Nab Es Oait Ed Gniy Iud Ihz Ib Naiq Gnad Uy Oad Oahz Iew，Naij New Ihz Iep Ihs Ouh Ul Um Uil Oab Iq Gnod Iq El Iag Uix Iz Nahs Nin Iew Niy Ihs Gnen Ek。</sys:String>
+    <sys:String x:Key="UsePureColorAsAccentColor">Es It Uhz Iew Ouz Gnij Ieb Es Nuhc Ed Naim Eij Uhz Gnoy Ihs</sys:String>
+    <sys:String x:Key="UseSelectedColorAsAccentColor">Es It Uhz Gnohz Iy Ez Naux Gnohz Es Nay Ed Naim Aix Gnoc</sys:String>
+
+    <sys:String x:Key="Preview">Nal Uy</sys:String>
+    <!-- <sys:String x:Key="UiFontFamily">界面字体</sys:String> -->
+    <sys:String x:Key="PrimaryFont">It Iz Naux Uohs</sys:String>
+    <sys:String x:Key="SecondaryFont">It Iz Naux Ieb</sys:String>
+
+    <sys:String x:Key="PreviewFont">It Iz Nal Uy</sys:String>
+    <sys:String x:Key="PreviewFontSize">Oaix Ad It Iz Nal Uy</sys:String>
+    <sys:String x:Key="PreviewFontHint">It Iz Nal Uy Iy Iz New Iy Ner Ur Uhs</sys:String>
+
+    <sys:String x:Key="FontChangedHint">Ihz Ehs It Iz El Iag Uix Nin，Gnoy Gniy Gnen Iac Uoh Iq Gnod Iq Iq Gnohc Oay Ux Ihz Ehs Nef Ub Ehz</sys:String>
+    <!-- <sys:String x:Key="FontFamilyPreviewTestText">汉体书写信息技术标准相容 AaBbCc A a B b C c 0123456789</sys:String> -->
+
+    <sys:String x:Key="BaseNetworkSettings">Ihz Ehs Oul Gnaw Uhc Ij</sys:String>
+    <sys:String x:Key="ResourceDownloadServer">Iq Uw Uf Iaz Aix Nauy Iz</sys:String>
+    <sys:String x:Key="DownloadThreadCount">Gnail Uhs Gnehc Naix Iaz Aix</sys:String>
+    <sys:String x:Key="AutoDetectDownloadMethod">Ihs Gnaf Ed Nauy Iz Iaz Aix Gnid Euj Gnod Iz</sys:String>
+    <sys:String x:Key="UseMultiPartDownload">Iaz Aix Naip Nef Naij New Ad Gnoy Iq</sys:String>
+    <sys:String x:Key="MultiPartCount">Gnail Uhs Naip Nef</sys:String>
+
+    <sys:String x:Key="NetworkConnectionTest">Ihs Ec Eij Nail Oul Gnaw</sys:String>
+    <sys:String x:Key="NetworkTestDescription">Ihs Ec Eij Nail Oul Gnaw Oug Gnot，Gnauk Gnauhz Oul Gnaw Ed Naiq Gnad Nin Eij Oail Id Oah Gneg Iy Ek Nin，Ihc Nay Ouk Oab，Ix Nix Uhc Ij Eix Iy Gned Iat Gnauhz Iq Uw Uf。Gnahz Ug Nad Naij Eix Iy Uhc Iap Nin Iew Gnen Ey Ihs Gnot。</sys:String>
+
+    <sys:String x:Key="LauncherLogLevel">Ij Gned Ul Ij Ihz Ir Iq Gnod Iq</sys:String>
+
+    <!--> SettingsPage.xaml <-->
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <sys:String x:Key="GeneratedJavaAgentArg">Ed Uoh Eij NipJavaAgentUhs Nac Gnod Iq：</sys:String>
+
+    <!--> SettingsPage.xaml.cs <-->
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <sys:String x:Key="TaskAdded">Eil Iud Uw Ner Oad Aij Nait Uw Ner Gnaij Iy</sys:String>
+    <sys:String x:Key="PrepareToDownloadJava">Iaz Aix Ieb NuhzJavaUk Gnix Nuy</sys:String>
+
+    <sys:String x:Key="PleaseCheckLogs">Ihz Ir Iq Gnod Iq Ahc Naij Gniq</sys:String>
+    <sys:String x:Key="Succeeded">Gnog Gnehc</sys:String>
+    <sys:String x:Key="Failed">Iab Ihs</sys:String>
+
+    <sys:String x:Key="ImageFile">Naij New Naip Ut</sys:String>
+    <sys:String x:Key="ImportBgImage">Naij New Ihz Ib Ur Oad</sys:String>
+    <sys:String x:Key="BrowseBgImageDialogTitle">Ihz Ib Ed Ur Oad Oay Ez Naux</sys:String>
+    <sys:String x:Key="PrepareToImportBgImage">Ihz Ib Ur Oad Ieb Nuhz...</sys:String>
+    <sys:String x:Key="ImportingPleaseWait">Uoh Oahs Gniq，Ur Oad Gnix Nij Iaz Gnehz...</sys:String>
+    <sys:String x:Key="AlreadyImported">Ur Oad Iy Gniq，Ur Oad Uf Gnohc Iaz Ub Gnaij...</sys:String>
+
+    <!-- <sys:String x:Key="FetchMojangServerInfo">获取Mojang服务信息</sys:String> -->
+    <sys:String x:Key="Unknown">Ihz Iew</sys:String>
+
+
+    <!--> SettingsPageViewModel.cs <-->
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <sys:String x:Key="SelectAccountProfile">Na Gnad Ed Gnoy Ous Uh Gnahz Ez Naux</sys:String>
+
+    <!--> SelectAccountProfileDialog.xaml <-->
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <sys:String x:Key="LastUsed">Gnoy Ihs Ic Gnahs</sys:String>
+    <!-- <sys:String x:Key="ClickToUseAccount">点击来使用该账户</sys:String> -->
+    <sys:String x:Key="NeverUsed">Gnoy Ihs Iew Gnoc</sys:String>
+
+    <!--> AccountInfoControlTemplate.xaml <-->
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <sys:String x:Key="CheckingDelay">Ihc Nay Ihs Ec Iaz Gnehz</sys:String>
+
+    <sys:String x:Key="ServerStatus1Hint">Gnid New Uw Uf</sys:String>
+    <sys:String x:Key="ServerStatus2Hint">Gnod Ob Naix Uhc Uw Uf，Naud Gnohz Uw Uf Ed Gnix Ihs Naz Naix Uhc Iuh Gnen Ek，Gnohz Nay Oab Uid Ihz Oad It New Oul Gnaw Ed Id Neb Nin Uy Uoy Ihs Ouh。</sys:String>
+    <sys:String x:Key="ServerStatus3Hint">Ouc Uhc Uw Uf，Uw Uf Gnog It Ihz Gnit Iy Naiq Um，Nux Gnot Iq Uw Uf Uy Gnog Gnehc Af Uw Ihz Oad Niy Nauy Ed Oul Gnaw Id Neb Nin Uy Uoy Ihs Ouh。</sys:String>
+    <sys:String x:Key="CurrentStatusIs">Ihs Iat Gnauhz Ed Naiq Gnad</sys:String>
+    <sys:String x:Key="WhichMeans">Ehz Iew Iy</sys:String>
+
+    <!--> ServerStatusControlTemplate.xaml <-->
+
+    <!--> SearchBar.xaml <-->
+
+    <sys:String x:Key="SearchSomething">Em Nehs Naid Uos？</sys:String>
+
+    <!--> SearchBar.xaml <-->
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <sys:String x:Key="TaskQueue">Eil Iud Ud Oaid</sys:String>
+    <!-- <sys:String x:Key="NoMoreTask">暂无任务</sys:String> -->
+    <sys:String x:Key="NotifyHistory">Ihz Gnot Ihs Il</sys:String>
+    <!-- <sys:String x:Key="NoMoreNotify">暂无通知</sys:String> -->
+
+    <!--> TaskCenterPanel.xaml <-->
+
+    <!--> ITaskCenterJob <-->
+
+    <!-- <sys:String x:Key="TaskCanceled">任务已被取消...</sys:String> -->
+    <sys:String x:Key="DownloadingFile">Naij New Iaz Aix Iaz Gnehz</sys:String>
+    <sys:String x:Key="LaunchGame">Ix Uoy Gnod Iq</sys:String>
+
+    <sys:String x:Key="AuthFailed">Iab Ihs Gnehz Ner Uh Gnahz</sys:String>
+    <sys:String x:Key="DecompressFailed">NativesUw Ouc Ay Eij</sys:String>
+    <sys:String x:Key="IncompleteArgument">Uhs Nac Gnod Iq Ed Gnehz Naw Ub</sys:String>
+    <sys:String x:Key="NoJava">Gnid Ihz Uoy IemJavaIj In Ux</sys:String>
+    <sys:String x:Key="None">Uw</sys:String>
+    <sys:String x:Key="OperationFailed">Uw Ouc Ouz Oac</sys:String>
+
+    <sys:String x:Key="Duration">Ihs Gnoy</sys:String>
+    <!-- <sys:String x:Key="ResourceCompletion">资源补全</sys:String> -->
+    <sys:String x:Key="Reason">Niy Nauy</sys:String>
+    <sys:String x:Key="Retry">Ihs Gnohz</sys:String>
+    <sys:String x:Key="Completion">Nauq Ub</sys:String>
+
+    <sys:String x:Key="GameExitDetected">Uhs Eij Gnehc Nij Ix Uoy Oad Ec Naij</sys:String>
+    <sys:String x:Key="GameExitedNormal">Uhc Iut Gnahc Gnehz</sys:String>
+    <sys:String x:Key="GameExitedUnexpectedly">Uhc Iut Gnahc Gnehz Ief</sys:String>
+
+    <sys:String x:Key="SearchGame">Ix Uoy Ous Uos</sys:String>
+    <sys:String x:Key="GameNotFound">Ix Uoy Oad Oahz Uoy Iem</sys:String>
+    <sys:String x:Key="GameNotFoundDetail">Ix Uoy Eh Ner Oad Oahz Uoy Iem，Ix Uoy Nix Eg Iy Iaz Aix Gnohz Iq Gnod Iq Iaz Iy Ek Nin。</sys:String>
+    <sys:String x:Key="SearchGameCompleted">Gnehc Naw Ous Uos Ix Uoy</sys:String>
+
+    <sys:String x:Key="TaskCenterBriefing1">Uoy Naiq Gnad{0}Gnix Nuy Iaz Gnehz Uw Ner Eg</sys:String>
+
+    <!--> ITaskCenterJob <-->
+
+    <!--> Models <-->
+
+    <!-- <sys:String x:Key="EaseIn">缓入</sys:String> -->
+    <!-- <sys:String x:Key="EaseOut">缓出</sys:String> -->
+    <!-- <sys:String x:Key="EaseInOut">缓入、出</sys:String> -->
+
+    <sys:String x:Key="Shape1">Naix Ihz</sys:String>
+    <sys:String x:Key="Shape2">Nauq Nauy</sys:String>
+    <sys:String x:Key="Shape3">Naix Uh</sys:String>
+
+    <sys:String x:Key="BlurBackground">Gnij Ieb Gnim Uot Nab Uh Om</sys:String>
+    <sys:String x:Key="ImageBackground">Gnij Ieb Naip Ut</sys:String>
+    <sys:String x:Key="PureColorBackground">Gnij Ieb Es Nuhc</sys:String>
+
+    <sys:String x:Key="OfficialMirror">MojangIq Uw Uf Gnaf Naug</sys:String>
+    <sys:String x:Key="BangBangApiMirror">Bangbang93Iq Uw Uf Iaz Aix Ed</sys:String>
+    <sys:String x:Key="McBbsMirror">McBbsIq Uw Uf Iaz Aix Ed</sys:String>
+
+    <!-- <sys:String x:Key="BackEase">收回</sys:String> -->
+    <!-- <sys:String x:Key="BounceEase">弹跳</sys:String> -->
+    <!-- <sys:String x:Key="CircleEase">循环</sys:String> -->
+    <!-- <sys:String x:Key="CubicEase">t³函数</sys:String> -->
+    <!-- <sys:String x:Key="ElasticEase">弹簧</sys:String> -->
+    <!-- <sys:String x:Key="ExponentialEase">指数</sys:String> -->
+    <!-- <sys:String x:Key="PowerEase">t*p函数</sys:String> -->
+    <!-- <sys:String x:Key="QuadraticEase">t²函数</sys:String> -->
+    <!-- <sys:String x:Key="QuinticEase">t⁵函数</sys:String> -->
+    <!-- <sys:String x:Key="SineEase">Sin(t)函数</sys:String> -->
+
+    <!-- <sys:String x:Key="NoSelectedBgImage">未设置壁纸路径</sys:String> -->
+
+    <sys:String x:Key="StaySame">Gnauhz Nauy Ihc Oab</sys:String>
+
+    <sys:String x:Key="All">Ub Nauq</sys:String>
+
+    <sys:String x:Key="SkinNotFound">Uf Ip Oad Oahz Uoy Iem</sys:String>
+    <sys:String x:Key="SkinNotFoundDetail">Oad Oahz Uoy Iem {0} Uf Ip Ed</sys:String>
+
+    <sys:String x:Key="Delay">Ihc Nay</sys:String>
+    <sys:String x:Key="TimeOutOrError">Ouc Uhc Ouh Ihs Oahc</sys:String>
+    <sys:String x:Key="Times">Ic</sys:String>
+
+    <!-- <sys:String x:Key="TestDelayFailedDetail">无法测试{0}的延迟</sys:String> -->
+
+    <sys:String x:Key="LightTheme">It Uhz Es Gnail</sys:String>
+    <sys:String x:Key="DarkTheme">It Uhz Es Na</sys:String>
+
+    <!--> Models <-->
+
+    <!--> About Page <-->
+
+    <!-- <sys:String x:Key="AboutUs">关于我们</sys:String> -->
+    <sys:String x:Key="AboutUsContent">LauncherX Iad Iy Aix Ihs Minecraft Iq Gnod Iq。</sys:String>
+    <sys:String x:Key="TeamContent">Corona Studio Uy Nauy CMFL Uz Af Iak。Iy Ihs Nem Ow Minecraft Iud Naut Af Iak Ij Naus Ij Ed Gnehc Uz Ihs Ner Ey Nauhz Eh Ehz Oah Ia Uoy Ed Nix Eh Uw Ey Iew。</sys:String>
+
+    <sys:String x:Key="VersionInfo">Ix Nix Neb Nab</sys:String>
+    <sys:String x:Key="ReleaseBranch">Ihz Nef Gnix Af</sys:String>
+    <sys:String x:Key="BinaryVersion">Neb Nab Ihz Nij Re</sys:String>
+
+    <sys:String x:Key="LauncherTeam">Iud Naut Iq Gnod Iq</sys:String>
+    <sys:String x:Key="ChiefDeveloper">Af Iak Ix Uohs</sys:String>
+    <sys:String x:Key="Interaction">Uh Oaij</sys:String>
+    <sys:String x:Key="TechAdviser">New Ug Uhs Ij</sys:String>
+
+    <sys:String x:Key="BackendTeam">Iud Naut Naud Uoh</sys:String>
+    <sys:String x:Key="Docking">Eij Iud</sys:String>
+
+    <sys:String x:Key="ProjBobcatTeam">PROJBOBCATIud Naut</sys:String>
+    <sys:String x:Key="CodeReview">Ahc Nehs Am Iad</sys:String>
+
+    <sys:String x:Key="QualityControlTeam">Iud Naut Ihz Gnok Gnail Ihz</sys:String>
+    <sys:String x:Key="Manager">Naug Uhz</sys:String>
+    <sys:String x:Key="QualityControlGroup">Uz Ihz Gnok Gnail Ihz</sys:String>
+
+    <sys:String x:Key="TranslationContributor">Ehz Naix Gnog Iy Naf</sys:String>
+
+    <sys:String x:Key="Thanks">Eix Gnim</sys:String>
+    <sys:String x:Key="Thanks1">Uoy Eix Nag BangBang93 Ij Iy McBbs Ed Gnog It Minecraft Uw Uf Us Aij Iaz Aix Naij New Nauy Iz</sys:String>
+    <sys:String x:Key="Thanks2">Uoy Eix Nag Ij Ek Ihs Uoy-Gnix Gnix Iq Uw Uf Ed Uhz Naz</sys:String>
+    <!-- <sys:String x:Key="Thanks3">感谢 CI010 为 ProjBobcat 启动核心开发提供的技术指导</sys:String> -->
+
+    <sys:String x:Key="OpenSourceProjectUsages">Gnoy Ihs Um Gnaix Nauy Iak</sys:String>
+
+
+    <sys:String x:Key="Other">At Iq</sys:String>
+
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+    <sys:String x:Key="OtherContent">O(∩_∩)O Ey！</sys:String>
+    <!--> 这里算是一个彩蛋字段，你们随意修改吧2333 <-->
+
+    <!--> About Page <-->
+
+    <sys:String x:Key="ChangeLanguageRebootRequired">Nay Uy Ihs Naix Ed Naim Eij El Iag Uix Nin，Nef UbUIOaix Gnehs Gnen Iac Uoh Ihz Iq Gnohc Iaz Oay Ux Nay Uy Ihs Naix Ed。</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="GameLogsWindowTitle">Uok Gnauhc Ihs Naix Ihs Ihs Ihz Ir Ix Uoy</sys:String>
+    <sys:String x:Key="TopMost">Gnid Ihz</sys:String>
+    <sys:String x:Key="Moveable">Gnod Iy Ek</sys:String>
+
+    <!--> GameLogsWindow.xaml <-->
+
+    <sys:String x:Key="NoSuchPageKeyExceptionMessage">Iew Ihz Naij Oad Oahz Uoy Iem {0} Naim Ey Ed。</sys:String>
+
+
+    <!-- <sys:String x:Key="GetSettingsFailed">读取设置文件时出现了一些错误</sys:String> -->
+    <!-- <sys:String x:Key="SearchGameHint">搜索游戏的 id，例如：1.15.2</sys:String> -->
+
+    <sys:String x:Key="Yes">Ihs</sys:String>
+    <sys:String x:Key="No">Uof</sys:String>
+
+    <sys:String x:Key="DownloadFailed">Iab Ihs Iaz Aix</sys:String>
+    <sys:String x:Key="RequestOnlineGame">Ix Uoy Naix Iaz Uq Ouh...</sys:String>
+    <!-- <sys:String x:Key="RequestFailed">获取失败</sys:String> -->
+
+    <sys:String x:Key="Finished">Gnehc Naw</sys:String>
+    <sys:String x:Key="Download">Iaz Aix</sys:String>
+
+    <sys:String x:Key="Env">Gnij Nauh Ihz Naiq</sys:String>
+    <sys:String x:Key="Install">Gnauhz Na</sys:String>
+
+    <sys:String x:Key="GetJavaInfoFailed">Gnauk Gniq It Uj Ed Ihs Gnix Nuy Eg Ehz Gnid Euq Gnen Ub Nem Ow...</sys:String>
+    <sys:String x:Key="FileNotFound">Naij New Oad Oahz Iew</sys:String>
+    <sys:String x:Key="GoodJavaRuntime">Iag Java Ihs Gnix Nuy ( {0} ) Gnot Ix Ed Nin Iep Ip。</sys:String>
+    <sys:String x:Key="BadJavaRuntime">Iag Java Ihs Gnix Nuy ( {0} Iew ) Uog Aij Gnot Ix Ed Nin Uy ( {1} Iew ) Iep Ip Ub，It New Gnen Gnix Ihz Oad Gnen Ek。</sys:String>
+
+    <sys:String x:Key="SelectedVersion">Neb Nab Ez Naux</sys:String>
+    <!-- <sys:String x:Key="ManuallyCopyRedirectUrl">手动复制 RedirectUrl</sys:String> -->
+
+    <sys:String x:Key="Login">Ul Gned</sys:String>
+    <sys:String x:Key="Register">Ec Uhz</sys:String>
+
+    <sys:String x:Key="ConnectToService">Uw Uf Oad Eij Nail</sys:String>
+
+    <!-- <sys:String x:Key="IntroWelcomeText">欢迎使用 LauncherX</sys:String> -->
+    <!-- <sys:String x:Key="IntroWelcomeTextDetail">下面即将开始正式的配置向导，请点击下一步继续。</sys:String> -->
+
+    <sys:String x:Key="IntroSelectAppearance">Naug Iaw Ed Nauh Ix In Eg Iy Ez Naux</sys:String>
+    <sys:String x:Key="IntroSelectAppearanceDetail">Ed Naim Ey Ihz Ehs Iq Gnod Iq Iaz Iy Ek Nin Uoh Oahs“Naug Iaw”Ihz Ehs Naug Iaw Ed Oud Gneg Iag Uix Gnohz Ak Gnaix Naux。</sys:String>
+
+    <sys:String x:Key="IntroAddAccount">Uh Gnahz Ix Uoy Eg Iy Aij Nait</sys:String>
+    <sys:String x:Key="IntroAddAccountDetail">Uoh Gnehc Naw Oad Gnaix Iaz，Iy Ihs Ouh Uh Gnahz Ix Uoy Ed Nin Il Naug Ial Gnim Uh Gnoy Ed Oaij Gnahs Uoy Naim Eij Uhz Iq Gnod Iq Ij Naid Iy Ek Nin3DUf Ip Ix Uoy Ed Nin Nal Uy Ihs Gnaf。</sys:String>
+
+    <sys:String x:Key="IntroGameSettings">Ihz Ehs Ix Uoy Ed Ux Ib Gnehc Naw</sys:String>
+    <sys:String x:Key="IntroGameSettingsDetail">Ihz Ehs Nix Eh Ed Ux Ib Ous Gnod Iq Eix Iy Nahs Naw Oay Ux Nin Il Ehz Iaz，Ed Naim Eij Ihz Ehs Iaz Iy Ek Nin Uoh Oahs”Ihz Ehs Ix Uoy Uj Nauq“Ihz Ehs Iy Gnid Iz Oud Gneg Oad Oahz Gnohz Ak Gnaix Naux。</sys:String>
+
+    <sys:String x:Key="IntroFinishedDetail">Um Gnaix Ihz Ehs Ed Uoy Ous El Gnehc Naw Gnij Iy Nin，Nay It Ihs Iak Iauk LauncherX Ab！</sys:String>
+
+    <sys:String x:Key="Previous">Ub Iy Gnahs</sys:String>
+    <sys:String x:Key="Next">Ub Iy Aix</sys:String>
+
+    <!-- <sys:String x:Key="RequestingGameList">稍等片刻，正在加载游戏列表</sys:String> -->
+
+    <sys:String x:Key="SystemInfo">Ix Nix Gnot Ix</sys:String>
+    <sys:String x:Key="GameInfo">Ix Nix Ix Uoy</sys:String>
+    <!-- <sys:String x:Key="Memory">内存</sys:String> -->
+    <sys:String x:Key="Time">Naij Ihs</sys:String>
+    <sys:String x:Key="GameTime">Gnahc Ihs Ix Uoy</sys:String>
+    <sys:String x:Key="Count">Uhs Ic</sys:String>
+
+    <!-- <sys:String x:Key="AccountType">账户类型</sys:String> -->
+    <!-- <sys:String x:Key="ValidOnlineAccount">有效的在线账户</sys:String> -->
+
+    <!-- <sys:String x:Key="StatData">统计数据</sys:String> -->
+    <sys:String x:Key="News">New Nix</sys:String>
+    <!-- <sys:String x:Key="GetGames">获取游戏</sys:String> -->
+
+    <sys:String x:Key="Free">Naix Gnok</sys:String>
+    <sys:String x:Key="Using">Gnohz Gnoy Ihs</sys:String>
+    <sys:String x:Key="Game">Ix Uoy</sys:String>
+
+    <sys:String x:Key="Save">Nuc Oab</sys:String>
+    <sys:String x:Key="BasicSettings">Ihz Ehs Uhc Ij</sys:String>
+    <sys:String x:Key="GameName">Gnehc Gnim Ix Uoy</sys:String>
+    <sys:String x:Key="GamePath">Gnij Ul Ix Uoy</sys:String>
+    <sys:String x:Key="Icon">Oaib Ut</sys:String>
+
+    <sys:String x:Key="Offline">Naix Il</sys:String>
+    <sys:String x:Key="ChooseLoginType">Ihs Gnaf Ul Gned Ed Nin Ez Naux Gniq</sys:String>
+    <sys:String x:Key="ChooseLoginTypeDetail">Ihs Gnaf Gnehz Nay Ed Nin Ez Naux Gniq，Ihs Gnaf Gnehz Nay Gnohz An Gnoy Ihs Iag Gniy Uhc Gniq Ub Nin Oug Ur，Gnoy Ihs Gniq Mojang Gnehz Nay。</sys:String>
+
+    <sys:String x:Key="GlobalNotSet">Gnid Ehs Iew Uj Nauq</sys:String>
+    <sys:String x:Key="SaveSettingsFailed">Iab Ihs Nuc Oab Ihz Ehs</sys:String>
+
+    <!-- <sys:String x:Key="FalseFabricInstallSettings">不正确的 Fabric 安装配置</sys:String> -->
+    <!-- <sys:String x:Key="FalseFabricInstallSettingsDetail">您只选择了 Fabric Loader 或是 Fabric Yarn，请在两个列表里选择合适的版本安装才能够继续！</sys:String> -->
+
+    <sys:String x:Key="GetFailed">Iab Ihs Uq Al</sys:String>
+
+    <sys:String x:Key="ConfirmExit">Am Uhc Iut Oay Gnid Euq Nin？</sys:String>
+    <sys:String x:Key="ConfirmExitDetail">Gnehc Naw Iew Iah Nin LauncherX Ouz Gnog Ihz Ehs Ed，Iq Ehs Ieb Gnaij Uod Iag Gneg Ed Nuc Oab Iew Uoy Ous。</sys:String>
+
+    <sys:String x:Key="Choose">Ez Naux</sys:String>
+    <sys:String x:Key="CustomGameId">Ix Uoy Iy Gnid Iz Id</sys:String>
+    <sys:String x:Key="NoAffiliatedComponentForVersion">Gnauhz Na Gnog Ek Naij Uz Uhs Uf Ed Gnoy Ek Uw Naz Neb Nab Iag。</sys:String>
+    <sys:String x:Key="OptionalAffiliatedComponent">Naij Uz Uhs Uf Naux Ek</sys:String>
+
+    <sys:String x:Key="ForgeDescription">Minecraft Forge Iag Uix Am Iad Nauy Gnaf Iak Ed Ief Naim Ihs API Ux Gnehc Iaz Aij Eh，Auh Naij Iaz Ihz Minecraft Gnix Gnor Naij Ed Naij Ihz Iauk Om Ix Uoy Ed Naij Gnauhc Uq Ehs Gnohz</sys:String>
+    <sys:String x:Key="FabricDescription">Fabric Ihs Minecraft Nail Uj Gnog Iag Uix Nay Ihs Ij Gnail Gniq Ed。</sys:String>
+    <sys:String x:Key="LiteLoaderDescription">LiteLoader Ihs Minecraft Ij Gnail Gniq EdModIq Iaz Aij，Ed Ihz Ij Ix Uoy Iag Uix Oay Ux Ub Iew Iaz Ihz Mod Nad Naij Gnog It，Gnen Gnix Oag，Gnen Gnog Iq Iaz Aij Ed Oak Ek。</sys:String>
+    <sys:String x:Key="OptifineDescription">Gnog It Minecraft Naix Ihs Gnix Ut Ij Oag Eh Gnehz Oait Gnen Gnix（Gniy Gnaug Ur Il）。</sys:String>
+
+    <!-- <sys:String x:Key="NotSupportedOperation">不受支持的操作</sys:String> -->
+    <!-- <sys:String x:Key="MultiFilesNotSupportedOperationDetail">暂时不支持多文件操作，我们将在今后支持。</sys:String> -->
+
+    <!-- <sys:String x:Key="DragDetected">您拖入了文件</sys:String> -->
+    <!-- <sys:String x:Key="ChooseFileTypeDetail">请在下方选择您的文件类型。注意，部分文件可能暂时不受支持。</sys:String> -->
+
+    <sys:String x:Key="Author">Ehz Ouz</sys:String>
+    <sys:String x:Key="Version">Neb Nab</sys:String>
+    <sys:String x:Key="Loading">Gnohz Iaz Aij</sys:String>
+
+
+    <sys:String x:Key="AddFriend">Uoy Oah Aij Nait</sys:String>
+    <sys:String x:Key="ValidateFriend">Gnehz Nay Uoy Oah</sys:String>
+    <!--  Error Message  -->
+
+    <sys:String x:Key="CanNotEmpty">Gnok Iew Gnen Ub Gnaix Ic</sys:String>
+
+    <sys:String x:Key="EmailFormatError">Gnaix Uoy Ihs Ub Uh Is Ehz</sys:String>
+    <!-- <sys:String x:Key="EmailRequired">请输入邮箱</sys:String> -->
+
+    <!-- <sys:String x:Key="ConfirmEmail">验证邮箱</sys:String> -->
+    <!-- <sys:String x:Key="ValidationCode">验证码</sys:String> -->
+    <!-- <sys:String x:Key="ValidationCodeHasBeenSent">验证码已经发送到您的邮箱</sys:String> -->
+    <!-- <sys:String x:Key="PasswordIsDifferent">两次输入的密码不相同</sys:String> -->
+    <sys:String x:Key="PasswordFormat">Um Iz Eix Oaix Ad Nah Oab Ux Ib Am Im、Oah Uf Eh Iz Uhs</sys:String>
+    <sys:String x:Key="UserNameFormat">Um Iz Eix Oaix Ad Nah Oab Gnen Ihz、Iz Uhs、Naix Auh Aix Ouh Gnag Gneh，Iew Ud Gnahc 6-18</sys:String>
+    <sys:String x:Key="StringLength">Iaz Ux Ib Ud Gnahc{0}-{1}Naij Ihz</sys:String>
+    <sys:String x:Key="AutoLogin">Ul Gned Gnod Iz</sys:String>
+
+    <sys:String x:Key="HelpAndFeedback">Iuk Naf Eh Uhz Gnab</sys:String>
+
+    <sys:String x:Key="LauncherAccount">Uh Gnahz Iq Gnod Iq</sys:String>
+    <sys:String x:Key="RebootRequired">Iq Gnohc Oay Ux</sys:String>
+
+    <sys:String x:Key="GameSettings">Ihz Ehs Ix Uoy</sys:String>
+    <sys:String x:Key="VersionRootPath">Ul Um Neg Neb Nab</sys:String>
+    <sys:String x:Key="Saves">Gnad Nuc</sys:String>
+    <sys:String x:Key="Mod">Uz Om</sys:String>
+    <sys:String x:Key="ResourcePack">Oab Nauy Iz</sys:String>
+    <sys:String x:Key="ShaderPack">Oab Gniy Gnaug</sys:String>
+
+    <sys:String x:Key="ReleaseNote">Gnim Ouhs Gnix Af</sys:String>
+
+    <sys:String x:Key="ManageServer">Iq Uw Uf Il Naug</sys:String>
+    <sys:String x:Key="ManageServerDescription">Iq Uw Uf Ix Uoy Ed Naw Gnahc Nin Aij Nait Eh Nal Uy Iy Ek Nin Il Ehz Iaz。Iq Uw Uf Ed Ur Aij Uoh Gnod Iq Gnohz Naux Iy Ij Naid。</sys:String>
+    <sys:String x:Key="Refresh">Nix Auhs</sys:String>
+    <sys:String x:Key="AddNew">Aij Nait</sys:String>
+
+    <sys:String x:Key="Account">Uh Gnahz</sys:String>
+    <sys:String x:Key="LauncherAccountDescription">Oad Ul Gned LauncherX Nay It Uf Gnef Uq Ouh Iy Uh Gnahz</sys:String>
+
+    <sys:String x:Key="Send">Gnos Af</sys:String>
+    <sys:String x:Key="SendDescription">Ix Oaix Ur Uhs，Na [ Enter ] Gnos Af</sys:String>
+
+    <!-- <sys:String x:Key="NvidiaHardwareAcc">硬件加速渲染 （Nvidia）</sys:String> -->
+    <!-- <sys:String x:Key="NvidiaHardwareAccRebootRequired">您修改了启动器的硬件加速设置，这部分设置需要重启启动器后才能应用</sys:String> -->
+
+    <sys:String x:Key="VideoBackground">Gnij Ieb Nip Ihs</sys:String>
+    <sys:String x:Key="MicaBackground">Mica Ihz Iac（WIN11+）</sys:String>
+    <sys:String x:Key="GameScreenShots">Ut Eij Ix Uoy</sys:String>
+    <sys:String x:Key="BlurRadius">Gnij Nab Uh Om</sys:String>
+    <!-- <sys:String x:Key="Volume">音量</sys:String> -->
+    <sys:String x:Key="BackgroundAlignmentMode">Ihs Gnaf Iq Iud Naip Ut Gnij Ieb</sys:String>
+
+    <sys:String x:Key="ResolutionDescription">Iew Vl Naib Nef Gnad 0 * 0 Ihs，Vl Naib Nef Ner Om Ix Uoy Gnoy Ihs Gnaij。</sys:String>
+
+    <!-- <sys:String x:Key="WhatCanIShowYou">我能为您展示什么？</sys:String> -->
+    <sys:String x:Key="LauncherNotification">Ihz Gnot Iq Gnod Iq</sys:String>
+
+    <sys:String x:Key="Seconds">Oaim</sys:String>
+    <sys:String x:Key="Minutes">Gnohz Nef</sys:String>
+    <sys:String x:Key="Hours">Ihs Oaix</sys:String>
+    <sys:String x:Key="Days">Nait</sys:String>
+    <sys:String x:Key="Years">Nain</sys:String>
+
+    <sys:String x:Key="Accept">Uohs Eij</sys:String>
+    <sys:String x:Key="Deny">Euj Uj</sys:String>
+
+    <sys:String x:Key="AddSelf">Ij Iz Aij Nait</sys:String>
+    <sys:String x:Key="UserState">Iat Gnauhz Uh Gnoy</sys:String>
+    <sys:String x:Key="UpdateChannel">Oad Gnot Nix Gneg</sys:String>
+    <sys:String x:Key="Logout">Oaix Uhz</sys:String>
+
+    <sys:String x:Key="LauncherUpdateFound">Nix Gneg It Neb Ed Nix Naix Af</sys:String>
+    <sys:String x:Key="HotfixUpdateNotice">Nix Gneg Gnail Ihz Ed Oay Gnohz Nah Oab Neb Nab Iag</sys:String>
+    <sys:String x:Key="DoNotCloseNotice">Ek Naip Gned Oahs，Iq Gnod Iq Ed Nin Ib Naug Ihz Gnaiq Oay Ub Gniq。</sys:String>
+    <sys:String x:Key="Update">Nix Gneg</sys:String>
+
+    <!-- <sys:String x:Key="ShowPassword">显示密码</sys:String> -->
+    <sys:String x:Key="ForgetPassword">Am Im Ij Gnaw</sys:String>
+
+    <!-- <sys:String x:Key="ClickToChange">点击修改</sys:String> -->
+
+    <sys:String x:Key="AuthServerHint">Iew Gnahc Gnothttps://[Gnim Uy]/api/yggdrasil/</sys:String>
+    <!-- <sys:String x:Key="MsLoginDetail">您在上方输入邮箱之后。点击确认，您将在浏览器中完成微软账户的登录。完成之后，启动器将为您添加您的账户。</sys:String> -->
+
+    <sys:String x:Key="ProtocolVersion">Neb Nab Iy Eix</sys:String>
+    <sys:String x:Key="Search">Ous Uos</sys:String>
+    <sys:String x:Key="SearchOption">Gnaix Naux Ous Uos</sys:String>
+
+    <sys:String x:Key="TryStartGame">Ix Uoy Gnod Iq Ihs Gnahc</sys:String>
+    <sys:String x:Key="StartingGame">Ix Uoy Gnod Iq Ihs Iak：{0}</sys:String>
+
+    <!-- <sys:String x:Key="LaunchFailedTitle">{0} 启动失败</sys:String> -->
+    <!-- <sys:String x:Key="LaunchFailedContent">我们在尝试启动游戏时出现了问题，具体原因：{0}</sys:String> -->
+    <sys:String x:Key="PreparingMainUI">Naim Eij Uhz Ieb Nuhz Iaz Gnehz，Naij Ihs Eix Iy Oay Ux Gnen Ek Ehz。</sys:String>
+
+    <sys:String x:Key="YouAreNotLogin">Ul Gned Iew Iah Nin</sys:String>
+    <sys:String x:Key="YouAreNotLoginContent">Nab Gnid New Ief Gnoy Ihs Gnen Iac Ul Gned Ux IbLauncherX。</sys:String>
+    <!-- <sys:String x:Key="RegisterSucceededContent">我们已经发送了一封激活邮件 到您的邮箱。请点击邮件内的链接激活。激活后就可以登录了</sys:String> -->
+    <sys:String x:Key="AccountUnavailable">Oah Gnahz Ic Gnoy Ihs Af Uw</sys:String>
+    <sys:String x:Key="AccountUnavailableContent">Uh Gnoy Ec Ien Ihs Ub Nin。Oah Gnahz Eg Iy Gnil Ul Gned Gnid Euq Ij Naid，Iq Gnod Iq Uhc Iut Oaix Uq Ij Naid</sys:String>
+    <sys:String x:Key="GetInsider">Eg Iz Ec Ien Ed Ouh</sys:String>
+    <sys:String x:Key="ChannelSwitched">Ihz Nef Nauh Eiq Nin Gnab Gnod Iz Iy</sys:String>
+    <sys:String x:Key="ChannelSwitchedContent">
+        Ihs Ihz Nef Ed Ihz Ehs Naix Nauy Nin「{0}」。{2}
+        El Gnix Nuy Nin Uy Uoy「{1}」Ed Neb Nab Ihz Nef LauncherX，{2}
+        El Oad Nauh Eiq Ihz Nef Ed Nin Gnaij Iy Nem Ow「{1}」。
+    </sys:String>
+    <sys:String x:Key="DeviceVerificationFailed">Iab Ihs Gnehz Nay Ieb Ehs</sys:String>
+    <sys:String x:Key="DeviceVerificationFailedContent">Ieb Ehs Ed Nix Ec Uhz Iaz Gnen Ub Uh Gnahz Ed Nin，LauncherXUhc Iut Gnaij Ij。</sys:String>
+    <sys:String x:Key="ServerRefresh">Nix Auhs Iq Uw Uf</sys:String>
+    <sys:String x:Key="IsConfirm">Am Ner Euq？</sys:String>
+    <sys:String x:Key="ConfirmToDeleteFriend">Uoy Oah Uhc Nahs Oay Gnid Euq{0}Am？</sys:String>
+
+    <!-- <sys:String x:Key="MediaFile">媒体文件</sys:String> -->
+
+    <!-- <sys:String x:Key="LoginSucceededContent">账户已完成验证并已加密保存，请点击下一步继续。</sys:String> -->
+
+    <sys:String x:Key="UpdateDownloadFailed">Nix Gneg Iaz Aix Af Uw</sys:String>
+    <sys:String x:Key="UpdateDownloadFailedContent">Iaz Aix Ed Nix Gneg Gnehc Naw Af Uw，It New Eij Nail Oul Gnaw Iew Niy Ihs Gnen Ek。Niy Nauy：{0}</sys:String>
+
+    <sys:String x:Key="EmailUsed">Gnoy Ihs Ieb Iy Gnaix Uoy</sys:String>
+
+    <sys:String x:Key="Hi">Iah~</sys:String>
+    <!-- <sys:String x:Key="AuthResultNotFound">未找到认证结果</sys:String> -->
+    <!-- <sys:String x:Key="AuthIncomplete">无法完成账户验证</sys:String> -->
+    <!-- <sys:String x:Key="AuthIncompleteContent">我们无法完成账号的验证，这可能是因为您取消了验证或是其他原因。具体原因：{0}</sys:String> -->
+
+    <!-- <sys:String x:Key="TotalSold">一共售出</sys:String> -->
+    <!-- <sys:String x:Key="Last24Hours">过去 24 小时</sys:String> -->
+    <!-- <sys:String x:Key="SoldPerSecond">每秒售出</sys:String> -->
+    <!-- <sys:String x:Key="Copies">份</sys:String> -->
+
+    <sys:String x:Key="Online">Naix Iaz</sys:String>
+    <sys:String x:Key="AFK">Ij Aug</sys:String>
+    <sys:String x:Key="PlayingContent">Naw Iaz Gnehz：{0}</sys:String>
+
+    <sys:String x:Key="DeleteGameContent">Gnad Nuc Ix Uoy Ouk Oab Uhc Nahs Gnaij、It Neb、Oab Nauy Iz、Gniy Gnaug、Uz Om、Uj Uhs Gned Ul Ij Naw Uoy。Ouz Oac Iag [Oaix Ehc Af Uw]，Ouz Oac Nehs Nij Gniq！</sys:String>
+
+    <sys:String x:Key="TopLeft">Oaij Gnahs Ouz</sys:String>
+    <sys:String x:Key="TopCenter">Gnahs Gnohz</sys:String>
+    <sys:String x:Key="TopRight">Oaij Gnahs Uoy</sys:String>
+    <sys:String x:Key="CenterLeft">Gnohz Ouz</sys:String>
+    <sys:String x:Key="Center">Gnohz Gnehz</sys:String>
+    <sys:String x:Key="CenterRight">Gnohz Uoy</sys:String>
+    <sys:String x:Key="BottomLeft">Oaij Aix Ouz</sys:String>
+    <sys:String x:Key="BottomCenter">Aix Gnohz</sys:String>
+    <sys:String x:Key="BottomRight">Oaij Aix Uoy</sys:String>
+
+    <!-- <sys:String x:Key="ImageLoadFailed">图片加载失败</sys:String> -->
+
+    <sys:String x:Key="SetServerSucceededContent">Iew Ihz Ehs Iq Uw Uf Gnaij Gnog Gnehc：{0}</sys:String>
+
+    <sys:String x:Key="ChangeModEnableFailed">Iq / Iab Ihs Uz Om Gnoy Nij！</sys:String>
+
+    <sys:String x:Key="ConfirmDeleteImageDetail">Ihz Ib Iag Uhc Nahs Ner Euq？Oaix Ehc Af Uw Ouz Oac Ic。</sys:String>
+
+    <sys:String x:Key="Higgs">Is Eg Ix（Iauk Iuz）</sys:String>
+    <sys:String x:Key="Neutrino">Iz Iew Gnohz（Us Iauk）</sys:String>
+    <sys:String x:Key="Proton">Iz Ihz（Us Nam）</sys:String>
+
+    <sys:String x:Key="Stable">Gnid New</sys:String>
+
+    <sys:String x:Key="ServerNoContent">Iuh Naf Uw Iq Uw Uf</sys:String>
+    <sys:String x:Key="FalseCredential">Uw Ouc Am Im Ouh Uh Gnahz</sys:String>
+    <sys:String x:Key="UnknownLoginError">Uw Ouc Ul Gned Ed Ihz Iew</sys:String>
+
+    <sys:String x:Key="LatestRelease">Nab Ihs Gnehz Nix Iuz</sys:String>
+    <sys:String x:Key="LatestSnapshot">Nab Oahz Iauk Nix Iuz</sys:String>
+
+    <sys:String x:Key="FollowSystem">Gnot Ix Ius Neg</sys:String>
+
+    <sys:String x:Key="UnknownErrorOccurs">Uw Ouc Ihz Iew Gnehs Af</sys:String>
+
+    <!-- <sys:String x:Key="NowYouCanLogin">现在你可以登录了</sys:String> -->
+    <sys:String x:Key="FailedToUploadAvatar">Gnaix Uot Nauhc Gnahs Af Uw</sys:String>
+
+    <sys:String x:Key="Rank">Gnah Iap</sys:String>
+    <sys:String x:Key="Popularity">Ud Nem Er</sys:String>
+    <sys:String x:Key="UpdateDate">Iq Ir Nix Gneg</sys:String>
+    <sys:String x:Key="Name">Gnehc Gnim</sys:String>
+    <sys:String x:Key="DownloadCount">Gnail Iaz Aix</sys:String>
+
+    <!-- <sys:String x:Key="TimeBeforeDayUnit">时间（天前）</sys:String> -->
+    <!-- <sys:String x:Key="GameTimeHourUnit">游戏时长（小时）</sys:String> -->
+
+    <sys:String x:Key="CurseForgeSearchTextHint">Uz Om、Oab Ihz Iac、Iz Gnim Ed Gniy Gnaug，Ur Il 'BuildCraft'</sys:String>
+    <sys:String x:Key="GameVersionTextHint">Neb Nab Ix Uoy，Ur Il 1.15.2</sys:String>
+
+    <sys:String x:Key="Tag">Naiq Oaib</sys:String>
+    <!-- <sys:String x:Key="SortMethod">排序方式</sys:String> -->
+
+    <sys:String x:Key="VersionList">Oaib Eil Neb Nab</sys:String>
+    <sys:String x:Key="DownloadResource">Iaz Aix Nauy Iz</sys:String>
+
+    <sys:String x:Key="Detail">Ix Nix Ix Gnaix</sys:String>
+    <sys:String x:Key="AddonDetail">Ix Nix Uz Om</sys:String>
+    <sys:String x:Key="FailedToLoadAddonInfoDetail">Ix Nix Ix Gnaix Ed Uz Om Iaz Aij Af Uw</sys:String>
+
+    <sys:String x:Key="Resource">Nauy Iz</sys:String>
+    <sys:String x:Key="OriginalGame">It Neb Ix Uoy</sys:String>
+
+    <sys:String x:Key="UpdateTimeAgo">{0} Nix Gneg Naiq</sys:String>
+    <sys:String x:Key="CountDownloads">{0:##,###} Iaz Aix Ic</sys:String>
+
+    <sys:String x:Key="ReleaseEdition">Nab Ihs Gnehz</sys:String>
+    <sys:String x:Key="SnapshotEdition">Nab Oahz Iauk</sys:String>
+    <sys:String x:Key="AlphaEdition">Alpha Nab</sys:String>
+    <sys:String x:Key="BetaEdition">Beta Nab</sys:String>
+    <sys:String x:Key="UnknownReleaseEdition">Neb Nab Gnix Af Ihz Iew</sys:String>
+
+    <sys:String x:Key="Chat">Nait Oail</sys:String>
+    <sys:String x:Key="Home">Ey Uhz</sys:String>
+
+    <sys:String x:Key="AutoScroll">Gnod Nug Gnod Iz</sys:String>
+    <!-- <sys:String x:Key="LogHighlight">日志高亮</sys:String> -->
+
+    <!-- <sys:String x:Key="GameProcessManagement">游戏进程管理</sys:String> -->
+    <sys:String x:Key="KillProcess">Gnehc Nij Uhs Eij</sys:String>
+
+    <sys:String x:Key="FalseJavaSelectionCase1">Ed Oay Ux Uhc Ihz Euq Gnim Uoy Iem Ix Uoy Eg Ehz Ed Gnod Iq Iaz Gnehz Nin Java Neb Nab，Gnoy Ihs Oay Ux Ix Uoy Iag Iew Ner Nem Ow Nad Java 8 Gnod Iq Gnehc Naw Ial Ihs Gnix Nuy。</sys:String>
+    <sys:String x:Key="FalseJavaSelectionCase2">Iew Neb Nab Gnoy Ihs Oay Ux Ix Uoy Eg Ehz Ed Gnod Iq Iaz Gnehz Nin [{0}] Ed Oag Gneg Ouh Java Ihs Gnix Nuy。</sys:String>
+    <sys:String x:Key="FalseJavaSelectionDetail">Iew Neb Nab Ihs Gnix Nuy Ed Ez Naux Naiq Um Nin Ihs Nad [{0}]。 Ed Euq Gnehz Ub Java Iab Ihs Gnod Iq Ihz Oad Gnen Ek Ihz Iep Uk Gnix Nuy。Gnaw Naiq Iy Ek Nin Ihz Ehs-Ihz Ehs Ix Uoy Uj Nauq Uq Ouh Java。</sys:String>
+
+    <sys:String x:Key="ContinueLaunch">Gnod Iq Ux Ij</sys:String>
+    <sys:String x:Key="AutoSelect">Ez Naux Gnod Iz</sys:String>
+
+    <sys:String x:Key="FailedToAutoSelectJavaMessage">Ed Uoy Naix Gnoc Af Uw Java Ed Ix Uoy Iag Eh Ihs Uhc Ez Naux Gnohz Uk Java Ihs Gnix Nuy。Ihs Neb Nab Ihs Gnix Nuy Ed Oay Ux Ix Uoy Iag [{0}]。</sys:String>
+
+    <sys:String x:Key="FailedToResolveKey">Oay Im Ix Eij Af Uw</sys:String>
+    <sys:String x:Key="FailedToResolveKeyDetail">Oay Im Im Aij Ed Gnahs Ij Naus Ij Id Neb Nin Iaz Nuc Oab Ix Eij Af Uw Nem Ow，Niy Nauy Ic Uy Uhc，Oay Im Im Aij Iag Ihz Gnohz Oay Ux Nem Ow。Gnehc Naw Nix Gnohc Oay Ux Nin Ic Niy LauncherX Ul Gned Uh Gnahz Ed，Uh Gnahz Ix Uoy Ed Uoy Ous Nin Ul Gned Nix Gnohc Oay Ux Ey Ihs Gnot。</sys:String>
+
+    <sys:String x:Key="SwitchAccount">Uh Gnahz Nauh Eiq</sys:String>
+
+    <sys:String x:Key="Running">Gnohz Gnix Nuy</sys:String>
+    <sys:String x:Key="Stopped">Ihz Gnit Iy</sys:String>
+
+    <!-- <sys:String x:Key="UnsupportedServer">无法检测 NAT 类型，可能是服务器不支持</sys:String> -->
+    <!-- <sys:String x:Key="UdpBlocked">UDP 始终阻止</sys:String> -->
+    <!-- <sys:String x:Key="OpenInternet">开放互联网</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricUdpFirewall">公网，UDP 防火墙启用</sys:String> -->
+    <!-- <sys:String x:Key="FullCone">完全锥形</sys:String> -->
+    <!-- <sys:String x:Key="RestrictedCone">受限锥形</sys:String> -->
+    <!-- <sys:String x:Key="PortRestrictedCone">端口受限锥形</sys:String> -->
+    <!-- <sys:String x:Key="Symmetric">对称</sys:String> -->
+
+    <!-- <sys:String x:Key="UnsupportedServerDetail">[!] 无法检测 NAT 类型，可能是服务器不支持</sys:String> -->
+    <!-- <sys:String x:Key="UdpBlockedDetail">当前 NAT 类型为：UDP 始终阻止</sys:String> -->
+    <!-- <sys:String x:Key="OpenInternetDetail">没有检测到 NAT，开放互联网，您拥有公网 IP 地址，并且防火墙并未启用，这将提供最佳的体验</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricUdpFirewallDetail">当前 NAT 类型为：公网，UDP 防火墙启用，防火墙可能会在一定程度上导致联机难度和联机失败可能性的增加</sys:String> -->
+    <!-- <sys:String x:Key="FullConeDetail">当前 NAT 类型为：完全锥形，最佳的连接体验</sys:String> -->
+    <!-- <sys:String x:Key="RestrictedConeDetail">当前 NAT 类型为：受限锥形，受限的连接体验</sys:String> -->
+    <!-- <sys:String x:Key="PortRestrictedConeDetail">当前 NAT 类型为：端口受限锥形，高度受限的联机体验</sys:String> -->
+    <!-- <sys:String x:Key="SymmetricDetail">当前 NAT 类型为：对称 NAT，有一定几率连接失败；如果你正使用手机热点，请尝试使用其他网络</sys:String> -->
+
+    <!-- <sys:String x:Key="Supported">受支持</sys:String> -->
+    <sys:String x:Key="Unsupported">Ihc Ihz Uohs Ub</sys:String>
+
+    <sys:String x:Key="PleaseWait">Oaz Uw Na Oahs</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionPleaseWait">Gnehc Naw Ouz Oac Ij Nail Naiq Gnad Iad Gned Gniq，Iad Gned Oay Ux Oud Iuz 1 Gnohz Nef</sys:String>
+
+    <!-- <sys:String x:Key="ConnectFailed">连接失败</sys:String> -->
+    <!-- <sys:String x:Key="FailedToCreateRoomDetail">无法创建房间，可能是因为网络波动导致的</sys:String> -->
+
+    <sys:String x:Key="RoomHasNoDescription">Uhs Oaim Uoy Iem Naij Gnaf</sys:String>
+    <sys:String x:Key="RoomHasNoPwd">Am Im Ihz Ehs Iew Naij Gnaf</sys:String>
+
+    <!-- <sys:String x:Key="WrongRoomPwd">房间的密码不正确</sys:String> -->
+    <!-- <sys:String x:Key="WrongRoomId">未找到房间，可能是因为房间的 ID 有误</sys:String> -->
+
+    <sys:String x:Key="JoinFailed">Iab Ihs Ur Aij</sys:String>
+    <!-- <sys:String x:Key="JoinFailedDetail">无法加入房间，{0}</sys:String> -->
+
+    <sys:String x:Key="RoomConnectionStr">
+        Gnoy Ihs Ow LauncherX Naij Gnaf Ij Nail Eg Iy El Naij Gnauhc [{0}] Ab Naij Gnaf Ed Ow Ur Aij Iauk！#{1}#Ihz Uf Af Uw Nin Oug Ur Emoji Nauhc，Naud Ehz Ihs Ihs Iy Ek ID [{2}]。Ur Oad Eij Ihz Ial Neb New Naud Gnehz Ihz Uf Iy Ek Ey Nin！
+    </sys:String>
+    <sys:String x:Key="RoomConnectionStrExported">Nab Eiq Naij Oad Uhc Oad Ix Nix Eij Nail Naij Gnaf Gnaij Gnog Gnehc</sys:String>
+
+    <sys:String x:Key="RoomConnectionStrImportFailed1">Ix Nix Eij Nail Ur Oad Nab Eiq Naij Gnoc Af Uw，Euq Gnehz Uof Ihs Ix Nix Eij Nail Ed Nin Ahc Naij Gniq</sys:String>
+    <sys:String x:Key="RoomConnectionStrImportFailed2">Ix Nix Eij Nail Ed Gnoy Uoy Ur Oad Nab Eiq Naij Gnoc Af Uw，Nah Oab Naud Iy Ihs Iag Gniy Ix Nix Eij Nail "[{9 Uf Iz Ij Ius Iew}]" Am Naib Ed</sys:String>
+
+    <sys:String x:Key="Java8Description">Java 8：Uy Gnoy Ihs [1.17] Neb Nab Ed Naiq Ihz，Naij Uz Uhs Uf Nef Ub（Ur Il Forge）Ed Neb Nab Eg Ehz Oay Ux Ey Jre</sys:String>
+    <sys:String x:Key="Java16Description">Java 16：Uy Gnoy Ihs [1.17] Ix Uoy Ed Neb Nab Oag Gneg Ouh</sys:String>
+    <sys:String x:Key="Java17Description">Java 17：Uy Gnoy Ihs [1.18 - pre2] Ix Uoy Ed Neb Nab Oag Gneg Ouh</sys:String>
+    <sys:String x:Key="Java21Description">Java 21：Uy Gnoy Ihs [1.20.5] Ix Uoy Ed Neb Nab Oag Gneg Ouh。Gnen Gnix Ix Uoy Gnehs It Iy Ek Gnen Ek Neb Nab Ic Gnoy Ihs，Ahc Ij Gnix Gnor Naij Ed Neb Nab Uij Iud</sys:String>
+    <sys:String x:Key="Java25Description">Java 25：Uy Gnoy Ihs [26.1] Ix Uoy Ed Neb Nab Oag Gneg Ouh。Neb Nab Iag Gnoy Ihs Gnahs Ix Uoy Oal Iaz Iy Naij Ub</sys:String>
+
+    <sys:String x:Key="ResetAllSettings">Ihz Ehs Uoy Ous Ihz Gnohz</sys:String>
+    <sys:String x:Key="ResetAllSettingsDetail">Iy Uhz！Oad Gnaix Ihz Iep Gnix Nuy Nix Gnohz Gnib Naij New Ihz Iep Ed Iq Gnod Iq Uhc Nahs Nauq Naw Gnaij Ehz，Uf Iuh Af Uw Ouz Oac Ic。</sys:String>
+    <sys:String x:Key="FailedToResetSettingsDetail">Naij New Ihz Iep Iq Gnod Iq Uhc Nahs Af Uw，Gnauk Gniq Gnoy Nahz Naij New Iaz Nuc Uof Ihs Ahc Naij Gniq。</sys:String>
+
+    <sys:String x:Key="MicrosoftAuthFailed1">Gnehz Nay Gnehc Naw Af Uw，Am Iad Gnehz Nay Ed Uw Ouc El Ur Uhs Uh Gnoy Iew Niy Ihs Gnen Ek、Uiq Gniq Ed Gnoy Gniy El Euj Uj Uh Gnoy Ihs Ouh Ihs Oahc Gnehz Nay。</sys:String>
+    <sys:String x:Key="MicrosoftAuthFailed2">Uh Gnoy Uq It Ihs Gnahc Iaz claims It New Naix Uhc Ihs，Naud Iz Oad Oahz Iew：email</sys:String>
+
+    <sys:String x:Key="MultiPlayerGames">Ix Uoy Ner Oud</sys:String>
+
+    <sys:String x:Key="User">Uh Gnoy</sys:String>
+    <sys:String x:Key="ManageAccount">Il Naug Uh Gnahz</sys:String>
+    <sys:String x:Key="SavedGameAccount">Uh Gnahz Ix Uoy Ed Nuc Oab</sys:String>
+    <sys:String x:Key="Reset">Ihz Gnohz</sys:String>
+    <sys:String x:Key="SetOfflineSkin">Uf Ip Naix Il Ihz Ehs</sys:String>
+
+    <sys:String x:Key="MultiThreadDownload">Iaz Aix Naip Nef Eh Gnehc Naix Oud</sys:String>
+    <sys:String x:Key="MultiThreadDownloadDescription">Ud Us Iaz Aix Ix Uoy Gnehs It Uog Gnen Iaz Aix Naip Nef Eh Gnehc Naix Oud，Gnen Gnix Iq Gnod Iq Gnaix Gniy Uhz Naix Iuh Nad。</sys:String>
+
+    <sys:String x:Key="ConnectionInfo">Ix Nix Eij Nail</sys:String>
+    <!-- <sys:String x:Key="MultiPlayerServiceStatus">联机服务状态</sys:String> -->
+    <!-- <sys:String x:Key="Support">支持</sys:String> -->
+
+    <sys:String x:Key="Room">Naij Gnaf</sys:String>
+    <sys:String x:Key="RoomIdHint">Ed Naij Gnaf ID，Ed Nuhz Oaib Iew GUID Ihs Eg</sys:String>
+    <sys:String x:Key="RoomName">Gnehc Gnim Naij Gnaf</sys:String>
+    <sys:String x:Key="RoomDescription">Uhs Oaim Naij Gnaf</sys:String>
+    <sys:String x:Key="RoomPwd">Am Im Naij Gnaf</sys:String>
+
+    <sys:String x:Key="CreateRoom">Naij Gnaf Naij Gnauhc</sys:String>
+    <sys:String x:Key="ShareRoom">Naij Gnaf Gnaix Nef</sys:String>
+    <sys:String x:Key="JoinRoom">Naij Gnaf Ur Aij</sys:String>
+    <sys:String x:Key="IsPrivateRoom">Naij Gnaf Ner Is</sys:String>
+
+    <sys:String x:Key="MultiPlayerConnectionHelper">Uhz Eix Ij Nail</sys:String>
+    <sys:String x:Key="MultiPlayerConnectionHelperDescription1">Uoh Ihz Gnen Gnog Ic Iq Iak Iaz，LauncherX Oul Gnaw Uw Uf Uz Nuq Naim Ir Ur Aij Gnod Iz Uoh Iak Ad Iaz Iuh Gnaij，Af Nauhz Ed Gnail Uil Gnehc Naw Ial Aij Naw Ed Oul Gnaw Ur Aij Af Uw At Iq Uhz Gnab Ial Naid Eij Eg Iy Ed Gnohz Oul Gnaw Iew Ouz Gnaij Nin。Vl Gnog Gnehc Ed Oul Gnaw Ur Aij Aij Naw At Iq Oag It Gnaij Ehz。</sys:String>
+    <!-- <sys:String x:Key="MultiPlayerConnectionHelperDescription2">注意：这项服务将消耗一些您的网络带宽。</sys:String> -->
+
+    <sys:String x:Key="BaseUserSettings">Ihz Ehs Uhc Ij Uh Gnoy</sys:String>
+    <sys:String x:Key="InsiderPreviewSettings">Ihz Ehs Nay It Neb Nab Oad Naix</sys:String>
+    <sys:String x:Key="AuthDeviceManage">Il Naug Ieb Ehs Gnehz Ner</sys:String>
+
+    <!-- <sys:String x:Key="StartupUI">启动界面</sys:String> -->
+    <sys:String x:Key="MainViewUpperForeground">Es Nay Iz New Gnij Naiq Naim Eij Uhz</sys:String>
+    <sys:String x:Key="BottomNavigationBarOpacity">Ud Gnim Uot Ub Oait Gnah Oad Ub Id</sys:String>
+    <sys:String x:Key="HideBottomNavigationBarInMainView">Oait Gnah Oad Ub Id Gnac Niy Naim Eij Uhz Iaz</sys:String>
+    <!-- <sys:String x:Key="BrowseVideo">浏览视频</sys:String> -->
+
+    <sys:String x:Key="Text">Neb New</sys:String>
+    <sys:String x:Key="Performance">Gnen Gnix</sys:String>
+
+    <sys:String x:Key="BackgroundAndAccentColor">Es It Uhz Eh Gnij Ieb Naim Eij Gnod Iq</sys:String>
+    <sys:String x:Key="BackgroundAndAccentColorDescription">Ihz Ehs Eib Nef Iy Ek Ey Gnid Gnab Iy Ek Ij Es It Uhz Eh Gnij Ieb Naim Eij Gnod Iq。</sys:String>
+    <sys:String x:Key="Font">It Iz</sys:String>
+    <sys:String x:Key="FontDescription">Ihs Gnix Iz Ed Gniy Iud Oad Ub Oahz Gnohz It Iz Naux Uohs Gnoc Iq Gnod Iq Gnad，Nux Ahc Gnohz It Iz Naux Ieb Gnoc Iuh。Oug Oaix It Uj Nak Ahc Nal Uy It Iz Oug Gnot Iy Ek Nin。</sys:String>
+
+    <sys:String x:Key="RetrySearch">Ous Uos Nix Gnohc</sys:String>
+    <sys:String x:Key="JavaToolTip">Eh El Uhc Nad Gnot Ix Nin Oug Ur Java Ihs It Uw Ouc Ed Naug Gnaix，Ed Nin Gnauhz Na Nix Gnohc Ihs Gnahc Gnib Ihs It Iag Ib Naug Gniq Java Il Ihs</sys:String>
+
+    <sys:String x:Key="ResourceCheckMaxDegreeOfParallelism">Ud Gnehc Gnix Gnib Ad Iuz Ahc Naij Nauy Iz</sys:String>
+
+    <sys:String x:Key="JavaDescription">Iy Uil Gniq Java Oah Uf Ed Naiq Gnij Ul Gnohz Gnauk Eh Uz，Gniy Gnaix Iud Iq Gnod Iq El Ihs Ihz Ehz Java Naud Nap Ed Gnix Gnoy Ek。</sys:String>
+    <sys:String x:Key="MemorySizeDescription">Ieg Iy Naij Minecraft Iep Nef 512MB Uhc Iy Nuc Ien Gnehs Af Ihs Gnix Nuy Ix Uoy Naim Ib Iy Nuc Ien Ed Gnahs Iy。</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGames">Ihz Ehs Gnix Nij Eib Nef Neb Nab Ix Uoy Eg Eg Iud</sys:String>
+    <sys:String x:Key="SeparateSettingsForDifferentGamesDescription">Neb Nab Ix Uoy Ed Uoy Ous Oad Gnoy Gniy Ihz Gnehs Euq Iew Ouz Gnaij Ihz Ehs Ed Gnix Nij Naim Ey Neb Iaz。Ix Uoy Eg Uom Gnohz Naux Oaib Eil Ix Uoy Iaz Iy Ek Nin，Ihz Ehs Ed Ix Uoy Eg Eg Iag Gneg It Uj Gnohz Ix Nix Ix Gnaix Iaz Uoh Nar。</sys:String>
+
+    <!-- <sys:String x:Key="ResetAllSettingsDescription">点击“重置配置”按钮后，LauncherX将删除自己的配置文件并关闭。注意：删除的配置将无法恢复。</sys:String> -->
+
+    <sys:String x:Key="Framework">Aij Gnauk</sys:String>
+    <sys:String x:Key="Runtime">Ihs Gnix Nuy</sys:String>
+    <sys:String x:Key="LauncherCoreVersion">ProjBobcat（Nix Eh Gnod Iq）Neb Nab</sys:String>
+
+    <!-- <sys:String x:Key="NoMoreNewApplication">暂无新申请</sys:String> -->
+
+    <sys:String x:Key="SelectAccount">Oah Gnahz Ez Naux</sys:String>
+    <sys:String x:Key="CopyFromClipBoard">Ur Oad Nab Eiq Naij Gnoc</sys:String>
+    <sys:String x:Key="CopyToClipBoard">Nab Eiq Naij Oad Ihz Uf</sys:String>
+
+    <sys:String x:Key="UseOneTimeCode">Am Iad Gnehz Nay Gnix Ic Iy Gnoy Ihs</sys:String>
+    <sys:String x:Key="LoginToMsAccount">Uh Gnahz Naur Iew Ed Nin Oad Ul Gned</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction1">Ihz Gnaw New Gnaf Iq Nal Uil Ed Iad Iz Ieb Ehs Nin Gnoy Ihs：</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction2">Ur Uhs Ihs It Ed Ey Gnaw Oahz Na Gnib LauncherX Am Iad Gnehz Nay Gnix Ic Iy Ed Ihs Naix Ous。</sys:String>
+    <sys:String x:Key="MsAccountLoginInstruction3">Uoh Ihz Gnehc Naw Ouz Oac Uhs Gnahs Iaz，LauncherX Uohz Ub Uy Gnehs Gnehc Naw Gnod Iz Gnaij，Ien Iq Gnod Iq Ihz Aij Nait Uh Gnahz Ed Nin Gnaij Gnib。</sys:String>
+
+    <sys:String x:Key="ModDependencies">Ial Iy Ihz Naiq Uz Om</sys:String>
+
+    <sys:String x:Key="CreateFolder">Ul Um Naij Gnauhc</sys:String>
+
+    <sys:String x:Key="FailedToInstallCurseForgePackError">Gnauhz Na Af Uw CurseForge Gnij Nauh Ihz Naiq，Ihs Gnohz Uoh Oahs Gniq。Ed Ihz Oad It New Ed Nauy Iaz Aix Uy Uoy Ihs Gnahc Gnot Ehz，Us Niy At Iq Ihs Ouh Gnod Ob Oul Gnaw Iew Niy Ihs Gnen Ek Uoy Ey。</sys:String>
+    <!-- <sys:String x:Key="DownloadFailedLibError">补全失败的库文件：{0}文件名：{1}下载链接：{2}下载路径：{3}</sys:String> -->
+    <sys:String x:Key="CompletionFailedMessage">Naij New Uk Ed Ux Ous Ix Uoy Gnod Iq Nauq Ub Gnog Gnehc Af Uw，Gnod Iq Ihs Gnahc Ic Iaz Ek Naip Uoh Gned Iy Ek Nin。</sys:String>
+
+    <sys:String x:Key="AuthLibInstallMessage1">Uw Uf Gnehz Nay Gnaf Nas Id Gnoy Ihs Naix Af，Iaz Aix Ieb Nuhz Authlib-Injector</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage2">Neb Nab Nix Iuz Oad Uq Ouh Gnog Gnehc Authlib-Injector Ix Nix，Ahc Naij Ihs Iak"</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage3">Authlib-Injector Gnehc Naw Iaz Aix，Ihz Iep Ihs Iak</sys:String>
+    <sys:String x:Key="AuthLibInstallMessage4">Ihz Iep Iq Uw Uf Uq Ouh Uy Ihs Iak</sys:String>
+    <sys:String x:Key="AuthLibInstallErrorMessage">Ed Neb Nab Nix Iuz Uq Ouh Af Uw Authlib-Injector，Uw Ouc Oul Gnaw Ihs Gnen Ek。</sys:String>
+
+    <!-- <sys:String x:Key="DownloadFileCountMessage1">{0} 个可下载项目</sys:String> -->
+
+    <!-- <sys:String x:Key="UnknownWindow">不确定的窗体</sys:String> -->
+    <sys:String x:Key="SaveExportedModPack">Oab Eh Gnehz Ed Uhc Oad Nuc Oab</sys:String>
+    <sys:String x:Key="UnableToDeleteGame">Ix Uoy Uhc Nahs Af Uw {0}</sys:String>
+    <sys:String x:Key="UnableToDeleteGameDetail">Uw Ouc El Naix Uhc Ihs Ix Uoy Uhc Nahs Ihs Gnahc Iaz，Uhc Nahs Gnog Uohs Ihs Gnahc Gniq！{0}</sys:String>
+    <sys:String x:Key="LocalAccountManagement">Il Naug Uh Gnahz Id Neb</sys:String>
+
+    <sys:String x:Key="SystemAccentColorBackground">Es It Uhz Gnot Ix</sys:String>
+    <sys:String x:Key="GlassBackground">Gnij Ieb Il Uil</sys:String>
+
+    <sys:String x:Key="FailedToCheckJavaInfoDetail">Nux Ahc Af Uw Java Ix Nix，Ix Nix Gnahc Iy：{0}</sys:String>
+    <sys:String x:Key="FailedToCheckSpecificPathJavaInfoDetail">Iew Gnij Ul Uq Ouh Af Uw [{0}] Ed Java Ix Nix Ij In Ux，Uhc Uhs：{1}，Ix Nix Uw Ouc：{2}</sys:String>
+    <sys:String x:Key="UnknownJreArch">Ed Ihz Iew JRE Uog Aij [{0}]</sys:String>
+    <sys:String x:Key="UnmatchedJavaArchWarning">
+        Eh Uog Aij Gnot Ix Ed Iep Ip Ub Oad Ec Naij Java Uog Aij Ihs Gnix Nuy：
+        Uog Aij Gnot Ix Naiq Gnad：{0}
+        Naiq Gnad JRE Uog Aij：{1}
+        Ed Iep Ip Ub Gnot Ix Uy Gnoy Ihs JRE Ij Gnaij Nay It Uy Gnen Gnix Ix Uoy Ed Gnohz Nay Ihz Oad Gnen Ek Ihs Gnix Nuy！
+    </sys:String>
+
+
+    <sys:String x:Key="Colored">Es Ouhz</sys:String>
+    <sys:String x:Key="HighContrastColored">Es Ouhz Ud Ib Iud Oag</sys:String>
+    <sys:String x:Key="VersionCompatibleMcVersionDetail">Gnog Gnor Naij Neb Nab Iag {0} Eg Minecraft Neb Nab</sys:String>
+
+    <sys:String x:Key="Ascending">Ux Gnehs</sys:String>
+    <sys:String x:Key="Descending">Ux Gnaij</sys:String>
+
+    <!-- <sys:String x:Key="NatTypeUnclassified">未分级 - {0}</sys:String> -->
+    <!-- <sys:String x:Key="NatTypeUnclassifiedDetail">当前 NAT 类型为：未分级 - 1，未知的联机体验</sys:String> -->
+
+    <sys:String x:Key="CurseForgeModPack">CurseForge Oab Eh Gnehz</sys:String>
+    <sys:String x:Key="ModrinthModPack">Modrinth Oab Eh Gnehz</sys:String>
+
+    <sys:String x:Key="EmbeddedLibrary">Uk Ed Ur Naiq</sys:String>
+    <sys:String x:Key="OptionalDependency">Ial Iy Ed Naux Ek</sys:String>
+    <sys:String x:Key="RequiredDependency">Ial Iy Ed Ux Ib</sys:String>
+    <sys:String x:Key="Tool">Uj Gnog</sys:String>
+    <sys:String x:Key="Incompatible">Gnor Naij Ub</sys:String>
+    <sys:String x:Key="Include">Nah Oab</sys:String>
+
+    <sys:String x:Key="NoEnoughMemory">Minecraft Nuc Ien Gnix Nuy Ed Uog Uz Uoy Iem</sys:String>
+    <sys:String x:Key="NoEnoughMemory32">Gnoy Ihs 32 Iew Java Ouh Ihs Gnix Nuy 32 Iew Ihz Oad Gnot Ix Ouz Oac Minecraft Nuc Ien Ed Uog Uz Uoy Iem</sys:String>
+    <sys:String x:Key="JavaVersionTooHigh">Java Oag Oug Neb Nab Ihs Gnix Nuy</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersion">Ed Ihc Ihz Uohs Ub Java Neb Nab Ihs Gnix Nuy</sys:String>
+    <sys:String x:Key="JdkUse">Gnoy Ihs JDK Neb Nab Oag Ouh Java Iuk Gneb Ihz Oad Ihs Gnix Nuy</sys:String>
+    <sys:String x:Key="OpenJ9Use">Gnoy Ihs OpenJ9 Iuk Gneb Ihz Oad</sys:String>
+    <sys:String x:Key="UnableToSetPixelFormat">Ihs Eg Us Gnaix Ihz Ehs Af Uw Ihz Oad Gnod Uq Ak Naix Ed It New Iaz Nuc Gnoy Ihs</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriver">Ed It New Iaz Nuc Ouh Ak Naix Il Ud Gnoy Ihs Iew Intel Ux Gnehc Gnod Uq Ak Naix</sys:String>
+    <sys:String x:Key="UnsupportedAmdDriver">Ed It New Iaz Nuc AMD Ux Gnehc Gnod Uq Ak Naix</sys:String>
+    <sys:String x:Key="UnsupportedNvDriver">Ed It New Iaz Nuc Nvidia Ux Gnehc Gnod Uq Ak Naix</sys:String>
+    <sys:String x:Key="ModCausedGameCrash">Iuk Gneb Ix Uoy El Ihz Oad Uz Om</sys:String>
+    <sys:String x:Key="DecompressedMod">Iab Ihs Gnod Iq Ed Ihz Oad Uz Om El Ay Eij Uy Uoy</sys:String>
+    <sys:String x:Key="IncorrectModConfig">Ihz Iep Uz Om Ed Euq Gnehz Ub</sys:String>
+    <sys:String x:Key="ModMixinFailed">Iab Ihs Ur Uhz Uz Om</sys:String>
+    <sys:String x:Key="ModLoaderError">Uw Ouc El Oag Oab Iq Iaz Aij Uz Om</sys:String>
+    <sys:String x:Key="ModInitFailed">Iab Ihs Auh Ihs Uhc Uz Om</sys:String>
+    <sys:String x:Key="ModIdExceeded">Ihz Naix Gnail Uhs Ad Iuz Uhc Oahc Gnail Uhs Gnauhz Na Uz Om</sys:String>
+    <sys:String x:Key="DuplicateMod">Uz Om Ed Uf Gnohc</sys:String>
+    <sys:String x:Key="GpuDoesNotSupportOpenGl">Ihc Ihz Ub Ak Naix OpenGL</sys:String>
+    <sys:String x:Key="OpenGl1282Error">Ihz Oad Gniy Gnaug Ouh Oab Ihz Iac OpenGL Ouc Oab</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFine">Optifine Iab Ihs Iaz Aij Eij Ihs Ed Ihz Oad</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpu">Uz Ub Ihz Iep Ak Naix Ihs Ouh Ad Oug Gniy Gnaug Ouh Ihz Iac</sys:String>
+    <sys:String x:Key="FabricError">Fabric Ouc Oab</sys:String>
+    <sys:String x:Key="FabricErrorWithSolution">Fabric Ouc Oab（Na Gnaf Euj Eij Nah Oab）</sys:String>
+    <sys:String x:Key="ForgeError">Forge Ouc Oab</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJava">Neb Nab Uij Forge Ed Neb Nab Oag Oug Gnoy Ihs Af Uw Java Ihs Gnix Nuy</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJson">Neb Nab Json Eg Oud Naix Af Gnohz Forge Ihz Iep</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifine">Forge Uy Optifine Gnor Naij Ub</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFound">Euq Gnehz Ub Am Naib Gnij Ul Ihs Ouh Iel Uhz Oad Oahz Uoy Iem</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrash">Iuk Gneb Ihs Oait Ed Af Uhc Gnod Uohs</sys:String>
+    <sys:String x:Key="ContentValidationFailed">Iab Ihs Gnehz Nay Gnor Ien</sys:String>
+    <sys:String x:Key="BlockCausedGameCrash">Iuk Gneb Ix Uoy Ihz Oad Iauk Gnaf Gnid Et</sys:String>
+    <sys:String x:Key="EntityCausedGameCrash">Iuk Gneb Ix Uoy Ihz Oad It Ihs Gnid Et</sys:String>
+    <sys:String x:Key="LogFileNotFound">Naij New Ihz Ir Ed Ix Nef Gnog Ek Oad Oahz Uoy Iem</sys:String>
+
+    <sys:String x:Key="NoEnoughMemoryDetail">Minecraft Gnix Nuy Ux Ij Af Uw，Oag Oug Ihz Iep Ix Uoy Ouh Uz Ub Nuc Ien Ed Ix Uoy Ieg Iep Nef In Iew Niy Ihs Gnen Ek。Nuc Ien Ed Iep Nef Ix Uoy Aij Gnez Oug Gnot Iy Ek In、Ihz Iac Ed Oag Uiq Oay Uhc Nahs、ModIt New Euj Eij Ial Gniy Gnaug Eh。Gnoy Ouz Iq Ub Uod Af Gnaf Eix Ehz Oug Ur，Naij Naur At Iq Ib Naug Naiq Ix Uoy Iaz Ihs Gnahc Iy Ek In，Oan Naid Iat Nauh Vl Oak Ehz Ouh。</sys:String>
+    <sys:String x:Key="NoEnoughMemory32Detail">Gnoy Ihs Iaz Gnehz In Ial Iq Nak 32 Ed Iew Java，Ihz Oad Gnen Ek Ehz Minecraft Oug Oahc Gnoy Ihs Af Uw 1GB Nuc Ien Ed，Iuk Gneb Ihz Oad。It New Eg Ehz Euj Eij Oay，Ed Ihz Ehs Gnod Iq Iaz Gniq Java Oad Nauh Eiq Gnohz Ez Naux 64 Ed Iew Java，Ix Uoy Gnod Iq Iaz Uoh Nar。Gnauhz Na Uoy Iem In Oug Ur 64 Ed Iew Java，Ij Naid Naim Eij Ihz Ehs Ix Uoy Iaz Iy Ek [Uq Ouh Java] Gnauhz Na Gnix Nij Ial。</sys:String>
+    <sys:String x:Key="JavaVersionTooHighDetail">Ed Gnoy Ihs In Uy Uoy Java Oag Oug Neb Nab，El Iuk Gneb Gnij Iy Uh Is Ix Uoy。It New Eg Ehz Euj Eij El Iew，Ed Ihz Ehs Gnod Iq Iaz Gniq Java Ed Neb Nab Id Oaij Oad Nauh Eiq Gnohz Ez Naux Java，Ix Uoy Gnod Iq Iaz Uoh Nar。Gnauhz Na Uoy Iem In Oug Ur Java，Ij Naid Naim Eij Ihz Ehs Ix Uoy Iaz Iy Ek [Uq Ouh Java] Gnauhz Na Gnix Nij Ial。</sys:String>
+    <sys:String x:Key="UnsupportedJavaVersionDetail">Ed Gnoy Ihs Naiq Gnad In Java Gnor Naij Ub Ix Uoy Uy。Ed Ihz Ehs Gnod Iq Iaz Gniq Java Ed Ihs Eh Oad Nauh Eiq Gnohz Ez Naux Java，Ix Uoy Gnod Iq Iaz Uoh Nar。Gnauhz Na Uoy Iem In Oug Ur Java，Ij Naid Naim Eij Ihz Ehs Ix Uoy Iaz Iy Ek [Uq Ouh Java] Gnauhz Na Gnix Nij Ial。</sys:String>
+    <sys:String x:Key="JdkUseDetail">El Gnoy Ihs Uy Uoy JDK Ouh Java Oag Oug Neb Nab，El Iuk Gneb Ix Uoy。It New Eg Ehz Euj Eij El Iew，Ed Ihz Ehs Gnod Iq Iaz Gniq Java Oad Nauh Eiq Gnohz Ez Naux JRE，Ix Uoy Gnod Iq Iaz Uoh Nar。</sys:String>
+    <sys:String x:Key="OpenJ9UseDetail">Gnoy Ihs Iew Niy Ix Uoy OpenJ9 El Iuk Gneb Re。It New Eg Ehz Euj Eij El Iew，Ed Ihz Ehs Gnod Iq Iaz Gniq Java Ief Oad Nauh Eiq Gnohz Ez Naux OpenJ9 Ed Java，Ix Uoy Gnod Iq Iaz Uoh Nar。</sys:String>
+    <sys:String x:Key="UnsupportedIntelDriverDetail">Ak Naix Il Ud Gnoy Ihs Iew Ouh It New Iaz Nuc Gnod Uq Ak Naix Ed In，Gnix Nuy Gnahc Gnehz Af Uw Ix Uoy Ihz Oad。It New Eg Ehz Euj Eij El Iew，Gnod Iq Iaz Ihs Gnahc Gniq LauncherX Eh Minecraft Ihs Ub Re Ak Naix Il Ud Gnoy Ihs Ihs Intel Naix Eh。Iaz Nuc Nar Gner It New Oug Ur，Neb Nab Gnahc Uhc Oad Iut Iuh Ouh Neb Nab Nix Iuz Oad Ij Gnehs Gnod Uq Ak Naix Gnaij Ihs Gnahc Gniq。Iaz Nuc Nar Gner It New Oug Ur，Gnoy Ihs Ihs Gnahc Iy Ek Java8 Neb Nab Id Gneg Ouh。Euj Eij Af Uw Nar Iy It New Oug Ur，Ak Naix Ed Oah Gneg Gnen Gnix Iauk Iy Nauh Gneg Vl Oak Oay Ux Gnen Ek Em An。</sys:String>
+
+    <sys:String x:Key="VideoDriverErrorDetail">It New Iaz Nuc Gnod Uq Ak Naix Ed In，Gnix Nuy Gnahc Gnehz Af Uw Ix Uoy Ihz Oad。It New Eg Ehz Euj Eij El Iew，Neb Nab Gnahc Uhc Oad Iut Iuh Ouh Neb Nab Nix Iuz Oad Ij Gnehs Gnod Uq Ak Naix Gnaij Ihs Gnahc Gniq，Ix Uoy Gnod Iq Iaz Uoh Nar。Iaz Nuc Nar Gner It New Oug Ur，Gnoy Ihs Ihs Gnahc Iy Ek Java8 Neb Nab Id Gneg Ouh。Euj Eij Af Uw Nar Iy It New Oug Ur，Ak Naix Ed Oah Gneg Gnen Gnix Iauk Iy Nauh Gneg Vl Oak Oay Ux Gnen Ek Em An。</sys:String>
+
+    <sys:String x:Key="ModCausedGameCrashDetail">Iuk Gneb Ix Uoy El Ihz Oad Uz Om Eg Oud Ouh Eg Iy Ed Gnohz Ix Uoy Ed Gnod Iq Naiq Gnad Nin，Ix Nix Naug Gnaix Ed Iuk Gneb Uz Om Ihz Oad Oahz Nux Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Iy Ek Nin，Uz Om Eix Ehz Nauh It Ihs Ouh Gnoy Nij Ihs Naz Ihs Gnahc Gnib。</sys:String>
+    <sys:String x:Key="DecompressedModDetail">El Ous Ay Eij Ieb Naij New Uz Om Uy Uoy，Gnix Nuy Ux Ij Af Uw Ix Uoy Ihz Oad。It New Eg Ehz Euj Eij El Iew，Ur Gnaf Naij New Uz Om Eg Gnehz Gnaij Gniq [mods] Gnohz Aij Naij New，At Ous Ay Eij Oay Ub Re。Naij New Uz Om El Ay Eij Gnij Iy Oug Ur，Gnoc Iq Gnaij Gniq [mods] Uhc Nahs Gnohz Aij Naij New，Ix Uoy Gnod Iq Iaz Uoh Nar。</sys:String>
+    <sys:String x:Key="IncorrectModConfigDetail">Iab Ihs Gnod Iq El Ihz Oad Euq Gnehz Ub Naij New Ihz Iep Eg Oud Ouh Eg Iy Ed Uz Om，Gnehc Gnim Naij New Ihz Iep Ed It Uj Oahz Nux Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Iy Ek Nin，Uw Ouc Ed At Gnehz Uix Gnib。</sys:String>
+    <sys:String x:Key="ModMixinFailedDetail">Iab Ihs Gnod Iq El Ihz Oad Iab Ihs Ur Uhz Uz Om Eg Oud Ouh Eg Iy，Uz Om Ed Ihc Ihz Neb Nab Ix Uoy Naiq Gnad Uohs Ub Ihs Ouh Uz Om Ed It New Iaz Nuc El Gnoy Ihs Nin Ehz Iew Iy Gnahc Gnot Ehz。Ix Nix Uz Om Ed It Uj Oahz Nux Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Iy Ek Nin。</sys:String>
+    <sys:String x:Key="ModLoaderErrorDetail">Uw Ouc Eg Oud Ouh Eg Iy El Oag Oab Iq Iaz Aij Uz Om，Niy Nauy It Uj Ed Ouc Oab Nak Ahc Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Iy Ek Nin。</sys:String>
+    <sys:String x:Key="ModInitFailedDetail">Iaz Aij Ux Ij Af Uw Ix Uoy Ihz Oad Iab Ihs Auh Ihs Uhc Uz Om Eg Oud Ouh Eg Iy。Ix Nix Uw Ouc Naug Gnaix Ed Uz Om Oahz Nux Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Gniq。</sys:String>
+    <sys:String x:Key="ModIdExceededDetail">Oud Iat Gnail Uhs Uz Om Ed Gnauhz Na In，Ed Ix Uoy El Uhc Oahc ID Ihz Naix，Iuk Gneb Ix Uoy Ihz Oad。It New Eg Ehz Euj Eij El Iew，Uz Om Uf Uix Eix Iy Gnauhz Na Ihs Gnahc Iy Ek In，Ur JEID，Uz Om Gnix Ad Eix Iy Uhc Nahs Ouh。Gnail Uhs Ed Uz Om Oahs Naij In Uhz Gnab Iy Ek Ehz，Gnid New Aij Gneg Ix Uoy Gnar Gnib。</sys:String>
+    <sys:String x:Key="DuplicateModDetail">Uz Om Ed Gnot Gnaix Eg Oud El Gnauhz Na Uf Gnohc In，Ic Iy Gnauhz Na Gnen Ihz Oud Iuz Uz Om Eg Iem，Iaz Gnib Gnehc Gnim Gniy Gnaix Ed Uz Om Oad Oahz Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Gniq [mods] Uz Om Ed Uf Gnohc Uhc Nahs Gnohz Aij Naij New。</sys:String>
+
+    <sys:String x:Key="OpenGl1282ErrorDetail">It New Naix Uhc Ix Uoy Ihz Oad Gnen Ek Ihz Iac Ouh Gniy Gnaug Ed Gnoy Ihs Ous In，Nauy Iz Ed Iaw E Eix Ehz Uhc Nahs Ihs Gnahc In Iy Naij，Ix Uoy Gnod Iq Iaz Uoh Nar。It New Ed Naug Gnaix Nauy Iz Ix Uoy Uy Eix Iy Euj Eij Iy Ek Gnahc Gnot Ehz。</sys:String>
+    <sys:String x:Key="FailedToLoadWorldBecauseOptiFineDetail">Ed Gnoy Ihs Ous Uy Uoy Ihs It New Naix Uhc Gnen Ek Ix Uoy Ed In OptiFine Gnor Naij Ub Ix Uoy Uy Neb Nab（https://www.minecraftforum.net/forums/support/java-edition-support/3051132-exception-ticking-world）。Eix Uom Iaz Iuh Ihz It New Eg Ehz OptiFine Naix Uhc Gnohz Neb Nab，Nauh Gneg In Iy Naij OptiFine Neb Nab Ed，Ix Uoy Gnod Iq Iaz Uoh Nar。Oad Iy Ek In OptiFine Gnauhz Na Gnib Neb Nab Ed Nix Iuz Iaz Aix Nahz Gnaw Gnaf Naug Ed，Ed Neb Nab Iy Gnil Ez Naux Ehz Ouh OptiFine Gnauhz Na Gnix Nij。</sys:String>
+    <sys:String x:Key="TextureTooLargeOrLowEndGpuDetail">Gnix Nuy Gnahc Gnehz Af Uw Re Il Uj Nar Naux Ed Oag Oug El Gnoy Ihs Uy Uoy Gnen Ek Ix Uoy Ed In。Eix Iy Id Gnaij Il Uj Nar Naux Gnaij Gnohz Ihz Ehs Ix Uoy Iaz Ihs Gnahc Gniq，Gnaix Naux Gned Il Uj Iaz Aij Iauk Uq Eh Il Uj Ey Ihs Oahs Naij Ur Il。Iaz Nuc Nar Gner It New Oug Ur，Ak Naix Ed Gnen Gnix Oag Gneg Iauk Iy Nauh Gneg Ouh Gnod Uq Ak Naix Ed In Nix Gneg Oay Ux Gnen Ek In。</sys:String>
+    <sys:String x:Key="FabricErrorDetail">Fabric Uw Ouc Eg Oud Ouh Eg Iy El Oag Oab Gnen Ek Uoy，Ix Nix Ouc Oab Ed It Uj Nak Ahc Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Ihs Gnahc Gniq。</sys:String>
+    <sys:String x:Key="FabricErrorWithSolutionDetail">Fabric Na Gnaf Euj Eij Oail Gnog It Gnen Ek Neh Gnib Uw Ouc Eg Oud Ouh Eg Iy El Oag Oab Gnen Ek Uoy，Ix Nix Ouc Oab Ed It Uj Nak Ahc Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Ihs Gnahc Gniq。</sys:String>
+    <sys:String x:Key="ForgeErrorDetail">Forge Uw Ouc Eg Oud Ouh Eg Iy El Oag Oab Gnen Ek Uoy，Ix Nix Ouc Oab Ed It Uj Nak Ahc Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Ihs Gnahc Gniq</sys:String>
+    <sys:String x:Key="LegacyForgeDoesNotSupportNewerJavaDetail">Ed In Oug Ur Forge Ib Neb Nab 36.2.26 Id，Nix Gneg Ihs Gnahc Iy Ek In Em An Forge Oad 36.2.26 Neb Nab Oag Gneg Ouh。El Gnoy Ihs Gnij Iy In Oug Ur 36.2.26 Ed Neb Nab Oag Gneg Ouh Forge，Nauh Gneg Oay Ux Gnen Ek In Em An Java Neb Nab。Gnoy Ihs Iaz Forge Ihs，Ahc Naij Iy Uhz Gniq Forge Ed Gnoy Ihs Ous Uy Neb Nab Ed Java Gnor Naij Uof Ihs Neb Nab，Uw Ouc Iel Ic Naix Uhc Naim Ib Iy。</sys:String>
+    <sys:String x:Key="MultipleForgeInVersionJsonDetail">El Iag Uix Iq Gnod Iq At Iq El Gnoy Ihs Uy Uoy Ihs Gnen Ek Iuk Gneb Ix Uoy Forge Neb Nab，Gnahc Iy Naij New Ed Neb Nab Naiq Gnad Ihz Oad。It New Eg Ehz Euj Eij El Iew，Gnauhz Na Nix Nauq Ihs Gnahc Gniq Forge，Iag Uix Ial Iq Gnod Iq At Iq Gnoy Ihs Oay Ub Forge Neb Nab。</sys:String>
+    <sys:String x:Key="IncompatibleForgeAndOptifineDetail">Iew Niy OptiFine Naiq Gnad Uy Forge Gnor Naij Ub Neb Nab，Iuk Gneb Ix Uoy Ihz Oad。Gnaw Naiq Gniq OptiFine Gnaw Naug（https://optifine.net/downloads）Nak Ahc OptiFine Ed Gnor Naij Forge Neb Nab，Ix Uoy Gnauhz Na Nix Gnohc Neb Nab Gniy Iud Oahz Na Gnib。</sys:String>
+    <sys:String x:Key="IncorrectPathEncodingOrMainClassNotFoundDetail">Iab Ihs Iaz Aij Ix Uoy Ihz Oad Iel Uhz Ihs Euq Iauh Nus Gnauhz Na Ix Uoy Uy Uoy Ihs Ouh Am Naib Gnij Ul Ed Euq Gnehz Ub Uy Uoy。Gnohz Ul Um Ed Uf Iz Uhs Et At Iq Ouh New Gnohz Nah Oab Ub Iaz Ihz Gnaf Ul Um Ix Uoy Gnaij Ihs Gnahc Iy Ek Nin，Ix Uoy Eg Ehz Gnauhz Na Nix Gnohc Ihs Gnahc Ehz Ouh。It New Euj Eij Af Uw Nuj It New Ed Gnahs Iy Oug Ur，Oag Oab Ehz Af Iak Gnaix Gniq。</sys:String>
+    <sys:String x:Key="ManuallyTriggeredDebugCrashDetail">Iuk Gneb Ihs Oait El Af Uhc Gnod Uohs Nin。</sys:String>
+    <sys:String x:Key="ContentValidationFailedDetail">It New Ed Iab Ihs Nay Oaij El Oad Uy Ix Uoy，Ed Ihz Oad It New Oul Gnaw El Naix Uhc Ihs Iaz Aix Uy Uoy Ihs Gnen Ek。Ix Uoy Uhc Nahs Ihs Gnahc Iy Ek In（Uz Om Ouk Oab）Iaz Aix Nix Gnohz Gnib，Gnix Gnid New Ed Eij Nail Oul Gnaw Gnehz Oab Ihs Iaz Aix Nix Gnohc Iaz Ouh。</sys:String>
+    <sys:String x:Key="BlockCausedGameCrashDetail">Iuk Gneb El Gnehs Af Ix Uoy Ihz Oad Iauk Gnaf Eg Uom Ed Gnohz Ix Uoy，Ix Nix It Uj Ed Iauk Gnaf Iag Naug Uoy Oahz Nux Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Gniq（ID、Gned Oaib Ouz），Iauk Gnaf Iag Uhc Nahs Iq Ij Naib Ut Id Gnoy Ihs Ihs Gnahc Gnib。It New Iag Euj Eij Af Uw Nar Gner Oug Ur，It New At Iq Vl Oak Ihs Ouh Eij Ihs Eg Iy Naij Gnauhc Nix Gnohc Ihs Gnahc Gniq。</sys:String>
+    <sys:String x:Key="EntityCausedGameCrashDetail">Iuk Gneb El Gnehs Af Ix Uoy Ihz Oad It Ihs Eg Uom Ed Gnohz Ix Uoy，Ix Nix It Uj Ed It Ihs Iag Naug Uoy Oahz Nux Gnohz Ix Nix Ix Gnaix Ed Gnaf Aix Iaz Gniq（ID、Gned Oaib Ouz），It Ihs Iag Uhc Nahs Iq Ij Naib Ut Id Gnoy Ihs Ihs Gnahc Gnib。It New Iag Euj Eij Af Uw Nar Gner Oug Ur，It New At Iq Vl Oak Ihs Ouh Eij Ihs Eg Iy Naij Gnauhc Nix Gnohc Ihs Gnahc Gniq。</sys:String>
+    <sys:String x:Key="LogFileNotFoundDetail">Oag Oab Ix Nef Naij Gnauhc Ial Naij New Ihz Ir Ed Uog Uz Oahs Euq Iq Ix Nef，Ehz Af Iak Ix Nail Ihs Gnahc Gniq。</sys:String>
+    <sys:String x:Key="OtherCausedGameCrashDetail">Iuk Gneb Ix Uoy El Ihz Oad Niy Nauy Ed Gnid Euq Ub，Ehz Af Iak Ix Nail Ihs Gnahc Gniq。</sys:String>
+
+    <sys:String x:Key="Me">Ij Iz</sys:String>
+    <sys:String x:Key="DirectConnect">Nail Ihz</sys:String>
+    <sys:String x:Key="RelayConnect">Eij Nail Ij Gnohz</sys:String>
+
+    <sys:String x:Key="ArchiveCorrupted">Iauh Nus Oab Ous Ay，Gnor Ien Ed Naij New Ous Ay Uq Ud Af Uw Nem Ow。</sys:String>
+    <sys:String x:Key="ModPackJsonCorruptedDetail">Iauh Nus Naij New Nad Gniq，Gnor Ien Ed Naij New Nad Gniq Uq Ud Af Uw Nem Ow。{0}</sys:String>
+    <sys:String x:Key="NetworkUnstable">Ed Ihz Oad Gnod Ob Oul Gnaw Uy Uoy Ihs Gnahc Gnot Ehz。</sys:String>
+    <sys:String x:Key="FailedToLoadModPack">Ix Nix Oab Eh Gnehz Iaz Aij Af Uw</sys:String>
+    <sys:String x:Key="FailedToLoadModPackDetail">Iaz Aij Af Uw {0} Ix Nix Ix Gnaix Ed Oab Eh Gnehz，Gnauhz Na Ux Ij Ihs Gnahc Iy Ek Uij Iy Nin Nad。Ix Nix Ix Gnaix：{1}</sys:String>
+
+    <sys:String x:Key="InvalidPath">Gnij Ul Ed Oaix Uw</sys:String>
+    <sys:String x:Key="FailedToLoadOriginalGameInfo">Ix Nix Ix Uoy Nab Nauy Iaz Aij Af Uw，It New Oul Gnaw Ihs Gnen Ek。</sys:String>
+
+    <sys:String x:Key="NeoForgedDescription">NeoForged Uy Nauy Eg Iy Ihs Minecraft Forge Ihz Nef Af Iak Ed Nix Ed，Nauy Nef Ub Ad Uoy Forge Naij Uz Nauy Ner Af Iak。</sys:String>
+    <sys:String x:Key="QuiltDescription">Quilt Nauy Iak Eg Iy Ihs Um Gnaix、Nail Uj Gnog Gnauhz Iag Ed Gnod Uq Uq Ehs，Iew Oay Uhz Minecraft Ij Ehs。</sys:String>
+
+    <sys:String x:Key="FailedToReadFromClipBoard">Gnor Ien Uq Ud Nab Eiq Naij Gnoc Af Uw。</sys:String>
+    <sys:String x:Key="FolderDraggedOrFileNotExists">Aij Naij New Eg Iy El Ur Out Nin Ihs Ouh Iaz Nuc Ub Naij New</sys:String>
+    <sys:String x:Key="FileTypeUnknownDetail">Naij New {0} Gnix Iel Naij New Ed Ihz Iew Nah Oab</sys:String>
+
+    <sys:String x:Key="FailedToReadUpdatedFile">Naij New Nix Gneg Ed Oad Iaz Aix Uq Ud Af Uw，Nix Gneg Gnod Uohs Ihs Gnahc Gniq！</sys:String>
+    <sys:String x:Key="DownloadedUpdateDoesNotContainExecutable">Ux Gnehc Gnoy Gniy Nah Oab Ub Gnohz Naij New Nix Gneg Ed Oad Iaz Aix，Nauy Il Naug Gnot Ix Ix Nail Gniq！</sys:String>
+    <sys:String x:Key="DownloadedUpdateHashUnmatched">Uf Ub Iq Uy Uy Ihz Ix Ah Ed Naij New Nix Gneg Ed Oad Iaz Aix，Nauy Il Naug Gnot Ix Ix Nail Gniq！</sys:String>
+    <sys:String x:Key="FailedToInitFileStream">Uil Naij New Auh Ihs Uhc Af Uw，Nauy Il Naug Gnot Ix Ix Nail Gniq！</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedMessage">Gnehc Naw Iaz Aix Nix Gneg</sys:String>
+    <sys:String x:Key="UnixUpdateDownloadedDetailMessage">Oab Ous Ay Nix Gneg Ed Gnehc Naw Iaz Aix Iak Ad Gnid Euq Ij Naid，Ek Ij Ux Gnehc Gnoy Gniy Ed Oal Nauh It Gnod Uohs Uoh Ihz Ay Eij。Uoh Gnid Euq Ij Naid，Uhc Iut Gnod Uhz Gnaij Ux Gnehc。</sys:String>
+
+    <sys:String x:Key="Customization">Iy Gnid Iz</sys:String>
+    <sys:String x:Key="ModPack">Oab Eh Gnehz</sys:String>
+    <sys:String x:Key="BukkitPlugins">Gnot Iuhs（Bukkit）Naij Ahc</sys:String>
+    <sys:String x:Key="Addons">Uhs Uf(Addons)</sys:String>
+    <sys:String x:Key="Worlds">Gnad Nuc Ut Id</sys:String>
+    <sys:String x:Key="Mods">Uz Om</sys:String>
+
+    <sys:String x:Key="FailedToSaveUserSettingsDetail">Ihz Ehs Uh Gnoy Nuc Oab Af Uw Ihs Naz，Ihs Iaz Uoh Oahs Gniq。</sys:String>
+    <!-- <sys:String x:Key="FailedToCreateRoomBecauseRoomNameIsEmpty">无法创建房间，因为房间名为空</sys:String> -->
+    <sys:String x:Key="FailedToPerformGroupOpDetail">{0}Niy Nauy Ed Iuh Naf Iq Uw Uf：{1}</sys:String>
+    <sys:String x:Key="RoomDismissed">Nas Eij Ieb Iy Naij Gnaf</sys:String>
+    <sys:String x:Key="RoomDismissedDetail">Nas Eij Uhz Gnaf Ieb Iy Naij Gnaf，Iak Il Naij Gnaf Gnoc Gnod Iz Iy Nin</sys:String>
+    <sys:String x:Key="Joined">Naij Gnaf El Ur Aij</sys:String>
+    <sys:String x:Key="Left">Naij Gnaf El Iak Il</sys:String>
+    <sys:String x:Key="Kicked">Naij Gnaf El Uhc It Uhz Gnaf Ieb</sys:String>
+    <sys:String x:Key="Disconnected">Eij Nail El Iak Naud</sys:String>
+    <sys:String x:Key="RoomMemberChanged">Gneg Naib Ix Nix Nauy Gnehc</sys:String>
+    <sys:String x:Key="FailedToKickMember">Iab Ihs Nauy Gnehc Uhc It</sys:String>
+    <sys:String x:Key="FailedToKickSelf">Nauy Gnehc Uhc It Af Uw，Ij Iz Uhc It Gnen Ub Nin Iew Niy</sys:String>
+    <sys:String x:Key="FailedToKickMemberDetail">Nauy Gnehc Uhc It Af Uw，Uw Ouc Iq Uw Uf Ouh It New Oul Gnaw Iew Niy Ihs Gnen Ek。Niy Nauy Ed Iuh Naf Iq Uw Uf：{0}</sys:String>
+    <sys:String x:Key="MemberKicked">Nauy Gnehc Uhc It Gnog Gnehc</sys:String>
+    <!-- <sys:String x:Key="MemberKickedDetail">已成功踢出成员 {0}</sys:String> -->
+    <sys:String x:Key="RoomExited">Naij Gnaf Uhc Iut Iy Nin</sys:String>
+    <sys:String x:Key="RoomExitedDetail">El Nas Eij Uhz Gnaf Ieb Naij Gnaf Ouh Naij Gnaf Uhc Iut Iy Nin</sys:String>
+
+    <sys:String x:Key="ThirdPartyLogin">Ul Gned Gnaf Nas Id</sys:String>
+
+    <sys:String x:Key="SaveSupportPack">Oab Ihc Ihz Nuc Oab</sys:String>
+    <sys:String x:Key="TryLaunchedGame">Ix Uoy Ed Gnod Iq Ihs Gnahc</sys:String>
+    <sys:String x:Key="GameResourcePath">Gnij Ul Nauy Iz Ix Uoy</sys:String>
+    <sys:String x:Key="GameVersion">Neb Nab Ix Uoy</sys:String>
+    <sys:String x:Key="VersionInsulation">Il Eg Neb Nab</sys:String>
+    <sys:String x:Key="Authenticator">Gnix Om Gnehz Nay</sys:String>
+    <sys:String x:Key="MinMemoryInMb">Nuc Ien Oaix Iuz (MB)</sys:String>
+    <sys:String x:Key="MaxMemoryInMb">Nuc Ien Ad Iuz (MB)</sys:String>
+
+    <!-- <sys:String x:Key="GameResourceNotFound">资源不存在</sys:String> -->
+    <!-- <sys:String x:Key="GameResourceNotFoundDetail">该游戏不存在资源：{0}，已隐藏该标签。</sys:String> -->
+    <sys:String x:Key="ChooseModPackFile">Naij New Oab Eh Gnehz Ez Naux</sys:String>
+    <sys:String x:Key="SinceNow">Gnij Iy Nij Uj</sys:String>
+    <sys:String x:Key="Published">El Ub Af</sys:String>
+    <sys:String x:Key="NumVersion">{0} Neb Nab Eg</sys:String>
+    <!-- <sys:String x:Key="SearchOnTheInternet">在互联网上查找：</sys:String> -->
+
+    <sys:String x:Key="GameNotInstall">Ix Uoy Gnauhz Na Iew</sys:String>
+    <sys:String x:Key="GameNotInstallDetail">Ix Uoy Eh Ner Gnauhz Na Uoy Iem Iah Nin，Ix Uoy Eg Iy Gnauhz Na Ial Naiq Oaib Iaz Aix Ed Gnaf Aix Ij Naid Gniq。</sys:String>
+    <sys:String x:Key="GameNotSelectDetail">Ix Uoy Gnid Ug Uoy Iem Iah Nin，Gnid Ug Gnix Nij Ial Oaib Ut Gnid Ut Ed Ec Uoy Ij Naid Gnib Ix Uoy Eg Iy Uq Naux Gnohz Oaib Eil Iaz Gniq。</sys:String>
+    <sys:String x:Key="StartLaunchGame">Ix Uoy Gnod Iq Ihs Gnahc Ihs Iak</sys:String>
+    <sys:String x:Key="RunningOldMineCraftUsingArm64JreWarning">
+        Eh Gnot Ix Naiq Gnad Oad Ec Naij JRE Iew Nuj Uog Aij Ihs Gnix Nuy Arm64。
+        Ed Neb Nab Oal Oaij Ihs Gnen Ek Ed Gnix Nuy Nin Uy Uoy Nad MineCraft Il Ihs，Iaz Af Uw Gnen Ek Ihs Gnix Nuy Ed Nah Oab Ous Il Ihs Naug Gnaix Arm64 Gnix Nuy Gnahc Gnehz Gnahs Gnot Ix。
+        LauncherX Nef Ub Gnaij Ihs Gnahc Iuh Gnaij natives Gnod Iq Gnix Nij Uog Aij Gnot Ix Ed Gniy Iud Iew Nauh It，It New Ed Gnod Iq Uf Uix Iy Ek Gnen Ek Uoy Ehz。
+        Oad Nauh Eiq Ihs Gnahc Gniq It New Naix Uhc Oug Ur X86 Ed Uog Aij JRE Gnod Iq Ic Iaz Ihs Gnahc Gnib Ihs Gnix Nuy。
+    </sys:String>
+    <sys:String x:Key="JreVersionTooHighWarning">
+        Ed Ez Naux Naiq Gnad Nin Java Neb Nab [{0}] Neb Nab Ed Uiq Oay Ous Ix Uoy El Uy Oag [{1}]，
+        Ed Neb Nab Nix Gnoy Ihs Java Gnen Gnix Ix Uoy Oag It Iy Ek Gnen Ek Nar Ius，Gnix Nuy Gnahc Gnehz Af Uw Ix Uoy Ihz Oad Iuh Gnen Ek Ey Nad。
+        Gnix Nuy Gnahc Gnehz Af Uw Ix Uoy Oug Ur，Ed Uiq Oay Ous Ix Uoy Oad Nauh Eiq Ihs Gnahc Gniq Java Neb Nab。
+    </sys:String>
+    <sys:String x:Key="FailedToInitAuthenticator">Iab Ihs Iq Gnehz Nay Auh Ihs Uhc</sys:String>
+    <sys:String x:Key="FailedToInitAuthenticatorDetail">Iab Ihs Iq Gnehz Nay Auh Ihs Uhc，Gnix Oaix Uoy Ed Uh Gnahz Ahc Naij Gniq</sys:String>
+    <sys:String x:Key="CurrentLaunchSettings">Ihz Iep Gnod Iq Ed Naiq Gnad:</sys:String>
+    <sys:String x:Key="LauncherRunningUnderTranslationWarning">
+        Oad Ec Naij LauncherX Iaz Gnix Nuy Gnen Ek ARM64 Ed In Om Iq Il Uhc X86 Gnohz Gnij Nauh，Gnix Nuy Gnahs Gnec Iy Nauhz Iaz LauncherX Gnahc Iy Ed Iaw Ihz Oail Iy Gnehc Oaz Ij Iy Gnaix Gniy Oad Uohs Gnen Gnix Ihz Oad Iuh Gnen Ek。
+        It New Ed Ihz Oad Gnen Ek Gnix Nuy Gnec Iy Nauhz Gnoy Ihs：
+        - Ec Naij Eh Eib Ihs Ed Euq Gnehz Af Uw Java Iat Gnauhz Gnix Nuy Ed Ihs Gnix Nuy
+        - Ij Gnaij Gnen Gnix Eh Nay It Ed Gnohz Nay
+        - Gnahc Iy Naix Uhc Gnen Gnog Nef Ub
+        Iaz Aix Nix Gnohz Gnib Uog Aij Gnot Ix Ed Nin Ner Euq Ic Iaz Gniq LauncherX。
+    </sys:String>
+    <sys:String x:Key="TryingToLoginToCsAccount">Uh Gnahz Naim Ir Ul Gned Ihs Gnahc</sys:String>
+    <sys:String x:Key="FailedToLoginToCsAccount">Uh Gnahz Naim Ir Ul Gned Af Uw</sys:String>
+    <sys:String x:Key="LoggedIntoCsAccount">Uh Gnahz Naim Ir Ul Gned Gnog Gnehc</sys:String>
+    <sys:String x:Key="OpenDeviceManagementPage">Oaix Uhz Gnib Naim Ey Il Naug Ieb Ehs Iak Ad</sys:String>
+    <sys:String x:Key="LogoutAndReturn">Iuh Naf Gnib Oaix Uhz</sys:String>
+
+    <sys:String x:Key="InstallOptifineAsMod">Gnaij Optifine Gnauhz Na Ihs Gnix Ed Uz Om Iy</sys:String>
+    <sys:String x:Key="InstallOptifineAsModDetail">Optifine Oad Gnauhz Na Uz Om Eg Iy Iew Ouz Gnaij Fabric Gnohz。Uoh Ihz Gnehc Naw Gnauhz Na Iaz，Gnauhz Na Iaz Aix Gnod Uohs Oay Ux Nin OptiFabric Oad At Gnaij Ial Uz Om Fabric Gnohz。Iaz Iy Ek Nin Iaz Aix-CurseForge Uz Om Iag Oahz Ahc Gnohz Ey Naiq Oaib。</sys:String>
+    <sys:String x:Key="EnterOfflineModeDetail">Ihs Om Naix Il Ur Nij，Ihs Om Iag Gnoy Ihs Aix Gnauk Gniq Ed Oul Gnaw Uw Iaz Iy Ek。Gnoy Nij Ieb Gnaij Gnen Gnog Nef Ub Ad！</sys:String>
+
+    <sys:String x:Key="NewFileDragged">Naij New Nix Eg Iy El Ur Out Nin</sys:String>
+    <sys:String x:Key="TryingToDetermineFileType">Gnix Iel Ed Naij New Ner Euq Gnod Iz Ihs Gnahc Iaz Gnehz</sys:String>
+    <sys:String x:Key="FileTypeDetected">Eib Ihs Gnog Gnehc，Gnix Iel Naij New Ed Gnen Ek：</sys:String>
+
+    <sys:String x:Key="DownloadReadyToRunBuild">Iaz Aix ReadyToRun Naij Uog</sys:String>
+    <sys:String x:Key="DownloadReadyToRunBuildDetail">Gnoy Iac ReadyToRun Gnen Gnix Nul Il Ed Oag Gneg Uoy Iuh Ihz Nij Re Iq Gnod Iq Ed Iy Naib，Ad Gnez Ous Uoy Iuh Ey Oaix Ad Ed It Neb Iq Gnod Iq Nad。</sys:String>
+
+    <sys:String x:Key="CheckCSKBArticle">Nak Ahc CSKB Gnahz New</sys:String>
+    <sys:String x:Key="MojangNoArm64JreSupportWarning">Uy Uoy Mojang Ihc Ihz Gnaf Naug Iew Gnib Iah Naiq Um Gnaf Naug Arm64 Ed Neb Nab JRE Iaz Aix。Ic Niy，Gnauhz Na Ed Ihs Gnix Nuy Gnix Nij Gnod Uohs Ial Gnehc Oaij Ed Gnahs Gnaw Nail Uh Ihs Ouh Uk Ihs Ihz Naim Ir Euy Nac Gniq。</sys:String>
+
+    <sys:String x:Key="CurseForgeApiLimitWarning">Uy Uoy API Ihz Naix Ed，Oad Uiq Gniq Ihs Naix Oud Ihz Nem Ow 10,000 Um Gnaix Eg。Um Gnaix Ed Oud Gneg Nak Ahc Gnaix Nin Oug Ur，New Gnaf Gnix Iz Gniq CurseForge Gnaw Naug。</sys:String>
+    <sys:String x:Key="InTotal">Gnog</sys:String>
+    <sys:String x:Key="Pages">Ey</sys:String>
+
+    <sys:String x:Key="ModNotFoundDetail">Uz Om Eh Ner Oad Oahz Uoy Iem，Ihs Naix Iew Gnib Iauh Nus Iy Uz Om Nef Ub Ihs Ouh。</sys:String>
+    <sys:String x:Key="GoToDownloadPage">Naim Ey Iaz Aix Gnaw Naiq</sys:String>
+
+    <sys:String x:Key="HiveVersion">Hive Neb Nab Uk Oul Gnaw</sys:String>
+    <sys:String x:Key="ConnectXVersion">ConnectX Neb Nab Naij Uz Ij Nail</sys:String>
+
+    <sys:String x:Key="PinAccountAtAccountPage">Uh Gnahz Gnod Iq Gnid Ug Naim Ey Uh Gnahz Iaz</sys:String>
+    <sys:String x:Key="CheckJreStatus">Ahc Naij Jre Iat Gnauhz</sys:String>
+    <sys:String x:Key="DeepSearch">Ous Uos Ud Nehs</sys:String>
+    <sys:String x:Key="DeepSearchDetail">Ous Uos Ud Nehs Gnoy Ihs Java Ihs，LauncherX Oahz Nux Ial Nap Ic Uoy Ous Ed Ij Naus Ij Id Neb Ous Uos Iuh Gnaij JR。Gnail Uhs Nap Ic Eh Gnen Gnix Ed Ij Naus Ij Uy Euj Uq，Naij Ihs Ed Gnahz Gneg Ihz Nehs Oaim Ihs Uhs Ux Ihc Iuh Gnen Ek Gnehc Oug Iag。</sys:String>
+
+    <sys:String x:Key="UseProgressiveBlur">Oug Oaix Ihs Naix Iz New Gnec Gnahs Auh Uoy Uh Om Ihs Nij Naij Oug Gnot</sys:String>
+    <sys:String x:Key="ProgressiveBlurStrength">Ud Gnaiq Oug Oaix Uh Om Ihs Nij Naij</sys:String>
+    <sys:String x:Key="ShowUpperTextShadow">Gniy Niy Iz New Gnec Gnahs Ihs Naix</sys:String>
+    <sys:String x:Key="ImagePlusEffect">Oug Oaix Ahc Ihs Gnij Ieb</sys:String>
+    <sys:String x:Key="UseSystemAccentColorAsPrimaryColor">Es It Uhz Iew Ouz Es It Uhz Gnot Ix Gnoy Ihs</sys:String>
+
+    <!-- <sys:String x:Key="CheckUpnpStatusDetail">请检查您是否已经开启路由器的 UPNP 功能。如果已经开启，请检查是否处在拥有多层路由的网络环境中</sys:String> -->
+    <sys:String x:Key="Operation">Ouz Oac</sys:String>
+    <sys:String x:Key="LeaveRoom">Naij Gnaf Iak Il</sys:String>
+    <sys:String x:Key="DisconnectService">Uw Uf Iak Naud</sys:String>
+    <sys:String x:Key="KickFromRoom">Uhc It Naij Gnaf Gnoc</sys:String>
+
+    <sys:String x:Key="MojangApiLimitWarning">Gnaf Naug Uy Uoy API Ihz Naix Uiq Gniq Ed，Gnoy Ihs Iaz Nin Iy Naij Ub Nem Ow Mojang Uy Ad Gnoy Ihs Ihs Nauy Iaz Aix 5 Gnail Uhs Gnehc Naix Ed。Iab Ihs Uiq Gniq Gnail Ad Ihz Oad Iuh Gnen Ek Ehz。</sys:String>
+
+    <sys:String x:Key="Sponsor">Ehz Uhz Naz</sys:String>
+    <sys:String x:Key="SponsorPageSubTitle">LauncherX Ihc Ihz Il Gniq Ed Ehz Uhz Naz Iew Iy Iem Iak Ub Il Ad Gnauhz Nahz Af Ed！</sys:String>
+    <sys:String x:Key="SponsorSourceDetail">Iz Ial Oaib Eil Ehz Uhz Naz Iag [Naid Af Ia] Iat Gnip。Uoh Naix Nef Ub Gnim Iap，Ic Iy Nix Gneg Nait Iem Oaib Eil Iag，Ul Ij Uhz Naz Ed Nix Iuz Nef Ub Ihs Nahz Ihz Gnib。</sys:String>
+    <sys:String x:Key="SponsorList">Oaib Eil Ehz Uhz Naz</sys:String>
+
+    <sys:String x:Key="LoginToCsAccountForMoreFeatures">Gnen Gnog Oud Gneg Gnoy Ihs Iy Oah Gnahz Naim Ir Ul Gned</sys:String>
+    <sys:String x:Key="ClickAccountCardToPreview">Nal Uy Ial Naip Ak Uh Gnahz Ed Ec Uoy Ij Naid</sys:String>
+    <sys:String x:Key="SwitchTo3DView">Oad Nauh Eiq 3D Ut Ihs</sys:String>
+    <sys:String x:Key="ThreeDOptions">3D Gnaix Naux</sys:String>
+    <sys:String x:Key="EnableAnimation">Auh Gnod Gnoy Iq</sys:String>
+    <sys:String x:Key="DisableAnimation">Auh Gnod Gnoy Nij</sys:String>
+    <sys:String x:Key="ShowUpperSkin">Uf Ip Gnec Gnahs Ihs Naix</sys:String>
+    <sys:String x:Key="HideUpperSkin">Uf Ip Gnec Gnahs Gnac Niy</sys:String>
+    <sys:String x:Key="ShowCape">Gnef Ip Ihs Naix</sys:String>
+    <sys:String x:Key="HideCape">Gnef Ip Gnac Niy</sys:String>
+    <sys:String x:Key="SwitchTo2DView">Oad Nauh Eiq 2D Ut Ihs</sys:String>
+
+    <sys:String x:Key="LoadingModInfo">Ix Nix Uz Om Iaz Aij Iaz Gnehz，Iad Gned Nix Ian Gniq。</sys:String>
+
+    <sys:String x:Key="AddGameResource">Nauy Iz Ix Uoy Aij Nait</sys:String>
+    <sys:String x:Key="Logs">Ihz Ir</sys:String>
+    <sys:String x:Key="ExportAs">Iew Uhc Oad</sys:String>
+
+    <sys:String x:Key="LoadLargeItemWarning">Gnaix Naix Ed Is Ak Naz Naud Naix Uhc Iuh Gnen Ek Naim Eij Ihs Um Gnaix Gnix Ad Eix Uom Iaz Aij Iaz，Iad Gned Nix Ian Gniq。</sys:String>
+
+    <sys:String x:Key="CurrentStatus">Iat Gnauhz Naiq Gnad:</sys:String>
+
+    <sys:String x:Key="Source">Nauy Ial</sys:String>
+    <sys:String x:Key="Solution">Na Gnaf Euj Eij</sys:String>
+    <sys:String x:Key="GenerateSupportPack">Oab Ihc Ihz Gnehc Gnehs</sys:String>
+
+    <sys:String x:Key="GameProcessExited">Uhc Iut Iy Gnehc Nij Ix Uoy</sys:String>
+    <sys:String x:Key="Back">Iuh Naf</sys:String>
+    <sys:String x:Key="InOfflineDetail">Ij Out Iy，Gnoy Nij Ieb Iy Gnen Gnog Nef Ub Ad</sys:String>
+    <sys:String x:Key="TryingToAutoLogin">Ul Gned Gnod Iz Ihs Gnahc Iaz Gnehz...</sys:String>
+
+    <sys:String x:Key="LoadingMainWindow">It Gnauhc Uhz Iaz Aij</sys:String>
+    <sys:String x:Key="MainWindowLoaded">Gnehc Naw Iaz Aij It Gnauhc Uhz</sys:String>
+    <sys:String x:Key="MultipleDragNotSupport">Gnen Gnog Gnaf Out Naij New Oud Ihc Ihz Ub Naz It Gnauhc Uhz</sys:String>
+    <sys:String x:Key="UnsupportedFunction">Gnen Gnog Ed Ihc Ihz Ub Naz</sys:String>
+    <sys:String x:Key="FailedToGetDraggedFilePath">Gnij Ul Ed Naij New Ur Out Uq Ouh Af Uw</sys:String>
+    <sys:String x:Key="FilePathEmpty">Gnok Iew Gnij Ul Naij New</sys:String>
+    <sys:String x:Key="FileDragEventTriggered">Af Uhc Naij Ihs Gnaf Out Naij New</sys:String>
+    <sys:String x:Key="OfficialWebsite">Nahz Gnaw Gnaf Naug</sys:String>
+
+    <sys:String x:Key="PreviousPage">Ey Iy Gnahs</sys:String>
+    <sys:String x:Key="NextPage">Ey Iy Aix</sys:String>
+
+    <sys:String x:Key="Month">Euy</sys:String>
+
+    <sys:String x:Key="Yesterday">Nait Ouz</sys:String>
+    <sys:String x:Key="DayBeforeYesterday">Nait Naiq</sys:String>
+
+    <sys:String x:Key="More">Oud Gneg</sys:String>
+    <sys:String x:Key="Compatibility">Gnix Gnor Naij</sys:String>
+
+    <sys:String x:Key="Fishing">Gnohz Uy Om</sys:String>
+    <sys:String x:Key="Sleeping">Gnohz Oaij Iuhs</sys:String>
+    <sys:String x:Key="Busy">Gnam Iaz Gnehz</sys:String>
+    <sys:String x:Key="Happy">Iz Iz Iem</sys:String>
+    <sys:String x:Key="Emo">emo</sys:String>
+    <sys:String x:Key="Studying">Gnohz Ix Eux</sys:String>
+    <sys:String x:Key="Eating">Gnohz Naf Ihc</sys:String>
+
+    <!--> 关于这个字段，可以改成相关语言的梗词之类的 <-->
+
+    <sys:String x:Key="X">Gnohz Gnib Gnohz Gnib Uohs</sys:String>
+
+    <sys:String x:Key="ResourcePackNotFoundDetail">Oab Nauy Iz Eh Ner Oad Oahz Uoy Iem</sys:String>
+    <sys:String x:Key="ScreenshotNotFoundDetail">Ut Eij Ix Uoy Eh Ner Oad Oahz Uoy Iem</sys:String>
+    <sys:String x:Key="ShaderPackNotFoundDetail">Gniy Gnaug Eh Ner Oad Oahz Uoy Iem</sys:String>
+
+
+    <!--  CurseForge分类 START  -->
+    <sys:String x:Key="Teleportation">Iel Gnos Nauhc</sys:String>
+    <sys:String x:Key="LuckyBlocks">Iauk Gnaf Nuy Gnix</sys:String>
+    <sys:String x:Key="BuildingGadgets">Uj Gnog Ehs Naij</sys:String>
+    <sys:String x:Key="Buildcraft">Iy Gnog Ehs Naij</sys:String>
+    <sys:String x:Key="Galacticraft">Ij GnixmodNaug Gnaix</sys:String>
+    <sys:String x:Key="RolePlaying">Nay Nab Es Euj</sys:String>
+    <sys:String x:Key="HardcoreQuestingMode">Uw Ner Ihs Om Naix Ij</sys:String>
+    <sys:String x:Key="Guidebook">Uhs Oad Niy</sys:String>
+    <sys:String x:Key="AdminTools">Uj Gnog Nauy Il Naug</sys:String>
+    <sys:String x:Key="TinkersConstruct">Naug Gnaix Nuh Gnaij</sys:String>
+    <sys:String x:Key="BloodMagic">Naug Gnaix Af Om Eux</sys:String>
+    <sys:String x:Key="Progression">Naug Gnaix Ud Nij</sys:String>
+    <sys:String x:Key="DeveloperTools">Uj Gnog Af Iak</sys:String>
+    <sys:String x:Key="Mechanics">Iag Uix Ihz Ij</sys:String>
+    <sys:String x:Key="Miscellaneous">Gnaix Az</sys:String>
+    <sys:String x:Key="ChatRelated">Naug Gnaix Gnot Ix Nait Oail</sys:String>
+    <sys:String x:Key="AntiGriefingTools">Ib Ouz Naf</sys:String>
+    <sys:String x:Key="Mobs">Uw Gnehs</sys:String>
+    <sys:String x:Key="Multiplayer">Ix Uoy Ner Oud Gnaix Naim</sys:String>
+    <sys:String x:Key="Recipes">Gnaf Iep Gnehc Eh</sys:String>
+    <sys:String x:Key="MapAndInformation">Ix Nix Eh Ut Id</sys:String>
+    <sys:String x:Key="GameMap">Ut Id Ix Uoy</sys:String>
+    <sys:String x:Key="MiniGame">Ix Uoy Oaix</sys:String>
+    <sys:String x:Key="Medieval">Ij Ihs Gnohz</sys:String>
+    <sys:String x:Key="Thaumcraft">Naug Gnaix Iad Ihs Im Nehs</sys:String>
+    <sys:String x:Key="TwitchIntegration">TwitchNaij Uz</sys:String>
+    <sys:String x:Key="Creation">Oaz Gnauhc</sys:String>
+    <sys:String x:Key="PlayerTransport">Gnot Oaij Aij Naw</sys:String>
+    <sys:String x:Key="EnergyFluidAndItemTransport">Uhs Nauhc Nip Uw Eh It Uil Gnail Gnen</sys:String>
+    <sys:String x:Key="Steampunk">Ek Gnep Iq Gnehz</sys:String>
+    <sys:String x:Key="Automation">Auh Gnod Iz</sys:String>
+    <sys:String x:Key="WorldGen">Gnehc Gnehs Eij Ihs</sys:String>
+    <sys:String x:Key="DataPacks">Oab Uj Uhs</sys:String>
+    <sys:String x:Key="SmallLight">Ij Gnail Gniq</sys:String>
+    <sys:String x:Key="Configuration">Iel Ihz Iep</sys:String>
+    <sys:String x:Key="Food">Uz Om Ihs Iem</sys:String>
+    <sys:String x:Key="WorldEditingAndManagement">Il Naug Eh Ij Naib Eij Ihs</sys:String>
+    <sys:String x:Key="Traditional">Gnot Nauhc</sys:String>
+    <sys:String x:Key="IndustrialCraft">Naug Gnaix Uz Om Ey Gnog</sys:String>
+    <sys:String x:Key="APIAndLibrary">Ial Iy Eh Ihz Naiq</sys:String>
+    <sys:String x:Key="AdventureAndRPG">Nay Nab Es Euj Eh Naix Oam</sys:String>
+    <sys:String x:Key="FontPacks">Oab It Iz</sys:String>
+    <sys:String x:Key="ModdedWorld">Ut Id Ed Uoh Iag Uix</sys:String>
+    <sys:String x:Key="Economy">Ij Gnij</sys:String>
+    <sys:String x:Key="Scenarios">Naug Gnij</sys:String>
+    <sys:String x:Key="ServerUtility">Uj Gnog Iq Uw Uf</sys:String>
+    <sys:String x:Key="Skyblock">Oad Gnok</sys:String>
+    <sys:String x:Key="Farming">Af Naw Ey Gnon</sys:String>
+    <sys:String x:Key="General">Nab Iy</sys:String>
+    <sys:String x:Key="Adventure">Iel Naix Oam</sys:String>
+    <sys:String x:Key="Hardcore">Uz Om Eh Gniy</sys:String>
+    <sys:String x:Key="CombatPvP">Uod Nahz</sys:String>
+    <sys:String x:Key="KubeJS">KubeJSNeb Oaij</sys:String>
+    <sys:String x:Key="Biomes">Ix Nuq Uw Gnehs</sys:String>
+    <sys:String x:Key="Energy">Nauy Gnen</sys:String>
+    <sys:String x:Key="ThermalExpansion">Nahz Ouk Eil Ix Il Er</sys:String>
+    <sys:String x:Key="VanillaPlus">Gnaiq Gnez Nab Nauy</sys:String>
+    <sys:String x:Key="UtilityQoL">QoLUj Gnog Eh</sys:String>
+    <sys:String x:Key="Fixes">Iel Uf Uix</sys:String>
+    <sys:String x:Key="FancyMenu">FancyMenuIhz Iep</sys:String>
+    <sys:String x:Key="Structures">Uog Eij(Gnehc Gnehs)</sys:String>
+    <sys:String x:Key="ArmorToolsAndWeapons">Uj Gnog Eh Nip Gnoy Uod Nahz</sys:String>
+    <sys:String x:Key="WorldGenerators">Gnehc Gnehs Eij Ihs</sys:String>
+    <sys:String x:Key="Fun">Uz Om Iew Uq</sys:String>
+    <sys:String x:Key="WebsiteAdministration">Il Naug Nahz Gnaw</sys:String>
+    <sys:String x:Key="Genetics">Nauhc Iy</sys:String>
+    <sys:String x:Key="SciFi">Nauh Ek</sys:String>
+    <sys:String x:Key="Puzzle">Im Eij</sys:String>
+    <sys:String x:Key="Create">Naug Gnaix Il Gnod Eix Ij</sys:String>
+    <sys:String x:Key="Vanilla">Iag Uix Nab Nauy</sys:String>
+    <sys:String x:Key="Fantasy">Nauh Iq</sys:String>
+    <sys:String x:Key="Magic">Af Om</sys:String>
+    <sys:String x:Key="CraftTweaker">CraftTweakerNaug Gnaix</sys:String>
+    <!--  如果太长则把 CraftTweaker 改成 CrT  -->
+    <sys:String x:Key="IntegratedDynamics">Naug Gnaix Il Gnod Gnehc Ij</sys:String>
+    <sys:String x:Key="Realistic">Nehz In</sys:String>
+    <sys:String x:Key="OresAndResources">Iel Nauy Iz</sys:String>
+    <sys:String x:Key="ExtraLarge">Auh Ad Gnaf</sys:String>
+    <sys:String x:Key="Processing">Il Uhc Nip Uw</sys:String>
+    <sys:String x:Key="MCreator">MCreatorOuz Ihz</sys:String>
+    <sys:String x:Key="Exploration">Iel Ous Nat</sys:String>
+    <sys:String x:Key="FTBOfficialPack">FTBOab Uw Ner Gnaf Naug</sys:String>
+    <sys:String x:Key="Scripts">Neb Oaij</sys:String>
+    <sys:String x:Key="Modern">Eg Gnef Iad Naix</sys:String>
+    <sys:String x:Key="Parkour">Ut Id Uk Oap</sys:String>
+    <sys:String x:Key="BugFixes">Uf Uix Uw Ouc</sys:String>
+    <sys:String x:Key="PerformanceType">Auh Uoy Gnen Gnix</sys:String>
+    <!--  与上文Performance区分 使用命名PerformanceType  -->
+    <sys:String x:Key="ModSupport">Ihc Ihz Uz Om</sys:String>
+    <sys:String x:Key="Tech">Iel Ij Ek</sys:String>
+    <sys:String x:Key="Library">Uk Ihc Ihz</sys:String>
+    <sys:String x:Key="Utility">Uj Gnog</sys:String>
+    <sys:String x:Key="Forestry">Nil Nes</sys:String>
+    <sys:String x:Key="Technology">Ij Ek</sys:String>
+    <sys:String x:Key="Cosmetic">Gnok Iat</sys:String>
+    <sys:String x:Key="Quests">Iel Uw Ner</sys:String>
+    <sys:String x:Key="Storage">Nuc Uhc Nip Uw</sys:String>
+    <sys:String x:Key="PhotoRealistic">Naip Ut Ihs Naix</sys:String>
+    <sys:String x:Key="Redstone">Ihs Gnoh</sys:String>
+    <sys:String x:Key="Informational">Iel Ix Nix</sys:String>
+    <sys:String x:Key="Education">Naug Gnaix Uy Oaij</sys:String>
+    <sys:String x:Key="Survival">Iel Nuc Gnehs</sys:String>
+    <sys:String x:Key="Animated">Auh Gnod</sys:String>
+    <sys:String x:Key="MapBased">Ut Id Uy Ij</sys:String>
+    <sys:String x:Key="LowerThanX8">8xIhz Iac Aix Iy</sys:String>
+    <sys:String x:Key="X8">8x Ihz Iac</sys:String>
+    <sys:String x:Key="X16">16x Ihz Iac</sys:String>
+    <sys:String x:Key="X32">32x Ihz Iac</sys:String>
+    <sys:String x:Key="X48">48x Ihz Iac</sys:String>
+    <sys:String x:Key="X64">64x Ihz Iac</sys:String>
+    <sys:String x:Key="X128">128x Ihz Iac</sys:String>
+    <sys:String x:Key="X256">256x Ihz Iac</sys:String>
+    <sys:String x:Key="X512AndHigher">512xIhz Iac Oag Gneg Ij</sys:String>
+    <!--  CurseForge分类 END  -->
+    <!--  分类补充1  -->
+    <sys:String x:Key="ColoredLighting">Es Ehz Oahz Gnaug</sys:String>
+    <sys:String x:Key="CoreShaders">Gniy Gnaug Nix Eh</sys:String>
+    <sys:String x:Key="Cursed">Uohz Uz Uohs(Bug)</sys:String>
+    <sys:String x:Key="Decoration">Ihs Gnauhz</sys:String>
+    <sys:String x:Key="Entities">It Ihs</sys:String>
+    <sys:String x:Key="Environment">Gnij Nauh</sys:String>
+    <sys:String x:Key="Equipment">Ieb Gnauhz</sys:String>
+    <sys:String x:Key="Foliage">Iz Ey</sys:String>
+    <sys:String x:Key="GameMechanics">Ihz Ij Ix Uoy</sys:String>
+    <sys:String x:Key="Gui">Iag Uix Naim Eij</sys:String>
+    <sys:String x:Key="Items">Nip Uw</sys:String>
+    <sys:String x:Key="KitchenSink">Oac Iuhs Eh Gnaf Uhc</sys:String>
+    <sys:String x:Key="Lightweight">Auh Gnail Gniq</sys:String>
+    <sys:String x:Key="Locale">Auh Id Neb</sys:String>
+    <sys:String x:Key="Management">Il Naug</sys:String>
+    <sys:String x:Key="Modded">Iag Uix/Auh Uz Om</sys:String>
+    <sys:String x:Key="Models">Gnix Om</sys:String>
+    <sys:String x:Key="Optimization">Auh Uoy</sys:String>
+    <sys:String x:Key="PathTracing">Gnoz Iuhz Gnij Ul</sys:String>
+    <sys:String x:Key="Pbr">PBR</sys:String>
+    <sys:String x:Key="Potato">Ij Ahz</sys:String>
+    <sys:String x:Key="Reflections">Ehs Naf</sys:String>
+    <sys:String x:Key="Screenshot">Ut Eij Um Gnip</sys:String>
+    <sys:String x:Key="SemiRealistic">Nehz In Nab</sys:String>
+    <sys:String x:Key="Shadows">Gniy Niy</sys:String>
+    <sys:String x:Key="Simplistic">Auh Naij</sys:String>
+    <sys:String x:Key="Social">Oaij Ehs</sys:String>
+    <sys:String x:Key="storage">Uw Uhc</sys:String>
+    <sys:String x:Key="Themed">Auh It Uhz</sys:String>
+    <sys:String x:Key="Transportation">Gnot Oaij</sys:String>
+    <!--  分类补充1 FILL  -->
+    <sys:String x:Key="Shaders">Gniy Gnaug</sys:String>
+    <sys:String x:Key="Audio">Niy Gnehs</sys:String>
+    <sys:String x:Key="Blocks">Iauk Gnaf</sys:String>
+    <sys:String x:Key="Dimensions">Ud Iew</sys:String>
+    <sys:String x:Key="Challenging">Nahz Oait</sys:String>
+    <sys:String x:Key="Bloom">Oahz Gnaug(Bloom)</sys:String>
+    <sys:String x:Key="TwilightForest">Nil Nes Es Um</sys:String>
+    <sys:String x:Key="Atmosphere">Gnij Nauh</sys:String>
+    <sys:String x:Key="VanillaLike">Gnehs Nauy Iel</sys:String>
+    <sys:String x:Key="AppliedEnergistics2">Nauy Gnen Gnoy Gniy2(AE2)</sys:String>
+    <sys:String x:Key="Tweaks">Iag Uix(Tweaks)</sys:String>
+    <sys:String x:Key="Horror">Ub Gnok</sys:String>
+    <sys:String x:Key="Cartoon">Gnot Ak</sys:String>
+
+
+    <!--  分类补充1 END  -->
+
+
+    <sys:String x:Key="StartingBackendHost">Ij Uhz Naud Uoh Auh Ihs Uhc Ihs Iak</sys:String>
+    <sys:String x:Key="ConnectedToSignalR">Uy Gnog Gnehc SignalR Eij Nail Il Naij Iq Uw Uf</sys:String>
+    <sys:String x:Key="DisconnectedToSignalR">Gnoc SignalR Iak Naud Iq Uw Uf</sys:String>
+    <sys:String x:Key="FailedToConnectTo">Oad Eij Nail Af Uw SignalR Iq Uw Uf，It New Oul Gnaw Ihs Gnen Ek</sys:String>
+    <sys:String x:Key="LoggedIntoCSA">Uh Gnahz Naim Ir Ul Gned Gnog Gnehc，Eij Nail Ihs Iak SignalR Iq Uw Uf</sys:String>
+
+    <sys:String x:Key="InitChatService">Uw Uf Nait Oail Auh Ihs Uhc</sys:String>
+    <sys:String x:Key="LoadChatHistoryMessage">Uy Iaz Aij {0} Ul Ij Nait Oail Ed</sys:String>
+
+    <sys:String x:Key="InitDeviceService">Uw Uf Gnehz Ner Ieb Ehs Auh Ihs Uhc</sys:String>
+    <sys:String x:Key="LoadingDeviceList">Oaib Eil Ieb Ehs Ec Uhz Iaz Aij</sys:String>
+    <sys:String x:Key="DeviceListLoaded">Oaib Eil Ieb Ehs Oad Uq Ouh Iq Uw Uf Gnoc Gnog Gnehc</sys:String>
+    <sys:String x:Key="DeviceListLoadedCount">Gnehc Naw Iaz Aij Oaib Eil Ieb Ehs，Gnog {deviceCount} Ieb Ehs Eg</sys:String>
+    <sys:String x:Key="TryRegisterDevice">Ieb Ehs Ec Uhz Ihs Gnahc</sys:String>
+    <sys:String x:Key="TryRegisterDeviceDetail">Ieb Ehs {0} Gnog Gnehc Ec Uhz</sys:String>
+
+    <sys:String x:Key="TryUnregisterDevice">Ieb Ehs Ec Uhz Naf Ihs Gnahc</sys:String>
+    <sys:String x:Key="TryUnregisterDeviceDetail">Ieb Ehs {0} Gnog Gnehc Ec Uhz Naf</sys:String>
+
+    <sys:String x:Key="InitFriendService">Uw Uf Uoy Oah Auh Ihs Uhc</sys:String>
+    <sys:String x:Key="LoadingFriendList">Oaib Eil Uoy Oah Uh Gnoy Iaz Aij</sys:String>
+    <sys:String x:Key="FriendListLoadedCount">Gnehc Naw Uq Ouh Oaib Eil Uoy Oah Uh Gnoy，Gnog {0} Uoy Oah Eg</sys:String>
+
+    <sys:String x:Key="InitUpdateService">Uw Uf Nix Gneg Auh Ihs Uhc</sys:String>
+    <sys:String x:Key="StartCheckingLauncherUpdate">Nix Gneg It Neb Iq Gnod Iq Ahc Naij Ihs Iak</sys:String>
+    <sys:String x:Key="LatestBuildFetched">Naij Uog Nix Iuz Uq Ouh Iq Uw Uf Gnoc Gnog Gnehc</sys:String>
+    <sys:String x:Key="UpdateFoundDetail">Neb Nab Nix Gneg Naix Af，ID：{0}</sys:String>
+    <sys:String x:Key="NoUpdateFound">Nix Gneg It Neb Oad Ec Naij Uoy Iem</sys:String>
+
+    <sys:String x:Key="PleaseTryAgainLaterDetail">It New Iag Euj Eij Ihs Gnahc Ial Ihs Gnahc Ic Oud Iy Ek Nin。Ix Nix Ix Gnaix：{0}</sys:String>
+
+    <sys:String x:Key="CanNotSafeDeleteMessage">
+        Ial Iy Ix Uoy At Iq Ieb Ix Uoy Iag，Gnac Niy Ieb Ix Uoy Ed Neb Nab Iag Uy Ial Iy Ihz Oad Iuh Gnaij Ix Uoy Iag Uhc Nahs。Am Uhc Nahs Oay Gnid Euq Nin？
+        Neb Nab Ix Uoy Ed Ial Iy Ieb：[{0}]
+    </sys:String>
+
+    <sys:String x:Key="StartAssetCheck">Nauy Iz Ix Uoy Gnix Nij Ihs Iak(Asset)Ahc Naij</sys:String>
+    <sys:String x:Key="NoVersionManifestFound">Gnog It Uoy Iem Version Manifest， Iaz Aix Ihs Iak</sys:String>
+    <sys:String x:Key="NoAssetIndexesFound">Naix Af Uoy Iem Asset Indexes Naij New， Iaz Aix Ihs Iak</sys:String>
+    <sys:String x:Key="FailedToResolveAssetIndexesMessage">Ix EijAsset Indexes Iab Ihs Naij New！Niy Nauy：{0}</sys:String>
+    <sys:String x:Key="AssetIndexesDownloaded">Asset Indexes Gnehc Naw Iaz Aix Naij New</sys:String>
+    <sys:String x:Key="StartResolveAssetIndexes">Ix Eij Ihs IakAsset Indexes Naij New...</sys:String>
+    <sys:String x:Key="FileBrokenOrEmpty">Gnok Iew Ouh Iauh Nus Gnen Ek Naij New</sys:String>
+    <sys:String x:Key="StartCheckingAssets">Gnehz Nay Gnib Ous Naij Asset Nauy Iz</sys:String>
+    <sys:String x:Key="AssetsResolved">Assets Gnehc Naw Ix Eij</sys:String>
+
+    <sys:String x:Key="StartLibraryCheck">Nauy Iz Ix Uoy Gnix Nij Ihs Iak(Library)Ahc Naij</sys:String>
+    <sys:String x:Key="StartCheckingLibraries">Gnehz Nay Gnib Ous Naij Library</sys:String>
+    <sys:String x:Key="LibraryResolved">Ahc Naij Library Gnehc Naw</sys:String>
+
+    <sys:String x:Key="Auto">Gnod Iz</sys:String>
+    <sys:String x:Key="Visible">Naij Ek</sys:String>
+    <sys:String x:Key="Hidden">Naij Ek Ub</sys:String>
+
+    <sys:String x:Key="Low">Id</sys:String>
+    <sys:String x:Key="Medium">Gnohz</sys:String>
+    <sys:String x:Key="High">Oag</sys:String>
+    <sys:String x:Key="Extreme">Ad Iuz</sys:String>
+
+    <sys:String x:Key="DownloadToTargetFolder">Ul Um Gnid Ihz Oad Iaz Aix</sys:String>
+    <sys:String x:Key="DownloadToTargetGame">Ix Uoy Oad Iaz Aix</sys:String>
+
+    <sys:String x:Key="CanUpgradeTo">Oad Nix Gneg Ek：</sys:String>
+    <sys:String x:Key="FollowingFileWillBeDeleted">Naij New Ed Eil Aix Uhc Nahs Gnaij Nix Gneg：</sys:String>
+    <sys:String x:Key="OpenModWebPage">Ey Gnaw Uz Om Iak Ad</sys:String>
+
+    <sys:String x:Key="FailedToInit3DSkinPreview">Auh Ihs Uhc 3D Uw Ouc Naix Uhc Ihs Nal Uy Uf Ip</sys:String>
+
+    <sys:String x:Key="DoNotCompress">Ous Ay Ihs Gnahc Ub</sys:String>
+
+    <sys:String x:Key="AskIfDownloadDependencies">Ial Iy Iaz Aix Uof Ihs</sys:String>
+    <sys:String x:Key="AskIfDownloadDependenciesDetail">Ial Iy Eg Oud Ouh Eg Iy Nah Oab Gnen Ek Naij New Ed Iaz Aix Oay Gnaij Nin，Ez Naux Nin Oug Ur“Ial Iy Iaz Aix Ihs Gnot”，LauncherX Ial Iy Ub Nauq Ed Ux Ous Naij New Iag Iaz Aix Ihs Gnahc Gnaij。</sys:String>
+    <sys:String x:Key="OnlyDownloadFile">Naij New Iag Iaz Aix Nij</sys:String>
+    <sys:String x:Key="AlsoDownloadDependencies">Ial Iy Iaz Aix Ihs Gnot</sys:String>
+
+    <sys:String x:Key="AllCacheHasBeenCleared">Uhc Gniq Ieb Iy Nuj Naij New Nuc Nauh Uoy Ous</sys:String>
+    <sys:String x:Key="FailedToClearCache">Iab Ihs Nuc Nauh Uh Om Ihs Nij Naij Il Gniq</sys:String>
+
+    <sys:String x:Key="NoAccountSelected">Uh Gnahz Ez Naux Iew</sys:String>
+    <sys:String x:Key="NoAccountSelectedDetail">Uh Gnahz Ed Oaix Uoy El Ez Naux Uof Ihs Nin Ahc Naij Gniq</sys:String>
+
+    <sys:String x:Key="InstallablePackFound">Oab Gnehz Naw Ed Gnauhz Na Iy Ek Naix Af</sys:String>
+    <sys:String x:Key="FullPackOpenedDetail">
+        Ed Gnauhz Na Iad Nah Oab Eg Iy El Iak Ad Is Iy Nin LX Naij New Ed Oab Gnehz Naw。
+        Ed Af Nef Gnaf Nas Id Uoy Ihs Oab Gnehz Naw Iag，Iag Nauc Oad Oaz Uoy Iem Gnib Iq Ner Euq Ij Iy Nauy Ial Ed Oab Iag Ner Euq Gnix Iz Gniq。
+        Gnix Gnehz Naw Ed Oab Iag Ner Euq Ial Ix Nix Aix Iy Oug Gnot Iy Ek Nin：
+        SHA1: {0}
+        MD5: {1}
+        Is Iy Em Nehs Ihs Ehz Oad Ihz Ub Gnib Nin Oug Ur，Uin Na Uhc Nahs Ed Gnaf Aix Ij Naid Eij Ihz Gniq。
+    </sys:String>
+    <sys:String x:Key="IgnoreAndDelete">Uhc Nahs Gnib Evl Uh</sys:String>
+    <sys:String x:Key="IncorrectSystemArch">Uog Aij Gnot Ix Ed Euq Gnehz Ub</sys:String>
+
+    <sys:String x:Key="SettingsNeedToReboot">Ihz Ehs Ed Iq Gnohc Oay Ux</sys:String>
+    <sys:String x:Key="SettingsNeedToRebootDetail">Gnoy Gniy Nauq Naw Gnehc Naw Ial Iq Gnod Iq Gnod Iq Nix Gnohc Oay Ux Ihz Ehs Eg Ehz Ed Iag Gneg Naiq Gnad Nin！</sys:String>
+
+    <sys:String x:Key="BasicInfo">Ix Nix Neb Ij</sys:String>
+    <sys:String x:Key="ModPackName">Iz Gnim Oab Eh Gnehz</sys:String>
+    <sys:String x:Key="ModPackAuthor">Ehz Ouz Oab Eh Gnehz</sys:String>
+    <sys:String x:Key="ModPackVersion">Neb Nab Oab Eh Gnehz</sys:String>
+    <sys:String x:Key="ReleasePlatform">Iat Gnip Ub Af</sys:String>
+    <sys:String x:Key="LauncherSettings">Ihz Ehs Iq Gnod Iq</sys:String>
+    <sys:String x:Key="SaveBasicSettings">Ihz Iep Uhc Ij Nuc Oab</sys:String>
+    <sys:String x:Key="SaveWallpapers">Ihz Ib Ed Nuc Oab（Gnez Ij Ij It Naij New Ihs Iuh Gnen Ek）</sys:String>
+    <sys:String x:Key="GameFiles">Naij New Ix Uoy</sys:String>
+    <sys:String x:Key="KeepSettings">Ihz Iep Uil Oab</sys:String>
+    <sys:String x:Key="KeepDefaultSettings">Ihz Iep Ner Om Uil Oab</sys:String>
+    <sys:String x:Key="KeepMods">Uz Om Uil Oab</sys:String>
+    <sys:String x:Key="KeepResourcePacks">Oab Nauy Iz Uil Oab</sys:String>
+    <sys:String x:Key="KeepShaderPacks">Oab Gniy Gnaug Uil Oab</sys:String>
+    <sys:String x:Key="AdditionalSettings">Gnaix Naux Iaw E</sys:String>
+    <sys:String x:Key="UseThirdPartyApiToReduceSize">Gnaf Nas Id Oug Gnot API Ij It Oab Gnehz Naw Ous Ay</sys:String>
+    <sys:String x:Key="IgnoreDisabledMods">Uz Om Ed Gnoy Nij Ieb Evl Uh</sys:String>
+    <sys:String x:Key="UseThirdPartyApiToReduceSizeDetail">Uoh Gnen Gnog Iag Gnoy Iq，Gnoc Uog Gnen Gnaij Ihs Gnahc Iuh Gnaij Iq Gnod Iq CurseForge/Modrinth Ed Oad Iep Ip Mod Ed Gniy Iud Iq Iew Nauh It Naij New ID。Nem At Iaz Aix Nix Gnohc Ihs Oab Eh Gnehz Gnauhz Na Iaz Gnib。</sys:String>
+
+    <sys:String x:Key="UseCurseForgeToUpgradeMods">Gnoy Ihs CurseForge Ed Ix Uoy Iag Nix Gneg MOD</sys:String>
+    <sys:String x:Key="UseModrinthToUpgradeMods">Gnoy Ihs Modrinth Ed Ix Uoy Iag Nix Gneg MOD</sys:String>
+    <sys:String x:Key="DisableModsInsteadDelete">Ed Nauh It Ieb Iuh Gnaij MOD Uhc Nahs Ihs Ub Re Gnoy Nij"</sys:String>
+    <sys:String x:Key="ModUpdateWarningDetail">※ Ix Nix Ial Iy Ed Uz Om Ix Eij Ed Euq Gnehz Gnid Iy Gnehz Oab Gnen Ub Gnib Gnen Gnog Nix Gneg Iag。Uz Om Ed Nix Gneg Oay Ux Ez Naux Uiq Ux Uj Neg Gnib Um Gnaix Ed Gnohz Oaib Eil Ahc Naij Ix Iz Gniq。Gnor Ien Ed Aij Naij New Uz Om Ahc Naij Ix Iz Uoh Gnehc Naw Nix Gneg Iaz Gnib！</sys:String>
+    <sys:String x:Key="CurrentSelectedGamePath">Ul Um Ix Uoy Ed Ez Naux Naiq Gnad</sys:String>
+    <sys:String x:Key="Exclude">Uhc Iap</sys:String>
+
+    <sys:String x:Key="DownloadAllDependenciesIfPossible">Ial Iy Ub Nauq Iaz Aix（Iaz Nuc Oug Ur）</sys:String>
+    <sys:String x:Key="DownloadFileToPathDetail">Oad Iaz Aix Naij New Gnaij {0} Ed {1} Ul Um</sys:String>
+    <sys:String x:Key="CopyFileToPathDetail">Oad Ihz Uf Naij New Gnaij {0} Ed {1} Ul Um</sys:String>
+
+    <sys:String x:Key="UseCurseForgeToCheck">Gnoy Ihs CurseForge Ahc Naij</sys:String>
+    <sys:String x:Key="UseModrinthToCheck">Gnoy Ihs Modrinth Ahc Naij</sys:String>
+    <sys:String x:Key="CheckUpdate">Nix Gneg Ahc Naij</sys:String>
+
+    <sys:String x:Key="Translation">Iy Naf</sys:String>
+    <sys:String x:Key="GameGeneralSettings">Gnid Ehs Gnoy Gnot Ix Uoy</sys:String>
+    <sys:String x:Key="JavaVmSettings">Java Gnid Ehs Ij In Ux</sys:String>
+
+    <sys:String x:Key="ResourcesDownloadMaxTry">Uhs Ic Ihs Gnohz Ad Iuz Nauq Ub Nauy Iz</sys:String>
+    <sys:String x:Key="UseQuickResourceCheck">Ahc Naij Nauy Iz Us Iauk Gnoy Ihs</sys:String>
+    <sys:String x:Key="UseQuickResourceCheckDetail">※ Ud Us Ed Ahc Naij Naij New Naud Ous Ad Ij Iy Ek Ahc Naij Nauy Iz Us Iauk Gnoy Ihs，Gnauk Gniq Ed Nap Uol Naix Uhc Iuh Gnen Ek Aix Gnauk Gniq Eix Uom Iaz Ihs Nad。Gnauk Gniq Ed Iab Ihs Gnod Iq Naix Uhc Oug Ur，Ix Uoy Gnod Iq Gnib Uin Na Ic Ib Naug Ihs Gnahc Iy Ek。</sys:String>
+    <sys:String x:Key="NativeLibrariesReplacePolicy">Evl Ec Nauh It Uk Gnehs Nauy</sys:String>
+
+    <sys:String x:Key="Color">Es Nay</sys:String>
+    <sys:String x:Key="Background">Gnij Ieb</sys:String>
+    <sys:String x:Key="ImageStretchMethod">Ihs Gnaf Nehs Al Naip Ut</sys:String>
+    <!-- <sys:String x:Key="EnableExperimentalAnimation">启用实验性动画</sys:String> -->
+    <sys:String x:Key="ProgressiveBlurQuality">Gnail Ihz Uh Om Ihs Nij Naij Naip Ut Gnij Ieb</sys:String>
+    <sys:String x:Key="ProgressiveBlurQualityDetail">※ Nuc Nauh Uh Om Ihs Nij Naij Il Gniq Ial Uin Na Ed Naim Aix Ij Naid Oay Ux Uoh Gnaix Naux Gnail Ihz Iag Uix。Oaix Gnehs Ihs Uh Om Gnoy Gniy Ic Iy Aix Iaz Gnaij Gneg Naib。Nuc Ien Ed Oud Oaij Oah Oaix Iuh Gnaij Gnail Ihz Ed Oag Oaij Ez Naux。</sys:String>
+    <sys:String x:Key="ClearProgressiveBlurCache">Nuc Nauh Uh Om Ihs Nij Naij Il Gniq</sys:String>
+    <sys:String x:Key="UseExternalLanguagePack">[Ehz Af Iak] Ihs Oait Gnix Nij Gnad New Nay Uy Ub Iaw Gnoy Ihs</sys:String>
+    <sys:String x:Key="BasicInterfaceSettings">Gnid Ehs Naim Eij Uhc Ij</sys:String>
+    <!-- <sys:String x:Key="UseNewUI">使用新版 UI</sys:String> -->
+    <sys:String x:Key="MainWindowButtonGroupVisibility">Gnix Naij Ek Uz Uin Na Naim Eij Uhz</sys:String>
+
+    <sys:String x:Key="SupportUs">Nem Ow Ihc Ihz</sys:String>
+    <sys:String x:Key="SupportUsDetail">Nip Ouz Ed Nem Ow Nauh Ix Nin Oug Ur，Aij Gnip Ed Iug Oab Nem Ow Uy Ij Ial Eit Ub Af Gnaf Naug Ed Nem Ow Gnaw Naiq Iy Ek Nin！</sys:String>
+    <sys:String x:Key="LinkToProject">Eij Nail Nip Ouz</sys:String>
+
+    <sys:String x:Key="JavaVmSettingsDetail">Ed Gnoy Ihs Uj Nauq Ez Naux Java、Iaz Aix、Ous Uos、Gnauhz Na、Il Naug Java</sys:String>
+    <sys:String x:Key="GameGeneralSettingsDetail">Oaix Ad Nuc Ien Ix Uoy、GC、Vl Naib Nef Uok Gnauhc、JavaAgent Uhs Nac、Uhs Nac Gnod Iq Ij Oag</sys:String>
+    <sys:String x:Key="LauncherBehaviours">Iew Gnix Iq Gnod Iq</sys:String>
+    <sys:String x:Key="LauncherBehavioursDetail">Ahc Naij Nauy Iz Ix Uoy、Evl Ec Nauh It Uk Gnehs Nauy、Iew Gnix Uoh Gnod Iq、Ul Ij Ihz Ir</sys:String>
+    <sys:String x:Key="BasicSettingsGuide">Nan Ihz Ihz Ehs Neb Ij</sys:String>
+    <sys:String x:Key="JavaVmDownloadTips">Uy Naug Java Ihs It Naug Gnaix Ed Iaz Aix Ihs Gnix Nuy</sys:String>
+
+
+    <sys:String x:Key="BasicSettingsDetail">Ihz Iac Gnij Ieb、New Auh Naim Eij Uhz、Es Nay Iz New Gnij Naiq、Ihs Gnay Oait Gnah Oad Ub Id</sys:String>
+    <sys:String x:Key="BackgroundDetail">Ihs Gnay Gnij Ieb Iag Gneg、Uh Om Gnij Ieb Naip Ut、Oug Oaix Ahc Ihs、Uh Om Ihs Nij Naij</sys:String>
+    <sys:String x:Key="ColorDetail">Ihs Om It Uhz、Es It Uhz、Ihs Gnaf Naus Ij Ed Es It Uhz Iy Gnid Iz</sys:String>
+    <sys:String x:Key="TextDetail">Nay Uy Naim Eij、It Iz Naim Eij、Ihs Ec Gnad New Nay Uy</sys:String>
+    <sys:String x:Key="PerformanceDetail">Gnid Ehs Oug Oaix Auh Gnod Naim Eij</sys:String>
+    <sys:String x:Key="ExperimentalAnimation">Auh Gnod Gnix Nay Ihs</sys:String>
+    <sys:String x:Key="ExperimentalAnimationDetail">Ud Gnehc Gnahc Uil Ed Auh Gnod Naim Eij Oag It Uhz Naix Uog Gnen Auh Gnod Gnix Nay Ihs Gnoy Iq。Gnoy Nahz Nauy Iz Oahs Naij Ed Ud Gnehc Gnid Iy Gnib。Gnahc Iy Eix Iy Iaz Nuc Gnen Ek Nehs Neb Auh Gnod Ihs Nad。</sys:String>
+
+    <sys:String x:Key="OpenCurrentGameRoot">Ul Um Neg Ix Uoy Naiq Gnad Iak Ad</sys:String>
+    <sys:String x:Key="PublishAsFullPack">Oab Gnehz Naw Iew Ub Af</sys:String>
+    <sys:String x:Key="ChangeListPanelStatus">Iak Nahz/Oaib Eil Iq Uohs</sys:String>
+
+    <sys:String x:Key="FlushLogBuffer">Uq Gnohc Nauh Ihz Ir Nix Auhs</sys:String>
+    <sys:String x:Key="ContactUs">Nem Ow Ix Nail</sys:String>
+
+    <sys:String x:Key="RoomNotExistsDetail">Iaz Nuc Ub Naij Gnaf，Naij Gnaf Ahc Naij Gniq ID。</sys:String>
+    <sys:String x:Key="SessionDetachedDetail">Oaix Ihs Iat Uh Gnoy，Iq Gnod Iq Iq Gnohc Ihs Gnahc Gniq。</sys:String>
+
+    <sys:String x:Key="AlreadyInRoomDetail">El Gnohz Naij Gnaf Iaz Gnij Iy Nin！Naij Gnaf Uhc Iut Naix Gniq。</sys:String>
+    <sys:String x:Key="GroupIsFullDetail">Nam Iy Naij Gnaf。</sys:String>
+    <sys:String x:Key="PasswordIncorrectDetail">Uw Ouc Am Im Naij Gnaf，Am Im Ahc Naij Gniq。</sys:String>
+    <sys:String x:Key="NetworkControllerErrorDetail">Ouc Uhc Ouh Auh Ihs Uhc Iew Gnahs Iq Ihz Gnok Oul Gnaw，Nauy Il Naug Ix Nail Gniq。</sys:String>
+    <sys:String x:Key="InternalErrorDetail">Uw Ouc Ub Ien，Nauy Il Naug Ix Nail Gniq。</sys:String>
+
+    <sys:String x:Key="ParentVersionNotFoundDetail">{0} Ihs Euq Neb Nab Ij Uf Ed Ial Iy Ix Uoy</sys:String>
+    <sys:String x:Key="GameJsonCorruptedDetail">{0} Ix Uoy Json Iauh Nus</sys:String>
+    <sys:String x:Key="LackGameJsonDetail">{0} Ix Uoy Oahs Euq Json</sys:String>
+    <sys:String x:Key="NoCandidateJsonFoundDetail">{0} Naux Uoh Oad Oahz Iew Json</sys:String>
+    <sys:String x:Key="GamePathNotFoundDetail">{0} Iaz Nuc Ub Gnij Ul Ix Uoy</sys:String>
+
+    <sys:String x:Key="OfflineResourcePackDescription">LauncherX Oab Nauy Iz Uf Ip Naix Il Iy Gnid Iz</sys:String>
+
+    <sys:String x:Key="SelectUpdateSavePath">Ihz Iew Ed Nix Gneg Nuc Oab Ez Naux</sys:String>
+    <sys:String x:Key="OsNotSupported">Gnot Ix Ouz Oac Ed Ihc Ihz Uohs Ub</sys:String>
+
+    <sys:String x:Key="ExportFullPackTaskName">Uhc Oad {0} Eh Gnehz Gnehz Naw Oad</sys:String>
+    <sys:String x:Key="StartExportModPack">Oab Eh Gnehz Uhc Oad Ihs Iak...</sys:String>
+    <sys:String x:Key="AddingCoreSupportFiles">[{0}] Naij New Ihc Ihz Nix Eh Aij Nait Oab Eh Gnehz Gnaix...</sys:String>
+    <sys:String x:Key="AddingFilesToModPack">[{0}] Naij New Aij Nait Oab Eh Gnehz Gnaix...</sys:String>
+    <sys:String x:Key="TryStripModPackSize">Oaix Ad Oab Eh Gnehz Naij Ous Ihs Gnahc...</sys:String>
+    <sys:String x:Key="FailedToStripModPackSize">Uw Ouc Naix Uhc Ihs Oaix Ad Oab Eh Gnehz Naij Ous Ihs Gnahc</sys:String>
+    <sys:String x:Key="DownloadingLauncherStableBuild">Iaz Aix LauncherX Nab Gnid New [{0}]...</sys:String>
+    <sys:String x:Key="ModPackFileSaved">[{0}] Gnehc Naw Nuc Oab Naij New</sys:String>
+    <sys:String x:Key="ModPackExportHashMessage">Gnehc Naw Uhc Oad Oab Gnehz Naw Ed Uoh Ous Ay，Ix Nix Nay Naij Ed Naug Gnaix Oab Iag Ihs Naim Aix，Gnix Gnehz Naw Ed Oab Gnehz Naw Gnehz Nay Naib Gnaf Iy Uh Gnoy Ieg Gnog It Gniq：</sys:String>
+    <sys:String x:Key="StrippedModPackInfo">Ix Nix Nay Naij Oab Naij Gnij [{0}]</sys:String>
+    <sys:String x:Key="StrippedModPackHashInfo">Ix Nix Nay Naij Oab Naij Gnij [{0}]</sys:String>
+    <sys:String x:Key="FullPackExported">Gnehc Naw Oab Eh Gnehz Uhc Oad</sys:String>
+    <sys:String x:Key="FullPackExportedDetail">Uhc Oad {0} Eh Gnehz Gnehz Naw Oad [{1}] Gnehc Naw</sys:String>
+
+    <sys:String x:Key="ExportToModPackTaskName">Uhc Oad {0} Oad {1} Oab Eh Gnehz</sys:String>
+    <sys:String x:Key="FileReplaced">Naij New Nauh It Gnog Gnehc {0}...</sys:String>
+    <sys:String x:Key="WritingManifestFile">Naij New Nad Gniq Ur Eix...</sys:String>
+    <sys:String x:Key="SavingFileDetail">Naij New Nuc Oab Iaz Gnehz，Naij Ihs Eix Iy Oay Ux Gnen Ek Ehz...</sys:String>
+
+    <sys:String x:Key="ComputingModHashes">Uoy Naix Naus Ij Iaz Gnehz MOD Ix Ah Ed，Naij Ihs Eix Iy Oay Ux Gnen Ek Ehz...</sys:String>
+    <sys:String x:Key="ResourceDepsResolved">Ial Iy Ed Ux Ous Nauy Iz Iag Ix Eij Gnog Gnehc：{0}</sys:String>
+    <sys:String x:Key="FailedToResolveResourceDepsBecauseSha1">Ial Iy Ed Nauy Iz Iag Ix Eij Af Uw，Niy Nauy：Oahs Euq SHA1 Ihz Nay Oaij</sys:String>
+
+    <sys:String x:Key="FailedToInstallBecauseNoOnlineGameList">Iab Ihs Gnauhz Na，Oaib Eil Ix Uoy Naix Iaz Uq Ouh Af Uw。It New Oul Gnaw Ed Ihs Nil Ihs Gnen Ek。</sys:String>
+    <sys:String x:Key="FailedToAcquireOnlineGameList">Neb Nab Ix Uoy Naix Iaz Uq Ouh Af Uw，Iaz Ihs Gnahc Gniq ‘Iaz Aix’ Oaib Eil Ix Uoy Naix Iaz Nix Auhs Naim Ey。</sys:String>
+
+    <sys:String x:Key="FailedToResolveResourceDepsBecauseGameVersion">It New El Naix Uhc Ihs Ial Iy Oab Eh Gnehz Uq Ouh Ihs Gnahc Iaz，Ed Uy Ij Oab Eh Gnehz Uq Ouh Af Uw MineCraft Neb Nab，Oab Eh Gnehz Ahc Naij Gniq。</sys:String>
+    <sys:String x:Key="FailedToInstallPreModrinthEnv">Gnauhz Na Af Uw Modrinth Gnij Nauh Ihz Naiq，Ihs Gnohz Uoh Oahs Gniq。Ed Ihz Oad It New Ed Nauy Iaz Aix Uy Uoy Ihs Gnahc Gnot Ehz，Us Niy At Iq Ihs Ouh Gnod Ob Oul Gnaw Iew Niy Ihs Gnen Ek Uoy Ey。</sys:String>
+
+    <sys:String x:Key="UpdateCurseForgeGameModTaskName">Gnoy Ihs {0} Uz Om Ix Uoy Nix Gneg</sys:String>
+
+    <sys:String x:Key="VerifySavedAccountInfo">Ix Nix Uh Gnahz Ed Nuc Oab Gnehz Nay</sys:String>
+    <sys:String x:Key="VerifyingAccountInfoDetail">Uh Gnahz Gnehz Nay Iaz Gnehz [{0}] Ix Nix Ed （{1} / {2}）</sys:String>
+    <sys:String x:Key="VerificationCompleted">Gnehc Naw Gnehz Nay</sys:String>
+
+    <sys:String x:Key="GameResolveFailed">[{0}] Iab Ihs Ix Eij Ix Uoy {1}</sys:String>
+
+    <sys:String x:Key="CheckJreTaskName">Ahc Naij Java Gnij Nauh Gnix Nuy</sys:String>
+
+    <sys:String x:Key="ClearDownloadCacheTaskName">Nuc Nauh Iaz Aix Il Gniq</sys:String>
+    <sys:String x:Key="FileDeletedDetail">Naij New Uhc Nahs Gnog Gnehc [{0}]</sys:String>
+    <sys:String x:Key="DownloadCacheClearedSummary">Gnehc Naw Il Gniq，El Il Gniq Gnog Iy {0} bytes</sys:String>
+
+    <sys:String x:Key="FailedToSetJrePermission">Ihz Ehs Af Uw Java Naix Nauq Naij New Ed Ihs Gnix Nuy</sys:String>
+    <sys:String x:Key="FailedToSetJrePermissionDetail">Naij New Ihz Ehs Af Uw [{0}] Naix Nauq Ed，Gnil Gnim Gnix Ihz Gnod Uohs Naud Gnohz Iaz Ihs Gnahc Gniq [chmod +x \"{0}\"]</sys:String>
+    <sys:String x:Key="FailedToDownloadJre">Iab Ihs Iaz Aix Ihs Gnix Nuy</sys:String>
+    <sys:String x:Key="FailedToDownloadJreDetail">Nef Ub Java Iab Ihs Iaz Aix Naij New Ihs Gnix Nuy，Iaz Aix Ihs Gnohz Gnib Gnij Nauh Oul Gnaw Ed Nin Ahc Naij Gniq！</sys:String>
+
+    <sys:String x:Key="OriginalGameIdIsEmpty">Ix Uoy Nab Nauy Id Gnok Iew，Euq Gnehz Uof Ihs Ix Nix Ix Uoy Ahc Naij Gniq。</sys:String>
+    <sys:String x:Key="OriginalGameNotFound">Oad Oahz Iew Ouh Iab Ihs Gnauhz Na Ix Uoy Nab Nauy，Euq Gnehz Uof Ihs Ix Nix Ix Uoy Ahc Naij Gniq。</sys:String>
+    <sys:String x:Key="JavaNotFoundDetail">Oad Oahz Uoy Iem Java Ez Naux Iew Ihs Ouh Ihs Gnix Nuy Java Ihs Gnix Nuy，Gnaw Naiq Gniq Ihz Ehs-Ihz Ehs Ix Uoy Gnauhz Na Ouh Ez Naux Gnix Nij。</sys:String>
+    <sys:String x:Key="FailedToDownloadComponentDetail">Iaz Aix {0} Iab Ihs，Ihs Gnohz Uoh Oahs Ouh Eij Nail Oul Gnaw Ahc Naij Gniq。</sys:String>
+    <sys:String x:Key="WaitingForPreviousInstallation">Uhs Eij Gnauhz Na Eg Iy Gnahs Iad Gned...</sys:String>
+
+    <sys:String x:Key="FailedToResolveVersion">Neb Nab Ix Eij Af Uw {0}</sys:String>
+    <sys:String x:Key="WaitingForGameWindow">Ix Uoy Gnod Iq，Naix Uhc Uok Gnauhc Ix Uoy Iad Gned</sys:String>
+    <sys:String x:Key="WaitingForGameProcessToExit">Gnehc Naw Gnod Iq，Uhc Iut Gnehc Nij Ix Uoy Iad Gned</sys:String>
+    <sys:String x:Key="FailedToSetUserStatus">Uhc Iut Gnehc Nij Ix Uoy Iad Gned Ouh Iat Gnauhz Uh Gnoy Ihz Ehs Af Uw！</sys:String>
+
+    <sys:String x:Key="SslCertOutdated">Ouh Gnid New Ub Gnen Ek Oul Gnaw SSL Iq Oug Uhs Gnehz。</sys:String>
+
+    <sys:String x:Key="GameAlreadyHasConfig">Ix Uoy {0} Ihz Iep Iaz Nuc Iy</sys:String>
+    <sys:String x:Key="FolderRulesAlreadyExistDetail">Nef Iy El Iaz Nuc Gnij Iy Ix Uoy Eg Ehz FOLDER_RULES，Am Iag Uf At Gnaij Gnaw Ix Nin？</sys:String>
+    <sys:String x:Key="Override">Iag Uf</sys:String>
+    <sys:String x:Key="FailedToCreateDefaultRule">Iew Af Uw {0} Ez Iug Naij New Ed Ner Om Naij Gnauhc</sys:String>
+
+    <sys:String x:Key="FailedToRate">Nef Gnip Af Uw</sys:String>
+    <sys:String x:Key="FailedToRateBecauseNoPermission">Gnoy Nij Ieb Iy Naix Nauq Ed Nin Ihs Ouh Naix Nauq Ed Gniy Iud Uoy Iem Nin Iew Niy Ihs Gnen Ek。</sys:String>
+    <sys:String x:Key="ResourceAlreadyRated">El Nauy Iz Eg Ehz Oug Nef Gnip Gnij Iy Nin！</sys:String>
+    <sys:String x:Key="ResourceAlreadyRatedDetail">Ic Iy Aij Gnip Gnen Nij Nauy Iz Eg Iem，Ix Nix Ed Iaz Naix Iy Nam Ub Nin Oug Ur，Ix Nix Ed Euq Gnehz Iew Ner Nin Oaij It Gnaf Aix Iaz Iy Ek Nin。</sys:String>
+    <sys:String x:Key="FailedToSubmitResourceInfo">Ix Nix Nauy Iz Oaij It Af Uw</sys:String>
+    <sys:String x:Key="SuccessfullyRated">Gnog Gnehc Nef Gnip</sys:String>
+    <sys:String x:Key="SuccessfullyRatedDetail">Gnog Gnehc Nef Gnip，Ud Nij Ip Nehs Ed Nauy Iz Iag Iud Iauk Aij Iuh Gnaij Nem Ow！</sys:String>
+
+    <sys:String x:Key="FileIsInUse">At Iq Ihs Ouh Gnoy Nahz Ieb Naij New Ix Uoy IO Uw Ouc</sys:String>
+    <sys:String x:Key="FileIsInUseDetail">Gnoy Nahz Naij Naur At Iq Ieb Gnen Ek Naij New Ix Uoy，Ul Um Ix Uoy Oaim Oas Iaz Gnehz Naij Naur Ud Gnib Naf Ihs Ouh Iak Oud Ix Uoy Iaz Nuc Ihs Ub Ihs Ahc Naij Gniq。</sys:String>
+
+    <sys:String x:Key="ContributeCountDetail">Naix Gnog Gnog Gnehc {0} Ic</sys:String>
+
+    <sys:String x:Key="DownloadAndInstallModPack">Oab Eh Gnehz Gnauhz Na Gnib Iaz Aix</sys:String>
+
+    <sys:String x:Key="FailedToRemoveWallpaper">Iab Ihs Ihz Ib Uhc Nahs</sys:String>
+    <sys:String x:Key="FailedToRemoveWallpaperDetail">Ihz Ib Iag Uhc Nahs Af Uw！Uhc Nahs Gnod Uohs Gnix Nij Uoh Oahs Ihs Gnahc Gniq。Gnim Naij New：{0}，Uy Iew LauncherX/Bg Gnohz Ul Um。</sys:String>
+
+    <sys:String x:Key="ContributionTranslationDescription">Iew Ner Nin Eix Nait Gnaf Aix Iaz Gniq [{0}] Iy Naf Euq Gnehz Ed。</sys:String>
+    <sys:String x:Key="ContributionLinkDescription">Eix Nait Gnaf Aix Iaz Gniq [{0}] Eij Nail Nauy Iz Ed。</sys:String>
+    <sys:String x:Key="ContributionTagDescription">Eh Uf Eix Nait Gnaf Aix Iaz Gniq [{0}] Naiq Oaib Iel Nef Ed Gnor Ien，Oah Uod New Gniy Gnoy Ihs Gniq Naij Ihz Naiq Oaib Eg Oud（','）Eg Nef。</sys:String>
+
+    <sys:String x:Key="FilterStopped">Ihz Gnohz Naux Iahs</sys:String>
+    <sys:String x:Key="FilterStoppedBecauseApiLimitation">Uy Uoy CurseForge API Ihz Naix Ed，Naux Iahs Ed Ub Iy Nij El Ihz Gnohz Nem Ow。Nauy Iz Ed Oay Ux Nin Oad Oahz Ed Euq Nuhz Aij Gneg Nin Uhz Gnab Ial Ic Naij Naug Ous Uos Ed Ix Gnaix Aij Gneg Gnoy Ihs Ihs Gnahc Gniq。</sys:String>
+    <sys:String x:Key="FilterStoppedBecauseUserCancelled">Ud Gnoy Oul Gnaw Ihs Ouh Oud Oug Uiq Gniq Iew Niy Ihs Gnen Ek，Gnehc Oug Ed Naux Iahs El Ihz Gnohz Nem Ow，Ihs Iaz Uoh Oahs Iy Ek Nin。Naux Iahs El Oaix Uq Gnod Uohs Nin Iew Niy Ihs Gnen Ek Uoy Ey。</sys:String>
+    <sys:String x:Key="ResourceInfoAcquisitionTimeout">Ihs Oahc Ix Nix Nauy Iz Uq Ouh</sys:String>
+    <sys:String x:Key="ResourceInfoAcquisitionTimeoutDetail">Ix Nix Nauy Iz Uq Ouh Af Uw Ihs Naz，Ed Ihz Oad Gnam Naf Oul Gnaw Ihs Gnen Ek。{0}</sys:String>
+    <sys:String x:Key="DeleteAllDisabledMod">Uz Om Ed Gnoy Nij Ieb Uoy Ous Uhc Nahs</sys:String>
+    <sys:String x:Key="AreYouSure">Am Ouz Em Ehz Oay Gnid Euq？Oaix Ehc Af Uw Ouz Oac Ic。</sys:String>
+    <sys:String x:Key="FailedToDelete">Iab Ihs Uhc Nahs</sys:String>
+    <sys:String x:Key="ModDeletionFailedDetail">El Gnog Gnehc Nef Ub Gnen Ek Ouz Oac Ic，Naij New Ed Iab Ihs Uhc Nahs Nef Ub Uhc Nahs Gnod Uohs Oay Ux Gnen Ek Nin。</sys:String>
+    <sys:String x:Key="RemoveAllUpdateFlags">Ihs Oaib Nix Gneg Ed Uz Om Uoy Ous Uhc Iy</sys:String>
+    <sys:String x:Key="RemoveAllUpdateFlagsDetail">Am Ouz Em Ehz Oay Gnid Euq？Uz Om Uoy Ous Ihs Iuh Ehz（Ed Gnoy Nij Ieb Ouk Oab）Uhc Iy Ieb Iuhz Naiq Nix Gneg Ed，Oaix Ehc Af Uw Ouz Oac Ic。</sys:String>
+    <sys:String x:Key="FailedToRemoveTags">Iab Ihs Naiq Oaib Uhc Iy</sys:String>
+    <sys:String x:Key="FailedToRemoveTagsDetail">El Gnog Gnehc Nef Ub Gnen Ek Ouz Oac Ic，Naij New Ed Iab Ihs Iag Uix Nef Ub Iag Uix Gnod Uohs Oay Ux Gnen Ek Nin。</sys:String>
+
+    <sys:String x:Key="InvalidSessionDetail">Iat Ul Gned Ed Oaix Uw，Ul Gned Nix Gnohc Oay Ux Gnen Ek Nin。</sys:String>
+    <sys:String x:Key="LaunchBrokenGameMessage">Ix Uoy Ed Iauh Nus Gnij Iy Eg Iy Gnod Iq Ihs Gnahc Iaz Gnehz Nin，Gnod Iq Ihs Gnahc Iaz Uoh Euj Eij Ihs Gnahc Gnib Ix Nix Uw Ouc Ed Ihs Naix Gnohz Oaib Eil Ix Uoy Ahc Naij Gniq。</sys:String>
+    <sys:String x:Key="EnableAutoJavaSelection">Gnod Iz Gnoy Iq Uof Ihs Java Ez Naux？</sys:String>
+    <sys:String x:Key="EnableAutoJavaSelectionDetail">Gnod Iz Gnoy Iq Java Ed Ix Uoy Eh Ihs Ec Euj Gnod Iz Nauq Naw Iq Gnod Iq Uoy Iuh Gnaij Ez Naux Java Neb Nab。Gnauk Auh Iud Uhc Nad Iaz Iuh Ub Ic Aix Iaz Gnib。</sys:String>
+    <sys:String x:Key="GoToJavaDownloadPageMessage">Ed Gniy Iud Iaz Aix Naim Ey Ihz Ehs Gnaw Naiq Iy Ek Ihs Ij Naid Java Neb Nab。</sys:String>
+
+    <sys:String x:Key="ContributeThirdPartyResourceInfo">Ix Nix Nauy Iz Gnaf Nas Id Naix Gnog</sys:String>
+    <sys:String x:Key="DoYouThinkIfTheResourceIsAccurate">Am Euq Nuhz Ix Nix Ed Nauy Iz Iag Iew Ner Nin？</sys:String>
+    <sys:String x:Key="AddResourceTranslation">Iy Naf Nauy Iz Gnohc Ub</sys:String>
+    <sys:String x:Key="AddResourceLink">Eij Nail Nauy Iz Gnohc Ub</sys:String>
+    <sys:String x:Key="AddResourceTag">Naiq Oaib Nauy Iz Gnohc Ub</sys:String>
+
+    <sys:String x:Key="UseFolderRules">Gnoy Ihs FOLDER_RULES Ez Iug</sys:String>
+
+    <sys:String x:Key="ResourceContributionWarning">Iy Uhz Gniq，Gniq Nehs Nauq Ub Oug Oaij It Nauy Iz Iag Iew Gnij Iy Naiq Ihz Nin Oug Ur。Gnor Ien Ed Naiq Naix Iag Uf Eij Ihz Iuh Oaij It Ic Neb！Nij Gnef Ieb Naix Nauq Oaij It Ed Nin Ihz Oad Iuh Gnen Ek Uoh Eh Nehs Ieb Iaz Gnor Ien Ed Oaij It Iy Re Eh Ner。</sys:String>
+
+    <sys:String x:Key="CopyAndOpenVerificationUrl">Nahz Gnaw Gnehz Nay Iak Ad Gnib Ihz Uf</sys:String>
+
+    <sys:String x:Key="PleaseSelectJreVersion">Ed Iaz Aix Oay Nin Ez Naux Jre Neb Nab</sys:String>
+
+    <sys:String x:Key="ApiLimitationPageWarning">Uy Uoy API Ihz Naix Ed，Uhs Ey Uy Gnehs Ed Ihz Ad Ug Uy Uj Uhs Ed Uoy Iy Oug Gnot Gnen Nij Nem Ow。Uhs Ey Gnoy Ek Nix Gneg Ed Ux Ihc Iuh Nem Ow。</sys:String>
+    <sys:String x:Key="LongWaitHint">Uij Iat Iad Gned Oug Ur, Ihz Ehs Iaz Iy Naij-Nauy Iaz Aix At Iq Ihs Gnahc Gnohz Oul Gnaw</sys:String>
+
+    <sys:String x:Key="RemoveAllModsUpdatePrefix">Ed Uz Om Uoy Ous Uhc Iy [UPDATE] Iuhz Naiq</sys:String>
+    <sys:String x:Key="RemoveAllDisabledMods">Uz Om Ed Gnoy Nij Ieb Uoy Ous Uhc Nahs</sys:String>
+    <sys:String x:Key="AutoSelectSuitableJava">Ed Ix Uoy Eh Ihs Ez Naux Gnod Iz Java</sys:String>
+
+    <sys:String x:Key="ShadowDepth">Ud Nehs Gniy Niy</sys:String>
+    <sys:String x:Key="ShadowRadius">Gnij Nab Gniy Niy</sys:String>
+    <sys:String x:Key="ShadowOpacity">Ud Gnim Uot Ub Gniy Niy</sys:String>
+
+    <sys:String x:Key="Contributors">Ehz Naix Gnog</sys:String>
+    <sys:String x:Key="ContributorsDescription">Oug Uy Nac Uoy Ous Ihs Nahz Gnaij Il Ehz LauncherX Uh Gnoy Ed Naix Gnog Nauy Iz Gnaf Nas Id。Naix Gnef Is Uw Ed Uh Gnoy Uoy Ous Eix Nag Nem Ow！</sys:String>
+    <sys:String x:Key="ContributorList">Oaib Eil Ehz Naix Gnog</sys:String>
+    <sys:String x:Key="ContributorListDetail">Ehz Naix Gnog Ed Uoy Ous Ux Iap Ial Gnail Uhs Naix Gnog Oahz Na Gnaij Nem Ow Naim Aix Iaz。Ihz Naix Gnail Uhs Uy Uoy，Ihs Naix Oud Iuz Naim Ey Iag 100 Um Oait Eg。Oahc El Gnehc Naw Gnog Gnehc Nin Oug Ur 50 Naix Gnog Ic，Gnot Iak Ief Naim Nauy Il Naug Ix Nail Iy Ek Nin LauncherX Naix Nauq Ec Ien Ed，Il Uf Oud Gneg Ed Ouh Ial Iew Iaz Gnib！</sys:String>
+
+    <sys:String x:Key="UseMultiSourcesCompletion">Nauq Ub Nauy Gnohz Oud Gnoy Ihs</sys:String>
+    <sys:String x:Key="MultiSourcesCompletionPolicy">Evl Ec Nauq Ub Nauy Gnohz Oud</sys:String>
+
+    <sys:String x:Key="NoGameFound">Ix Uoy Oad Oahz Uoy Iem</sys:String>
+    <sys:String x:Key="NoGameFoundDetail">Ix Uoy Eh Ner Oad Oahz Uoy Iem Nem Ow，Naim Ey Iaz Aix Oad Nauhz Oait Uin Na Ed Naim Aix Ij Naid Iy Ek Nin。Ix Uoy Niy Ous Iaz Gnehz Iq Gnod Iq Ihs Gnen Ek Uoy Ey。</sys:String>
+    <sys:String x:Key="GenerateExportSettings">Ihz Iep Uhc Oad Gnehc Gnehs</sys:String>
+    <sys:String x:Key="EditExportSettings">Ihz Iep Uhc Oad Ij Naib</sys:String>
+    <sys:String x:Key="GameDirectoryManagement">Il Naug Ul Um Ix Uoy</sys:String>
+    <sys:String x:Key="LauncherRootPath">Ul Um Neg Iq Gnod Iq</sys:String>
+
+    <sys:String x:Key="GameCrashDetected">Uw Ouc Ix Uoy El Oad Ec Naij/Iuk Gneb Gnahc Iy</sys:String>
+
+    <sys:String x:Key="TelemetryAndDataCollection">Ij Uohs Uj Uhs Eh Ec Oay</sys:String>
+
+    <sys:String x:Key="PerformingUpdate">Nix Gneg Gnix Nij Iaz Gnehz</sys:String>
+    <sys:String x:Key="PerformingUpdateDetail">LauncherX Nix Gneg Gnix Nij Iaz Gnehz Iaz Naix，Ek Naip Gned Oahs Gniq。</sys:String>
+    <sys:String x:Key="FailedToExtractLauncherIcon">Oaib Ut Ihz Gnot Ay Eij Af Uw</sys:String>
+    <sys:String x:Key="FailedToExtractLauncherIconDetail">LauncherX Oaib Ut Ihz Gnot Ay Eij Ed Gnog Gnehc Uoy Iem。Gnoy Ihs Gnahc Gnehz Ed Iq Gnod Iq Gnaix Gniy Iuh Ub Ehz，Oaib Ut Uoy Iem Ihz Gnot Gnot Ix Ihz Oad Iuh Gnen Ek Ihs Nad。</sys:String>
+
+</ResourceDictionary>
